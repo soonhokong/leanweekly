@@ -15,13 +15,12 @@
     return n;
   };
 
-  /* ---- Day and night: the toggle overrides the system setting and remembers it (theme.js reapplies it). */
+  /* ---- Day and night: day by default; the toggle switches and remembers it (theme.js reapplies it). */
   function setupTheme() {
     const btn = document.querySelector("button.theme");
     if (!btn) return;
     const root = document.documentElement;
-    const system = matchMedia("(prefers-color-scheme: dark)");
-    const dark = () => (root.dataset.theme ? root.dataset.theme === "dark" : system.matches);
+    const dark = () => root.dataset.theme === "dark";
     const label = () => btn.setAttribute("aria-label", dark() ? "Switch to day mode" : "Switch to night mode");
     btn.hidden = false;
     label();
@@ -30,7 +29,6 @@
       try { localStorage.setItem("lw-theme", root.dataset.theme); } catch (err) { /* not remembered */ }
       label();
     });
-    if (system.addEventListener) system.addEventListener("change", label);
   }
 
   /* ---- Copy-link buttons: shown only when the clipboard is available. */

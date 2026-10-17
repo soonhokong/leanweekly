@@ -33,14 +33,8 @@
   --col: 720px;
   --search: 260px;
 }
-/* Night: the system setting, unless the reader chose with the toggle (data-theme on <html>). */
+/* Night only when the reader picks it with the toggle (data-theme on <html>); day is the default. */
 :root { color-scheme: light; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) { color-scheme: dark; --paper: #111214; --ink: #e9e9e6; --graphite: #a2a6ad; --rule: #2b2d31;
-    --proof: #46c08b; --mark: #5c4d00; --wash: rgba(233, 233, 230, 0.07);
-    --k-ai: #a996f2; --k-verification: #7fb0ff; --k-lean-core: #ff8a7a; --k-papers: #e0a34a;
-    --link: #8fa9ee; }
-}
 :root[data-theme="dark"] { color-scheme: dark; --paper: #111214; --ink: #e9e9e6; --graphite: #a2a6ad; --rule: #2b2d31;
     --proof: #46c08b; --mark: #5c4d00; --wash: rgba(233, 233, 230, 0.07);
     --k-ai: #a996f2; --k-verification: #7fb0ff; --k-lean-core: #ff8a7a; --k-papers: #e0a34a;
@@ -77,11 +71,6 @@ mark { background: var(--mark); color: inherit; padding: 0 1px; }
 .wordmark span { padding-top: 3px; }
 .wordmark:hover { text-decoration: none; }
 /* At night the logo's colors are inverted: white letters. */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .wordmark img { filter: invert(1); }
-  :root:not([data-theme="light"]) .theme .i-moon { display: none; }
-  :root:not([data-theme="light"]) .theme .i-sun { display: block; }
-}
 :root[data-theme="dark"] .wordmark img { filter: invert(1); }
 :root[data-theme="dark"] .theme .i-moon { display: none; }
 :root[data-theme="dark"] .theme .i-sun { display: block; }
