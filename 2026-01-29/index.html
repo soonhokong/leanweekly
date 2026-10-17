@@ -2,21 +2,23 @@
 <html lang="en" data-root="../">
 <head>
 <meta charset="utf-8">
+<script src="../assets/theme.js?v=e617464e73"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Week of Jan 29, 2026 · Lean Weekly</title>
 <meta name="description" content="News about Lean, the theorem prover and programming language.">
 <link rel="preload" href="../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/lw.css?v=0c8706d3fb">
+<link rel="stylesheet" href="../assets/lw.css?v=566665bde1">
 <link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../feed.xml">
 <link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../feed.json">
-<script defer src="../assets/lw.js?v=ffef22517a"></script>
+<script defer src="../assets/lw.js?v=a6ebd5a046"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to the news</a>
-<header class="masthead">
-<div class="mast-row">
-  <p class="dateline">Thursday, October 15, 2026</p>
-  <a class="wordmark" href="../">Lean Weekly</a>
+<header class="bar">
+<div class="bar-row">
+  <div class="brand"><a class="wordmark" href="../" aria-label="Lean Weekly"><img class="logo-light" src="../assets/lean-logo-tm.svg" alt="Lean" width="80" height="30"><img class="logo-dark" src="../assets/lean-logo-tm-white.svg" alt="Lean" width="80" height="30"><span>Weekly</span></a>
+  <p class="tagline">News about Lean, the theorem prover and programming language.</p></div>
+  <button class="theme" type="button" hidden aria-label="Switch to night mode"><svg class="i-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg><svg class="i-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
   <form class="search" role="search" action="../search/" method="get">
     <label class="sr-only" for="q">Search Lean news</label>
     <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
@@ -24,46 +26,54 @@
     <div class="search-results" id="search-results" role="listbox" hidden></div>
   </form>
 </div>
-<p class="tagline">News about Lean, the theorem prover and programming language.</p>
-<nav class="sections" aria-label="Sections"><a href="../" aria-current="page">Latest</a><a href="../section/ai/">AI and formalization</a><a href="../section/verification/">Verification</a><a href="../section/lean-core/">Lean core</a><a href="../section/papers/">Papers and events</a></nav>
+<nav class="tabs" aria-label="Sections"><a class="t-latest" href="../">Latest</a><a class="t-ai" href="../section/ai/">AI and formalization</a><a class="t-verification" href="../section/verification/">Verification</a><a class="t-lean-core" href="../section/lean-core/">Lean core</a><a class="t-papers" href="../section/papers/">Papers and events</a><span class="tabs-gap"></span><a class="quiet" href="../about/">About</a><a class="quiet" href="../feed.xml">RSS</a></nav>
 </header>
 <main id="main">
-<header class="section-head"><h1 class="page-title">Week of Jan 29, 2026</h1><p class="section-blurb">Edition 4: 4 items published for Jan 22 to Jan 29, 2026.</p></header>
-<div class="layout"><div class="col"><h2 class="label">In this edition</h2>
+<div class="frame"><div class="timeline">
+<header class="page-head"><h1 class="page-title">Week of Jan 29, 2026</h1><p class="page-blurb">Edition 4: 4 items published for Jan 22 to Jan 29, 2026.</p></header>
+
 <div class="stream">
-<article class="story imp-3" id="2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time></p>
-  <h3 class="headline"><a href="../item/2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean/">Lean publishes leansqlite, SQLite bindings for Lean</a></h3>
-  <p class="dek">The <a class="inl" href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a> library bundles SQLite and adds interpolated strings that expand to prepared statements, plus iterators over query result rows. <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">A Zulip user, pandaman, shared LeanToDo</a>, an experiment in building a web application with Lean that uses leansqlite for its database and <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a> for HTML templating.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a><span class="dot" aria-hidden="true">·</span><a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">leanprover.zulipchat.com</a></p>
+<article class="card c-lean-core" id="2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-29/#2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean" title="Link to this item"><time datetime="2026-01-29">Jan 29</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean publishes leansqlite, SQLite bindings for Lean</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a> library bundles SQLite and adds interpolated strings that expand to prepared statements, plus iterators over query result rows. <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">A Zulip user, pandaman, shared LeanToDo</a>, an experiment in building a web application with Lean that uses leansqlite for its database and <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a> for HTML templating.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a><span class="dot" aria-hidden="true">·</span><a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">leanprover.zulipchat.com</a></p>
+  </div>
 </article>
-<article class="story imp-3" id="2026-01-29-sebastian-ullrich-s-merged-pr-separates-meta-and-non-meta-code-i">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time></p>
-  <h3 class="headline"><a href="../item/2026-01-29-sebastian-ullrich-s-merged-pr-separates-meta-and-non-meta-code-i/">Sebastian Ullrich's merged PR separates meta and non-meta code in Lean binaries</a></h3>
-  <p class="dek">The change lets the module system, in cooperation with the linker, keep tactics used only in proofs out of the final native binary. A simple example using <code>meta import Lean</code> shrinks from 130MB to 1.7MB. As a breaking change, <code>importModules (loadExts := true)</code> must now be preceded by <code>enableInitializersExecution</code>.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12016" rel="noopener">lean4#12016</a></p>
+<article class="card c-lean-core" id="2026-01-29-sebastian-ullrich-s-merged-pr-separates-meta-and-non-meta-code-i">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-29/#2026-01-29-sebastian-ullrich-s-merged-pr-separates-meta-and-non-meta-code-i" title="Link to this item"><time datetime="2026-01-29">Jan 29</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich's merged PR separates meta and non-meta code in Lean binaries</h2>
+    <p class="card-text">The change lets the module system, in cooperation with the linker, keep tactics used only in proofs out of the final native binary. A simple example using <code>meta import Lean</code> shrinks from 130MB to 1.7MB. As a breaking change, <code>importModules (loadExts := true)</code> must now be preceded by <code>enableInitializersExecution</code>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12016" rel="noopener">lean4#12016</a></p>
+  </div>
 </article>
-<article class="story imp-3" id="2026-01-29-leo-de-moura-merges-three-lean-core-changes-to-instance-handling">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-28">Jan 28</time></p>
-  <h3 class="headline"><a href="../item/2026-01-29-leo-de-moura-merges-three-lean-core-changes-to-instance-handling/">Leo de Moura merges three Lean core changes to instance handling</a></h3>
-  <p class="dek">Lean now identifies instance parameters by type using isClass? instead of binder syntax, dsimp no longer simplifies instances by default, and isDefEq no longer raises transparency to .default for implicit arguments, a change the PR calls very disruptive. Old behavior is available through backward.* options, and the PRs cite problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12172" rel="noopener">lean4#12172</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12195" rel="noopener">lean4#12195</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a></p>
+<article class="card c-lean-core" id="2026-01-29-leo-de-moura-merges-three-lean-core-changes-to-instance-handling">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-29/#2026-01-29-leo-de-moura-merges-three-lean-core-changes-to-instance-handling" title="Link to this item"><time datetime="2026-01-28">Jan 28</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura merges three Lean core changes to instance handling</h2>
+    <p class="card-text">Lean now identifies instance parameters by type using isClass? instead of binder syntax, dsimp no longer simplifies instances by default, and isDefEq no longer raises transparency to .default for implicit arguments, a change the PR calls very disruptive. Old behavior is available through backward.* options, and the PRs cite problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12172" rel="noopener">lean4#12172</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12195" rel="noopener">lean4#12195</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a></p>
+  </div>
 </article>
-<article class="story imp-2 has-pic" id="2026-01-29-willem-vanhulle-builds-a-terminal-user-interface-for-lean-4-user">
-<div class="story-text">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-27">Jan 27</time></p>
-  <h3 class="headline"><a href="../item/2026-01-29-willem-vanhulle-builds-a-terminal-user-interface-for-lean-4-user/">Willem Vanhulle builds a terminal user interface for Lean 4 users</a></h3>
-  <p class="dek"><a class="inl" href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">Willem Vanhulle</a> is putting together a TUI (a terminal-only user interface) for Lean4 users, built with Ratatui. The TUI has several display modes with different display styles for on-going mathematical proof development, and documentation is available.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">LinkedIn post</a></p>
+<article class="card c-lean-core" id="2026-01-29-willem-vanhulle-builds-a-terminal-user-interface-for-lean-4-user">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-29/#2026-01-29-willem-vanhulle-builds-a-terminal-user-interface-for-lean-4-user" title="Link to this item"><time datetime="2026-01-27">Jan 27</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Willem Vanhulle builds a terminal user interface for Lean 4 users</h2>
+    <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">Willem Vanhulle</a> is putting together a TUI (a terminal-only user interface) for Lean4 users, built with Ratatui. The TUI has several display modes with different display styles for on-going mathematical proof development, and documentation is available.</p>
+    <figure class="media"><img src="../assets/img/1842d4fc105abdb3-480.webp" srcset="../assets/img/1842d4fc105abdb3-480.webp 480w, ../assets/img/1842d4fc105abdb3-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="396" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">LinkedIn post</a></p>
+  </div>
+</article>
 </div>
-<figure class="pic pic-story"><a href="../item/2026-01-29-willem-vanhulle-builds-a-terminal-user-interface-for-lean-4-user/" tabindex="-1" aria-hidden="true"><img src="../assets/img/1842d4fc105abdb3-480.webp" srcset="../assets/img/1842d4fc105abdb3-480.webp 480w, ../assets/img/1842d4fc105abdb3-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="800" height="396" alt="" loading="lazy" decoding="async"></a></figure>
-</article>
 </div></div>
-<aside class="rail" aria-label="More">
-<section class="box"><h2 class="label">Sections</h2><ul class="sec-list"><li><a href="../section/ai/"><span>AI and formalization</span><span class="count">35</span></a></li><li><a href="../section/verification/"><span>Verification</span><span class="count">32</span></a></li><li><a href="../section/lean-core/"><span>Lean core</span><span class="count">142</span></a></li><li><a href="../section/papers/"><span>Papers and events</span><span class="count">53</span></a></li></ul></section>
-<section class="box about-box"><h2 class="label">About</h2><p>News about Lean, the theorem prover and programming language. Each item links to the public sources it was checked against.</p><p><a href="../about/">How it works</a> · <a href="../archive/">Weekly editions</a> · <a href="../feed.xml">RSS</a></p></section>
-</aside></div>
 </main>
-<footer class="foot"><div class="foot-in"><p><a class="foot-mark" href="../">Lean Weekly</a></p><p><a href="../about/">About</a> · <a href="../archive/">Weekly editions</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
+<p class="sr-only" id="status" role="status" aria-live="polite"></p>
+<footer class="foot"><div class="foot-in"><p><a href="../about/">About</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
 </body>
 </html>

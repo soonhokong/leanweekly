@@ -7,7 +7,7 @@ window_end: 2026-01-22
 
 ## Headlines
 
-- **Leo de Moura presents The State of Lean at Lean Together 2026.** Leo de Moura, Chief Architect of the Lean FRO, reviewed 2025 at Lean Together in January 2026: 12 releases, a new compiler fully implemented in Lean, and the grind proof-automation tactic. The talk also said 2026 will be the last year with significant changes to the language and standard library. ([leodemoura.github.io](https://leodemoura.github.io/files/LeanTogether2026.pdf))
+- **Leo de Moura presents The State of Lean at Lean Together 2026.** Leo de Moura, Chief Architect of the Lean FRO, reviewed 2025 at Lean Together in January 2026: 12 releases, a new compiler fully implemented in Lean, and the grind proof-automation tactic. The talk also said 2026 will be the last year with significant changes to the language and standard library. ([slides (pdf)](https://leodemoura.github.io/files/LeanTogether2026.pdf))
 - **Project Numina announces Numina-Lean-Agent, an open-source theorem-proving framework.** Yann Fleureau announced Numina-Lean-Agent, an open-source agentic framework for autoformalization and theorem proving using generic AI models. The announcement reports 12/12 on Putnam 2025 and a formalization of the "Effective Brascamp-Lieb inequalities" research paper, more than 90% of it AI-generated. ([LinkedIn post](https://www.linkedin.com/posts/yann-fleureau-b1179983_announcing-numina-lean-agent-an-open-source-share-7419390875769692160-fA_Q))
 
 ## Verification in practice

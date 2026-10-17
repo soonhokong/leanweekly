@@ -2,21 +2,23 @@
 <html lang="en" data-root="../">
 <head>
 <meta charset="utf-8">
+<script src="../assets/theme.js?v=e617464e73"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Week of Feb 19, 2026 · Lean Weekly</title>
 <meta name="description" content="News about Lean, the theorem prover and programming language.">
 <link rel="preload" href="../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/lw.css?v=0c8706d3fb">
+<link rel="stylesheet" href="../assets/lw.css?v=566665bde1">
 <link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../feed.xml">
 <link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../feed.json">
-<script defer src="../assets/lw.js?v=ffef22517a"></script>
+<script defer src="../assets/lw.js?v=a6ebd5a046"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to the news</a>
-<header class="masthead">
-<div class="mast-row">
-  <p class="dateline">Thursday, October 15, 2026</p>
-  <a class="wordmark" href="../">Lean Weekly</a>
+<header class="bar">
+<div class="bar-row">
+  <div class="brand"><a class="wordmark" href="../" aria-label="Lean Weekly"><img class="logo-light" src="../assets/lean-logo-tm.svg" alt="Lean" width="80" height="30"><img class="logo-dark" src="../assets/lean-logo-tm-white.svg" alt="Lean" width="80" height="30"><span>Weekly</span></a>
+  <p class="tagline">News about Lean, the theorem prover and programming language.</p></div>
+  <button class="theme" type="button" hidden aria-label="Switch to night mode"><svg class="i-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg><svg class="i-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
   <form class="search" role="search" action="../search/" method="get">
     <label class="sr-only" for="q">Search Lean news</label>
     <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
@@ -24,72 +26,91 @@
     <div class="search-results" id="search-results" role="listbox" hidden></div>
   </form>
 </div>
-<p class="tagline">News about Lean, the theorem prover and programming language.</p>
-<nav class="sections" aria-label="Sections"><a href="../" aria-current="page">Latest</a><a href="../section/ai/">AI and formalization</a><a href="../section/verification/">Verification</a><a href="../section/lean-core/">Lean core</a><a href="../section/papers/">Papers and events</a></nav>
+<nav class="tabs" aria-label="Sections"><a class="t-latest" href="../">Latest</a><a class="t-ai" href="../section/ai/">AI and formalization</a><a class="t-verification" href="../section/verification/">Verification</a><a class="t-lean-core" href="../section/lean-core/">Lean core</a><a class="t-papers" href="../section/papers/">Papers and events</a><span class="tabs-gap"></span><a class="quiet" href="../about/">About</a><a class="quiet" href="../feed.xml">RSS</a></nav>
 </header>
 <main id="main">
-<header class="section-head"><h1 class="page-title">Week of Feb 19, 2026</h1><p class="section-blurb">Edition 7: 8 items published for Feb 12 to Feb 19, 2026.</p></header>
-<div class="layout"><div class="col"><h2 class="label">In this edition</h2>
+<div class="frame"><div class="timeline">
+<header class="page-head"><h1 class="page-title">Week of Feb 19, 2026</h1><p class="page-blurb">Edition 7: 8 items published for Feb 12 to Feb 19, 2026.</p></header>
+
 <div class="stream">
-<article class="story imp-5" id="2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-17">Feb 17</time></p>
-  <h3 class="headline"><a href="../item/2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g/">Lean v4.28.0 released with a symbolic simulation framework and grind extensions</a></h3>
-  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.28.0" rel="noopener">Lean v4.28.0</a> adds a lightweight symbolic simulation framework that integrates with <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> and enables verification condition generators, plus user-defined grind attributes, a solver mode for bv_decide, and a first_par combinator that runs tactics in parallel. The release landed <a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.28.0/" rel="noopener">309 changes</a>, including performance improvements in bv_decide.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.28.0/" rel="noopener">v4.28.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.28.0" rel="noopener">lean4 v4.28.0</a></p>
+<article class="card c-lean-core" id="2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-02-19/#2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g" title="Link to this item"><time datetime="2026-02-17">Feb 17</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean v4.28.0 released with a symbolic simulation framework and grind extensions</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.28.0" rel="noopener">Lean v4.28.0</a> adds a lightweight symbolic simulation framework that integrates with <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> and enables verification condition generators, plus user-defined grind attributes, a solver mode for bv_decide, and a first_par combinator that runs tactics in parallel. The release landed <a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.28.0/" rel="noopener">309 changes</a>, including performance improvements in bv_decide.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.28.0/" rel="noopener">v4.28.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.28.0" rel="noopener">lean4 v4.28.0</a></p>
+  </div>
 </article>
-<article class="story imp-4" id="2026-02-19-lean-v4-29-0-rc1-changes-how-isdefeq-handles-transparency-on-imp">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-18">Feb 18</time></p>
-  <h3 class="headline"><a href="../item/2026-02-19-lean-v4-29-0-rc1-changes-how-isdefeq-handles-transparency-on-imp/">Lean v4.29.0-rc1 changes how isDefEq handles transparency on implicit arguments</a></h3>
-  <p class="dek">Leo de Moura's <a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean#12179</a>, merged on 2026-02-16, stops isDefEq from raising transparency to .default for implicit arguments, a behavior that caused scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. Kim Morrison advises downstream projects not to move to v4.29.0-rc1 yet, and <a class="inl" href="https://github.com/leanprover/lean4/pull/12561" rel="noopener">a later PR</a> documents the design rationale behind the transparency hierarchy.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/113486-announce/topic/releases.20of.20new.20Lean.20versions/near/574617729" rel="noopener">leanprover.zulipchat.com</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12561" rel="noopener">lean4#12561</a></p>
+<article class="card c-lean-core" id="2026-02-19-lean-v4-29-0-rc1-changes-how-isdefeq-handles-transparency-on-imp">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-02-19/#2026-02-19-lean-v4-29-0-rc1-changes-how-isdefeq-handles-transparency-on-imp" title="Link to this item"><time datetime="2026-02-18">Feb 18</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean v4.29.0-rc1 changes how isDefEq handles transparency on implicit arguments</h2>
+    <p class="card-text">Leo de Moura's <a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean#12179</a>, merged on 2026-02-16, stops isDefEq from raising transparency to .default for implicit arguments, a behavior that caused scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. Kim Morrison advises downstream projects not to move to v4.29.0-rc1 yet, and <a class="inl" href="https://github.com/leanprover/lean4/pull/12561" rel="noopener">a later PR</a> documents the design rationale behind the transparency hierarchy.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/113486-announce/topic/releases.20of.20new.20Lean.20versions/near/574617729" rel="noopener">leanprover.zulipchat.com</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12561" rel="noopener">lean4#12561</a></p>
+  </div>
 </article>
-<article class="story imp-3 has-pic" id="2026-02-19-kim-morrison-removes-the-one-axiom-in-lambdaclass-s-verified-opt">
-<div class="story-text">
-  <p class="kicker"><a class="k-verification" href="../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-17">Feb 17</time></p>
-  <h3 class="headline"><a href="../item/2026-02-19-kim-morrison-removes-the-one-axiom-in-lambdaclass-s-verified-opt/">Kim Morrison removes the one axiom in LambdaClass's verified optimizer Truth Research ZK</a></h3>
-  <p class="dek"><a class="inl" href="https://blog.lambdaclass.com/amo-lean-towards-formally-verified-optimization-via-equality-saturation-in-lean-4/" rel="noopener">LambdaClass</a> described Truth Research ZK, which turns Lean 4 specifications into optimized C and Rust code with formal correctness guarantees, noting one axiom (applyIndex_tensor_eq) needed for the tensor product of permutations. <a class="inl" href="https://github.com/lambdaclass/amo-lean/pull/2" rel="noopener">A pull request by Kim Morrison</a>, prepared with Claude Code, proves that axiom as a theorem.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/lambdaclass/amo-lean/pull/2" rel="noopener">amo-lean#2</a><span class="dot" aria-hidden="true">·</span><a href="https://blog.lambdaclass.com/amo-lean-towards-formally-verified-optimization-via-equality-saturation-in-lean-4/" rel="noopener">blog.lambdaclass.com</a></p>
+<article class="card c-verification" id="2026-02-19-kim-morrison-removes-the-one-axiom-in-lambdaclass-s-verified-opt">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-02-19/#2026-02-19-kim-morrison-removes-the-one-axiom-in-lambdaclass-s-verified-opt" title="Link to this item"><time datetime="2026-02-17">Feb 17</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Kim Morrison removes the one axiom in LambdaClass's verified optimizer Truth Research ZK</h2>
+    <p class="card-text"><a class="inl" href="https://blog.lambdaclass.com/amo-lean-towards-formally-verified-optimization-via-equality-saturation-in-lean-4/" rel="noopener">LambdaClass</a> described Truth Research ZK, which turns Lean 4 specifications into optimized C and Rust code with formal correctness guarantees, noting one axiom (applyIndex_tensor_eq) needed for the tensor product of permutations. <a class="inl" href="https://github.com/lambdaclass/amo-lean/pull/2" rel="noopener">A pull request by Kim Morrison</a>, prepared with Claude Code, proves that axiom as a theorem.</p>
+    <figure class="media"><img src="../assets/img/59a5c6b6a07b128a-480.webp" srcset="../assets/img/59a5c6b6a07b128a-480.webp 480w, ../assets/img/59a5c6b6a07b128a-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="899" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: blog.lambdaclass.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/lambdaclass/amo-lean/pull/2" rel="noopener">amo-lean#2</a><span class="dot" aria-hidden="true">·</span><a href="https://blog.lambdaclass.com/amo-lean-towards-formally-verified-optimization-via-equality-saturation-in-lean-4/" rel="noopener">blog.lambdaclass.com</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-02-19-leo-de-moura-adds-higher-order-miller-patterns-to-grind-s-e-matc">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-02-19/#2026-02-19-leo-de-moura-adds-higher-order-miller-patterns-to-grind-s-e-matc" title="Link to this item"><time datetime="2026-02-15">Feb 15</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura adds higher-order Miller patterns to grind's e-matching</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12483" rel="noopener">A merged Lean 4 pull request</a> lets <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>'s e-matching engine keep lambda arguments as patterns when pattern variables are applied only to distinct lambda-bound variables. Previously such lambdas were ignored during matching, which limited theorems about combinators like List.foldl that take a function argument.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12483" rel="noopener">lean4#12483</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-02-19-nick-palladinos-publishes-smtlibdsl-a-type-safe-smt-lib-dsl-for">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-02-19/#2026-02-19-nick-palladinos-publishes-smtlibdsl-a-type-safe-smt-lib-dsl-for" title="Link to this item"><time datetime="2026-02-19">Feb 19</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Nick Palladinos publishes SmtLibDsl, a type-safe SMT-LIB DSL for Lean 4</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/palladin/SmtLibDsl" rel="noopener">SmtLibDsl</a> is a domain-specific language embedded in Lean 4 for writing SMT-LIB2 constraint programs, with backends including Z3, cvc5, Kissat, and CaDiCaL. Bitvector widths and enabled SMT theories are tracked at compile time, and Lean validates every decoded SAT model.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/palladin/SmtLibDsl" rel="noopener">palladin/SmtLibDsl</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-02-19-leo-de-moura-adds-a-cache-for-isdefeqi-results-in-sym">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-02-19/#2026-02-19-leo-de-moura-adds-a-cache-for-isdefeqi-results-in-sym" title="Link to this item"><time datetime="2026-02-15">Feb 15</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura adds a cache for isDefEqI results in Sym</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12486" rel="noopener">A merged Lean 4 pull request</a> by Leo de Moura caches isDefEqI results in Sym, since symbolic computation such as VC generators finds the same instances repeatedly. On the vcgen_deep_add_sub_cancel benchmark, speedups range from 30% to 37%, with goal_1000 dropping from 1663.1 ms to 1141.9 ms.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12486" rel="noopener">lean4#12486</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-02-19-kim-morrison-proposes-making-mathlib-s-orderdual-a-structure-pre">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-02-19/#2026-02-19-kim-morrison-proposes-making-mathlib-s-orderdual-a-structure-pre" title="Link to this item"><time datetime="2026-02-11">Feb 11</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Kim Morrison proposes making Mathlib's OrderDual a structure, prepared with Claude Code</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover-community/mathlib4/pull/35125" rel="noopener">A Mathlib pull request</a> by Kim Morrison changes OrderDual from a type alias to a one-field structure, which prevents defeq abuse between a type and its order dual and requires explicit toDual/ofDual wrapping at type boundaries. The pull request notes it was prepared with Claude Code.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/mathlib4/pull/35125" rel="noopener">mathlib4#35125</a></p>
+  </div>
+</article>
+<article class="card c-papers" id="2026-02-19-stephen-diehl-tests-opus-4-6-on-a-category-theory-library-in-lea">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-02-19/#2026-02-19-stephen-diehl-tests-opus-4-6-on-a-category-theory-library-in-lea" title="Link to this item"><time datetime="2026-02-16">Feb 16</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Stephen Diehl tests Opus 4.6 on a category theory library in Lean</h2>
+    <p class="card-text">Stephen Diehl built <a class="inl" href="https://www.stephendiehl.com/posts/lean-opus-blog/" rel="noopener">Kitty Cats</a>, about 900 lines of Lean, with Anthropic's Opus 4.6 over two 30-minute sessions. The model handled the Yoneda lemma but needed guidance on multi-step rewrites and on refactoring verbose proofs. Diehl credits the lean-lsp-mcp server and the lean4-skills plugin for giving the model a feedback loop.</p>
+    <figure class="media"><img src="../assets/img/1ae21f6c25f181dc-480.webp" srcset="../assets/img/1ae21f6c25f181dc-480.webp 480w, ../assets/img/1ae21f6c25f181dc-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="675" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: stephendiehl.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.stephendiehl.com/posts/lean-opus-blog/" rel="noopener">stephendiehl.com</a></p>
+  </div>
+</article>
 </div>
-<figure class="pic pic-story"><a href="../item/2026-02-19-kim-morrison-removes-the-one-axiom-in-lambdaclass-s-verified-opt/" tabindex="-1" aria-hidden="true"><img src="../assets/img/59a5c6b6a07b128a-480.webp" srcset="../assets/img/59a5c6b6a07b128a-480.webp 480w, ../assets/img/59a5c6b6a07b128a-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="1200" height="899" alt="" loading="lazy" decoding="async"></a></figure>
-</article>
-<article class="story imp-3" id="2026-02-19-leo-de-moura-adds-higher-order-miller-patterns-to-grind-s-e-matc">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-15">Feb 15</time></p>
-  <h3 class="headline"><a href="../item/2026-02-19-leo-de-moura-adds-higher-order-miller-patterns-to-grind-s-e-matc/">Leo de Moura adds higher-order Miller patterns to grind's e-matching</a></h3>
-  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/pull/12483" rel="noopener">A merged Lean 4 pull request</a> lets <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>'s e-matching engine keep lambda arguments as patterns when pattern variables are applied only to distinct lambda-bound variables. Previously such lambdas were ignored during matching, which limited theorems about combinators like List.foldl that take a function argument.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12483" rel="noopener">lean4#12483</a></p>
-</article>
-<section class="briefs" aria-label="In brief"><h3 class="briefs-label">In brief</h3><div class="briefs-grid">
-<article class="brief" id="2026-02-19-nick-palladinos-publishes-smtlibdsl-a-type-safe-smt-lib-dsl-for">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-19">Feb 19</time></p>
-  <h3 class="headline"><a href="../item/2026-02-19-nick-palladinos-publishes-smtlibdsl-a-type-safe-smt-lib-dsl-for/">Nick Palladinos publishes SmtLibDsl, a type-safe SMT-LIB DSL for Lean 4</a></h3>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/palladin/SmtLibDsl" rel="noopener">palladin/SmtLibDsl</a></p>
-</article>
-<article class="brief" id="2026-02-19-leo-de-moura-adds-a-cache-for-isdefeqi-results-in-sym">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-15">Feb 15</time></p>
-  <h3 class="headline"><a href="../item/2026-02-19-leo-de-moura-adds-a-cache-for-isdefeqi-results-in-sym/">Leo de Moura adds a cache for isDefEqI results in Sym</a></h3>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12486" rel="noopener">lean4#12486</a></p>
-</article>
-<article class="brief" id="2026-02-19-kim-morrison-proposes-making-mathlib-s-orderdual-a-structure-pre">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-11">Feb 11</time></p>
-  <h3 class="headline"><a href="../item/2026-02-19-kim-morrison-proposes-making-mathlib-s-orderdual-a-structure-pre/">Kim Morrison proposes making Mathlib's OrderDual a structure, prepared with Claude Code</a></h3>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/mathlib4/pull/35125" rel="noopener">mathlib4#35125</a></p>
-</article>
-</div></section>
-<article class="story imp-3 has-pic" id="2026-02-19-stephen-diehl-tests-opus-4-6-on-a-category-theory-library-in-lea">
-<div class="story-text">
-  <p class="kicker"><a class="k-papers" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-16">Feb 16</time></p>
-  <h3 class="headline"><a href="../item/2026-02-19-stephen-diehl-tests-opus-4-6-on-a-category-theory-library-in-lea/">Stephen Diehl tests Opus 4.6 on a category theory library in Lean</a></h3>
-  <p class="dek">Stephen Diehl built <a class="inl" href="https://www.stephendiehl.com/posts/lean-opus-blog/" rel="noopener">Kitty Cats</a>, about 900 lines of Lean, with Anthropic's Opus 4.6 over two 30-minute sessions. The model handled the Yoneda lemma but needed guidance on multi-step rewrites and on refactoring verbose proofs. Diehl credits the lean-lsp-mcp server and the lean4-skills plugin for giving the model a feedback loop.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.stephendiehl.com/posts/lean-opus-blog/" rel="noopener">stephendiehl.com</a></p>
-</div>
-<figure class="pic pic-story"><a href="../item/2026-02-19-stephen-diehl-tests-opus-4-6-on-a-category-theory-library-in-lea/" tabindex="-1" aria-hidden="true"><img src="../assets/img/1ae21f6c25f181dc-480.webp" srcset="../assets/img/1ae21f6c25f181dc-480.webp 480w, ../assets/img/1ae21f6c25f181dc-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="1200" height="675" alt="" loading="lazy" decoding="async"></a></figure>
-</article>
 </div></div>
-<aside class="rail" aria-label="More">
-<section class="box"><h2 class="label">Sections</h2><ul class="sec-list"><li><a href="../section/ai/"><span>AI and formalization</span><span class="count">35</span></a></li><li><a href="../section/verification/"><span>Verification</span><span class="count">32</span></a></li><li><a href="../section/lean-core/"><span>Lean core</span><span class="count">142</span></a></li><li><a href="../section/papers/"><span>Papers and events</span><span class="count">53</span></a></li></ul></section>
-<section class="box about-box"><h2 class="label">About</h2><p>News about Lean, the theorem prover and programming language. Each item links to the public sources it was checked against.</p><p><a href="../about/">How it works</a> · <a href="../archive/">Weekly editions</a> · <a href="../feed.xml">RSS</a></p></section>
-</aside></div>
 </main>
-<footer class="foot"><div class="foot-in"><p><a class="foot-mark" href="../">Lean Weekly</a></p><p><a href="../about/">About</a> · <a href="../archive/">Weekly editions</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
+<p class="sr-only" id="status" role="status" aria-live="polite"></p>
+<footer class="foot"><div class="foot-in"><p><a href="../about/">About</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
 </body>
 </html>

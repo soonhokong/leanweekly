@@ -2,21 +2,23 @@
 <html lang="en" data-root="../">
 <head>
 <meta charset="utf-8">
+<script src="../assets/theme.js?v=e617464e73"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Week of Jan 22, 2026 · Lean Weekly</title>
 <meta name="description" content="News about Lean, the theorem prover and programming language.">
 <link rel="preload" href="../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/lw.css?v=0c8706d3fb">
+<link rel="stylesheet" href="../assets/lw.css?v=566665bde1">
 <link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../feed.xml">
 <link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../feed.json">
-<script defer src="../assets/lw.js?v=ffef22517a"></script>
+<script defer src="../assets/lw.js?v=a6ebd5a046"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to the news</a>
-<header class="masthead">
-<div class="mast-row">
-  <p class="dateline">Thursday, October 15, 2026</p>
-  <a class="wordmark" href="../">Lean Weekly</a>
+<header class="bar">
+<div class="bar-row">
+  <div class="brand"><a class="wordmark" href="../" aria-label="Lean Weekly"><img class="logo-light" src="../assets/lean-logo-tm.svg" alt="Lean" width="80" height="30"><img class="logo-dark" src="../assets/lean-logo-tm-white.svg" alt="Lean" width="80" height="30"><span>Weekly</span></a>
+  <p class="tagline">News about Lean, the theorem prover and programming language.</p></div>
+  <button class="theme" type="button" hidden aria-label="Switch to night mode"><svg class="i-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg><svg class="i-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
   <form class="search" role="search" action="../search/" method="get">
     <label class="sr-only" for="q">Search Lean news</label>
     <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
@@ -24,57 +26,72 @@
     <div class="search-results" id="search-results" role="listbox" hidden></div>
   </form>
 </div>
-<p class="tagline">News about Lean, the theorem prover and programming language.</p>
-<nav class="sections" aria-label="Sections"><a href="../" aria-current="page">Latest</a><a href="../section/ai/">AI and formalization</a><a href="../section/verification/">Verification</a><a href="../section/lean-core/">Lean core</a><a href="../section/papers/">Papers and events</a></nav>
+<nav class="tabs" aria-label="Sections"><a class="t-latest" href="../">Latest</a><a class="t-ai" href="../section/ai/">AI and formalization</a><a class="t-verification" href="../section/verification/">Verification</a><a class="t-lean-core" href="../section/lean-core/">Lean core</a><a class="t-papers" href="../section/papers/">Papers and events</a><span class="tabs-gap"></span><a class="quiet" href="../about/">About</a><a class="quiet" href="../feed.xml">RSS</a></nav>
 </header>
 <main id="main">
-<header class="section-head"><h1 class="page-title">Week of Jan 22, 2026</h1><p class="section-blurb">Edition 3: 6 items published for Jan 15 to Jan 22, 2026.</p></header>
-<div class="layout"><div class="col"><h2 class="label">In this edition</h2>
+<div class="frame"><div class="timeline">
+<header class="page-head"><h1 class="page-title">Week of Jan 22, 2026</h1><p class="page-blurb">Edition 3: 6 items published for Jan 15 to Jan 22, 2026.</p></header>
+
 <div class="stream">
-<article class="story imp-4" id="2026-01-22-leo-de-moura-presents-the-state-of-lean-at-lean-together-2026">
-  <p class="kicker"><a class="k-papers" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-22">Jan 22</time></p>
-  <h3 class="headline"><a href="../item/2026-01-22-leo-de-moura-presents-the-state-of-lean-at-lean-together-2026/">Leo de Moura presents The State of Lean at Lean Together 2026</a></h3>
-  <p class="dek">Leo de Moura, Chief Architect of the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, <a class="inl" href="https://leodemoura.github.io/files/LeanTogether2026.pdf" rel="noopener">reviewed 2025 at Lean Together</a> in January 2026: 12 releases, a new compiler fully implemented in Lean, and the <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> proof-automation tactic. The talk also said 2026 will be the last year with significant changes to the language and standard library.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/files/LeanTogether2026.pdf" rel="noopener">leodemoura.github.io</a></p>
+<article class="card c-papers" id="2026-01-22-leo-de-moura-presents-the-state-of-lean-at-lean-together-2026">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-22/#2026-01-22-leo-de-moura-presents-the-state-of-lean-at-lean-together-2026" title="Link to this item"><time datetime="2026-01-22">Jan 22</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura presents The State of Lean at Lean Together 2026</h2>
+    <p class="card-text">Leo de Moura, Chief Architect of the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, <a class="inl" href="https://leodemoura.github.io/files/LeanTogether2026.pdf" rel="noopener">reviewed 2025 at Lean Together</a> in January 2026: 12 releases, a new compiler fully implemented in Lean, and the <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> proof-automation tactic. The talk also said 2026 will be the last year with significant changes to the language and standard library.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/files/LeanTogether2026.pdf" rel="noopener">slides (pdf)</a></p>
+  </div>
 </article>
-<article class="story imp-4 has-pic" id="2026-01-22-project-numina-announces-numina-lean-agent-an-open-source-theore">
-<div class="story-text">
-  <p class="kicker"><a class="k-ai" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-20">Jan 20</time></p>
-  <h3 class="headline"><a href="../item/2026-01-22-project-numina-announces-numina-lean-agent-an-open-source-theore/">Project Numina announces Numina-Lean-Agent, an open-source theorem-proving framework</a></h3>
-  <p class="dek">Yann Fleureau announced <a class="inl" href="https://www.linkedin.com/posts/yann-fleureau-b1179983_announcing-numina-lean-agent-an-open-source-share-7419390875769692160-fA_Q" rel="noopener">Numina-Lean-Agent</a>, an open-source agentic framework for autoformalization and theorem proving using generic AI models. The announcement reports 12/12 on Putnam 2025 and a formalization of the &quot;Effective Brascamp-Lieb inequalities&quot; research paper, more than 90% of it AI-generated.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/yann-fleureau-b1179983_announcing-numina-lean-agent-an-open-source-share-7419390875769692160-fA_Q" rel="noopener">LinkedIn post</a></p>
+<article class="card c-ai" id="2026-01-22-project-numina-announces-numina-lean-agent-an-open-source-theore">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-22/#2026-01-22-project-numina-announces-numina-lean-agent-an-open-source-theore" title="Link to this item"><time datetime="2026-01-20">Jan 20</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Project Numina announces Numina-Lean-Agent, an open-source theorem-proving framework</h2>
+    <p class="card-text">Yann Fleureau announced <a class="inl" href="https://www.linkedin.com/posts/yann-fleureau-b1179983_announcing-numina-lean-agent-an-open-source-share-7419390875769692160-fA_Q" rel="noopener">Numina-Lean-Agent</a>, an open-source agentic framework for autoformalization and theorem proving using generic AI models. The announcement reports 12/12 on Putnam 2025 and a formalization of the &quot;Effective Brascamp-Lieb inequalities&quot; research paper, more than 90% of it AI-generated.</p>
+    <figure class="media"><img src="../assets/img/55be880803b04367-480.webp" srcset="../assets/img/55be880803b04367-480.webp 480w, ../assets/img/55be880803b04367-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="400" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/yann-fleureau-b1179983_announcing-numina-lean-agent-an-open-source-share-7419390875769692160-fA_Q" rel="noopener">LinkedIn post</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-01-22-ilya-sergey-shows-how-to-verify-imperative-lean-4-programs-with">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-22/#2026-01-22-ilya-sergey-shows-how-to-verify-imperative-lean-4-programs-with" title="Link to this item"><time datetime="2026-01-21">Jan 21</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Ilya Sergey shows how to verify imperative Lean 4 programs with Velvet</h2>
+    <p class="card-text"><a class="inl" href="https://proofsandintuitions.net/2026/01/21/multi-modal-verification-velvet/" rel="noopener">A Proofs and Intuitions post</a> walks through Velvet, a verifier embedded in Lean as a library and developed by VERSE Lab. Velvet discharges most proof obligations with SMT solvers (such as Z3 and cvc5) and tactics like <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>, then leaves the rest for interactive proof. In the example, Claude Code and Harmonic's Aristotle each finished the remaining proof.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://proofsandintuitions.net/2026/01/21/multi-modal-verification-velvet/" rel="noopener">proofsandintuitions.net</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-01-22-leo-de-moura-adds-ground-evaluation-and-conditional-rewriting-to">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-22/#2026-01-22-leo-de-moura-adds-ground-evaluation-and-conditional-rewriting-to" title="Link to this item"><time datetime="2026-01-17">Jan 17</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura adds ground evaluation and conditional rewriting to Sym.simp</h2>
+    <p class="card-text">Three merged Lean 4 pull requests by Leo de Moura extend Sym.simp: a <a class="inl" href="https://github.com/leanprover/lean4/pull/12031" rel="noopener">simplification procedure evaluating ground terms</a> of builtin numeric types such as Nat, Int and BitVec n, <a class="inl" href="https://github.com/leanprover/lean4/pull/12033" rel="noopener">support for conditional rewriting rules</a>, and <a class="inl" href="https://github.com/leanprover/lean4/pull/12053" rel="noopener">offset terms</a>, essential for equational theorems of functions that pattern match on natural numbers.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12031" rel="noopener">lean4#12031</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12033" rel="noopener">lean4#12033</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12053" rel="noopener">lean4#12053</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-01-22-lean-repository-adds-symm-symbolic-simulation-benchmark-from-lea">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-22/#2026-01-22-lean-repository-adds-symm-symbolic-simulation-benchmark-from-lea" title="Link to this item"><time datetime="2026-01-22">Jan 22</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean repository adds SymM symbolic simulation benchmark from Lean@Google Hackathon</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/blob/ef1e080386afea1599ffe8891433a440875d18e6/tests/bench/sym/add_sub_cancel.lean" rel="noopener">A new benchmark in the lean4 test suite</a>, described as a synthetic benchmark from the Lean@Google Hackathon, compares a MetaM tactic solution with SymM solutions, including a &quot;SymM Solution + reusing simplifier cache&quot; variant, on generated command sequences of up to 700 iterations, also timing kernel checking.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/blob/ef1e080386afea1599ffe8891433a440875d18e6/tests/bench/sym/add_sub_cancel.lean" rel="noopener">leanprover/lean4</a></p>
+  </div>
+</article>
+<article class="card c-papers" id="2026-01-22-alexandre-rademaker-teaches-programming-with-proofs-using-lean-a">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-22/#2026-01-22-alexandre-rademaker-teaches-programming-with-proofs-using-lean-a" title="Link to this item"><time datetime="2026-01-15">Jan 15</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Alexandre Rademaker teaches Programming with Proofs using Lean at Universidade de Aveiro</h2>
+    <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/alexandrerademaker_lean-lean-share-7417675303738753024-GZws" rel="noopener">Alexandre Rademaker</a> says the course is probably the first Lean course taught in Portugal and is an official World Logic Day 2026 event. It uses The Hitchhiker's Guide to Logical Verification and is partly supported by Atlas Computing via a Schmidt Sciences grant.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/alexandrerademaker_lean-lean-share-7417675303738753024-GZws" rel="noopener">LinkedIn post</a></p>
+  </div>
+</article>
 </div>
-<figure class="pic pic-story"><a href="../item/2026-01-22-project-numina-announces-numina-lean-agent-an-open-source-theore/" tabindex="-1" aria-hidden="true"><img src="../assets/img/55be880803b04367-480.webp" srcset="../assets/img/55be880803b04367-480.webp 480w, ../assets/img/55be880803b04367-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="800" height="400" alt="" loading="lazy" decoding="async"></a></figure>
-</article>
-<article class="story imp-3" id="2026-01-22-ilya-sergey-shows-how-to-verify-imperative-lean-4-programs-with">
-  <p class="kicker"><a class="k-verification" href="../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-21">Jan 21</time></p>
-  <h3 class="headline"><a href="../item/2026-01-22-ilya-sergey-shows-how-to-verify-imperative-lean-4-programs-with/">Ilya Sergey shows how to verify imperative Lean 4 programs with Velvet</a></h3>
-  <p class="dek"><a class="inl" href="https://proofsandintuitions.net/2026/01/21/multi-modal-verification-velvet/" rel="noopener">A Proofs and Intuitions post</a> walks through Velvet, a verifier embedded in Lean as a library and developed by VERSE Lab. Velvet discharges most proof obligations with SMT solvers (such as Z3 and cvc5) and tactics like <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>, then leaves the rest for interactive proof. In the example, Claude Code and Harmonic's Aristotle each finished the remaining proof.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://proofsandintuitions.net/2026/01/21/multi-modal-verification-velvet/" rel="noopener">proofsandintuitions.net</a></p>
-</article>
-<section class="briefs" aria-label="In brief"><h3 class="briefs-label">In brief</h3><div class="briefs-grid">
-<article class="brief" id="2026-01-22-leo-de-moura-adds-ground-evaluation-and-conditional-rewriting-to">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-17">Jan 17</time></p>
-  <h3 class="headline"><a href="../item/2026-01-22-leo-de-moura-adds-ground-evaluation-and-conditional-rewriting-to/">Leo de Moura adds ground evaluation and conditional rewriting to Sym.simp</a></h3>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12031" rel="noopener">lean4#12031</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12033" rel="noopener">lean4#12033</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12053" rel="noopener">lean4#12053</a></p>
-</article>
-<article class="brief" id="2026-01-22-lean-repository-adds-symm-symbolic-simulation-benchmark-from-lea">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-22">Jan 22</time></p>
-  <h3 class="headline"><a href="../item/2026-01-22-lean-repository-adds-symm-symbolic-simulation-benchmark-from-lea/">Lean repository adds SymM symbolic simulation benchmark from Lean@Google Hackathon</a></h3>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/blob/ef1e080386afea1599ffe8891433a440875d18e6/tests/bench/sym/add_sub_cancel.lean" rel="noopener">leanprover/lean4</a></p>
-</article>
-<article class="brief" id="2026-01-22-alexandre-rademaker-teaches-programming-with-proofs-using-lean-a">
-  <p class="kicker"><a class="k-papers" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-15">Jan 15</time></p>
-  <h3 class="headline"><a href="../item/2026-01-22-alexandre-rademaker-teaches-programming-with-proofs-using-lean-a/">Alexandre Rademaker teaches Programming with Proofs using Lean at Universidade de Aveiro</a></h3>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/alexandrerademaker_lean-lean-share-7417675303738753024-GZws" rel="noopener">LinkedIn post</a></p>
-</article>
-</div></section>
 </div></div>
-<aside class="rail" aria-label="More">
-<section class="box"><h2 class="label">Sections</h2><ul class="sec-list"><li><a href="../section/ai/"><span>AI and formalization</span><span class="count">35</span></a></li><li><a href="../section/verification/"><span>Verification</span><span class="count">32</span></a></li><li><a href="../section/lean-core/"><span>Lean core</span><span class="count">142</span></a></li><li><a href="../section/papers/"><span>Papers and events</span><span class="count">53</span></a></li></ul></section>
-<section class="box about-box"><h2 class="label">About</h2><p>News about Lean, the theorem prover and programming language. Each item links to the public sources it was checked against.</p><p><a href="../about/">How it works</a> · <a href="../archive/">Weekly editions</a> · <a href="../feed.xml">RSS</a></p></section>
-</aside></div>
 </main>
-<footer class="foot"><div class="foot-in"><p><a class="foot-mark" href="../">Lean Weekly</a></p><p><a href="../about/">About</a> · <a href="../archive/">Weekly editions</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
+<p class="sr-only" id="status" role="status" aria-live="polite"></p>
+<footer class="foot"><div class="foot-in"><p><a href="../about/">About</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
 </body>
 </html>

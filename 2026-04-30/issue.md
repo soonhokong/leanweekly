@@ -17,7 +17,7 @@ window_end: 2026-04-30
 
 ## Verification in practice
 
-- **Mark Ruvald Pedersen releases Clift, an AutoCorres-style C verification pipeline for Lean 4.** Clift verifies C programs by lifting them into Lean 4, following the methodology pioneered by seL4's AutoCorres pipeline in Isabelle/HOL and adapting AutoCorres2's five-stage pipeline to Lean 4's type theory. The accompanying paper reports that Claude Opus 4.6 generated the vast majority of the code, with 1,698 theorems and 12 remaining sorry. ([eisbaw/Clift](https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf), [eisbaw/Clift](https://github.com/eisbaw/Clift))
+- **Mark Ruvald Pedersen releases Clift, an AutoCorres-style C verification pipeline for Lean 4.** Clift verifies C programs by lifting them into Lean 4, following the methodology pioneered by seL4's AutoCorres pipeline in Isabelle/HOL and adapting AutoCorres2's five-stage pipeline to Lean 4's type theory. The accompanying paper reports that Claude Opus 4.6 generated the vast majority of the code, with 1,698 theorems and 12 remaining sorry. ([paper (pdf)](https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf), [eisbaw/Clift](https://github.com/eisbaw/Clift))
 
 ## Lean core and ecosystem
 

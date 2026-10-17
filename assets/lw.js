@@ -1,6 +1,7 @@
-/* Lean Weekly client script: continuous scrolling and search. No dependencies.
-   Item text is inserted with text nodes only (never innerHTML), so nothing in
-   the search index can become markup. */
+/* Lean Weekly client script: continuous scrolling, copy-link buttons, and
+   search. No dependencies. The only markup it inserts is cards the site build
+   rendered and escaped (from the next stream page or cards.json); text from
+   the search index goes in as text nodes. */
 "use strict";
 (() => {
   const ROOT = new URL(document.documentElement.dataset.root || "./", location.href);
@@ -13,6 +14,44 @@
     if (text != null) n.textContent = text;
     return n;
   };
+
+  /* ---- Day and night: the toggle overrides the system setting and remembers it (theme.js reapplies it). */
+  function setupTheme() {
+    const btn = document.querySelector("button.theme");
+    if (!btn) return;
+    const root = document.documentElement;
+    const system = matchMedia("(prefers-color-scheme: dark)");
+    const dark = () => (root.dataset.theme ? root.dataset.theme === "dark" : system.matches);
+    const label = () => btn.setAttribute("aria-label", dark() ? "Switch to day mode" : "Switch to night mode");
+    btn.hidden = false;
+    label();
+    btn.addEventListener("click", () => {
+      root.dataset.theme = dark() ? "light" : "dark";
+      try { localStorage.setItem("lw-theme", root.dataset.theme); } catch (err) { /* not remembered */ }
+      label();
+    });
+    if (system.addEventListener) system.addEventListener("change", label);
+  }
+
+  /* ---- Copy-link buttons: shown only when the clipboard is available. */
+  const status = document.getElementById("status");
+  const reveal = (root) => {
+    if (navigator.clipboard) for (const b of root.querySelectorAll("button.copy[hidden]")) b.hidden = false;
+  };
+  function setupCopy() {
+    reveal(document);
+    document.addEventListener("click", async (e) => {
+      const b = e.target.closest && e.target.closest("button.copy");
+      const link = b && b.closest("article") && b.closest("article").querySelector("a.when");
+      if (!link) return;
+      try {
+        await navigator.clipboard.writeText(link.href);
+        b.classList.add("done");
+        if (status) status.textContent = "Link copied";
+        setTimeout(() => { b.classList.remove("done"); if (status) status.textContent = ""; }, 1600);
+      } catch (err) { /* clipboard refused: the date is still a plain link */ }
+    });
+  }
 
   /* ---- Continuous stream: fetch the next page when "More news" nears the viewport. */
   function setupStream() {
@@ -29,7 +68,7 @@
         const res = await fetch(more.href, { credentials: "same-origin" });
         if (!res.ok) throw new Error(String(res.status));
         const doc = new DOMParser().parseFromString(await res.text(), "text/html");
-        for (const node of doc.querySelectorAll(".stream > article, .stream > .briefs")) {
+        for (const node of doc.querySelectorAll(".stream > article.card")) {
           // Links in the fetched page are relative to that page; make them absolute.
           for (const a of node.querySelectorAll("a[href]")) a.href = new URL(a.getAttribute("href"), res.url).href;
           node.classList.add("fresh");
@@ -40,7 +79,9 @@
             }).join(", ");
             img.src = new URL(img.getAttribute("src"), res.url).href;
           }
-          list.appendChild(document.importNode(node, true));
+          const card = document.importNode(node, true);
+          reveal(card);
+          list.appendChild(card);
         }
         const next = doc.querySelector("a[data-more]");
         if (next) {
@@ -186,7 +227,20 @@
     });
   }
 
-  /* ---- Full results page (/search/?q=...). */
+  /* Mark word-start matches inside a card's headline and text, text node by text node. */
+  function highlight(root, ts) {
+    for (const part of root.querySelectorAll(".card-title, .card-text")) {
+      const walker = document.createTreeWalker(part, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      for (const t of nodes) {
+        const frag = marked(t.nodeValue, ts);
+        if (frag.querySelector("mark")) t.replaceWith(frag);
+      }
+    }
+  }
+
+  /* ---- Full results page (/search/?q=...): the matching cards, best first. */
   async function setupPage() {
     const out = document.getElementById("search-page");
     if (!out) return;
@@ -195,30 +249,26 @@
     if (input) input.value = q;
     const summary = document.getElementById("search-summary");
     if (!q.trim()) return;
-    const hits = find(await index(), q);
+    const [all, cards] = await Promise.all([
+      index(), fetch(at("cards.json"), { credentials: "same-origin" }).then((r) => r.json())]);
+    const hits = find(all, q).filter((r) => cards[r.i]);
     const ts = terms(q);
     summary.textContent = hits.length
       ? `${hits.length} item${hits.length === 1 ? "" : "s"} match "${q}", best matches first.`
       : `No items match "${q}". Try fewer or shorter words.`;
     out.replaceChildren();
     for (const r of hits) {
-      const art = el("article", "story");
-      const k = el("p", "kicker");
-      const ka = el("a", null, r.k);
-      ka.href = at(`section/${r.s}/`);
-      k.append(ka, el("span", "sep", "·"), el("time", null, dayOf(r.d)));
-      const h = el("h3", "headline");
-      const ha = el("a");
-      ha.href = at(r.u);
-      ha.append(marked(r.h, ts));
-      h.append(ha);
-      const p = el("p", "dek");
-      p.append(marked(r.b, ts));
-      art.append(k, h, p);
-      out.append(art);
+      const parsed = new DOMParser().parseFromString(cards[r.i], "text/html").body.firstElementChild;
+      if (!parsed) continue;
+      const card = document.importNode(parsed, true);
+      highlight(card, ts);
+      reveal(card);
+      out.append(card);
     }
   }
 
+  setupTheme();
+  setupCopy();
   setupStream();
   setupBox();
   setupPage();

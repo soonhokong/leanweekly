@@ -2,21 +2,23 @@
 <html lang="en" data-root="../">
 <head>
 <meta charset="utf-8">
+<script src="../assets/theme.js?v=e617464e73"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Week of Jan 15, 2026 · Lean Weekly</title>
 <meta name="description" content="News about Lean, the theorem prover and programming language.">
 <link rel="preload" href="../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/lw.css?v=0c8706d3fb">
+<link rel="stylesheet" href="../assets/lw.css?v=566665bde1">
 <link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../feed.xml">
 <link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../feed.json">
-<script defer src="../assets/lw.js?v=ffef22517a"></script>
+<script defer src="../assets/lw.js?v=a6ebd5a046"></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to the news</a>
-<header class="masthead">
-<div class="mast-row">
-  <p class="dateline">Thursday, October 15, 2026</p>
-  <a class="wordmark" href="../">Lean Weekly</a>
+<header class="bar">
+<div class="bar-row">
+  <div class="brand"><a class="wordmark" href="../" aria-label="Lean Weekly"><img class="logo-light" src="../assets/lean-logo-tm.svg" alt="Lean" width="80" height="30"><img class="logo-dark" src="../assets/lean-logo-tm-white.svg" alt="Lean" width="80" height="30"><span>Weekly</span></a>
+  <p class="tagline">News about Lean, the theorem prover and programming language.</p></div>
+  <button class="theme" type="button" hidden aria-label="Switch to night mode"><svg class="i-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg><svg class="i-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
   <form class="search" role="search" action="../search/" method="get">
     <label class="sr-only" for="q">Search Lean news</label>
     <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
@@ -24,57 +26,73 @@
     <div class="search-results" id="search-results" role="listbox" hidden></div>
   </form>
 </div>
-<p class="tagline">News about Lean, the theorem prover and programming language.</p>
-<nav class="sections" aria-label="Sections"><a href="../" aria-current="page">Latest</a><a href="../section/ai/">AI and formalization</a><a href="../section/verification/">Verification</a><a href="../section/lean-core/">Lean core</a><a href="../section/papers/">Papers and events</a></nav>
+<nav class="tabs" aria-label="Sections"><a class="t-latest" href="../">Latest</a><a class="t-ai" href="../section/ai/">AI and formalization</a><a class="t-verification" href="../section/verification/">Verification</a><a class="t-lean-core" href="../section/lean-core/">Lean core</a><a class="t-papers" href="../section/papers/">Papers and events</a><span class="tabs-gap"></span><a class="quiet" href="../about/">About</a><a class="quiet" href="../feed.xml">RSS</a></nav>
 </header>
 <main id="main">
-<header class="section-head"><h1 class="page-title">Week of Jan 15, 2026</h1><p class="section-blurb">Edition 2: 6 items published for Jan 8 to Jan 15, 2026.</p></header>
-<div class="layout"><div class="col"><h2 class="label">In this edition</h2>
+<div class="frame"><div class="timeline">
+<header class="page-head"><h1 class="page-title">Week of Jan 15, 2026</h1><p class="page-blurb">Edition 2: 6 items published for Jan 8 to Jan 15, 2026.</p></header>
+
 <div class="stream">
-<article class="story imp-4 has-pic" id="2026-01-15-axiom-s-axiomprover-solves-all-12-putnam-problems-with-lean-proo">
-<div class="story-text">
-  <p class="kicker"><a class="k-ai" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-11">Jan 11</time></p>
-  <h3 class="headline"><a href="../item/2026-01-15-axiom-s-axiomprover-solves-all-12-putnam-problems-with-lean-proo/">Axiom's AxiomProver solves all 12 Putnam problems with Lean proofs</a></h3>
-  <p class="dek"><a class="inl" href="https://www.linkedin.com/posts/dhyey-mavani_12-problems-from-the-hardest-math-exam-converted-activity-7416256349250048000-zzpn" rel="noopener">AxiomProver</a>, an autonomous AI theorem prover built by Axiom, solved 12 out of 12 problems from the Putnam Competition, 8 of them within the strict exam time limit, producing formal proofs in Lean. One combinatorial step in Problem A5 required 2,054 lines of formal proof.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/dhyey-mavani_12-problems-from-the-hardest-math-exam-converted-activity-7416256349250048000-zzpn" rel="noopener">LinkedIn post</a></p>
+<article class="card c-ai" id="2026-01-15-axiom-s-axiomprover-solves-all-12-putnam-problems-with-lean-proo">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-15/#2026-01-15-axiom-s-axiomprover-solves-all-12-putnam-problems-with-lean-proo" title="Link to this item"><time datetime="2026-01-11">Jan 11</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Axiom's AxiomProver solves all 12 Putnam problems with Lean proofs</h2>
+    <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/dhyey-mavani_12-problems-from-the-hardest-math-exam-converted-activity-7416256349250048000-zzpn" rel="noopener">AxiomProver</a>, an autonomous AI theorem prover built by Axiom, solved 12 out of 12 problems from the Putnam Competition, 8 of them within the strict exam time limit, producing formal proofs in Lean. One combinatorial step in Problem A5 required 2,054 lines of formal proof.</p>
+    <figure class="media"><img src="../assets/img/2557f4367a01df1c-480.webp" srcset="../assets/img/2557f4367a01df1c-480.webp 480w, ../assets/img/2557f4367a01df1c-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="512" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/dhyey-mavani_12-problems-from-the-hardest-math-exam-converted-activity-7416256349250048000-zzpn" rel="noopener">LinkedIn post</a></p>
+  </div>
+</article>
+<article class="card c-ai" id="2026-01-15-hacker-news-discusses-erdos-problem-728-solved-largely-autonomou">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-15/#2026-01-15-hacker-news-discusses-erdos-problem-728-solved-largely-autonomou" title="Link to this item"><time datetime="2026-01-09">Jan 9</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Hacker News discusses Erdos problem #728 solved largely autonomously by AI</h2>
+    <p class="card-text"><a class="inl" href="https://news.ycombinator.com/item?id=46560445" rel="noopener">A Hacker News thread</a> on the claim that Erdos problem #728 &quot;was solved more or less autonomously by AI&quot; drew 619 points and 363 comments. A Harmonic employee said Aristotle, the company's system, can translate an informal English proof into Lean, and commenters debated how to check that a theorem statement is formalized correctly.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://news.ycombinator.com/item?id=46560445" rel="noopener">news.ycombinator.com</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-01-15-sebastian-ullrich-proposes-bundling-lean-s-init-library-into-one">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-15/#2026-01-15-sebastian-ullrich-proposes-bundling-lean-s-init-library-into-one" title="Link to this item"><time datetime="2026-01-10">Jan 10</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich proposes bundling Lean's Init library into one .olean file</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/11965" rel="noopener">A pull request by Sebastian Ullrich</a> bundles all <code>Init</code> module files into a single file with cross-sharing, reducing cumulative size from 325MB to 264MB and <code>openat</code> calls for <code>import Init</code> on Linux from about 2000 to about 80. The pull request is still open.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/11965" rel="noopener">lean4#11965</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-01-15-leo-de-moura-removes-super-linear-kernel-overhead-in-lambda-simp">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-15/#2026-01-15-leo-de-moura-removes-super-linear-kernel-overhead-in-lambda-simp" title="Link to this item"><time datetime="2026-01-08">Jan 8</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura removes super-linear kernel overhead in lambda simplification</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/11932" rel="noopener">A merged Lean pull request</a> by Leo de Moura improves the proof term produced by <code>mkFunext</code>, which <code>Sym.simp</code> uses when simplifying lambda expressions. For a 200-lambda benchmark, kernel checking time fell from 148.681 ms to 6.903 ms, and the approach will later come to <code>Meta.simp</code>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/11932" rel="noopener">lean4#11932</a></p>
+  </div>
+</article>
+<article class="card c-papers" id="2026-01-15-martin-ciupa-summarizes-tom-kalil-s-interview-with-terence-tao-o">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-15/#2026-01-15-martin-ciupa-summarizes-tom-kalil-s-interview-with-terence-tao-o" title="Link to this item"><time datetime="2026-01-12">Jan 12</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Martin Ciupa summarizes Tom Kalil's interview with Terence Tao on AI in math</h2>
+    <p class="card-text">In <a class="inl" href="https://www.linkedin.com/posts/martin-ciupa-76418b17_is-math-the-next-ai-frontier-a-conversation-activity-7416497501903511552-aEXF" rel="noopener">a LinkedIn post</a>, Martin Ciupa recaps the conversation, in which Terence Tao calls automating formalization (turning ordinary math into proof-assistant-checked form) the near-term change, stresses formal verification over trusting AI blindly, and highlights Lean-style autocomplete that fills a line or two at a time.</p>
+    <figure class="media"><img src="../assets/img/848715284da3a40c-480.webp" srcset="../assets/img/848715284da3a40c-480.webp 480w, ../assets/img/848715284da3a40c-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="440" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/martin-ciupa-76418b17_is-math-the-next-ai-frontier-a-conversation-activity-7416497501903511552-aEXF" rel="noopener">LinkedIn post</a></p>
+  </div>
+</article>
+<article class="card c-papers" id="2026-01-15-lean-together-2026-schedule-mixes-casual-and-formal-presentation">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><a class="when" href="../2026-01-15/#2026-01-15-lean-together-2026-schedule-mixes-casual-and-formal-presentation" title="Link to this item"><time datetime="2026-01-01">Jan 1</time></a><button class="copy" type="button" hidden aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean Together 2026 schedule mixes casual and formal presentations</h2>
+    <p class="card-text"><a class="inl" href="https://leanprover-community.github.io/lt2026/schedule.html" rel="noopener">The Lean Together 2026 schedule</a> includes a mix of casual and more formal presentations, with talks running around four hours each day and staggered start times for different time zones. Recordings of all talks are on the Lean community YouTube channel.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover-community.github.io/lt2026/schedule.html" rel="noopener">leanprover-community.github.io</a></p>
+  </div>
+</article>
 </div>
-<figure class="pic pic-story"><a href="../item/2026-01-15-axiom-s-axiomprover-solves-all-12-putnam-problems-with-lean-proo/" tabindex="-1" aria-hidden="true"><img src="../assets/img/2557f4367a01df1c-480.webp" srcset="../assets/img/2557f4367a01df1c-480.webp 480w, ../assets/img/2557f4367a01df1c-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="800" height="512" alt="" loading="lazy" decoding="async"></a></figure>
-</article>
-<article class="story imp-3" id="2026-01-15-hacker-news-discusses-erdos-problem-728-solved-largely-autonomou">
-  <p class="kicker"><a class="k-ai" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-09">Jan 9</time></p>
-  <h3 class="headline"><a href="../item/2026-01-15-hacker-news-discusses-erdos-problem-728-solved-largely-autonomou/">Hacker News discusses Erdos problem #728 solved largely autonomously by AI</a></h3>
-  <p class="dek"><a class="inl" href="https://news.ycombinator.com/item?id=46560445" rel="noopener">A Hacker News thread</a> on the claim that Erdos problem #728 &quot;was solved more or less autonomously by AI&quot; drew 619 points and 363 comments. A Harmonic employee said Aristotle, the company's system, can translate an informal English proof into Lean, and commenters debated how to check that a theorem statement is formalized correctly.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://news.ycombinator.com/item?id=46560445" rel="noopener">news.ycombinator.com</a></p>
-</article>
-<article class="story imp-3" id="2026-01-15-sebastian-ullrich-proposes-bundling-lean-s-init-library-into-one">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-10">Jan 10</time></p>
-  <h3 class="headline"><a href="../item/2026-01-15-sebastian-ullrich-proposes-bundling-lean-s-init-library-into-one/">Sebastian Ullrich proposes bundling Lean's Init library into one .olean file</a></h3>
-  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/pull/11965" rel="noopener">A pull request by Sebastian Ullrich</a> bundles all <code>Init</code> module files into a single file with cross-sharing, reducing cumulative size from 325MB to 264MB and <code>openat</code> calls for <code>import Init</code> on Linux from about 2000 to about 80. The pull request is still open.</p>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/11965" rel="noopener">lean4#11965</a></p>
-</article>
-<section class="briefs" aria-label="In brief"><h3 class="briefs-label">In brief</h3><div class="briefs-grid">
-<article class="brief" id="2026-01-15-leo-de-moura-removes-super-linear-kernel-overhead-in-lambda-simp">
-  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-08">Jan 8</time></p>
-  <h3 class="headline"><a href="../item/2026-01-15-leo-de-moura-removes-super-linear-kernel-overhead-in-lambda-simp/">Leo de Moura removes super-linear kernel overhead in lambda simplification</a></h3>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/11932" rel="noopener">lean4#11932</a></p>
-</article>
-<article class="brief" id="2026-01-15-martin-ciupa-summarizes-tom-kalil-s-interview-with-terence-tao-o">
-  <p class="kicker"><a class="k-papers" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-12">Jan 12</time></p>
-  <h3 class="headline"><a href="../item/2026-01-15-martin-ciupa-summarizes-tom-kalil-s-interview-with-terence-tao-o/">Martin Ciupa summarizes Tom Kalil's interview with Terence Tao on AI in math</a></h3>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/martin-ciupa-76418b17_is-math-the-next-ai-frontier-a-conversation-activity-7416497501903511552-aEXF" rel="noopener">LinkedIn post</a></p>
-</article>
-<article class="brief" id="2026-01-15-lean-together-2026-schedule-mixes-casual-and-formal-presentation">
-  <p class="kicker"><a class="k-papers" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-01">Jan 1</time></p>
-  <h3 class="headline"><a href="../item/2026-01-15-lean-together-2026-schedule-mixes-casual-and-formal-presentation/">Lean Together 2026 schedule mixes casual and formal presentations</a></h3>
-  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover-community.github.io/lt2026/schedule.html" rel="noopener">leanprover-community.github.io</a></p>
-</article>
-</div></section>
 </div></div>
-<aside class="rail" aria-label="More">
-<section class="box"><h2 class="label">Sections</h2><ul class="sec-list"><li><a href="../section/ai/"><span>AI and formalization</span><span class="count">35</span></a></li><li><a href="../section/verification/"><span>Verification</span><span class="count">32</span></a></li><li><a href="../section/lean-core/"><span>Lean core</span><span class="count">142</span></a></li><li><a href="../section/papers/"><span>Papers and events</span><span class="count">53</span></a></li></ul></section>
-<section class="box about-box"><h2 class="label">About</h2><p>News about Lean, the theorem prover and programming language. Each item links to the public sources it was checked against.</p><p><a href="../about/">How it works</a> · <a href="../archive/">Weekly editions</a> · <a href="../feed.xml">RSS</a></p></section>
-</aside></div>
 </main>
-<footer class="foot"><div class="foot-in"><p><a class="foot-mark" href="../">Lean Weekly</a></p><p><a href="../about/">About</a> · <a href="../archive/">Weekly editions</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
+<p class="sr-only" id="status" role="status" aria-live="polite"></p>
+<footer class="foot"><div class="foot-in"><p><a href="../about/">About</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
 </body>
 </html>
