@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week of Aug 27, 2026 · Lean Weekly</title>
+<meta name="description" content="News about Lean, the theorem prover and programming language.">
+<link rel="preload" href="../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/lw.css?v=0c8706d3fb">
+<link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../feed.json">
+<script defer src="../assets/lw.js?v=ffef22517a"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the news</a>
+<header class="masthead">
+<div class="mast-row">
+  <p class="dateline">Thursday, October 15, 2026</p>
+  <a class="wordmark" href="../">Lean Weekly</a>
+  <form class="search" role="search" action="../search/" method="get">
+    <label class="sr-only" for="q">Search Lean news</label>
+    <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <kbd aria-hidden="true">/</kbd>
+    <div class="search-results" id="search-results" role="listbox" hidden></div>
+  </form>
+</div>
+<p class="tagline">News about Lean, the theorem prover and programming language.</p>
+<nav class="sections" aria-label="Sections"><a href="../" aria-current="page">Latest</a><a href="../section/ai/">AI and formalization</a><a href="../section/verification/">Verification</a><a href="../section/lean-core/">Lean core</a><a href="../section/papers/">Papers and events</a></nav>
+</header>
+<main id="main">
+<header class="section-head"><h1 class="page-title">Week of Aug 27, 2026</h1><p class="section-blurb">Edition 26: 18 items published for Aug 15 to Aug 27, 2026.</p></header>
+<div class="layout"><div class="col"><h2 class="label">In this edition</h2>
+<div class="stream">
+<article class="story imp-4" id="2026-08-27-lean-fro-publishes-postmortem-of-kernel-soundness-bug-hunt-with">
+  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-24">Aug 24</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-lean-fro-publishes-postmortem-of-kernel-soundness-bug-hunt-with/">Lean FRO publishes postmortem of kernel soundness bug hunt with OpenAI models</a></h3>
+  <p class="dek">Daniel Selsam used OpenAI internal models to <a class="inl" href="https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt" rel="noopener">find soundness issues in the official Lean kernel and runtime</a> from July 30 to August 20, and Lean v4.33.1, released August 21, fixes all of them. Starting with Lean v4.35.0, lake check will export and recheck projects using lean4checker.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt" rel="noopener">leodemoura.github.io</a></p>
+</article>
+<article class="story imp-4" id="2026-08-27-lean-fro-publishes-six-month-roadmap-for-september-2026-to-febru">
+  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-27">Aug 27</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-lean-fro-publishes-six-month-roadmap-for-september-2026-to-febru/">Lean FRO publishes six-month roadmap for September 2026 to February 2027</a></h3>
+  <p class="dek"><a class="inl" href="https://lean-lang.org/fro/roadmap/y4-1/" rel="noopener">The roadmap</a> covers lake check commands for external kernel checking, a code formatter, <a class="inl" href="https://nerodia.lean-lang.org/" rel="noopener">Nerodia</a> (a Lean/Python FFI inspired by PyO3), and faster typeclass inference. It also covers the FRO's AI projects <a class="inl" href="https://taucetiproject.github.io/TauCeti/" rel="noopener">Tau Ceti</a>, Hex, and <a class="inl" href="https://palomar-registry.org/" rel="noopener">Palomar</a>, and defers investment in debugger infrastructure.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/fro/roadmap/y4-1/" rel="noopener">lean-lang.org</a></p>
+</article>
+<article class="story imp-4" id="2026-08-27-lean-v4-33-1-patches-kernel-soundness-bugs-v4-34-0-rc2-also-publ">
+  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-21">Aug 21</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-lean-v4-33-1-patches-kernel-soundness-bugs-v4-34-0-rc2-also-publ/">Lean v4.33.1 patches kernel soundness bugs, v4.34.0-rc2 also published</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.33.1" rel="noopener">Lean v4.33.1</a> is a patch release with runtime and kernel fixes, including soundness issues reported by Daniel Selsam (OpenAI) using OpenAI's internal models, and all users of v4.33.0 or earlier are encouraged to upgrade. <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.34.0-rc2" rel="noopener">Release candidate 2 for v4.34.0</a> was published the same day.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/stable/releases/v4.33.1/" rel="noopener">v4.33.1 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.33.1" rel="noopener">lean4 v4.33.1</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.34.0-rc2" rel="noopener">lean4 v4.34.0-rc2</a><span class="dot" aria-hidden="true">·</span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener">v4.34.0 release notes</a></p>
+</article>
+<article class="story imp-4" id="2026-08-27-sebastian-ullrich-fixes-reference-count-overflow-that-could-enab">
+  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-20">Aug 20</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-sebastian-ullrich-fixes-reference-count-overflow-that-could-enab/">Sebastian Ullrich fixes reference count overflow that could enable a proof of False</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/pull/14838" rel="noopener">A merged Lean 4 pull request</a> freezes objects whose 32-bit reference count overflows, preventing a use-after-free in the official kernel. The new logic is validated with a transliteration of its core to Lean followed by correctness proofs in a test file. Daniel Selsam (OpenAI) reported the issue using internal models.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14838" rel="noopener">lean4#14838</a></p>
+</article>
+<article class="story imp-4" id="2026-08-27-sair-foundation-and-lean-fro-announce-the-lean-kernel-challenge">
+  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-25">Aug 25</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-sair-foundation-and-lean-fro-announce-the-lean-kernel-challenge/">SAIR Foundation and Lean FRO announce the Lean Kernel Challenge competition</a></h3>
+  <p class="dek">The competition asks participants to improve the performance of verified computation in the Lean 4 kernel (the trusted component that checks every proof accepted by Lean) with optimized implementations and machine-checked proofs of correctness. <a class="inl" href="https://x.com/Leonard41111588/status/2092297497293066592" rel="noopener">Stage 1 pre-registration</a> is open, with the official launch on September 15, 2026.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/Leonard41111588/status/2092297497293066592" rel="noopener">@Leonard41111588 on X</a><span class="dot" aria-hidden="true">·</span><a href="https://www.linkedin.com/feed/update/urn:li:activity:7498062411179098112/" rel="noopener">LinkedIn post</a></p>
+</article>
+<article class="story imp-4" id="2026-08-27-lean-fro-and-icarm-open-palomar-a-registry-of-lean-verified-math">
+  <p class="kicker"><a class="k-ai" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-18">Aug 18</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-lean-fro-and-icarm-open-palomar-a-registry-of-lean-verified-math/">Lean FRO and ICARM open Palomar, a registry of Lean-verified mathematics</a></h3>
+  <p class="dek"><a class="inl" href="https://www.linkedin.com/feed/update/urn:li:activity:7498115329475166208/" rel="noopener">Palomar</a>, a public, searchable registry of machine-checked Lean formalizations incubated by the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a> and ICARM, is now open for submissions, <a class="inl" href="https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/" rel="noopener">Terence Tao</a> announced. Submitted repository snapshots are checked mechanically with the Lean tool Comparator and by a large language model, though <a class="inl" href="https://palomar-registry.org/" rel="noopener">Palomar</a> is not a peer-reviewed journal.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/" rel="noopener">terrytao.wordpress.com</a><span class="dot" aria-hidden="true">·</span><a href="https://www.linkedin.com/feed/update/urn:li:activity:7498115329475166208/" rel="noopener">LinkedIn post</a></p>
+</article>
+<article class="story imp-4 has-pic" id="2026-08-27-vero-benchmark-tests-ai-agents-on-verified-lean-4-software-repos">
+<div class="story-text">
+  <p class="kicker"><a class="k-ai" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-13">Aug 13</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-vero-benchmark-tests-ai-agents-on-verified-lean-4-software-repos/">Vero benchmark tests AI agents on verified Lean 4 software repositories</a></h3>
+  <p class="dek">Researchers including Kaiyu Yang, Soonho Kong, Jingxuan He, and Dawn Song introduce <a class="inl" href="https://arxiv.org/abs/2608.13522" rel="noopener">Vero</a>, a benchmark of 43 multi-module instances sourced from real-world repositories, each a multi-module Lean 4 repository with predetermined API interfaces. The strongest agent fully solves only 27 of 43 instances.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2608.13522" rel="noopener">arXiv:2608.13522</a></p>
+</div>
+<figure class="pic pic-story pic-paper"><a href="../item/2026-08-27-vero-benchmark-tests-ai-agents-on-verified-lean-4-software-repos/" tabindex="-1" aria-hidden="true"><img src="../assets/img/e64d7246915c669a-480.webp" srcset="../assets/img/e64d7246915c669a-480.webp 480w, ../assets/img/e64d7246915c669a-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-3" id="2026-08-27-scott-armstrong-says-lean-formalization-became-essential-to-his">
+  <p class="kicker"><a class="k-ai" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-22">Aug 22</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-scott-armstrong-says-lean-formalization-became-essential-to-his/">Scott Armstrong says Lean formalization became essential to his research in 2026</a></h3>
+  <p class="dek">Scott Armstrong <a class="inl" href="https://x.com/scottnarmstrong/status/2091098230855491978" rel="noopener">wrote on X</a> that in March, Lean formalization was not possible for his papers, and by August it had become essential and increased the efficiency of his workflow dramatically. Scott Armstrong says the papers are getting written informally and finished much faster because of the Lean formalization.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/scottnarmstrong/status/2091098230855491978" rel="noopener">@scottnarmstrong on X</a></p>
+</article>
+<article class="story imp-3" id="2026-08-27-vasily-ilin-runs-a-collaborative-lean-4-formalization-of-mazur-s">
+  <p class="kicker"><a class="k-ai" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-27">Aug 27</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-vasily-ilin-runs-a-collaborative-lean-4-formalization-of-mazur-s/">Vasily Ilin runs a collaborative Lean 4 formalization of Mazur's torsion theorem</a></h3>
+  <p class="dek">The <a class="inl" href="https://github.com/Vilin97/MazurTheorem" rel="noopener">Vilin97/MazurTheorem repository</a> targets the classification of rational torsion on elliptic curves, using Mazur's degree-one formal-immersion argument at the auxiliary prime 5. The project reports an integrated score of 17.2% on its 48-node, 1,000-point theorem DAG, and it accepts claims only on contracts marked open or research_open.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/Vilin97/MazurTheorem" rel="noopener">Vilin97/MazurTheorem</a></p>
+</article>
+<article class="story imp-3" id="2026-08-27-paul-butcher-builds-a-complete-production-todomvc-webapp-in-lean">
+  <p class="kicker"><a class="k-verification" href="../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-27">Aug 27</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-paul-butcher-builds-a-complete-production-todomvc-webapp-in-lean/">Paul Butcher builds a complete production TodoMVC webapp in Lean 4</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/paulbutcher/lean-todomvc-max" rel="noopener">The repository</a> adds passwordless sign-in, SQL migrations, OpenTelemetry traces and logs, an MCP endpoint, and deployment to AWS Lambda, built on Paul Butcher's own Lean libraries. Markup is typed and formally verified (a <code>&lt;div&gt;</code> inside a <code>&lt;p&gt;</code> is a type error), and lean-json is proved correct against the grammar of RFC 8259.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/paulbutcher/lean-todomvc-max" rel="noopener">paulbutcher/lean-todomvc-max</a></p>
+</article>
+<article class="story imp-4" id="2026-08-27-lean-4-redefines-decidable-as-a-bool-paired-with-a-proof">
+  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-20">Aug 20</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-lean-4-redefines-decidable-as-a-bool-paired-with-a-proof/">Lean 4 redefines Decidable as a Bool paired with a proof</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/pull/8309" rel="noopener">A pull request by Robin Arnez</a>, merged on 2026-08-20, changes <code>Decidable p</code> to a structure containing a <code>Bool</code> and a proof of either <code>p</code> or <code>¬p</code>, giving more definitional equalities and letting the <code>decide</code> tactic stop carrying proofs. The breaking change was possible now that the new compiler is enabled.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/8309" rel="noopener">lean4#8309</a></p>
+</article>
+<article class="story imp-3" id="2026-08-27-lean-adds-leanchecker-paranoid-and-lake-challenge-joachim-breitn">
+  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-27">Aug 27</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-lean-adds-leanchecker-paranoid-and-lake-challenge-joachim-breitn/">Lean adds leanchecker-paranoid and lake challenge; Joachim Breitner releases inductive models</a></h3>
+  <p class="dek">Sebastian Ullrich merged <a class="inl" href="https://github.com/leanprover/lean4/pull/14885" rel="noopener">leanchecker-paranoid</a>, a variant of leanchecker built with allocator hardening, and <a class="inl" href="https://github.com/leanprover/lean4/pull/14884" rel="noopener">lake challenge</a>, a frontend to <a class="inl" href="https://github.com/leanprover/comparator" rel="noopener">comparator</a> that simplifies its setup. Joachim Breitner's <a class="inl" href="https://github.com/nomeata/lean-inductive-models" rel="noopener">lean-inductive-models</a> performs translation validation of user-defined Lean inductives into an extensional type system with a small hard-coded inductive basis.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14885" rel="noopener">lean4#14885</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14884" rel="noopener">lean4#14884</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/nomeata/lean-inductive-models" rel="noopener">nomeata/lean-inductive-models</a><span class="dot" aria-hidden="true">·</span><a href="https://arena.lean-lang.org/" rel="noopener">arena.lean-lang.org</a></p>
+</article>
+<article class="story imp-3 has-pic" id="2026-08-27-renaissance-philanthropy-runs-the-cslib-initiative-to-support-cs">
+<div class="story-text">
+  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-27">Aug 27</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-renaissance-philanthropy-runs-the-cslib-initiative-to-support-cs/">Renaissance Philanthropy runs the CSLib Initiative to support CSLib's growth</a></h3>
+  <p class="dek">The <a class="inl" href="https://www.cslib.io/initiative/" rel="noopener">CSLib Initiative</a>, a program of Renaissance Philanthropy, supports the growth of the <a class="inl" href="https://github.com/leanprover/cslib" rel="noopener">CSLib</a> open-source project (a focused effort on formalizing computer science in Lean) in the same way that the <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> Initiative supports Mathlib. Its site lists a team, a Strategic Advisory Board, and a roadmap of operational goals guiding its funding.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.cslib.io/initiative/" rel="noopener">cslib.io</a></p>
+</div>
+<figure class="pic pic-story"><a href="../item/2026-08-27-renaissance-philanthropy-runs-the-cslib-initiative-to-support-cs/" tabindex="-1" aria-hidden="true"><img src="../assets/img/54253bb5219edd4b-480.webp" srcset="../assets/img/54253bb5219edd4b-480.webp 480w, ../assets/img/54253bb5219edd4b-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="1200" height="630" alt="CSLib" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-3" id="2026-08-27-sebastian-graf-moves-verina-contracts-onto-programs-and-names-ve">
+  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-13">Aug 13</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-sebastian-graf-moves-verina-contracts-onto-programs-and-names-ve/">Sebastian Graf moves VERINA contracts onto programs and names verification-condition variables</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/pull/14759" rel="noopener">Two merged Lean pull requests</a> by Sebastian Graf state each VERINA program's requires, ensures and loop invariants on the definition itself, for all 27 programs. <a class="inl" href="https://github.com/leanprover/lean4/pull/14590" rel="noopener">A second pull request</a> names a verification condition's variables after the program (acc, x instead of b✝), so proofs no longer need rename_i.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14759" rel="noopener">lean4#14759</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14590" rel="noopener">lean4#14590</a></p>
+</article>
+<article class="story imp-3" id="2026-08-27-lake-now-fetches-dependencies-as-treeless-partial-git-clones">
+  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-17">Aug 17</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-lake-now-fetches-dependencies-as-treeless-partial-git-clones/">Lake now fetches dependencies as treeless partial Git clones</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/pull/14782" rel="noopener">A merged pull request by Mac Malone</a> makes <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> fetch dependencies as treeless partial Git clones of a single revision, minimizing the amount of data downloaded. One caveat: Git operations inside a dependency, such as a git blame triggered by a VSCode extension, can cause lazy fetches.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14782" rel="noopener">lean4#14782</a></p>
+</article>
+<section class="briefs" aria-label="In brief"><h3 class="briefs-label">In brief</h3><div class="briefs-grid">
+<article class="brief" id="2026-08-27-lean-adds-strong-coinduction-principles-and-a-monotonicity-by-cl">
+  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-25">Aug 25</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-lean-adds-strong-coinduction-principles-and-a-monotonicity-by-cl/">Lean adds strong coinduction principles and a monotonicity_by clause for predicates</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14855" rel="noopener">lean4#14855</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14861" rel="noopener">lean4#14861</a></p>
+</article>
+<article class="brief" id="2026-08-27-tim-sweeney-praises-the-lean-team-s-handling-of-a-kernel-bug">
+  <p class="kicker"><a class="k-papers" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-02">Aug 2</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-tim-sweeney-praises-the-lean-team-s-handling-of-a-kernel-bug/">Tim Sweeney praises the Lean team's handling of a kernel bug</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/TimSweeneyEpic/status/2083721767651021200" rel="noopener">@TimSweeneyEpic on X</a></p>
+</article>
+</div></section>
+<article class="story imp-3" id="2026-08-27-leo-de-moura-teaches-lean-4-program-verification-at-marktoberdor">
+  <p class="kicker"><a class="k-papers" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-27">Aug 27</time></p>
+  <h3 class="headline"><a href="../item/2026-08-27-leo-de-moura-teaches-lean-4-program-verification-at-marktoberdor/">Leo de Moura teaches Lean 4 program verification at Marktoberdorf</a></h3>
+  <p class="dek">Leo de Moura's course &quot;<a class="inl" href="https://leodemoura.github.io/static/marktoberdorf2026/" rel="noopener">Lean 4 for Program Verification in the Age of AI</a>&quot; at the Marktoberdorf Summer School in Herrsching am Ammersee, August 2026, covers dependent type theory, programming and proving in Lean, proof automation and AI, and software verification in Lean.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/marktoberdorf2026/" rel="noopener">leodemoura.github.io</a></p>
+</article>
+</div></div>
+<aside class="rail" aria-label="More">
+<section class="box"><h2 class="label">Sections</h2><ul class="sec-list"><li><a href="../section/ai/"><span>AI and formalization</span><span class="count">35</span></a></li><li><a href="../section/verification/"><span>Verification</span><span class="count">32</span></a></li><li><a href="../section/lean-core/"><span>Lean core</span><span class="count">142</span></a></li><li><a href="../section/papers/"><span>Papers and events</span><span class="count">53</span></a></li></ul></section>
+<section class="box about-box"><h2 class="label">About</h2><p>News about Lean, the theorem prover and programming language. Each item links to the public sources it was checked against.</p><p><a href="../about/">How it works</a> · <a href="../archive/">Weekly editions</a> · <a href="../feed.xml">RSS</a></p></section>
+</aside></div>
+</main>
+<footer class="foot"><div class="foot-in"><p><a class="foot-mark" href="../">Lean Weekly</a></p><p><a href="../about/">About</a> · <a href="../archive/">Weekly editions</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
+</body>
+</html>

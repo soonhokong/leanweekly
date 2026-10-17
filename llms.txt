@@ -1,0 +1,139 @@
+# Lean Weekly
+
+> News about Lean, the theorem prover and programming language. Each item links to the public sources it was checked against.
+
+## Latest items
+
+- [OpenAI publishes 719 model-produced math manuscripts, about 42% Lean-formalized](https://soonhokong.github.io/leanweekly/item/2026-10-15-openai-publishes-719-model-produced-math-manuscripts-about-42-le/): AI and formalization, 2026-10-15
+- [Machine-checked Lean 4 proof of the general Courtade–Kumar inequality released](https://soonhokong.github.io/leanweekly/item/2026-10-15-machine-checked-lean-4-proof-of-the-general-courtade-kumar-inequ/): AI and formalization, 2026-10-15
+- [Emina Torlak presents SymCert, a Lean framework for verified Cedar policy analyses](https://soonhokong.github.io/leanweekly/item/2026-10-15-emina-torlak-presents-symcert-a-lean-framework-for-verified-ceda/): Verification, 2026-10-15
+- [Flapjack ports the verified Pancake compiler from HOL4 to Lean](https://soonhokong.github.io/leanweekly/item/2026-10-15-flapjack-ports-the-verified-pancake-compiler-from-hol4-to-lean/): Verification, 2026-10-15
+- [Joachim Breitner and Lean FRO describe the proof behind con-leche checker](https://soonhokong.github.io/leanweekly/item/2026-10-15-joachim-breitner-and-lean-fro-describe-the-proof-behind-con-lech/): Lean core, 2026-10-14
+- [Google's Gemini 4 Argon writes a Lean-verified quantum arcsin implementation](https://soonhokong.github.io/leanweekly/item/2026-10-15-google-s-gemini-4-argon-writes-a-lean-verified-quantum-arcsin-im/): AI and formalization, 2026-10-13
+- [Julia Markus Himmel reworks order instances across Lean core types](https://soonhokong.github.io/leanweekly/item/2026-10-15-julia-markus-himmel-reworks-order-instances-across-lean-core-typ/): Lean core, 2026-10-13
+- [Lean 4.35.0 ships vcgen, lake check, and bundled independent kernels](https://soonhokong.github.io/leanweekly/item/2026-10-15-lean-4-35-0-ships-vcgen-lake-check-and-bundled-independent-kerne/): Lean core, 2026-10-12
+- [Sebastian Ullrich removes Lean's 255-object-field limit per constructor](https://soonhokong.github.io/leanweekly/item/2026-10-15-sebastian-ullrich-removes-lean-s-255-object-field-limit-per-cons/): Lean core, 2026-10-12
+- [Sebastian Ullrich merges two fixes to how Lean modules export theorems](https://soonhokong.github.io/leanweekly/item/2026-10-15-sebastian-ullrich-merges-two-fixes-to-how-lean-modules-export-th/): Lean core, 2026-10-09
+- [AI proof-search agent resolves nine open Erdős problems, verified in Lean](https://soonhokong.github.io/leanweekly/item/2026-10-15-ai-proof-search-agent-resolves-nine-open-erd-s-problems-verified/): AI and formalization, 2026-10-08
+- [Lean reference manual documents vcgen, the successor of mvcgen in Lean 4.35](https://soonhokong.github.io/leanweekly/item/2026-10-15-lean-reference-manual-documents-vcgen-the-successor-of-mvcgen-in/): Lean core, 2026-10-07
+- [Renaissance Philanthropy and XTX Markets announce $17.1 million in AI for Math grants](https://soonhokong.github.io/leanweekly/item/2026-10-15-renaissance-philanthropy-and-xtx-markets-announce-17-1-million-i/): Papers and events, 2026-10-06
+- [Scott Armstrong publishes skill files for LLM-driven Lean autoformalization](https://soonhokong.github.io/leanweekly/item/2026-10-15-scott-armstrong-publishes-skill-files-for-llm-driven-lean-autofo/): AI and formalization, 2026-10-04
+- [Sebastian Ullrich makes Lean's type class resolution cache persist across commands](https://soonhokong.github.io/leanweekly/item/2026-10-15-sebastian-ullrich-makes-lean-s-type-class-resolution-cache-persi/): Lean core, 2026-10-04
+- [Leo de Moura adds option to run grind on Sym.simp normalizer](https://soonhokong.github.io/leanweekly/item/2026-10-15-leo-de-moura-adds-option-to-run-grind-on-sym-simp-normalizer/): Lean core, 2026-10-04
+- [Lean core gains an HTML type, renderer, and HTML-like syntax](https://soonhokong.github.io/leanweekly/item/2026-10-15-lean-core-gains-an-html-type-renderer-and-html-like-syntax/): Lean core, 2026-10-01
+- [Four authors formalize the Hamilton-Perelman proof of the Poincaré conjecture in Lean](https://soonhokong.github.io/leanweekly/item/2026-10-15-four-authors-formalize-the-hamilton-perelman-proof-of-the-poinca/): AI and formalization, 2026-09-27
+- [NASA Jet Propulsion Laboratory formalizes a metrology quantity calculus in Lean 4](https://soonhokong.github.io/leanweekly/item/2026-09-24-nasa-jet-propulsion-laboratory-formalizes-a-metrology-quantity-c/): Verification, 2026-09-24
+- [lazylean, a lazy-evaluation Lean kernel, competes in the Lean Kernel Arena](https://soonhokong.github.io/leanweekly/item/2026-09-24-lazylean-a-lazy-evaluation-lean-kernel-competes-in-the-lean-kern/): Lean core, 2026-09-24
+- [Keith Adler releases Lean Studio, a native desktop IDE for Lean 4](https://soonhokong.github.io/leanweekly/item/2026-09-24-keith-adler-releases-lean-studio-a-native-desktop-ide-for-lean-4/): Lean core, 2026-09-24
+- [Leo de Moura adds a polynomial arithmetic normalizer to Lean's Sym.simp](https://soonhokong.github.io/leanweekly/item/2026-09-24-leo-de-moura-adds-a-polynomial-arithmetic-normalizer-to-lean-s-s/): Lean core, 2026-09-23
+- [Lean Workbench adds basic static Verso publications](https://soonhokong.github.io/leanweekly/item/2026-10-15-lean-workbench-adds-basic-static-verso-publications/): Lean core, 2026-09-23
+- [Boris Cherny used Opus 5.5 and Lean to verify the Claude Agent SDK](https://soonhokong.github.io/leanweekly/item/2026-09-24-boris-cherny-used-opus-5-5-and-lean-to-verify-the-claude-agent-s/): Verification, 2026-09-22
+- [Paper ports Iris, a concurrent separation logic framework, to Lean](https://soonhokong.github.io/leanweekly/item/2026-09-24-paper-ports-iris-a-concurrent-separation-logic-framework-to-lean/): Papers and events, 2026-09-21
+- [Leo de Moura prototypes on-demand commutation theorems for state operations](https://soonhokong.github.io/leanweekly/item/2026-09-24-leo-de-moura-prototypes-on-demand-commutation-theorems-for-state/): Lean core, 2026-09-21
+- [Ten Claude Opus 5.5 agents produce a Lean-verified shortest-path algorithm, C-HD](https://soonhokong.github.io/leanweekly/item/2026-09-24-ten-claude-opus-5-5-agents-produce-a-lean-verified-shortest-path/): AI and formalization, 2026-09-20
+- [Trail of Bits proves Miden core library arithmetic correct with AI-generated Lean proofs](https://soonhokong.github.io/leanweekly/item/2026-10-15-trail-of-bits-proves-miden-core-library-arithmetic-correct-with/): Verification, 2026-09-18
+- [Velvet 2.0 released, and Ilya Sergey publishes Vermilion, a Lean backend for Verus](https://soonhokong.github.io/leanweekly/item/2026-09-24-velvet-2-0-released-and-ilya-sergey-publishes-vermilion-a-lean-b/): Verification, 2026-09-18
+- [Lean merges rewritten Verso docstring parser, unblocking automatic formatting](https://soonhokong.github.io/leanweekly/item/2026-09-24-lean-merges-rewritten-verso-docstring-parser-unblocking-automati/): Lean core, 2026-09-18
+- [Kim Morrison proposes supply-chain audits for Mathlib dependency updates](https://soonhokong.github.io/leanweekly/item/2026-10-15-kim-morrison-proposes-supply-chain-audits-for-mathlib-dependency/): Lean core, 2026-09-18
+- [Trivet combines LLMs and Lean to validate LLVM compiler transformations](https://soonhokong.github.io/leanweekly/item/2026-09-24-trivet-combines-llms-and-lean-to-validate-llvm-compiler-transfor/): Verification, 2026-09-17
+- [Lake gains a samply profiling command, copied path dependencies, and separate codegen](https://soonhokong.github.io/leanweekly/item/2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a/): Lean core, 2026-09-17
+- [Lean publishes hex, an aggregator for verified computational algebra libraries](https://soonhokong.github.io/leanweekly/item/2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge/): Lean core, 2026-09-17
+- [Lean FRO publishes con-ron, a Rust port of the con-leche checker](https://soonhokong.github.io/leanweekly/item/2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker/): Lean core, 2026-09-17
+- [Wojciech Nawrocki adds an HTML type and HTML-like syntax to Lean](https://soonhokong.github.io/leanweekly/item/2026-09-17-wojciech-nawrocki-adds-an-html-type-and-html-like-syntax-to-lean/): Lean core, 2026-09-17
+- [XTX Markets grants $10mn each to Lean FRO and the Mathlib Initiative](https://soonhokong.github.io/leanweekly/item/2026-09-17-xtx-markets-grants-10mn-each-to-lean-fro-and-the-mathlib-initiat/): Papers and events, 2026-09-16
+- [Lean FRO and SAIR Foundation launch Stage 1 of Lean Kernel Challenge](https://soonhokong.github.io/leanweekly/item/2026-09-17-lean-fro-and-sair-foundation-launch-stage-1-of-lean-kernel-chall/): Lean core, 2026-09-16
+- [Robert Joseph George, Will Adkisson, Anima Anandkumar present FloatLib for Lean 4](https://soonhokong.github.io/leanweekly/item/2026-09-24-robert-joseph-george-will-adkisson-anima-anandkumar-present-floa/): Lean core, 2026-09-16
+- [Lean 4.34.0 fixes three kernel soundness issues found with AI testing](https://soonhokong.github.io/leanweekly/item/2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te/): Lean core, 2026-09-14
+- [Son Ho and colleagues verify Rust code in Microsoft's SymCrypt with Lean](https://soonhokong.github.io/leanweekly/item/2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w/): Verification, 2026-09-14
+- [Greg Brockman says AI makes formally verifying all software possible](https://soonhokong.github.io/leanweekly/item/2026-09-17-greg-brockman-says-ai-makes-formally-verifying-all-software-poss/): Papers and events, 2026-09-14
+- [Certora proves zlib's inflate_table memory-safe and terminating in Lean](https://soonhokong.github.io/leanweekly/item/2026-09-17-certora-proves-zlib-s-inflate-table-memory-safe-and-terminating/): Verification, 2026-09-10
+- [Joachim Breitner announces con-leche, a Lean checker proven consistent](https://soonhokong.github.io/leanweekly/item/2026-09-17-joachim-breitner-announces-con-leche-a-lean-checker-proven-consi/): Lean core, 2026-09-10
+- [OpenAI announces Lean-checked singularity in the 3D Navier-Stokes equations](https://soonhokong.github.io/leanweekly/item/2026-09-17-openai-announces-lean-checked-singularity-in-the-3d-navier-stoke/): AI and formalization, 2026-09-08
+- [Sebastian Ullrich logs build optimizations for Anthropic's Lean proof of Fermat's Last Theorem](https://soonhokong.github.io/leanweekly/item/2026-09-17-sebastian-ullrich-logs-build-optimizations-for-anthropic-s-lean/): Lean core, 2026-09-07
+- [Kim Morrison opens Mathlib PRs for certified root counting and sum-of-squares](https://soonhokong.github.io/leanweekly/item/2026-09-24-kim-morrison-opens-mathlib-prs-for-certified-root-counting-and-s/): Lean core, 2026-09-07
+- [Anthropic's Claude formalizes a complete proof of Fermat's Last Theorem in Lean](https://soonhokong.github.io/leanweekly/item/2026-09-17-anthropic-s-claude-formalizes-a-complete-proof-of-fermat-s-last/): AI and formalization, 2026-09-04
+- [Lean runtime now compiles mimalloc in and trims elaboration overhead](https://soonhokong.github.io/leanweekly/item/2026-09-17-lean-runtime-now-compiles-mimalloc-in-and-trims-elaboration-over/): Lean core, 2026-09-04
+- [Mario Carneiro to present AI-assisted formalization work on Lean's kernel at AITP'26](https://soonhokong.github.io/leanweekly/item/2026-09-03-mario-carneiro-to-present-ai-assisted-formalization-work-on-lean/): Papers and events, 2026-09-03
+- [New York University runs a Lean formalization course in fall 2026](https://soonhokong.github.io/leanweekly/item/2026-09-03-new-york-university-runs-a-lean-formalization-course-in-fall-202/): Papers and events, 2026-09-02
+- [Arthur Adjedj proposes a renovation of the Lean kernel logic](https://soonhokong.github.io/leanweekly/item/2026-09-17-arthur-adjedj-proposes-a-renovation-of-the-lean-kernel-logic/): Lean core, 2026-08-31
+- [Arthur Adjedj opens meta issue planning a renovation of Lean's kernel logic](https://soonhokong.github.io/leanweekly/item/2026-09-03-arthur-adjedj-opens-meta-issue-planning-a-renovation-of-lean-s-k/): Lean core, 2026-08-31
+- [Four new arXiv papers settle open problems with Lean 4 formalizations](https://soonhokong.github.io/leanweekly/item/2026-09-03-four-new-arxiv-papers-settle-open-problems-with-lean-4-formaliza/): Papers and events, 2026-08-31
+- [Yinjie Li formalizes new even-dimensional S-matrix inequality proof in Lean 4](https://soonhokong.github.io/leanweekly/item/2026-09-03-yinjie-li-formalizes-new-even-dimensional-s-matrix-inequality-pr/): AI and formalization, 2026-08-30
+- [Alex Meiburg adds eink0rn, a Haskell Lean 4 kernel, to the arena](https://soonhokong.github.io/leanweekly/item/2026-09-03-alex-meiburg-adds-eink0rn-a-haskell-lean-4-kernel-to-the-arena/): Lean core, 2026-08-30
+- [Essay on Proofs and Prompts warns against AI proofs of cherished conjectures](https://soonhokong.github.io/leanweekly/item/2026-09-03-essay-on-proofs-and-prompts-warns-against-ai-proofs-of-cherished/): Papers and events, 2026-08-30
+- [Maher Kallel and Mohamed El Louadi measure the audit burden of AI proofs](https://soonhokong.github.io/leanweekly/item/2026-09-03-maher-kallel-and-mohamed-el-louadi-measure-the-audit-burden-of-a/): Papers and events, 2026-08-29
+- [Prove2Me launches an open platform where AI agents formalize mathematics together](https://soonhokong.github.io/leanweekly/item/2026-09-03-prove2me-launches-an-open-platform-where-ai-agents-formalize-mat/): AI and formalization, 2026-08-28
+- [Coding agents autoformalize a norm-variation result for multiple ergodic averages in Lean](https://soonhokong.github.io/leanweekly/item/2026-09-03-coding-agents-autoformalize-a-norm-variation-result-for-multiple/): AI and formalization, 2026-08-27
+- [Lean FRO publishes six-month roadmap for September 2026 to February 2027](https://soonhokong.github.io/leanweekly/item/2026-08-27-lean-fro-publishes-six-month-roadmap-for-september-2026-to-febru/): Lean core, 2026-08-27
+- [Vasily Ilin runs a collaborative Lean 4 formalization of Mazur's torsion theorem](https://soonhokong.github.io/leanweekly/item/2026-08-27-vasily-ilin-runs-a-collaborative-lean-4-formalization-of-mazur-s/): AI and formalization, 2026-08-27
+- [Paul Butcher builds a complete production TodoMVC webapp in Lean 4](https://soonhokong.github.io/leanweekly/item/2026-08-27-paul-butcher-builds-a-complete-production-todomvc-webapp-in-lean/): Verification, 2026-08-27
+- [Lean adds leanchecker-paranoid and lake challenge; Joachim Breitner releases inductive models](https://soonhokong.github.io/leanweekly/item/2026-08-27-lean-adds-leanchecker-paranoid-and-lake-challenge-joachim-breitn/): Lean core, 2026-08-27
+- [Renaissance Philanthropy runs the CSLib Initiative to support CSLib's growth](https://soonhokong.github.io/leanweekly/item/2026-08-27-renaissance-philanthropy-runs-the-cslib-initiative-to-support-cs/): Lean core, 2026-08-27
+- [Leo de Moura teaches Lean 4 program verification at Marktoberdorf](https://soonhokong.github.io/leanweekly/item/2026-08-27-leo-de-moura-teaches-lean-4-program-verification-at-marktoberdor/): Papers and events, 2026-08-27
+- [MathAdv benchmark and ProofEvolve prover target Lean 4 theorem proving](https://soonhokong.github.io/leanweekly/item/2026-09-03-mathadv-benchmark-and-proofevolve-prover-target-lean-4-theorem-p/): AI and formalization, 2026-08-26
+- [SAIR Foundation and Lean FRO announce the Lean Kernel Challenge competition](https://soonhokong.github.io/leanweekly/item/2026-08-27-sair-foundation-and-lean-fro-announce-the-lean-kernel-challenge/): Lean core, 2026-08-25
+- [Lean adds strong coinduction principles and a monotonicity_by clause for predicates](https://soonhokong.github.io/leanweekly/item/2026-08-27-lean-adds-strong-coinduction-principles-and-a-monotonicity-by-cl/): Lean core, 2026-08-25
+- [Lean FRO publishes postmortem of kernel soundness bug hunt with OpenAI models](https://soonhokong.github.io/leanweekly/item/2026-08-27-lean-fro-publishes-postmortem-of-kernel-soundness-bug-hunt-with/): Lean core, 2026-08-24
+- [FU Berlin hosts two-week workshop formalizing polyhedra theory in Lean](https://soonhokong.github.io/leanweekly/item/2026-09-03-fu-berlin-hosts-two-week-workshop-formalizing-polyhedra-theory-i/): Papers and events, 2026-08-24
+- [Scott Armstrong says Lean formalization became essential to his research in 2026](https://soonhokong.github.io/leanweekly/item/2026-08-27-scott-armstrong-says-lean-formalization-became-essential-to-his/): AI and formalization, 2026-08-22
+- [Lean v4.33.1 patches kernel soundness bugs, v4.34.0-rc2 also published](https://soonhokong.github.io/leanweekly/item/2026-08-27-lean-v4-33-1-patches-kernel-soundness-bugs-v4-34-0-rc2-also-publ/): Lean core, 2026-08-21
+- [Sebastian Ullrich fixes reference count overflow that could enable a proof of False](https://soonhokong.github.io/leanweekly/item/2026-08-27-sebastian-ullrich-fixes-reference-count-overflow-that-could-enab/): Lean core, 2026-08-20
+- [Lean 4 redefines Decidable as a Bool paired with a proof](https://soonhokong.github.io/leanweekly/item/2026-08-27-lean-4-redefines-decidable-as-a-bool-paired-with-a-proof/): Lean core, 2026-08-20
+- [Palomar, a registry of Lean verified mathematics, opens for submissions](https://soonhokong.github.io/leanweekly/item/2026-09-03-palomar-a-registry-of-lean-verified-mathematics-opens-for-submis/): AI and formalization, 2026-08-18
+- [Lean FRO and ICARM open Palomar, a registry of Lean-verified mathematics](https://soonhokong.github.io/leanweekly/item/2026-08-27-lean-fro-and-icarm-open-palomar-a-registry-of-lean-verified-math/): AI and formalization, 2026-08-18
+- [Lake now fetches dependencies as treeless partial Git clones](https://soonhokong.github.io/leanweekly/item/2026-08-27-lake-now-fetches-dependencies-as-treeless-partial-git-clones/): Lean core, 2026-08-17
+- [Predictable Machines builds Predictable Code on Lean 4, open-sources two libraries](https://soonhokong.github.io/leanweekly/item/2026-08-15-predictable-machines-builds-predictable-code-on-lean-4-open-sour/): Verification, 2026-08-15
+- [Guide explains how to validate and report Lean kernel soundness bugs](https://soonhokong.github.io/leanweekly/item/2026-08-15-guide-explains-how-to-validate-and-report-lean-kernel-soundness/): Lean core, 2026-08-15
+- [Paul Reichert fixes instance search seeing through type synonyms in Lean](https://soonhokong.github.io/leanweekly/item/2026-08-15-paul-reichert-fixes-instance-search-seeing-through-type-synonyms/): Lean core, 2026-08-15
+- [Lean releases Nerodia, a library for writing Python modules in Lean](https://soonhokong.github.io/leanweekly/item/2026-08-15-lean-releases-nerodia-a-library-for-writing-python-modules-in-le/): Lean core, 2026-08-15
+- [Vero benchmark tests AI agents on verified Lean 4 software repositories](https://soonhokong.github.io/leanweekly/item/2026-08-27-vero-benchmark-tests-ai-agents-on-verified-lean-4-software-repos/): AI and formalization, 2026-08-13
+- [Sebastian Graf moves VERINA contracts onto programs and names verification-condition variables](https://soonhokong.github.io/leanweekly/item/2026-08-27-sebastian-graf-moves-verina-contracts-onto-programs-and-names-ve/): Lean core, 2026-08-13
+- [Leo de Moura adds a lift_lets tactic for Lean's sym => mode](https://soonhokong.github.io/leanweekly/item/2026-08-15-leo-de-moura-adds-a-lift-lets-tactic-for-lean-s-sym-mode/): Lean core, 2026-08-12
+- [Kim Morrison releases an integer polynomial factorization library for Lean](https://soonhokong.github.io/leanweekly/item/2026-08-15-kim-morrison-releases-an-integer-polynomial-factorization-librar/): Lean core, 2026-08-11
+- [Sebastian Graf extends Lean's def contracts and vcgen loop verification](https://soonhokong.github.io/leanweekly/item/2026-08-15-sebastian-graf-extends-lean-s-def-contracts-and-vcgen-loop-verif/): Lean core, 2026-08-11
+- [Claude raises Riemann zeta zero bound to 67.2%, formalized in Lean](https://soonhokong.github.io/leanweekly/item/2026-08-15-claude-raises-riemann-zeta-zero-bound-to-67-2-formalized-in-lean/): AI and formalization, 2026-08-10
+- [Lean 4.33.0 released with editor, tactic, Float, and kernel changes](https://soonhokong.github.io/leanweekly/item/2026-08-15-lean-4-33-0-released-with-editor-tactic-float-and-kernel-changes/): Lean core, 2026-08-10
+- [Ryan Peterman interviews Leo de Moura, creator of Lean and Z3](https://soonhokong.github.io/leanweekly/item/2026-08-15-ryan-peterman-interviews-leo-de-moura-creator-of-lean-and-z3/): Papers and events, 2026-08-10
+- [Mac Malone merges Lake remote cache fixes, tests, and a --package option](https://soonhokong.github.io/leanweekly/item/2026-08-15-mac-malone-merges-lake-remote-cache-fixes-tests-and-a-package-op/): Lean core, 2026-08-09
+- [Lean speed site charts Mathlib build instructions across 25,000 commits](https://soonhokong.github.io/leanweekly/item/2026-08-06-lean-speed-site-charts-mathlib-build-instructions-across-25-000/): Lean core, 2026-08-06
+- [Pramaana Labs reports solving all 6 IMO 2026 problems in Lean](https://soonhokong.github.io/leanweekly/item/2026-08-06-pramaana-labs-reports-solving-all-6-imo-2026-problems-in-lean/): AI and formalization, 2026-08-05
+- [Yueyang Feng, Ilya Sergey and coauthors present LeetProof for verified code generation](https://soonhokong.github.io/leanweekly/item/2026-08-06-yueyang-feng-ilya-sergey-and-coauthors-present-leetproof-for-ver/): AI and formalization, 2026-08-04
+- [CSLib adds a fully verified proof of the FLP impossibility result](https://soonhokong.github.io/leanweekly/item/2026-08-06-cslib-adds-a-fully-verified-proof-of-the-flp-impossibility-resul/): AI and formalization, 2026-08-03
+- [Tim Sweeney praises the Lean team's handling of a kernel bug](https://soonhokong.github.io/leanweekly/item/2026-08-27-tim-sweeney-praises-the-lean-team-s-handling-of-a-kernel-bug/): Papers and events, 2026-08-02
+- [Alexander Gerko says AI-assisted research produced several PhDs' worth of results](https://soonhokong.github.io/leanweekly/item/2026-08-06-alexander-gerko-says-ai-assisted-research-produced-several-phds/): Papers and events, 2026-07-31
+- [Sebastian Graf extends Lean's def contracts with requires and assert](https://soonhokong.github.io/leanweekly/item/2026-08-06-sebastian-graf-extends-lean-s-def-contracts-with-requires-and-as/): Lean core, 2026-07-30
+- [CircuitProver uses a Lean 4 agent to prove parameterized hardware designs correct](https://soonhokong.github.io/leanweekly/item/2026-08-06-circuitprover-uses-a-lean-4-agent-to-prove-parameterized-hardwar/): Verification, 2026-07-29
+- [Amazon provides long-term financial support to the Lean Focused Research Organization](https://soonhokong.github.io/leanweekly/item/2026-08-06-amazon-provides-long-term-financial-support-to-the-lean-focused/): Papers and events, 2026-07-26
+
+## Weekly editions (Markdown)
+
+- [Week of Oct 15, 2026](https://soonhokong.github.io/leanweekly/2026-10-15/issue.md)
+- [Week of Sep 24, 2026](https://soonhokong.github.io/leanweekly/2026-09-24/issue.md)
+- [Week of Sep 17, 2026](https://soonhokong.github.io/leanweekly/2026-09-17/issue.md)
+- [Week of Sep 3, 2026](https://soonhokong.github.io/leanweekly/2026-09-03/issue.md)
+- [Week of Aug 27, 2026](https://soonhokong.github.io/leanweekly/2026-08-27/issue.md)
+- [Week of Aug 15, 2026](https://soonhokong.github.io/leanweekly/2026-08-15/issue.md)
+- [Week of Aug 6, 2026](https://soonhokong.github.io/leanweekly/2026-08-06/issue.md)
+- [Week of Jul 23, 2026](https://soonhokong.github.io/leanweekly/2026-07-23/issue.md)
+- [Week of Jul 16, 2026](https://soonhokong.github.io/leanweekly/2026-07-16/issue.md)
+- [Week of Jul 9, 2026](https://soonhokong.github.io/leanweekly/2026-07-09/issue.md)
+- [Week of Jul 2, 2026](https://soonhokong.github.io/leanweekly/2026-07-02/issue.md)
+- [Week of Jun 25, 2026](https://soonhokong.github.io/leanweekly/2026-06-25/issue.md)
+- [Week of Jun 18, 2026](https://soonhokong.github.io/leanweekly/2026-06-18/issue.md)
+- [Week of May 28, 2026](https://soonhokong.github.io/leanweekly/2026-05-28/issue.md)
+- [Week of May 14, 2026](https://soonhokong.github.io/leanweekly/2026-05-14/issue.md)
+- [Week of May 7, 2026](https://soonhokong.github.io/leanweekly/2026-05-07/issue.md)
+- [Week of Apr 30, 2026](https://soonhokong.github.io/leanweekly/2026-04-30/issue.md)
+- [Week of Apr 23, 2026](https://soonhokong.github.io/leanweekly/2026-04-23/issue.md)
+- [Week of Apr 9, 2026](https://soonhokong.github.io/leanweekly/2026-04-09/issue.md)
+- [Week of Apr 2, 2026](https://soonhokong.github.io/leanweekly/2026-04-02/issue.md)
+- [Week of Mar 19, 2026](https://soonhokong.github.io/leanweekly/2026-03-19/issue.md)
+- [Week of Mar 5, 2026](https://soonhokong.github.io/leanweekly/2026-03-05/issue.md)
+- [Week of Feb 26, 2026](https://soonhokong.github.io/leanweekly/2026-02-26/issue.md)
+- [Week of Feb 19, 2026](https://soonhokong.github.io/leanweekly/2026-02-19/issue.md)
+- [Week of Feb 12, 2026](https://soonhokong.github.io/leanweekly/2026-02-12/issue.md)
+- [Week of Feb 5, 2026](https://soonhokong.github.io/leanweekly/2026-02-05/issue.md)
+- [Week of Jan 29, 2026](https://soonhokong.github.io/leanweekly/2026-01-29/issue.md)
+- [Week of Jan 22, 2026](https://soonhokong.github.io/leanweekly/2026-01-22/issue.md)
+- [Week of Jan 15, 2026](https://soonhokong.github.io/leanweekly/2026-01-15/issue.md)
+- [Week of Jan 8, 2026](https://soonhokong.github.io/leanweekly/2026-01-08/issue.md)

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week of Feb 26, 2026 · Lean Weekly</title>
+<meta name="description" content="News about Lean, the theorem prover and programming language.">
+<link rel="preload" href="../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/lw.css?v=0c8706d3fb">
+<link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../feed.json">
+<script defer src="../assets/lw.js?v=ffef22517a"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the news</a>
+<header class="masthead">
+<div class="mast-row">
+  <p class="dateline">Thursday, October 15, 2026</p>
+  <a class="wordmark" href="../">Lean Weekly</a>
+  <form class="search" role="search" action="../search/" method="get">
+    <label class="sr-only" for="q">Search Lean news</label>
+    <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <kbd aria-hidden="true">/</kbd>
+    <div class="search-results" id="search-results" role="listbox" hidden></div>
+  </form>
+</div>
+<p class="tagline">News about Lean, the theorem prover and programming language.</p>
+<nav class="sections" aria-label="Sections"><a href="../" aria-current="page">Latest</a><a href="../section/ai/">AI and formalization</a><a href="../section/verification/">Verification</a><a href="../section/lean-core/">Lean core</a><a href="../section/papers/">Papers and events</a></nav>
+</header>
+<main id="main">
+<header class="section-head"><h1 class="page-title">Week of Feb 26, 2026</h1><p class="section-blurb">Edition 8: 3 items published for Feb 19 to Feb 26, 2026.</p></header>
+<div class="layout"><div class="col"><h2 class="label">In this edition</h2>
+<div class="stream">
+<article class="story imp-3" id="2026-02-26-rutgers-group-formalizes-the-upcoming-ieee-p3109-floating-point">
+  <p class="kicker"><a class="k-verification" href="../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-19">Feb 19</time></p>
+  <h3 class="headline"><a href="../item/2026-02-26-rutgers-group-formalizes-the-upcoming-ieee-p3109-floating-point/">Rutgers group formalizes the upcoming IEEE-P3109 floating-point standard in Lean</a></h3>
+  <p class="dek"><a class="inl" href="https://mathstodon.xyz/@santoshgnag/116094965862661574" rel="noopener">Santosh Nagarakatte's group built FLoPS</a>, which formalizes the upcoming IEEE-P3109 standard for low-precision floating-point arithmetic in Lean. The work found errors in the draft standard, which were reported to the working group and fixed, and established properties of algorithms such as Fast2Sum in the context of P3109.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://mathstodon.xyz/@santoshgnag/116094965862661574" rel="noopener">mathstodon.xyz</a></p>
+</article>
+<article class="story imp-3" id="2026-02-26-leo-de-moura-merges-isdefeq-transparency-change-into-lean-core">
+  <p class="kicker"><a class="k-lean-core" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-16">Feb 16</time></p>
+  <h3 class="headline"><a href="../item/2026-02-26-leo-de-moura-merges-isdefeq-transparency-change-into-lean-core/">Leo de Moura merges isDefEq transparency change into Lean core</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">The pull request</a> stops isDefEq from raising transparency to .default when checking implicit arguments, which was creating scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. The PR calls it a very disruptive change, reversible with set_option backward.isDefEq.respectTransparency false. Separately, Lean published the <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc2" rel="noopener">second release candidate for v4.29.0</a>.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc2" rel="noopener">lean4 v4.29.0-rc2</a></p>
+</article>
+<article class="story imp-3" id="2026-02-26-emilio-jes-s-gallego-arias-built-a-lean-dsl-debugger-with-gpt-co">
+  <p class="kicker"><a class="k-papers" href="../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-25">Feb 25</time></p>
+  <h3 class="headline"><a href="../item/2026-02-26-emilio-jes-s-gallego-arias-built-a-lean-dsl-debugger-with-gpt-co/">Emilio Jesús Gallego Arias built a Lean DSL debugger with GPT-Codex 5.3</a></h3>
+  <p class="dek">In the blog post &quot;<a class="inl" href="https://www.joachim-breitner.de/blog/819-Vibe-coding_a_debugger_for_a_DSL" rel="noopener">Vibe-coding a debugger for a DSL</a>&quot;, Joachim Breitner describes a small language embedded in Lean with a visual debugger in Lean's Info View and VSCode debugger support via the DAP protocol, built in one day of coding with GPT-Codex 5.3.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.joachim-breitner.de/blog/819-Vibe-coding_a_debugger_for_a_DSL" rel="noopener">joachim-breitner.de</a></p>
+</article>
+</div></div>
+<aside class="rail" aria-label="More">
+<section class="box"><h2 class="label">Sections</h2><ul class="sec-list"><li><a href="../section/ai/"><span>AI and formalization</span><span class="count">35</span></a></li><li><a href="../section/verification/"><span>Verification</span><span class="count">32</span></a></li><li><a href="../section/lean-core/"><span>Lean core</span><span class="count">142</span></a></li><li><a href="../section/papers/"><span>Papers and events</span><span class="count">53</span></a></li></ul></section>
+<section class="box about-box"><h2 class="label">About</h2><p>News about Lean, the theorem prover and programming language. Each item links to the public sources it was checked against.</p><p><a href="../about/">How it works</a> · <a href="../archive/">Weekly editions</a> · <a href="../feed.xml">RSS</a></p></section>
+</aside></div>
+</main>
+<footer class="foot"><div class="foot-in"><p><a class="foot-mark" href="../">Lean Weekly</a></p><p><a href="../about/">About</a> · <a href="../archive/">Weekly editions</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
+</body>
+</html>

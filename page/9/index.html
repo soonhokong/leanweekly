@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The latest, page 9 · Lean Weekly</title>
+<meta name="description" content="News about Lean, the theorem prover and programming language.">
+<link rel="preload" href="../../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../assets/lw.css?v=0c8706d3fb">
+<link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../../feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../../feed.json">
+<script defer src="../../assets/lw.js?v=ffef22517a"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the news</a>
+<header class="masthead">
+<div class="mast-row">
+  <p class="dateline">Thursday, October 15, 2026</p>
+  <a class="wordmark" href="../../">Lean Weekly</a>
+  <form class="search" role="search" action="../../search/" method="get">
+    <label class="sr-only" for="q">Search Lean news</label>
+    <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <kbd aria-hidden="true">/</kbd>
+    <div class="search-results" id="search-results" role="listbox" hidden></div>
+  </form>
+</div>
+<p class="tagline">News about Lean, the theorem prover and programming language.</p>
+<nav class="sections" aria-label="Sections"><a href="../../" aria-current="page">Latest</a><a href="../../section/ai/">AI and formalization</a><a href="../../section/verification/">Verification</a><a href="../../section/lean-core/">Lean core</a><a href="../../section/papers/">Papers and events</a></nav>
+</header>
+<main id="main">
+<header class="section-head"><h1 class="page-title">The latest, page 9</h1></header>
+<div class="layout"><div class="col"><h2 class="label">The latest</h2>
+<div class="stream">
+<article class="story imp-3" id="2026-04-02-leo-de-moura-presents-lean-talk-at-the-university-of-minnesota">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-30">Mar 30</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-02-leo-de-moura-presents-lean-talk-at-the-university-of-minnesota/">Leo de Moura presents Lean talk at the University of Minnesota</a></h3>
+  <p class="dek">Leo de Moura (AWS, <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>) gave the talk &quot;Lean: Machine-Checked Mathematics and Verified Programming&quot; on March 30, 2026. <a class="inl" href="https://leodemoura.github.io/static/minnesota2026/" rel="noopener">The slides</a> describe a general-purpose AI converting zlib (a C compression library) to Lean and proving the code correct, plus <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>, a proof-automation tactic inspired by modern SMT solvers.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/minnesota2026/" rel="noopener">leodemoura.github.io</a></p>
+</article>
+<article class="story imp-5" id="2026-04-02-lean-4-29-0-released-with-a-new-extensible-do-elaborator">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-27">Mar 27</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-02-lean-4-29-0-released-with-a-new-extensible-do-elaborator/">Lean 4.29.0 released with a new extensible do elaborator</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.29.0" rel="noopener">The release</a> changes reducibility handling: isDefEq no longer bumps transparency when comparing implicit arguments, and a new @[implicit_reducible] attribute and a backward-compatibility option ease migration. It also adds <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> support for higher-order Miller patterns, mvcgen support for specifications in the local context, and faster startup.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.29.0/" rel="noopener">v4.29.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.29.0" rel="noopener">lean4 v4.29.0</a></p>
+</article>
+<article class="story imp-4" id="2026-04-02-bas-spitters-releases-catcrypt-machine-checked-cryptographic-sec">
+  <p class="kicker"><a class="k-verification" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-26">Mar 26</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-02-bas-spitters-releases-catcrypt-machine-checked-cryptographic-sec/">Bas Spitters releases CatCrypt, machine-checked cryptographic security proofs in Lean</a></h3>
+  <p class="dek"><a class="inl" href="https://eprint.iacr.org/2026/604" rel="noopener">CatCrypt</a> provides a pipeline from Rust reference implementations, translated with the Hax tool, to security proofs in Lean, covering 172 cryptographic protocols and constructions (110 with the full Rust-to-Lean pipeline). Bas Spitters developed the whole library in two months working with GenAI.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://eprint.iacr.org/2026/604" rel="noopener">eprint.iacr.org</a></p>
+</article>
+<article class="story imp-3 has-pic" id="2026-04-02-darpa-held-the-kickoff-meeting-for-its-exponentiating-mathematic">
+<div class="story-text">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-21">Mar 21</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-02-darpa-held-the-kickoff-meeting-for-its-exponentiating-mathematic/">DARPA held the kickoff meeting for its Exponentiating Mathematics (expMath) program</a></h3>
+  <p class="dek"><a class="inl" href="https://www.linkedin.com/posts/patrick-shafto-00347679_defense-advanced-research-projects-agency-activity-7441145808072257536-dDoD" rel="noopener">Patrick Shafto reported</a> that the DARPA expMath kickoff included teams from CMU, Stanford, MIT, UCLA, Princeton and other universities, plus a panel of community supporters including Leo de Moura and the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a> community, and Adam Topaz and the <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> Initiative.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/patrick-shafto-00347679_defense-advanced-research-projects-agency-activity-7441145808072257536-dDoD" rel="noopener">LinkedIn post</a></p>
+</div>
+<figure class="pic pic-story"><a href="../../item/2026-04-02-darpa-held-the-kickoff-meeting-for-its-exponentiating-mathematic/" tabindex="-1" aria-hidden="true"><img src="../../assets/img/b1f8f6a08c3b4d49-480.webp" srcset="../../assets/img/b1f8f6a08c3b4d49-480.webp 480w, ../../assets/img/b1f8f6a08c3b4d49-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="800" height="454" alt="" loading="lazy" decoding="async"></a></figure>
+</article>
+<section class="briefs" aria-label="In brief"><h3 class="briefs-label">In brief</h3><div class="briefs-grid">
+<article class="brief" id="2026-04-02-blog-post-argues-lean-4-is-the-greatest-theorem-prover">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-20">Mar 20</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-02-blog-post-argues-lean-4-is-the-greatest-theorem-prover/">Blog post argues Lean 4 is the greatest theorem prover</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.markusde.ca/pages/leanrocks.html" rel="noopener">markusde.ca</a></p>
+</article>
+<article class="brief" id="2026-04-09-kyle-miller-merges-lean-syntax-and-structure-default-value-chang">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-09">Mar 9</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-09-kyle-miller-merges-lean-syntax-and-structure-default-value-chang/">Kyle Miller merges Lean syntax and structure default value changes</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12841" rel="noopener">lean4#12841</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13245" rel="noopener">lean4#13245</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13262" rel="noopener">lean4#13262</a></p>
+</article>
+<article class="brief" id="2026-03-05-cslib-publishes-contributor-guide-for-formalizing-computer-scien">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-05">Mar 5</time></p>
+  <h3 class="headline"><a href="../../item/2026-03-05-cslib-publishes-contributor-guide-for-formalizing-computer-scien/">CSLib publishes contributor guide for formalizing computer science in Lean</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/cslib/blob/main/CONTRIBUTING.md" rel="noopener">leanprover/cslib</a></p>
+</article>
+<article class="brief" id="2026-03-05-lean-publishes-fifth-release-candidate-for-v4-29-0">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-05">Mar 5</time></p>
+  <h3 class="headline"><a href="../../item/2026-03-05-lean-publishes-fifth-release-candidate-for-v4-29-0/">Lean publishes fifth release candidate for v4.29.0</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc5" rel="noopener">lean4 v4.29.0-rc5</a></p>
+</article>
+</div></section>
+<article class="story imp-4" id="2026-04-02-ilya-sergey-proves-move-s-new-borrow-checker-correct-in-lean">
+  <p class="kicker"><a class="k-verification" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-18">Mar 18</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-02-ilya-sergey-proves-move-s-new-borrow-checker-correct-in-lean/">Ilya Sergey proves Move's new borrow checker correct in Lean</a></h3>
+  <p class="dek">Ilya Sergey <a class="inl" href="https://proofsandintuitions.net/2026/03/18/move-borrow-checker-lean/" rel="noopener">formalised and proved the correctness of the new borrow checker for Move</a>, a smart contract language deployed on the Sui and Aptos blockchains: 39,000 lines of mechanised metatheory, produced in under a month with the help of an AI coding assistant (Claude Code).</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://proofsandintuitions.net/2026/03/18/move-borrow-checker-lean/" rel="noopener">proofsandintuitions.net</a></p>
+</article>
+<article class="story imp-3" id="2026-05-07-leo-de-moura-presents-lean-4-at-nasa-formal-methods-symposium">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-18">Mar 18</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-07-leo-de-moura-presents-lean-4-at-nasa-formal-methods-symposium/">Leo de Moura presents Lean 4 at NASA Formal Methods Symposium</a></h3>
+  <p class="dek">Leo de Moura, Chief Architect of the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, presents &quot;Lean 4: A Unified Platform for Programming and Verification&quot; at the <a class="inl" href="https://leodemoura.github.io/static/nfm2026/" rel="noopener">NASA Formal Methods Symposium</a> on May 6, 2026. The talk covers <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>, Lean's new proof automation, and industry verification work including Cedar, SampCert, and SymCrypt.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/nfm2026/" rel="noopener">leodemoura.github.io</a></p>
+</article>
+<article class="story imp-3" id="2026-04-30-leo-de-moura-surveys-industrial-and-ai-uses-of-lean-at-etaps-202">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-18">Mar 18</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-30-leo-de-moura-surveys-industrial-and-ai-uses-of-lean-at-etaps-202/">Leo de Moura surveys industrial and AI uses of Lean at ETAPS 2026</a></h3>
+  <p class="dek">Leo de Moura gave an <a class="inl" href="https://leodemoura.github.io/static/etaps2026/" rel="noopener">ETAPS tutorial</a> on April 13, 2026, then an <a class="inl" href="https://leodemoura.github.io/static/etaps-industry-2026/" rel="noopener">ETAPS Industry Day talk</a> on April 15 covering Cedar (access control), SampCert (privacy), Strata (languages), Waimea (compiler), SymCrypt (crypto), Anneal (unsafe Rust) and <a class="inl" href="https://veil.dev/" rel="noopener">Veil</a> (distributed protocols), plus AI provers for which Lean is the training environment, evaluation harness, and deployment target.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/etaps-industry-2026/" rel="noopener">leodemoura.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://leodemoura.github.io/static/etaps2026/" rel="noopener">leodemoura.github.io</a></p>
+</article>
+<article class="story imp-4 has-pic" id="2026-03-19-mistral-ai-releases-leanstral-an-open-source-code-agent-for-lean">
+<div class="story-text">
+  <p class="kicker"><a class="k-ai" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-16">Mar 16</time></p>
+  <h3 class="headline"><a href="../../item/2026-03-19-mistral-ai-releases-leanstral-an-open-source-code-agent-for-lean/">Mistral AI releases Leanstral, an open-source code agent for Lean 4</a></h3>
+  <p class="dek">Mistral AI released <a class="inl" href="https://mistral.ai/news/leanstral" rel="noopener">Leanstral</a>, with 6B active parameters and weights under an Apache 2.0 license. On FLTEval, a new suite built from pull requests to the FLT project, Leanstral pass@2 scores 26.3, beating Sonnet by 2.6 points while costing $36 to run versus Sonnet's $549.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://mistral.ai/news/leanstral" rel="noopener">mistral.ai</a></p>
+</div>
+<figure class="pic pic-story"><a href="../../item/2026-03-19-mistral-ai-releases-leanstral-an-open-source-code-agent-for-lean/" tabindex="-1" aria-hidden="true"><img src="../../assets/img/fbbdaec66f938429-480.webp" srcset="../../assets/img/fbbdaec66f938429-480.webp 480w, ../../assets/img/fbbdaec66f938429-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="1200" height="716" alt="" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-3" id="2026-04-02-leo-de-moura-explains-how-independent-kernels-protect-lean-from">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-16">Mar 16</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-02-leo-de-moura-explains-how-independent-kernels-protect-lean-from/">Leo de Moura explains how independent kernels protect Lean from prover bugs</a></h3>
+  <p class="dek">In the blog post &quot;<a class="inl" href="https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/" rel="noopener">Who Watches the Provers?</a>&quot;, Leo de Moura notes that Claude (Opus 4.6) found seven kernel bugs in Rocq and two in Nanoda, a Lean proof checker written in Rust, but no proof of false in Lean's official kernel. The <a class="inl" href="https://arena.lean-lang.org/" rel="noopener">Lean Kernel Arena</a> tests 7 kernels against 133 benchmarks.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/" rel="noopener">leodemoura.github.io</a></p>
+</article>
+<article class="story imp-5 has-pic" id="2026-04-02-menlo-ventures-leads-axiom-s-200-million-series-a-for-verified-a">
+<div class="story-text">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-12">Mar 12</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-02-menlo-ventures-leads-axiom-s-200-million-series-a-for-verified-a/">Menlo Ventures leads Axiom's $200 million Series A for Verified AI</a></h3>
+  <p class="dek"><a class="inl" href="https://menlovc.com/perspective/ai-will-write-all-the-code-mathematics-will-prove-it-works/" rel="noopener">Menlo Ventures</a> announced it is leading a $200 million Series A for Axiom at a $1.6 billion post-money valuation. Axiom trains systems to produce formally verified outputs in Lean, and Menlo Ventures describes the bet as one that Verified AI is a new paradigm.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://menlovc.com/perspective/ai-will-write-all-the-code-mathematics-will-prove-it-works/" rel="noopener">menlovc.com</a></p>
+</div>
+<figure class="pic pic-story"><a href="../../item/2026-04-02-menlo-ventures-leads-axiom-s-200-million-series-a-for-verified-a/" tabindex="-1" aria-hidden="true"><img src="../../assets/img/948a9ed6b874bc85-480.webp" srcset="../../assets/img/948a9ed6b874bc85-480.webp 480w, ../../assets/img/948a9ed6b874bc85-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="1200" height="1037" alt="" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-5 has-pic" id="2026-03-19-axiom-raises-200-million-to-verify-ai-generated-code-with-lean">
+<div class="story-text">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-12">Mar 12</time></p>
+  <h3 class="headline"><a href="../../item/2026-03-19-axiom-raises-200-million-to-verify-ai-generated-code-with-lean/">Axiom raises $200 million to verify AI-generated code with Lean</a></h3>
+  <p class="dek">Axiom Quant's <a class="inl" href="https://siliconangle.com/2026/03/12/verifiable-ai-startup-axiom-raises-200m-prove-ai-generated-code-safe-use/" rel="noopener">Series A round</a>, led by Menlo Ventures, values the startup at $1.6 billion. Axiom trains AI systems to generate formally verified outputs in Lean and plans to scale its training infrastructure and expand its team of math experts.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://siliconangle.com/2026/03/12/verifiable-ai-startup-axiom-raises-200m-prove-ai-generated-code-safe-use/" rel="noopener">siliconangle.com</a></p>
+</div>
+<figure class="pic pic-story"><a href="../../item/2026-03-19-axiom-raises-200-million-to-verify-ai-generated-code-with-lean/" tabindex="-1" aria-hidden="true"><img src="../../assets/img/e4f2d239ca882242-480.webp" srcset="../../assets/img/e4f2d239ca882242-480.webp 480w, ../../assets/img/e4f2d239ca882242-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="1197" height="672" alt="" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-3" id="2026-04-02-henrik-b-ving-ports-lean-s-c-emission-pass-from-ir-to-lcnf">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-11">Mar 11</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-02-henrik-b-ving-ports-lean-s-c-emission-pass-from-ir-to-lcnf/">Henrik Böving ports Lean's C emission pass from IR to LCNF</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/pull/12781" rel="noopener">A merged pull request</a> by Henrik Böving ports the C emission pass from IR to LCNF. The PR describes this as the last step of the IR/LCNF conversion, enabling end-to-end code generation through the new compilation infrastructure.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12781" rel="noopener">lean4#12781</a></p>
+</article>
+<article class="story imp-4 has-pic" id="2026-04-02-joseph-tooby-smith-s-lean-formalization-finds-error-in-widely-ci">
+<div class="story-text">
+  <p class="kicker"><a class="k-ai" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-09">Mar 9</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-02-joseph-tooby-smith-s-lean-formalization-finds-error-in-widely-ci/">Joseph Tooby-Smith's Lean formalization finds error in widely cited 2006 physics paper</a></h3>
+  <p class="dek"><a class="inl" href="https://arxiv.org/abs/2603.08139" rel="noopener">Formalizing a 2006 paper</a> on the stability of the two Higgs doublet model (2HDM) potential, using <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> and Physlib, revealed an error invalidating its main theorem. The paper calls this, to the best of its knowledge, the first non-trivial error in a physics paper found through formalization.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2603.08139" rel="noopener">arXiv:2603.08139</a></p>
+</div>
+<figure class="pic pic-story pic-paper"><a href="../../item/2026-04-02-joseph-tooby-smith-s-lean-formalization-finds-error-in-widely-ci/" tabindex="-1" aria-hidden="true"><img src="../../assets/img/3556332a96c06a2b-480.webp" srcset="../../assets/img/3556332a96c06a2b-480.webp 480w, ../../assets/img/3556332a96c06a2b-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="640" height="906" alt="First page of the paper" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-5 has-pic" id="2026-03-05-math-inc-s-gauss-completes-formal-proof-of-sphere-packing-in-dim">
+<div class="story-text">
+  <p class="kicker"><a class="k-ai" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-05">Mar 5</time></p>
+  <h3 class="headline"><a href="../../item/2026-03-05-math-inc-s-gauss-completes-formal-proof-of-sphere-packing-in-dim/">Math, Inc.'s Gauss completes formal proof of sphere packing in dimensions 8 and 24</a></h3>
+  <p class="dek"><a class="inl" href="https://www.math.inc/sphere-packing" rel="noopener">Math, Inc.</a> used Gauss to help formally verify Maryna Viazovska's Fields Medal-winning sphere packing results, proving all remaining 8-dimensional results in 5 days and autoformalizing the 24-dimensional case in two weeks. The formalization grew from 70k to about 200k lines.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.math.inc/sphere-packing" rel="noopener">math.inc</a></p>
+</div>
+<figure class="pic pic-story"><a href="../../item/2026-03-05-math-inc-s-gauss-completes-formal-proof-of-sphere-packing-in-dim/" tabindex="-1" aria-hidden="true"><img src="../../assets/img/2b54f3800d57e998-480.webp" srcset="../../assets/img/2b54f3800d57e998-480.webp 480w, ../../assets/img/2b54f3800d57e998-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="1200" height="630" alt="" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-4 has-pic" id="2026-03-19-renaissance-philanthropy-and-xtx-markets-add-13-5-million-to-ai">
+<div class="story-text">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-04">Mar 4</time></p>
+  <h3 class="headline"><a href="../../item/2026-03-19-renaissance-philanthropy-and-xtx-markets-add-13-5-million-to-ai/">Renaissance Philanthropy and XTX Markets add $13.5 million to AI for Math Fund</a></h3>
+  <p class="dek">The new commitment brings the <a class="inl" href="https://www.renaissancephilanthropy.org/insights/renaissance-philanthropy-and-xtx-markets-additional-13-million" rel="noopener">AI for Math Fund</a> total to $31.5 million, with grants ranging between $100,000 and $1 million to support 12-24 months of work. Applications close on March 30, 2026 at 11:59 pm PT.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.renaissancephilanthropy.org/insights/renaissance-philanthropy-and-xtx-markets-additional-13-million" rel="noopener">renaissancephilanthropy.org</a></p>
+</div>
+<figure class="pic pic-story"><a href="../../item/2026-03-19-renaissance-philanthropy-and-xtx-markets-add-13-5-million-to-ai/" tabindex="-1" aria-hidden="true"><img src="../../assets/img/280594db00b1d426-480.webp" srcset="../../assets/img/280594db00b1d426-480.webp 480w, ../../assets/img/280594db00b1d426-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="1200" height="803" alt="" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-3" id="2026-03-05-kevin-hartnett-s-book-on-lean-s-history-opens-for-pre-orders">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-03">Mar 3</time></p>
+  <h3 class="headline"><a href="../../item/2026-03-05-kevin-hartnett-s-book-on-lean-s-history-opens-for-pre-orders/">Kevin Hartnett's book on Lean's history opens for pre-orders</a></h3>
+  <p class="dek">Kevin Hartnett's forthcoming book, <a class="inl" href="https://x.com/KSHartnett/status/2028847124083790269" rel="noopener">&quot;The Proof in the Code,&quot;</a> tells the story of Lean's development and rise. The book is out in June, and pre-orders are open.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/KSHartnett/status/2028847124083790269" rel="noopener">@KSHartnett on X</a></p>
+</article>
+<article class="story imp-5 has-pic" id="2026-03-19-math-inc-s-gauss-autoformalizes-viazovska-s-24-dimensional-spher">
+<div class="story-text">
+  <p class="kicker"><a class="k-ai" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-02">Mar 2</time></p>
+  <h3 class="headline"><a href="../../item/2026-03-19-math-inc-s-gauss-autoformalizes-viazovska-s-24-dimensional-spher/">Math, Inc.'s Gauss autoformalizes Viazovska's 24-dimensional sphere-packing proof in Lean</a></h3>
+  <p class="dek"><a class="inl" href="https://spectrum.ieee.org/ai-proof-verification" rel="noopener">Gauss, a Math, Inc. reasoning agent</a> built to formalize proofs automatically, produced over 200,000 lines of Lean code for Maryna Viazovska's 24-dimensional proof in two weeks, without a preexisting blueprint. The work follows the 8-dimensional formalization announced on February 23, which built on the Formalising Sphere Packing in Lean project.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://spectrum.ieee.org/ai-proof-verification" rel="noopener">spectrum.ieee.org</a></p>
+</div>
+<figure class="pic pic-story"><a href="../../item/2026-03-19-math-inc-s-gauss-autoformalizes-viazovska-s-24-dimensional-spher/" tabindex="-1" aria-hidden="true"><img src="../../assets/img/56089aa56f22af89-480.webp" srcset="../../assets/img/56089aa56f22af89-480.webp 480w, ../../assets/img/56089aa56f22af89-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="1200" height="600" alt="" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-3" id="2026-02-26-emilio-jes-s-gallego-arias-built-a-lean-dsl-debugger-with-gpt-co">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-25">Feb 25</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-26-emilio-jes-s-gallego-arias-built-a-lean-dsl-debugger-with-gpt-co/">Emilio Jesús Gallego Arias built a Lean DSL debugger with GPT-Codex 5.3</a></h3>
+  <p class="dek">In the blog post &quot;<a class="inl" href="https://www.joachim-breitner.de/blog/819-Vibe-coding_a_debugger_for_a_DSL" rel="noopener">Vibe-coding a debugger for a DSL</a>&quot;, Joachim Breitner describes a small language embedded in Lean with a visual debugger in Lean's Info View and VSCode debugger support via the DAP protocol, built in one day of coding with GPT-Codex 5.3.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.joachim-breitner.de/blog/819-Vibe-coding_a_debugger_for_a_DSL" rel="noopener">joachim-breitner.de</a></p>
+</article>
+<article class="story imp-3" id="2026-02-26-rutgers-group-formalizes-the-upcoming-ieee-p3109-floating-point">
+  <p class="kicker"><a class="k-verification" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-19">Feb 19</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-26-rutgers-group-formalizes-the-upcoming-ieee-p3109-floating-point/">Rutgers group formalizes the upcoming IEEE-P3109 floating-point standard in Lean</a></h3>
+  <p class="dek"><a class="inl" href="https://mathstodon.xyz/@santoshgnag/116094965862661574" rel="noopener">Santosh Nagarakatte's group built FLoPS</a>, which formalizes the upcoming IEEE-P3109 standard for low-precision floating-point arithmetic in Lean. The work found errors in the draft standard, which were reported to the working group and fixed, and established properties of algorithms such as Fast2Sum in the context of P3109.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://mathstodon.xyz/@santoshgnag/116094965862661574" rel="noopener">mathstodon.xyz</a></p>
+</article>
+<article class="story imp-2" id="2026-02-19-nick-palladinos-publishes-smtlibdsl-a-type-safe-smt-lib-dsl-for">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-19">Feb 19</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-19-nick-palladinos-publishes-smtlibdsl-a-type-safe-smt-lib-dsl-for/">Nick Palladinos publishes SmtLibDsl, a type-safe SMT-LIB DSL for Lean 4</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/palladin/SmtLibDsl" rel="noopener">SmtLibDsl</a> is a domain-specific language embedded in Lean 4 for writing SMT-LIB2 constraint programs, with backends including Z3, cvc5, Kissat, and CaDiCaL. Bitvector widths and enabled SMT theories are tracked at compile time, and Lean validates every decoded SAT model.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/palladin/SmtLibDsl" rel="noopener">palladin/SmtLibDsl</a></p>
+</article>
+</div>
+<a class="more" href="../../page/10/" data-more>More news</a></div>
+<aside class="rail" aria-label="More">
+<section class="box"><h2 class="label">Sections</h2><ul class="sec-list"><li><a href="../../section/ai/"><span>AI and formalization</span><span class="count">35</span></a></li><li><a href="../../section/verification/"><span>Verification</span><span class="count">32</span></a></li><li><a href="../../section/lean-core/"><span>Lean core</span><span class="count">142</span></a></li><li><a href="../../section/papers/"><span>Papers and events</span><span class="count">53</span></a></li></ul></section>
+<section class="box about-box"><h2 class="label">About</h2><p>News about Lean, the theorem prover and programming language. Each item links to the public sources it was checked against.</p><p><a href="../../about/">How it works</a> · <a href="../../archive/">Weekly editions</a> · <a href="../../feed.xml">RSS</a></p></section>
+</aside></div>
+</main>
+<footer class="foot"><div class="foot-in"><p><a class="foot-mark" href="../../">Lean Weekly</a></p><p><a href="../../about/">About</a> · <a href="../../archive/">Weekly editions</a> · <a href="../../search/">Search</a> · <a href="../../feed.xml">RSS</a> · <a href="../../feed.json">JSON Feed</a></p></div></footer>
+</body>
+</html>

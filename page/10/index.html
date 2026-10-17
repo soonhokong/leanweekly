@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The latest, page 10 · Lean Weekly</title>
+<meta name="description" content="News about Lean, the theorem prover and programming language.">
+<link rel="preload" href="../../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../assets/lw.css?v=0c8706d3fb">
+<link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../../feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../../feed.json">
+<script defer src="../../assets/lw.js?v=ffef22517a"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the news</a>
+<header class="masthead">
+<div class="mast-row">
+  <p class="dateline">Thursday, October 15, 2026</p>
+  <a class="wordmark" href="../../">Lean Weekly</a>
+  <form class="search" role="search" action="../../search/" method="get">
+    <label class="sr-only" for="q">Search Lean news</label>
+    <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <kbd aria-hidden="true">/</kbd>
+    <div class="search-results" id="search-results" role="listbox" hidden></div>
+  </form>
+</div>
+<p class="tagline">News about Lean, the theorem prover and programming language.</p>
+<nav class="sections" aria-label="Sections"><a href="../../" aria-current="page">Latest</a><a href="../../section/ai/">AI and formalization</a><a href="../../section/verification/">Verification</a><a href="../../section/lean-core/">Lean core</a><a href="../../section/papers/">Papers and events</a></nav>
+</header>
+<main id="main">
+<header class="section-head"><h1 class="page-title">The latest, page 10</h1></header>
+<div class="layout"><div class="col"><h2 class="label">The latest</h2>
+<div class="stream">
+<article class="story imp-4" id="2026-02-19-lean-v4-29-0-rc1-changes-how-isdefeq-handles-transparency-on-imp">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-18">Feb 18</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-19-lean-v4-29-0-rc1-changes-how-isdefeq-handles-transparency-on-imp/">Lean v4.29.0-rc1 changes how isDefEq handles transparency on implicit arguments</a></h3>
+  <p class="dek">Leo de Moura's <a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean#12179</a>, merged on 2026-02-16, stops isDefEq from raising transparency to .default for implicit arguments, a behavior that caused scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. Kim Morrison advises downstream projects not to move to v4.29.0-rc1 yet, and <a class="inl" href="https://github.com/leanprover/lean4/pull/12561" rel="noopener">a later PR</a> documents the design rationale behind the transparency hierarchy.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/113486-announce/topic/releases.20of.20new.20Lean.20versions/near/574617729" rel="noopener">leanprover.zulipchat.com</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12561" rel="noopener">lean4#12561</a></p>
+</article>
+<article class="story imp-5" id="2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-17">Feb 17</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g/">Lean v4.28.0 released with a symbolic simulation framework and grind extensions</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.28.0" rel="noopener">Lean v4.28.0</a> adds a lightweight symbolic simulation framework that integrates with <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> and enables verification condition generators, plus user-defined grind attributes, a solver mode for bv_decide, and a first_par combinator that runs tactics in parallel. The release landed <a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.28.0/" rel="noopener">309 changes</a>, including performance improvements in bv_decide.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.28.0/" rel="noopener">v4.28.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.28.0" rel="noopener">lean4 v4.28.0</a></p>
+</article>
+<article class="story imp-3 has-pic" id="2026-02-19-kim-morrison-removes-the-one-axiom-in-lambdaclass-s-verified-opt">
+<div class="story-text">
+  <p class="kicker"><a class="k-verification" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-17">Feb 17</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-19-kim-morrison-removes-the-one-axiom-in-lambdaclass-s-verified-opt/">Kim Morrison removes the one axiom in LambdaClass's verified optimizer Truth Research ZK</a></h3>
+  <p class="dek"><a class="inl" href="https://blog.lambdaclass.com/amo-lean-towards-formally-verified-optimization-via-equality-saturation-in-lean-4/" rel="noopener">LambdaClass</a> described Truth Research ZK, which turns Lean 4 specifications into optimized C and Rust code with formal correctness guarantees, noting one axiom (applyIndex_tensor_eq) needed for the tensor product of permutations. <a class="inl" href="https://github.com/lambdaclass/amo-lean/pull/2" rel="noopener">A pull request by Kim Morrison</a>, prepared with Claude Code, proves that axiom as a theorem.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/lambdaclass/amo-lean/pull/2" rel="noopener">amo-lean#2</a><span class="dot" aria-hidden="true">·</span><a href="https://blog.lambdaclass.com/amo-lean-towards-formally-verified-optimization-via-equality-saturation-in-lean-4/" rel="noopener">blog.lambdaclass.com</a></p>
+</div>
+<figure class="pic pic-story"><a href="../../item/2026-02-19-kim-morrison-removes-the-one-axiom-in-lambdaclass-s-verified-opt/" tabindex="-1" aria-hidden="true"><img src="../../assets/img/59a5c6b6a07b128a-480.webp" srcset="../../assets/img/59a5c6b6a07b128a-480.webp 480w, ../../assets/img/59a5c6b6a07b128a-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="1200" height="899" alt="" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-3" id="2026-02-26-leo-de-moura-merges-isdefeq-transparency-change-into-lean-core">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-16">Feb 16</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-26-leo-de-moura-merges-isdefeq-transparency-change-into-lean-core/">Leo de Moura merges isDefEq transparency change into Lean core</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">The pull request</a> stops isDefEq from raising transparency to .default when checking implicit arguments, which was creating scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. The PR calls it a very disruptive change, reversible with set_option backward.isDefEq.respectTransparency false. Separately, Lean published the <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc2" rel="noopener">second release candidate for v4.29.0</a>.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc2" rel="noopener">lean4 v4.29.0-rc2</a></p>
+</article>
+<article class="story imp-3 has-pic" id="2026-02-19-stephen-diehl-tests-opus-4-6-on-a-category-theory-library-in-lea">
+<div class="story-text">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-16">Feb 16</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-19-stephen-diehl-tests-opus-4-6-on-a-category-theory-library-in-lea/">Stephen Diehl tests Opus 4.6 on a category theory library in Lean</a></h3>
+  <p class="dek">Stephen Diehl built <a class="inl" href="https://www.stephendiehl.com/posts/lean-opus-blog/" rel="noopener">Kitty Cats</a>, about 900 lines of Lean, with Anthropic's Opus 4.6 over two 30-minute sessions. The model handled the Yoneda lemma but needed guidance on multi-step rewrites and on refactoring verbose proofs. Diehl credits the lean-lsp-mcp server and the lean4-skills plugin for giving the model a feedback loop.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.stephendiehl.com/posts/lean-opus-blog/" rel="noopener">stephendiehl.com</a></p>
+</div>
+<figure class="pic pic-story"><a href="../../item/2026-02-19-stephen-diehl-tests-opus-4-6-on-a-category-theory-library-in-lea/" tabindex="-1" aria-hidden="true"><img src="../../assets/img/1ae21f6c25f181dc-480.webp" srcset="../../assets/img/1ae21f6c25f181dc-480.webp 480w, ../../assets/img/1ae21f6c25f181dc-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="1200" height="675" alt="" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-3" id="2026-02-19-leo-de-moura-adds-higher-order-miller-patterns-to-grind-s-e-matc">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-15">Feb 15</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-19-leo-de-moura-adds-higher-order-miller-patterns-to-grind-s-e-matc/">Leo de Moura adds higher-order Miller patterns to grind's e-matching</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/pull/12483" rel="noopener">A merged Lean 4 pull request</a> lets <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>'s e-matching engine keep lambda arguments as patterns when pattern variables are applied only to distinct lambda-bound variables. Previously such lambdas were ignored during matching, which limited theorems about combinators like List.foldl that take a function argument.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12483" rel="noopener">lean4#12483</a></p>
+</article>
+<section class="briefs" aria-label="In brief"><h3 class="briefs-label">In brief</h3><div class="briefs-grid">
+<article class="brief" id="2026-02-19-leo-de-moura-adds-a-cache-for-isdefeqi-results-in-sym">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-15">Feb 15</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-19-leo-de-moura-adds-a-cache-for-isdefeqi-results-in-sym/">Leo de Moura adds a cache for isDefEqI results in Sym</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12486" rel="noopener">lean4#12486</a></p>
+</article>
+<article class="brief" id="2026-02-12-leo-de-moura-tests-claude-assisted-refactoring-of-lean-s-grind-a">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-12">Feb 12</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-12-leo-de-moura-tests-claude-assisted-refactoring-of-lean-s-grind-a/">Leo de Moura tests Claude-assisted refactoring of Lean's grind and Sym modules</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12448" rel="noopener">lean4#12448</a></p>
+</article>
+<article class="brief" id="2026-02-19-kim-morrison-proposes-making-mathlib-s-orderdual-a-structure-pre">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-11">Feb 11</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-19-kim-morrison-proposes-making-mathlib-s-orderdual-a-structure-pre/">Kim Morrison proposes making Mathlib's OrderDual a structure, prepared with Claude Code</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/mathlib4/pull/35125" rel="noopener">mathlib4#35125</a></p>
+</article>
+<article class="brief" id="2026-02-05-leo-de-moura-fixes-lean-s-type-class-resolution-cache">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-05">Feb 5</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-05-leo-de-moura-fixes-lean-s-type-class-resolution-cache/">Leo de Moura fixes Lean's type class resolution cache</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">lean4#12286</a></p>
+</article>
+<article class="brief" id="2026-02-05-predictable-machines-explains-why-it-chose-lean-for-predictable">
+  <p class="kicker"><a class="k-verification" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-03">Feb 3</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-05-predictable-machines-explains-why-it-chose-lean-for-predictable/">Predictable Machines explains why it chose Lean for Predictable Code</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/davidmazarro_the-first-time-i-fell-in-love-with-a-programming-share-7424423431200227330-m9RD" rel="noopener">LinkedIn post</a><span class="dot" aria-hidden="true">·</span><a href="https://predictablemachines.com/" rel="noopener">predictablemachines.com</a></p>
+</article>
+<article class="brief" id="2026-02-05-new-leancall-library-lets-python-code-call-lean-functions-direct">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-02">Feb 2</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-05-new-leancall-library-lets-python-code-call-lean-functions-direct/">New leancall library lets Python code call Lean functions directly</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.philipzucker.com/leancall/" rel="noopener">philipzucker.com</a></p>
+</article>
+</div></section>
+<article class="story imp-3" id="2026-02-12-leo-de-moura-merges-two-lean-core-elaborator-changes">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-12">Feb 12</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-12-leo-de-moura-merges-two-lean-core-elaborator-changes/">Leo de Moura merges two Lean core elaborator changes</a></h3>
+  <p class="dek">Leo de Moura <a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">merged a pull request</a> stopping isDefEq from raising transparency to .default for implicit arguments, which was creating scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> (old behavior: set_option backward.isDefEq.respectTransparency false). <a class="inl" href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">A second pull request</a> fixes the type class resolution cache for classes with output parameters.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">lean4#12286</a></p>
+</article>
+<article class="story imp-3" id="2026-02-12-ilya-sergey-shows-how-to-verify-distributed-protocols-in-veil">
+  <p class="kicker"><a class="k-verification" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-09">Feb 9</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-12-ilya-sergey-shows-how-to-verify-distributed-protocols-in-veil/">Ilya Sergey shows how to verify distributed protocols in Veil</a></h3>
+  <p class="dek"><a class="inl" href="https://proofsandintuitions.net/2026/02/09/distributed-verification-veil/" rel="noopener">In a February 9, 2026 post</a>, Ilya Sergey walks through modelling, model checking, and proving the Dolev-Strong Floodset consensus protocol in <a class="inl" href="https://veil.dev/" rel="noopener">Veil</a>, VERSE lab's auto-active Lean-based verifier for distributed protocols. Veil's model checker Lace explored 54904 states, 362 of them distinct, and caught a deliberately introduced agreement bug.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://proofsandintuitions.net/2026/02/09/distributed-verification-veil/" rel="noopener">proofsandintuitions.net</a></p>
+</article>
+<article class="story imp-3" id="2026-02-05-leo-de-moura-s-lean-change-stops-simp-from-simplifying-instances">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-05">Feb 5</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-05-leo-de-moura-s-lean-change-stops-simp-from-simplifying-instances/">Leo de Moura's Lean change stops simp from simplifying instances by default</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/pull/12244" rel="noopener">The pull request</a>, merged on 2026-02-05, ensures simp does not &quot;simplify&quot; instances by default, since doing so creates non-standard instances that cause problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. The old behavior can be retrieved with simp +instances, and the backward compatibility flag for dsimp also deactivates the change.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12244" rel="noopener">lean4#12244</a></p>
+</article>
+<section class="briefs" aria-label="In brief"><h3 class="briefs-label">In brief</h3><div class="briefs-grid">
+<article class="brief" id="2026-02-05-blog-post-formally-models-a-cyberchase-episode-s-dragon-game-in">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-02">Feb 2</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-05-blog-post-formally-models-a-cyberchase-episode-s-dragon-game-in/">Blog post formally models a Cyberchase episode's dragon game in Lean</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.shadaj.me/writing/cyberchase-lean" rel="noopener">shadaj.me</a></p>
+</article>
+<article class="brief" id="2026-02-05-gavin-mendel-gleason-used-gpt-5-2-and-lean-to-verify-a-citation">
+  <p class="kicker"><a class="k-verification" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-05-gavin-mendel-gleason-used-gpt-5-2-and-lean-to-verify-a-citation/">Gavin Mendel-Gleason used GPT-5.2 and Lean to verify a citation-streaming program</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/gavinmendelgleason_vibe-coding-using-programme-verification-share-7422605545607643137-cGqz/" rel="noopener">LinkedIn post</a></p>
+</article>
+<article class="brief" id="2026-02-05-stan-fedotov-compares-two-ai-assisted-math-papers-one-checked-in">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time></p>
+  <h3 class="headline"><a href="../../item/2026-02-05-stan-fedotov-compares-two-ai-assisted-math-papers-one-checked-in/">Stan Fedotov compares two AI-assisted math papers, one checked in Lean</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/stan-fedotov_ai-can-be-faulty-but-very-few-of-us-humans-share-7422619899182837760-_UF8" rel="noopener">LinkedIn post</a></p>
+</article>
+<article class="brief" id="2026-01-29-willem-vanhulle-builds-a-terminal-user-interface-for-lean-4-user">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-27">Jan 27</time></p>
+  <h3 class="headline"><a href="../../item/2026-01-29-willem-vanhulle-builds-a-terminal-user-interface-for-lean-4-user/">Willem Vanhulle builds a terminal user interface for Lean 4 users</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">LinkedIn post</a></p>
+</article>
+<article class="brief" id="2026-01-22-lean-repository-adds-symm-symbolic-simulation-benchmark-from-lea">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-22">Jan 22</time></p>
+  <h3 class="headline"><a href="../../item/2026-01-22-lean-repository-adds-symm-symbolic-simulation-benchmark-from-lea/">Lean repository adds SymM symbolic simulation benchmark from Lean@Google Hackathon</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/blob/ef1e080386afea1599ffe8891433a440875d18e6/tests/bench/sym/add_sub_cancel.lean" rel="noopener">leanprover/lean4</a></p>
+</article>
+</div></section>
+<article class="story imp-3" id="2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time></p>
+  <h3 class="headline"><a href="../../item/2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean/">Lean publishes leansqlite, SQLite bindings for Lean</a></h3>
+  <p class="dek">The <a class="inl" href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a> library bundles SQLite and adds interpolated strings that expand to prepared statements, plus iterators over query result rows. <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">A Zulip user, pandaman, shared LeanToDo</a>, an experiment in building a web application with Lean that uses leansqlite for its database and <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a> for HTML templating.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a><span class="dot" aria-hidden="true">·</span><a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">leanprover.zulipchat.com</a></p>
+</article>
+<article class="story imp-3" id="2026-01-29-sebastian-ullrich-s-merged-pr-separates-meta-and-non-meta-code-i">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time></p>
+  <h3 class="headline"><a href="../../item/2026-01-29-sebastian-ullrich-s-merged-pr-separates-meta-and-non-meta-code-i/">Sebastian Ullrich's merged PR separates meta and non-meta code in Lean binaries</a></h3>
+  <p class="dek">The change lets the module system, in cooperation with the linker, keep tactics used only in proofs out of the final native binary. A simple example using <code>meta import Lean</code> shrinks from 130MB to 1.7MB. As a breaking change, <code>importModules (loadExts := true)</code> must now be preceded by <code>enableInitializersExecution</code>.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12016" rel="noopener">lean4#12016</a></p>
+</article>
+<article class="story imp-3" id="2026-01-29-leo-de-moura-merges-three-lean-core-changes-to-instance-handling">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-28">Jan 28</time></p>
+  <h3 class="headline"><a href="../../item/2026-01-29-leo-de-moura-merges-three-lean-core-changes-to-instance-handling/">Leo de Moura merges three Lean core changes to instance handling</a></h3>
+  <p class="dek">Lean now identifies instance parameters by type using isClass? instead of binder syntax, dsimp no longer simplifies instances by default, and isDefEq no longer raises transparency to .default for implicit arguments, a change the PR calls very disruptive. Old behavior is available through backward.* options, and the PRs cite problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12172" rel="noopener">lean4#12172</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12195" rel="noopener">lean4#12195</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a></p>
+</article>
+<article class="story imp-4" id="2026-01-22-leo-de-moura-presents-the-state-of-lean-at-lean-together-2026">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-22">Jan 22</time></p>
+  <h3 class="headline"><a href="../../item/2026-01-22-leo-de-moura-presents-the-state-of-lean-at-lean-together-2026/">Leo de Moura presents The State of Lean at Lean Together 2026</a></h3>
+  <p class="dek">Leo de Moura, Chief Architect of the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, <a class="inl" href="https://leodemoura.github.io/files/LeanTogether2026.pdf" rel="noopener">reviewed 2025 at Lean Together</a> in January 2026: 12 releases, a new compiler fully implemented in Lean, and the <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> proof-automation tactic. The talk also said 2026 will be the last year with significant changes to the language and standard library.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/files/LeanTogether2026.pdf" rel="noopener">leodemoura.github.io</a></p>
+</article>
+</div>
+<a class="more" href="../../page/11/" data-more>More news</a></div>
+<aside class="rail" aria-label="More">
+<section class="box"><h2 class="label">Sections</h2><ul class="sec-list"><li><a href="../../section/ai/"><span>AI and formalization</span><span class="count">35</span></a></li><li><a href="../../section/verification/"><span>Verification</span><span class="count">32</span></a></li><li><a href="../../section/lean-core/"><span>Lean core</span><span class="count">142</span></a></li><li><a href="../../section/papers/"><span>Papers and events</span><span class="count">53</span></a></li></ul></section>
+<section class="box about-box"><h2 class="label">About</h2><p>News about Lean, the theorem prover and programming language. Each item links to the public sources it was checked against.</p><p><a href="../../about/">How it works</a> · <a href="../../archive/">Weekly editions</a> · <a href="../../feed.xml">RSS</a></p></section>
+</aside></div>
+</main>
+<footer class="foot"><div class="foot-in"><p><a class="foot-mark" href="../../">Lean Weekly</a></p><p><a href="../../about/">About</a> · <a href="../../archive/">Weekly editions</a> · <a href="../../search/">Search</a> · <a href="../../feed.xml">RSS</a> · <a href="../../feed.json">JSON Feed</a></p></div></footer>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The latest, page 7 · Lean Weekly</title>
+<meta name="description" content="News about Lean, the theorem prover and programming language.">
+<link rel="preload" href="../../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../assets/lw.css?v=0c8706d3fb">
+<link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../../feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../../feed.json">
+<script defer src="../../assets/lw.js?v=ffef22517a"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the news</a>
+<header class="masthead">
+<div class="mast-row">
+  <p class="dateline">Thursday, October 15, 2026</p>
+  <a class="wordmark" href="../../">Lean Weekly</a>
+  <form class="search" role="search" action="../../search/" method="get">
+    <label class="sr-only" for="q">Search Lean news</label>
+    <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <kbd aria-hidden="true">/</kbd>
+    <div class="search-results" id="search-results" role="listbox" hidden></div>
+  </form>
+</div>
+<p class="tagline">News about Lean, the theorem prover and programming language.</p>
+<nav class="sections" aria-label="Sections"><a href="../../" aria-current="page">Latest</a><a href="../../section/ai/">AI and formalization</a><a href="../../section/verification/">Verification</a><a href="../../section/lean-core/">Lean core</a><a href="../../section/papers/">Papers and events</a></nav>
+</header>
+<main id="main">
+<header class="section-head"><h1 class="page-title">The latest, page 7</h1></header>
+<div class="layout"><div class="col"><h2 class="label">The latest</h2>
+<div class="stream">
+<article class="story imp-3" id="2026-05-14-lean-publishes-lean-workbench-an-experimental-online-environment">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-14-lean-publishes-lean-workbench-an-experimental-online-environment/">Lean publishes Lean Workbench, an experimental online environment for Lean</a></h3>
+  <p class="dek">The <a class="inl" href="https://github.com/leanprover/lean-workbench" rel="noopener">leanprover/lean-workbench repository</a> aims to provide familiar (VS Code with the Lean 4 extension) and novel interfaces to Lean online, giving each user an isolated Code Server instance inside a bubblewrap sandbox. The README warns the project is in progress and experimental, with a security audit forthcoming.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench" rel="noopener">leanprover/lean-workbench</a></p>
+</article>
+<article class="story imp-3" id="2026-05-14-lake-adds-a-requiresmodulesystem-option-to-flag-non-module-impor">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-14-lake-adds-a-requiresmodulesystem-option-to-flag-non-module-impor/">Lake adds a requiresModuleSystem option to flag non-module imports</a></h3>
+  <p class="dek">Sebastian Ullrich's merged Lean pull request adds the <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> package option <code>requiresModuleSystem</code>: Lake then warns whenever a non-module-system file (one without a <code>module</code> header) imports a module of the package. A separate <a class="inl" href="https://github.com/leanprover/lean4/pull/13679" rel="noopener">fix repairs code generation</a> that broke with structures using private fields and types inaccessible in the current scope.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13646" rel="noopener">lean4#13646</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13679" rel="noopener">lean4#13679</a></p>
+</article>
+<section class="briefs" aria-label="In brief"><h3 class="briefs-label">In brief</h3><div class="briefs-grid">
+<article class="brief" id="2026-05-14-demo-previews-rust-source-references-resolved-through-rust-analy">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-14-demo-previews-rust-source-references-resolved-through-rust-analy/">Demo previews Rust source references resolved through rust-analyzer</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x80.org/vbp-rust-demo-1/Foreign-Rust-References/" rel="noopener">x80.org</a></p>
+</article>
+<article class="brief" id="2026-05-14-leo-de-moura-merges-grind-improvements-for-local-theorems-in-lea">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-11">May 11</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-14-leo-de-moura-merges-grind-improvements-for-local-theorems-in-lea/">Leo de Moura merges grind improvements for local theorems in Lean</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13699" rel="noopener">lean4#13699</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13698" rel="noopener">lean4#13698</a></p>
+</article>
+<article class="brief" id="2026-05-14-mac-malone-merges-three-lake-fixes-including-workspace-level-com">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-08">May 8</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-14-mac-malone-merges-three-lake-fixes-including-workspace-level-com/">Mac Malone merges three Lake fixes, including workspace-level compiled configurations</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lean4#13683</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">lean4#13600</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">lean4#13692</a></p>
+</article>
+<article class="brief" id="2026-05-14-wojciech-nawrocki-adds-collaborative-editing-to-lean-workbench">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-07">May 7</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-14-wojciech-nawrocki-adds-collaborative-editing-to-lean-workbench/">Wojciech Nawrocki adds collaborative editing to Lean Workbench</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench/pull/14" rel="noopener">lean-workbench#14</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean-workbench/pull/12" rel="noopener">lean-workbench#12</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean-workbench/pull/18" rel="noopener">lean-workbench#18</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean-workbench/pull/17" rel="noopener">lean-workbench#17</a></p>
+</article>
+<article class="brief" id="2026-05-07-leo-de-moura-fixes-a-panic-and-an-assertion-failure-in-sym-simp">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-07-leo-de-moura-fixes-a-panic-and-an-assertion-failure-in-sym-simp/">Leo de Moura fixes a panic and an assertion failure in Sym.simp</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13635" rel="noopener">lean4#13635</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13611" rel="noopener">lean4#13611</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13612" rel="noopener">lean4#13612</a></p>
+</article>
+<article class="brief" id="2026-05-07-wojciech-nawrocki-adds-a-vscode-extension-to-lean-workbench">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-07-wojciech-nawrocki-adds-a-vscode-extension-to-lean-workbench/">Wojciech Nawrocki adds a VSCode extension to lean-workbench</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench/pull/9" rel="noopener">lean-workbench#9</a></p>
+</article>
+</div></section>
+<article class="story imp-3" id="2026-07-09-kim-morrison-releases-sos-a-sum-of-squares-tactic-for-lean">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-13">May 13</time></p>
+  <h3 class="headline"><a href="../../item/2026-07-09-kim-morrison-releases-sos-a-sum-of-squares-tactic-for-lean/">Kim Morrison releases sos, a sum-of-squares tactic for Lean</a></h3>
+  <p class="dek"><a class="inl" href="https://kim-em.github.io/blog/2026-5-13-a-sum-of-squares-tactic/" rel="noopener">The sos tactic</a> is a sum-of-squares decision procedure for nonlinear real arithmetic, closely following John Harrison's HOL Light implementation. It calls the CSDP semidefinite programming library and rebuilds a fully certified result in Lean. <a class="inl" href="https://www.linkedin.com/posts/kim-morrison-219962b_lean4-formalverification-activity-7478622597069455360-B4aF/" rel="noopener">Kim Morrison</a> calls it a prototype and notes that frontier models have become very good at Lean metaprogramming.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://kim-em.github.io/blog/2026-5-13-a-sum-of-squares-tactic/" rel="noopener">kim-em.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://www.linkedin.com/posts/kim-morrison-219962b_lean4-formalverification-activity-7478622597069455360-B4aF/" rel="noopener">LinkedIn post</a></p>
+</article>
+<article class="story imp-3 has-pic" id="2026-05-14-leo-de-moura-presents-lean-as-ai-infrastructure-at-science-x-ai">
+<div class="story-text">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-12">May 12</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-14-leo-de-moura-presents-lean-as-ai-infrastructure-at-science-x-ai/">Leo de Moura presents Lean as AI infrastructure at Science x AI Summit</a></h3>
+  <p class="dek">Leo de Moura, Chief Architect of the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, spoke on May 12, 2026 at the <a class="inl" href="https://sair.foundation/events/science-ai-summit-2026" rel="noopener">Science x AI Summit</a> in Palo Alto (May 12-13, in person and online). <a class="inl" href="https://leodemoura.github.io/static/sair26/" rel="noopener">The slides</a>, written in <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a>, cover <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>, IMO-level AI provers using Lean, and verification work on Cedar and SymCrypt.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/sair26/" rel="noopener">leodemoura.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://sair.foundation/events/science-ai-summit-2026" rel="noopener">sair.foundation</a></p>
+</div>
+<figure class="pic pic-story"><a href="../../item/2026-05-14-leo-de-moura-presents-lean-as-ai-infrastructure-at-science-x-ai/" tabindex="-1" aria-hidden="true"><img src="../../assets/img/15b7a41b47c1aabf-480.webp" srcset="../../assets/img/15b7a41b47c1aabf-480.webp 480w, ../../assets/img/15b7a41b47c1aabf-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="1200" height="675" alt="Science x AI Summit 2026 (Palo Alto) speaker lineup" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-3" id="2026-05-14-leo-de-moura-presents-lean-and-ai-collaboration-at-university-of">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-08">May 8</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-14-leo-de-moura-presents-lean-and-ai-collaboration-at-university-of/">Leo de Moura presents Lean and AI collaboration at University of Washington</a></h3>
+  <p class="dek">Leo de Moura, Chief Architect of the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, gave the talk &quot;<a class="inl" href="https://leodemoura.github.io/static/uw-hackathon-26/" rel="noopener">Lean: Machine-Checked Mathematics and AI Collaboration</a>&quot; at the University of Washington on May 8, 2026. The slides open with a general-purpose AI that converted zlib (a C compression library) to Lean, passed the test suite, and proved the code correct.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/uw-hackathon-26/" rel="noopener">leodemoura.github.io</a></p>
+</article>
+<article class="story imp-3" id="2026-05-07-sebastian-graf-merges-experimental-mvcgen-tactic-into-the-lean-t">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-07">May 7</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-07-sebastian-graf-merges-experimental-mvcgen-tactic-into-the-lean-t/">Sebastian Graf merges experimental mvcgen' tactic into the Lean toolchain</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/leanprover/lean4/pull/13644" rel="noopener">The pull request</a> adds mvcgen', reimplemented from the ground up on the new SymM-based framework for efficient symbolic evaluation. It will soon replace mvcgen and can outperform it by a factor of more than 100 on some synthetic benchmarks. Join point sharing and introduction of local specs are not yet supported.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13644" rel="noopener">lean4#13644</a></p>
+</article>
+<article class="story imp-3" id="2026-05-14-sebastian-graf-brings-sym-based-mvcgen-to-parity-with-mvcgen">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-14-sebastian-graf-brings-sym-based-mvcgen-to-parity-with-mvcgen/">Sebastian Graf brings Sym-based mvcgen' to parity with mvcgen</a></h3>
+  <p class="dek">A merged Lean pull request by Sebastian Graf gives the <a class="inl" href="https://github.com/leanprover/lean4/pull/13578" rel="noopener">Sym-based mvcgen'</a> feature parity with mvcgen, except +jp (join-point handling), at a cost of about 10% vcgen slowdown for cleaner user-visible VCs. A separate change adds <a class="inl" href="https://github.com/leanprover/lean4/pull/13209" rel="noopener">whileM</a>, which makes repeat/while loops verifiable with mvcgen.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13578" rel="noopener">lean4#13578</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13209" rel="noopener">lean4#13209</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13672" rel="noopener">lean4#13672</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13582" rel="noopener">lean4#13582</a></p>
+</article>
+<article class="story imp-3" id="2026-05-07-jonathan-protzenko-uses-aeneas-to-verify-bounds-safety-in-jxl-rs">
+  <p class="kicker"><a class="k-verification" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-07-jonathan-protzenko-uses-aeneas-to-verify-bounds-safety-in-jxl-rs/">Jonathan Protzenko uses Aeneas to verify bounds safety in jxl-rs</a></h3>
+  <p class="dek"><a class="inl" href="https://jonathan.protzenko.fr/2026/05/05/jxl-rs.html" rel="noopener">Jonathan Protzenko's case study</a> uses <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a>, a toolchain for verifying Rust programs through a functional translation to Lean, on jxl-rs, a Rust rewrite of the jpeg-xl codec. The proof shows an unchecked array access always stays within bounds and showcases recent Aeneas features, including official <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> support and loop combinators.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://jonathan.protzenko.fr/2026/05/05/jxl-rs.html" rel="noopener">jonathan.protzenko.fr</a></p>
+</article>
+<section class="briefs" aria-label="In brief"><h3 class="briefs-label">In brief</h3><div class="briefs-grid">
+<article class="brief" id="2026-05-07-nathanson-publishes-recording-of-talk-about-aristotle-s-solution">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-04">May 4</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-07-nathanson-publishes-recording-of-talk-about-aristotle-s-solution/">Nathanson publishes recording of talk about Aristotle's solutions</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/pietromonticone/status/2051145418348605914" rel="noopener">@pietromonticone on X</a></p>
+</article>
+<article class="brief" id="2026-05-07-mac-malone-extends-lean-to-python-module-initialization-in-nerod">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-03">May 3</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-07-mac-malone-extends-lean-to-python-module-initialization-in-nerod/">Mac Malone extends Lean-to-Python module initialization in Nerodia</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/nerodia/pull/3" rel="noopener">nerodia#3</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/nerodia/pull/4" rel="noopener">nerodia#4</a></p>
+</article>
+<article class="brief" id="2026-05-07-leo-de-moura-merges-a-series-of-grind-fixes-into-lean">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-01">May 1</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-07-leo-de-moura-merges-a-series-of-grind-fixes-into-lean/">Leo de Moura merges a series of grind fixes into Lean</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13593" rel="noopener">lean4#13593</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13585" rel="noopener">lean4#13585</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13590" rel="noopener">lean4#13590</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13624" rel="noopener">lean4#13624</a><span class="dot" aria-hidden="true">·</span>+4 more</p>
+</article>
+<article class="brief" id="2026-04-30-david-thrane-christiansen-adds-a-full-page-search-to-verso">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-30">Apr 30</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-30-david-thrane-christiansen-adds-a-full-page-search-to-verso/">David Thrane Christiansen adds a full-page search to Verso</a></h3>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/verso/pull/847" rel="noopener">verso#847</a></p>
+</article>
+</div></section>
+<article class="story imp-3" id="2026-05-07-leo-de-moura-presents-machine-checked-mathematics-talk-at-stanfo">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-01">May 1</time></p>
+  <h3 class="headline"><a href="../../item/2026-05-07-leo-de-moura-presents-machine-checked-mathematics-talk-at-stanfo/">Leo de Moura presents machine-checked mathematics talk at Stanford symposium</a></h3>
+  <p class="dek">Leo de Moura, Chief Architect of the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, spoke on &quot;Machine-Checked Mathematics in the Age of AI&quot; at the Stanford Future of Mathematics Symposium on May 1, 2026. <a class="inl" href="https://leodemoura.github.io/static/stanford-fmi-2026/" rel="noopener">The slides</a>, written in Verso, cover <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>'s 270,000+ formalized theorems, <a class="inl" href="https://github.com/leanprover/verso-blueprint" rel="noopener">Verso Blueprint</a>, Comparator (a judge for Lean proofs), and Lean-based IMO medal AIs.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/stanford-fmi-2026/" rel="noopener">leodemoura.github.io</a></p>
+</article>
+<article class="story imp-4" id="2026-04-30-leo-de-moura-presents-scalable-software-verification-in-lean-at">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-30">Apr 30</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-30-leo-de-moura-presents-scalable-software-verification-in-lean-at/">Leo de Moura presents scalable software verification in Lean at SViL 2026</a></h3>
+  <p class="dek">At SViL 2026 at INRIA Paris on April 20, 2026, Leo de Moura <a class="inl" href="https://leodemoura.github.io/static/svil26/" rel="noopener">presented SymM</a>, a monad for symbolic simulation and VC generation (turning code and specifications into proof obligations). On one challenge it ran about 100× faster than MetaM, and a Velvet port beat Dafny on 24 of 27 benchmarks.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/svil26/" rel="noopener">leodemoura.github.io</a></p>
+</article>
+<article class="story imp-3" id="2026-04-30-mark-ruvald-pedersen-releases-clift-an-autocorres-style-c-verifi">
+  <p class="kicker"><a class="k-verification" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-30">Apr 30</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-30-mark-ruvald-pedersen-releases-clift-an-autocorres-style-c-verifi/">Mark Ruvald Pedersen releases Clift, an AutoCorres-style C verification pipeline for Lean 4</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/eisbaw/Clift" rel="noopener">Clift</a> verifies C programs by lifting them into Lean 4, following the methodology pioneered by seL4's AutoCorres pipeline in Isabelle/HOL and adapting AutoCorres2's five-stage pipeline to Lean 4's type theory. <a class="inl" href="https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf" rel="noopener">The accompanying paper</a> reports that Claude Opus 4.6 generated the vast majority of the code, with 1,698 theorems and 12 remaining sorry.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf" rel="noopener">eisbaw/Clift</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/eisbaw/Clift" rel="noopener">eisbaw/Clift</a></p>
+</article>
+<article class="story imp-3" id="2026-04-30-joachim-breitner-s-experimental-nanobruijn-kernel-type-checks-al">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-30">Apr 30</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-30-joachim-breitner-s-experimental-nanobruijn-kernel-type-checks-al/">Joachim Breitner's experimental nanobruijn kernel type-checks all of Mathlib</a></h3>
+  <p class="dek"><a class="inl" href="https://github.com/nomeata/nanobruijn" rel="noopener">nanobruijn</a>, an experimental Lean 4 type checker in Rust forked from nanoda_lib, keeps expressions as pure de Bruijn indices with shift-homomorphic caching, and type-checks all of <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> (670k declarations) with 0 errors and 0 timeouts. The code changes were written by Claude (Anthropic), directed by Joachim Breitner.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/nomeata/nanobruijn" rel="noopener">nomeata/nanobruijn</a></p>
+</article>
+<article class="story imp-3 has-pic" id="2026-04-30-stanford-hosted-the-future-of-mathematics-symposium-on-ai-and-fo">
+<div class="story-text">
+  <p class="kicker"><a class="k-papers" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-30">Apr 30</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-30-stanford-hosted-the-future-of-mathematics-symposium-on-ai-and-fo/">Stanford hosted the Future of Mathematics Symposium on AI and formal methods</a></h3>
+  <p class="dek"><a class="inl" href="https://events.stanford.edu/event/future-of-mathematics-symposium" rel="noopener">The symposium</a>, held May 1-2, 2026, opened with Leo de Moura of Amazon speaking on &quot;Machine-Checked Mathematics in the Age of AI.&quot; Other talks included Clark Barrett on <a class="inl" href="https://github.com/leanprover/cslib" rel="noopener">CSLib</a>, a platform for AI-assisted formal verification in Lean, Kevin Buzzard on autoformalisation, and Maryna Viazovska on formalizing the sphere packing problem.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://events.stanford.edu/event/future-of-mathematics-symposium" rel="noopener">events.stanford.edu</a></p>
+</div>
+<figure class="pic pic-story"><a href="../../item/2026-04-30-stanford-hosted-the-future-of-mathematics-symposium-on-ai-and-fo/" tabindex="-1" aria-hidden="true"><img src="../../assets/img/4e83afacced246f6-480.webp" srcset="../../assets/img/4e83afacced246f6-480.webp 480w, ../../assets/img/4e83afacced246f6-1200.webp 1200w" sizes="(max-width: 700px) 100vw, 220px" width="600" height="600" alt="" loading="lazy" decoding="async"></a></figure>
+</article>
+<article class="story imp-3" id="2026-04-30-leo-de-moura-merges-grind-diagnostics-solver-fixes-and-a-ring-de">
+  <p class="kicker"><a class="k-lean-core" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-29">Apr 29</time></p>
+  <h3 class="headline"><a href="../../item/2026-04-30-leo-de-moura-merges-grind-diagnostics-solver-fixes-and-a-ring-de/">Leo de Moura merges grind diagnostics, solver fixes, and a ring-degree limit</a></h3>
+  <p class="dek">The new <a class="inl" href="https://github.com/leanprover/lean4/pull/13558" rel="noopener">grind.ematch.diagnostics option</a> tracks how E-matching theorem instances depend on each other, and a <a class="inl" href="https://github.com/leanprover/lean4/pull/13585" rel="noopener">ringMaxDegree option</a> (default 1024) bounds polynomial degree in the <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> ring solver. Other merged pull requests fix beta reduction to respect the generation threshold, fix a kernel error for Nat casts to non-Int types, and extend the homomorphism demo.</p>
+  <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13558" rel="noopener">lean4#13558</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13585" rel="noopener">lean4#13585</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13560" rel="noopener">lean4#13560</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13453" rel="noopener">lean4#13453</a><span class="dot" aria-hidden="true">·</span>+2 more</p>
+</article>
+</div>
+<a class="more" href="../../page/8/" data-more>More news</a></div>
+<aside class="rail" aria-label="More">
+<section class="box"><h2 class="label">Sections</h2><ul class="sec-list"><li><a href="../../section/ai/"><span>AI and formalization</span><span class="count">35</span></a></li><li><a href="../../section/verification/"><span>Verification</span><span class="count">32</span></a></li><li><a href="../../section/lean-core/"><span>Lean core</span><span class="count">142</span></a></li><li><a href="../../section/papers/"><span>Papers and events</span><span class="count">53</span></a></li></ul></section>
+<section class="box about-box"><h2 class="label">About</h2><p>News about Lean, the theorem prover and programming language. Each item links to the public sources it was checked against.</p><p><a href="../../about/">How it works</a> · <a href="../../archive/">Weekly editions</a> · <a href="../../feed.xml">RSS</a></p></section>
+</aside></div>
+</main>
+<footer class="foot"><div class="foot-in"><p><a class="foot-mark" href="../../">Lean Weekly</a></p><p><a href="../../about/">About</a> · <a href="../../archive/">Weekly editions</a> · <a href="../../search/">Search</a> · <a href="../../feed.xml">RSS</a> · <a href="../../feed.json">JSON Feed</a></p></div></footer>
+</body>
+</html>
