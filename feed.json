@@ -6,6 +6,58 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-18/#2026-10-18-researchers-formalize-razborov-s-flag-algebra-method-for-extrema",
+   "url": "https://leanweekly.news/2026-10-18/#2026-10-18-researchers-formalize-razborov-s-flag-algebra-method-for-extrema",
+   "title": "Researchers formalize Razborov's flag algebra method for extremal graph theory in Lean",
+   "content_html": "<p>Gyeongwon Jeong, Seonghun Park, Jihoon Hyun, Sang-il Oum, and Hongseok Yang cover <a class=\"inl\" href=\"https://arxiv.org/abs/2607.23500\" rel=\"noopener\">finite simple graphs in Lean 4</a>, building on <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>, and add a tactic that turns semidefinite programming certificates into Lean proofs. Results include seven Turán-type upper bounds and the first formalization, to the authors' knowledge, of the asymptotic Erdős pentagon theorem.</p><p>Sources: <a href=\"https://arxiv.org/abs/2607.23500\">arXiv:2607.23500</a></p>",
+   "date_published": "2026-10-18T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "flag algebras",
+    "graph theory",
+    "mathlib"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics",
+   "url": "https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics",
+   "title": "Jeremy Avigad and coauthors back formalizing all of mathematics, if done well",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/\" rel=\"noopener\">Xena guest post</a>, co-written by Kevin Buzzard, Johan Commelin, Rémy Degenne, Kim Morrison, Oliver Nash and Adam Topaz, follows a big OpenAI release and warns against building formal libraries nobody uses. It highlights <a class=\"inl\" href=\"https://taucetiproject.github.io/TauCeti/\" rel=\"noopener\">Tau Ceti</a>, an AI-written library slightly larger than <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>, and says most of mathematics can be formalized within three years.</p><p>Sources: <a href=\"https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/\">xenaproject.wordpress.com</a></p>",
+   "date_published": "2026-10-16T12:00:00Z",
+   "tags": [
+    "Papers and events",
+    "autoformalization",
+    "mathlib",
+    "ai"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-18/#2026-10-18-shanghai-ai-lab-s-shusheng-s2-helps-prove-3d-ghys-conjecture-ver",
+   "url": "https://leanweekly.news/2026-10-18/#2026-10-18-shanghai-ai-lab-s-shusheng-s2-helps-prove-3d-ghys-conjecture-ver",
+   "title": "Shanghai AI Lab's Shusheng-S2 helps prove 3D Ghys conjecture, verified in Lean",
+   "content_html": "<p><a class=\"inl\" href=\"https://www.techtimes.com/articles/329134/20261016/chinese-ai-model-helps-prove-31-year-old-math-conjecture-machine-verified-lean-proof.htm\" rel=\"noopener\">Tech Times</a> calls <a class=\"inl\" href=\"https://pandaily.com/shanghai-ai-lab-intern-s2-ghys-conjecture-proof-human-ai-collaboration-lean-sheaf\" rel=\"noopener\">Shusheng-S2</a> the first Chinese AI model to help resolve a world-class open conjecture in pure mathematics: the three-dimensional Ghys conjecture, unresolved for 31 years. A Peking University team, using up to 100 AI agents, independently verified every logical step of Jiesong Zhang's proof, producing more than 550,000 lines of Lean code.</p><p>Sources: <a href=\"https://www.techtimes.com/articles/329134/20261016/chinese-ai-model-helps-prove-31-year-old-math-conjecture-machine-verified-lean-proof.htm\">techtimes.com</a>, <a href=\"https://pandaily.com/shanghai-ai-lab-intern-s2-ghys-conjecture-proof-human-ai-collaboration-lean-sheaf\">pandaily.com</a></p>",
+   "date_published": "2026-10-16T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "ghys conjecture",
+    "shusheng-s2",
+    "ai theorem proving"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-18/#2026-10-18-lean-now-ships-verified-kernels-proof-checkers-and-a-lake-check",
+   "url": "https://leanweekly.news/2026-10-18/#2026-10-18-lean-now-ships-verified-kernels-proof-checkers-and-a-lake-check",
+   "title": "Lean now ships verified kernels (proof checkers) and a lake check command",
+   "content_html": "<p><a class=\"inl\" href=\"https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/\" rel=\"noopener\">Leo de Moura writes</a> that AI agents are effective at finding vulnerabilities in Lean's kernel. Lean v4.35.0's lake check rechecks a project with leanchecker, the official Lean kernel without the baggage around it, and lake check --paranoid runs four additional kernels, including <a class=\"inl\" href=\"https://github.com/leanprover/con-leche\" rel=\"noopener\">con-leche</a>, the first kernel for Lean written in Lean and proven consistent.</p><p>Sources: <a href=\"https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/\">leodemoura.github.io</a></p>",
+   "date_published": "2026-10-15T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "kernel",
+    "lake",
+    "soundness"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-15/#2026-10-15-openai-publishes-719-model-produced-math-manuscripts-about-42-le",
    "url": "https://leanweekly.news/2026-10-15/#2026-10-15-openai-publishes-719-model-produced-math-manuscripts-about-42-le",
    "title": "OpenAI publishes 719 model-produced math manuscripts, about 42% Lean-formalized",
@@ -42,6 +94,19 @@
     "cedar",
     "smt",
     "aws"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-18/#2026-10-18-axiomprover-generates-lean-proof-of-collatz-positive-density-res",
+   "url": "https://leanweekly.news/2026-10-18/#2026-10-18-axiomprover-generates-lean-proof-of-collatz-positive-density-res",
+   "title": "AxiomProver generates Lean proof of Collatz positive density results",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/AxiomMath/CollatzPositiveDensity\" rel=\"noopener\">CollatzPosDens</a>, <a class=\"inl\" href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-10-15-000013&amp;version=1\" rel=\"noopener\">a Palomar registry entry</a>, formally proves the main results of Kenny Lau's paper &quot;Explicit positive lower density for the Collatz Conjecture&quot;, including Theorem 1.3, an explicit positive density of odd starting values reaching a prescribed target not divisible by 3. AxiomProver, Axiom Math's in-house theorem proving system, generated the Lean files.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-10-15-000013&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/AxiomMath/CollatzPositiveDensity\">AxiomMath/CollatzPositiveDensity</a></p>",
+   "date_published": "2026-10-15T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "axiomprover",
+    "collatz",
+    "palomar"
    ]
   },
   {
@@ -588,71 +653,6 @@
     "navier-stokes",
     "openai",
     "millennium prize"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-sebastian-ullrich-logs-build-optimizations-for-anthropic-s-lean",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-sebastian-ullrich-logs-build-optimizations-for-anthropic-s-lean",
-   "title": "Sebastian Ullrich logs build optimizations for Anthropic's Lean proof of Fermat's Last Theorem",
-   "content_html": "<p>On a <a class=\"inl\" href=\"https://hackmd.io/@tKCokyPgR8qHjLvzExSBbw/Byxo8AcdGx\" rel=\"noopener\">1,000-module slice</a>, adopting the module system and import minimization cut task-clock to 3,268 s (down 63.1%) and wall-clock to 140 s (down 86.3%). Sebastian Ullrich also released the proof as a single <a class=\"inl\" href=\"https://github.com/Kha/fermats-last-theorem/releases/tag/export\" rel=\"noopener\">1.01 GiB .olean download</a> that can be run through lean4export for external checkers.</p><p>Sources: <a href=\"https://hackmd.io/@tKCokyPgR8qHjLvzExSBbw/Byxo8AcdGx\">hackmd.io</a>, <a href=\"https://github.com/Kha/fermats-last-theorem/releases/tag/export\">fermats-last-theorem export</a></p>",
-   "date_published": "2026-09-07T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "build performance",
-    "module system",
-    "fermat"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-24/#2026-09-24-kim-morrison-opens-mathlib-prs-for-certified-root-counting-and-s",
-   "url": "https://leanweekly.news/2026-09-24/#2026-09-24-kim-morrison-opens-mathlib-prs-for-certified-root-counting-and-s",
-   "title": "Kim Morrison opens Mathlib PRs for certified root counting and sum-of-squares",
-   "content_html": "<p>Kim Morrison opened a <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4/pull/43512\" rel=\"noopener\">Mathlib pull request</a> adding <code>real_root_count</code>, which checks an untrusted Sturm chain from <a class=\"inl\" href=\"https://github.com/leanprover/hex\" rel=\"noopener\">Hex</a> and shrinks the Abel–Ruffini archive file from 175 to 127 lines. <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4/pull/42336\" rel=\"noopener\">A second pull request</a> adds the <code>leanprover/sos</code> sum-of-squares tactic, where CSDP serves as a search oracle outside the trusted base.</p><p>Sources: <a href=\"https://github.com/leanprover-community/mathlib4/pull/43512\">mathlib4#43512</a>, <a href=\"https://github.com/leanprover-community/mathlib4/pull/42336\">mathlib4#42336</a></p>",
-   "date_published": "2026-09-07T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "mathlib",
-    "tactics",
-    "certificates"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-anthropic-s-claude-formalizes-a-complete-proof-of-fermat-s-last",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-anthropic-s-claude-formalizes-a-complete-proof-of-fermat-s-last",
-   "title": "Anthropic's Claude formalizes a complete proof of Fermat's Last Theorem in Lean",
-   "content_html": "<p>Working largely autonomously over 11 days, <a class=\"inl\" href=\"https://www.anthropic.com/research/formalizing-fermats-last-theorem\" rel=\"noopener\">Claude wrote 13 million lines of Lean</a> (over 5x the size of <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>, the principal community library) and proved 29,500 intermediate theorems. <a class=\"inl\" href=\"https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/\" rel=\"noopener\">Kevin Buzzard</a> compiled the code and ran <a class=\"inl\" href=\"https://github.com/leanprover/comparator\" rel=\"noopener\">comparator</a> on it, and <a class=\"inl\" href=\"https://github.com/anthropics/fermats-last-theorem\" rel=\"noopener\">the full proof is on GitHub</a> with a written walk-through.</p><p>Sources: <a href=\"https://www.anthropic.com/research/formalizing-fermats-last-theorem\">anthropic.com</a>, <a href=\"https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/\">xenaproject.wordpress.com</a>, <a href=\"https://github.com/anthropics/fermats-last-theorem\">anthropics/fermats-last-theorem</a>, <a href=\"https://www.nature.com/articles/d41586-026-02822-9\">nature.com</a></p>",
-   "date_published": "2026-09-04T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "flt",
-    "autoformalization",
-    "claude"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-lean-runtime-now-compiles-mimalloc-in-and-trims-elaboration-over",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-lean-runtime-now-compiles-mimalloc-in-and-trims-elaboration-over",
-   "title": "Lean runtime now compiles mimalloc in and trims elaboration overhead",
-   "content_html": "<p>Julia Markus Himmel merged a change that <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15017\" rel=\"noopener\">compiles mimalloc as part of the Lean runtime</a>, and Sebastian Ullrich <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/14982\" rel=\"noopener\">moved rarely-updated Core.Context fields into a cold subobject</a> (mathlib4: -0.82% instructions, -2.03% wall-clock). Lean also updated to <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15060\" rel=\"noopener\">mimalloc 3.4.5</a>, fixing a Windows memory leak, and CI changes should halve merge queue run times.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/15017\">lean4#15017</a>, <a href=\"https://github.com/leanprover/lean4/pull/14982\">lean4#14982</a>, <a href=\"https://github.com/leanprover/lean4/pull/15060\">lean4#15060</a>, <a href=\"https://github.com/leanprover/lean4/pull/15123\">lean4#15123</a></p>",
-   "date_published": "2026-09-04T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "performance",
-    "runtime",
-    "mimalloc"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-03/#2026-09-03-mario-carneiro-to-present-ai-assisted-formalization-work-on-lean",
-   "url": "https://leanweekly.news/2026-09-03/#2026-09-03-mario-carneiro-to-present-ai-assisted-formalization-work-on-lean",
-   "title": "Mario Carneiro to present AI-assisted formalization work on Lean's kernel at AITP'26",
-   "content_html": "<p><a class=\"inl\" href=\"http://aitp-conference.org/2026/\" rel=\"noopener\">AITP'26</a>, the 11th Conference on Artificial Intelligence and Theorem Proving, takes place from August 30 to September 4, 2026, in the CNRS Paul-Langevin Conference Center in Aussois, Savoy. The program includes a talk by Mario Carneiro on AI-assisted formalization of Pi injectivity and uniqueness of typing for Lean's kernel.</p><p>Sources: <a href=\"http://aitp-conference.org/2026/\">aitp-conference.org</a></p>",
-   "date_published": "2026-09-03T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "conference",
-    "aitp",
-    "kernel"
    ]
   }
  ]

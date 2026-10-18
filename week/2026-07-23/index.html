@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../../">
+<head>
+<meta charset="utf-8">
+<script src="../../assets/theme.js?v=1fe176d120"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lean news, Jul 17 to Jul 23, 2026 · Lean Weekly</title>
+<meta name="description" content="Lean news from Jul 17 to Jul 23, 2026.">
+<link rel="preload" href="../../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../assets/lw.css?v=edba6bded4">
+<link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../../feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../../feed.json">
+<script defer src="../../assets/lw.js?v=4d35c1ac95"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the news</a>
+<header class="bar">
+<div class="bar-row">
+  <div class="brand"><a class="wordmark" href="../../" aria-label="Lean Weekly"><img class="logo" src="../../assets/lean-logo.svg" alt="Lean" width="80" height="30"><span>Weekly</span></a>
+  <p class="tagline">News about Lean, the theorem prover and programming language.</p></div>
+  <button class="theme" type="button" hidden aria-label="Switch to night mode"><svg class="i-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg><svg class="i-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
+  <form class="search" role="search" action="../../search/" method="get">
+    <label class="sr-only" for="q">Search Lean news</label>
+    <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <kbd aria-hidden="true">/</kbd>
+    <div class="search-results" id="search-results" role="listbox" hidden></div>
+  </form>
+</div>
+<nav class="tabs" aria-label="Sections"><a class="t-latest" href="../../">Latest</a><a class="t-ai" href="../../section/ai/">AI and formalization</a><a class="t-verification" href="../../section/verification/">Verification</a><a class="t-lean-core" href="../../section/lean-core/">Lean core</a><a class="t-papers" href="../../section/papers/">Papers and events</a><span class="tabs-gap"></span><a class="quiet" href="../../about/">About</a><a class="quiet" href="../../feed.xml">RSS</a></nav>
+</header>
+<main id="main">
+<div class="frame"><div class="timeline">
+<header class="page-head"><h1 class="page-title">Lean news, Jul 17 to Jul 23, 2026</h1><p class="page-blurb">9 items published in the 7 days to Thursday, Jul 23, 2026. Most important first.</p></header>
+<div class="stream">
+<article class="card c-lean-core" id="2026-07-23-patrick-hulin-reports-a-kernel-check-gap-allowing-a-proof-of-fal">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-22">Jul 22</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-patrick-hulin-reports-a-kernel-check-gap-allowing-a-proof-of-fal" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Patrick Hulin reports a kernel check gap allowing a proof of False</h2>
+    <p class="card-text">In <a class="inl" href="https://github.com/leanprover/lean4/issues/14484" rel="noopener">leanprover/lean4#14484</a>, Patrick Hulin reports that the kernel does not reject free variables in opaque declaration bodies, letting an adversarial metaprogram prove False with no axiom dependencies. The report, largely generated with AI, suggests applying the closure check used for definitions and theorems, and the issue is now closed.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/issues/14484" rel="noopener">lean4#14484</a></p>
+  </div>
+</article>
+<article class="card c-ai" id="2026-07-23-tau-ceti-a-mathlib-for-ais-from-the-lean-fro-is-released">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-20">Jul 20</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-tau-ceti-a-mathlib-for-ais-from-the-lean-fro-is-released" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Tau Ceti, a &quot;Mathlib for AIs&quot; from the Lean FRO, is released</h2>
+    <p class="card-text"><a class="inl" href="https://x.com/AlexKontorovich/status/2079266757844336755" rel="noopener">Alex Kontorovich announced the release of Tau Ceti</a>, which Alex Kontorovich describes as the brainchild of Kim Morrison at the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a> and a &quot;<a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> for AIs&quot;. The stated aim is to move fast and get a whole lot more formalized math than can be done at the scale of human review.</p>
+    <figure class="media"><img src="../../assets/img/ac0276b861bc4119-480.webp" srcset="../../assets/img/ac0276b861bc4119-480.webp 480w, ../../assets/img/ac0276b861bc4119-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="900" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: x.com/AlexKontorovich</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/AlexKontorovich/status/2079266757844336755" rel="noopener">@AlexKontorovich on X</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-23-lean-v4-33-0-release-candidate-1-is-out">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-15">Jul 15</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-lean-v4-33-0-release-candidate-1-is-out" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean v4.33.0 release candidate 1 is out</h2>
+    <p class="card-text">The Lean developers published <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.33.0-rc1" rel="noopener">release candidate 1 for Lean v4.33.0</a>, which centers on a <a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.33.0/" rel="noopener">more responsive editor</a>, automatic try? proof suggestions, improved lia and <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> tactics, a Float type that is no longer opaque, and kernel soundness fixes. It also enables backward.isDefEq.respectTransparency.types by default, the change most likely to need attention when porting.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.33.0/" rel="noopener">v4.33.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.33.0-rc1" rel="noopener">lean4 v4.33.0-rc1</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-23-sebastian-graf-adds-frame-inference-and-contract-syntax-to-lean">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-14">Jul 14</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-sebastian-graf-adds-frame-inference-and-contract-syntax-to-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Graf adds frame inference and contract syntax to Lean's vcgen</h2>
+    <p class="card-text">Merged pull requests extend vcgen, described as a verification condition generator over the Std.Internal.Do metatheory, with <a class="inl" href="https://github.com/leanprover/lean4/pull/14389" rel="noopener">automatic frame inference</a> and with <a class="inl" href="https://github.com/leanprover/lean4/pull/14195" rel="noopener">loop invariants</a> and def contracts (require and ensures clauses) that vcgen discharges automatically. A <a class="inl" href="https://github.com/sgraf812/vcgen-showcase" rel="noopener">showcase repository</a> collects imperative Lean programs verified with one 'vcgen ... with finish'.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14389" rel="noopener">lean4#14389</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14195" rel="noopener">lean4#14195</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/sgraf812/vcgen-showcase" rel="noopener">sgraf812/vcgen-showcase</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/blob/master/tests/elab/vcgenSepLogic.lean" rel="noopener">leanprover/lean4</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-23-sebastian-ullrich-proposes-prefix-trees-in-oleans-to-speed-up-le">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-11">Jul 11</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-sebastian-ullrich-proposes-prefix-trees-in-oleans-to-speed-up-le" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich proposes prefix trees in oleans to speed up Lean imports</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">An open pull request</a> by Sebastian Ullrich replaces hash maps built at import time with per-module prefix trees precomputed when oleans are written, cutting <code>import Lean</code> wall clock by 28% and mathlib's import phase by 21%, for about 6% larger stdlib oleans. A separate pull request by Sebastian Ullrich <a class="inl" href="https://github.com/leanprover/lean4/pull/7786" rel="noopener">upgrading Lean to mimalloc 3</a> was merged.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">lean4#14362</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/7786" rel="noopener">lean4#7786</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-23-leo-de-moura-adds-grind-hom-attributes-to-replace-toint-typeclas">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-18">Jul 18</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-leo-de-moura-adds-grind-hom-attributes-to-replace-toint-typeclas" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura adds grind hom attributes to replace ToInt typeclasses</h2>
+    <p class="card-text">Leo de Moura <a class="inl" href="https://github.com/leanprover/lean4/pull/14446" rel="noopener">merged pull requests</a> adding a <code>[grind homo]</code> attribute, since renamed <code>[grind hom]</code> and <code>[grind hom_pred]</code>, and migrated the standard library to them. The new approach will replace the <code>ToInt</code> typeclasses used in <code>grind</code>. Andres Erbsen has already successfully tried and prototyped it.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14446" rel="noopener">lean4#14446</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14468" rel="noopener">lean4#14468</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-23-leo-de-moura-merges-grind-discharger-support-for-sym-simp-and-th">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-17">Jul 17</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-leo-de-moura-merges-grind-discharger-support-for-sym-simp-and-th" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura merges grind discharger support for Sym.simp and three fixes</h2>
+    <p class="card-text">Leo de Moura <a class="inl" href="https://github.com/leanprover/lean4/pull/14425" rel="noopener">merged pull requests</a> letting <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> discharge hypotheses in conditional Sym.simp theorems, preventing grind timeouts on definitional equality checks for match-expression conditions, fixing a canonicalizer bug that made grind miss valid contradictions, and fixing grind dropping E-matching theorems from custom grind attributes.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14425" rel="noopener">lean4#14425</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14444" rel="noopener">lean4#14444</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14439" rel="noopener">lean4#14439</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14426" rel="noopener">lean4#14426</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-23-lean4web-enables-deflate-compression-for-large-websocket-message">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-16">Jul 16</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-lean4web-enables-deflate-compression-for-large-websocket-message" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">lean4web enables deflate compression for large websocket messages</h2>
+    <p class="card-text">A <a class="inl" href="https://github.com/leanprover-community/lean4web/pull/133" rel="noopener">merged pull request</a> by Jason (@jcreedcmu) enables per-message deflate compression for messages larger than 16MB in the websocket server behind lean4web, aiming to improve responsiveness of <a class="inl" href="https://live.lean-lang.org/" rel="noopener">live.lean-lang.org</a>. Full completions with <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> imported produce 20-40MB jsonrpc responses, which compress by a factor of 8-9x.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/lean4web/pull/133" rel="noopener">lean4web#133</a></p>
+  </div>
+</article>
+<article class="card c-papers" id="2026-07-23-son-ho-speaks-at-the-3rd-lean-in-munich-meetup">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-16">Jul 16</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-son-ho-speaks-at-the-3rd-lean-in-munich-meetup" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Son Ho speaks at the 3rd Lean in Munich meetup</h2>
+    <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/cpfrang_lean-formalverification-cryptography-ugcPost-7483505833889243136-vHUU/" rel="noopener">Son Ho's talk</a> at the meetup, hosted by UTUM Venture Labs, previewed Formal Spec driven Development: AI implements a spec and generates its constraints using autoformalisation, while humans write the spec and check that the constraints cover it. <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>'s Munich-based team, including Head of Engineering Sebastian Ullrich, attended.</p>
+    <figure class="media"><img src="../../assets/img/f83075e5d3e20670-480.webp" srcset="../../assets/img/f83075e5d3e20670-480.webp 480w, ../../assets/img/f83075e5d3e20670-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="600" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/cpfrang_lean-formalverification-cryptography-ugcPost-7483505833889243136-vHUU/" rel="noopener">LinkedIn post</a></p>
+  </div>
+</article>
+</div>
+</div></div>
+</main>
+<p class="sr-only" id="status" role="status" aria-live="polite"></p>
+<footer class="foot"><div class="foot-in"><p><a href="../../about/">About</a> · <a href="../../search/">Search</a> · <a href="../../feed.xml">RSS</a> · <a href="../../feed.json">JSON Feed</a></p></div></footer>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../../">
+<head>
+<meta charset="utf-8">
+<script src="../../assets/theme.js?v=1fe176d120"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lean news, Jan 30 to Feb 5, 2026 · Lean Weekly</title>
+<meta name="description" content="Lean news from Jan 30 to Feb 5, 2026.">
+<link rel="preload" href="../../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../assets/lw.css?v=edba6bded4">
+<link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../../feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../../feed.json">
+<script defer src="../../assets/lw.js?v=4d35c1ac95"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the news</a>
+<header class="bar">
+<div class="bar-row">
+  <div class="brand"><a class="wordmark" href="../../" aria-label="Lean Weekly"><img class="logo" src="../../assets/lean-logo.svg" alt="Lean" width="80" height="30"><span>Weekly</span></a>
+  <p class="tagline">News about Lean, the theorem prover and programming language.</p></div>
+  <button class="theme" type="button" hidden aria-label="Switch to night mode"><svg class="i-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg><svg class="i-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
+  <form class="search" role="search" action="../../search/" method="get">
+    <label class="sr-only" for="q">Search Lean news</label>
+    <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <kbd aria-hidden="true">/</kbd>
+    <div class="search-results" id="search-results" role="listbox" hidden></div>
+  </form>
+</div>
+<nav class="tabs" aria-label="Sections"><a class="t-latest" href="../../">Latest</a><a class="t-ai" href="../../section/ai/">AI and formalization</a><a class="t-verification" href="../../section/verification/">Verification</a><a class="t-lean-core" href="../../section/lean-core/">Lean core</a><a class="t-papers" href="../../section/papers/">Papers and events</a><span class="tabs-gap"></span><a class="quiet" href="../../about/">About</a><a class="quiet" href="../../feed.xml">RSS</a></nav>
+</header>
+<main id="main">
+<div class="frame"><div class="timeline">
+<header class="page-head"><h1 class="page-title">Lean news, Jan 30 to Feb 5, 2026</h1><p class="page-blurb">7 items published in the 7 days to Thursday, Feb 5, 2026. Most important first.</p></header>
+<div class="stream">
+<article class="card c-lean-core" id="2026-02-05-leo-de-moura-s-lean-change-stops-simp-from-simplifying-instances">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-05">Feb 5</time><button class="copy" type="button" hidden data-link="../../2026-02-05/#2026-02-05-leo-de-moura-s-lean-change-stops-simp-from-simplifying-instances" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura's Lean change stops simp from simplifying instances by default</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12244" rel="noopener">The pull request</a>, merged on 2026-02-05, ensures simp does not &quot;simplify&quot; instances by default, since doing so creates non-standard instances that cause problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. The old behavior can be retrieved with simp +instances, and the backward compatibility flag for dsimp also deactivates the change.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12244" rel="noopener">lean4#12244</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-02-05-leo-de-moura-fixes-lean-s-type-class-resolution-cache">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-05">Feb 5</time><button class="copy" type="button" hidden data-link="../../2026-02-05/#2026-02-05-leo-de-moura-fixes-lean-s-type-class-resolution-cache" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura fixes Lean's type class resolution cache</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">A merged pull request</a> to leanprover/lean4 makes the type class resolution cache properly cache results for type classes containing output parameters. Output parameter arguments, and universe levels that only appear in output parameter types, are erased from the cache key to avoid cache misses.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">lean4#12286</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-02-05-predictable-machines-explains-why-it-chose-lean-for-predictable">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-03">Feb 3</time><button class="copy" type="button" hidden data-link="../../2026-02-05/#2026-02-05-predictable-machines-explains-why-it-chose-lean-for-predictable" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Predictable Machines explains why it chose Lean for Predictable Code</h2>
+    <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/davidmazarro_the-first-time-i-fell-in-love-with-a-programming-share-7424423431200227330-m9RD" rel="noopener">In an article</a>, <a class="inl" href="https://predictablemachines.com/" rel="noopener">Predictable Machines, Inc.</a> explains why it chose Lean as the foundation for Predictable Code, saying Lean's combination of a programming language and a theorem prover makes it possible to formally verify that AI-generated code stays aligned with specifications as systems evolve.</p>
+    <figure class="media"><img src="../../assets/img/c88b4b7e782eec07-480.webp" srcset="../../assets/img/c88b4b7e782eec07-480.webp 480w, ../../assets/img/c88b4b7e782eec07-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1080" height="1080" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/davidmazarro_the-first-time-i-fell-in-love-with-a-programming-share-7424423431200227330-m9RD" rel="noopener">LinkedIn post</a><span class="dot" aria-hidden="true">·</span><a href="https://predictablemachines.com/" rel="noopener">predictablemachines.com</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-02-05-new-leancall-library-lets-python-code-call-lean-functions-direct">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-02">Feb 2</time><button class="copy" type="button" hidden data-link="../../2026-02-05/#2026-02-05-new-leancall-library-lets-python-code-call-lean-functions-direct" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">New leancall library lets Python code call Lean functions directly</h2>
+    <p class="card-text">A post titled &quot;<a class="inl" href="https://www.philipzucker.com/leancall/" rel="noopener">Calling Lean Functions As Python Functions</a>&quot; introduces leancall, a Python library for Lean-Python interop built on LeanInteract, which gives a Lean REPL as a Python library. Examples include a Lean controller balancing a gym cartpole environment and a Lean ray tracer displayed with Python plotting tools.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.philipzucker.com/leancall/" rel="noopener">philipzucker.com</a></p>
+  </div>
+</article>
+<article class="card c-papers" id="2026-02-05-blog-post-formally-models-a-cyberchase-episode-s-dragon-game-in">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-02">Feb 2</time><button class="copy" type="button" hidden data-link="../../2026-02-05/#2026-02-05-blog-post-formally-models-a-cyberchase-episode-s-dragon-game-in" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Blog post formally models a Cyberchase episode's dragon game in Lean</h2>
+    <p class="card-text">A post on shadaj.me, &quot;<a class="inl" href="https://www.shadaj.me/writing/cyberchase-lean" rel="noopener">Formally Verifying PBS Kids with Lean4</a>,&quot; uses Lean to model the Cyberchase episode &quot;Problem Solving in Shangri-La,&quot; a variant of Nim where players remove 1, 2, or 3 dragons. It proves the Cybersquad's poison-number strategy wins, introducing tactics such as rw, simp, split, and omega along the way.</p>
+    <figure class="media"><img src="../../assets/img/3f16da90dc1e3d31-480.webp" srcset="../../assets/img/3f16da90dc1e3d31-480.webp 480w, ../../assets/img/3f16da90dc1e3d31-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="630" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: shadaj.me</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.shadaj.me/writing/cyberchase-lean" rel="noopener">shadaj.me</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-02-05-gavin-mendel-gleason-used-gpt-5-2-and-lean-to-verify-a-citation">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time><button class="copy" type="button" hidden data-link="../../2026-02-05/#2026-02-05-gavin-mendel-gleason-used-gpt-5-2-and-lean-to-verify-a-citation" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Gavin Mendel-Gleason used GPT-5.2 and Lean to verify a citation-streaming program</h2>
+    <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/gavinmendelgleason_vibe-coding-using-programme-verification-share-7422605545607643137-cGqz/" rel="noopener">Gavin Mendel-Gleason reports</a> that opencode, GPT-5.2 and lean-lsp-mcp produced a provably correct citation streaming program for a RAG answering system in two hours with no interventions. Gavin Mendel-Gleason argues that LLMs increase software generation faster than software understanding, and calls the approach vericoding (vibe-coding using programme verification).</p>
+    <figure class="media"><img src="../../assets/img/58b921dd030b2f3d-480.webp" srcset="../../assets/img/58b921dd030b2f3d-480.webp 480w, ../../assets/img/58b921dd030b2f3d-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="446" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/gavinmendelgleason_vibe-coding-using-programme-verification-share-7422605545607643137-cGqz/" rel="noopener">LinkedIn post</a></p>
+  </div>
+</article>
+<article class="card c-papers" id="2026-02-05-stan-fedotov-compares-two-ai-assisted-math-papers-one-checked-in">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time><button class="copy" type="button" hidden data-link="../../2026-02-05/#2026-02-05-stan-fedotov-compares-two-ai-assisted-math-papers-one-checked-in" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Stan Fedotov compares two AI-assisted math papers, one checked in Lean</h2>
+    <p class="card-text">In <a class="inl" href="https://www.linkedin.com/posts/stan-fedotov_ai-can-be-faulty-but-very-few-of-us-humans-share-7422619899182837760-_UF8" rel="noopener">a LinkedIn post</a>, Stan Fedotov argues the field is &quot;moving towards automated verification in most domains,&quot; while noting Lean is &quot;only useful when the standard library supports your field.&quot; In one paper, only a somewhat elementary part of the proof was verified in Lean, while the authors proved the deeper parts.</p>
+    <figure class="media"><img src="../../assets/img/8382c98f8e963be1-480.webp" srcset="../../assets/img/8382c98f8e963be1-480.webp 480w, ../../assets/img/8382c98f8e963be1-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="964" height="1280" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/stan-fedotov_ai-can-be-faulty-but-very-few-of-us-humans-share-7422619899182837760-_UF8" rel="noopener">LinkedIn post</a></p>
+  </div>
+</article>
+</div>
+</div></div>
+</main>
+<p class="sr-only" id="status" role="status" aria-live="polite"></p>
+<footer class="foot"><div class="foot-in"><p><a href="../../about/">About</a> · <a href="../../search/">Search</a> · <a href="../../feed.xml">RSS</a> · <a href="../../feed.json">JSON Feed</a></p></div></footer>
+</body>
+</html>

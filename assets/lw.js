@@ -39,11 +39,10 @@
   function setupCopy() {
     reveal(document);
     document.addEventListener("click", async (e) => {
-      const b = e.target.closest && e.target.closest("button.copy");
-      const link = b && b.closest("article") && b.closest("article").querySelector("a.when");
-      if (!link) return;
+      const b = e.target.closest && e.target.closest("button.copy[data-link]");
+      if (!b) return;
       try {
-        await navigator.clipboard.writeText(link.href);
+        await navigator.clipboard.writeText(new URL(b.dataset.link, location.href).href);
         b.classList.add("done");
         if (status) status.textContent = "Link copied";
         setTimeout(() => { b.classList.remove("done"); if (status) status.textContent = ""; }, 1600);
@@ -69,6 +68,7 @@
         for (const node of doc.querySelectorAll(".stream > article.card")) {
           // Links in the fetched page are relative to that page; make them absolute.
           for (const a of node.querySelectorAll("a[href]")) a.href = new URL(a.getAttribute("href"), res.url).href;
+          for (const b of node.querySelectorAll("button[data-link]")) b.dataset.link = new URL(b.dataset.link, res.url).href;
           node.classList.add("fresh");
           for (const img of node.querySelectorAll("img[srcset]")) {   // srcset paths are relative too
             img.srcset = img.getAttribute("srcset").split(",").map((part) => {

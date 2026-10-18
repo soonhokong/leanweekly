@@ -4,9 +4,14 @@
 
 ## Latest items
 
+- [Researchers formalize Razborov's flag algebra method for extremal graph theory in Lean](https://leanweekly.news/2026-10-18/#2026-10-18-researchers-formalize-razborov-s-flag-algebra-method-for-extrema): AI and formalization, 2026-10-18
+- [Jeremy Avigad and coauthors back formalizing all of mathematics, if done well](https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics): Papers and events, 2026-10-16
+- [Shanghai AI Lab's Shusheng-S2 helps prove 3D Ghys conjecture, verified in Lean](https://leanweekly.news/2026-10-18/#2026-10-18-shanghai-ai-lab-s-shusheng-s2-helps-prove-3d-ghys-conjecture-ver): AI and formalization, 2026-10-16
+- [Lean now ships verified kernels (proof checkers) and a lake check command](https://leanweekly.news/2026-10-18/#2026-10-18-lean-now-ships-verified-kernels-proof-checkers-and-a-lake-check): Lean core, 2026-10-15
 - [OpenAI publishes 719 model-produced math manuscripts, about 42% Lean-formalized](https://leanweekly.news/2026-10-15/#2026-10-15-openai-publishes-719-model-produced-math-manuscripts-about-42-le): AI and formalization, 2026-10-15
 - [Machine-checked Lean 4 proof of the general Courtade–Kumar inequality released](https://leanweekly.news/2026-10-15/#2026-10-15-machine-checked-lean-4-proof-of-the-general-courtade-kumar-inequ): AI and formalization, 2026-10-15
 - [Emina Torlak presents SymCert, a Lean framework for verified Cedar policy analyses](https://leanweekly.news/2026-10-15/#2026-10-15-emina-torlak-presents-symcert-a-lean-framework-for-verified-ceda): Verification, 2026-10-15
+- [AxiomProver generates Lean proof of Collatz positive density results](https://leanweekly.news/2026-10-18/#2026-10-18-axiomprover-generates-lean-proof-of-collatz-positive-density-res): AI and formalization, 2026-10-15
 - [Flapjack ports the verified Pancake compiler from HOL4 to Lean](https://leanweekly.news/2026-10-15/#2026-10-15-flapjack-ports-the-verified-pancake-compiler-from-hol4-to-lean): Verification, 2026-10-15
 - [Joachim Breitner and Lean FRO describe the proof behind con-leche checker](https://leanweekly.news/2026-10-15/#2026-10-15-joachim-breitner-and-lean-fro-describe-the-proof-behind-con-lech): Lean core, 2026-10-14
 - [Google's Gemini 4 Argon writes a Lean-verified quantum arcsin implementation](https://leanweekly.news/2026-10-15/#2026-10-15-google-s-gemini-4-argon-writes-a-lean-verified-quantum-arcsin-im): AI and formalization, 2026-10-13
@@ -99,41 +104,71 @@
 - [Pramaana Labs reports solving all 6 IMO 2026 problems in Lean](https://leanweekly.news/2026-08-06/#2026-08-06-pramaana-labs-reports-solving-all-6-imo-2026-problems-in-lean): AI and formalization, 2026-08-05
 - [Yueyang Feng, Ilya Sergey and coauthors present LeetProof for verified code generation](https://leanweekly.news/2026-08-06/#2026-08-06-yueyang-feng-ilya-sergey-and-coauthors-present-leetproof-for-ver): AI and formalization, 2026-08-04
 - [CSLib adds a fully verified proof of the FLP impossibility result](https://leanweekly.news/2026-08-06/#2026-08-06-cslib-adds-a-fully-verified-proof-of-the-flp-impossibility-resul): AI and formalization, 2026-08-03
-- [Tim Sweeney praises the Lean team's handling of a kernel bug](https://leanweekly.news/2026-08-27/#2026-08-27-tim-sweeney-praises-the-lean-team-s-handling-of-a-kernel-bug): Papers and events, 2026-08-02
-- [Alexander Gerko says AI-assisted research produced several PhDs' worth of results](https://leanweekly.news/2026-08-06/#2026-08-06-alexander-gerko-says-ai-assisted-research-produced-several-phds): Papers and events, 2026-07-31
-- [Sebastian Graf extends Lean's def contracts with requires and assert](https://leanweekly.news/2026-08-06/#2026-08-06-sebastian-graf-extends-lean-s-def-contracts-with-requires-and-as): Lean core, 2026-07-30
-- [CircuitProver uses a Lean 4 agent to prove parameterized hardware designs correct](https://leanweekly.news/2026-08-06/#2026-08-06-circuitprover-uses-a-lean-4-agent-to-prove-parameterized-hardwar): Verification, 2026-07-29
-- [Amazon provides long-term financial support to the Lean Focused Research Organization](https://leanweekly.news/2026-08-06/#2026-08-06-amazon-provides-long-term-financial-support-to-the-lean-focused): Papers and events, 2026-07-26
 
-## Weekly editions (Markdown)
+## Weeks (Friday to Thursday)
 
-- [Week of Oct 15, 2026](https://leanweekly.news/2026-10-15/issue.md)
-- [Week of Sep 24, 2026](https://leanweekly.news/2026-09-24/issue.md)
-- [Week of Sep 17, 2026](https://leanweekly.news/2026-09-17/issue.md)
-- [Week of Sep 3, 2026](https://leanweekly.news/2026-09-03/issue.md)
-- [Week of Aug 27, 2026](https://leanweekly.news/2026-08-27/issue.md)
-- [Week of Aug 15, 2026](https://leanweekly.news/2026-08-15/issue.md)
-- [Week of Aug 6, 2026](https://leanweekly.news/2026-08-06/issue.md)
-- [Week of Jul 23, 2026](https://leanweekly.news/2026-07-23/issue.md)
-- [Week of Jul 16, 2026](https://leanweekly.news/2026-07-16/issue.md)
-- [Week of Jul 9, 2026](https://leanweekly.news/2026-07-09/issue.md)
-- [Week of Jul 2, 2026](https://leanweekly.news/2026-07-02/issue.md)
-- [Week of Jun 25, 2026](https://leanweekly.news/2026-06-25/issue.md)
-- [Week of Jun 18, 2026](https://leanweekly.news/2026-06-18/issue.md)
-- [Week of May 28, 2026](https://leanweekly.news/2026-05-28/issue.md)
-- [Week of May 14, 2026](https://leanweekly.news/2026-05-14/issue.md)
-- [Week of May 7, 2026](https://leanweekly.news/2026-05-07/issue.md)
-- [Week of Apr 30, 2026](https://leanweekly.news/2026-04-30/issue.md)
-- [Week of Apr 23, 2026](https://leanweekly.news/2026-04-23/issue.md)
-- [Week of Apr 9, 2026](https://leanweekly.news/2026-04-09/issue.md)
-- [Week of Apr 2, 2026](https://leanweekly.news/2026-04-02/issue.md)
-- [Week of Mar 19, 2026](https://leanweekly.news/2026-03-19/issue.md)
-- [Week of Mar 5, 2026](https://leanweekly.news/2026-03-05/issue.md)
-- [Week of Feb 26, 2026](https://leanweekly.news/2026-02-26/issue.md)
-- [Week of Feb 19, 2026](https://leanweekly.news/2026-02-19/issue.md)
-- [Week of Feb 12, 2026](https://leanweekly.news/2026-02-12/issue.md)
-- [Week of Feb 5, 2026](https://leanweekly.news/2026-02-05/issue.md)
-- [Week of Jan 29, 2026](https://leanweekly.news/2026-01-29/issue.md)
-- [Week of Jan 22, 2026](https://leanweekly.news/2026-01-22/issue.md)
-- [Week of Jan 15, 2026](https://leanweekly.news/2026-01-15/issue.md)
-- [Week of Jan 8, 2026](https://leanweekly.news/2026-01-08/issue.md)
+- [Lean news, Oct 16 to Oct 22, 2026](https://leanweekly.news/week/2026-10-22/)
+- [Lean news, Oct 9 to Oct 15, 2026](https://leanweekly.news/week/2026-10-15/)
+- [Lean news, Sep 18 to Sep 24, 2026](https://leanweekly.news/week/2026-09-24/)
+- [Lean news, Sep 11 to Sep 17, 2026](https://leanweekly.news/week/2026-09-17/)
+- [Lean news, Aug 28 to Sep 3, 2026](https://leanweekly.news/week/2026-09-03/)
+- [Lean news, Aug 21 to Aug 27, 2026](https://leanweekly.news/week/2026-08-27/)
+- [Lean news, Aug 14 to Aug 20, 2026](https://leanweekly.news/week/2026-08-20/)
+- [Lean news, Jul 31 to Aug 6, 2026](https://leanweekly.news/week/2026-08-06/)
+- [Lean news, Jul 17 to Jul 23, 2026](https://leanweekly.news/week/2026-07-23/)
+- [Lean news, Jul 10 to Jul 16, 2026](https://leanweekly.news/week/2026-07-16/)
+- [Lean news, Jul 3 to Jul 9, 2026](https://leanweekly.news/week/2026-07-09/)
+- [Lean news, Jun 26 to Jul 2, 2026](https://leanweekly.news/week/2026-07-02/)
+- [Lean news, Jun 19 to Jun 25, 2026](https://leanweekly.news/week/2026-06-25/)
+- [Lean news, Jun 12 to Jun 18, 2026](https://leanweekly.news/week/2026-06-18/)
+- [Lean news, May 22 to May 28, 2026](https://leanweekly.news/week/2026-05-28/)
+- [Lean news, May 8 to May 14, 2026](https://leanweekly.news/week/2026-05-14/)
+- [Lean news, May 1 to May 7, 2026](https://leanweekly.news/week/2026-05-07/)
+- [Lean news, Apr 24 to Apr 30, 2026](https://leanweekly.news/week/2026-04-30/)
+- [Lean news, Apr 17 to Apr 23, 2026](https://leanweekly.news/week/2026-04-23/)
+- [Lean news, Apr 3 to Apr 9, 2026](https://leanweekly.news/week/2026-04-09/)
+- [Lean news, Mar 27 to Apr 2, 2026](https://leanweekly.news/week/2026-04-02/)
+- [Lean news, Mar 13 to Mar 19, 2026](https://leanweekly.news/week/2026-03-19/)
+- [Lean news, Feb 27 to Mar 5, 2026](https://leanweekly.news/week/2026-03-05/)
+- [Lean news, Feb 20 to Feb 26, 2026](https://leanweekly.news/week/2026-02-26/)
+- [Lean news, Feb 13 to Feb 19, 2026](https://leanweekly.news/week/2026-02-19/)
+- [Lean news, Feb 6 to Feb 12, 2026](https://leanweekly.news/week/2026-02-12/)
+- [Lean news, Jan 30 to Feb 5, 2026](https://leanweekly.news/week/2026-02-05/)
+- [Lean news, Jan 23 to Jan 29, 2026](https://leanweekly.news/week/2026-01-29/)
+- [Lean news, Jan 16 to Jan 22, 2026](https://leanweekly.news/week/2026-01-22/)
+- [Lean news, Jan 9 to Jan 15, 2026](https://leanweekly.news/week/2026-01-15/)
+- [Lean news, Jan 2 to Jan 8, 2026](https://leanweekly.news/week/2026-01-08/)
+
+## Items in Markdown, by publication date
+
+- [Published Oct 18, 2026](https://leanweekly.news/2026-10-18/items.md)
+- [Published Oct 15, 2026](https://leanweekly.news/2026-10-15/items.md)
+- [Published Sep 24, 2026](https://leanweekly.news/2026-09-24/items.md)
+- [Published Sep 17, 2026](https://leanweekly.news/2026-09-17/items.md)
+- [Published Sep 3, 2026](https://leanweekly.news/2026-09-03/items.md)
+- [Published Aug 27, 2026](https://leanweekly.news/2026-08-27/items.md)
+- [Published Aug 15, 2026](https://leanweekly.news/2026-08-15/items.md)
+- [Published Aug 6, 2026](https://leanweekly.news/2026-08-06/items.md)
+- [Published Jul 23, 2026](https://leanweekly.news/2026-07-23/items.md)
+- [Published Jul 16, 2026](https://leanweekly.news/2026-07-16/items.md)
+- [Published Jul 9, 2026](https://leanweekly.news/2026-07-09/items.md)
+- [Published Jul 2, 2026](https://leanweekly.news/2026-07-02/items.md)
+- [Published Jun 25, 2026](https://leanweekly.news/2026-06-25/items.md)
+- [Published Jun 18, 2026](https://leanweekly.news/2026-06-18/items.md)
+- [Published May 28, 2026](https://leanweekly.news/2026-05-28/items.md)
+- [Published May 14, 2026](https://leanweekly.news/2026-05-14/items.md)
+- [Published May 7, 2026](https://leanweekly.news/2026-05-07/items.md)
+- [Published Apr 30, 2026](https://leanweekly.news/2026-04-30/items.md)
+- [Published Apr 23, 2026](https://leanweekly.news/2026-04-23/items.md)
+- [Published Apr 9, 2026](https://leanweekly.news/2026-04-09/items.md)
+- [Published Apr 2, 2026](https://leanweekly.news/2026-04-02/items.md)
+- [Published Mar 19, 2026](https://leanweekly.news/2026-03-19/items.md)
+- [Published Mar 5, 2026](https://leanweekly.news/2026-03-05/items.md)
+- [Published Feb 26, 2026](https://leanweekly.news/2026-02-26/items.md)
+- [Published Feb 19, 2026](https://leanweekly.news/2026-02-19/items.md)
+- [Published Feb 12, 2026](https://leanweekly.news/2026-02-12/items.md)
+- [Published Feb 5, 2026](https://leanweekly.news/2026-02-05/items.md)
+- [Published Jan 29, 2026](https://leanweekly.news/2026-01-29/items.md)
+- [Published Jan 22, 2026](https://leanweekly.news/2026-01-22/items.md)
+- [Published Jan 15, 2026](https://leanweekly.news/2026-01-15/items.md)
+- [Published Jan 8, 2026](https://leanweekly.news/2026-01-08/items.md)
