@@ -32,15 +32,6 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 8</h1></header>
 <div class="stream">
-<article class="card c-verification" id="2026-05-07-jonathan-protzenko-uses-aeneas-to-verify-bounds-safety-in-jxl-rs">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time><button class="copy" type="button" hidden data-link="../../2026-05-07/#2026-05-07-jonathan-protzenko-uses-aeneas-to-verify-bounds-safety-in-jxl-rs" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Jonathan Protzenko uses Aeneas to verify bounds safety in jxl-rs</h2>
-    <p class="card-text"><a class="inl" href="https://jonathan.protzenko.fr/2026/05/05/jxl-rs.html" rel="noopener">Jonathan Protzenko's case study</a> uses <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a>, a toolchain for verifying Rust programs through a functional translation to Lean, on jxl-rs, a Rust rewrite of the jpeg-xl codec. The proof shows an unchecked array access always stays within bounds and showcases recent Aeneas features, including official <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> support and loop combinators.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://jonathan.protzenko.fr/2026/05/05/jxl-rs.html" rel="noopener">jonathan.protzenko.fr</a></p>
-  </div>
-</article>
 <article class="card c-lean-core" id="2026-05-07-leo-de-moura-fixes-a-panic-and-an-assertion-failure-in-sym-simp">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -252,6 +243,15 @@
     <h2 class="card-title">Leo de Moura merges fixes for Lean's Sym framework and sym =&gt; mode</h2>
     <p class="card-text">The pull requests fix a bug where <a class="inl" href="https://github.com/leanprover/lean4/pull/13472" rel="noopener">satellite solvers</a> (lia, ring, linarith) in sym =&gt; interactive mode threw an internal error, <a class="inl" href="https://github.com/leanprover/lean4/pull/13474" rel="noopener">prune goals assigned by isDefEq</a>, <a class="inl" href="https://github.com/leanprover/lean4/pull/13451" rel="noopener">stop Sym.intros</a> from assigning a metavariable when it introduces no binders, and restore eta-reduction of Sym.simp patterns containing loose pattern variables.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13472" rel="noopener">lean4#13472</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13474" rel="noopener">lean4#13474</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13451" rel="noopener">lean4#13451</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13448" rel="noopener">lean4#13448</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13452" rel="noopener">lean4#13452</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-04-30-vscode-lean4-adds-picker-based-input-method-for-unicode-abbrevia">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-15">Apr 15</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-vscode-lean4-adds-picker-based-input-method-for-unicode-abbrevia" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">vscode-lean4 adds picker-based input method for Unicode abbreviations</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/vscode-lean4/pull/762" rel="noopener">A merged pull request</a> by Marc Huisinga adds three commands (Find, Copy, and Insert Unicode Symbol) that search symbols by abbreviation or by symbol, making it easier to insert Unicode into non-editor dialogs. Copy and Insert are bound to Ctrl+Alt+\ depending on whether a text editor is focused.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/vscode-lean4/pull/762" rel="noopener">vscode-lean4#762</a></p>
   </div>
 </article>
 </div>

@@ -32,15 +32,6 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 6</h1></header>
 <div class="stream">
-<article class="card c-lean-core" id="2026-07-16-wojciech-r-owski-adds-two-phase-stateful-linters-to-lean">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-08">Jul 8</time><button class="copy" type="button" hidden data-link="../../2026-07-16/#2026-07-16-wojciech-r-owski-adds-two-phase-stateful-linters-to-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Wojciech Różowski adds two-phase stateful linters to Lean</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14357" rel="noopener">A merged pull request</a> lets linters persist and share state across command elaboration, with each stateful linter running an early phase and a late phase. Wojciech Różowski also changed the <a class="inl" href="https://github.com/leanprover/lean4/pull/14344" rel="noopener">UnusedSimpArgs linter hint</a> and <a class="inl" href="https://github.com/leanprover/lean4/pull/14313" rel="noopener">split registerParametricAttribute</a> as preparatory work for warning when @[deprecated] points at an already-deprecated declaration.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14357" rel="noopener">lean4#14357</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14344" rel="noopener">lean4#14344</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14313" rel="noopener">lean4#14313</a></p>
-  </div>
-</article>
 <article class="card c-lean-core" id="2026-07-09-kim-morrison-releases-first-packages-of-hex-a-computational-alge">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -249,6 +240,15 @@
     <h2 class="card-title">Lake now deduplicates artifact transfers to and from its cache</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14060" rel="noopener">A pull request by Mac Malone</a>, merged into leanprover/lean4, has <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> deduplicate artifacts by their hash when uploading or downloading to the cache (for example in lake cache put or lake cache get). The change fixes possible errors when curl was asked to transfer to the same file or URL multiple times.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14060" rel="noopener">lean4#14060</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-06-18-lean-4-31-0-released-with-new-do-loops-lake-linting-mvcgen">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-13">Jun 13</time><button class="copy" type="button" hidden data-link="../../2026-06-18/#2026-06-18-lean-4-31-0-released-with-new-do-loops-lake-linting-mvcgen" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4.31.0 released with new do loops, Lake linting, mvcgen'</h2>
+    <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.31.0/" rel="noopener">Lean 4.31.0</a> lands <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.31.0" rel="noopener">305 changes</a>, including while let loops in do blocks, a built-in <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> linting framework, stricter transparency handling in definitional-equality checking, and the experimental mvcgen' tactic, which can outperform mvcgen by over 100x on some synthetic benchmarks. The bundled toolchain moves from LLVM 19 to LLVM 22.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.31.0/" rel="noopener">v4.31.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.31.0" rel="noopener">lean4 v4.31.0</a></p>
   </div>
 </article>
 </div>

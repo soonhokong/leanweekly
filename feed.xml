@@ -6,15 +6,7 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 18 Oct 2026 12:00:00 +0000</lastBuildDate>
-<item>
-<title>Researchers formalize Razborov's flag algebra method for extremal graph theory in Lean</title>
-<link>https://leanweekly.news/2026-10-18/#2026-10-18-researchers-formalize-razborov-s-flag-algebra-method-for-extrema</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-18/#2026-10-18-researchers-formalize-razborov-s-flag-algebra-method-for-extrema</guid>
-<pubDate>Sun, 18 Oct 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;Gyeongwon Jeong, Seonghun Park, Jihoon Hyun, Sang-il Oum, and Hongseok Yang cover &lt;a class="inl" href="https://arxiv.org/abs/2607.23500" rel="noopener"&gt;finite simple graphs in Lean 4&lt;/a&gt;, building on &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;, and add a tactic that turns semidefinite programming certificates into Lean proofs. Results include seven Turán-type upper bounds and the first formalization, to the authors' knowledge, of the asymptotic Erdős pentagon theorem.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2607.23500"&gt;arXiv:2607.23500&lt;/a&gt;&lt;/p&gt;</description>
-</item>
+<lastBuildDate>Fri, 16 Oct 2026 12:00:00 +0000</lastBuildDate>
 <item>
 <title>Jeremy Avigad and coauthors back formalizing all of mathematics, if done well</title>
 <link>https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics</link>
@@ -406,6 +398,14 @@
 <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/" rel="noopener"&gt;OpenAI said 10,000 autonomous AI agents&lt;/a&gt; found a singularity in the Navier-Stokes equations in three dimensions, with the result formally checked in Lean. Hours earlier, Tristan Buckmaster at New York University and Levent Alpöge at Anthropic reported Lean-verified proofs for three related results, including one for the Euler equations.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"&gt;quantamagazine.org&lt;/a&gt;, &lt;a href="https://blog.computationalcomplexity.org/2026/09/navier-stokes-and-lean.html"&gt;blog.computationalcomplexity.org&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Sebastian Ullrich logs build optimizations for Anthropic's Lean proof of Fermat's Last Theorem</title>
+<link>https://leanweekly.news/2026-09-17/#2026-09-17-sebastian-ullrich-logs-build-optimizations-for-anthropic-s-lean</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-09-17/#2026-09-17-sebastian-ullrich-logs-build-optimizations-for-anthropic-s-lean</guid>
+<pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
+<category>Lean core</category>
+<description>&lt;p&gt;On a &lt;a class="inl" href="https://hackmd.io/@tKCokyPgR8qHjLvzExSBbw/Byxo8AcdGx" rel="noopener"&gt;1,000-module slice&lt;/a&gt;, adopting the module system and import minimization cut task-clock to 3,268 s (down 63.1%) and wall-clock to 140 s (down 86.3%). Sebastian Ullrich also released the proof as a single &lt;a class="inl" href="https://github.com/Kha/fermats-last-theorem/releases/tag/export" rel="noopener"&gt;1.01 GiB .olean download&lt;/a&gt; that can be run through lean4export for external checkers.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://hackmd.io/@tKCokyPgR8qHjLvzExSBbw/Byxo8AcdGx"&gt;hackmd.io&lt;/a&gt;, &lt;a href="https://github.com/Kha/fermats-last-theorem/releases/tag/export"&gt;fermats-last-theorem export&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
