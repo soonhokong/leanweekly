@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Joris Roos formalizes OpenAI's L³ trilinear Hilbert transform bound with coding agents](https://leanweekly.news/2026-10-20/#2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou): AI and formalization, 2026-10-20
 - [Jeremy Avigad and coauthors back formalizing all of mathematics, if done well](https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics): Papers and events, 2026-10-16
 - [Shanghai AI Lab's Shusheng-S2 helps prove 3D Ghys conjecture, verified in Lean](https://leanweekly.news/2026-10-18/#2026-10-18-shanghai-ai-lab-s-shusheng-s2-helps-prove-3d-ghys-conjecture-ver): AI and formalization, 2026-10-16
 - [Lean now ships verified kernels (proof checkers) and a lake check command](https://leanweekly.news/2026-10-18/#2026-10-18-lean-now-ships-verified-kernels-proof-checkers-and-a-lake-check): Lean core, 2026-10-15
@@ -103,7 +104,6 @@
 - [Pramaana Labs reports solving all 6 IMO 2026 problems in Lean](https://leanweekly.news/2026-08-06/#2026-08-06-pramaana-labs-reports-solving-all-6-imo-2026-problems-in-lean): AI and formalization, 2026-08-05
 - [Yueyang Feng, Ilya Sergey and coauthors present LeetProof for verified code generation](https://leanweekly.news/2026-08-06/#2026-08-06-yueyang-feng-ilya-sergey-and-coauthors-present-leetproof-for-ver): AI and formalization, 2026-08-04
 - [CSLib adds a fully verified proof of the FLP impossibility result](https://leanweekly.news/2026-08-06/#2026-08-06-cslib-adds-a-fully-verified-proof-of-the-flp-impossibility-resul): AI and formalization, 2026-08-03
-- [Tim Sweeney praises the Lean team's handling of a kernel bug](https://leanweekly.news/2026-08-27/#2026-08-27-tim-sweeney-praises-the-lean-team-s-handling-of-a-kernel-bug): Papers and events, 2026-08-02
 
 ## Weeks (Friday to Thursday)
 
@@ -141,6 +141,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Oct 20, 2026](https://leanweekly.news/2026-10-20/items.md)
 - [Published Oct 18, 2026](https://leanweekly.news/2026-10-18/items.md)
 - [Published Oct 15, 2026](https://leanweekly.news/2026-10-15/items.md)
 - [Published Sep 24, 2026](https://leanweekly.news/2026-09-24/items.md)
