@@ -21,4 +21,4 @@ window_end: 2026-06-25
 
 ## Papers, events, press
 
-- **Leo de Moura gives AWS talk on Lean's use across AWS.** In a June 2026 talk, Leo de Moura (Senior Principal Applied Scientist, AWS, and Chief Architect, Lean FRO) described AWS projects built with Lean, including Cedar, a verified authorization policy language, SampCert, verified differential privacy, and Waimea, a tensor compiler for Trainium. The slides are written in Verso. ([leodemoura.github.io](https://leodemoura.github.io/static/aws-june-2026/))
+- **Leo de Moura gives AWS talk on Lean's use across AWS.** In a June 2026 talk, Leo de Moura (Senior Principal Applied Scientist, AWS, and Chief Architect, Lean FRO) described AWS projects built with Lean, including Cedar, a verified authorization policy language, and SampCert, verified differential privacy. The slides are written in Verso. ([leodemoura.github.io](https://leodemoura.github.io/static/aws-june-2026/))
