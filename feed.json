@@ -6,6 +6,32 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver",
+   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver",
+   "title": "AI agents help researchers discover a new consensus protocol, verified in Lean",
+   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2610.30114\" rel=\"noopener\">AI-greement</a>, an agent harness with a Lean-based verification framework, helped researchers discover A-greement, a consensus protocol proved linearizable in about <a class=\"inl\" href=\"https://paperswithlean.com/paper/2610.30114.html\" rel=\"noopener\">98,000 lines of Lean</a>. A-greement cuts mean latency over the fastest baseline by 12.2% on write-heavy and 33.3% on read-heavy workloads, and the harness's Lean formalization uncovered four previously unreported vulnerabilities in existing protocols.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.30114\">arXiv:2610.30114</a>, <a href=\"https://paperswithlean.com/paper/2610.30114.html\">paperswithlean.com</a></p>",
+   "date_published": "2026-10-21T12:00:00Z",
+   "tags": [
+    "Verification",
+    "consensus",
+    "ai agents",
+    "distributed systems"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe",
+   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe",
+   "title": "Kraken Lean project proves FFmpeg's SBR decoder binary safe",
+   "content_html": "<p>The theorem sbr_session_safe covers the linked machine code (aacsbr.o with its callees): given the link's layout, external routines' contracts and a 32-bit bound on their stack, every run stays in the memory it owns and uses at most the stated stack. The prefix-code and bound facts of FFmpeg's Huffman tables are proved.</p><p>Sources: <a href=\"https://github.com/zrlk/kraken/blob/sbr-wf-preserve/Kraken/X64/Examples/Sbr/SessionBin/Top.lean\">zrlk/kraken</a></p>",
+   "date_published": "2026-10-21T12:00:00Z",
+   "tags": [
+    "Verification",
+    "ffmpeg",
+    "machine code",
+    "separation logic"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-20/#2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou",
    "url": "https://leanweekly.news/2026-10-20/#2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou",
    "title": "Joris Roos formalizes OpenAI's L³ trilinear Hilbert transform bound with coding agents",
@@ -45,6 +71,19 @@
    ]
   },
   {
+   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-ilya-sergey-describes-vermilion-an-experimental-lean-backend-for",
+   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-ilya-sergey-describes-vermilion-an-experimental-lean-backend-for",
+   "title": "Ilya Sergey describes Vermilion, an experimental Lean backend for Rust verifier Verus",
+   "content_html": "<p><a class=\"inl\" href=\"https://proofsandintuitions.net/2026/10/18/vermilion-experiment-lean-backend-verus/\" rel=\"noopener\">Vermilion</a> expresses Verus's verification conditions (mathematical propositions about a program), normally sent to the Z3 solver, as Lean theorems, though it does not prove that they correctly describe Rust's semantics. Its default tactic, vrml, tries to prove each automatically, and any it leaves open can be proved interactively, drawing on <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>.</p><p>Sources: <a href=\"https://proofsandintuitions.net/2026/10/18/vermilion-experiment-lean-backend-verus/\">proofsandintuitions.net</a>, <a href=\"https://x.com/ilyasergey/status/2111708968662036516\">@ilyasergey on X</a></p>",
+   "date_published": "2026-10-18T12:00:00Z",
+   "tags": [
+    "Verification",
+    "verus",
+    "rust",
+    "vermilion"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics",
    "url": "https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics",
    "title": "Jeremy Avigad and coauthors back formalizing all of mathematics, if done well",
@@ -68,6 +107,45 @@
     "ghys conjecture",
     "shusheng-s2",
     "ai theorem proving"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-anthropic-s-claude-designs-more-efficient-quantum-circuits-verif",
+   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-anthropic-s-claude-designs-more-efficient-quantum-circuits-verif",
+   "title": "Anthropic's Claude designs more efficient quantum circuits, verifying one with Lean proofs",
+   "content_html": "<p>Working largely on its own, Claude Mythos 5 produced circuits that improve on the best published versions. For <a class=\"inl\" href=\"https://arxiv.org/abs/2610.22367\" rel=\"noopener\">a new circuit computing modular inversion</a>, the wraparound version of division, Claude checked the formula behind the design with large-scale numerical simulations, then formalized the claim in Lean, a step <a class=\"inl\" href=\"https://www.anthropic.com/research/designing-efficient-quantum-circuits\" rel=\"noopener\">Anthropic</a> attributes to the model's caution.</p><p>Sources: <a href=\"https://www.anthropic.com/research/designing-efficient-quantum-circuits\">anthropic.com</a>, <a href=\"https://arxiv.org/abs/2610.22367\">arXiv:2610.22367</a></p>",
+   "date_published": "2026-10-16T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "ai",
+    "quantum computing",
+    "claude"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-sair-launches-open-math-os-a-research-workspace-built-on-open-mo",
+   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-sair-launches-open-math-os-a-research-workspace-built-on-open-mo",
+   "title": "SAIR launches Open Math OS, a research workspace built on open models",
+   "content_html": "<p><a class=\"inl\" href=\"https://www.openmathmodel.org/\" rel=\"noopener\">Open Math OS</a> offers open-source models and AI agents that explore problems in parallel, and gives every project a 24/7 cloud machine with more than 100 mathematical and scientific computing tools preinstalled. Compute is free for approved teams, the mathematical community owns its data, and launch partners include Hugging Face, Lean, CSCS and EPFL.</p><p>Sources: <a href=\"https://www.openmathmodel.org/\">openmathmodel.org</a>, <a href=\"https://x.com/SAIRfoundation/status/2111106860468285931\">@SAIRfoundation on X</a></p>",
+   "date_published": "2026-10-16T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "ai agents",
+    "open models",
+    "compute"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-vasily-ilin-shares-a-prompt-to-build-verified-faster-software-in",
+   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-vasily-ilin-shares-a-prompt-to-build-verified-faster-software-in",
+   "title": "Vasily Ilin shares a prompt to build verified, faster software in Lean",
+   "content_html": "<p>The prompt asks for a Lean version of software X, proved correct and optimized to run at least 10% faster than X's fastest implementation, with tests and proofs passing throughout. Kim Morrison's <a class=\"inl\" href=\"https://github.com/kim-em/lean-zip\" rel=\"noopener\">lean-zip</a>, a verified DEFLATE implementation, inspired the workflow; examples cover <a class=\"inl\" href=\"https://github.com/Vilin97/PrimeFactorLean\" rel=\"noopener\">integer factorization</a> and <a class=\"inl\" href=\"https://github.com/Vilin97/JumpProcessesLean\" rel=\"noopener\">jump processes</a>, the latter faster than Julia's JumpProcesses.jl.</p><p>Sources: <a href=\"https://x.com/IlinVasily29521/status/2110973208799367198\">@IlinVasily29521 on X</a>, <a href=\"https://github.com/Vilin97/PrimeFactorLean\">Vilin97/PrimeFactorLean</a>, <a href=\"https://github.com/Vilin97/JumpProcessesLean\">Vilin97/JumpProcessesLean</a>, <a href=\"https://github.com/kim-em/lean-zip\">kim-em/lean-zip</a></p>",
+   "date_published": "2026-10-16T12:00:00Z",
+   "tags": [
+    "Verification",
+    "ai agents",
+    "verified software",
+    "performance"
    ]
   },
   {
@@ -159,6 +237,19 @@
     "kernel",
     "checker",
     "soundness"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals",
+   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals",
+   "title": "Thomas Browning and coauthors release AnnalsChallenge, 50 Annals theorems stated in Lean",
+   "content_html": "<p>Each statement, written by hand in Lean 4 using <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>, is the main result of an Annals of Mathematics paper published since 2020; all were manually reviewed, then audited by AI, and are released without formalized proofs. <a class=\"inl\" href=\"https://arxiv.org/abs/2610.18301\" rel=\"noopener\">The authors</a> say measuring progress in AI autoformalization of mathematics requires hard, trustworthy datasets of formal statements.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.18301\">arXiv:2610.18301</a></p>",
+   "date_published": "2026-10-13T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "autoformalization",
+    "benchmark",
+    "mathlib"
    ]
   },
   {
@@ -562,97 +653,6 @@
     "html",
     "lean4",
     "syntax"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-xtx-markets-grants-10mn-each-to-lean-fro-and-the-mathlib-initiat",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-xtx-markets-grants-10mn-each-to-lean-fro-and-the-mathlib-initiat",
-   "title": "XTX Markets grants $10mn each to Lean FRO and the Mathlib Initiative",
-   "content_html": "<p><a class=\"inl\" href=\"https://www.xtxmarkets.com/news/2026-update-on-xtx-markets-ai-philanthropy/\" rel=\"noopener\">XTX Markets announced $10mn</a> to <a class=\"inl\" href=\"https://lean-fro.org/\" rel=\"noopener\">Lean FRO</a>, a focused research organisation run by Convergent Research, and $10mn to the <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a> Initiative, each covering core operating costs to 2030. XTX Markets says Lean provided the verification layer in the auto-formalisation of Fermat's Last Theorem.</p><p>Sources: <a href=\"https://www.xtxmarkets.com/news/2026-update-on-xtx-markets-ai-philanthropy/\">xtxmarkets.com</a></p>",
-   "date_published": "2026-09-16T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "funding",
-    "lean fro",
-    "mathlib"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-lean-fro-and-sair-foundation-launch-stage-1-of-lean-kernel-chall",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-lean-fro-and-sair-foundation-launch-stage-1-of-lean-kernel-chall",
-   "title": "Lean FRO and SAIR Foundation launch Stage 1 of Lean Kernel Challenge",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://competition.sair.foundation/competitions/lean-kernel-challenge\" rel=\"noopener\">multi-stage competition</a> seeks faster algorithms for verified computation (using the Lean kernel to check computational results in a proof) across eight problems, including Fibonacci, prime counting, Rule 110, and SHA-256. Entrants prove each algorithm matches its specification; submissions close November 20, 2026.</p><p>Sources: <a href=\"https://terrytao.wordpress.com/2026/09/16/sair-competition-lean-kernel-challenge/\">terrytao.wordpress.com</a>, <a href=\"https://competition.sair.foundation/competitions/lean-kernel-challenge\">competition.sair.foundation</a></p>",
-   "date_published": "2026-09-16T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "kernel",
-    "competition",
-    "verified computation"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-24/#2026-09-24-robert-joseph-george-will-adkisson-anima-anandkumar-present-floa",
-   "url": "https://leanweekly.news/2026-09-24/#2026-09-24-robert-joseph-george-will-adkisson-anima-anandkumar-present-floa",
-   "title": "Robert Joseph George, Will Adkisson, Anima Anandkumar present FloatLib for Lean 4",
-   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2609.19352\" rel=\"noopener\">FloatLib</a> is a verified arbitrary-precision floating-point arithmetic library in Lean 4 that unifies IEEE binary and decimal arithmetic, arbitrary-width posits, P3109, and user-defined formats and rounding rules. Every certified backend is proved equal to a complete encoded specification, and the library, proofs, and benchmarks are released as open source.</p><p>Sources: <a href=\"https://arxiv.org/abs/2609.19352\">arXiv:2609.19352</a></p>",
-   "date_published": "2026-09-16T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "floating-point",
-    "library",
-    "verification"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te",
-   "title": "Lean 4.34.0 fixes three kernel soundness issues found with AI testing",
-   "content_html": "<p><a class=\"inl\" href=\"https://lean-lang.org/doc/reference/latest/releases/v4.34.0/\" rel=\"noopener\">Lean 4.34.0</a>, released 2026-09-14, fixes three soundness issues found with AI adversarial testing and adds defensive kernel checks. bv_decide gets integrated with sym and <a class=\"inl\" href=\"https://lean-lang.org/doc/reference/latest/The--grind--tactic/\" rel=\"noopener\">grind</a> interactive modes and is up to six times faster, linters can carry state across commands, and lake lint gains a --code-quality mode emitting machine-readable JSON.</p><p>Sources: <a href=\"https://lean-lang.org/doc/reference/latest/releases/v4.34.0/\">v4.34.0 release notes</a></p>",
-   "date_published": "2026-09-14T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "release",
-    "kernel",
-    "soundness"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-24/#2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w",
-   "url": "https://leanweekly.news/2026-09-24/#2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w",
-   "title": "Son Ho and colleagues verify Rust code in Microsoft's SymCrypt with Lean",
-   "content_html": "<p>Using <a class=\"inl\" href=\"https://arxiv.org/abs/2609.15648\" rel=\"noopener\">Aeneas</a>, which extracts a pure model of Rust code in Lean, a 237 KLOC Lean development establishes safety, panic-freedom, and functional correctness of 16.7 KLOC of Rust, including SHA-3 and ML-KEM ported from C. AI agents autonomously write proofs, which the Lean kernel independently verifies.</p><p>Sources: <a href=\"https://arxiv.org/abs/2609.15648\">arXiv:2609.15648</a></p>",
-   "date_published": "2026-09-14T12:00:00Z",
-   "tags": [
-    "Verification",
-    "cryptography",
-    "rust",
-    "aeneas"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-greg-brockman-says-ai-makes-formally-verifying-all-software-poss",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-greg-brockman-says-ai-makes-formally-verifying-all-software-poss",
-   "title": "Greg Brockman says AI makes formally verifying all software possible",
-   "content_html": "<p><a class=\"inl\" href=\"https://x.com/a16z/status/2099533700375662905\" rel=\"noopener\">Greg Brockman says</a> OpenAI pointed Astra at its own systems until it ran out of vulnerabilities to find, putting 25% of its production engineers on defense. Greg Brockman added: &quot;There are ideas, for example, formally verifying all of software, that are possible with AI.&quot;</p><p>Sources: <a href=\"https://x.com/a16z/status/2099533700375662905\">@a16z on X</a></p>",
-   "date_published": "2026-09-14T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "openai",
-    "security",
-    "formal verification"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-certora-proves-zlib-s-inflate-table-memory-safe-and-terminating",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-certora-proves-zlib-s-inflate-table-memory-safe-and-terminating",
-   "title": "Certora proves zlib's inflate_table memory-safe and terminating in Lean",
-   "content_html": "<p>In under two weeks, <a class=\"inl\" href=\"https://www.certora.com/blog/formally-verifying-zlib-memory-safety-with-lean\" rel=\"noopener\">Certora</a> built an experimental C-to-Lean pipeline and proved that the Clight (CompCert's C intermediate representation) model of zlib's 266-line inflate_table function is memory-safe and terminating. The proof, around 20,000 lines of Lean, was written almost entirely by LLMs, and the Lean kernel checked every step.</p><p>Sources: <a href=\"https://www.certora.com/blog/formally-verifying-zlib-memory-safety-with-lean\">certora.com</a></p>",
-   "date_published": "2026-09-10T12:00:00Z",
-   "tags": [
-    "Verification",
-    "memory safety",
-    "c verification",
-    "llm"
    ]
   }
  ]

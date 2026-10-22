@@ -4,11 +4,17 @@
 
 ## Latest items
 
+- [AI agents help researchers discover a new consensus protocol, verified in Lean](https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver): Verification, 2026-10-21
+- [Kraken Lean project proves FFmpeg's SBR decoder binary safe](https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe): Verification, 2026-10-21
 - [Joris Roos formalizes OpenAI's L³ trilinear Hilbert transform bound with coding agents](https://leanweekly.news/2026-10-20/#2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou): AI and formalization, 2026-10-20
 - [Matija Bucić, Fankang He and Hyunwoo Lee prove Erdős-Szemerédi sunflower conjecture](https://leanweekly.news/2026-10-21/#2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun): AI and formalization, 2026-10-19
 - [Linux 7.3 works around AMD CPU bug behind Lean build segfaults](https://leanweekly.news/2026-10-21/#2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults): Lean core, 2026-10-19
+- [Ilya Sergey describes Vermilion, an experimental Lean backend for Rust verifier Verus](https://leanweekly.news/2026-10-21/#2026-10-21-ilya-sergey-describes-vermilion-an-experimental-lean-backend-for): Verification, 2026-10-18
 - [Jeremy Avigad and coauthors back formalizing all of mathematics, if done well](https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics): Papers and events, 2026-10-16
 - [Shanghai AI Lab's Shusheng-S2 helps prove 3D Ghys conjecture, verified in Lean](https://leanweekly.news/2026-10-18/#2026-10-18-shanghai-ai-lab-s-shusheng-s2-helps-prove-3d-ghys-conjecture-ver): AI and formalization, 2026-10-16
+- [Anthropic's Claude designs more efficient quantum circuits, verifying one with Lean proofs](https://leanweekly.news/2026-10-21/#2026-10-21-anthropic-s-claude-designs-more-efficient-quantum-circuits-verif): AI and formalization, 2026-10-16
+- [SAIR launches Open Math OS, a research workspace built on open models](https://leanweekly.news/2026-10-21/#2026-10-21-sair-launches-open-math-os-a-research-workspace-built-on-open-mo): AI and formalization, 2026-10-16
+- [Vasily Ilin shares a prompt to build verified, faster software in Lean](https://leanweekly.news/2026-10-21/#2026-10-21-vasily-ilin-shares-a-prompt-to-build-verified-faster-software-in): Verification, 2026-10-16
 - [Lean now ships verified kernels (proof checkers) and a lake check command](https://leanweekly.news/2026-10-18/#2026-10-18-lean-now-ships-verified-kernels-proof-checkers-and-a-lake-check): Lean core, 2026-10-15
 - [OpenAI publishes 719 model-produced math manuscripts, about 42% Lean-formalized](https://leanweekly.news/2026-10-15/#2026-10-15-openai-publishes-719-model-produced-math-manuscripts-about-42-le): AI and formalization, 2026-10-15
 - [Machine-checked Lean 4 proof of the general Courtade–Kumar inequality released](https://leanweekly.news/2026-10-15/#2026-10-15-machine-checked-lean-4-proof-of-the-general-courtade-kumar-inequ): AI and formalization, 2026-10-15
@@ -16,6 +22,7 @@
 - [AxiomProver generates Lean proof of Collatz positive density results](https://leanweekly.news/2026-10-18/#2026-10-18-axiomprover-generates-lean-proof-of-collatz-positive-density-res): AI and formalization, 2026-10-15
 - [Flapjack ports the verified Pancake compiler from HOL4 to Lean](https://leanweekly.news/2026-10-15/#2026-10-15-flapjack-ports-the-verified-pancake-compiler-from-hol4-to-lean): Verification, 2026-10-15
 - [Joachim Breitner and Lean FRO describe the proof behind con-leche checker](https://leanweekly.news/2026-10-15/#2026-10-15-joachim-breitner-and-lean-fro-describe-the-proof-behind-con-lech): Lean core, 2026-10-14
+- [Thomas Browning and coauthors release AnnalsChallenge, 50 Annals theorems stated in Lean](https://leanweekly.news/2026-10-21/#2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals): AI and formalization, 2026-10-13
 - [Google's Gemini 4 Argon writes a Lean-verified quantum arcsin implementation](https://leanweekly.news/2026-10-15/#2026-10-15-google-s-gemini-4-argon-writes-a-lean-verified-quantum-arcsin-im): AI and formalization, 2026-10-13
 - [Julia Markus Himmel reworks order instances across Lean core types](https://leanweekly.news/2026-10-15/#2026-10-15-julia-markus-himmel-reworks-order-instances-across-lean-core-typ): Lean core, 2026-10-13
 - [Lean 4.35.0 ships vcgen, lake check, and bundled independent kernels](https://leanweekly.news/2026-10-15/#2026-10-15-lean-4-35-0-ships-vcgen-lake-check-and-bundled-independent-kerne): Lean core, 2026-10-12
@@ -97,13 +104,6 @@
 - [Sebastian Graf moves VERINA contracts onto programs and names verification-condition variables](https://leanweekly.news/2026-08-27/#2026-08-27-sebastian-graf-moves-verina-contracts-onto-programs-and-names-ve): Lean core, 2026-08-13
 - [Leo de Moura adds a lift_lets tactic for Lean's sym => mode](https://leanweekly.news/2026-08-15/#2026-08-15-leo-de-moura-adds-a-lift-lets-tactic-for-lean-s-sym-mode): Lean core, 2026-08-12
 - [Kim Morrison releases an integer polynomial factorization library for Lean](https://leanweekly.news/2026-08-15/#2026-08-15-kim-morrison-releases-an-integer-polynomial-factorization-librar): Lean core, 2026-08-11
-- [Sebastian Graf extends Lean's def contracts and vcgen loop verification](https://leanweekly.news/2026-08-15/#2026-08-15-sebastian-graf-extends-lean-s-def-contracts-and-vcgen-loop-verif): Lean core, 2026-08-11
-- [Claude raises Riemann zeta zero bound to 67.2%, formalized in Lean](https://leanweekly.news/2026-08-15/#2026-08-15-claude-raises-riemann-zeta-zero-bound-to-67-2-formalized-in-lean): AI and formalization, 2026-08-10
-- [Lean 4.33.0 released with editor, tactic, Float, and kernel changes](https://leanweekly.news/2026-08-15/#2026-08-15-lean-4-33-0-released-with-editor-tactic-float-and-kernel-changes): Lean core, 2026-08-10
-- [Ryan Peterman interviews Leo de Moura, creator of Lean and Z3](https://leanweekly.news/2026-08-15/#2026-08-15-ryan-peterman-interviews-leo-de-moura-creator-of-lean-and-z3): Papers and events, 2026-08-10
-- [Mac Malone merges Lake remote cache fixes, tests, and a --package option](https://leanweekly.news/2026-08-15/#2026-08-15-mac-malone-merges-lake-remote-cache-fixes-tests-and-a-package-op): Lean core, 2026-08-09
-- [Lean speed site charts Mathlib build instructions across 25,000 commits](https://leanweekly.news/2026-08-06/#2026-08-06-lean-speed-site-charts-mathlib-build-instructions-across-25-000): Lean core, 2026-08-06
-- [Pramaana Labs reports solving all 6 IMO 2026 problems in Lean](https://leanweekly.news/2026-08-06/#2026-08-06-pramaana-labs-reports-solving-all-6-imo-2026-problems-in-lean): AI and formalization, 2026-08-05
 
 ## Weeks (Friday to Thursday)
 
