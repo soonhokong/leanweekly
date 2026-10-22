@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn",
+   "url": "https://leanweekly.news/2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn",
+   "title": "Tanner Duve of Logical Intelligence offers Veil an invariant-synthesis tactic",
+   "content_html": "<p>Written for <a class=\"inl\" href=\"https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr\" rel=\"noopener\">Veil</a>, a Lean-based verifier for transition systems, <a class=\"inl\" href=\"https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646\" rel=\"noopener\">#synthesize_invariants</a> runs the universal PDR algorithm on a module and its safety property. It returns inductive invariants or a counterexample (both proven sound), a &quot;no universal invariant&quot; result (not proven sound) or &quot;unknown&quot;; it succeeded on every <a class=\"inl\" href=\"https://veil.dev/\" rel=\"noopener\">Veil</a> example tested within its supported fragment.</p><p>Sources: <a href=\"https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646\">leanprover.zulipchat.com</a>, <a href=\"https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr\">verse-lab/veil</a></p>",
+   "date_published": "2026-10-22T12:00:00Z",
+   "tags": [
+    "Verification",
+    "veil",
+    "invariant synthesis",
+    "tactics"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up",
    "url": "https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up",
    "title": "Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports",
@@ -640,19 +653,6 @@
     "llvm",
     "compilers",
     "llm"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-24/#2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a",
-   "url": "https://leanweekly.news/2026-09-24/#2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a",
-   "title": "Lake gains a samply profiling command, copied path dependencies, and separate codegen",
-   "content_html": "<p>Kim Morrison's <code>lake samply</code> command records a CPU profile of a Lean executable and serves it to Firefox Profiler, and Mac Malone added a <code>copy</code> option for path dependencies and split <code>leanir</code> code generation into a separate <a class=\"inl\" href=\"https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/\" rel=\"noopener\">Lake</a> job. Mac Malone also published <a class=\"inl\" href=\"https://nerodia.lean-lang.org/\" rel=\"noopener\">Nerodia</a>, a work-in-progress library for Lean/Python FFI inspired by PyO3.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/12545\">lean4#12545</a>, <a href=\"https://github.com/leanprover/lean4/pull/15142\">lean4#15142</a>, <a href=\"https://github.com/leanprover/lean4/pull/14906\">lean4#14906</a>, <a href=\"https://github.com/leanprover/lean4/pull/15231\">lean4#15231</a>, <a href=\"https://nerodia.lean-lang.org/\">nerodia.lean-lang.org</a></p>",
-   "date_published": "2026-09-17T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "lake",
-    "profiling",
-    "python"
    ]
   }
  ]

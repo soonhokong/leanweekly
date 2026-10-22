@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Thu, 22 Oct 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Tanner Duve of Logical Intelligence offers Veil an invariant-synthesis tactic</title>
+<link>https://leanweekly.news/2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn</guid>
+<pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;Written for &lt;a class="inl" href="https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr" rel="noopener"&gt;Veil&lt;/a&gt;, a Lean-based verifier for transition systems, &lt;a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646" rel="noopener"&gt;#synthesize_invariants&lt;/a&gt; runs the universal PDR algorithm on a module and its safety property. It returns inductive invariants or a counterexample (both proven sound), a &amp;quot;no universal invariant&amp;quot; result (not proven sound) or &amp;quot;unknown&amp;quot;; it succeeded on every &lt;a class="inl" href="https://veil.dev/" rel="noopener"&gt;Veil&lt;/a&gt; example tested within its supported fragment.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646"&gt;leanprover.zulipchat.com&lt;/a&gt;, &lt;a href="https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr"&gt;verse-lab/veil&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports</title>
 <link>https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up</guid>
@@ -398,14 +406,6 @@
 <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;Chunhao Liao, Hongxu Xu, Xintong Zhou, Yizhou Zhang and Chengnian Sun present &lt;a class="inl" href="https://arxiv.org/abs/2609.19583" rel="noopener"&gt;Trivet&lt;/a&gt;, which verifies or refutes 147 of 148 LLVM transformations, including 60 loop-free transformations with symbolic bitwidths and 27 loop-containing cases. Every successful verdict is checked by the Lean kernel.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2609.19583"&gt;arXiv:2609.19583&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Lake gains a samply profiling command, copied path dependencies, and separate codegen</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a</guid>
-<pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;Kim Morrison's &lt;code&gt;lake samply&lt;/code&gt; command records a CPU profile of a Lean executable and serves it to Firefox Profiler, and Mac Malone added a &lt;code&gt;copy&lt;/code&gt; option for path dependencies and split &lt;code&gt;leanir&lt;/code&gt; code generation into a separate &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener"&gt;Lake&lt;/a&gt; job. Mac Malone also published &lt;a class="inl" href="https://nerodia.lean-lang.org/" rel="noopener"&gt;Nerodia&lt;/a&gt;, a work-in-progress library for Lean/Python FFI inspired by PyO3.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/12545"&gt;lean4#12545&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15142"&gt;lean4#15142&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/14906"&gt;lean4#14906&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15231"&gt;lean4#15231&lt;/a&gt;, &lt;a href="https://nerodia.lean-lang.org/"&gt;nerodia.lean-lang.org&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

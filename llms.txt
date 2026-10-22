@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Tanner Duve of Logical Intelligence offers Veil an invariant-synthesis tactic](https://leanweekly.news/2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn): Verification, 2026-10-22
 - [Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports](https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up): Lean core, 2026-10-22
 - [AI agents help researchers discover a new consensus protocol, verified in Lean](https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver): Verification, 2026-10-21
 - [Kraken Lean project proves FFmpeg's SBR decoder binary safe](https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe): Verification, 2026-10-21
@@ -103,7 +104,6 @@
 - [Guide explains how to validate and report Lean kernel soundness bugs](https://leanweekly.news/2026-08-15/#2026-08-15-guide-explains-how-to-validate-and-report-lean-kernel-soundness): Lean core, 2026-08-15
 - [Paul Reichert fixes instance search seeing through type synonyms in Lean](https://leanweekly.news/2026-08-15/#2026-08-15-paul-reichert-fixes-instance-search-seeing-through-type-synonyms): Lean core, 2026-08-15
 - [Lean releases Nerodia, a library for writing Python modules in Lean](https://leanweekly.news/2026-08-15/#2026-08-15-lean-releases-nerodia-a-library-for-writing-python-modules-in-le): Lean core, 2026-08-15
-- [Vero benchmark tests AI agents on verified Lean 4 software repositories](https://leanweekly.news/2026-08-27/#2026-08-27-vero-benchmark-tests-ai-agents-on-verified-lean-4-software-repos): AI and formalization, 2026-08-13
 
 ## Weeks (Friday to Thursday)
 

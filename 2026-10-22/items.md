@@ -5,6 +5,10 @@ window_start: 2026-10-21
 window_end: 2026-10-22
 ---
 
+## Verification in practice
+
+- **Tanner Duve of Logical Intelligence offers Veil an invariant-synthesis tactic.** Written for Veil, a Lean-based verifier for transition systems, #synthesize_invariants runs the universal PDR algorithm on a module and its safety property. It returns inductive invariants or a counterexample (both proven sound), a "no universal invariant" result (not proven sound) or "unknown"; it succeeded on every Veil example tested within its supported fragment. ([leanprover.zulipchat.com](https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646), [verse-lab/veil](https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr))
+
 ## Lean core and ecosystem
 
 - **Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports.** The open pull request replaces hash maps of imported constants, built eagerly at import time, with per-module prefix trees precomputed when oleans are written and merged lazily on first access. The change cuts `import Lean` wall-clock time by 28% and Mathlib's import phase by 21%, in exchange for about 6% larger standard library oleans. ([lean4#14362](https://github.com/leanprover/lean4/pull/14362))

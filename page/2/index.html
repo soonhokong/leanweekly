@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 2</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-15-julia-markus-himmel-reworks-order-instances-across-lean-core-typ">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-13">Oct 13</time><button class="copy" type="button" hidden data-link="../../2026-10-15/#2026-10-15-julia-markus-himmel-reworks-order-instances-across-lean-core-typ" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Julia Markus Himmel reworks order instances across Lean core types</h2>
+    <p class="card-text">Julia Markus Himmel <a class="inl" href="https://github.com/leanprover/lean4/pull/15581" rel="noopener">redefined the order on String</a> as the lexicographic order of its UTF-8 encoding, <a class="inl" href="https://github.com/leanprover/lean4/pull/15257" rel="noopener">made Min Float follow the IEEE-754-2019 minimum operation</a>, and added missing order instances for BitVec, List, Array, Vector and ByteArray. Sofia Rodrigues <a class="inl" href="https://github.com/leanprover/lean4/pull/15175" rel="noopener">fixed leaks</a> and refactored the libuv bindings.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15581" rel="noopener">lean4#15581</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15257" rel="noopener">lean4#15257</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15274" rel="noopener">lean4#15274</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15304" rel="noopener">lean4#15304</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15329" rel="noopener">lean4#15329</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15175" rel="noopener">lean4#15175</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15545" rel="noopener">lean4#15545</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-10-15-lean-4-35-0-ships-vcgen-lake-check-and-bundled-independent-kerne">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -243,15 +252,6 @@
     <h2 class="card-title">Lean merges rewritten Verso docstring parser, unblocking automatic formatting</h2>
     <p class="card-text">David Thrane Christiansen's <a class="inl" href="https://github.com/leanprover/lean4/pull/15064" rel="noopener">rewrite of the Verso docstring parser</a>, a breaking change that tracks all details of the concrete syntax, was merged on 2026-09-18, and <a class="inl" href="https://github.com/leanprover/verso/pull/989" rel="noopener">Verso has been adapted</a> to it. Marc Huisinga has <a class="inl" href="https://github.com/leanprover/lean4/pull/15218" rel="noopener">opened a pull request</a> adding an extensible code formatter integrated with the language server.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15064" rel="noopener">lean4#15064</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/verso/pull/989" rel="noopener">verso#989</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15218" rel="noopener">lean4#15218</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-10-15-kim-morrison-proposes-supply-chain-audits-for-mathlib-dependency">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-18">Sep 18</time><button class="copy" type="button" hidden data-link="../../2026-10-15/#2026-10-15-kim-morrison-proposes-supply-chain-audits-for-mathlib-dependency" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Kim Morrison proposes supply-chain audits for Mathlib dependency updates</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover-community/mathlib4/pull/43911" rel="noopener">A Mathlib pull request</a> by Kim Morrison adds a supply-chain audit step to the hourly update_dependencies.yml workflow, posting diffs, high-risk files touched and suspicious added lines for each changed dependency. The diffs come from paranoid-lake-update, which uses bare clones and git only, so nothing from upstream is executed.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/mathlib4/pull/43911" rel="noopener">mathlib4#43911</a></p>
   </div>
 </article>
 </div>
