@@ -45,15 +45,15 @@
    ]
   },
   {
-   "id": "https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split",
-   "url": "https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split",
-   "title": "Leo de Moura changes Lean's lia to avoid large Cooper case splits",
-   "content_html": "<p>A Cooper case split on a variable has as many cases as its coefficient in the conflicting bounds. Three merged pull requests make <code>lia</code> <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15835\" rel=\"noopener\">reorder variables</a> instead of enumerating splits with many cases, <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15838\" rel=\"noopener\">exactly eliminate equations without unit coefficients</a> (as in the Omega test), and <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15827\" rel=\"noopener\">solve large-modulus divisibility goals</a> without a split per residue.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/15835\">lean4#15835</a>, <a href=\"https://github.com/leanprover/lean4/pull/15838\">lean4#15838</a>, <a href=\"https://github.com/leanprover/lean4/pull/15827\">lean4#15827</a></p>",
+   "id": "https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits",
+   "url": "https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits",
+   "title": "Leo de Moura adds three lia changes that avoid large case splits",
+   "content_html": "<p>The pull requests, merged October 20 and 21, add <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15835\" rel=\"noopener\">dynamic variable reordering</a> before large Cooper splits (case splits with as many cases as a variable's coefficient), <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15838\" rel=\"noopener\">exact elimination of equations without unit coefficients</a>, and <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15827\" rel=\"noopener\">divisibility normalization</a>. Chains of such equations from <code>/</code> and <code>%</code> definitions no longer yield Cooper splits with thousands of cases.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/15835\">lean4#15835</a>, <a href=\"https://github.com/leanprover/lean4/pull/15838\">lean4#15838</a>, <a href=\"https://github.com/leanprover/lean4/pull/15827\">lean4#15827</a></p>",
    "date_published": "2026-10-21T12:00:00Z",
    "tags": [
     "Lean core",
     "lia",
-    "arithmetic",
+    "proof automation",
     "lean core"
    ]
   },

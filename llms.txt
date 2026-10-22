@@ -7,7 +7,7 @@
 - [Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports](https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up): Lean core, 2026-10-22
 - [AI agents help researchers discover a new consensus protocol, verified in Lean](https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver): Verification, 2026-10-21
 - [Kraken Lean project proves FFmpeg's SBR decoder binary safe](https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe): Verification, 2026-10-21
-- [Leo de Moura changes Lean's lia to avoid large Cooper case splits](https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split): Lean core, 2026-10-21
+- [Leo de Moura adds three lia changes that avoid large case splits](https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits): Lean core, 2026-10-21
 - [Joris Roos formalizes OpenAI's L³ trilinear Hilbert transform bound with coding agents](https://leanweekly.news/2026-10-20/#2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou): AI and formalization, 2026-10-20
 - [Matija Bucić, Fankang He and Hyunwoo Lee prove Erdős-Szemerédi sunflower conjecture](https://leanweekly.news/2026-10-21/#2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun): AI and formalization, 2026-10-19
 - [Linux 7.3 works around AMD CPU bug behind Lean build segfaults](https://leanweekly.news/2026-10-21/#2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults): Lean core, 2026-10-19
