@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 5</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 143 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 5</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 144 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-05-14-mac-malone-merges-three-lake-fixes-including-workspace-level-com">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-08">May 8</time><button class="copy" type="button" hidden data-link="../../../../2026-05-14/#2026-05-14-mac-malone-merges-three-lake-fixes-including-workspace-level-com" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Mac Malone merges three Lake fixes, including workspace-level compiled configurations</h2>
+    <p class="card-text">Compiled <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> configurations such as <a class="inl" href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lakefile.olean</a> now live in the workspace's .lake/config, removing a source of contention between workspaces sharing a dependency. Lake also now includes <a class="inl" href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">IR for a meta import's transitive imports</a>, fixing &quot;missing data file&quot; errors with the artifact cache, and <a class="inl" href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">all Lake tests are re-enabled</a> by default.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lean4#13683</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">lean4#13600</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">lean4#13692</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-05-07-sebastian-graf-merges-experimental-mvcgen-tactic-into-the-lean-t">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -238,15 +247,6 @@
     <h2 class="card-title">Henrik Böving ports Lean's C emission pass from IR to LCNF</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12781" rel="noopener">A merged pull request</a> by Henrik Böving ports the C emission pass from IR to LCNF. The PR describes this as the last step of the IR/LCNF conversion, enabling end-to-end code generation through the new compilation infrastructure.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12781" rel="noopener">lean4#12781</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-04-09-kyle-miller-merges-lean-syntax-and-structure-default-value-chang">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-09">Mar 9</time><button class="copy" type="button" hidden data-link="../../../../2026-04-09/#2026-04-09-kyle-miller-merges-lean-syntax-and-structure-default-value-chang" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Kyle Miller merges Lean syntax and structure default value changes</h2>
-    <p class="card-text">In Lean, <a class="inl" href="https://github.com/leanprover/lean4/pull/12841" rel="noopener">structure field defaults</a> can now depend on fields that come before and after them, and <a class="inl" href="https://github.com/leanprover/lean4/pull/13245" rel="noopener">dotted function notation</a> supports explicit mode (<code>@.f</code>) and explicit universes (<code>.f.{u,v}</code>). <a class="inl" href="https://github.com/leanprover/lean4/pull/13262" rel="noopener">Field notation</a> such as <code>e.f.{u,v}</code> now also accepts explicit universe levels, fixing a bug where levels were attributed to the wrong expression.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12841" rel="noopener">lean4#12841</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13245" rel="noopener">lean4#13245</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13262" rel="noopener">lean4#13262</a></p>
   </div>
 </article>
 </div>

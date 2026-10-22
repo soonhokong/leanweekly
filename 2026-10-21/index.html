@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<script src="../assets/theme.js?v=1fe176d120"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Published Oct 21, 2026 · Lean Weekly</title>
+<meta name="description" content="News about Lean, the theorem prover and programming language.">
+<link rel="preload" href="../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/lw.css?v=edba6bded4">
+<link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../feed.json">
+<script defer src="../assets/lw.js?v=4d35c1ac95"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the news</a>
+<header class="bar">
+<div class="bar-row">
+  <div class="brand"><a class="wordmark" href="../" aria-label="Lean Weekly"><img class="logo" src="../assets/lean-logo.svg" alt="Lean" width="80" height="30"><span>Weekly</span></a>
+  <p class="tagline">News about Lean, the theorem prover and programming language.</p></div>
+  <button class="theme" type="button" hidden aria-label="Switch to night mode"><svg class="i-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg><svg class="i-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
+  <form class="search" role="search" action="../search/" method="get">
+    <label class="sr-only" for="q">Search Lean news</label>
+    <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <kbd aria-hidden="true">/</kbd>
+    <div class="search-results" id="search-results" role="listbox" hidden></div>
+  </form>
+</div>
+<nav class="tabs" aria-label="Sections"><a class="t-latest" href="../">Latest</a><a class="t-ai" href="../section/ai/">AI and formalization</a><a class="t-verification" href="../section/verification/">Verification</a><a class="t-lean-core" href="../section/lean-core/">Lean core</a><a class="t-papers" href="../section/papers/">Papers and events</a><span class="tabs-gap"></span><a class="quiet" href="../about/">About</a><a class="quiet" href="../feed.xml">RSS</a></nav>
+</header>
+<main id="main">
+<div class="frame"><div class="timeline">
+<header class="page-head"><h1 class="page-title">Published Oct 21, 2026</h1><p class="page-blurb">2 items.</p></header>
+
+<div class="stream">
+<article class="card c-ai" id="2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-19">Oct 19</time><button class="copy" type="button" hidden data-link="../2026-10-21/#2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Matija Bucić, Fankang He and Hyunwoo Lee prove Erdős-Szemerédi sunflower conjecture</h2>
+    <p class="card-text">Posed in the 1970s, the conjecture bounds the size of any family of subsets containing no k-sunflower and was previously known only for k = 3, via cap-set results. According to <a class="inl" href="https://paperswithlean.com/paper/2610.26686.html" rel="noopener">paperswithlean.com</a>, <a class="inl" href="https://arxiv.org/abs/2610.26686" rel="noopener">the proof</a> was machine-verified in Lean 4, with the formalization to be released in the <a class="inl" href="https://palomar-registry.org/" rel="noopener">Palomar</a> repository.</p>
+    <figure class="media media-paper"><img src="../assets/img/ba8db0283c9996f0-480.webp" srcset="../assets/img/ba8db0283c9996f0-480.webp 480w, ../assets/img/ba8db0283c9996f0-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.26686" rel="noopener">arXiv:2610.26686</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2610.26686.html" rel="noopener">paperswithlean.com</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-19">Oct 19</time><button class="copy" type="button" hidden data-link="../2026-10-21/#2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Linux 7.3 works around AMD CPU bug behind Lean build segfaults</h2>
+    <p class="card-text">The FRO noticed <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113486-General-announcements/topic/Linux.207.2E3.20contains.20a.20bugfix.20for.20Lean/with/633073219" rel="noopener">probabilistic segfaults</a> while compiling big Lean projects on certain AMD CPUs running Linux 6.15 or later, and reported them to <a class="inl" href="https://lore.kernel.org/lkml/CAAuFnRTyva1_3tsF3vrMBL+TLS1YL4EgUPT2c3O9k7A9hWUMnA@mail.gmail.com/" rel="noopener">the Linux kernel</a>. Users of AMD Zen 5 CPUs on kernels 6.15 through 7.2 should consider kernel 7.3 and/or the latest AMD microcode, or, failing that, boot with the option tlbi=ipi.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/113486-General-announcements/topic/Linux.207.2E3.20contains.20a.20bugfix.20for.20Lean/with/633073219" rel="noopener">leanprover.zulipchat.com</a><span class="dot" aria-hidden="true">·</span><a href="https://lore.kernel.org/lkml/CAAuFnRTyva1_3tsF3vrMBL+TLS1YL4EgUPT2c3O9k7A9hWUMnA@mail.gmail.com/" rel="noopener">lore.kernel.org</a></p>
+  </div>
+</article>
+</div>
+</div></div>
+</main>
+<p class="sr-only" id="status" role="status" aria-live="polite"></p>
+<footer class="foot"><div class="foot-in"><p><a href="../about/">About</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
+</body>
+</html>

@@ -19,6 +19,32 @@
    ]
   },
   {
+   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun",
+   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun",
+   "title": "Matija Bucić, Fankang He and Hyunwoo Lee prove Erdős-Szemerédi sunflower conjecture",
+   "content_html": "<p>Posed in the 1970s, the conjecture bounds the size of any family of subsets containing no k-sunflower and was previously known only for k = 3, via cap-set results. According to <a class=\"inl\" href=\"https://paperswithlean.com/paper/2610.26686.html\" rel=\"noopener\">paperswithlean.com</a>, <a class=\"inl\" href=\"https://arxiv.org/abs/2610.26686\" rel=\"noopener\">the proof</a> was machine-verified in Lean 4, with the formalization to be released in the <a class=\"inl\" href=\"https://palomar-registry.org/\" rel=\"noopener\">Palomar</a> repository.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.26686\">arXiv:2610.26686</a>, <a href=\"https://paperswithlean.com/paper/2610.26686.html\">paperswithlean.com</a></p>",
+   "date_published": "2026-10-19T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "combinatorics",
+    "sunflower conjecture",
+    "formalization"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults",
+   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults",
+   "title": "Linux 7.3 works around AMD CPU bug behind Lean build segfaults",
+   "content_html": "<p>The FRO noticed <a class=\"inl\" href=\"https://leanprover.zulipchat.com/#narrow/channel/113486-General-announcements/topic/Linux.207.2E3.20contains.20a.20bugfix.20for.20Lean/with/633073219\" rel=\"noopener\">probabilistic segfaults</a> while compiling big Lean projects on certain AMD CPUs running Linux 6.15 or later, and reported them to <a class=\"inl\" href=\"https://lore.kernel.org/lkml/CAAuFnRTyva1_3tsF3vrMBL+TLS1YL4EgUPT2c3O9k7A9hWUMnA@mail.gmail.com/\" rel=\"noopener\">the Linux kernel</a>. Users of AMD Zen 5 CPUs on kernels 6.15 through 7.2 should consider kernel 7.3 and/or the latest AMD microcode, or, failing that, boot with the option tlbi=ipi.</p><p>Sources: <a href=\"https://leanprover.zulipchat.com/#narrow/channel/113486-General-announcements/topic/Linux.207.2E3.20contains.20a.20bugfix.20for.20Lean/with/633073219\">leanprover.zulipchat.com</a>, <a href=\"https://lore.kernel.org/lkml/CAAuFnRTyva1_3tsF3vrMBL+TLS1YL4EgUPT2c3O9k7A9hWUMnA@mail.gmail.com/\">lore.kernel.org</a></p>",
+   "date_published": "2026-10-19T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "linux",
+    "amd",
+    "infrastructure"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics",
    "url": "https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics",
    "title": "Jeremy Avigad and coauthors back formalizing all of mathematics, if done well",
@@ -627,32 +653,6 @@
     "memory safety",
     "c verification",
     "llm"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-joachim-breitner-announces-con-leche-a-lean-checker-proven-consi",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-joachim-breitner-announces-con-leche-a-lean-checker-proven-consi",
-   "title": "Joachim Breitner announces con-leche, a Lean checker proven consistent",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/leanprover/con-leche\" rel=\"noopener\">con-leche</a> is an external checker for Lean, proven in Lean never to accept a proof of False, implemented and proven by Claude (Fable and Opus) under heavy supervision by Joachim Breitner at the <a class=\"inl\" href=\"https://lean-fro.org/\" rel=\"noopener\">Lean FRO</a>. On the FLT proof by Anthropic, it accepted 1,044,222 declarations in 2 h 22 min wall time.</p><p>Sources: <a href=\"https://github.com/leanprover/con-leche\">leanprover/con-leche</a>, <a href=\"https://leanprover.zulipchat.com/#narrow/channel/583339-AI-authored-projects/topic/con-leche.2C.20a.20lean.20checker.20with.20a.20proof.20of.20consistency/with/623085852\">leanprover.zulipchat.com</a></p>",
-   "date_published": "2026-09-10T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "kernel",
-    "checker",
-    "ai-written"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-openai-announces-lean-checked-singularity-in-the-3d-navier-stoke",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-openai-announces-lean-checked-singularity-in-the-3d-navier-stoke",
-   "title": "OpenAI announces Lean-checked singularity in the 3D Navier-Stokes equations",
-   "content_html": "<p><a class=\"inl\" href=\"https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/\" rel=\"noopener\">OpenAI said 10,000 autonomous AI agents</a> found a singularity in the Navier-Stokes equations in three dimensions, with the result formally checked in Lean. Hours earlier, Tristan Buckmaster at New York University and Levent Alpöge at Anthropic reported Lean-verified proofs for three related results, including one for the Euler equations.</p><p>Sources: <a href=\"https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/\">quantamagazine.org</a>, <a href=\"https://blog.computationalcomplexity.org/2026/09/navier-stokes-and-lean.html\">blog.computationalcomplexity.org</a></p>",
-   "date_published": "2026-09-08T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "navier-stokes",
-    "openai",
-    "millennium prize"
    ]
   }
  ]

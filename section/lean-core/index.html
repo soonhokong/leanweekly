@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 143 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 144 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-19">Oct 19</time><button class="copy" type="button" hidden data-link="../../2026-10-21/#2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Linux 7.3 works around AMD CPU bug behind Lean build segfaults</h2>
+    <p class="card-text">The FRO noticed <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113486-General-announcements/topic/Linux.207.2E3.20contains.20a.20bugfix.20for.20Lean/with/633073219" rel="noopener">probabilistic segfaults</a> while compiling big Lean projects on certain AMD CPUs running Linux 6.15 or later, and reported them to <a class="inl" href="https://lore.kernel.org/lkml/CAAuFnRTyva1_3tsF3vrMBL+TLS1YL4EgUPT2c3O9k7A9hWUMnA@mail.gmail.com/" rel="noopener">the Linux kernel</a>. Users of AMD Zen 5 CPUs on kernels 6.15 through 7.2 should consider kernel 7.3 and/or the latest AMD microcode, or, failing that, boot with the option tlbi=ipi.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/113486-General-announcements/topic/Linux.207.2E3.20contains.20a.20bugfix.20for.20Lean/with/633073219" rel="noopener">leanprover.zulipchat.com</a><span class="dot" aria-hidden="true">·</span><a href="https://lore.kernel.org/lkml/CAAuFnRTyva1_3tsF3vrMBL+TLS1YL4EgUPT2c3O9k7A9hWUMnA@mail.gmail.com/" rel="noopener">lore.kernel.org</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-10-18-lean-now-ships-verified-kernels-proof-checkers-and-a-lake-check">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -239,15 +248,6 @@
     <p class="card-text"><a class="inl" href="https://arxiv.org/abs/2609.19352" rel="noopener">FloatLib</a> is a verified arbitrary-precision floating-point arithmetic library in Lean 4 that unifies IEEE binary and decimal arithmetic, arbitrary-width posits, P3109, and user-defined formats and rounding rules. Every certified backend is proved equal to a complete encoded specification, and the library, proofs, and benchmarks are released as open source.</p>
     <figure class="media media-paper"><img src="../../assets/img/f03b79c6cc23d575-480.webp" srcset="../../assets/img/f03b79c6cc23d575-480.webp 480w, ../../assets/img/f03b79c6cc23d575-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="906" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2609.19352" rel="noopener">arXiv:2609.19352</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-14">Sep 14</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean 4.34.0 fixes three kernel soundness issues found with AI testing</h2>
-    <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener">Lean 4.34.0</a>, released 2026-09-14, fixes three soundness issues found with AI adversarial testing and adds defensive kernel checks. bv_decide gets integrated with sym and <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> interactive modes and is up to six times faster, linters can carry state across commands, and lake lint gains a --code-quality mode emitting machine-readable JSON.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener">v4.34.0 release notes</a></p>
   </div>
 </article>
 </div>
