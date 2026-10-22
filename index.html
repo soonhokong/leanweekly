@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <h1 class="sr-only">Lean Weekly: the latest news</h1>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-22">Oct 22</time><button class="copy" type="button" hidden data-link="./2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">open pull request</a> replaces hash maps of imported constants, built eagerly at import time, with per-module prefix trees precomputed when oleans are written and merged lazily on first access. The change cuts <code>import Lean</code> wall-clock time by 28% and <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>'s import phase by 21%, in exchange for about 6% larger standard library oleans.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">lean4#14362</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -49,6 +58,15 @@
     <h2 class="card-title">Kraken Lean project proves FFmpeg's SBR decoder binary safe</h2>
     <p class="card-text">The theorem sbr_session_safe covers the linked machine code (aacsbr.o with its callees): given the link's layout, external routines' contracts and a 32-bit bound on their stack, every run stays in the memory it owns and uses at most the stated stack. The prefix-code and bound facts of FFmpeg's Huffman tables are proved.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/zrlk/kraken/blob/sbr-wf-preserve/Kraken/X64/Examples/Sbr/SessionBin/Top.lean" rel="noopener">zrlk/kraken</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-21">Oct 21</time><button class="copy" type="button" hidden data-link="./2026-10-22/#2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura changes Lean's <code>lia</code> to avoid large Cooper case splits</h2>
+    <p class="card-text">A Cooper case split on a variable has as many cases as its coefficient in the conflicting bounds. Three merged pull requests make <code>lia</code> <a class="inl" href="https://github.com/leanprover/lean4/pull/15835" rel="noopener">reorder variables</a> instead of enumerating splits with many cases, <a class="inl" href="https://github.com/leanprover/lean4/pull/15838" rel="noopener">exactly eliminate equations without unit coefficients</a> (as in the Omega test), and <a class="inl" href="https://github.com/leanprover/lean4/pull/15827" rel="noopener">solve large-modulus divisibility goals</a> without a split per residue.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15835" rel="noopener">lean4#15835</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15838" rel="noopener">lean4#15838</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15827" rel="noopener">lean4#15827</a></p>
   </div>
 </article>
 <article class="card c-ai" id="2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou">
@@ -200,6 +218,15 @@
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.github.io/con-leche/con-leche-proof-idea.html" rel="noopener">leanprover.github.io</a></p>
   </div>
 </article>
+<article class="card c-lean-core" id="2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-14">Oct 14</time><button class="copy" type="button" hidden data-link="./2026-10-22/#2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4 merges libuv buffer fix and refactor from Sofia Rodrigues</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">The fix</a>, merged October 14, makes send and recv fail with an invalid-argument error for buffers of 4 GiB or more, instead of letting the length wrap to 32 bits. <a class="inl" href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">The refactor</a>, merged October 15, adds owned_ref, a helper that owns Lean objects and helps avoid hundreds of lean_inc and lean_dec in libuv code.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">lean4#15598</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">lean4#15603</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -227,33 +254,6 @@
     <h2 class="card-title">Julia Markus Himmel reworks order instances across Lean core types</h2>
     <p class="card-text">Julia Markus Himmel <a class="inl" href="https://github.com/leanprover/lean4/pull/15581" rel="noopener">redefined the order on String</a> as the lexicographic order of its UTF-8 encoding, <a class="inl" href="https://github.com/leanprover/lean4/pull/15257" rel="noopener">made Min Float follow the IEEE-754-2019 minimum operation</a>, and added missing order instances for BitVec, List, Array, Vector and ByteArray. Sofia Rodrigues <a class="inl" href="https://github.com/leanprover/lean4/pull/15175" rel="noopener">fixed leaks</a> and refactored the libuv bindings.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15581" rel="noopener">lean4#15581</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15257" rel="noopener">lean4#15257</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15274" rel="noopener">lean4#15274</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15304" rel="noopener">lean4#15304</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15329" rel="noopener">lean4#15329</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15175" rel="noopener">lean4#15175</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15545" rel="noopener">lean4#15545</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-10-15-lean-4-35-0-ships-vcgen-lake-check-and-bundled-independent-kerne">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-12">Oct 12</time><button class="copy" type="button" hidden data-link="./2026-10-15/#2026-10-15-lean-4-35-0-ships-vcgen-lake-check-and-bundled-independent-kerne" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean 4.35.0 ships vcgen, lake check, and bundled independent kernels</h2>
-    <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.35.0/" rel="noopener">Lean 4.35.0</a>, published on 2026-10-12, adds vcgen, a faster and more general successor of mvcgen, plus lake check and lake <a class="inl" href="https://github.com/leanprover/comparator" rel="noopener">comparator</a>, which check a project with Lean's kernel and optionally several independent kernels now included in the toolchain.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.35.0/" rel="noopener">v4.35.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.35.0" rel="noopener">lean4 v4.35.0</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-10-15-sebastian-ullrich-removes-lean-s-255-object-field-limit-per-cons">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-12">Oct 12</time><button class="copy" type="button" hidden data-link="./2026-10-15/#2026-10-15-sebastian-ullrich-removes-lean-s-255-object-field-limit-per-cons" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Ullrich removes Lean's 255-object-field limit per constructor</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/15516" rel="noopener">A merged pull request by Sebastian Ullrich</a> removes the limit of 255 object fields per constructor, and thus per structure. When a constructor has more, the compiler keeps the first 254 in the constructor object and stores the rest in a chain of spill objects, with one pointer followed per spill object on access.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15516" rel="noopener">lean4#15516</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-10-15-sebastian-ullrich-merges-two-fixes-to-how-lean-modules-export-th">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-09">Oct 9</time><button class="copy" type="button" hidden data-link="./2026-10-15/#2026-10-15-sebastian-ullrich-merges-two-fixes-to-how-lean-modules-export-th" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Ullrich merges two fixes to how Lean modules export theorems</h2>
-    <p class="card-text">In Lean, an <a class="inl" href="https://github.com/leanprover/lean4/pull/15559" rel="noopener">asynchronously elaborated theorem's exported info</a> in a <code>module</code> is now available as soon as its signature is, instead of after its proof is elaborated. <a class="inl" href="https://github.com/leanprover/lean4/pull/15563" rel="noopener">A second change</a> stops modules from exporting constants such as <code>foo.eq_1</code> realized only inside a proof, so such proofs no longer trigger downstream rebuilds.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15559" rel="noopener">lean4#15559</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15563" rel="noopener">lean4#15563</a></p>
   </div>
 </article>
 </div>

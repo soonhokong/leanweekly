@@ -30,8 +30,35 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 4</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 144 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 4</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 147 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-07-09-mac-malone-merges-new-lake-apis-for-dynamic-libraries-and-linkin">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-03">Jul 3</time><button class="copy" type="button" hidden data-link="../../../../2026-07-09/#2026-07-09-mac-malone-merges-new-lake-apis-for-dynamic-libraries-and-linkin" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Mac Malone merges new Lake APIs for dynamic libraries and linking</h2>
+    <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> adds <code>Dynlib.runtimeOnlyDeps</code>, for transitive dependencies that should not be linked but must be preloaded when precompiling, plus <a class="inl" href="https://github.com/leanprover/lean4/pull/14220" rel="noopener">an API for retrieving the complete set of core dynamic libraries</a>. A third change lets <a class="inl" href="https://github.com/leanprover/lean4/pull/14219" rel="noopener">custom build targets</a> link shared libraries or executables from a module without copying the code in <code>LeanExe.recBuildExe</code>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14254" rel="noopener">lean4#14254</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14220" rel="noopener">lean4#14220</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14219" rel="noopener">lean4#14219</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14240" rel="noopener">lean4#14240</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-02-lean-4-moves-deferred-docstring-checks-onto-the-linter-framework">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-02">Jul 2</time><button class="copy" type="button" hidden data-link="../../../../2026-07-02/#2026-07-02-lean-4-moves-deferred-docstring-checks-onto-the-linter-framework" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4 moves deferred docstring checks onto the linter framework</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14206" rel="noopener">A merged pull request</a> by David Thrane Christiansen adapts Lean's deferred docstring check mechanism to use the linter mechanism, replacing custom CI setup with an interface akin to environment linters and governed by the option linter.doc.deferred. In a breaking change, custom <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a> docstring elements now use a two-constructor type.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14206" rel="noopener">lean4#14206</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-09-joachim-breitner-adds-automatic-try-suggestions-to-lean-at-commo">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-01">Jul 1</time><button class="copy" type="button" hidden data-link="../../../../2026-07-09/#2026-07-09-joachim-breitner-adds-automatic-try-suggestions-to-lean-at-commo" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Joachim Breitner adds automatic try? suggestions to Lean at common proof sites</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13830" rel="noopener">A merged pull request by Joachim Breitner</a> makes Lean suggest try? output for empty by blocks, unsolved goals, and sorry tactics, gated by three options that default to off. It replaces the tactic.tryOnEmptyBy option from an earlier pull request with a different implementation.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13830" rel="noopener">lean4#13830</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-07-09-wojciech-r-owski-opens-lean-pull-requests-for-stateful-linters-a">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -219,33 +246,6 @@
     <h2 class="card-title">Lake adds a requiresModuleSystem option to flag non-module imports</h2>
     <p class="card-text">Sebastian Ullrich's merged Lean pull request adds the <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> package option <code>requiresModuleSystem</code>: Lake then warns whenever a non-module-system file (one without a <code>module</code> header) imports a module of the package. A separate <a class="inl" href="https://github.com/leanprover/lean4/pull/13679" rel="noopener">fix repairs code generation</a> that broke with structures using private fields and types inaccessible in the current scope.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13646" rel="noopener">lean4#13646</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13679" rel="noopener">lean4#13679</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-demo-previews-rust-source-references-resolved-through-rust-analy">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time><button class="copy" type="button" hidden data-link="../../../../2026-05-14/#2026-05-14-demo-previews-rust-source-references-resolved-through-rust-analy" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Demo previews Rust source references resolved through rust-analyzer</h2>
-    <p class="card-text">A <a class="inl" href="https://x80.org/vbp-rust-demo-1/Foreign-Rust-References/" rel="noopener">demo chapter on x80.org</a> previews foreign Rust references backed by a live language-server lookup: resolved references render a compact Rust source link and a grouped Rust code panel fetched from the location returned by rust-analyzer. A reference the language server cannot find is reported as unresolved, without a code panel.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x80.org/vbp-rust-demo-1/Foreign-Rust-References/" rel="noopener">x80.org</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-07-09-kim-morrison-releases-sos-a-sum-of-squares-tactic-for-lean">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-13">May 13</time><button class="copy" type="button" hidden data-link="../../../../2026-07-09/#2026-07-09-kim-morrison-releases-sos-a-sum-of-squares-tactic-for-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Kim Morrison releases sos, a sum-of-squares tactic for Lean</h2>
-    <p class="card-text"><a class="inl" href="https://kim-em.github.io/blog/2026-5-13-a-sum-of-squares-tactic/" rel="noopener">The sos tactic</a> is a sum-of-squares decision procedure for nonlinear real arithmetic, closely following John Harrison's HOL Light implementation. It calls the CSDP semidefinite programming library and rebuilds a fully certified result in Lean. <a class="inl" href="https://www.linkedin.com/posts/kim-morrison-219962b_lean4-formalverification-activity-7478622597069455360-B4aF/" rel="noopener">Kim Morrison</a> calls it a prototype and notes that frontier models have become very good at Lean metaprogramming.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://kim-em.github.io/blog/2026-5-13-a-sum-of-squares-tactic/" rel="noopener">kim-em.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://www.linkedin.com/posts/kim-morrison-219962b_lean4-formalverification-activity-7478622597069455360-B4aF/" rel="noopener">LinkedIn post</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-leo-de-moura-merges-grind-improvements-for-local-theorems-in-lea">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-11">May 11</time><button class="copy" type="button" hidden data-link="../../../../2026-05-14/#2026-05-14-leo-de-moura-merges-grind-improvements-for-local-theorems-in-lea" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura merges grind improvements for local theorems in Lean</h2>
-    <p class="card-text">In merged Lean pull requests by Leo de Moura, <a class="inl" href="https://github.com/leanprover/lean4/pull/13699" rel="noopener">grind diagnostics</a> now show local hypotheses used as E-matching theorems with their user-facing names and instantiation counters. A new <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> option, <a class="inl" href="https://github.com/leanprover/lean4/pull/13698" rel="noopener">genLocal</a>, controls the maximum term generation for local theorems (for example, hypotheses) and defaults to 8, the same value as gen.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13699" rel="noopener">lean4#13699</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13698" rel="noopener">lean4#13698</a></p>
   </div>
 </article>
 </div>

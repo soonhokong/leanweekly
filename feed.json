@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up",
+   "url": "https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up",
+   "title": "Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/14362\" rel=\"noopener\">open pull request</a> replaces hash maps of imported constants, built eagerly at import time, with per-module prefix trees precomputed when oleans are written and merged lazily on first access. The change cuts <code>import Lean</code> wall-clock time by 28% and <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>'s import phase by 21%, in exchange for about 6% larger standard library oleans.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/14362\">lean4#14362</a></p>",
+   "date_published": "2026-10-22T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "performance",
+    "imports",
+    "olean"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver",
    "url": "https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver",
    "title": "AI agents help researchers discover a new consensus protocol, verified in Lean",
@@ -29,6 +42,19 @@
     "ffmpeg",
     "machine code",
     "separation logic"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split",
+   "url": "https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split",
+   "title": "Leo de Moura changes Lean's lia to avoid large Cooper case splits",
+   "content_html": "<p>A Cooper case split on a variable has as many cases as its coefficient in the conflicting bounds. Three merged pull requests make <code>lia</code> <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15835\" rel=\"noopener\">reorder variables</a> instead of enumerating splits with many cases, <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15838\" rel=\"noopener\">exactly eliminate equations without unit coefficients</a> (as in the Omega test), and <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15827\" rel=\"noopener\">solve large-modulus divisibility goals</a> without a split per residue.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/15835\">lean4#15835</a>, <a href=\"https://github.com/leanprover/lean4/pull/15838\">lean4#15838</a>, <a href=\"https://github.com/leanprover/lean4/pull/15827\">lean4#15827</a></p>",
+   "date_published": "2026-10-21T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "lia",
+    "arithmetic",
+    "lean core"
    ]
   },
   {
@@ -237,6 +263,19 @@
     "kernel",
     "checker",
     "soundness"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-22/#2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues",
+   "url": "https://leanweekly.news/2026-10-22/#2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues",
+   "title": "Lean 4 merges libuv buffer fix and refactor from Sofia Rodrigues",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15598\" rel=\"noopener\">The fix</a>, merged October 14, makes send and recv fail with an invalid-argument error for buffers of 4 GiB or more, instead of letting the length wrap to 32 bits. <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15603\" rel=\"noopener\">The refactor</a>, merged October 15, adds owned_ref, a helper that owns Lean objects and helps avoid hundreds of lean_inc and lean_dec in libuv code.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/15598\">lean4#15598</a>, <a href=\"https://github.com/leanprover/lean4/pull/15603\">lean4#15603</a></p>",
+   "date_published": "2026-10-14T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "libuv",
+    "networking",
+    "bug fix"
    ]
   },
   {
@@ -614,45 +653,6 @@
     "lake",
     "profiling",
     "python"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge",
-   "title": "Lean publishes hex, an aggregator for verified computational algebra libraries",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/leanprover/hex\" rel=\"noopener\">leanprover/hex repository</a> bundles the released hex libraries for verified computational algebra in Lean 4, including LLL lattice reduction, integer polynomial factorization, graph canonical labelling via a formalization of nauty, and algebraic numbers. Each computational library is <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>-free, with Mathlib correspondence proofs in separate theory libraries.</p><p>Sources: <a href=\"https://github.com/leanprover/hex\">leanprover/hex</a></p>",
-   "date_published": "2026-09-17T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "hex",
-    "computer algebra",
-    "libraries"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker",
-   "title": "Lean FRO publishes con-ron, a Rust port of the con-leche checker",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/leanprover/con-ron\" rel=\"noopener\">con-ron</a> ports <a class=\"inl\" href=\"https://github.com/leanprover/con-leche\" rel=\"noopener\">con-leche</a>, an external Lean checker with a formal consistency proof, to Rust. It was written by AI under supervision from Joachim Breitner, and its Rust code is proven (partially) correct via an <a class=\"inl\" href=\"https://github.com/AeneasVerif/aeneas\" rel=\"noopener\">Aeneas</a>-generated model, so checking a proof with both tools guards against compiler or runtime bugs.</p><p>Sources: <a href=\"https://github.com/leanprover/con-ron\">leanprover/con-ron</a></p>",
-   "date_published": "2026-09-17T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "kernel",
-    "rust",
-    "aeneas"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-wojciech-nawrocki-adds-an-html-type-and-html-like-syntax-to-lean",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-wojciech-nawrocki-adds-an-html-type-and-html-like-syntax-to-lean",
-   "title": "Wojciech Nawrocki adds an HTML type and HTML-like syntax to Lean",
-   "content_html": "<p>Two merged pull requests add <code>Lean.Data.Html</code>, a type of HTML forests aimed primarily at authoring HTML, with a renderer that produces a String, plus HTML-like syntax with an elaborator into that type. Companion downstream-lean4 pull requests adopt the type and syntax throughout supported packages.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/14935\">lean4#14935</a>, <a href=\"https://github.com/leanprover/lean4/pull/15002\">lean4#15002</a></p>",
-   "date_published": "2026-09-17T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "html",
-    "lean4",
-    "syntax"
    ]
   }
  ]

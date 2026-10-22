@@ -30,8 +30,26 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 144 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 147 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-22">Oct 22</time><button class="copy" type="button" hidden data-link="../../2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">open pull request</a> replaces hash maps of imported constants, built eagerly at import time, with per-module prefix trees precomputed when oleans are written and merged lazily on first access. The change cuts <code>import Lean</code> wall-clock time by 28% and <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>'s import phase by 21%, in exchange for about 6% larger standard library oleans.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">lean4#14362</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-21">Oct 21</time><button class="copy" type="button" hidden data-link="../../2026-10-22/#2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura changes Lean's <code>lia</code> to avoid large Cooper case splits</h2>
+    <p class="card-text">A Cooper case split on a variable has as many cases as its coefficient in the conflicting bounds. Three merged pull requests make <code>lia</code> <a class="inl" href="https://github.com/leanprover/lean4/pull/15835" rel="noopener">reorder variables</a> instead of enumerating splits with many cases, <a class="inl" href="https://github.com/leanprover/lean4/pull/15838" rel="noopener">exactly eliminate equations without unit coefficients</a> (as in the Omega test), and <a class="inl" href="https://github.com/leanprover/lean4/pull/15827" rel="noopener">solve large-modulus divisibility goals</a> without a split per residue.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15835" rel="noopener">lean4#15835</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15838" rel="noopener">lean4#15838</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15827" rel="noopener">lean4#15827</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -57,6 +75,15 @@
     <h2 class="card-title">Joachim Breitner and Lean FRO describe the proof behind con-leche checker</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener">con-leche</a>, a checker for Lean 4, comes with a proof in Lean that every environment it accepts has a model in set theory, so no accepted environment holds a proof of False. A new document gives a <a class="inl" href="https://leanprover.github.io/con-leche/con-leche-proof-idea.html" rel="noopener">pen-and-paper account</a> of that argument on a simplified fragment of the checker.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.github.io/con-leche/con-leche-proof-idea.html" rel="noopener">leanprover.github.io</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-14">Oct 14</time><button class="copy" type="button" hidden data-link="../../2026-10-22/#2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4 merges libuv buffer fix and refactor from Sofia Rodrigues</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">The fix</a>, merged October 14, makes send and recv fail with an invalid-argument error for buffers of 4 GiB or more, instead of letting the length wrap to 32 bits. <a class="inl" href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">The refactor</a>, merged October 15, adds owned_ref, a helper that owns Lean objects and helps avoid hundreds of lean_inc and lean_dec in libuv code.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">lean4#15598</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">lean4#15603</a></p>
   </div>
 </article>
 <article class="card c-lean-core" id="2026-10-15-julia-markus-himmel-reworks-order-instances-across-lean-core-typ">
@@ -219,35 +246,6 @@
     <h2 class="card-title">Lean FRO publishes con-ron, a Rust port of the con-leche checker</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/con-ron" rel="noopener">con-ron</a> ports <a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener">con-leche</a>, an external Lean checker with a formal consistency proof, to Rust. It was written by AI under supervision from Joachim Breitner, and its Rust code is proven (partially) correct via an <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a>-generated model, so checking a proof with both tools guards against compiler or runtime bugs.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/con-ron" rel="noopener">leanprover/con-ron</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-17-wojciech-nawrocki-adds-an-html-type-and-html-like-syntax-to-lean">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-wojciech-nawrocki-adds-an-html-type-and-html-like-syntax-to-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Wojciech Nawrocki adds an HTML type and HTML-like syntax to Lean</h2>
-    <p class="card-text">Two merged pull requests add <code>Lean.Data.Html</code>, a type of HTML forests aimed primarily at authoring HTML, with a renderer that produces a String, plus HTML-like syntax with an elaborator into that type. Companion downstream-lean4 pull requests adopt the type and syntax throughout supported packages.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14935" rel="noopener">lean4#14935</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15002" rel="noopener">lean4#15002</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-17-lean-fro-and-sair-foundation-launch-stage-1-of-lean-kernel-chall">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-16">Sep 16</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-lean-fro-and-sair-foundation-launch-stage-1-of-lean-kernel-chall" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean FRO and SAIR Foundation launch Stage 1 of Lean Kernel Challenge</h2>
-    <p class="card-text">The <a class="inl" href="https://competition.sair.foundation/competitions/lean-kernel-challenge" rel="noopener">multi-stage competition</a> seeks faster algorithms for verified computation (using the Lean kernel to check computational results in a proof) across eight problems, including Fibonacci, prime counting, Rule 110, and SHA-256. Entrants prove each algorithm matches its specification; submissions close November 20, 2026.</p>
-    <figure class="media"><img src="../../assets/img/31882763a23ac484-480.webp" srcset="../../assets/img/31882763a23ac484-480.webp 480w, ../../assets/img/31882763a23ac484-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="628" alt="Lean Kernel Challenge submission verification and instruction count workflow" loading="lazy" decoding="async"><figcaption class="credit">Image: competition.sair.foundation</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://terrytao.wordpress.com/2026/09/16/sair-competition-lean-kernel-challenge/" rel="noopener">terrytao.wordpress.com</a><span class="dot" aria-hidden="true">·</span><a href="https://competition.sair.foundation/competitions/lean-kernel-challenge" rel="noopener">competition.sair.foundation</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-24-robert-joseph-george-will-adkisson-anima-anandkumar-present-floa">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-16">Sep 16</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-robert-joseph-george-will-adkisson-anima-anandkumar-present-floa" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Robert Joseph George, Will Adkisson, Anima Anandkumar present FloatLib for Lean 4</h2>
-    <p class="card-text"><a class="inl" href="https://arxiv.org/abs/2609.19352" rel="noopener">FloatLib</a> is a verified arbitrary-precision floating-point arithmetic library in Lean 4 that unifies IEEE binary and decimal arithmetic, arbitrary-width posits, P3109, and user-defined formats and rounding rules. Every certified backend is proved equal to a complete encoded specification, and the library, proofs, and benchmarks are released as open source.</p>
-    <figure class="media media-paper"><img src="../../assets/img/f03b79c6cc23d575-480.webp" srcset="../../assets/img/f03b79c6cc23d575-480.webp 480w, ../../assets/img/f03b79c6cc23d575-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="906" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2609.19352" rel="noopener">arXiv:2609.19352</a></p>
   </div>
 </article>
 </div>

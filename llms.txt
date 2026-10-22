@@ -4,8 +4,10 @@
 
 ## Latest items
 
+- [Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports](https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up): Lean core, 2026-10-22
 - [AI agents help researchers discover a new consensus protocol, verified in Lean](https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver): Verification, 2026-10-21
 - [Kraken Lean project proves FFmpeg's SBR decoder binary safe](https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe): Verification, 2026-10-21
+- [Leo de Moura changes Lean's lia to avoid large Cooper case splits](https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split): Lean core, 2026-10-21
 - [Joris Roos formalizes OpenAI's L³ trilinear Hilbert transform bound with coding agents](https://leanweekly.news/2026-10-20/#2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou): AI and formalization, 2026-10-20
 - [Matija Bucić, Fankang He and Hyunwoo Lee prove Erdős-Szemerédi sunflower conjecture](https://leanweekly.news/2026-10-21/#2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun): AI and formalization, 2026-10-19
 - [Linux 7.3 works around AMD CPU bug behind Lean build segfaults](https://leanweekly.news/2026-10-21/#2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults): Lean core, 2026-10-19
@@ -22,6 +24,7 @@
 - [AxiomProver generates Lean proof of Collatz positive density results](https://leanweekly.news/2026-10-18/#2026-10-18-axiomprover-generates-lean-proof-of-collatz-positive-density-res): AI and formalization, 2026-10-15
 - [Flapjack ports the verified Pancake compiler from HOL4 to Lean](https://leanweekly.news/2026-10-15/#2026-10-15-flapjack-ports-the-verified-pancake-compiler-from-hol4-to-lean): Verification, 2026-10-15
 - [Joachim Breitner and Lean FRO describe the proof behind con-leche checker](https://leanweekly.news/2026-10-15/#2026-10-15-joachim-breitner-and-lean-fro-describe-the-proof-behind-con-lech): Lean core, 2026-10-14
+- [Lean 4 merges libuv buffer fix and refactor from Sofia Rodrigues](https://leanweekly.news/2026-10-22/#2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues): Lean core, 2026-10-14
 - [Thomas Browning and coauthors release AnnalsChallenge, 50 Annals theorems stated in Lean](https://leanweekly.news/2026-10-21/#2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals): AI and formalization, 2026-10-13
 - [Google's Gemini 4 Argon writes a Lean-verified quantum arcsin implementation](https://leanweekly.news/2026-10-15/#2026-10-15-google-s-gemini-4-argon-writes-a-lean-verified-quantum-arcsin-im): AI and formalization, 2026-10-13
 - [Julia Markus Himmel reworks order instances across Lean core types](https://leanweekly.news/2026-10-15/#2026-10-15-julia-markus-himmel-reworks-order-instances-across-lean-core-typ): Lean core, 2026-10-13
@@ -101,9 +104,6 @@
 - [Paul Reichert fixes instance search seeing through type synonyms in Lean](https://leanweekly.news/2026-08-15/#2026-08-15-paul-reichert-fixes-instance-search-seeing-through-type-synonyms): Lean core, 2026-08-15
 - [Lean releases Nerodia, a library for writing Python modules in Lean](https://leanweekly.news/2026-08-15/#2026-08-15-lean-releases-nerodia-a-library-for-writing-python-modules-in-le): Lean core, 2026-08-15
 - [Vero benchmark tests AI agents on verified Lean 4 software repositories](https://leanweekly.news/2026-08-27/#2026-08-27-vero-benchmark-tests-ai-agents-on-verified-lean-4-software-repos): AI and formalization, 2026-08-13
-- [Sebastian Graf moves VERINA contracts onto programs and names verification-condition variables](https://leanweekly.news/2026-08-27/#2026-08-27-sebastian-graf-moves-verina-contracts-onto-programs-and-names-ve): Lean core, 2026-08-13
-- [Leo de Moura adds a lift_lets tactic for Lean's sym => mode](https://leanweekly.news/2026-08-15/#2026-08-15-leo-de-moura-adds-a-lift-lets-tactic-for-lean-s-sym-mode): Lean core, 2026-08-12
-- [Kim Morrison releases an integer polynomial factorization library for Lean](https://leanweekly.news/2026-08-15/#2026-08-15-kim-morrison-releases-an-integer-polynomial-factorization-librar): Lean core, 2026-08-11
 
 ## Weeks (Friday to Thursday)
 
@@ -141,6 +141,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Oct 22, 2026](https://leanweekly.news/2026-10-22/items.md)
 - [Published Oct 21, 2026](https://leanweekly.news/2026-10-21/items.md)
 - [Published Oct 20, 2026](https://leanweekly.news/2026-10-20/items.md)
 - [Published Oct 18, 2026](https://leanweekly.news/2026-10-18/items.md)

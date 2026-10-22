@@ -30,7 +30,7 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean news, Oct 16 to Oct 22, 2026</h1><p class="page-blurb">14 items published in the 7 days to Thursday, Oct 22, 2026. Most important first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean news, Oct 16 to Oct 22, 2026</h1><p class="page-blurb">17 items published in the 7 days to Thursday, Oct 22, 2026. Most important first.</p></header>
 <div class="stream">
 <article class="card c-ai" id="2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou">
   <span class="avatar" aria-hidden="true">∃</span>
@@ -99,6 +99,15 @@
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.18301" rel="noopener">arXiv:2610.18301</a></p>
   </div>
 </article>
+<article class="card c-lean-core" id="2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-22">Oct 22</time><button class="copy" type="button" hidden data-link="../../2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">open pull request</a> replaces hash maps of imported constants, built eagerly at import time, with per-module prefix trees precomputed when oleans are written and merged lazily on first access. The change cuts <code>import Lean</code> wall-clock time by 28% and <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>'s import phase by 21%, in exchange for about 6% larger standard library oleans.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">lean4#14362</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -163,6 +172,24 @@
     <h2 class="card-title">AxiomProver generates Lean proof of Collatz positive density results</h2>
     <p class="card-text"><a class="inl" href="https://github.com/AxiomMath/CollatzPositiveDensity" rel="noopener">CollatzPosDens</a>, <a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-15-000013&amp;version=1" rel="noopener">a Palomar registry entry</a>, formally proves the main results of Kenny Lau's paper &quot;Explicit positive lower density for the Collatz Conjecture&quot;, including Theorem 1.3, an explicit positive density of odd starting values reaching a prescribed target not divisible by 3. AxiomProver, Axiom Math's in-house theorem proving system, generated the Lean files.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-15-000013&amp;version=1" rel="noopener">palomar-registry.org</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/AxiomMath/CollatzPositiveDensity" rel="noopener">AxiomMath/CollatzPositiveDensity</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-21">Oct 21</time><button class="copy" type="button" hidden data-link="../../2026-10-22/#2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura changes Lean's <code>lia</code> to avoid large Cooper case splits</h2>
+    <p class="card-text">A Cooper case split on a variable has as many cases as its coefficient in the conflicting bounds. Three merged pull requests make <code>lia</code> <a class="inl" href="https://github.com/leanprover/lean4/pull/15835" rel="noopener">reorder variables</a> instead of enumerating splits with many cases, <a class="inl" href="https://github.com/leanprover/lean4/pull/15838" rel="noopener">exactly eliminate equations without unit coefficients</a> (as in the Omega test), and <a class="inl" href="https://github.com/leanprover/lean4/pull/15827" rel="noopener">solve large-modulus divisibility goals</a> without a split per residue.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15835" rel="noopener">lean4#15835</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15838" rel="noopener">lean4#15838</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15827" rel="noopener">lean4#15827</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-14">Oct 14</time><button class="copy" type="button" hidden data-link="../../2026-10-22/#2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4 merges libuv buffer fix and refactor from Sofia Rodrigues</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">The fix</a>, merged October 14, makes send and recv fail with an invalid-argument error for buffers of 4 GiB or more, instead of letting the length wrap to 32 bits. <a class="inl" href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">The refactor</a>, merged October 15, adds owned_ref, a helper that owns Lean objects and helps avoid hundreds of lean_inc and lean_dec in libuv code.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">lean4#15598</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">lean4#15603</a></p>
   </div>
 </article>
 </div>

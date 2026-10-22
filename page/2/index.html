@@ -32,6 +32,33 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 2</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-15-lean-4-35-0-ships-vcgen-lake-check-and-bundled-independent-kerne">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-12">Oct 12</time><button class="copy" type="button" hidden data-link="../../2026-10-15/#2026-10-15-lean-4-35-0-ships-vcgen-lake-check-and-bundled-independent-kerne" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4.35.0 ships vcgen, lake check, and bundled independent kernels</h2>
+    <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.35.0/" rel="noopener">Lean 4.35.0</a>, published on 2026-10-12, adds vcgen, a faster and more general successor of mvcgen, plus lake check and lake <a class="inl" href="https://github.com/leanprover/comparator" rel="noopener">comparator</a>, which check a project with Lean's kernel and optionally several independent kernels now included in the toolchain.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.35.0/" rel="noopener">v4.35.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.35.0" rel="noopener">lean4 v4.35.0</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-15-sebastian-ullrich-removes-lean-s-255-object-field-limit-per-cons">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-12">Oct 12</time><button class="copy" type="button" hidden data-link="../../2026-10-15/#2026-10-15-sebastian-ullrich-removes-lean-s-255-object-field-limit-per-cons" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich removes Lean's 255-object-field limit per constructor</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/15516" rel="noopener">A merged pull request by Sebastian Ullrich</a> removes the limit of 255 object fields per constructor, and thus per structure. When a constructor has more, the compiler keeps the first 254 in the constructor object and stores the rest in a chain of spill objects, with one pointer followed per spill object on access.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15516" rel="noopener">lean4#15516</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-15-sebastian-ullrich-merges-two-fixes-to-how-lean-modules-export-th">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-09">Oct 9</time><button class="copy" type="button" hidden data-link="../../2026-10-15/#2026-10-15-sebastian-ullrich-merges-two-fixes-to-how-lean-modules-export-th" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich merges two fixes to how Lean modules export theorems</h2>
+    <p class="card-text">In Lean, an <a class="inl" href="https://github.com/leanprover/lean4/pull/15559" rel="noopener">asynchronously elaborated theorem's exported info</a> in a <code>module</code> is now available as soon as its signature is, instead of after its proof is elaborated. <a class="inl" href="https://github.com/leanprover/lean4/pull/15563" rel="noopener">A second change</a> stops modules from exporting constants such as <code>foo.eq_1</code> realized only inside a proof, so such proofs no longer trigger downstream rebuilds.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15559" rel="noopener">lean4#15559</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15563" rel="noopener">lean4#15563</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-10-15-ai-proof-search-agent-resolves-nine-open-erd-s-problems-verified">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -225,34 +252,6 @@
     <h2 class="card-title">Kim Morrison proposes supply-chain audits for Mathlib dependency updates</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover-community/mathlib4/pull/43911" rel="noopener">A Mathlib pull request</a> by Kim Morrison adds a supply-chain audit step to the hourly update_dependencies.yml workflow, posting diffs, high-risk files touched and suspicious added lines for each changed dependency. The diffs come from paranoid-lake-update, which uses bare clones and git only, so nothing from upstream is executed.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/mathlib4/pull/43911" rel="noopener">mathlib4#43911</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-09-24-trivet-combines-llms-and-lean-to-validate-llvm-compiler-transfor">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-trivet-combines-llms-and-lean-to-validate-llvm-compiler-transfor" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Trivet combines LLMs and Lean to validate LLVM compiler transformations</h2>
-    <p class="card-text">Chunhao Liao, Hongxu Xu, Xintong Zhou, Yizhou Zhang and Chengnian Sun present <a class="inl" href="https://arxiv.org/abs/2609.19583" rel="noopener">Trivet</a>, which verifies or refutes 147 of 148 LLVM transformations, including 60 loop-free transformations with symbolic bitwidths and 27 loop-containing cases. Every successful verdict is checked by the Lean kernel.</p>
-    <figure class="media media-paper"><img src="../../assets/img/59cd9fb630a2e480-480.webp" srcset="../../assets/img/59cd9fb630a2e480-480.webp 480w, ../../assets/img/59cd9fb630a2e480-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2609.19583" rel="noopener">arXiv:2609.19583</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lake gains a samply profiling command, copied path dependencies, and separate codegen</h2>
-    <p class="card-text">Kim Morrison's <code>lake samply</code> command records a CPU profile of a Lean executable and serves it to Firefox Profiler, and Mac Malone added a <code>copy</code> option for path dependencies and split <code>leanir</code> code generation into a separate <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> job. Mac Malone also published <a class="inl" href="https://nerodia.lean-lang.org/" rel="noopener">Nerodia</a>, a work-in-progress library for Lean/Python FFI inspired by PyO3.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12545" rel="noopener">lean4#12545</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15142" rel="noopener">lean4#15142</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14906" rel="noopener">lean4#14906</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15231" rel="noopener">lean4#15231</a><span class="dot" aria-hidden="true">·</span><a href="https://nerodia.lean-lang.org/" rel="noopener">nerodia.lean-lang.org</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean publishes hex, an aggregator for verified computational algebra libraries</h2>
-    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/hex" rel="noopener">leanprover/hex repository</a> bundles the released hex libraries for verified computational algebra in Lean 4, including LLL lattice reduction, integer polynomial factorization, graph canonical labelling via a formalization of nauty, and algebraic numbers. Each computational library is <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>-free, with Mathlib correspondence proofs in separate theory libraries.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/hex" rel="noopener">leanprover/hex</a></p>
   </div>
 </article>
 </div>

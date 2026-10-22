@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 21 Oct 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 22 Oct 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports</title>
+<link>https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up</guid>
+<pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+<category>Lean core</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/14362" rel="noopener"&gt;open pull request&lt;/a&gt; replaces hash maps of imported constants, built eagerly at import time, with per-module prefix trees precomputed when oleans are written and merged lazily on first access. The change cuts &lt;code&gt;import Lean&lt;/code&gt; wall-clock time by 28% and &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;'s import phase by 21%, in exchange for about 6% larger standard library oleans.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/14362"&gt;lean4#14362&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>AI agents help researchers discover a new consensus protocol, verified in Lean</title>
 <link>https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver</link>
@@ -22,6 +30,14 @@
 <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;The theorem sbr_session_safe covers the linked machine code (aacsbr.o with its callees): given the link's layout, external routines' contracts and a 32-bit bound on their stack, every run stays in the memory it owns and uses at most the stated stack. The prefix-code and bound facts of FFmpeg's Huffman tables are proved.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/zrlk/kraken/blob/sbr-wf-preserve/Kraken/X64/Examples/Sbr/SessionBin/Top.lean"&gt;zrlk/kraken&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Leo de Moura changes Lean's lia to avoid large Cooper case splits</title>
+<link>https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split</guid>
+<pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+<category>Lean core</category>
+<description>&lt;p&gt;A Cooper case split on a variable has as many cases as its coefficient in the conflicting bounds. Three merged pull requests make &lt;code&gt;lia&lt;/code&gt; &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15835" rel="noopener"&gt;reorder variables&lt;/a&gt; instead of enumerating splits with many cases, &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15838" rel="noopener"&gt;exactly eliminate equations without unit coefficients&lt;/a&gt; (as in the Omega test), and &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15827" rel="noopener"&gt;solve large-modulus divisibility goals&lt;/a&gt; without a split per residue.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/15835"&gt;lean4#15835&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15838"&gt;lean4#15838&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15827"&gt;lean4#15827&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Joris Roos formalizes OpenAI's L³ trilinear Hilbert transform bound with coding agents</title>
@@ -150,6 +166,14 @@
 <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
 <category>Lean core</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener"&gt;con-leche&lt;/a&gt;, a checker for Lean 4, comes with a proof in Lean that every environment it accepts has a model in set theory, so no accepted environment holds a proof of False. A new document gives a &lt;a class="inl" href="https://leanprover.github.io/con-leche/con-leche-proof-idea.html" rel="noopener"&gt;pen-and-paper account&lt;/a&gt; of that argument on a simplified fragment of the checker.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://leanprover.github.io/con-leche/con-leche-proof-idea.html"&gt;leanprover.github.io&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Lean 4 merges libuv buffer fix and refactor from Sofia Rodrigues</title>
+<link>https://leanweekly.news/2026-10-22/#2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-22/#2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues</guid>
+<pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
+<category>Lean core</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15598" rel="noopener"&gt;The fix&lt;/a&gt;, merged October 14, makes send and recv fail with an invalid-argument error for buffers of 4 GiB or more, instead of letting the length wrap to 32 bits. &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15603" rel="noopener"&gt;The refactor&lt;/a&gt;, merged October 15, adds owned_ref, a helper that owns Lean objects and helps avoid hundreds of lean_inc and lean_dec in libuv code.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/15598"&gt;lean4#15598&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15603"&gt;lean4#15603&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Thomas Browning and coauthors release AnnalsChallenge, 50 Annals theorems stated in Lean</title>
@@ -382,30 +406,6 @@
 <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
 <category>Lean core</category>
 <description>&lt;p&gt;Kim Morrison's &lt;code&gt;lake samply&lt;/code&gt; command records a CPU profile of a Lean executable and serves it to Firefox Profiler, and Mac Malone added a &lt;code&gt;copy&lt;/code&gt; option for path dependencies and split &lt;code&gt;leanir&lt;/code&gt; code generation into a separate &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener"&gt;Lake&lt;/a&gt; job. Mac Malone also published &lt;a class="inl" href="https://nerodia.lean-lang.org/" rel="noopener"&gt;Nerodia&lt;/a&gt;, a work-in-progress library for Lean/Python FFI inspired by PyO3.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/12545"&gt;lean4#12545&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15142"&gt;lean4#15142&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/14906"&gt;lean4#14906&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15231"&gt;lean4#15231&lt;/a&gt;, &lt;a href="https://nerodia.lean-lang.org/"&gt;nerodia.lean-lang.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Lean publishes hex, an aggregator for verified computational algebra libraries</title>
-<link>https://leanweekly.news/2026-09-17/#2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-17/#2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge</guid>
-<pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/leanprover/hex" rel="noopener"&gt;leanprover/hex repository&lt;/a&gt; bundles the released hex libraries for verified computational algebra in Lean 4, including LLL lattice reduction, integer polynomial factorization, graph canonical labelling via a formalization of nauty, and algebraic numbers. Each computational library is &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;-free, with Mathlib correspondence proofs in separate theory libraries.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/hex"&gt;leanprover/hex&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Lean FRO publishes con-ron, a Rust port of the con-leche checker</title>
-<link>https://leanweekly.news/2026-09-17/#2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-17/#2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker</guid>
-<pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/leanprover/con-ron" rel="noopener"&gt;con-ron&lt;/a&gt; ports &lt;a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener"&gt;con-leche&lt;/a&gt;, an external Lean checker with a formal consistency proof, to Rust. It was written by AI under supervision from Joachim Breitner, and its Rust code is proven (partially) correct via an &lt;a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener"&gt;Aeneas&lt;/a&gt;-generated model, so checking a proof with both tools guards against compiler or runtime bugs.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/con-ron"&gt;leanprover/con-ron&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Wojciech Nawrocki adds an HTML type and HTML-like syntax to Lean</title>
-<link>https://leanweekly.news/2026-09-17/#2026-09-17-wojciech-nawrocki-adds-an-html-type-and-html-like-syntax-to-lean</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-17/#2026-09-17-wojciech-nawrocki-adds-an-html-type-and-html-like-syntax-to-lean</guid>
-<pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;Two merged pull requests add &lt;code&gt;Lean.Data.Html&lt;/code&gt;, a type of HTML forests aimed primarily at authoring HTML, with a renderer that produces a String, plus HTML-like syntax with an elaborator into that type. Companion downstream-lean4 pull requests adopt the type and syntax throughout supported packages.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/14935"&gt;lean4#14935&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15002"&gt;lean4#15002&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

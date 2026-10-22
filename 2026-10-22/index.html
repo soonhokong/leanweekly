@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<script src="../assets/theme.js?v=1fe176d120"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Published Oct 22, 2026 · Lean Weekly</title>
+<meta name="description" content="News about Lean, the theorem prover and programming language.">
+<link rel="preload" href="../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/lw.css?v=edba6bded4">
+<link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../feed.json">
+<script defer src="../assets/lw.js?v=4d35c1ac95"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the news</a>
+<header class="bar">
+<div class="bar-row">
+  <div class="brand"><a class="wordmark" href="../" aria-label="Lean Weekly"><img class="logo" src="../assets/lean-logo.svg" alt="Lean" width="80" height="30"><span>Weekly</span></a>
+  <p class="tagline">News about Lean, the theorem prover and programming language.</p></div>
+  <button class="theme" type="button" hidden aria-label="Switch to night mode"><svg class="i-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg><svg class="i-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
+  <form class="search" role="search" action="../search/" method="get">
+    <label class="sr-only" for="q">Search Lean news</label>
+    <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <kbd aria-hidden="true">/</kbd>
+    <div class="search-results" id="search-results" role="listbox" hidden></div>
+  </form>
+</div>
+<nav class="tabs" aria-label="Sections"><a class="t-latest" href="../">Latest</a><a class="t-ai" href="../section/ai/">AI and formalization</a><a class="t-verification" href="../section/verification/">Verification</a><a class="t-lean-core" href="../section/lean-core/">Lean core</a><a class="t-papers" href="../section/papers/">Papers and events</a><span class="tabs-gap"></span><a class="quiet" href="../about/">About</a><a class="quiet" href="../feed.xml">RSS</a></nav>
+</header>
+<main id="main">
+<div class="frame"><div class="timeline">
+<header class="page-head"><h1 class="page-title">Published Oct 22, 2026</h1><p class="page-blurb">3 items.</p></header>
+
+<div class="stream">
+<article class="card c-lean-core" id="2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-22">Oct 22</time><button class="copy" type="button" hidden data-link="../2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">open pull request</a> replaces hash maps of imported constants, built eagerly at import time, with per-module prefix trees precomputed when oleans are written and merged lazily on first access. The change cuts <code>import Lean</code> wall-clock time by 28% and <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>'s import phase by 21%, in exchange for about 6% larger standard library oleans.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">lean4#14362</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-21">Oct 21</time><button class="copy" type="button" hidden data-link="../2026-10-22/#2026-10-22-leo-de-moura-changes-lean-s-lia-to-avoid-large-cooper-case-split" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura changes Lean's <code>lia</code> to avoid large Cooper case splits</h2>
+    <p class="card-text">A Cooper case split on a variable has as many cases as its coefficient in the conflicting bounds. Three merged pull requests make <code>lia</code> <a class="inl" href="https://github.com/leanprover/lean4/pull/15835" rel="noopener">reorder variables</a> instead of enumerating splits with many cases, <a class="inl" href="https://github.com/leanprover/lean4/pull/15838" rel="noopener">exactly eliminate equations without unit coefficients</a> (as in the Omega test), and <a class="inl" href="https://github.com/leanprover/lean4/pull/15827" rel="noopener">solve large-modulus divisibility goals</a> without a split per residue.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15835" rel="noopener">lean4#15835</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15838" rel="noopener">lean4#15838</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15827" rel="noopener">lean4#15827</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-14">Oct 14</time><button class="copy" type="button" hidden data-link="../2026-10-22/#2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4 merges libuv buffer fix and refactor from Sofia Rodrigues</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">The fix</a>, merged October 14, makes send and recv fail with an invalid-argument error for buffers of 4 GiB or more, instead of letting the length wrap to 32 bits. <a class="inl" href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">The refactor</a>, merged October 15, adds owned_ref, a helper that owns Lean objects and helps avoid hundreds of lean_inc and lean_dec in libuv code.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">lean4#15598</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">lean4#15603</a></p>
+  </div>
+</article>
+</div>
+</div></div>
+</main>
+<p class="sr-only" id="status" role="status" aria-live="polite"></p>
+<footer class="foot"><div class="foot-in"><p><a href="../about/">About</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
+</body>
+</html>
