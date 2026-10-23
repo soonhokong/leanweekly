@@ -6,7 +6,47 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 22 Oct 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 23 Oct 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Pranava Kumar registers a Lean proof of Nivat's conjecture with Palomar</title>
+<link>https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with</guid>
+<pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-23-000002&amp;amp;version=1" rel="noopener"&gt;The entry&lt;/a&gt; formalizes Pranava Kumar's manuscript, proving that any configuration on the integer plane over a finite alphabet with at most k times n distinct k by n patterns has a nonzero global period. Its independent Challenge states the full conjecture using only standard &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; notions; &lt;a class="inl" href="https://github.com/PranavaKCode/nivat-lean" rel="noopener"&gt;the 339-file proof&lt;/a&gt; needs only Lean's foundational axioms.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-23-000002&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/PranavaKCode/nivat-lean"&gt;PranavaKCode/nivat-lean&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Ziqing Xiang formalizes Haemers' conjecture for the generalized spectrum in Lean</title>
+<link>https://leanweekly.news/2026-10-23/#2026-10-23-ziqing-xiang-formalizes-haemers-conjecture-for-the-generalized-s</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-ziqing-xiang-formalizes-haemers-conjecture-for-the-generalized-s</guid>
+<pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/ziqingxiang/dgs" rel="noopener"&gt;The Mathlib-based formalization&lt;/a&gt; contains the accompanying paper's whole proof that the proportion of n-vertex graphs determined by their generalized spectrum (the spectra of the adjacency matrices of a graph and its complement) tends to 1 as n grows. It also proves the results the paper quotes from the literature, including Kneser's addition theorem.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-23-000011&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/ziqingxiang/dgs"&gt;ziqingxiang/dgs&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Haruhisa Enomoto formalizes two classical theorems of Bautista, Gabriel, Roiter and Salmerón</title>
+<link>https://leanweekly.news/2026-10-23/#2026-10-23-haruhisa-enomoto-formalizes-two-classical-theorems-of-bautista-g</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-haruhisa-enomoto-formalizes-two-classical-theorems-of-bautista-g</guid>
+<pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Built on &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;, &lt;a class="inl" href="https://github.com/haruhisa-enomoto/multiplicative-bases-deformations" rel="noopener"&gt;the complete formalization&lt;/a&gt; follows Haruhisa Enomoto's new proof that representation-finite algebras over algebraically closed fields have normed multiplicative bases (closed under products up to zero) and basic ones in characteristic other than two are standard (indecomposable modules match their Auslander–Reiten quiver's mesh category). It also proves the Auslander–Reiten theory it uses.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-23-000004&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/haruhisa-enomoto/multiplicative-bases-deformations"&gt;haruhisa-enomoto/multiplicative-bases-deformations&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Giulio rebuffo's Janus verifies compiled Go arm64 machine code in Lean 4</title>
+<link>https://leanweekly.news/2026-10-23/#2026-10-23-giulio-rebuffo-s-janus-verifies-compiled-go-arm64-machine-code-i</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-giulio-rebuffo-s-janus-verifies-compiled-go-arm64-machine-code-i</guid>
+<pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/Giulio2002/Janus" rel="noopener"&gt;Janus&lt;/a&gt;, an early work in progress, decodes instructions in Lean and does not trust the Go compiler, linker, or any source-level reasoning. Every load and store must fall inside a caller-provided allocation, and Go runtime panic stubs (bounds checks, nil, divide) are named outcomes, so &amp;quot;this function never panics&amp;quot; is provable.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/Giulio2002/Janus"&gt;Giulio2002/Janus&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Alexander Meiburg disproves perfect randomized composition for total functions, checked in Lean</title>
+<link>https://leanweekly.news/2026-10-23/#2026-10-23-alexander-meiburg-disproves-perfect-randomized-composition-for-t</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-alexander-meiburg-disproves-perfect-randomized-composition-for-t</guid>
+<pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+<category>Papers and events</category>
+<description>&lt;p&gt;Perfect randomized composition (a composition's randomized query complexity is always at least a constant times the product of its factors' complexities) was known to fail for partial Boolean functions but open for total ones. &lt;a class="inl" href="https://arxiv.org/abs/2610.31638" rel="noopener"&gt;The main result&lt;/a&gt; is &lt;a class="inl" href="https://paperswithlean.com/paper/2610.31638.html" rel="noopener"&gt;machine-checked in Lean 4&lt;/a&gt; as a little-o statement on a subsequence of the construction.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.31638"&gt;arXiv:2610.31638&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2610.31638.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Tanner Duve of Logical Intelligence offers Veil an invariant-synthesis tactic</title>
 <link>https://leanweekly.news/2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn</link>
@@ -72,12 +112,28 @@
 <description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/roos-j/lean-trilinearht" rel="noopener"&gt;Lean 4 formalization&lt;/a&gt;, about 194,000 lines of code, verifies the main result of a preprint OpenAI made public on October 6, 2026 without an accompanying formalization. The theorem statement is human-written, while Codex and Claude coding agents, following a blueprint generated by GPT-6 Astra Pro, autoformalized the proof over about eight days.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/roos-j/lean-trilinearht"&gt;roos-j/lean-trilinearht&lt;/a&gt;, &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-20-000001&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>Carlo Ciliberto, Alessandro Rudi, Enrico Tassi introduce Proof-Carrying Contracts for AI agents</title>
+<link>https://leanweekly.news/2026-10-23/#2026-10-23-carlo-ciliberto-alessandro-rudi-enrico-tassi-introduce-proof-car</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-carlo-ciliberto-alessandro-rudi-enrico-tassi-introduce-proof-car</guid>
+<pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
+<category>Papers and events</category>
+<description>&lt;p&gt;An execution system called &lt;a class="inl" href="https://arxiv.org/abs/2610.28484" rel="noopener"&gt;the Airlock&lt;/a&gt; runs a tool call only if the Lean kernel accepts the agent's proof that the call preserves the agreed constraints in every case its model allows. &lt;a class="inl" href="https://github.com/consequential-ai/proof-carrying-contracts" rel="noopener"&gt;A Lean 4 mechanization&lt;/a&gt; proves the constraints hold at every instant of execution, even for an adversarial agent, under stated assumptions.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.28484"&gt;arXiv:2610.28484&lt;/a&gt;, &lt;a href="https://github.com/consequential-ai/proof-carrying-contracts"&gt;consequential-ai/proof-carrying-contracts&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2610.28484.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Matija Bucić, Fankang He and Hyunwoo Lee prove Erdős-Szemerédi sunflower conjecture</title>
 <link>https://leanweekly.news/2026-10-21/#2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-10-21/#2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun</guid>
 <pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;Posed in the 1970s, the conjecture bounds the size of any family of subsets containing no k-sunflower and was previously known only for k = 3, via cap-set results. According to &lt;a class="inl" href="https://paperswithlean.com/paper/2610.26686.html" rel="noopener"&gt;paperswithlean.com&lt;/a&gt;, &lt;a class="inl" href="https://arxiv.org/abs/2610.26686" rel="noopener"&gt;the proof&lt;/a&gt; was machine-verified in Lean 4, with the formalization to be released in the &lt;a class="inl" href="https://palomar-registry.org/" rel="noopener"&gt;Palomar&lt;/a&gt; repository.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.26686"&gt;arXiv:2610.26686&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2610.26686.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Aditya Ranjan Jha and coauthors mechanize a hardware type system in Lean</title>
+<link>https://leanweekly.news/2026-10-23/#2026-10-23-aditya-ranjan-jha-and-coauthors-mechanize-a-hardware-type-system</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-aditya-ranjan-jha-and-coauthors-mechanize-a-hardware-type-system</guid>
+<pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2610.26599" rel="noopener"&gt;Pact&lt;/a&gt;, a typed extension of the Anvil hardware description language, checks each component against its type, and compatible types guarantee communication safety (no unsynchronized exchanges or loss of progress). &lt;a class="inl" href="https://doi.org/10.5281/zenodo.23301148" rel="noopener"&gt;The POPL 2027 paper's artifact&lt;/a&gt; includes a Lean 4 mechanization proving soundness of type inference, type checking, and compatibility, plus optimality of inferred types.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.26599"&gt;arXiv:2610.26599&lt;/a&gt;, &lt;a href="https://doi.org/10.5281/zenodo.23301148"&gt;doi.org&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Linux 7.3 works around AMD CPU bug behind Lean build segfaults</title>
@@ -94,6 +150,14 @@
 <pubDate>Sun, 18 Oct 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://proofsandintuitions.net/2026/10/18/vermilion-experiment-lean-backend-verus/" rel="noopener"&gt;Vermilion&lt;/a&gt; expresses Verus's verification conditions (mathematical propositions about a program), normally sent to the Z3 solver, as Lean theorems, though it does not prove that they correctly describe Rust's semantics. Its default tactic, vrml, tries to prove each automatically, and any it leaves open can be proved interactively, drawing on &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://proofsandintuitions.net/2026/10/18/vermilion-experiment-lean-backend-verus/"&gt;proofsandintuitions.net&lt;/a&gt;, &lt;a href="https://x.com/ilyasergey/status/2111708968662036516"&gt;@ilyasergey on X&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Anirudh Gupta, Siddhartha Gadgil and Petros Markopoulos present PastaLean for verifying Python</title>
+<link>https://leanweekly.news/2026-10-23/#2026-10-23-anirudh-gupta-siddhartha-gadgil-and-petros-markopoulos-present-p</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-anirudh-gupta-siddhartha-gadgil-and-petros-markopoulos-present-p</guid>
+<pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/siddhartha-gadgil/PastaLean" rel="noopener"&gt;PastaLean&lt;/a&gt; deterministically translates Python into Lean through Python's abstract syntax tree, with no LLM, turning specifications written in Python into theorems for agents or humans to prove. It also includes TypeInfer, a Python type inference engine that completed one benchmark in 1.25 s against HeaderGen's 36.2 s, and an MCP server for coding agents.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://anirudhg07.github.io/blogs/pastalean-proving-python-correct/"&gt;anirudhg07.github.io&lt;/a&gt;, &lt;a href="https://github.com/siddhartha-gadgil/PastaLean"&gt;siddhartha-gadgil/PastaLean&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/PastaLean.3A.20Python.20to.20Lean/with/634334615"&gt;leanprover.zulipchat.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Jeremy Avigad and coauthors back formalizing all of mathematics, if done well</title>
@@ -342,70 +406,6 @@
 <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
 <category>Lean core</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15292" rel="noopener"&gt;A series of merged Lean pull requests&lt;/a&gt; adds Sym.Arith.normalize?, which rewrites ring and semiring terms into polynomial normal form with a proof by reflection, and an &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15279" rel="noopener"&gt;arith simproc&lt;/a&gt; for Sym.simp that uses it. Later changes extend it to relations, ring characteristic, non-commutative rings, and some field rewrites, and &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener"&gt;grind&lt;/a&gt;'s ring solver now shares Sym.Arith code.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/15292"&gt;lean4#15292&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15279"&gt;lean4#15279&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15293"&gt;lean4#15293&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15295"&gt;lean4#15295&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15297"&gt;lean4#15297&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15298"&gt;lean4#15298&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15190"&gt;lean4#15190&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Lean Workbench adds basic static Verso publications</title>
-<link>https://leanweekly.news/2026-10-15/#2026-10-15-lean-workbench-adds-basic-static-verso-publications</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-15/#2026-10-15-lean-workbench-adds-basic-static-verso-publications</guid>
-<pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/leanprover/lean-workbench/pull/139" rel="noopener"&gt;A merged pull request by Jason Reed&lt;/a&gt; adds a Publish button to the project summary when a workbench-publication.json file configures &lt;a class="inl" href="https://github.com/leanprover/verso" rel="noopener"&gt;Verso&lt;/a&gt; builds. Clicking it runs a Verso build and serves the result on a route extending the project URL. &lt;a class="inl" href="https://github.com/leanprover/lean-workbench/pull/149" rel="noopener"&gt;A follow-up&lt;/a&gt; makes publications create temporary directories in roughly the same way as tracked commands.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean-workbench/pull/139"&gt;lean-workbench#139&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean-workbench/pull/149"&gt;lean-workbench#149&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Boris Cherny used Opus 5.5 and Lean to verify the Claude Agent SDK</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-boris-cherny-used-opus-5-5-and-lean-to-verify-the-claude-agent-s</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-boris-cherny-used-opus-5-5-and-lean-to-verify-the-claude-agent-s</guid>
-<pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://x.com/bcherny/status/2102543349102338309" rel="noopener"&gt;Boris Cherny reports&lt;/a&gt; that a couple of short prompts to Opus 5.5 produced 16 PRs fixing various bugs and race conditions in the Claude Agent SDK. Boris Cherny also sometimes &lt;a class="inl" href="https://www.linkedin.com/feed/update/urn:li:activity:7508309724598263808/" rel="noopener"&gt;combines Lean and TLA+&lt;/a&gt; to look for issues around data flow, concurrency, and state management.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://x.com/bcherny/status/2102543349102338309"&gt;@bcherny on X&lt;/a&gt;, &lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7508309724598263808/"&gt;LinkedIn post&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Paper ports Iris, a concurrent separation logic framework, to Lean</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-paper-ports-iris-a-concurrent-separation-logic-framework-to-lean</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-paper-ports-iris-a-concurrent-separation-logic-framework-to-lean</guid>
-<pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
-<category>Papers and events</category>
-<description>&lt;p&gt;Markus de Medeiros, Ralf Jung, Lars Birkedal and nine coauthors explore how Lean features like flexible metaprogramming and quotient types can simplify the design and usage of Iris, providing a &lt;a class="inl" href="https://arxiv.org/abs/2609.24252" rel="noopener"&gt;new implementation of the Iris proof mode&lt;/a&gt; with improved performance. Integration with &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; supports an application to probabilistic program verification.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2609.24252"&gt;arXiv:2609.24252&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Leo de Moura prototypes on-demand commutation theorems for state operations</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-prototypes-on-demand-commutation-theorems-for-state</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-prototypes-on-demand-commutation-theorems-for-state</guid>
-<pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;Leo de Moura's &lt;a class="inl" href="https://github.com/leodemoura/Commute" rel="noopener"&gt;Commute repository&lt;/a&gt; combines a simproc (a metaprogram that simp calls on matching subterms) with realizable constants, so only the pairs proofs use are ever proved, avoiding a quadratic table of lemmas. &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15237" rel="noopener"&gt;A related Lean pull request&lt;/a&gt; by Sebastian Ullrich adds Environment.realizationEnvContains.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leodemoura/Commute"&gt;leodemoura/Commute&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15237"&gt;lean4#15237&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Ten Claude Opus 5.5 agents produce a Lean-verified shortest-path algorithm, C-HD</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-ten-claude-opus-5-5-agents-produce-a-lean-verified-shortest-path</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-ten-claude-opus-5-5-agents-produce-a-lean-verified-shortest-path</guid>
-<pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://www.vals.ai/blogs/faster-shortest-path-algorithm" rel="noopener"&gt;Geby Jaff of Vals AI&lt;/a&gt; had 10 Claude Opus 5.5 agents coordinate on a message board; after about 15 hours and 733 messages they proposed C-HD, whose Lean proof (checked with the Lean Comparator tool) establishes a strict asymptotic improvement over n log n for a stated density of edges. The constants are enormous, so no practical speedup is established.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.vals.ai/blogs/faster-shortest-path-algorithm"&gt;vals.ai&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Trail of Bits proves Miden core library arithmetic correct with AI-generated Lean proofs</title>
-<link>https://leanweekly.news/2026-10-15/#2026-10-15-trail-of-bits-proves-miden-core-library-arithmetic-correct-with</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-15/#2026-10-15-trail-of-bits-proves-miden-core-library-arithmetic-correct-with</guid>
-<pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;During an audit of the Miden VM, a zero-knowledge VM with its own assembly language, &lt;a class="inl" href="https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/" rel="noopener"&gt;Trail of Bits&lt;/a&gt; had agents build a Lean model of the VM executor, producing 95 correctness proofs covering all binary arithmetic components of the core library. The work identified two subtle bugs that the existing unit test suite did not catch.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/"&gt;blog.trailofbits.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Velvet 2.0 released, and Ilya Sergey publishes Vermilion, a Lean backend for Verus</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-velvet-2-0-released-and-ilya-sergey-publishes-vermilion-a-lean-b</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-velvet-2-0-released-and-ilya-sergey-publishes-vermilion-a-lean-b</guid>
-<pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://www.linkedin.com/feed/update/urn:li:activity:7506753523372462081/" rel="noopener"&gt;Velvet 2.0&lt;/a&gt; is now based on Lean's most recent verification machinery, is easier to set up and 10x faster, adding exception specs, ghost state and named proof goals. &lt;a class="inl" href="https://github.com/ilyasergey/vermilion" rel="noopener"&gt;Vermilion&lt;/a&gt;, an experimental Lean 4 backend for the Verus Rust verifier, turns each obligation into a Lean theorem checked by the Lean kernel.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7506753523372462081/"&gt;LinkedIn post&lt;/a&gt;, &lt;a href="https://github.com/ilyasergey/vermilion"&gt;ilyasergey/vermilion&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Lean merges rewritten Verso docstring parser, unblocking automatic formatting</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-lean-merges-rewritten-verso-docstring-parser-unblocking-automati</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-lean-merges-rewritten-verso-docstring-parser-unblocking-automati</guid>
-<pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;David Thrane Christiansen's &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15064" rel="noopener"&gt;rewrite of the Verso docstring parser&lt;/a&gt;, a breaking change that tracks all details of the concrete syntax, was merged on 2026-09-18, and &lt;a class="inl" href="https://github.com/leanprover/verso/pull/989" rel="noopener"&gt;Verso has been adapted&lt;/a&gt; to it. Marc Huisinga has &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15218" rel="noopener"&gt;opened a pull request&lt;/a&gt; adding an extensible code formatter integrated with the language server.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/15064"&gt;lean4#15064&lt;/a&gt;, &lt;a href="https://github.com/leanprover/verso/pull/989"&gt;verso#989&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15218"&gt;lean4#15218&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

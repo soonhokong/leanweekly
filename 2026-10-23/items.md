@@ -1,0 +1,26 @@
+---
+issue: 35
+date: 2026-10-23
+window_start: 2026-10-22
+window_end: 2026-10-23
+---
+
+## Headlines
+
+- **Pranava Kumar registers a Lean proof of Nivat's conjecture with Palomar.** The entry formalizes Pranava Kumar's manuscript, proving that any configuration on the integer plane over a finite alphabet with at most k times n distinct k by n patterns has a nonzero global period. Its independent Challenge states the full conjecture using only standard Mathlib notions; the 339-file proof needs only Lean's foundational axioms. ([palomar-registry.org](https://palomar-registry.org/entry?id=PALOMAR-2026-10-23-000002&version=1), [PranavaKCode/nivat-lean](https://github.com/PranavaKCode/nivat-lean))
+- **Ziqing Xiang formalizes Haemers' conjecture for the generalized spectrum in Lean.** The Mathlib-based formalization contains the accompanying paper's whole proof that the proportion of n-vertex graphs determined by their generalized spectrum (the spectra of the adjacency matrices of a graph and its complement) tends to 1 as n grows. It also proves the results the paper quotes from the literature, including Kneser's addition theorem. ([palomar-registry.org](https://palomar-registry.org/entry?id=PALOMAR-2026-10-23-000011&version=1), [ziqingxiang/dgs](https://github.com/ziqingxiang/dgs))
+
+## AI and formalization
+
+- **Haruhisa Enomoto formalizes two classical theorems of Bautista, Gabriel, Roiter and Salmerón.** Built on Mathlib, the complete formalization follows Haruhisa Enomoto's new proof that representation-finite algebras over algebraically closed fields have normed multiplicative bases (closed under products up to zero) and basic ones in characteristic other than two are standard (indecomposable modules match their Auslander–Reiten quiver's mesh category). It also proves the Auslander–Reiten theory it uses. ([palomar-registry.org](https://palomar-registry.org/entry?id=PALOMAR-2026-10-23-000004&version=1), [haruhisa-enomoto/multiplicative-bases-deformations](https://github.com/haruhisa-enomoto/multiplicative-bases-deformations))
+
+## Verification in practice
+
+- **Anirudh Gupta, Siddhartha Gadgil and Petros Markopoulos present PastaLean for verifying Python.** PastaLean deterministically translates Python into Lean through Python's abstract syntax tree, with no LLM, turning specifications written in Python into theorems for agents or humans to prove. It also includes TypeInfer, a Python type inference engine that completed one benchmark in 1.25 s against HeaderGen's 36.2 s, and an MCP server for coding agents. ([anirudhg07.github.io](https://anirudhg07.github.io/blogs/pastalean-proving-python-correct/), [siddhartha-gadgil/PastaLean](https://github.com/siddhartha-gadgil/PastaLean), [leanprover.zulipchat.com](https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/PastaLean.3A.20Python.20to.20Lean/with/634334615), [anirudhg07.github.io](https://anirudhg07.github.io/presentations/pastalean/latest/))
+- **Aditya Ranjan Jha and coauthors mechanize a hardware type system in Lean.** Pact, a typed extension of the Anvil hardware description language, checks each component against its type, and compatible types guarantee communication safety (no unsynchronized exchanges or loss of progress). The POPL 2027 paper's artifact includes a Lean 4 mechanization proving soundness of type inference, type checking, and compatibility, plus optimality of inferred types. ([arXiv:2610.26599](https://arxiv.org/abs/2610.26599), [doi.org](https://doi.org/10.5281/zenodo.23301148))
+- **Giulio rebuffo's Janus verifies compiled Go arm64 machine code in Lean 4.** Janus, an early work in progress, decodes instructions in Lean and does not trust the Go compiler, linker, or any source-level reasoning. Every load and store must fall inside a caller-provided allocation, and Go runtime panic stubs (bounds checks, nil, divide) are named outcomes, so "this function never panics" is provable. ([Giulio2002/Janus](https://github.com/Giulio2002/Janus))
+
+## Papers, events, press
+
+- **Alexander Meiburg disproves perfect randomized composition for total functions, checked in Lean.** Perfect randomized composition (a composition's randomized query complexity is always at least a constant times the product of its factors' complexities) was known to fail for partial Boolean functions but open for total ones. The main result is machine-checked in Lean 4 as a little-o statement on a subsequence of the construction. ([arXiv:2610.31638](https://arxiv.org/abs/2610.31638), [paperswithlean.com](https://paperswithlean.com/paper/2610.31638.html))
+- **Carlo Ciliberto, Alessandro Rudi, Enrico Tassi introduce Proof-Carrying Contracts for AI agents.** An execution system called the Airlock runs a tool call only if the Lean kernel accepts the agent's proof that the call preserves the agreed constraints in every case its model allows. A Lean 4 mechanization proves the constraints hold at every instant of execution, even for an adversarial agent, under stated assumptions. ([arXiv:2610.28484](https://arxiv.org/abs/2610.28484), [consequential-ai/proof-carrying-contracts](https://github.com/consequential-ai/proof-carrying-contracts), [paperswithlean.com](https://paperswithlean.com/paper/2610.28484.html))

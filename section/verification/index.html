@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 38 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 41 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-verification" id="2026-10-23-giulio-rebuffo-s-janus-verifies-compiled-go-arm64-machine-code-i">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-23">Oct 23</time><button class="copy" type="button" hidden data-link="../../2026-10-23/#2026-10-23-giulio-rebuffo-s-janus-verifies-compiled-go-arm64-machine-code-i" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Giulio rebuffo's Janus verifies compiled Go arm64 machine code in Lean 4</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/Giulio2002/Janus" rel="noopener">Janus</a>, an early work in progress, decodes instructions in Lean and does not trust the Go compiler, linker, or any source-level reasoning. Every load and store must fall inside a caller-provided allocation, and Go runtime panic stubs (bounds checks, nil, divide) are named outcomes, so &quot;this function never panics&quot; is provable.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/Giulio2002/Janus" rel="noopener">Giulio2002/Janus</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -69,6 +78,16 @@
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/zrlk/kraken/blob/sbr-wf-preserve/Kraken/X64/Examples/Sbr/SessionBin/Top.lean" rel="noopener">zrlk/kraken</a></p>
   </div>
 </article>
+<article class="card c-verification" id="2026-10-23-aditya-ranjan-jha-and-coauthors-mechanize-a-hardware-type-system">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-19">Oct 19</time><button class="copy" type="button" hidden data-link="../../2026-10-23/#2026-10-23-aditya-ranjan-jha-and-coauthors-mechanize-a-hardware-type-system" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Aditya Ranjan Jha and coauthors mechanize a hardware type system in Lean</h2>
+    <p class="card-text"><a class="inl" href="https://arxiv.org/abs/2610.26599" rel="noopener">Pact</a>, a typed extension of the Anvil hardware description language, checks each component against its type, and compatible types guarantee communication safety (no unsynchronized exchanges or loss of progress). <a class="inl" href="https://doi.org/10.5281/zenodo.23301148" rel="noopener">The POPL 2027 paper's artifact</a> includes a Lean 4 mechanization proving soundness of type inference, type checking, and compatibility, plus optimality of inferred types.</p>
+    <figure class="media media-paper"><img src="../../assets/img/9a6d84de5e0b660c-480.webp" srcset="../../assets/img/9a6d84de5e0b660c-480.webp 480w, ../../assets/img/9a6d84de5e0b660c-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="949" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.26599" rel="noopener">arXiv:2610.26599</a><span class="dot" aria-hidden="true">·</span><a href="https://doi.org/10.5281/zenodo.23301148" rel="noopener">doi.org</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-10-21-ilya-sergey-describes-vermilion-an-experimental-lean-backend-for">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -76,6 +95,16 @@
     <h2 class="card-title">Ilya Sergey describes Vermilion, an experimental Lean backend for Rust verifier Verus</h2>
     <p class="card-text"><a class="inl" href="https://proofsandintuitions.net/2026/10/18/vermilion-experiment-lean-backend-verus/" rel="noopener">Vermilion</a> expresses Verus's verification conditions (mathematical propositions about a program), normally sent to the Z3 solver, as Lean theorems, though it does not prove that they correctly describe Rust's semantics. Its default tactic, vrml, tries to prove each automatically, and any it leaves open can be proved interactively, drawing on <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://proofsandintuitions.net/2026/10/18/vermilion-experiment-lean-backend-verus/" rel="noopener">proofsandintuitions.net</a><span class="dot" aria-hidden="true">·</span><a href="https://x.com/ilyasergey/status/2111708968662036516" rel="noopener">@ilyasergey on X</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-10-23-anirudh-gupta-siddhartha-gadgil-and-petros-markopoulos-present-p">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-17">Oct 17</time><button class="copy" type="button" hidden data-link="../../2026-10-23/#2026-10-23-anirudh-gupta-siddhartha-gadgil-and-petros-markopoulos-present-p" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Anirudh Gupta, Siddhartha Gadgil and Petros Markopoulos present PastaLean for verifying Python</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/siddhartha-gadgil/PastaLean" rel="noopener">PastaLean</a> deterministically translates Python into Lean through Python's abstract syntax tree, with no LLM, turning specifications written in Python into theorems for agents or humans to prove. It also includes TypeInfer, a Python type inference engine that completed one benchmark in 1.25 s against HeaderGen's 36.2 s, and an MCP server for coding agents.</p>
+    <figure class="media"><img src="../../assets/img/ef064c138db22726-480.webp" srcset="../../assets/img/ef064c138db22726-480.webp 480w, ../../assets/img/ef064c138db22726-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="1600" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: anirudhg07.github.io</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://anirudhg07.github.io/blogs/pastalean-proving-python-correct/" rel="noopener">anirudhg07.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/siddhartha-gadgil/PastaLean" rel="noopener">siddhartha-gadgil/PastaLean</a><span class="dot" aria-hidden="true">·</span><a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/PastaLean.3A.20Python.20to.20Lean/with/634334615" rel="noopener">leanprover.zulipchat.com</a></p>
   </div>
 </article>
 <article class="card c-verification" id="2026-10-21-vasily-ilin-shares-a-prompt-to-build-verified-faster-software-in">
@@ -230,33 +259,6 @@
     <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/peter-o-hearn-81471647_postdoctoral-researcher-ai-verification-activity-7467927741754044416-OJjv" rel="noopener">Peter O'Hearn is hiring a postdoc</a> in the Meta London office who will work closely with Peter O'Hearn and others in the new AI Verification team, collaborating across Meta Superintelligence Labs and possibly building on lean/<a class="inl" href="https://github.com/leanprover/cslib" rel="noopener">CSLib</a>, <a class="inl" href="https://github.com/leanprover-community/iris-lean" rel="noopener">Iris-Lean</a> and loom/velvet.</p>
     <figure class="media"><img src="../../assets/img/253614b306c1009f-480.webp" srcset="../../assets/img/253614b306c1009f-480.webp 480w, ../../assets/img/253614b306c1009f-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="418" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/peter-o-hearn-81471647_postdoctoral-researcher-ai-verification-activity-7467927741754044416-OJjv" rel="noopener">LinkedIn post</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-05-28-cajal-introduces-talos-a-lean-4-framework-for-verifying-webassem">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-22">May 22</time><button class="copy" type="button" hidden data-link="../../2026-05-28/#2026-05-28-cajal-introduces-talos-a-lean-4-framework-for-verifying-webassem" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Cajal introduces Talos, a Lean 4 framework for verifying WebAssembly modules</h2>
-    <p class="card-text"><a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Talos.3A.20A.20Formal.20Verification.20Framework.20for.20WebAssembly/with/597057652" rel="noopener">Talos</a> provides a Wasm interpreter optimized for reasoning plus a WP calculus layer for proving program properties, with a proof that the num-integer crate's gcd using Stein's algorithm is correct. The early-stage project aims for full Wasm coverage by passing the official testsuite, and verification of any Rust crate that compiles to Wasm.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Talos.3A.20A.20Formal.20Verification.20Framework.20for.20WebAssembly/with/597057652" rel="noopener">leanprover.zulipchat.com</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-05-07-jonathan-protzenko-uses-aeneas-to-verify-bounds-safety-in-jxl-rs">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time><button class="copy" type="button" hidden data-link="../../2026-05-07/#2026-05-07-jonathan-protzenko-uses-aeneas-to-verify-bounds-safety-in-jxl-rs" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Jonathan Protzenko uses Aeneas to verify bounds safety in jxl-rs</h2>
-    <p class="card-text"><a class="inl" href="https://jonathan.protzenko.fr/2026/05/05/jxl-rs.html" rel="noopener">Jonathan Protzenko's case study</a> uses <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a>, a toolchain for verifying Rust programs through a functional translation to Lean, on jxl-rs, a Rust rewrite of the jpeg-xl codec. The proof shows an unchecked array access always stays within bounds and showcases recent Aeneas features, including official <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> support and loop combinators.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://jonathan.protzenko.fr/2026/05/05/jxl-rs.html" rel="noopener">jonathan.protzenko.fr</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-04-30-mark-ruvald-pedersen-releases-clift-an-autocorres-style-c-verifi">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-30">Apr 30</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-mark-ruvald-pedersen-releases-clift-an-autocorres-style-c-verifi" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Mark Ruvald Pedersen releases Clift, an AutoCorres-style C verification pipeline for Lean 4</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/eisbaw/Clift" rel="noopener">Clift</a> verifies C programs by lifting them into Lean 4, following the methodology pioneered by seL4's AutoCorres pipeline in Isabelle/HOL and adapting AutoCorres2's five-stage pipeline to Lean 4's type theory. <a class="inl" href="https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf" rel="noopener">The accompanying paper</a> reports that Claude Opus 4.6 generated the vast majority of the code, with 1,698 theorems and 12 remaining sorry.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf" rel="noopener">paper (pdf)</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/eisbaw/Clift" rel="noopener">eisbaw/Clift</a></p>
   </div>
 </article>
 </div>

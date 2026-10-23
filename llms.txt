@@ -4,6 +4,11 @@
 
 ## Latest items
 
+- [Pranava Kumar registers a Lean proof of Nivat's conjecture with Palomar](https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with): AI and formalization, 2026-10-23
+- [Ziqing Xiang formalizes Haemers' conjecture for the generalized spectrum in Lean](https://leanweekly.news/2026-10-23/#2026-10-23-ziqing-xiang-formalizes-haemers-conjecture-for-the-generalized-s): AI and formalization, 2026-10-23
+- [Haruhisa Enomoto formalizes two classical theorems of Bautista, Gabriel, Roiter and Salmerón](https://leanweekly.news/2026-10-23/#2026-10-23-haruhisa-enomoto-formalizes-two-classical-theorems-of-bautista-g): AI and formalization, 2026-10-23
+- [Giulio rebuffo's Janus verifies compiled Go arm64 machine code in Lean 4](https://leanweekly.news/2026-10-23/#2026-10-23-giulio-rebuffo-s-janus-verifies-compiled-go-arm64-machine-code-i): Verification, 2026-10-23
+- [Alexander Meiburg disproves perfect randomized composition for total functions, checked in Lean](https://leanweekly.news/2026-10-23/#2026-10-23-alexander-meiburg-disproves-perfect-randomized-composition-for-t): Papers and events, 2026-10-22
 - [Tanner Duve of Logical Intelligence offers Veil an invariant-synthesis tactic](https://leanweekly.news/2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn): Verification, 2026-10-22
 - [Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports](https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up): Lean core, 2026-10-22
 - [Leo de Moura publishes MiniForth, a Lean tutorial for programming language semantics](https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-publishes-miniforth-a-lean-tutorial-for-programming): Papers and events, 2026-10-22
@@ -12,9 +17,12 @@
 - [Kraken Lean project proves FFmpeg's SBR decoder binary safe](https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe): Verification, 2026-10-21
 - [Leo de Moura adds three lia changes that avoid large case splits](https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits): Lean core, 2026-10-21
 - [Joris Roos formalizes OpenAI's L³ trilinear Hilbert transform bound with coding agents](https://leanweekly.news/2026-10-20/#2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou): AI and formalization, 2026-10-20
+- [Carlo Ciliberto, Alessandro Rudi, Enrico Tassi introduce Proof-Carrying Contracts for AI agents](https://leanweekly.news/2026-10-23/#2026-10-23-carlo-ciliberto-alessandro-rudi-enrico-tassi-introduce-proof-car): Papers and events, 2026-10-20
 - [Matija Bucić, Fankang He and Hyunwoo Lee prove Erdős-Szemerédi sunflower conjecture](https://leanweekly.news/2026-10-21/#2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun): AI and formalization, 2026-10-19
+- [Aditya Ranjan Jha and coauthors mechanize a hardware type system in Lean](https://leanweekly.news/2026-10-23/#2026-10-23-aditya-ranjan-jha-and-coauthors-mechanize-a-hardware-type-system): Verification, 2026-10-19
 - [Linux 7.3 works around AMD CPU bug behind Lean build segfaults](https://leanweekly.news/2026-10-21/#2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults): Lean core, 2026-10-19
 - [Ilya Sergey describes Vermilion, an experimental Lean backend for Rust verifier Verus](https://leanweekly.news/2026-10-21/#2026-10-21-ilya-sergey-describes-vermilion-an-experimental-lean-backend-for): Verification, 2026-10-18
+- [Anirudh Gupta, Siddhartha Gadgil and Petros Markopoulos present PastaLean for verifying Python](https://leanweekly.news/2026-10-23/#2026-10-23-anirudh-gupta-siddhartha-gadgil-and-petros-markopoulos-present-p): Verification, 2026-10-17
 - [Jeremy Avigad and coauthors back formalizing all of mathematics, if done well](https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics): Papers and events, 2026-10-16
 - [Shanghai AI Lab's Shusheng-S2 helps prove 3D Ghys conjecture, verified in Lean](https://leanweekly.news/2026-10-18/#2026-10-18-shanghai-ai-lab-s-shusheng-s2-helps-prove-3d-ghys-conjecture-ver): AI and formalization, 2026-10-16
 - [Anthropic's Claude designs more efficient quantum circuits, verifying one with Lean proofs](https://leanweekly.news/2026-10-21/#2026-10-21-anthropic-s-claude-designs-more-efficient-quantum-circuits-verif): AI and formalization, 2026-10-16
@@ -96,17 +104,10 @@
 - [Lean FRO publishes postmortem of kernel soundness bug hunt with OpenAI models](https://leanweekly.news/2026-08-27/#2026-08-27-lean-fro-publishes-postmortem-of-kernel-soundness-bug-hunt-with): Lean core, 2026-08-24
 - [FU Berlin hosts two-week workshop formalizing polyhedra theory in Lean](https://leanweekly.news/2026-09-03/#2026-09-03-fu-berlin-hosts-two-week-workshop-formalizing-polyhedra-theory-i): Papers and events, 2026-08-24
 - [Scott Armstrong says Lean formalization became essential to his research in 2026](https://leanweekly.news/2026-08-27/#2026-08-27-scott-armstrong-says-lean-formalization-became-essential-to-his): AI and formalization, 2026-08-22
-- [Lean v4.33.1 patches kernel soundness bugs, v4.34.0-rc2 also published](https://leanweekly.news/2026-08-27/#2026-08-27-lean-v4-33-1-patches-kernel-soundness-bugs-v4-34-0-rc2-also-publ): Lean core, 2026-08-21
-- [Sebastian Ullrich fixes reference count overflow that could enable a proof of False](https://leanweekly.news/2026-08-27/#2026-08-27-sebastian-ullrich-fixes-reference-count-overflow-that-could-enab): Lean core, 2026-08-20
-- [Lean 4 redefines Decidable as a Bool paired with a proof](https://leanweekly.news/2026-08-27/#2026-08-27-lean-4-redefines-decidable-as-a-bool-paired-with-a-proof): Lean core, 2026-08-20
-- [Palomar, a registry of Lean verified mathematics, opens for submissions](https://leanweekly.news/2026-09-03/#2026-09-03-palomar-a-registry-of-lean-verified-mathematics-opens-for-submis): AI and formalization, 2026-08-18
-- [Lean FRO and ICARM open Palomar, a registry of Lean-verified mathematics](https://leanweekly.news/2026-08-27/#2026-08-27-lean-fro-and-icarm-open-palomar-a-registry-of-lean-verified-math): AI and formalization, 2026-08-18
-- [Lake now fetches dependencies as treeless partial Git clones](https://leanweekly.news/2026-08-27/#2026-08-27-lake-now-fetches-dependencies-as-treeless-partial-git-clones): Lean core, 2026-08-17
-- [Predictable Machines builds Predictable Code on Lean 4, open-sources two libraries](https://leanweekly.news/2026-08-15/#2026-08-15-predictable-machines-builds-predictable-code-on-lean-4-open-sour): Verification, 2026-08-15
-- [Guide explains how to validate and report Lean kernel soundness bugs](https://leanweekly.news/2026-08-15/#2026-08-15-guide-explains-how-to-validate-and-report-lean-kernel-soundness): Lean core, 2026-08-15
 
 ## Weeks (Friday to Thursday)
 
+- [Lean news, Oct 23 to Oct 29, 2026](https://leanweekly.news/week/2026-10-29/)
 - [Lean news, Oct 16 to Oct 22, 2026](https://leanweekly.news/week/2026-10-22/)
 - [Lean news, Oct 9 to Oct 15, 2026](https://leanweekly.news/week/2026-10-15/)
 - [Lean news, Sep 18 to Sep 24, 2026](https://leanweekly.news/week/2026-09-24/)
@@ -141,6 +142,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Oct 23, 2026](https://leanweekly.news/2026-10-23/items.md)
 - [Published Oct 22, 2026](https://leanweekly.news/2026-10-22/items.md)
 - [Published Oct 21, 2026](https://leanweekly.news/2026-10-21/items.md)
 - [Published Oct 20, 2026](https://leanweekly.news/2026-10-20/items.md)
