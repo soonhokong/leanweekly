@@ -50,6 +50,24 @@
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">lean4#14362</a></p>
   </div>
 </article>
+<article class="card c-papers" id="2026-10-22-leo-de-moura-publishes-miniforth-a-lean-tutorial-for-programming">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-22">Oct 22</time><button class="copy" type="button" hidden data-link="./2026-10-22/#2026-10-22-leo-de-moura-publishes-miniforth-a-lean-tutorial-for-programming" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura publishes MiniForth, a Lean tutorial for programming language semantics</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leodemoura/MiniForth" rel="noopener">MiniForth</a>'s Forth-inspired teaching language, whose programs act on a stack, has arithmetic, DUP, SWAP, DROP, calls, and conditionals. The tutorial embeds it as Lean functions (a shallow embedding) and as data (a deep embedding), proves program equivalences, and adds a second pass where <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> handles routine reasoning; the build checks the examples and proofs.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leodemoura/MiniForth" rel="noopener">leodemoura/MiniForth</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-22">Oct 22</time><button class="copy" type="button" hidden data-link="./2026-10-22/#2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">ATOMSLab's LeanSMILES formalizes molecular representations and learning algorithms in Lean</h2>
+    <p class="card-text">The repository's <a class="inl" href="https://github.com/ATOMSLab/LeanSMILES" rel="noopener">SMILES toolkit</a> parses SMILES strings into typed molecular graphs, with a canonicity proof for canonical SMILES and an order-invariance proof for RDKit-compatible Morgan fingerprints. Its LeanLearn library covers linear and logistic regression, and the machine-learning pipeline from SMILES to model runs in Lean, with results checked against scikit-learn.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/ATOMSLab/LeanSMILES" rel="noopener">ATOMSLab/LeanSMILES</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -234,26 +252,6 @@
     <h2 class="card-title">Lean 4 merges libuv buffer fix and refactor from Sofia Rodrigues</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">The fix</a>, merged October 14, makes send and recv fail with an invalid-argument error for buffers of 4 GiB or more, instead of letting the length wrap to 32 bits. <a class="inl" href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">The refactor</a>, merged October 15, adds owned_ref, a helper that owns Lean objects and helps avoid hundreds of lean_inc and lean_dec in libuv code.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">lean4#15598</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">lean4#15603</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-13">Oct 13</time><button class="copy" type="button" hidden data-link="./2026-10-21/#2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Thomas Browning and coauthors release AnnalsChallenge, 50 Annals theorems stated in Lean</h2>
-    <p class="card-text">Each statement, written by hand in Lean 4 using <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>, is the main result of an Annals of Mathematics paper published since 2020; all were manually reviewed, then audited by AI, and are released without formalized proofs. <a class="inl" href="https://arxiv.org/abs/2610.18301" rel="noopener">The authors</a> say measuring progress in AI autoformalization of mathematics requires hard, trustworthy datasets of formal statements.</p>
-    <figure class="media media-paper"><img src="./assets/img/f7fc749931414611-480.webp" srcset="./assets/img/f7fc749931414611-480.webp 480w, ./assets/img/f7fc749931414611-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.18301" rel="noopener">arXiv:2610.18301</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-10-15-google-s-gemini-4-argon-writes-a-lean-verified-quantum-arcsin-im">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-13">Oct 13</time><button class="copy" type="button" hidden data-link="./2026-10-15/#2026-10-15-google-s-gemini-4-argon-writes-a-lean-verified-quantum-arcsin-im" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Google's Gemini 4 Argon writes a Lean-verified quantum arcsin implementation</h2>
-    <p class="card-text"><a class="inl" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/" rel="noopener">Google's launch post for Gemini 4 Argon</a> (dated 2026-10-13) reports an arcsin implementation, a building block in recent quantum simulation algorithms, written by Argon and formally verified in Lean. It cuts spacetime cost by more than 100x compared to a published quantum CORDIC baseline.</p>
-    <figure class="media"><img src="./assets/img/7b4515c62b3f9476-480.webp" srcset="./assets/img/7b4515c62b3f9476-480.webp 480w, ./assets/img/7b4515c62b3f9476-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="675" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: blog.google</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/" rel="noopener">blog.google</a></p>
   </div>
 </article>
 </div>

@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 8</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-05-28-joachim-breitner-adds-an-impossible-tactic-combinator-to-lean">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-25">May 25</time><button class="copy" type="button" hidden data-link="../../2026-05-28/#2026-05-28-joachim-breitner-adds-an-impossible-tactic-combinator-to-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Joachim Breitner adds an impossible tactic combinator to Lean</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13771" rel="noopener">The merged pull request</a> adds <code>impossible by t</code>, which uses the tactic <code>t</code> to prove that the current goal is impossible, closing the original goal as if <code>sorry</code> were used. <code>try?</code> gains an <code>impossible</code> branch that runs <code>impossible by decide</code>, <code>impossible by simp</code>, and <code>impossible by grind</code> in parallel.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13771" rel="noopener">lean4#13771</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-05-28-cajal-introduces-talos-a-lean-4-framework-for-verifying-webassem">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-22">May 22</time><button class="copy" type="button" hidden data-link="../../2026-05-28/#2026-05-28-cajal-introduces-talos-a-lean-4-framework-for-verifying-webassem" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Cajal introduces Talos, a Lean 4 framework for verifying WebAssembly modules</h2>
+    <p class="card-text"><a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Talos.3A.20A.20Formal.20Verification.20Framework.20for.20WebAssembly/with/597057652" rel="noopener">Talos</a> provides a Wasm interpreter optimized for reasoning plus a WP calculus layer for proving program properties, with a proof that the num-integer crate's gcd using Stein's algorithm is correct. The early-stage project aims for full Wasm coverage by passing the official testsuite, and verification of any Rust crate that compiles to Wasm.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Talos.3A.20A.20Formal.20Verification.20Framework.20for.20WebAssembly/with/597057652" rel="noopener">leanprover.zulipchat.com</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-05-28-sebastian-ullrich-merges-cross-file-object-sharing-for-lean-modu">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -230,25 +248,6 @@
     <h2 class="card-title">Mark Ruvald Pedersen releases Clift, an AutoCorres-style C verification pipeline for Lean 4</h2>
     <p class="card-text"><a class="inl" href="https://github.com/eisbaw/Clift" rel="noopener">Clift</a> verifies C programs by lifting them into Lean 4, following the methodology pioneered by seL4's AutoCorres pipeline in Isabelle/HOL and adapting AutoCorres2's five-stage pipeline to Lean 4's type theory. <a class="inl" href="https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf" rel="noopener">The accompanying paper</a> reports that Claude Opus 4.6 generated the vast majority of the code, with 1,698 theorems and 12 remaining sorry.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf" rel="noopener">paper (pdf)</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/eisbaw/Clift" rel="noopener">eisbaw/Clift</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-04-30-joachim-breitner-s-experimental-nanobruijn-kernel-type-checks-al">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-30">Apr 30</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-joachim-breitner-s-experimental-nanobruijn-kernel-type-checks-al" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Joachim Breitner's experimental nanobruijn kernel type-checks all of Mathlib</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/nomeata/nanobruijn" rel="noopener">nanobruijn</a>, an experimental Lean 4 type checker in Rust forked from nanoda_lib, keeps expressions as pure de Bruijn indices with shift-homomorphic caching, and type-checks all of <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> (670k declarations) with 0 errors and 0 timeouts. The code changes were written by Claude (Anthropic), directed by Joachim Breitner.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/nomeata/nanobruijn" rel="noopener">nomeata/nanobruijn</a></p>
-  </div>
-</article>
-<article class="card c-papers" id="2026-04-30-stanford-hosted-the-future-of-mathematics-symposium-on-ai-and-fo">
-  <span class="avatar" aria-hidden="true">¶</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-30">Apr 30</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-stanford-hosted-the-future-of-mathematics-symposium-on-ai-and-fo" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Stanford hosted the Future of Mathematics Symposium on AI and formal methods</h2>
-    <p class="card-text"><a class="inl" href="https://events.stanford.edu/event/future-of-mathematics-symposium" rel="noopener">The symposium</a>, held May 1-2, 2026, opened with Leo de Moura of Amazon speaking on &quot;Machine-Checked Mathematics in the Age of AI.&quot; Other talks included Clark Barrett on <a class="inl" href="https://github.com/leanprover/cslib" rel="noopener">CSLib</a>, a platform for AI-assisted formal verification in Lean, Kevin Buzzard on autoformalisation, and Maryna Viazovska on formalizing the sphere packing problem.</p>
-    <figure class="media"><img src="../../assets/img/4e83afacced246f6-480.webp" srcset="../../assets/img/4e83afacced246f6-480.webp 480w, ../../assets/img/4e83afacced246f6-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="600" height="600" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: events.stanford.edu</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://events.stanford.edu/event/future-of-mathematics-symposium" rel="noopener">events.stanford.edu</a></p>
   </div>
 </article>
 </div>

@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 3</h1></header>
 <div class="stream">
+<article class="card c-verification" id="2026-09-24-velvet-2-0-released-and-ilya-sergey-publishes-vermilion-a-lean-b">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-18">Sep 18</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-velvet-2-0-released-and-ilya-sergey-publishes-vermilion-a-lean-b" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Velvet 2.0 released, and Ilya Sergey publishes Vermilion, a Lean backend for Verus</h2>
+    <p class="card-text"><a class="inl" href="https://www.linkedin.com/feed/update/urn:li:activity:7506753523372462081/" rel="noopener">Velvet 2.0</a> is now based on Lean's most recent verification machinery, is easier to set up and 10x faster, adding exception specs, ghost state and named proof goals. <a class="inl" href="https://github.com/ilyasergey/vermilion" rel="noopener">Vermilion</a>, an experimental Lean 4 backend for the Verus Rust verifier, turns each obligation into a Lean theorem checked by the Lean kernel.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/feed/update/urn:li:activity:7506753523372462081/" rel="noopener">LinkedIn post</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/ilyasergey/vermilion" rel="noopener">ilyasergey/vermilion</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-09-24-lean-merges-rewritten-verso-docstring-parser-unblocking-automati">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-18">Sep 18</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-lean-merges-rewritten-verso-docstring-parser-unblocking-automati" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean merges rewritten Verso docstring parser, unblocking automatic formatting</h2>
+    <p class="card-text">David Thrane Christiansen's <a class="inl" href="https://github.com/leanprover/lean4/pull/15064" rel="noopener">rewrite of the Verso docstring parser</a>, a breaking change that tracks all details of the concrete syntax, was merged on 2026-09-18, and <a class="inl" href="https://github.com/leanprover/verso/pull/989" rel="noopener">Verso has been adapted</a> to it. Marc Huisinga has <a class="inl" href="https://github.com/leanprover/lean4/pull/15218" rel="noopener">opened a pull request</a> adding an extensible code formatter integrated with the language server.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15064" rel="noopener">lean4#15064</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/verso/pull/989" rel="noopener">verso#989</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15218" rel="noopener">lean4#15218</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-10-15-kim-morrison-proposes-supply-chain-audits-for-mathlib-dependency">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -238,25 +256,6 @@
     <h2 class="card-title">Arthur Adjedj proposes a renovation of the Lean kernel logic</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/issues/14977" rel="noopener">A meta issue</a> by Arthur Adjedj, worked out with @nomeata, plans kernel changes that move feature selection for inductives to the elaborator and aim for a decidable, transitive definitional equality algorithm. Recursive predicates like Acc would lose large elimination, and the kernel changes would ideally ship in a single release.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/issues/14977" rel="noopener">lean4#14977</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-03-arthur-adjedj-opens-meta-issue-planning-a-renovation-of-lean-s-k">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-31">Aug 31</time><button class="copy" type="button" hidden data-link="../../2026-09-03/#2026-09-03-arthur-adjedj-opens-meta-issue-planning-a-renovation-of-lean-s-k" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Arthur Adjedj opens meta issue planning a renovation of Lean's kernel logic</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/issues/14977" rel="noopener">Arthur Adjedj's plan</a> aims for a kernel that is easier to implement bug-free and to verify, with a decidable, transitive definitional equality algorithm and inductive features declared explicitly by the elaborator. Recursive predicates like Acc would lose large elimination, and kernel changes would ship in a single release.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/issues/14977" rel="noopener">lean4#14977</a></p>
-  </div>
-</article>
-<article class="card c-papers" id="2026-09-03-four-new-arxiv-papers-settle-open-problems-with-lean-4-formaliza">
-  <span class="avatar" aria-hidden="true">¶</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-31">Aug 31</time><button class="copy" type="button" hidden data-link="../../2026-09-03/#2026-09-03-four-new-arxiv-papers-settle-open-problems-with-lean-4-formaliza" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Four new arXiv papers settle open problems with Lean 4 formalizations</h2>
-    <p class="card-text"><a class="inl" href="https://arxiv.org/abs/2608.30221" rel="noopener">Qianli Ma</a> solves Colombo's 1928 determinant problem, <a class="inl" href="https://arxiv.org/abs/2609.00101" rel="noopener">Jef Pauwels</a> proves the Pál and Vértesi conjectures on the I3322 Bell inequality, <a class="inl" href="https://arxiv.org/abs/2608.29734" rel="noopener">Zijun Gao and Weihan Zhang</a> falsify an n^(-1/4) near-optimality conjecture from a ChatGPT 5.6 Pro proof attempt, and Gregory Morse shows a multiplicative complexity of exactly nine.</p>
-    <figure class="media media-paper"><img src="../../assets/img/1cb0c9edd5e00672-480.webp" srcset="../../assets/img/1cb0c9edd5e00672-480.webp 480w, ../../assets/img/1cb0c9edd5e00672-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2608.30221" rel="noopener">arXiv:2608.30221</a><span class="dot" aria-hidden="true">·</span><a href="https://arxiv.org/abs/2609.00101" rel="noopener">arXiv:2609.00101</a><span class="dot" aria-hidden="true">·</span><a href="https://arxiv.org/abs/2608.29734" rel="noopener">arXiv:2608.29734</a><span class="dot" aria-hidden="true">·</span><a href="https://arxiv.org/abs/2608.30238" rel="noopener">arXiv:2608.30238</a></p>
   </div>
 </article>
 </div>

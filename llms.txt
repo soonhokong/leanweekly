@@ -6,6 +6,8 @@
 
 - [Tanner Duve of Logical Intelligence offers Veil an invariant-synthesis tactic](https://leanweekly.news/2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn): Verification, 2026-10-22
 - [Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports](https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up): Lean core, 2026-10-22
+- [Leo de Moura publishes MiniForth, a Lean tutorial for programming language semantics](https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-publishes-miniforth-a-lean-tutorial-for-programming): Papers and events, 2026-10-22
+- [ATOMSLab's LeanSMILES formalizes molecular representations and learning algorithms in Lean](https://leanweekly.news/2026-10-22/#2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l): Verification, 2026-10-22
 - [AI agents help researchers discover a new consensus protocol, verified in Lean](https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver): Verification, 2026-10-21
 - [Kraken Lean project proves FFmpeg's SBR decoder binary safe](https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe): Verification, 2026-10-21
 - [Leo de Moura adds three lia changes that avoid large case splits](https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits): Lean core, 2026-10-21
@@ -102,8 +104,6 @@
 - [Lake now fetches dependencies as treeless partial Git clones](https://leanweekly.news/2026-08-27/#2026-08-27-lake-now-fetches-dependencies-as-treeless-partial-git-clones): Lean core, 2026-08-17
 - [Predictable Machines builds Predictable Code on Lean 4, open-sources two libraries](https://leanweekly.news/2026-08-15/#2026-08-15-predictable-machines-builds-predictable-code-on-lean-4-open-sour): Verification, 2026-08-15
 - [Guide explains how to validate and report Lean kernel soundness bugs](https://leanweekly.news/2026-08-15/#2026-08-15-guide-explains-how-to-validate-and-report-lean-kernel-soundness): Lean core, 2026-08-15
-- [Paul Reichert fixes instance search seeing through type synonyms in Lean](https://leanweekly.news/2026-08-15/#2026-08-15-paul-reichert-fixes-instance-search-seeing-through-type-synonyms): Lean core, 2026-08-15
-- [Lean releases Nerodia, a library for writing Python modules in Lean](https://leanweekly.news/2026-08-15/#2026-08-15-lean-releases-nerodia-a-library-for-writing-python-modules-in-le): Lean core, 2026-08-15
 
 ## Weeks (Friday to Thursday)
 

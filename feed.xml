@@ -24,6 +24,22 @@
 <description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/14362" rel="noopener"&gt;open pull request&lt;/a&gt; replaces hash maps of imported constants, built eagerly at import time, with per-module prefix trees precomputed when oleans are written and merged lazily on first access. The change cuts &lt;code&gt;import Lean&lt;/code&gt; wall-clock time by 28% and &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;'s import phase by 21%, in exchange for about 6% larger standard library oleans.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/14362"&gt;lean4#14362&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>Leo de Moura publishes MiniForth, a Lean tutorial for programming language semantics</title>
+<link>https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-publishes-miniforth-a-lean-tutorial-for-programming</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-publishes-miniforth-a-lean-tutorial-for-programming</guid>
+<pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+<category>Papers and events</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/leodemoura/MiniForth" rel="noopener"&gt;MiniForth&lt;/a&gt;'s Forth-inspired teaching language, whose programs act on a stack, has arithmetic, DUP, SWAP, DROP, calls, and conditionals. The tutorial embeds it as Lean functions (a shallow embedding) and as data (a deep embedding), proves program equivalences, and adds a second pass where &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener"&gt;grind&lt;/a&gt; handles routine reasoning; the build checks the examples and proofs.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leodemoura/MiniForth"&gt;leodemoura/MiniForth&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>ATOMSLab's LeanSMILES formalizes molecular representations and learning algorithms in Lean</title>
+<link>https://leanweekly.news/2026-10-22/#2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-22/#2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l</guid>
+<pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;The repository's &lt;a class="inl" href="https://github.com/ATOMSLab/LeanSMILES" rel="noopener"&gt;SMILES toolkit&lt;/a&gt; parses SMILES strings into typed molecular graphs, with a canonicity proof for canonical SMILES and an order-invariance proof for RDKit-compatible Morgan fingerprints. Its LeanLearn library covers linear and logistic regression, and the machine-learning pipeline from SMILES to model runs in Lean, with results checked against scikit-learn.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/ATOMSLab/LeanSMILES"&gt;ATOMSLab/LeanSMILES&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>AI agents help researchers discover a new consensus protocol, verified in Lean</title>
 <link>https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver</guid>
@@ -390,22 +406,6 @@
 <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
 <category>Lean core</category>
 <description>&lt;p&gt;David Thrane Christiansen's &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15064" rel="noopener"&gt;rewrite of the Verso docstring parser&lt;/a&gt;, a breaking change that tracks all details of the concrete syntax, was merged on 2026-09-18, and &lt;a class="inl" href="https://github.com/leanprover/verso/pull/989" rel="noopener"&gt;Verso has been adapted&lt;/a&gt; to it. Marc Huisinga has &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15218" rel="noopener"&gt;opened a pull request&lt;/a&gt; adding an extensible code formatter integrated with the language server.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/15064"&gt;lean4#15064&lt;/a&gt;, &lt;a href="https://github.com/leanprover/verso/pull/989"&gt;verso#989&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15218"&gt;lean4#15218&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Kim Morrison proposes supply-chain audits for Mathlib dependency updates</title>
-<link>https://leanweekly.news/2026-10-15/#2026-10-15-kim-morrison-proposes-supply-chain-audits-for-mathlib-dependency</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-15/#2026-10-15-kim-morrison-proposes-supply-chain-audits-for-mathlib-dependency</guid>
-<pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/leanprover-community/mathlib4/pull/43911" rel="noopener"&gt;A Mathlib pull request&lt;/a&gt; by Kim Morrison adds a supply-chain audit step to the hourly update_dependencies.yml workflow, posting diffs, high-risk files touched and suspicious added lines for each changed dependency. The diffs come from paranoid-lake-update, which uses bare clones and git only, so nothing from upstream is executed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover-community/mathlib4/pull/43911"&gt;mathlib4#43911&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Trivet combines LLMs and Lean to validate LLVM compiler transformations</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-trivet-combines-llms-and-lean-to-validate-llvm-compiler-transfor</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-trivet-combines-llms-and-lean-to-validate-llvm-compiler-transfor</guid>
-<pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;Chunhao Liao, Hongxu Xu, Xintong Zhou, Yizhou Zhang and Chengnian Sun present &lt;a class="inl" href="https://arxiv.org/abs/2609.19583" rel="noopener"&gt;Trivet&lt;/a&gt;, which verifies or refutes 147 of 148 LLVM transformations, including 60 loop-free transformations with symbolic bitwidths and 27 loop-containing cases. Every successful verdict is checked by the Lean kernel.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2609.19583"&gt;arXiv:2609.19583&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
