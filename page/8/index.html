@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 8</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-06-25-lake-now-deduplicates-artifact-transfers-to-and-from-its-cache">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-15">Jun 15</time><button class="copy" type="button" hidden data-link="../../2026-06-25/#2026-06-25-lake-now-deduplicates-artifact-transfers-to-and-from-its-cache" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lake now deduplicates artifact transfers to and from its cache</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14060" rel="noopener">A pull request by Mac Malone</a>, merged into leanprover/lean4, has <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> deduplicate artifacts by their hash when uploading or downloading to the cache (for example in lake cache put or lake cache get). The change fixes possible errors when curl was asked to transfer to the same file or URL multiple times.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14060" rel="noopener">lean4#14060</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-06-18-lean-4-31-0-released-with-new-do-loops-lake-linting-mvcgen">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-13">Jun 13</time><button class="copy" type="button" hidden data-link="../../2026-06-18/#2026-06-18-lean-4-31-0-released-with-new-do-loops-lake-linting-mvcgen" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4.31.0 released with new do loops, Lake linting, mvcgen'</h2>
+    <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.31.0/" rel="noopener">Lean 4.31.0</a> lands <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.31.0" rel="noopener">305 changes</a>, including while let loops in do blocks, a built-in <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> linting framework, stricter transparency handling in definitional-equality checking, and the experimental mvcgen' tactic, which can outperform mvcgen by over 100x on some synthetic benchmarks. The bundled toolchain moves from LLVM 19 to LLVM 22.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.31.0/" rel="noopener">v4.31.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.31.0" rel="noopener">lean4 v4.31.0</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-06-18-wojciech-r-owski-adds-the-cbv-tactic-to-grind-s-interactive-sym">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -231,24 +249,6 @@
     <h2 class="card-title">Wojciech Nawrocki adds collaborative editing to Lean Workbench</h2>
     <p class="card-text">Wojciech Nawrocki merged a <a class="inl" href="https://github.com/leanprover/lean-workbench/pull/14" rel="noopener">Yjs-based collaboration server</a> that syncs changes between clients, plus <a class="inl" href="https://github.com/leanprover/lean-workbench/pull/12" rel="noopener">collaborative editing support</a> in the vscode-workbench extension. A separate change makes it impossible for <a class="inl" href="https://github.com/leanprover/lean-workbench/pull/18" rel="noopener">openvscode-server instances</a> to make requests against other instances.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench/pull/14" rel="noopener">lean-workbench#14</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean-workbench/pull/12" rel="noopener">lean-workbench#12</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean-workbench/pull/18" rel="noopener">lean-workbench#18</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean-workbench/pull/17" rel="noopener">lean-workbench#17</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-sebastian-graf-brings-sym-based-mvcgen-to-parity-with-mvcgen">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time><button class="copy" type="button" hidden data-link="../../2026-05-14/#2026-05-14-sebastian-graf-brings-sym-based-mvcgen-to-parity-with-mvcgen" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Graf brings Sym-based mvcgen' to parity with mvcgen</h2>
-    <p class="card-text">A merged Lean pull request by Sebastian Graf gives the <a class="inl" href="https://github.com/leanprover/lean4/pull/13578" rel="noopener">Sym-based mvcgen'</a> feature parity with mvcgen, except +jp (join-point handling), at a cost of about 10% vcgen slowdown for cleaner user-visible VCs. A separate change adds <a class="inl" href="https://github.com/leanprover/lean4/pull/13209" rel="noopener">whileM</a>, which makes repeat/while loops verifiable with mvcgen.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13578" rel="noopener">lean4#13578</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13209" rel="noopener">lean4#13209</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13672" rel="noopener">lean4#13672</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13582" rel="noopener">lean4#13582</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-05-07-jonathan-protzenko-uses-aeneas-to-verify-bounds-safety-in-jxl-rs">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time><button class="copy" type="button" hidden data-link="../../2026-05-07/#2026-05-07-jonathan-protzenko-uses-aeneas-to-verify-bounds-safety-in-jxl-rs" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Jonathan Protzenko uses Aeneas to verify bounds safety in jxl-rs</h2>
-    <p class="card-text"><a class="inl" href="https://jonathan.protzenko.fr/2026/05/05/jxl-rs.html" rel="noopener">Jonathan Protzenko's case study</a> uses <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a>, a toolchain for verifying Rust programs through a functional translation to Lean, on jxl-rs, a Rust rewrite of the jpeg-xl codec. The proof shows an unchecked array access always stays within bounds and showcases recent Aeneas features, including official <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> support and loop combinators.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://jonathan.protzenko.fr/2026/05/05/jxl-rs.html" rel="noopener">jonathan.protzenko.fr</a></p>
   </div>
 </article>
 </div>

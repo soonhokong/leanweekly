@@ -4,6 +4,8 @@
 
 ## Latest items
 
+- [Wolfram Institute publishes reference Lean environment for Rule 30 Prize submissions](https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule): AI and formalization, 2026-10-24
+- [Anand Kumar Keshavan announces lean-qverify for verifying quantum circuits in Lean 4](https://leanweekly.news/2026-10-24/#2026-10-24-anand-kumar-keshavan-announces-lean-qverify-for-verifying-quantu): Verification, 2026-10-24
 - [Pranava Kumar registers a Lean proof of Nivat's conjecture with Palomar](https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with): AI and formalization, 2026-10-23
 - [Ziqing Xiang formalizes Haemers' conjecture for the generalized spectrum in Lean](https://leanweekly.news/2026-10-23/#2026-10-23-ziqing-xiang-formalizes-haemers-conjecture-for-the-generalized-s): AI and formalization, 2026-10-23
 - [Haruhisa Enomoto formalizes two classical theorems of Bautista, Gabriel, Roiter and Salmerón](https://leanweekly.news/2026-10-23/#2026-10-23-haruhisa-enomoto-formalizes-two-classical-theorems-of-bautista-g): AI and formalization, 2026-10-23
@@ -102,8 +104,6 @@
 - [SAIR Foundation and Lean FRO announce the Lean Kernel Challenge competition](https://leanweekly.news/2026-08-27/#2026-08-27-sair-foundation-and-lean-fro-announce-the-lean-kernel-challenge): Lean core, 2026-08-25
 - [Lean adds strong coinduction principles and a monotonicity_by clause for predicates](https://leanweekly.news/2026-08-27/#2026-08-27-lean-adds-strong-coinduction-principles-and-a-monotonicity-by-cl): Lean core, 2026-08-25
 - [Lean FRO publishes postmortem of kernel soundness bug hunt with OpenAI models](https://leanweekly.news/2026-08-27/#2026-08-27-lean-fro-publishes-postmortem-of-kernel-soundness-bug-hunt-with): Lean core, 2026-08-24
-- [FU Berlin hosts two-week workshop formalizing polyhedra theory in Lean](https://leanweekly.news/2026-09-03/#2026-09-03-fu-berlin-hosts-two-week-workshop-formalizing-polyhedra-theory-i): Papers and events, 2026-08-24
-- [Scott Armstrong says Lean formalization became essential to his research in 2026](https://leanweekly.news/2026-08-27/#2026-08-27-scott-armstrong-says-lean-formalization-became-essential-to-his): AI and formalization, 2026-08-22
 
 ## Weeks (Friday to Thursday)
 
@@ -142,6 +142,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Oct 24, 2026](https://leanweekly.news/2026-10-24/items.md)
 - [Published Oct 23, 2026](https://leanweekly.news/2026-10-23/items.md)
 - [Published Oct 22, 2026](https://leanweekly.news/2026-10-22/items.md)
 - [Published Oct 21, 2026](https://leanweekly.news/2026-10-21/items.md)

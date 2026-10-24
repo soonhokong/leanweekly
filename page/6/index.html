@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 6</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-08-15-mac-malone-merges-lake-remote-cache-fixes-tests-and-a-package-op">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-09">Aug 9</time><button class="copy" type="button" hidden data-link="../../2026-08-15/#2026-08-15-mac-malone-merges-lake-remote-cache-fixes-tests-and-a-package-op" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Mac Malone merges Lake remote cache fixes, tests, and a --package option</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14720" rel="noopener">Lake now demotes cache failures</a> during a build to trace-level messages, so builds run with --wfail or --iofail do not fail solely due to the cache, and <a class="inl" href="https://github.com/leanprover/lean4/pull/14724" rel="noopener">lake cache get</a> gains --package to fetch outputs for a specific workspace package. <a class="inl" href="https://github.com/leanprover/lean4/pull/14700" rel="noopener">A new test</a> mocks remote cache transfers with a mock Python HTTP server.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14720" rel="noopener">lean4#14720</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14724" rel="noopener">lean4#14724</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14700" rel="noopener">lean4#14700</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-08-06-lean-speed-site-charts-mathlib-build-instructions-across-25-000">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-06">Aug 6</time><button class="copy" type="button" hidden data-link="../../2026-08-06/#2026-08-06-lean-speed-site-charts-mathlib-build-instructions-across-25-000" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean speed site charts Mathlib build instructions across 25,000 commits</h2>
+    <p class="card-text"><a class="inl" href="https://speed.lean-lang.org/graphs/mathlib-instructions.html" rel="noopener">A graph on speed.lean-lang.org</a> tracks mathlib4 build instructions over 25,000 commits, scaling older values to line up with newer ones across the move from the old speedcenter to radar and the switch to measuring only userspace instructions. Dashed lines mark the 90 toolchain bumps.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://speed.lean-lang.org/graphs/mathlib-instructions.html" rel="noopener">speed.lean-lang.org</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-08-06-pramaana-labs-reports-solving-all-6-imo-2026-problems-in-lean">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -234,24 +252,6 @@
     <h2 class="card-title">Lean v4.32.0 makes the new do elaborator the default</h2>
     <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.32.0/" rel="noopener">Lean v4.32.0</a> adds the do← marker for effect forwarding and cuts import <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> time by about 10% through a DiscrTree insertion fix. <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a>'s linting framework gains option-based control and module linters, and an experimental incremental-compilation mode lands behind CLI flags.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.32.0/" rel="noopener">v4.32.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.32.0" rel="noopener">lean4 v4.32.0</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-07-23-sebastian-ullrich-proposes-prefix-trees-in-oleans-to-speed-up-le">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-11">Jul 11</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-sebastian-ullrich-proposes-prefix-trees-in-oleans-to-speed-up-le" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Ullrich proposes prefix trees in oleans to speed up Lean imports</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">An open pull request</a> by Sebastian Ullrich replaces hash maps built at import time with per-module prefix trees precomputed when oleans are written, cutting <code>import Lean</code> wall clock by 28% and mathlib's import phase by 21%, for about 6% larger stdlib oleans. A separate pull request by Sebastian Ullrich <a class="inl" href="https://github.com/leanprover/lean4/pull/7786" rel="noopener">upgrading Lean to mimalloc 3</a> was merged.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">lean4#14362</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/7786" rel="noopener">lean4#7786</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-07-16-wojciech-r-owski-adds-two-phase-stateful-linters-to-lean">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-08">Jul 8</time><button class="copy" type="button" hidden data-link="../../2026-07-16/#2026-07-16-wojciech-r-owski-adds-two-phase-stateful-linters-to-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Wojciech Różowski adds two-phase stateful linters to Lean</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14357" rel="noopener">A merged pull request</a> lets linters persist and share state across command elaboration, with each stateful linter running an early phase and a late phase. Wojciech Różowski also changed the <a class="inl" href="https://github.com/leanprover/lean4/pull/14344" rel="noopener">UnusedSimpArgs linter hint</a> and <a class="inl" href="https://github.com/leanprover/lean4/pull/14313" rel="noopener">split registerParametricAttribute</a> as preparatory work for warning when @[deprecated] points at an already-deprecated declaration.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14357" rel="noopener">lean4#14357</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14344" rel="noopener">lean4#14344</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14313" rel="noopener">lean4#14313</a></p>
   </div>
 </article>
 </div>

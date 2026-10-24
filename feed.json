@@ -6,6 +6,32 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule",
+   "url": "https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule",
+   "title": "Wolfram Institute publishes reference Lean environment for Rule 30 Prize submissions",
+   "content_html": "<p>The verifier checks every submission against exactly <a class=\"inl\" href=\"https://github.com/WolframInstitute/Rule30PrizeKit\" rel=\"noopener\">this Lake project</a> (Lean 4.35.0, <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>'s v4.35.0 tag), and the submissions site has instructions for AI agents. The kit contains the official statements of Problems 1 and 2, proved partial results, 163 equivalences and 49 sufficient conditions for Problem 1, and 14 equivalent forms of Problem 2.</p><p>Sources: <a href=\"https://github.com/WolframInstitute/Rule30PrizeKit\">WolframInstitute/Rule30PrizeKit</a></p>",
+   "date_published": "2026-10-24T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "rule 30",
+    "prizes",
+    "ai agents"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-24/#2026-10-24-anand-kumar-keshavan-announces-lean-qverify-for-verifying-quantu",
+   "url": "https://leanweekly.news/2026-10-24/#2026-10-24-anand-kumar-keshavan-announces-lean-qverify-for-verifying-quantu",
+   "title": "Anand Kumar Keshavan announces lean-qverify for verifying quantum circuits in Lean 4",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/akkeshavan/lean-qverify\" rel=\"noopener\">The open-source project</a> includes a Lean library, a Qiskit integration, and <a class=\"inl\" href=\"https://akkeshavan.github.io/lean-qverify/\" rel=\"noopener\">a free workbook</a> with executable examples covering circuit specifications, semantic proofs, Quantum Hoare Logic and ZX-calculus. Anand Kumar Keshavan calls the current implementation an initial research and educational framework, welcomes independent technical reviews, and is interested in collaborating on compositional proof techniques.</p><p>Sources: <a href=\"https://github.com/akkeshavan/lean-qverify\">akkeshavan/lean-qverify</a>, <a href=\"https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/lean-qverify.20.E2.80.94.20open-source.20formal.20verification.20for.20quantum.20c/with/634576355\">leanprover.zulipchat.com</a>, <a href=\"https://akkeshavan.github.io/lean-qverify/\">akkeshavan.github.io</a></p>",
+   "date_published": "2026-10-24T12:00:00Z",
+   "tags": [
+    "Verification",
+    "quantum",
+    "qiskit",
+    "verification"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with",
    "url": "https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with",
    "title": "Pranava Kumar registers a Lean proof of Nivat's conjecture with Palomar",
@@ -627,32 +653,6 @@
     "kernel",
     "checkers",
     "lazylean"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-24/#2026-09-24-keith-adler-releases-lean-studio-a-native-desktop-ide-for-lean-4",
-   "url": "https://leanweekly.news/2026-09-24/#2026-09-24-keith-adler-releases-lean-studio-a-native-desktop-ide-for-lean-4",
-   "title": "Keith Adler releases Lean Studio, a native desktop IDE for Lean 4",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/keithadler/leanstudio\" rel=\"noopener\">Lean Studio</a> runs on macOS, Windows and Linux and re-checks every declaration from the compiled .olean files with Tenet, a separate implementation of Lean's type checker. Keith Adler's IDE also includes Prove It, which tries 17 tactics on any sorry at once, and an MCP server for AI assistants.</p><p>Sources: <a href=\"https://github.com/keithadler/leanstudio\">keithadler/leanstudio</a></p>",
-   "date_published": "2026-09-24T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "ide",
-    "kernel",
-    "tools"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-adds-a-polynomial-arithmetic-normalizer-to-lean-s-s",
-   "url": "https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-adds-a-polynomial-arithmetic-normalizer-to-lean-s-s",
-   "title": "Leo de Moura adds a polynomial arithmetic normalizer to Lean's Sym.simp",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15292\" rel=\"noopener\">A series of merged Lean pull requests</a> adds Sym.Arith.normalize?, which rewrites ring and semiring terms into polynomial normal form with a proof by reflection, and an <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15279\" rel=\"noopener\">arith simproc</a> for Sym.simp that uses it. Later changes extend it to relations, ring characteristic, non-commutative rings, and some field rewrites, and <a class=\"inl\" href=\"https://lean-lang.org/doc/reference/latest/The--grind--tactic/\" rel=\"noopener\">grind</a>'s ring solver now shares Sym.Arith code.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/15292\">lean4#15292</a>, <a href=\"https://github.com/leanprover/lean4/pull/15279\">lean4#15279</a>, <a href=\"https://github.com/leanprover/lean4/pull/15293\">lean4#15293</a>, <a href=\"https://github.com/leanprover/lean4/pull/15295\">lean4#15295</a>, <a href=\"https://github.com/leanprover/lean4/pull/15297\">lean4#15297</a>, <a href=\"https://github.com/leanprover/lean4/pull/15298\">lean4#15298</a>, <a href=\"https://github.com/leanprover/lean4/pull/15190\">lean4#15190</a></p>",
-   "date_published": "2026-09-23T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "simp",
-    "grind",
-    "lean4"
    ]
   }
  ]
