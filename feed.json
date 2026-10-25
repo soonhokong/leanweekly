@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-25/#2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified",
+   "url": "https://leanweekly.news/2026-10-25/#2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified",
+   "title": "Joachim Breitner releases con-agua, a Lean checker with verified x86 assembly",
+   "content_html": "<p>Written by AI under Joachim Breitner's supervision, <a class=\"inl\" href=\"https://github.com/leanprover/con-agua/\" rel=\"noopener\">con-agua</a> is an <a class=\"inl\" href=\"https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-agua.2C.20an.20x86.20assembly.20port.20of.20con-leche/with/634779855\" rel=\"noopener\">x86 assembly port</a> of the external Lean checker <a class=\"inl\" href=\"https://github.com/leanprover/con-leche\" rel=\"noopener\">con-leche</a> and requires the Kraken x86 semantics to be correct in place of the Lean compiler and runtime. A 5MB assembly file and a 200-line main.c, plus one data file, are all it needs.</p><p>Sources: <a href=\"https://github.com/leanprover/con-agua/\">leanprover/con-agua</a>, <a href=\"https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-agua.2C.20an.20x86.20assembly.20port.20of.20con-leche/with/634779855\">leanprover.zulipchat.com</a></p>",
+   "date_published": "2026-10-25T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "checker",
+    "x86 assembly",
+    "ai-written"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule",
    "url": "https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule",
    "title": "Wolfram Institute publishes reference Lean environment for Rule 30 Prize submissions",
@@ -640,19 +653,6 @@
     "formalization",
     "topology",
     "ricci flow"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-24/#2026-09-24-nasa-jet-propulsion-laboratory-formalizes-a-metrology-quantity-c",
-   "url": "https://leanweekly.news/2026-09-24/#2026-09-24-nasa-jet-propulsion-laboratory-formalizes-a-metrology-quantity-c",
-   "title": "NASA Jet Propulsion Laboratory formalizes a metrology quantity calculus in Lean 4",
-   "content_html": "<p>NASA Jet Propulsion Laboratory's <a class=\"inl\" href=\"https://github.com/nasa-jpl/PropertyKindCalculus\" rel=\"noopener\">PropertyKindCalculus</a> formalizes René Dybkær's ontology on property, extended with Flater's tracking of kinds of quantities, and is described as the first in which the quantity calculus itself, beyond the taxonomy around it, is a checked artifact. It includes catalogues for eleven of the thirteen ISO/IEC 80000 parts.</p><p>Sources: <a href=\"https://github.com/nasa-jpl/PropertyKindCalculus\">nasa-jpl/PropertyKindCalculus</a></p>",
-   "date_published": "2026-09-24T12:00:00Z",
-   "tags": [
-    "Verification",
-    "metrology",
-    "physlib",
-    "nasa"
    ]
   }
  ]

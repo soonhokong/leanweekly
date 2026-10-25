@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 8</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-06-25-henrik-b-ving-makes-lean-s-get-task-state-core-thread-safe">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-18">Jun 18</time><button class="copy" type="button" hidden data-link="../../2026-06-25/#2026-06-25-henrik-b-ving-makes-lean-s-get-task-state-core-thread-safe" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Henrik Böving makes Lean's get_task_state_core thread safe</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14108" rel="noopener">A merged pull request</a> by Henrik Böving changes the m_imp field of lean_task to an atomic. get_task_state_core read m_imp to check whether a task had finished before taking the mutex, so that memory access was undefined behavior (UB).</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14108" rel="noopener">lean4#14108</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-06-18-benjamin-pierce-seeks-contributors-to-translate-software-foundat">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -240,15 +249,6 @@
     <h2 class="card-title">Mac Malone merges three Lake fixes, including workspace-level compiled configurations</h2>
     <p class="card-text">Compiled <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> configurations such as <a class="inl" href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lakefile.olean</a> now live in the workspace's .lake/config, removing a source of contention between workspaces sharing a dependency. Lake also now includes <a class="inl" href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">IR for a meta import's transitive imports</a>, fixing &quot;missing data file&quot; errors with the artifact cache, and <a class="inl" href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">all Lake tests are re-enabled</a> by default.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lean4#13683</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">lean4#13600</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">lean4#13692</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-07-sebastian-graf-merges-experimental-mvcgen-tactic-into-the-lean-t">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-07">May 7</time><button class="copy" type="button" hidden data-link="../../2026-05-07/#2026-05-07-sebastian-graf-merges-experimental-mvcgen-tactic-into-the-lean-t" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Graf merges experimental mvcgen' tactic into the Lean toolchain</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13644" rel="noopener">The pull request</a> adds mvcgen', reimplemented from the ground up on the new SymM-based framework for efficient symbolic evaluation. It will soon replace mvcgen and can outperform it by a factor of more than 100 on some synthetic benchmarks. Join point sharing and introduction of local specs are not yet supported.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13644" rel="noopener">lean4#13644</a></p>
   </div>
 </article>
 </div>

@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 6</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-08-15-lean-4-33-0-released-with-editor-tactic-float-and-kernel-changes">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-10">Aug 10</time><button class="copy" type="button" hidden data-link="../../2026-08-15/#2026-08-15-lean-4-33-0-released-with-editor-tactic-float-and-kernel-changes" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4.33.0 released with editor, tactic, Float, and kernel changes</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.33.0" rel="noopener">Lean 4.33.0</a>, published 2026-08-10, makes the editor more responsive, lets try? propose proofs on its own, improves the lia and <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> tactics, and stops Float from being an opaque type. It also fixes <a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.33.0/" rel="noopener">kernel soundness bugs</a> and enables backward.isDefEq.respectTransparency.types by default, the change most likely to need attention when porting.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.33.0/" rel="noopener">v4.33.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.33.0" rel="noopener">lean4 v4.33.0</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-08-15-ryan-peterman-interviews-leo-de-moura-creator-of-lean-and-z3">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -244,15 +253,6 @@
     <h2 class="card-title">Sebastian Graf adds frame inference and contract syntax to Lean's vcgen</h2>
     <p class="card-text">Merged pull requests extend vcgen, described as a verification condition generator over the Std.Internal.Do metatheory, with <a class="inl" href="https://github.com/leanprover/lean4/pull/14389" rel="noopener">automatic frame inference</a> and with <a class="inl" href="https://github.com/leanprover/lean4/pull/14195" rel="noopener">loop invariants</a> and def contracts (require and ensures clauses) that vcgen discharges automatically. A <a class="inl" href="https://github.com/sgraf812/vcgen-showcase" rel="noopener">showcase repository</a> collects imperative Lean programs verified with one 'vcgen ... with finish'.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14389" rel="noopener">lean4#14389</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14195" rel="noopener">lean4#14195</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/sgraf812/vcgen-showcase" rel="noopener">sgraf812/vcgen-showcase</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/blob/master/tests/elab/vcgenSepLogic.lean" rel="noopener">leanprover/lean4</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-07-16-leo-de-moura-adds-liasteps-option-and-bitvec-literal-propagators">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-14">Jul 14</time><button class="copy" type="button" hidden data-link="../../2026-07-16/#2026-07-16-leo-de-moura-adds-liasteps-option-and-bitvec-literal-propagators" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura adds liaSteps option and BitVec literal propagators to grind</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14392" rel="noopener">A merged Lean pull request</a> adds a <code>liaSteps</code> configuration option to <code>grind</code>, meant to quickly interrupt the search for hard linear integer arithmetic problems. <a class="inl" href="https://github.com/leanprover/lean4/pull/14393" rel="noopener">A second merged pull request</a> implements <code>grind</code> propagators that evaluate <code>BitVec</code> operations on literals.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14392" rel="noopener">lean4#14392</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14393" rel="noopener">lean4#14393</a></p>
   </div>
 </article>
 </div>

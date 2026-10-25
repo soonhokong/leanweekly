@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 3</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-15-lean-core-gains-an-html-type-renderer-and-html-like-syntax">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-01">Oct 1</time><button class="copy" type="button" hidden data-link="../../2026-10-15/#2026-10-15-lean-core-gains-an-html-type-renderer-and-html-like-syntax" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean core gains an HTML type, renderer, and HTML-like syntax</h2>
+    <p class="card-text">Wojciech Nawrocki merged pull requests adding <a class="inl" href="https://github.com/leanprover/lean4/pull/14935" rel="noopener">Lean.Data.Html</a>, a type of HTML forests aimed at authoring HTML, with a renderer to String, plus <a class="inl" href="https://github.com/leanprover/lean4/pull/15002" rel="noopener">HTML-like syntax and an elaborator</a> into that type. Separately, Emilio Jesús Gallego Arias added optional VIR support and a small Lean-to-JavaScript client example on Lean 4.35 to <a class="inl" href="https://github.com/leanprover/verso-blueprint/pull/491" rel="noopener">Verso Blueprint</a>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14935" rel="noopener">lean4#14935</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15002" rel="noopener">lean4#15002</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/verso-blueprint/pull/491" rel="noopener">verso-blueprint#491</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-10-15-four-authors-formalize-the-hamilton-perelman-proof-of-the-poinca">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -246,16 +255,6 @@
     <h2 class="card-title">Lean 4.34.0 fixes three kernel soundness issues found with AI testing</h2>
     <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener">Lean 4.34.0</a>, released 2026-09-14, fixes three soundness issues found with AI adversarial testing and adds defensive kernel checks. bv_decide gets integrated with sym and <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> interactive modes and is up to six times faster, linters can carry state across commands, and lake lint gains a --code-quality mode emitting machine-readable JSON.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener">v4.34.0 release notes</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-14">Sep 14</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Son Ho and colleagues verify Rust code in Microsoft's SymCrypt with Lean</h2>
-    <p class="card-text">Using <a class="inl" href="https://arxiv.org/abs/2609.15648" rel="noopener">Aeneas</a>, which extracts a pure model of Rust code in Lean, a 237 KLOC Lean development establishes safety, panic-freedom, and functional correctness of 16.7 KLOC of Rust, including SHA-3 and ML-KEM ported from C. AI agents autonomously write proofs, which the Lean kernel independently verifies.</p>
-    <figure class="media media-paper"><img src="../../assets/img/7fcff038fb927884-480.webp" srcset="../../assets/img/7fcff038fb927884-480.webp 480w, ../../assets/img/7fcff038fb927884-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2609.15648" rel="noopener">arXiv:2609.15648</a></p>
   </div>
 </article>
 </div>

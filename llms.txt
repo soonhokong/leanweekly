@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Joachim Breitner releases con-agua, a Lean checker with verified x86 assembly](https://leanweekly.news/2026-10-25/#2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified): Lean core, 2026-10-25
 - [Wolfram Institute publishes reference Lean environment for Rule 30 Prize submissions](https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule): AI and formalization, 2026-10-24
 - [Anand Kumar Keshavan announces lean-qverify for verifying quantum circuits in Lean 4](https://leanweekly.news/2026-10-24/#2026-10-24-anand-kumar-keshavan-announces-lean-qverify-for-verifying-quantu): Verification, 2026-10-24
 - [Pranava Kumar registers a Lean proof of Nivat's conjecture with Palomar](https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with): AI and formalization, 2026-10-23
@@ -103,7 +104,6 @@
 - [Leo de Moura teaches Lean 4 program verification at Marktoberdorf](https://leanweekly.news/2026-08-27/#2026-08-27-leo-de-moura-teaches-lean-4-program-verification-at-marktoberdor): Papers and events, 2026-08-27
 - [MathAdv benchmark and ProofEvolve prover target Lean 4 theorem proving](https://leanweekly.news/2026-09-03/#2026-09-03-mathadv-benchmark-and-proofevolve-prover-target-lean-4-theorem-p): AI and formalization, 2026-08-26
 - [SAIR Foundation and Lean FRO announce the Lean Kernel Challenge competition](https://leanweekly.news/2026-08-27/#2026-08-27-sair-foundation-and-lean-fro-announce-the-lean-kernel-challenge): Lean core, 2026-08-25
-- [Lean adds strong coinduction principles and a monotonicity_by clause for predicates](https://leanweekly.news/2026-08-27/#2026-08-27-lean-adds-strong-coinduction-principles-and-a-monotonicity-by-cl): Lean core, 2026-08-25
 
 ## Weeks (Friday to Thursday)
 

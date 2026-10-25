@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <h1 class="sr-only">Lean Weekly: the latest news</h1>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-25">Oct 25</time><button class="copy" type="button" hidden data-link="./2026-10-25/#2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Joachim Breitner releases con-agua, a Lean checker with verified x86 assembly</h2>
+    <p class="card-text">Written by AI under Joachim Breitner's supervision, <a class="inl" href="https://github.com/leanprover/con-agua/" rel="noopener">con-agua</a> is an <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-agua.2C.20an.20x86.20assembly.20port.20of.20con-leche/with/634779855" rel="noopener">x86 assembly port</a> of the external Lean checker <a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener">con-leche</a> and requires the Kraken x86 semantics to be correct in place of the Lean compiler and runtime. A 5MB assembly file and a 200-line main.c, plus one data file, are all it needs.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/con-agua/" rel="noopener">leanprover/con-agua</a><span class="dot" aria-hidden="true">·</span><a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-agua.2C.20an.20x86.20assembly.20port.20of.20con-leche/with/634779855" rel="noopener">leanprover.zulipchat.com</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -244,16 +253,6 @@
     <h2 class="card-title">Jeremy Avigad and coauthors back formalizing all of mathematics, if done well</h2>
     <p class="card-text">The <a class="inl" href="https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/" rel="noopener">Xena guest post</a>, co-written by Kevin Buzzard, Johan Commelin, Rémy Degenne, Kim Morrison, Oliver Nash and Adam Topaz, follows a big OpenAI release and warns against building formal libraries nobody uses. It highlights <a class="inl" href="https://taucetiproject.github.io/TauCeti/" rel="noopener">Tau Ceti</a>, an AI-written library slightly larger than <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>, and says most of mathematics can be formalized within three years.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/" rel="noopener">xenaproject.wordpress.com</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-10-18-shanghai-ai-lab-s-shusheng-s2-helps-prove-3d-ghys-conjecture-ver">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-16">Oct 16</time><button class="copy" type="button" hidden data-link="./2026-10-18/#2026-10-18-shanghai-ai-lab-s-shusheng-s2-helps-prove-3d-ghys-conjecture-ver" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Shanghai AI Lab's Shusheng-S2 helps prove 3D Ghys conjecture, verified in Lean</h2>
-    <p class="card-text"><a class="inl" href="https://www.techtimes.com/articles/329134/20261016/chinese-ai-model-helps-prove-31-year-old-math-conjecture-machine-verified-lean-proof.htm" rel="noopener">Tech Times</a> calls <a class="inl" href="https://pandaily.com/shanghai-ai-lab-intern-s2-ghys-conjecture-proof-human-ai-collaboration-lean-sheaf" rel="noopener">Shusheng-S2</a> the first Chinese AI model to help resolve a world-class open conjecture in pure mathematics: the three-dimensional Ghys conjecture, unresolved for 31 years. A Peking University team, using up to 100 AI agents, independently verified every logical step of Jiesong Zhang's proof, producing more than 550,000 lines of Lean code.</p>
-    <figure class="media"><img src="./assets/img/93e085e5b6d26e2f-480.webp" srcset="./assets/img/93e085e5b6d26e2f-480.webp 480w, ./assets/img/93e085e5b6d26e2f-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="675" alt="AI" loading="lazy" decoding="async"><figcaption class="credit">Image: techtimes.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.techtimes.com/articles/329134/20261016/chinese-ai-model-helps-prove-31-year-old-math-conjecture-machine-verified-lean-proof.htm" rel="noopener">techtimes.com</a><span class="dot" aria-hidden="true">·</span><a href="https://pandaily.com/shanghai-ai-lab-intern-s2-ghys-conjecture-proof-human-ai-collaboration-lean-sheaf" rel="noopener">pandaily.com</a></p>
   </div>
 </article>
 </div>

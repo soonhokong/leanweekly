@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 3</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 147 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 3</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 148 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-08-15-lean-releases-nerodia-a-library-for-writing-python-modules-in-le">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-15">Aug 15</time><button class="copy" type="button" hidden data-link="../../../../2026-08-15/#2026-08-15-lean-releases-nerodia-a-library-for-writing-python-modules-in-le" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean releases Nerodia, a library for writing Python modules in Lean</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/nerodia" rel="noopener">Nerodia</a>, a Lean/Python FFI library inspired by PyO3, uses <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a>, Lean's build system, to build native Python modules in pure Lean and generates type stubs automatically. It is a work-in-progress with a very limited API, released primarily as a proof-of-concept and to obtain feedback on its design and build process.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/nerodia" rel="noopener">leanprover/nerodia</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-08-27-sebastian-graf-moves-verina-contracts-onto-programs-and-names-ve">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -238,15 +247,6 @@
     <h2 class="card-title">Sebastian Ullrich merges editor whitespace fix and deterministic kernel recursion limit</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13956" rel="noopener">Lean now reuses tactic results</a> when only whitespace after a tactic changes, so progress is kept when preparing to type the next tactic. The <a class="inl" href="https://github.com/leanprover/lean4/pull/11958" rel="noopener">kernel's deep recursion error</a> is now bounded by the maxRecDepth option instead of the physical stack size, which is a breaking change that may require explicit maxRecDepth bumps.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13956" rel="noopener">lean4#13956</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/11958" rel="noopener">lean4#11958</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-07-09-leo-de-moura-adds-rw-and-case-tactics-to-lean-s-sym-mode">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-06">Jul 6</time><button class="copy" type="button" hidden data-link="../../../../2026-07-09/#2026-07-09-leo-de-moura-adds-rw-and-case-tactics-to-lean-s-sym-mode" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura adds rw and case tactics to Lean's sym mode</h2>
-    <p class="card-text">Merged pull requests by Leo de Moura implement the <a class="inl" href="https://github.com/leanprover/lean4/pull/14287" rel="noopener">rw tactic</a> and the <a class="inl" href="https://github.com/leanprover/lean4/pull/14278" rel="noopener">case tactic</a> (relevant for vcgen) in sym =&gt; mode, fix universe constraints and unresolved-instance reporting in SymM, add a <a class="inl" href="https://github.com/leanprover/lean4/pull/14279" rel="noopener">hygienic parameter</a> to intro-like functions, and speed up instance assignment when the goal type is ground.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14287" rel="noopener">lean4#14287</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14278" rel="noopener">lean4#14278</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14277" rel="noopener">lean4#14277</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14280" rel="noopener">lean4#14280</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14279" rel="noopener">lean4#14279</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14330" rel="noopener">lean4#14330</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14314" rel="noopener">lean4#14314</a></p>
   </div>
 </article>
 </div>

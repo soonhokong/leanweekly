@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 24 Oct 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 25 Oct 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Joachim Breitner releases con-agua, a Lean checker with verified x86 assembly</title>
+<link>https://leanweekly.news/2026-10-25/#2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-25/#2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified</guid>
+<pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
+<category>Lean core</category>
+<description>&lt;p&gt;Written by AI under Joachim Breitner's supervision, &lt;a class="inl" href="https://github.com/leanprover/con-agua/" rel="noopener"&gt;con-agua&lt;/a&gt; is an &lt;a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-agua.2C.20an.20x86.20assembly.20port.20of.20con-leche/with/634779855" rel="noopener"&gt;x86 assembly port&lt;/a&gt; of the external Lean checker &lt;a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener"&gt;con-leche&lt;/a&gt; and requires the Kraken x86 semantics to be correct in place of the Lean compiler and runtime. A 5MB assembly file and a 200-line main.c, plus one data file, are all it needs.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/con-agua/"&gt;leanprover/con-agua&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-agua.2C.20an.20x86.20assembly.20port.20of.20con-leche/with/634779855"&gt;leanprover.zulipchat.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Wolfram Institute publishes reference Lean environment for Rule 30 Prize submissions</title>
 <link>https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule</link>
@@ -398,14 +406,6 @@
 <pubDate>Sun, 27 Sep 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;Ziyang Qin, Yuan Liao, Ayush Khaitan, and Bennett Chow &lt;a class="inl" href="https://arxiv.org/abs/2609.33842" rel="noopener"&gt;formalize the smooth three-dimensional Poincaré conjecture&lt;/a&gt; via Ricci flow with surgery and finite-time extinction. Together with the Moise smoothing theorem, the result yields the topological three-dimensional Poincaré conjecture.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2609.33842"&gt;arXiv:2609.33842&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>NASA Jet Propulsion Laboratory formalizes a metrology quantity calculus in Lean 4</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-nasa-jet-propulsion-laboratory-formalizes-a-metrology-quantity-c</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-nasa-jet-propulsion-laboratory-formalizes-a-metrology-quantity-c</guid>
-<pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;NASA Jet Propulsion Laboratory's &lt;a class="inl" href="https://github.com/nasa-jpl/PropertyKindCalculus" rel="noopener"&gt;PropertyKindCalculus&lt;/a&gt; formalizes René Dybkær's ontology on property, extended with Flater's tracking of kinds of quantities, and is described as the first in which the quantity calculus itself, beyond the taxonomy around it, is a checked artifact. It includes catalogues for eleven of the thirteen ISO/IEC 80000 parts.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/nasa-jpl/PropertyKindCalculus"&gt;nasa-jpl/PropertyKindCalculus&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

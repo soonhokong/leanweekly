@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 6</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 147 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 6</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 148 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-04-09-leo-de-moura-proposes-stricter-transparency-default-for-lean-s-d">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-05">Apr 5</time><button class="copy" type="button" hidden data-link="../../../../2026-04-09/#2026-04-09-leo-de-moura-proposes-stricter-transparency-default-for-lean-s-d" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura proposes stricter transparency default for Lean's definitional equality checker</h2>
+    <p class="card-text">Leo de Moura <a class="inl" href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">opened a pull request</a> enabling the backward.isDefEq.respectTransparency.types option by default, so the definitional equality checker respects the current transparency setting when matching metavariable types. The change prevents unintended unfolding of definitions and requires adding @[implicit_reducible] and @[expose] attributes to many library definitions.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">lean4#13283</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-04-02-leanprover-community-releases-a-tool-for-offline-lean-4-teaching">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -238,15 +247,6 @@
     <h2 class="card-title">Lean repository adds SymM symbolic simulation benchmark from Lean@Google Hackathon</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/blob/ef1e080386afea1599ffe8891433a440875d18e6/tests/bench/sym/add_sub_cancel.lean" rel="noopener">A new benchmark in the lean4 test suite</a>, described as a synthetic benchmark from the Lean@Google Hackathon, compares a MetaM tactic solution with SymM solutions, including a &quot;SymM Solution + reusing simplifier cache&quot; variant, on generated command sequences of up to 700 iterations, also timing kernel checking.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/blob/ef1e080386afea1599ffe8891433a440875d18e6/tests/bench/sym/add_sub_cancel.lean" rel="noopener">leanprover/lean4</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-01-22-leo-de-moura-adds-ground-evaluation-and-conditional-rewriting-to">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-17">Jan 17</time><button class="copy" type="button" hidden data-link="../../../../2026-01-22/#2026-01-22-leo-de-moura-adds-ground-evaluation-and-conditional-rewriting-to" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura adds ground evaluation and conditional rewriting to Sym.simp</h2>
-    <p class="card-text">Three merged Lean 4 pull requests by Leo de Moura extend Sym.simp: a <a class="inl" href="https://github.com/leanprover/lean4/pull/12031" rel="noopener">simplification procedure evaluating ground terms</a> of builtin numeric types such as Nat, Int and BitVec n, <a class="inl" href="https://github.com/leanprover/lean4/pull/12033" rel="noopener">support for conditional rewriting rules</a>, and <a class="inl" href="https://github.com/leanprover/lean4/pull/12053" rel="noopener">offset terms</a>, essential for equational theorems of functions that pattern match on natural numbers.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12031" rel="noopener">lean4#12031</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12033" rel="noopener">lean4#12033</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12053" rel="noopener">lean4#12053</a></p>
   </div>
 </article>
 </div>

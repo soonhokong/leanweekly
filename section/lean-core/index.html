@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 147 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 148 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-25">Oct 25</time><button class="copy" type="button" hidden data-link="../../2026-10-25/#2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Joachim Breitner releases con-agua, a Lean checker with verified x86 assembly</h2>
+    <p class="card-text">Written by AI under Joachim Breitner's supervision, <a class="inl" href="https://github.com/leanprover/con-agua/" rel="noopener">con-agua</a> is an <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-agua.2C.20an.20x86.20assembly.20port.20of.20con-leche/with/634779855" rel="noopener">x86 assembly port</a> of the external Lean checker <a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener">con-leche</a> and requires the Kraken x86 semantics to be correct in place of the Lean compiler and runtime. A 5MB assembly file and a 200-line main.c, plus one data file, are all it needs.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/con-agua/" rel="noopener">leanprover/con-agua</a><span class="dot" aria-hidden="true">·</span><a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-agua.2C.20an.20x86.20assembly.20port.20of.20con-leche/with/634779855" rel="noopener">leanprover.zulipchat.com</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -237,15 +246,6 @@
     <h2 class="card-title">Lean publishes hex, an aggregator for verified computational algebra libraries</h2>
     <p class="card-text">The <a class="inl" href="https://github.com/leanprover/hex" rel="noopener">leanprover/hex repository</a> bundles the released hex libraries for verified computational algebra in Lean 4, including LLL lattice reduction, integer polynomial factorization, graph canonical labelling via a formalization of nauty, and algebraic numbers. Each computational library is <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>-free, with Mathlib correspondence proofs in separate theory libraries.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/hex" rel="noopener">leanprover/hex</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean FRO publishes con-ron, a Rust port of the con-leche checker</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/con-ron" rel="noopener">con-ron</a> ports <a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener">con-leche</a>, an external Lean checker with a formal consistency proof, to Rust. It was written by AI under supervision from Joachim Breitner, and its Rust code is proven (partially) correct via an <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a>-generated model, so checking a proof with both tools guards against compiler or runtime bugs.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/con-ron" rel="noopener">leanprover/con-ron</a></p>
   </div>
 </article>
 </div>
