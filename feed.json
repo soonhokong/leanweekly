@@ -162,6 +162,19 @@
    ]
   },
   {
+   "id": "https://leanweekly.news/2026-10-25/#2026-10-25-assurecode-uses-lean-for-structured-justification-of-ai-generate",
+   "url": "https://leanweekly.news/2026-10-25/#2026-10-25-assurecode-uses-lean-for-structured-justification-of-ai-generate",
+   "title": "AssureCode uses Lean for structured justification of AI-generated code",
+   "content_html": "<p>Logan Murphy and coauthors describe <a class=\"inl\" href=\"https://arxiv.org/abs/2610.29758\" rel=\"noopener\">AssureCode</a>, which autoformalizes developer intent into Lean specifications for human approval, then decomposes claims via Lean templates, with Lean checking an agent's decomposition-soundness proofs. On HumanEval, LiveCodeBench and MBPP samples with four LLMs, a single run recovered most of an iterative LLM baseline's concerns and surfaced additional ones.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.29758\">arXiv:2610.29758</a>, <a href=\"https://paperswithlean.com/paper/2610.29758.html\">paperswithlean.com</a></p>",
+   "date_published": "2026-10-21T12:00:00Z",
+   "tags": [
+    "Verification",
+    "agentic coding",
+    "autoformalization",
+    "assurance"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe",
    "url": "https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe",
    "title": "Kraken Lean project proves FFmpeg's SBR decoder binary safe",
@@ -640,19 +653,6 @@
     "metrology",
     "physlib",
     "nasa"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-24/#2026-09-24-lazylean-a-lazy-evaluation-lean-kernel-competes-in-the-lean-kern",
-   "url": "https://leanweekly.news/2026-09-24/#2026-09-24-lazylean-a-lazy-evaluation-lean-kernel-competes-in-the-lean-kern",
-   "title": "lazylean, a lazy-evaluation Lean kernel, competes in the Lean Kernel Arena",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/corun1024/lazylean\" rel=\"noopener\">lazylean</a>, a C++ type checker for Lean 4, hands computing terms to a Krivine machine with call-by-need thunks, after Coq's cClosure. The <a class=\"inl\" href=\"https://arena.lean-lang.org/\" rel=\"noopener\">Lean Kernel Arena</a>, which tests and benchmarks proof checkers for Lean, lists lazylean 0.3.0 alongside checkers such as tenet 0.11.1, lean4cobol and nanoclo-fortran.</p><p>Sources: <a href=\"https://github.com/corun1024/lazylean\">corun1024/lazylean</a>, <a href=\"https://arena.lean-lang.org/\">arena.lean-lang.org</a></p>",
-   "date_published": "2026-09-24T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "kernel",
-    "checkers",
-    "lazylean"
    ]
   }
  ]

@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 7</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-07-16-lean-v4-32-0-makes-the-new-do-elaborator-the-default">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-13">Jul 13</time><button class="copy" type="button" hidden data-link="../../2026-07-16/#2026-07-16-lean-v4-32-0-makes-the-new-do-elaborator-the-default" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean v4.32.0 makes the new do elaborator the default</h2>
+    <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.32.0/" rel="noopener">Lean v4.32.0</a> adds the do← marker for effect forwarding and cuts import <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> time by about 10% through a DiscrTree insertion fix. <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a>'s linting framework gains option-based control and module linters, and an experimental incremental-compilation mode lands behind CLI flags.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.32.0/" rel="noopener">v4.32.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.32.0" rel="noopener">lean4 v4.32.0</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-07-23-sebastian-ullrich-proposes-prefix-trees-in-oleans-to-speed-up-le">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -240,15 +249,6 @@
     <h2 class="card-title">Henrik Böving makes Lean's get_task_state_core thread safe</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14108" rel="noopener">A merged pull request</a> by Henrik Böving changes the m_imp field of lean_task to an atomic. get_task_state_core read m_imp to check whether a task had finished before taking the mutex, so that memory access was undefined behavior (UB).</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14108" rel="noopener">lean4#14108</a></p>
-  </div>
-</article>
-<article class="card c-papers" id="2026-06-18-benjamin-pierce-seeks-contributors-to-translate-software-foundat">
-  <span class="avatar" aria-hidden="true">¶</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-17">Jun 17</time><button class="copy" type="button" hidden data-link="../../2026-06-18/#2026-06-18-benjamin-pierce-seeks-contributors-to-translate-software-foundat" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Benjamin Pierce seeks contributors to translate Software Foundations to Lean</h2>
-    <p class="card-text"><a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Software.20Foundations.20in.20Lean.3A.20Call.20for.20Contributions" rel="noopener">Software Foundations</a>, a series of textbooks on formal proof and foundations of programming languages formalized in Rocq, is being translated to Lean for Fall courses at Penn and elsewhere. Benjamin Pierce says the team is ready to add a few people, especially educators, and will need alpha-testers later in the summer.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Software.20Foundations.20in.20Lean.3A.20Call.20for.20Contributions" rel="noopener">leanprover.zulipchat.com</a></p>
   </div>
 </article>
 </div>

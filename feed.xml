@@ -104,6 +104,14 @@
 <description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2610.30114" rel="noopener"&gt;AI-greement&lt;/a&gt;, an agent harness with a Lean-based verification framework, helped researchers discover A-greement, a consensus protocol proved linearizable in about &lt;a class="inl" href="https://paperswithlean.com/paper/2610.30114.html" rel="noopener"&gt;98,000 lines of Lean&lt;/a&gt;. A-greement cuts mean latency over the fastest baseline by 12.2% on write-heavy and 33.3% on read-heavy workloads, and the harness's Lean formalization uncovered four previously unreported vulnerabilities in existing protocols.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.30114"&gt;arXiv:2610.30114&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2610.30114.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
+<title>AssureCode uses Lean for structured justification of AI-generated code</title>
+<link>https://leanweekly.news/2026-10-25/#2026-10-25-assurecode-uses-lean-for-structured-justification-of-ai-generate</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-25/#2026-10-25-assurecode-uses-lean-for-structured-justification-of-ai-generate</guid>
+<pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;Logan Murphy and coauthors describe &lt;a class="inl" href="https://arxiv.org/abs/2610.29758" rel="noopener"&gt;AssureCode&lt;/a&gt;, which autoformalizes developer intent into Lean specifications for human approval, then decomposes claims via Lean templates, with Lean checking an agent's decomposition-soundness proofs. On HumanEval, LiveCodeBench and MBPP samples with four LLMs, a single run recovered most of an iterative LLM baseline's concerns and surfaced additional ones.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.29758"&gt;arXiv:2610.29758&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2610.29758.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Kraken Lean project proves FFmpeg's SBR decoder binary safe</title>
 <link>https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe</guid>
@@ -398,14 +406,6 @@
 <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;NASA Jet Propulsion Laboratory's &lt;a class="inl" href="https://github.com/nasa-jpl/PropertyKindCalculus" rel="noopener"&gt;PropertyKindCalculus&lt;/a&gt; formalizes René Dybkær's ontology on property, extended with Flater's tracking of kinds of quantities, and is described as the first in which the quantity calculus itself, beyond the taxonomy around it, is a checked artifact. It includes catalogues for eleven of the thirteen ISO/IEC 80000 parts.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/nasa-jpl/PropertyKindCalculus"&gt;nasa-jpl/PropertyKindCalculus&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>lazylean, a lazy-evaluation Lean kernel, competes in the Lean Kernel Arena</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-lazylean-a-lazy-evaluation-lean-kernel-competes-in-the-lean-kern</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-lazylean-a-lazy-evaluation-lean-kernel-competes-in-the-lean-kern</guid>
-<pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/corun1024/lazylean" rel="noopener"&gt;lazylean&lt;/a&gt;, a C++ type checker for Lean 4, hands computing terms to a Krivine machine with call-by-need thunks, after Coq's cClosure. The &lt;a class="inl" href="https://arena.lean-lang.org/" rel="noopener"&gt;Lean Kernel Arena&lt;/a&gt;, which tests and benchmarks proof checkers for Lean, lists lazylean 0.3.0 alongside checkers such as tenet 0.11.1, lean4cobol and nanoclo-fortran.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/corun1024/lazylean"&gt;corun1024/lazylean&lt;/a&gt;, &lt;a href="https://arena.lean-lang.org/"&gt;arena.lean-lang.org&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

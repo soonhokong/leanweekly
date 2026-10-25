@@ -16,6 +16,7 @@
 - [Leo de Moura publishes MiniForth, a Lean tutorial for programming language semantics](https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-publishes-miniforth-a-lean-tutorial-for-programming): Papers and events, 2026-10-22
 - [ATOMSLab's LeanSMILES formalizes molecular representations and learning algorithms in Lean](https://leanweekly.news/2026-10-22/#2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l): Verification, 2026-10-22
 - [AI agents help researchers discover a new consensus protocol, verified in Lean](https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver): Verification, 2026-10-21
+- [AssureCode uses Lean for structured justification of AI-generated code](https://leanweekly.news/2026-10-25/#2026-10-25-assurecode-uses-lean-for-structured-justification-of-ai-generate): Verification, 2026-10-21
 - [Kraken Lean project proves FFmpeg's SBR decoder binary safe](https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe): Verification, 2026-10-21
 - [Leo de Moura adds three lia changes that avoid large case splits](https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits): Lean core, 2026-10-21
 - [Joris Roos formalizes OpenAI's L³ trilinear Hilbert transform bound with coding agents](https://leanweekly.news/2026-10-20/#2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou): AI and formalization, 2026-10-20
@@ -103,7 +104,6 @@
 - [MathAdv benchmark and ProofEvolve prover target Lean 4 theorem proving](https://leanweekly.news/2026-09-03/#2026-09-03-mathadv-benchmark-and-proofevolve-prover-target-lean-4-theorem-p): AI and formalization, 2026-08-26
 - [SAIR Foundation and Lean FRO announce the Lean Kernel Challenge competition](https://leanweekly.news/2026-08-27/#2026-08-27-sair-foundation-and-lean-fro-announce-the-lean-kernel-challenge): Lean core, 2026-08-25
 - [Lean adds strong coinduction principles and a monotonicity_by clause for predicates](https://leanweekly.news/2026-08-27/#2026-08-27-lean-adds-strong-coinduction-principles-and-a-monotonicity-by-cl): Lean core, 2026-08-25
-- [Lean FRO publishes postmortem of kernel soundness bug hunt with OpenAI models](https://leanweekly.news/2026-08-27/#2026-08-27-lean-fro-publishes-postmortem-of-kernel-soundness-bug-hunt-with): Lean core, 2026-08-24
 
 ## Weeks (Friday to Thursday)
 
@@ -142,6 +142,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Oct 25, 2026](https://leanweekly.news/2026-10-25/items.md)
 - [Published Oct 24, 2026](https://leanweekly.news/2026-10-24/items.md)
 - [Published Oct 23, 2026](https://leanweekly.news/2026-10-23/items.md)
 - [Published Oct 22, 2026](https://leanweekly.news/2026-10-22/items.md)
