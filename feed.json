@@ -19,6 +19,45 @@
    ]
   },
   {
+   "id": "https://leanweekly.news/2026-10-25/#2026-10-25-miles-cranmer-s-ai-agents-model-julia-code-in-lean-and-find-bugs",
+   "url": "https://leanweekly.news/2026-10-25/#2026-10-25-miles-cranmer-s-ai-agents-model-julia-code-in-lean-and-find-bugs",
+   "title": "Miles Cranmer's AI agents model Julia code in Lean and find bugs",
+   "content_html": "<p>Lean definitions mirror Julia functions line by line, and each property ends proven, or refuted with a concrete counterexample and a pure-Julia reproducer. In Julia Base and several standard libraries, 400 of 910 properties were refuted and 75 issues filed on JuliaLang/julia; DynamicExpressions.jl, the expression-tree package behind PySR, merged 38 Lean-derived fixes.</p><p>Sources: <a href=\"https://github.com/MilesCranmer/julia-in-lean\">MilesCranmer/julia-in-lean</a></p>",
+   "date_published": "2026-10-25T12:00:00Z",
+   "tags": [
+    "Verification",
+    "julia",
+    "ai agents",
+    "bug finding"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-25/#2026-10-25-thomas-coratger-announces-ethlib-a-lean-4-library-for-ethereum",
+   "url": "https://leanweekly.news/2026-10-25/#2026-10-25-thomas-coratger-announces-ethlib-a-lean-4-library-for-ethereum",
+   "title": "Thomas Coratger announces EthLib, a Lean 4 library for Ethereum",
+   "content_html": "<p>The library, hosted at github.com/ethereum/EthLib, launched with the goal of bringing Ethereum's primitives, specifications and theorems into one place, building a shared foundation for formally specifying and proving things about Ethereum.</p><p>Sources: <a href=\"https://x.com/tcoratger/status/2114395664687771936\">@tcoratger on X</a></p>",
+   "date_published": "2026-10-25T12:00:00Z",
+   "tags": [
+    "Verification",
+    "ethereum",
+    "library",
+    "specification"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-25/#2026-10-25-github-user-joehattori-uses-aeneas-and-lean-to-verify-core-crosv",
+   "url": "https://leanweekly.news/2026-10-25/#2026-10-25-github-user-joehattori-uses-aeneas-and-lean-to-verify-core-crosv",
+   "title": "GitHub user joehattori uses Aeneas and Lean to verify core crosvm components",
+   "content_html": "<p>In <a class=\"inl\" href=\"https://github.com/joehattori/crosvm-verif\" rel=\"noopener\">crosvm-verif</a>, Charon and <a class=\"inl\" href=\"https://github.com/AeneasVerif/aeneas\" rel=\"noopener\">Aeneas</a> extract Rust code and generate Lean, and <code>make verify</code> checks the Lean translation and its specifications. The package is also listed on <a class=\"inl\" href=\"https://reservoir.lean-lang.org/@joehattori/crosvm-verif\" rel=\"noopener\">Reservoir</a>, the package registry for <a class=\"inl\" href=\"https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/\" rel=\"noopener\">Lake</a>, Lean's build system and package manager.</p><p>Sources: <a href=\"https://github.com/joehattori/crosvm-verif\">joehattori/crosvm-verif</a>, <a href=\"https://reservoir.lean-lang.org/@joehattori/crosvm-verif\">reservoir.lean-lang.org</a></p>",
+   "date_published": "2026-10-25T12:00:00Z",
+   "tags": [
+    "Verification",
+    "aeneas",
+    "rust",
+    "crosvm"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule",
    "url": "https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule",
    "title": "Wolfram Institute publishes reference Lean environment for Rule 30 Prize submissions",
@@ -188,6 +227,19 @@
    ]
   },
   {
+   "id": "https://leanweekly.news/2026-10-25/#2026-10-25-katzenpost-s-lean-library-cryptlib-implements-the-sphinx-cryptog",
+   "url": "https://leanweekly.news/2026-10-25/#2026-10-25-katzenpost-s-lean-library-cryptlib-implements-the-sphinx-cryptog",
+   "title": "Katzenpost's Lean library Cryptlib implements the Sphinx cryptographic packet format",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/katzenpost/cryptlib\" rel=\"noopener\">Cryptlib</a>'s Sphinx packets are binary compatible with the Katzenpost mix network's Go implementation, including with a post-quantum/classical hybrid key encapsulation method (X25519 and ML-KEM-768) per hop. <a class=\"inl\" href=\"https://cryptlib.io/\" rel=\"noopener\">The AGPLv3-licensed library</a> is for modeling protocols and proving their properties; each kind of primitive has a Lean structure with proposition fields that every instance must satisfy.</p><p>Sources: <a href=\"https://github.com/katzenpost/cryptlib\">katzenpost/cryptlib</a>, <a href=\"https://cryptlib.io/\">cryptlib.io</a>, <a href=\"https://reservoir.lean-lang.org/@katzenpost/cryptlib\">reservoir.lean-lang.org</a></p>",
+   "date_published": "2026-10-21T12:00:00Z",
+   "tags": [
+    "Verification",
+    "cryptography",
+    "post-quantum",
+    "mixnet"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe",
    "url": "https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe",
    "title": "Kraken Lean project proves FFmpeg's SBR decoder binary safe",
@@ -211,6 +263,19 @@
     "lia",
     "proof automation",
     "lean core"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-25/#2026-10-25-resolution-uses-claude-fable-5-1-to-formalize-hironaka-s-resolut",
+   "url": "https://leanweekly.news/2026-10-25/#2026-10-25-resolution-uses-claude-fable-5-1-to-formalize-hironaka-s-resolut",
+   "title": "Resolution uses Claude Fable 5.1 to formalize Hironaka's resolution of singularities",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/resolutionorg/hironaka\" rel=\"noopener\">The library</a>, written in Lean 4 over <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>, proves Hironaka's main theorems in characteristic zero and their refinements by Kollár, Włodarczyk and Bierstone–Milman, for algebraic schemes and analytic manifolds and spaces. Chris Elliott at Resolution directed and audited the automated formalization process, and the code is licensed under Apache License 2.0.</p><p>Sources: <a href=\"https://github.com/resolutionorg/hironaka\">resolutionorg/hironaka</a>, <a href=\"https://resolutionorg.github.io/hironaka/\">resolutionorg.github.io</a>, <a href=\"https://reservoir.lean-lang.org/@resolutionorg/hironaka\">reservoir.lean-lang.org</a></p>",
+   "date_published": "2026-10-20T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "autoformalization",
+    "algebraic geometry",
+    "mathlib"
    ]
   },
   {
@@ -588,71 +653,6 @@
     "funding",
     "ai for math",
     "grants"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-15/#2026-10-15-scott-armstrong-publishes-skill-files-for-llm-driven-lean-autofo",
-   "url": "https://leanweekly.news/2026-10-15/#2026-10-15-scott-armstrong-publishes-skill-files-for-llm-driven-lean-autofo",
-   "title": "Scott Armstrong publishes skill files for LLM-driven Lean autoformalization",
-   "content_html": "<p><a class=\"inl\" href=\"https://www.scottnarmstrong.com/2026/10/autoformalization-is-now-very-easy/\" rel=\"noopener\">Scott Armstrong</a> writes that autoformalization of research-level mathematics has become easy, citing a Lean formalization of a 145-page paper with Vicol in about 36 hours (270k lines of code), and makes the agent skill files public. <a class=\"inl\" href=\"https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/\" rel=\"noopener\">A separate Xena post</a> weighs mathematicians' reactions to AI, noting &quot;You cannot fool Lean.&quot;</p><p>Sources: <a href=\"https://www.scottnarmstrong.com/2026/10/autoformalization-is-now-very-easy/\">scottnarmstrong.com</a>, <a href=\"https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/\">xenaproject.wordpress.com</a></p>",
-   "date_published": "2026-10-04T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "autoformalization",
-    "llm agents",
-    "analysis"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-15/#2026-10-15-sebastian-ullrich-makes-lean-s-type-class-resolution-cache-persi",
-   "url": "https://leanweekly.news/2026-10-15/#2026-10-15-sebastian-ullrich-makes-lean-s-type-class-resolution-cache-persi",
-   "title": "Sebastian Ullrich makes Lean's type class resolution cache persist across commands",
-   "content_html": "<p>Two merged pull requests by Sebastian Ullrich keep <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/14369\" rel=\"noopener\">type class resolution results for later commands</a> and let queries differing only in free variables <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/14316\" rel=\"noopener\">share a cache entry</a>. Building <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a> takes about 4% fewer instructions and 8% less wall-clock time, and spends about 16% less time in type class resolution.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/14369\">lean4#14369</a>, <a href=\"https://github.com/leanprover/lean4/pull/14316\">lean4#14316</a></p>",
-   "date_published": "2026-10-04T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "performance",
-    "type classes",
-    "mathlib"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-15/#2026-10-15-leo-de-moura-adds-option-to-run-grind-on-sym-simp-normalizer",
-   "url": "https://leanweekly.news/2026-10-15/#2026-10-15-leo-de-moura-adds-option-to-run-grind-on-sym-simp-normalizer",
-   "title": "Leo de Moura adds option to run grind on Sym.simp normalizer",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15464\" rel=\"noopener\">A merged Lean pull request</a> adds backward.<a class=\"inl\" href=\"https://lean-lang.org/doc/reference/latest/The--grind--tactic/\" rel=\"noopener\">grind</a>.normalizer, which switches grind to the Sym.simp-based normalizer when set to false (the default behavior is unchanged). Related changes add <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15375\" rel=\"noopener\">grind_norm</a>, a debugging tactic whose check mode runs both normalizers and fails when results differ, and <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15378\" rel=\"noopener\">fix negation-pushing rewrites</a> that had been dead code since #9271.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/15464\">lean4#15464</a>, <a href=\"https://github.com/leanprover/lean4/pull/15375\">lean4#15375</a>, <a href=\"https://github.com/leanprover/lean4/pull/15378\">lean4#15378</a></p>",
-   "date_published": "2026-10-04T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "grind",
-    "lean core",
-    "tactics"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-15/#2026-10-15-lean-core-gains-an-html-type-renderer-and-html-like-syntax",
-   "url": "https://leanweekly.news/2026-10-15/#2026-10-15-lean-core-gains-an-html-type-renderer-and-html-like-syntax",
-   "title": "Lean core gains an HTML type, renderer, and HTML-like syntax",
-   "content_html": "<p>Wojciech Nawrocki merged pull requests adding <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/14935\" rel=\"noopener\">Lean.Data.Html</a>, a type of HTML forests aimed at authoring HTML, with a renderer to String, plus <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15002\" rel=\"noopener\">HTML-like syntax and an elaborator</a> into that type. Separately, Emilio Jesús Gallego Arias added optional VIR support and a small Lean-to-JavaScript client example on Lean 4.35 to <a class=\"inl\" href=\"https://github.com/leanprover/verso-blueprint/pull/491\" rel=\"noopener\">Verso Blueprint</a>.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/14935\">lean4#14935</a>, <a href=\"https://github.com/leanprover/lean4/pull/15002\">lean4#15002</a>, <a href=\"https://github.com/leanprover/verso-blueprint/pull/491\">verso-blueprint#491</a></p>",
-   "date_published": "2026-10-01T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "html",
-    "verso",
-    "vir"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-15/#2026-10-15-four-authors-formalize-the-hamilton-perelman-proof-of-the-poinca",
-   "url": "https://leanweekly.news/2026-10-15/#2026-10-15-four-authors-formalize-the-hamilton-perelman-proof-of-the-poinca",
-   "title": "Four authors formalize the Hamilton-Perelman proof of the Poincaré conjecture in Lean",
-   "content_html": "<p>Ziyang Qin, Yuan Liao, Ayush Khaitan, and Bennett Chow <a class=\"inl\" href=\"https://arxiv.org/abs/2609.33842\" rel=\"noopener\">formalize the smooth three-dimensional Poincaré conjecture</a> via Ricci flow with surgery and finite-time extinction. Together with the Moise smoothing theorem, the result yields the topological three-dimensional Poincaré conjecture.</p><p>Sources: <a href=\"https://arxiv.org/abs/2609.33842\">arXiv:2609.33842</a></p>",
-   "date_published": "2026-09-27T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "formalization",
-    "topology",
-    "ricci flow"
    ]
   }
  ]
