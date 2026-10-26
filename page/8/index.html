@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 8</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-06-25-david-thrane-christiansen-adds-extensible-markdown-rendering-for">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-25">Jun 25</time><button class="copy" type="button" hidden data-link="../../2026-06-25/#2026-06-25-david-thrane-christiansen-adds-extensible-markdown-rendering-for" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">David Thrane Christiansen adds extensible Markdown rendering for Verso docstrings</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14115" rel="noopener">A merged Lean pull request</a> lets custom elements in <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a> docstrings define their own Markdown rendering, which is used for LSP hovers and for legacy clients that don't directly support Verso. Example uses include including one docstring in another and showing all currently-available instances of a class.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14115" rel="noopener">lean4#14115</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-07-02-sebastian-graf-renames-mvcgen-to-vcgen-and-adds-frame-support">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -239,15 +248,6 @@
     <h2 class="card-title">Lake adds a requiresModuleSystem option to flag non-module imports</h2>
     <p class="card-text">Sebastian Ullrich's merged Lean pull request adds the <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> package option <code>requiresModuleSystem</code>: Lake then warns whenever a non-module-system file (one without a <code>module</code> header) imports a module of the package. A separate <a class="inl" href="https://github.com/leanprover/lean4/pull/13679" rel="noopener">fix repairs code generation</a> that broke with structures using private fields and types inaccessible in the current scope.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13646" rel="noopener">lean4#13646</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13679" rel="noopener">lean4#13679</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-demo-previews-rust-source-references-resolved-through-rust-analy">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time><button class="copy" type="button" hidden data-link="../../2026-05-14/#2026-05-14-demo-previews-rust-source-references-resolved-through-rust-analy" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Demo previews Rust source references resolved through rust-analyzer</h2>
-    <p class="card-text">A <a class="inl" href="https://x80.org/vbp-rust-demo-1/Foreign-Rust-References/" rel="noopener">demo chapter on x80.org</a> previews foreign Rust references backed by a live language-server lookup: resolved references render a compact Rust source link and a grouped Rust code panel fetched from the location returned by rust-analyzer. A reference the language server cannot find is reported as unresolved, without a code panel.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x80.org/vbp-rust-demo-1/Foreign-Rust-References/" rel="noopener">x80.org</a></p>
   </div>
 </article>
 </div>

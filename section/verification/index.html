@@ -30,7 +30,7 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 47 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 48 items, newest first.</p></header>
 <div class="stream">
 <article class="card c-verification" id="2026-10-25-miles-cranmer-s-ai-agents-model-julia-code-in-lean-and-find-bugs">
   <span class="avatar" aria-hidden="true">⊨</span>
@@ -131,6 +131,16 @@
     <h2 class="card-title">Kraken Lean project proves FFmpeg's SBR decoder binary safe</h2>
     <p class="card-text">The theorem sbr_session_safe covers the linked machine code (aacsbr.o with its callees): given the link's layout, external routines' contracts and a 32-bit bound on their stack, every run stays in the memory it owns and uses at most the stated stack. The prefix-code and bound facts of FFmpeg's Huffman tables are proved.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/zrlk/kraken/blob/sbr-wf-preserve/Kraken/X64/Examples/Sbr/SessionBin/Top.lean" rel="noopener">zrlk/kraken</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-20">Oct 20</time><button class="copy" type="button" hidden data-link="../../2026-10-26/#2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">John Zhuoyang Ye and Jens Palsberg verify fault-tolerant quantum compilation in Lean</h2>
+    <p class="card-text"><a class="inl" href="https://arxiv.org/abs/2610.31694" rel="noopener">The paper</a> introduces QPPM, a language for Pauli-product measurement programs, and verifies lowering of Clifford+T circuits to QPPM and an optimizer that eliminates measurements, fuses and reorders rotations, and schedules logical rounds. On QASMBench, verified fusion and scheduling reduce logical measurement depth by a median of 17.9%.</p>
+    <figure class="media media-paper"><img src="../../assets/img/da15946acfcb2ce6-480.webp" srcset="../../assets/img/da15946acfcb2ce6-480.webp 480w, ../../assets/img/da15946acfcb2ce6-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="949" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.31694" rel="noopener">arXiv:2610.31694</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2610.31694.html" rel="noopener">paperswithlean.com</a></p>
   </div>
 </article>
 <article class="card c-verification" id="2026-10-23-aditya-ranjan-jha-and-coauthors-mechanize-a-hardware-type-system">
@@ -246,16 +256,6 @@
     <p class="card-text">Using <a class="inl" href="https://arxiv.org/abs/2609.15648" rel="noopener">Aeneas</a>, which extracts a pure model of Rust code in Lean, a 237 KLOC Lean development establishes safety, panic-freedom, and functional correctness of 16.7 KLOC of Rust, including SHA-3 and ML-KEM ported from C. AI agents autonomously write proofs, which the Lean kernel independently verifies.</p>
     <figure class="media media-paper"><img src="../../assets/img/7fcff038fb927884-480.webp" srcset="../../assets/img/7fcff038fb927884-480.webp 480w, ../../assets/img/7fcff038fb927884-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2609.15648" rel="noopener">arXiv:2609.15648</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-09-17-certora-proves-zlib-s-inflate-table-memory-safe-and-terminating">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-10">Sep 10</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-certora-proves-zlib-s-inflate-table-memory-safe-and-terminating" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Certora proves zlib's inflate_table memory-safe and terminating in Lean</h2>
-    <p class="card-text">In under two weeks, <a class="inl" href="https://www.certora.com/blog/formally-verifying-zlib-memory-safety-with-lean" rel="noopener">Certora</a> built an experimental C-to-Lean pipeline and proved that the Clight (CompCert's C intermediate representation) model of zlib's 266-line inflate_table function is memory-safe and terminating. The proof, around 20,000 lines of Lean, was written almost entirely by LLMs, and the Lean kernel checked every step.</p>
-    <figure class="media"><img src="../../assets/img/2140867fb096f152-480.webp" srcset="../../assets/img/2140867fb096f152-480.webp 480w, ../../assets/img/2140867fb096f152-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="630" alt="Formally Verifying zlib Memory Safety with Lean | Certora" loading="lazy" decoding="async"><figcaption class="credit">Image: certora.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.certora.com/blog/formally-verifying-zlib-memory-safety-with-lean" rel="noopener">certora.com</a></p>
   </div>
 </article>
 </div>

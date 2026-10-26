@@ -32,6 +32,16 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 6</h1></header>
 <div class="stream">
+<article class="card c-ai" id="2026-08-27-vero-benchmark-tests-ai-agents-on-verified-lean-4-software-repos">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-13">Aug 13</time><button class="copy" type="button" hidden data-link="../../2026-08-27/#2026-08-27-vero-benchmark-tests-ai-agents-on-verified-lean-4-software-repos" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Vero benchmark tests AI agents on verified Lean 4 software repositories</h2>
+    <p class="card-text">Researchers including Kaiyu Yang, Soonho Kong, Jingxuan He, and Dawn Song introduce <a class="inl" href="https://arxiv.org/abs/2608.13522" rel="noopener">Vero</a>, a benchmark of 43 multi-module instances sourced from real-world repositories, each a multi-module Lean 4 repository with predetermined API interfaces. The strongest agent fully solves only 27 of 43 instances.</p>
+    <figure class="media media-paper"><img src="../../assets/img/e64d7246915c669a-480.webp" srcset="../../assets/img/e64d7246915c669a-480.webp 480w, ../../assets/img/e64d7246915c669a-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2608.13522" rel="noopener">arXiv:2608.13522</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-08-27-sebastian-graf-moves-verina-contracts-onto-programs-and-names-ve">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -245,15 +255,6 @@
     <h2 class="card-title">Leo de Moura merges grind discharger support for Sym.simp and three fixes</h2>
     <p class="card-text">Leo de Moura <a class="inl" href="https://github.com/leanprover/lean4/pull/14425" rel="noopener">merged pull requests</a> letting <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> discharge hypotheses in conditional Sym.simp theorems, preventing grind timeouts on definitional equality checks for match-expression conditions, fixing a canonicalizer bug that made grind miss valid contradictions, and fixing grind dropping E-matching theorems from custom grind attributes.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14425" rel="noopener">lean4#14425</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14444" rel="noopener">lean4#14444</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14439" rel="noopener">lean4#14439</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14426" rel="noopener">lean4#14426</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-07-23-lean4web-enables-deflate-compression-for-large-websocket-message">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-16">Jul 16</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-lean4web-enables-deflate-compression-for-large-websocket-message" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">lean4web enables deflate compression for large websocket messages</h2>
-    <p class="card-text">A <a class="inl" href="https://github.com/leanprover-community/lean4web/pull/133" rel="noopener">merged pull request</a> by Jason (@jcreedcmu) enables per-message deflate compression for messages larger than 16MB in the websocket server behind lean4web, aiming to improve responsiveness of <a class="inl" href="https://live.lean-lang.org/" rel="noopener">live.lean-lang.org</a>. Full completions with <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> imported produce 20-40MB jsonrpc responses, which compress by a factor of 8-9x.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/lean4web/pull/133" rel="noopener">lean4web#133</a></p>
   </div>
 </article>
 </div>

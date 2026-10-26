@@ -26,6 +26,7 @@
 - [Leo de Moura adds three lia changes that avoid large case splits](https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits): Lean core, 2026-10-21
 - [Resolution uses Claude Fable 5.1 to formalize Hironaka's resolution of singularities](https://leanweekly.news/2026-10-25/#2026-10-25-resolution-uses-claude-fable-5-1-to-formalize-hironaka-s-resolut): AI and formalization, 2026-10-20
 - [Joris Roos formalizes OpenAI's L³ trilinear Hilbert transform bound with coding agents](https://leanweekly.news/2026-10-20/#2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou): AI and formalization, 2026-10-20
+- [John Zhuoyang Ye and Jens Palsberg verify fault-tolerant quantum compilation in Lean](https://leanweekly.news/2026-10-26/#2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum): Verification, 2026-10-20
 - [Carlo Ciliberto, Alessandro Rudi, Enrico Tassi introduce Proof-Carrying Contracts for AI agents](https://leanweekly.news/2026-10-23/#2026-10-23-carlo-ciliberto-alessandro-rudi-enrico-tassi-introduce-proof-car): Papers and events, 2026-10-20
 - [Matija Bucić, Fankang He and Hyunwoo Lee prove Erdős-Szemerédi sunflower conjecture](https://leanweekly.news/2026-10-21/#2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun): AI and formalization, 2026-10-19
 - [Aditya Ranjan Jha and coauthors mechanize a hardware type system in Lean](https://leanweekly.news/2026-10-23/#2026-10-23-aditya-ranjan-jha-and-coauthors-mechanize-a-hardware-type-system): Verification, 2026-10-19
@@ -103,7 +104,6 @@
 - [Coding agents autoformalize a norm-variation result for multiple ergodic averages in Lean](https://leanweekly.news/2026-09-03/#2026-09-03-coding-agents-autoformalize-a-norm-variation-result-for-multiple): AI and formalization, 2026-08-27
 - [Lean FRO publishes six-month roadmap for September 2026 to February 2027](https://leanweekly.news/2026-08-27/#2026-08-27-lean-fro-publishes-six-month-roadmap-for-september-2026-to-febru): Lean core, 2026-08-27
 - [Vasily Ilin runs a collaborative Lean 4 formalization of Mazur's torsion theorem](https://leanweekly.news/2026-08-27/#2026-08-27-vasily-ilin-runs-a-collaborative-lean-4-formalization-of-mazur-s): AI and formalization, 2026-08-27
-- [Paul Butcher builds a complete production TodoMVC webapp in Lean 4](https://leanweekly.news/2026-08-27/#2026-08-27-paul-butcher-builds-a-complete-production-todomvc-webapp-in-lean): Verification, 2026-08-27
 
 ## Weeks (Friday to Thursday)
 
@@ -142,6 +142,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Oct 26, 2026](https://leanweekly.news/2026-10-26/items.md)
 - [Published Oct 25, 2026](https://leanweekly.news/2026-10-25/items.md)
 - [Published Oct 24, 2026](https://leanweekly.news/2026-10-24/items.md)
 - [Published Oct 23, 2026](https://leanweekly.news/2026-10-23/items.md)

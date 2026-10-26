@@ -292,6 +292,19 @@
    ]
   },
   {
+   "id": "https://leanweekly.news/2026-10-26/#2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum",
+   "url": "https://leanweekly.news/2026-10-26/#2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum",
+   "title": "John Zhuoyang Ye and Jens Palsberg verify fault-tolerant quantum compilation in Lean",
+   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2610.31694\" rel=\"noopener\">The paper</a> introduces QPPM, a language for Pauli-product measurement programs, and verifies lowering of Clifford+T circuits to QPPM and an optimizer that eliminates measurements, fuses and reorders rotations, and schedules logical rounds. On QASMBench, verified fusion and scheduling reduce logical measurement depth by a median of 17.9%.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.31694\">arXiv:2610.31694</a>, <a href=\"https://paperswithlean.com/paper/2610.31694.html\">paperswithlean.com</a></p>",
+   "date_published": "2026-10-20T12:00:00Z",
+   "tags": [
+    "Verification",
+    "quantum",
+    "compilers",
+    "hoare logic"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-23/#2026-10-23-carlo-ciliberto-alessandro-rudi-enrico-tassi-introduce-proof-car",
    "url": "https://leanweekly.news/2026-10-23/#2026-10-23-carlo-ciliberto-alessandro-rudi-enrico-tassi-introduce-proof-car",
    "title": "Carlo Ciliberto, Alessandro Rudi, Enrico Tassi introduce Proof-Carrying Contracts for AI agents",
@@ -640,19 +653,6 @@
     "vcgen",
     "documentation",
     "verification"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-15/#2026-10-15-renaissance-philanthropy-and-xtx-markets-announce-17-1-million-i",
-   "url": "https://leanweekly.news/2026-10-15/#2026-10-15-renaissance-philanthropy-and-xtx-markets-announce-17-1-million-i",
-   "title": "Renaissance Philanthropy and XTX Markets announce $17.1 million in AI for Math grants",
-   "content_html": "<p><a class=\"inl\" href=\"https://www.renaissancephilanthropy.org/insights/renaissance-philanthropy-and-xtx-markets-announce-further-171-million-to-accelerate-mathematical-progress\" rel=\"noopener\">The AI for Math Fund</a> selected 22 applications representing 30 organizations from more than 470 submissions, bringing its total commitments to $35.1 million. Winners include TorchLean, a Lean-native framework for verified machine learning, and a project turning a Lean 4 visual proofwriting prototype into open-source infrastructure for reading AI-generated proofs.</p><p>Sources: <a href=\"https://www.renaissancephilanthropy.org/insights/renaissance-philanthropy-and-xtx-markets-announce-further-171-million-to-accelerate-mathematical-progress\">renaissancephilanthropy.org</a></p>",
-   "date_published": "2026-10-06T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "funding",
-    "ai for math",
-    "grants"
    ]
   }
  ]
