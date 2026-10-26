@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 11</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-04-02-lean-4-29-0-released-with-a-new-extensible-do-elaborator">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-27">Mar 27</time><button class="copy" type="button" hidden data-link="../../2026-04-02/#2026-04-02-lean-4-29-0-released-with-a-new-extensible-do-elaborator" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4.29.0 released with a new extensible do elaborator</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.29.0" rel="noopener">The release</a> changes reducibility handling: isDefEq no longer bumps transparency when comparing implicit arguments, and a new @[implicit_reducible] attribute and a backward-compatibility option ease migration. It also adds <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> support for higher-order Miller patterns, mvcgen support for specifications in the local context, and faster startup.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.29.0/" rel="noopener">v4.29.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.29.0" rel="noopener">lean4 v4.29.0</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-04-02-bas-spitters-releases-catcrypt-machine-checked-cryptographic-sec">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -245,15 +254,6 @@
     <h2 class="card-title">Lean v4.29.0-rc1 changes how isDefEq handles transparency on implicit arguments</h2>
     <p class="card-text">Leo de Moura's <a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean#12179</a>, merged on 2026-02-16, stops isDefEq from raising transparency to .default for implicit arguments, a behavior that caused scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. Kim Morrison advises downstream projects not to move to v4.29.0-rc1 yet, and <a class="inl" href="https://github.com/leanprover/lean4/pull/12561" rel="noopener">a later PR</a> documents the design rationale behind the transparency hierarchy.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/113486-announce/topic/releases.20of.20new.20Lean.20versions/near/574617729" rel="noopener">leanprover.zulipchat.com</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12561" rel="noopener">lean4#12561</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-17">Feb 17</time><button class="copy" type="button" hidden data-link="../../2026-02-19/#2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean v4.28.0 released with a symbolic simulation framework and grind extensions</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.28.0" rel="noopener">Lean v4.28.0</a> adds a lightweight symbolic simulation framework that integrates with <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> and enables verification condition generators, plus user-defined grind attributes, a solver mode for bv_decide, and a first_par combinator that runs tactics in parallel. The release landed <a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.28.0/" rel="noopener">309 changes</a>, including performance improvements in bv_decide.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.28.0/" rel="noopener">v4.28.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.28.0" rel="noopener">lean4 v4.28.0</a></p>
   </div>
 </article>
 </div>

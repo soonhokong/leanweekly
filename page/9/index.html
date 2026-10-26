@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 9</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-05-14-lake-adds-a-requiresmodulesystem-option-to-flag-non-module-impor">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time><button class="copy" type="button" hidden data-link="../../2026-05-14/#2026-05-14-lake-adds-a-requiresmodulesystem-option-to-flag-non-module-impor" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lake adds a requiresModuleSystem option to flag non-module imports</h2>
+    <p class="card-text">Sebastian Ullrich's merged Lean pull request adds the <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> package option <code>requiresModuleSystem</code>: Lake then warns whenever a non-module-system file (one without a <code>module</code> header) imports a module of the package. A separate <a class="inl" href="https://github.com/leanprover/lean4/pull/13679" rel="noopener">fix repairs code generation</a> that broke with structures using private fields and types inaccessible in the current scope.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13646" rel="noopener">lean4#13646</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13679" rel="noopener">lean4#13679</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-05-14-demo-previews-rust-source-references-resolved-through-rust-analy">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -240,16 +249,6 @@
     <h2 class="card-title">Wojciech Różowski moves Batteries linters into Lean core and extends lake lint</h2>
     <p class="card-text">Wojciech Różowski <a class="inl" href="https://github.com/leanprover/lean4/pull/13513" rel="noopener">upstreamed the dupNamespace and unnecessarySeqFocus linters</a> from <a class="inl" href="https://github.com/leanprover-community/batteries" rel="noopener">Batteries</a> to core Lean as &quot;clippy&quot; linters, which are disabled by default and run with lake lint --clippy. lake lint --builtin-lint now also supports text linters, and a new script reports deprecated modules, options and syntax usage.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13513" rel="noopener">lean4#13513</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13538" rel="noopener">lean4#13538</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13540" rel="noopener">lean4#13540</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13586" rel="noopener">lean4#13586</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-04-30-sidharth-hariharan-maryna-viazovska-and-coauthors-report-on-form">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-25">Apr 25</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-sidharth-hariharan-maryna-viazovska-and-coauthors-report-on-form" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sidharth Hariharan, Maryna Viazovska and coauthors report on formalizing 8-dimensional sphere packing</h2>
-    <p class="card-text"><a class="inl" href="https://arxiv.org/pdf/2604.23468" rel="noopener">The paper</a> describes how Maryna Viazovska's 2016 solution of the sphere packing problem in dimension 8 was formally verified in Lean in February 2026, with the final stages done by Math, Inc.'s autoformalization model Gauss. It discusses the techniques used, the collaboration between humans and Gauss, and remaining project objectives.</p>
-    <figure class="media media-paper"><img src="../../assets/img/bb9c06cd7fb300d3-480.webp" srcset="../../assets/img/bb9c06cd7fb300d3-480.webp 480w, ../../assets/img/bb9c06cd7fb300d3-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/pdf/2604.23468" rel="noopener">arXiv:2604.23468</a></p>
   </div>
 </article>
 </div>

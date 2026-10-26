@@ -10,6 +10,7 @@
 - [GitHub user joehattori uses Aeneas and Lean to verify core crosvm components](https://leanweekly.news/2026-10-25/#2026-10-25-github-user-joehattori-uses-aeneas-and-lean-to-verify-core-crosv): Verification, 2026-10-25
 - [Wolfram Institute publishes reference Lean environment for Rule 30 Prize submissions](https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule): AI and formalization, 2026-10-24
 - [Anand Kumar Keshavan announces lean-qverify for verifying quantum circuits in Lean 4](https://leanweekly.news/2026-10-24/#2026-10-24-anand-kumar-keshavan-announces-lean-qverify-for-verifying-quantu): Verification, 2026-10-24
+- [Natalie Marleny announces formal-git, modelling about 30% of Git in Lean 4](https://leanweekly.news/2026-10-26/#2026-10-26-natalie-marleny-announces-formal-git-modelling-about-30-of-git-i): Verification, 2026-10-23
 - [Pranava Kumar registers a Lean proof of Nivat's conjecture with Palomar](https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with): AI and formalization, 2026-10-23
 - [Ziqing Xiang formalizes Haemers' conjecture for the generalized spectrum in Lean](https://leanweekly.news/2026-10-23/#2026-10-23-ziqing-xiang-formalizes-haemers-conjecture-for-the-generalized-s): AI and formalization, 2026-10-23
 - [Haruhisa Enomoto formalizes two classical theorems of Bautista, Gabriel, Roiter and Salmerón](https://leanweekly.news/2026-10-23/#2026-10-23-haruhisa-enomoto-formalizes-two-classical-theorems-of-bautista-g): AI and formalization, 2026-10-23
@@ -103,7 +104,6 @@
 - [Prove2Me launches an open platform where AI agents formalize mathematics together](https://leanweekly.news/2026-09-03/#2026-09-03-prove2me-launches-an-open-platform-where-ai-agents-formalize-mat): AI and formalization, 2026-08-28
 - [Coding agents autoformalize a norm-variation result for multiple ergodic averages in Lean](https://leanweekly.news/2026-09-03/#2026-09-03-coding-agents-autoformalize-a-norm-variation-result-for-multiple): AI and formalization, 2026-08-27
 - [Lean FRO publishes six-month roadmap for September 2026 to February 2027](https://leanweekly.news/2026-08-27/#2026-08-27-lean-fro-publishes-six-month-roadmap-for-september-2026-to-febru): Lean core, 2026-08-27
-- [Vasily Ilin runs a collaborative Lean 4 formalization of Mazur's torsion theorem](https://leanweekly.news/2026-08-27/#2026-08-27-vasily-ilin-runs-a-collaborative-lean-4-formalization-of-mazur-s): AI and formalization, 2026-08-27
 
 ## Weeks (Friday to Thursday)
 

@@ -84,6 +84,19 @@
    ]
   },
   {
+   "id": "https://leanweekly.news/2026-10-26/#2026-10-26-natalie-marleny-announces-formal-git-modelling-about-30-of-git-i",
+   "url": "https://leanweekly.news/2026-10-26/#2026-10-26-natalie-marleny-announces-formal-git-modelling-about-30-of-git-i",
+   "title": "Natalie Marleny announces formal-git, modelling about 30% of Git in Lean 4",
+   "content_html": "<p>Built over two months with heavy use of coding agents, <a class=\"inl\" href=\"https://x.com/NatalieMarleny/status/2113611475554124091\" rel=\"noopener\">the project</a> proved more than 8,000 theorems of varying usefulness and uncovered more than 100 potential defects in Git v2.55, including at least two possible security vulnerabilities. Its differential random testing harness and more than 10,000 unique tests will be open-sourced after responsible disclosure.</p><p>Sources: <a href=\"https://x.com/NatalieMarleny/status/2113611475554124091\">@NatalieMarleny on X</a></p>",
+   "date_published": "2026-10-23T12:00:00Z",
+   "tags": [
+    "Verification",
+    "git",
+    "coding agents",
+    "differential testing"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with",
    "url": "https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with",
    "title": "Pranava Kumar registers a Lean proof of Nivat's conjecture with Palomar",
@@ -640,19 +653,6 @@
     "erdos problems",
     "proof search",
     "llm"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-15/#2026-10-15-lean-reference-manual-documents-vcgen-the-successor-of-mvcgen-in",
-   "url": "https://leanweekly.news/2026-10-15/#2026-10-15-lean-reference-manual-documents-vcgen-the-successor-of-mvcgen-in",
-   "title": "Lean reference manual documents vcgen, the successor of mvcgen in Lean 4.35",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/leanprover/reference-manual/pull/927\" rel=\"noopener\">A pull request by Sebastian Graf</a> documents the vcgen tactic and its Std.WP framework, adds the tutorial &quot;Verifying Imperative Programs Using vcgen&quot;, and moves the mvcgen chapter and tutorial to their own files. The <a class=\"inl\" href=\"https://github.com/zrlk/kraken/blob/vcgen/Kraken/X64/Examples/FfScalarproductFloatFma3.lean\" rel=\"noopener\">Kraken project</a> already uses vcgen to prove that FFmpeg's FMA3 dot-product loop, over two arrays that may alias, terminates without faulting.</p><p>Sources: <a href=\"https://github.com/leanprover/reference-manual/pull/927\">reference-manual#927</a>, <a href=\"https://github.com/zrlk/kraken/blob/vcgen/Kraken/X64/Examples/FfScalarproductFloatFma3.lean\">zrlk/kraken</a></p>",
-   "date_published": "2026-10-07T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "vcgen",
-    "documentation",
-    "verification"
    ]
   }
  ]

@@ -32,6 +32,16 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 5</h1></header>
 <div class="stream">
+<article class="card c-papers" id="2026-09-03-maher-kallel-and-mohamed-el-louadi-measure-the-audit-burden-of-a">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-29">Aug 29</time><button class="copy" type="button" hidden data-link="../../2026-09-03/#2026-09-03-maher-kallel-and-mohamed-el-louadi-measure-the-audit-burden-of-a" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Maher Kallel and Mohamed El Louadi measure the audit burden of AI proofs</h2>
+    <p class="card-text"><a class="inl" href="https://arxiv.org/abs/2608.28997" rel="noopener">The paper</a> studies ten results an OpenAI lab published in August 2026 with Lean 4 certificates: kernel-checked proofs total 20.6 MB against 55.6 KB of statements needing human audit (379 to 1), yet those statements contain 218 bespoke definitions. Four weeks later, one result remained disputed over whether its formalization meant what it claimed.</p>
+    <figure class="media media-paper"><img src="../../assets/img/4b38c6cae4a44f49-480.webp" srcset="../../assets/img/4b38c6cae4a44f49-480.webp 480w, ../../assets/img/4b38c6cae4a44f49-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2608.28997" rel="noopener">arXiv:2608.28997</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-09-03-prove2me-launches-an-open-platform-where-ai-agents-formalize-mat">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -243,15 +253,6 @@
     <h2 class="card-title">Paul Reichert fixes instance search seeing through type synonyms in Lean</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14624" rel="noopener">Paul Reichert's merged PR</a> ensures that, during instance search, metavariables for instance-implicit arguments are only assigned values of the expected type, fixing <a class="inl" href="https://github.com/leanprover/lean4/issues/9077" rel="noopener">an issue</a> Sebastien Gouezel hit while formalizing Riemannian metrics in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. <a class="inl" href="https://github.com/leanprover/lean4/pull/14583" rel="noopener">A preparatory PR</a> brought a clear performance improvement with no Mathlib breakage observed. Affected Mathlib declarations were fixed with a backward compatibility option.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14624" rel="noopener">lean4#14624</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14583" rel="noopener">lean4#14583</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/issues/9077" rel="noopener">lean4#9077</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-08-15-lean-releases-nerodia-a-library-for-writing-python-modules-in-le">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-15">Aug 15</time><button class="copy" type="button" hidden data-link="../../2026-08-15/#2026-08-15-lean-releases-nerodia-a-library-for-writing-python-modules-in-le" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean releases Nerodia, a library for writing Python modules in Lean</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/nerodia" rel="noopener">Nerodia</a>, a Lean/Python FFI library inspired by PyO3, uses <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a>, Lean's build system, to build native Python modules in pure Lean and generates type stubs automatically. It is a work-in-progress with a very limited API, released primarily as a proof-of-concept and to obtain feedback on its design and build process.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/nerodia" rel="noopener">leanprover/nerodia</a></p>
   </div>
 </article>
 </div>
