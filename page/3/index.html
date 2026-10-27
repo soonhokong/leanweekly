@@ -32,6 +32,25 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 3</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-14">Sep 14</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4.34.0 fixes three kernel soundness issues found with AI testing</h2>
+    <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener">Lean 4.34.0</a>, released 2026-09-14, fixes three soundness issues found with AI adversarial testing and adds defensive kernel checks. bv_decide gets integrated with sym and <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> interactive modes and is up to six times faster, linters can carry state across commands, and lake lint gains a --code-quality mode emitting machine-readable JSON.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener">v4.34.0 release notes</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-14">Sep 14</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Son Ho and colleagues verify Rust code in Microsoft's SymCrypt with Lean</h2>
+    <p class="card-text">Using <a class="inl" href="https://arxiv.org/abs/2609.15648" rel="noopener">Aeneas</a>, which extracts a pure model of Rust code in Lean, a 237 KLOC Lean development establishes safety, panic-freedom, and functional correctness of 16.7 KLOC of Rust, including SHA-3 and ML-KEM ported from C. AI agents autonomously write proofs, which the Lean kernel independently verifies.</p>
+    <figure class="media media-paper"><img src="../../assets/img/7fcff038fb927884-480.webp" srcset="../../assets/img/7fcff038fb927884-480.webp 480w, ../../assets/img/7fcff038fb927884-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2609.15648" rel="noopener">arXiv:2609.15648</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-09-24-paper-ports-iris-a-concurrent-separation-logic-framework-to-lean">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -236,25 +255,6 @@
     <h2 class="card-title">Lean runtime now compiles mimalloc in and trims elaboration overhead</h2>
     <p class="card-text">Julia Markus Himmel merged a change that <a class="inl" href="https://github.com/leanprover/lean4/pull/15017" rel="noopener">compiles mimalloc as part of the Lean runtime</a>, and Sebastian Ullrich <a class="inl" href="https://github.com/leanprover/lean4/pull/14982" rel="noopener">moved rarely-updated Core.Context fields into a cold subobject</a> (mathlib4: -0.82% instructions, -2.03% wall-clock). Lean also updated to <a class="inl" href="https://github.com/leanprover/lean4/pull/15060" rel="noopener">mimalloc 3.4.5</a>, fixing a Windows memory leak, and CI changes should halve merge queue run times.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15017" rel="noopener">lean4#15017</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14982" rel="noopener">lean4#14982</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15060" rel="noopener">lean4#15060</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15123" rel="noopener">lean4#15123</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-17-wojciech-nawrocki-adds-an-html-type-and-html-like-syntax-to-lean">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-wojciech-nawrocki-adds-an-html-type-and-html-like-syntax-to-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Wojciech Nawrocki adds an HTML type and HTML-like syntax to Lean</h2>
-    <p class="card-text">Two merged pull requests add <code>Lean.Data.Html</code>, a type of HTML forests aimed primarily at authoring HTML, with a renderer that produces a String, plus HTML-like syntax with an elaborator into that type. Companion downstream-lean4 pull requests adopt the type and syntax throughout supported packages.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14935" rel="noopener">lean4#14935</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15002" rel="noopener">lean4#15002</a></p>
-  </div>
-</article>
-<article class="card c-papers" id="2026-09-17-greg-brockman-says-ai-makes-formally-verifying-all-software-poss">
-  <span class="avatar" aria-hidden="true">¶</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-14">Sep 14</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-greg-brockman-says-ai-makes-formally-verifying-all-software-poss" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Greg Brockman says AI makes formally verifying all software possible</h2>
-    <p class="card-text"><a class="inl" href="https://x.com/a16z/status/2099533700375662905" rel="noopener">Greg Brockman says</a> OpenAI pointed Astra at its own systems until it ran out of vulnerabilities to find, putting 25% of its production engineers on defense. Greg Brockman added: &quot;There are ideas, for example, formally verifying all of software, that are possible with AI.&quot;</p>
-    <figure class="media"><img src="../../assets/img/6e93ccb3482c6032-480.webp" srcset="../../assets/img/6e93ccb3482c6032-480.webp 480w, ../../assets/img/6e93ccb3482c6032-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="675" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: x.com/a16z</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/a16z/status/2099533700375662905" rel="noopener">@a16z on X</a></p>
   </div>
 </article>
 </div>

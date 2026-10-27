@@ -6,7 +6,23 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 26 Oct 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 27 Oct 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Harmonic brings Aristotle to code, starting with C and Verilog</title>
+<link>https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-brings-aristotle-to-code-starting-with-c-and-verilog</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-brings-aristotle-to-code-starting-with-c-and-verilog</guid>
+<pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;In an &lt;a class="inl" href="https://x.com/HarmonicMath/status/2115118879127351586" rel="noopener"&gt;October 27 post on X&lt;/a&gt;, Harmonic said it is building the AI that verifies code, arguing that AI is writing more code than anyone can review.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://x.com/HarmonicMath/status/2115118879127351586"&gt;@HarmonicMath on X&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Michael Stoll had Claude build a verified Lean 4 model of ratpoints</title>
+<link>https://leanweekly.news/2026-10-27/#2026-10-27-michael-stoll-had-claude-build-a-verified-lean-4-model-of-ratpoi</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-27/#2026-10-27-michael-stoll-had-claude-build-a-verified-lean-4-model-of-ratpoi</guid>
+<pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;Claude mirrored &lt;a class="inl" href="https://github.com/MichaelStollBayreuth/ratpoints" rel="noopener"&gt;ratpoints&lt;/a&gt;, Michael Stoll's C program that finds rational points on hyperelliptic curves, in Lean function by function and proved, as Comparator certified, that &lt;a class="inl" href="https://github.com/MichaelStollBayreuth/RatpointsLean" rel="noopener"&gt;the model&lt;/a&gt; meets a short specification. Michael Stoll called &lt;a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/583339-AI-authored-projects/topic/RatpointsLean/with/635501056" rel="noopener"&gt;the work&lt;/a&gt; token-intensive enough to use up a Max 20x subscription's weekly Opus 5.5 allowance within three to four days.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/MichaelStollBayreuth/RatpointsLean"&gt;MichaelStollBayreuth/RatpointsLean&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/583339-AI-authored-projects/topic/RatpointsLean/with/635501056"&gt;leanprover.zulipchat.com&lt;/a&gt;, &lt;a href="https://github.com/MichaelStollBayreuth/ratpoints"&gt;MichaelStollBayreuth/ratpoints&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Axiom Math formalizes the classification of finite simple groups in Lean</title>
 <link>https://leanweekly.news/2026-10-27/#2026-10-27-axiom-math-formalizes-the-classification-of-finite-simple-groups</link>
@@ -390,22 +406,6 @@
 <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;Using &lt;a class="inl" href="https://arxiv.org/abs/2609.15648" rel="noopener"&gt;Aeneas&lt;/a&gt;, which extracts a pure model of Rust code in Lean, a 237 KLOC Lean development establishes safety, panic-freedom, and functional correctness of 16.7 KLOC of Rust, including SHA-3 and ML-KEM ported from C. AI agents autonomously write proofs, which the Lean kernel independently verifies.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2609.15648"&gt;arXiv:2609.15648&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Paper ports Iris, a concurrent separation logic framework, to Lean</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-paper-ports-iris-a-concurrent-separation-logic-framework-to-lean</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-paper-ports-iris-a-concurrent-separation-logic-framework-to-lean</guid>
-<pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
-<category>Papers and events</category>
-<description>&lt;p&gt;Markus de Medeiros, Ralf Jung, Lars Birkedal and nine coauthors explore how Lean features like flexible metaprogramming and quotient types can simplify the design and usage of Iris, providing a &lt;a class="inl" href="https://arxiv.org/abs/2609.24252" rel="noopener"&gt;new implementation of the Iris proof mode&lt;/a&gt; with improved performance. Integration with &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; supports an application to probabilistic program verification.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2609.24252"&gt;arXiv:2609.24252&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Ten Claude Opus 5.5 agents produce a Lean-verified shortest-path algorithm, C-HD</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-ten-claude-opus-5-5-agents-produce-a-lean-verified-shortest-path</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-ten-claude-opus-5-5-agents-produce-a-lean-verified-shortest-path</guid>
-<pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://www.vals.ai/blogs/faster-shortest-path-algorithm" rel="noopener"&gt;Geby Jaff of Vals AI&lt;/a&gt; had 10 Claude Opus 5.5 agents coordinate on a message board; after about 15 hours and 733 messages they proposed C-HD, whose Lean proof (checked with the Lean Comparator tool) establishes a strict asymptotic improvement over n log n for a stated density of edges. The constants are enormous, so no practical speedup is established.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.vals.ai/blogs/faster-shortest-path-algorithm"&gt;vals.ai&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

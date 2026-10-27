@@ -6,6 +6,32 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-brings-aristotle-to-code-starting-with-c-and-verilog",
+   "url": "https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-brings-aristotle-to-code-starting-with-c-and-verilog",
+   "title": "Harmonic brings Aristotle to code, starting with C and Verilog",
+   "content_html": "<p>In an <a class=\"inl\" href=\"https://x.com/HarmonicMath/status/2115118879127351586\" rel=\"noopener\">October 27 post on X</a>, Harmonic said it is building the AI that verifies code, arguing that AI is writing more code than anyone can review.</p><p>Sources: <a href=\"https://x.com/HarmonicMath/status/2115118879127351586\">@HarmonicMath on X</a></p>",
+   "date_published": "2026-10-27T12:00:00Z",
+   "tags": [
+    "Verification",
+    "harmonic",
+    "aristotle",
+    "code verification"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-27/#2026-10-27-michael-stoll-had-claude-build-a-verified-lean-4-model-of-ratpoi",
+   "url": "https://leanweekly.news/2026-10-27/#2026-10-27-michael-stoll-had-claude-build-a-verified-lean-4-model-of-ratpoi",
+   "title": "Michael Stoll had Claude build a verified Lean 4 model of ratpoints",
+   "content_html": "<p>Claude mirrored <a class=\"inl\" href=\"https://github.com/MichaelStollBayreuth/ratpoints\" rel=\"noopener\">ratpoints</a>, Michael Stoll's C program that finds rational points on hyperelliptic curves, in Lean function by function and proved, as Comparator certified, that <a class=\"inl\" href=\"https://github.com/MichaelStollBayreuth/RatpointsLean\" rel=\"noopener\">the model</a> meets a short specification. Michael Stoll called <a class=\"inl\" href=\"https://leanprover.zulipchat.com/#narrow/channel/583339-AI-authored-projects/topic/RatpointsLean/with/635501056\" rel=\"noopener\">the work</a> token-intensive enough to use up a Max 20x subscription's weekly Opus 5.5 allowance within three to four days.</p><p>Sources: <a href=\"https://github.com/MichaelStollBayreuth/RatpointsLean\">MichaelStollBayreuth/RatpointsLean</a>, <a href=\"https://leanprover.zulipchat.com/#narrow/channel/583339-AI-authored-projects/topic/RatpointsLean/with/635501056\">leanprover.zulipchat.com</a>, <a href=\"https://github.com/MichaelStollBayreuth/ratpoints\">MichaelStollBayreuth/ratpoints</a></p>",
+   "date_published": "2026-10-27T12:00:00Z",
+   "tags": [
+    "Verification",
+    "software verification",
+    "claude",
+    "comparator"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-27/#2026-10-27-axiom-math-formalizes-the-classification-of-finite-simple-groups",
    "url": "https://leanweekly.news/2026-10-27/#2026-10-27-axiom-math-formalizes-the-classification-of-finite-simple-groups",
    "title": "Axiom Math formalizes the classification of finite simple groups in Lean",
@@ -627,32 +653,6 @@
     "cryptography",
     "rust",
     "aeneas"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-24/#2026-09-24-paper-ports-iris-a-concurrent-separation-logic-framework-to-lean",
-   "url": "https://leanweekly.news/2026-09-24/#2026-09-24-paper-ports-iris-a-concurrent-separation-logic-framework-to-lean",
-   "title": "Paper ports Iris, a concurrent separation logic framework, to Lean",
-   "content_html": "<p>Markus de Medeiros, Ralf Jung, Lars Birkedal and nine coauthors explore how Lean features like flexible metaprogramming and quotient types can simplify the design and usage of Iris, providing a <a class=\"inl\" href=\"https://arxiv.org/abs/2609.24252\" rel=\"noopener\">new implementation of the Iris proof mode</a> with improved performance. Integration with <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a> supports an application to probabilistic program verification.</p><p>Sources: <a href=\"https://arxiv.org/abs/2609.24252\">arXiv:2609.24252</a></p>",
-   "date_published": "2026-09-21T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "iris",
-    "separation logic",
-    "program verification"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-24/#2026-09-24-ten-claude-opus-5-5-agents-produce-a-lean-verified-shortest-path",
-   "url": "https://leanweekly.news/2026-09-24/#2026-09-24-ten-claude-opus-5-5-agents-produce-a-lean-verified-shortest-path",
-   "title": "Ten Claude Opus 5.5 agents produce a Lean-verified shortest-path algorithm, C-HD",
-   "content_html": "<p><a class=\"inl\" href=\"https://www.vals.ai/blogs/faster-shortest-path-algorithm\" rel=\"noopener\">Geby Jaff of Vals AI</a> had 10 Claude Opus 5.5 agents coordinate on a message board; after about 15 hours and 733 messages they proposed C-HD, whose Lean proof (checked with the Lean Comparator tool) establishes a strict asymptotic improvement over n log n for a stated density of edges. The constants are enormous, so no practical speedup is established.</p><p>Sources: <a href=\"https://www.vals.ai/blogs/faster-shortest-path-algorithm\">vals.ai</a></p>",
-   "date_published": "2026-09-20T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "ai agents",
-    "algorithms",
-    "shortest paths"
    ]
   }
  ]

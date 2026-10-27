@@ -30,8 +30,27 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Verification, page 2</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 50 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Verification, page 2</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 52 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-verification" id="2026-09-24-trivet-combines-llms-and-lean-to-validate-llvm-compiler-transfor">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../../../2026-09-24/#2026-09-24-trivet-combines-llms-and-lean-to-validate-llvm-compiler-transfor" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Trivet combines LLMs and Lean to validate LLVM compiler transformations</h2>
+    <p class="card-text">Chunhao Liao, Hongxu Xu, Xintong Zhou, Yizhou Zhang and Chengnian Sun present <a class="inl" href="https://arxiv.org/abs/2609.19583" rel="noopener">Trivet</a>, which verifies or refutes 147 of 148 LLVM transformations, including 60 loop-free transformations with symbolic bitwidths and 27 loop-containing cases. Every successful verdict is checked by the Lean kernel.</p>
+    <figure class="media media-paper"><img src="../../../../assets/img/59cd9fb630a2e480-480.webp" srcset="../../../../assets/img/59cd9fb630a2e480-480.webp 480w, ../../../../assets/img/59cd9fb630a2e480-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2609.19583" rel="noopener">arXiv:2609.19583</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-09-24-nasa-jet-propulsion-laboratory-formalizes-a-metrology-quantity-c">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-24">Sep 24</time><button class="copy" type="button" hidden data-link="../../../../2026-09-24/#2026-09-24-nasa-jet-propulsion-laboratory-formalizes-a-metrology-quantity-c" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">NASA Jet Propulsion Laboratory formalizes a metrology quantity calculus in Lean 4</h2>
+    <p class="card-text">NASA Jet Propulsion Laboratory's <a class="inl" href="https://github.com/nasa-jpl/PropertyKindCalculus" rel="noopener">PropertyKindCalculus</a> formalizes René Dybkær's ontology on property, extended with Flater's tracking of kinds of quantities, and is described as the first in which the quantity calculus itself, beyond the taxonomy around it, is a checked artifact. It includes catalogues for eleven of the thirteen ISO/IEC 80000 parts.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/nasa-jpl/PropertyKindCalculus" rel="noopener">nasa-jpl/PropertyKindCalculus</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-08-27-paul-butcher-builds-a-complete-production-todomvc-webapp-in-lean">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -237,25 +256,6 @@
     <h2 class="card-title">Ilya Sergey shows how to verify imperative Lean 4 programs with Velvet</h2>
     <p class="card-text"><a class="inl" href="https://proofsandintuitions.net/2026/01/21/multi-modal-verification-velvet/" rel="noopener">A Proofs and Intuitions post</a> walks through Velvet, a verifier embedded in Lean as a library and developed by VERSE Lab. Velvet discharges most proof obligations with SMT solvers (such as Z3 and cvc5) and tactics like <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>, then leaves the rest for interactive proof. In the example, Claude Code and Harmonic's Aristotle each finished the remaining proof.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://proofsandintuitions.net/2026/01/21/multi-modal-verification-velvet/" rel="noopener">proofsandintuitions.net</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-01-08-logical-intelligence-shares-ai-generated-verified-calculus-to-cp">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2025-12-25">Dec 25, 2025</time><button class="copy" type="button" hidden data-link="../../../../2026-01-08/#2026-01-08-logical-intelligence-shares-ai-generated-verified-calculus-to-cp" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Logical Intelligence shares AI-generated verified λ-calculus to CPS compiler in Lean</h2>
-    <p class="card-text"><a class="inl" href="https://x.com/logic_int/status/2004073560101593099" rel="noopener">Logical Intelligence posted on X</a> an AI-generated, formally verified compiler from λ-calculus to CPS, written in Lean4. The post explains formal verification as code that comes with a mathematical proof, checked by the computer, that it works correctly in all cases, not just the ones tested.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/logic_int/status/2004073560101593099" rel="noopener">@logic_int on X</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-10-15-trail-of-bits-proves-miden-core-library-arithmetic-correct-with">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-18">Sep 18</time><button class="copy" type="button" hidden data-link="../../../../2026-10-15/#2026-10-15-trail-of-bits-proves-miden-core-library-arithmetic-correct-with" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Trail of Bits proves Miden core library arithmetic correct with AI-generated Lean proofs</h2>
-    <p class="card-text">During an audit of the Miden VM, a zero-knowledge VM with its own assembly language, <a class="inl" href="https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/" rel="noopener">Trail of Bits</a> had agents build a Lean model of the VM executor, producing 95 correctness proofs covering all binary arithmetic components of the core library. The work identified two subtle bugs that the existing unit test suite did not catch.</p>
-    <figure class="media"><img src="../../../../assets/img/0b75ba473b865778-480.webp" srcset="../../../../assets/img/0b75ba473b865778-480.webp 480w, ../../../../assets/img/0b75ba473b865778-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="675" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: blog.trailofbits.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/" rel="noopener">blog.trailofbits.com</a></p>
   </div>
 </article>
 </div>

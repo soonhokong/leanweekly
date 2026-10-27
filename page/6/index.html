@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 6</h1></header>
 <div class="stream">
+<article class="card c-papers" id="2026-08-06-leo-de-moura-gives-floc-2026-talk-on-lean-s-design-and-impact">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-26">Jul 26</time><button class="copy" type="button" hidden data-link="../../2026-08-06/#2026-08-06-leo-de-moura-gives-floc-2026-talk-on-lean-s-design-and-impact" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura gives FLoC 2026 talk on Lean's design and impact</h2>
+    <p class="card-text">Leo de Moura presented &quot;<a class="inl" href="https://leodemoura.github.io/static/floc26/" rel="noopener">The Lean Theorem Prover: Design, Evolution, and Impact</a>&quot; at FLoC 2026 in Lisbon on July 26, 2026. Kim Morrison and Leo de Moura followed with <a class="inl" href="https://leodemoura.github.io/static/ijcar26/" rel="noopener">a talk at IJCAR</a> (Monday July 27 at 11:50 am) on <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>, a new extensible tactic based on SMT techniques.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/floc26/" rel="noopener">leodemoura.github.io</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-23-sebastian-ullrich-proposes-prefix-trees-in-oleans-to-speed-up-le">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-11">Jul 11</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-sebastian-ullrich-proposes-prefix-trees-in-oleans-to-speed-up-le" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich proposes prefix trees in oleans to speed up Lean imports</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">An open pull request</a> by Sebastian Ullrich replaces hash maps built at import time with per-module prefix trees precomputed when oleans are written, cutting <code>import Lean</code> wall clock by 28% and mathlib's import phase by 21%, for about 6% larger stdlib oleans. A separate pull request by Sebastian Ullrich <a class="inl" href="https://github.com/leanprover/lean4/pull/7786" rel="noopener">upgrading Lean to mimalloc 3</a> was merged.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14362" rel="noopener">lean4#14362</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/7786" rel="noopener">lean4#7786</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-07-23-sebastian-graf-adds-frame-inference-and-contract-syntax-to-lean">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -230,26 +248,6 @@
     <h2 class="card-title">Lean 4.33 gives Float a pure Lean model, making float proofs possible</h2>
     <p class="card-text">Julia Markus Himmel added <a class="inl" href="https://github.com/leanprover/lean4/pull/14079" rel="noopener">Float.Model</a>, a <a class="inl" href="https://juliahimmel.de/blog/float-qanda/" rel="noopener">pure Lean implementation of 64-bit floating-point numbers</a>, and made Float a wrapper around it, so float operations are no longer opaque to the kernel while compiled code still uses native operations. Users can now prove 0.1 + 0.2 != 0.3 with rfl.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://juliahimmel.de/blog/float-qanda/" rel="noopener">juliahimmel.de</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14079" rel="noopener">lean4#14079</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14091" rel="noopener">lean4#14091</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14110" rel="noopener">lean4#14110</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-05-28-the-mathlib-initiative-launches-formal-frontier-for-open-source">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-28">May 28</time><button class="copy" type="button" hidden data-link="../../2026-05-28/#2026-05-28-the-mathlib-initiative-launches-formal-frontier-for-open-source" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">The Mathlib Initiative launches Formal Frontier for open-source AI autoformalization</h2>
-    <p class="card-text"><a class="inl" href="https://mathlib-initiative.org/formal-frontier/" rel="noopener">Formal Frontier</a> is a new project focused on responsible, scalable, and open-source AI-driven autoformalization of mathematics, with XTX Markets supporting it. Its initial phase covers a community autoformalization specification, open-source tooling, and autoformalized texts chosen to fill gaps in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>'s existing coverage.</p>
-    <figure class="media"><img src="../../assets/img/72d2b4ea6b4f6fca-480.webp" srcset="../../assets/img/72d2b4ea6b4f6fca-480.webp 480w, ../../assets/img/72d2b4ea6b4f6fca-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="675" alt="Mathlib Initiative" loading="lazy" decoding="async"><figcaption class="credit">Image: mathlib-initiative.org</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://mathlib-initiative.org/formal-frontier/" rel="noopener">mathlib-initiative.org</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-07-09-logos-research-proves-an-f-program-and-its-python-rewrite-equiva">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-06">Jul 6</time><button class="copy" type="button" hidden data-link="../../2026-07-09/#2026-07-09-logos-research-proves-an-f-program-and-its-python-rewrite-equiva" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Logos Research proves an F# program and its Python rewrite equivalent</h2>
-    <p class="card-text">In a <a class="inl" href="https://www.logosresearch.ai/news/migrating-code-by-proof/" rel="noopener">Logos Research prototype</a>, a deterministic translator turns both the original and the rewrite into Lean, and a theorem prover proves the two compute the same result on every input. For iCPPI, a portfolio-insurance algorithm, the machine-checked proof ran to some 22,000 characters, with floats modelled as exact real numbers.</p>
-    <figure class="media"><img src="../../assets/img/8c4a218d82e2ec70-480.webp" srcset="../../assets/img/8c4a218d82e2ec70-480.webp 480w, ../../assets/img/8c4a218d82e2ec70-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="630" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: logosresearch.ai</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.logosresearch.ai/news/migrating-code-by-proof/" rel="noopener">logosresearch.ai</a></p>
   </div>
 </article>
 </div>

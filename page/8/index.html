@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 8</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-07-09-wojciech-r-owski-opens-lean-pull-requests-for-stateful-linters-a">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-30">Jun 30</time><button class="copy" type="button" hidden data-link="../../2026-07-09/#2026-07-09-wojciech-r-owski-opens-lean-pull-requests-for-stateful-linters-a" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Wojciech Różowski opens Lean pull requests for stateful linters and unusedVariables hint</h2>
+    <p class="card-text">A now-closed pull request adds <a class="inl" href="https://github.com/leanprover/lean4/pull/14225" rel="noopener">stateful linters</a>: command linters that thread state from one command to the next, so a linter can accumulate information across a file. A merged pull request adds a hint to the <a class="inl" href="https://github.com/leanprover/lean4/pull/14259" rel="noopener">unusedVariables linter</a>, suggesting to rename the unreferenced name with an underscore.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14225" rel="noopener">lean4#14225</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14259" rel="noopener">lean4#14259</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-09-mac-malone-merges-new-lake-apis-for-dynamic-libraries-and-linkin">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-03">Jul 3</time><button class="copy" type="button" hidden data-link="../../2026-07-09/#2026-07-09-mac-malone-merges-new-lake-apis-for-dynamic-libraries-and-linkin" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Mac Malone merges new Lake APIs for dynamic libraries and linking</h2>
+    <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> adds <code>Dynlib.runtimeOnlyDeps</code>, for transitive dependencies that should not be linked but must be preloaded when precompiling, plus <a class="inl" href="https://github.com/leanprover/lean4/pull/14220" rel="noopener">an API for retrieving the complete set of core dynamic libraries</a>. A third change lets <a class="inl" href="https://github.com/leanprover/lean4/pull/14219" rel="noopener">custom build targets</a> link shared libraries or executables from a module without copying the code in <code>LeanExe.recBuildExe</code>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14254" rel="noopener">lean4#14254</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14220" rel="noopener">lean4#14220</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14219" rel="noopener">lean4#14219</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14240" rel="noopener">lean4#14240</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-07-09-dwarkesh-patel-relays-idea-of-ais-forking-mathlib-into-parallel">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -232,25 +250,6 @@
     <h2 class="card-title">Leo de Moura presents scalable software verification in Lean at SViL 2026</h2>
     <p class="card-text">At SViL 2026 at INRIA Paris on April 20, 2026, Leo de Moura <a class="inl" href="https://leodemoura.github.io/static/svil26/" rel="noopener">presented SymM</a>, a monad for symbolic simulation and VC generation (turning code and specifications into proof obligations). On one challenge it ran about 100× faster than MetaM, and a Velvet port beat Dafny on 24 of 27 benchmarks.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/svil26/" rel="noopener">leodemoura.github.io</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-04-30-signal-shot-launches-to-formally-verify-the-signal-protocol-and">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-20">Apr 20</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-signal-shot-launches-to-formally-verify-the-signal-protocol-and" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Signal Shot launches to formally verify the Signal protocol and app in Lean</h2>
-    <p class="card-text">The Beneficial AI Foundation, Signal, and the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a> launched <a class="inl" href="https://www.beneficialaifoundation.org/signal-shot" rel="noopener">Signal Shot</a> on April 20, 2026, at the Software Verification in Lean workshop in Paris, with a talk by Max Tegmark and others. <a class="inl" href="https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/" rel="noopener">Leo de Moura writes</a> that the effort targets libsignal's Rust implementation, translated to Lean with <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a>, Son Ho's Rust-to-Lean functional translator.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/" rel="noopener">leodemoura.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://www.beneficialaifoundation.org/signal-shot" rel="noopener">beneficialaifoundation.org</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-04-30-sidharth-hariharan-maryna-viazovska-and-coauthors-report-on-form">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-25">Apr 25</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-sidharth-hariharan-maryna-viazovska-and-coauthors-report-on-form" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sidharth Hariharan, Maryna Viazovska and coauthors report on formalizing 8-dimensional sphere packing</h2>
-    <p class="card-text"><a class="inl" href="https://arxiv.org/pdf/2604.23468" rel="noopener">The paper</a> describes how Maryna Viazovska's 2016 solution of the sphere packing problem in dimension 8 was formally verified in Lean in February 2026, with the final stages done by Math, Inc.'s autoformalization model Gauss. It discusses the techniques used, the collaboration between humans and Gauss, and remaining project objectives.</p>
-    <figure class="media media-paper"><img src="../../assets/img/bb9c06cd7fb300d3-480.webp" srcset="../../assets/img/bb9c06cd7fb300d3-480.webp 480w, ../../assets/img/bb9c06cd7fb300d3-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/pdf/2604.23468" rel="noopener">arXiv:2604.23468</a></p>
   </div>
 </article>
 </div>

@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 2</h1></header>
 <div class="stream">
+<article class="card c-verification" id="2026-10-23-giulio-rebuffo-s-janus-verifies-compiled-go-arm64-machine-code-i">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-23">Oct 23</time><button class="copy" type="button" hidden data-link="../../2026-10-23/#2026-10-23-giulio-rebuffo-s-janus-verifies-compiled-go-arm64-machine-code-i" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Giulio rebuffo's Janus verifies compiled Go arm64 machine code in Lean 4</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/Giulio2002/Janus" rel="noopener">Janus</a>, an early work in progress, decodes instructions in Lean and does not trust the Go compiler, linker, or any source-level reasoning. Every load and store must fall inside a caller-provided allocation, and Go runtime panic stubs (bounds checks, nil, divide) are named outcomes, so &quot;this function never panics&quot; is provable.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/Giulio2002/Janus" rel="noopener">Giulio2002/Janus</a></p>
+  </div>
+</article>
+<article class="card c-papers" id="2026-10-22-leo-de-moura-publishes-miniforth-a-lean-tutorial-for-programming">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-22">Oct 22</time><button class="copy" type="button" hidden data-link="../../2026-10-22/#2026-10-22-leo-de-moura-publishes-miniforth-a-lean-tutorial-for-programming" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura publishes MiniForth, a Lean tutorial for programming language semantics</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leodemoura/MiniForth" rel="noopener">MiniForth</a>'s Forth-inspired teaching language, whose programs act on a stack, has arithmetic, DUP, SWAP, DROP, calls, and conditionals. The tutorial embeds it as Lean functions (a shallow embedding) and as data (a deep embedding), proves program equivalences, and adds a second pass where <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> handles routine reasoning; the build checks the examples and proofs.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leodemoura/MiniForth" rel="noopener">leodemoura/MiniForth</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -238,25 +256,6 @@
     <p class="card-text"><a class="inl" href="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/" rel="noopener">OpenAI said 10,000 autonomous AI agents</a> found a singularity in the Navier-Stokes equations in three dimensions, with the result formally checked in Lean. Hours earlier, Tristan Buckmaster at New York University and Levent Alpöge at Anthropic reported Lean-verified proofs for three related results, including one for the Euler equations.</p>
     <figure class="media"><img src="../../assets/img/b0037b410f2738c4-480.webp" srcset="../../assets/img/b0037b410f2738c4-480.webp 480w, ../../assets/img/b0037b410f2738c4-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="630" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: quantamagazine.org</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/" rel="noopener">quantamagazine.org</a><span class="dot" aria-hidden="true">·</span><a href="https://blog.computationalcomplexity.org/2026/09/navier-stokes-and-lean.html" rel="noopener">blog.computationalcomplexity.org</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-14">Sep 14</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean 4.34.0 fixes three kernel soundness issues found with AI testing</h2>
-    <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener">Lean 4.34.0</a>, released 2026-09-14, fixes three soundness issues found with AI adversarial testing and adds defensive kernel checks. bv_decide gets integrated with sym and <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> interactive modes and is up to six times faster, linters can carry state across commands, and lake lint gains a --code-quality mode emitting machine-readable JSON.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener">v4.34.0 release notes</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-14">Sep 14</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Son Ho and colleagues verify Rust code in Microsoft's SymCrypt with Lean</h2>
-    <p class="card-text">Using <a class="inl" href="https://arxiv.org/abs/2609.15648" rel="noopener">Aeneas</a>, which extracts a pure model of Rust code in Lean, a 237 KLOC Lean development establishes safety, panic-freedom, and functional correctness of 16.7 KLOC of Rust, including SHA-3 and ML-KEM ported from C. AI agents autonomously write proofs, which the Lean kernel independently verifies.</p>
-    <figure class="media media-paper"><img src="../../assets/img/7fcff038fb927884-480.webp" srcset="../../assets/img/7fcff038fb927884-480.webp 480w, ../../assets/img/7fcff038fb927884-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2609.15648" rel="noopener">arXiv:2609.15648</a></p>
   </div>
 </article>
 </div>
