@@ -30,7 +30,7 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean news, Oct 23 to Oct 29, 2026</h1><p class="page-blurb">19 items published in the 7 days to Thursday, Oct 29, 2026. Most important first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean news, Oct 23 to Oct 29, 2026</h1><p class="page-blurb">22 items published in the 7 days to Thursday, Oct 29, 2026. Most important first.</p></header>
 <div class="stream">
 <article class="card c-ai" id="2026-10-25-resolution-uses-claude-fable-5-1-to-formalize-hironaka-s-resolut">
   <span class="avatar" aria-hidden="true">∃</span>
@@ -94,6 +94,35 @@
     <h2 class="card-title">Ziqing Xiang formalizes Haemers' conjecture for the generalized spectrum in Lean</h2>
     <p class="card-text"><a class="inl" href="https://github.com/ziqingxiang/dgs" rel="noopener">The Mathlib-based formalization</a> contains the accompanying paper's whole proof that the proportion of n-vertex graphs determined by their generalized spectrum (the spectra of the adjacency matrices of a graph and its complement) tends to 1 as n grows. It also proves the results the paper quotes from the literature, including Kneser's addition theorem.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-23-000011&amp;version=1" rel="noopener">palomar-registry.org</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/ziqingxiang/dgs" rel="noopener">ziqingxiang/dgs</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-10-26-zhe-ye-and-coauthors-propose-agentic-verified-optimization-in-le">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-20">Oct 20</time><button class="copy" type="button" hidden data-link="../../2026-10-26/#2026-10-26-zhe-ye-and-coauthors-propose-agentic-verified-optimization-in-le" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Zhe Ye and coauthors propose agentic verified optimization in Lean 4</h2>
+    <p class="card-text">Agents return faster code plus a Lean proof that it equals the original, which serves as the specification. The agents did so for 156 of 189 Verina functions, and 92 proved rewrites sped up 47 of 51 scenarios in 17 applications the authors' <a class="inl" href="https://aqueduct.verina.io/" rel="noopener">Aqueduct framework</a> migrated to Lean from C, C++, Go, or Rust.</p>
+    <figure class="media"><img src="../../assets/img/029d15185d4dd5e1-480.webp" srcset="../../assets/img/029d15185d4dd5e1-480.webp 480w, ../../assets/img/029d15185d4dd5e1-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="630" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: aqueduct.verina.io</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://aqueduct.verina.io/" rel="noopener">aqueduct.verina.io</a><span class="dot" aria-hidden="true">·</span><a href="https://arxiv.org/abs/2610.30188" rel="noopener">arXiv:2610.30188</a><span class="dot" aria-hidden="true">·</span><a href="https://x.com/0xlf_/status/2113752716254331352" rel="noopener">@0xlf_ on X</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-26-cedar-policy-publishes-lean-parser-generator-which-generates-val">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-26">Oct 26</time><button class="copy" type="button" hidden data-link="../../2026-10-26/#2026-10-26-cedar-policy-publishes-lean-parser-generator-which-generates-val" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">cedar-policy publishes lean-parser-generator, which generates validated LR(1) parsers in Lean</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/cedar-policy/lean-parser-generator" rel="noopener">The tool</a> turns an LR(1) grammar in a .lig file into a compiled Lean parser, plus certificates that Lean checks to prove the parser agrees with a generated dependent specification. It follows the a-posteriori validation architecture also used by Menhir's verified back end, so the automaton construction and code generator need not be trusted.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/cedar-policy/lean-parser-generator" rel="noopener">cedar-policy/lean-parser-generator</a></p>
+  </div>
+</article>
+<article class="card c-papers" id="2026-10-26-software-verification-in-lean-comes-to-stanford-university-on-no">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-26">Oct 26</time><button class="copy" type="button" hidden data-link="../../2026-10-26/#2026-10-26-software-verification-in-lean-comes-to-stanford-university-on-no" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Software Verification in Lean comes to Stanford University on November 7</h2>
+    <p class="card-text">Co-organized by the Beneficial AI Foundation and the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, <a class="inl" href="https://x.com/leanprover/status/2114845590739931589" rel="noopener">the day of public lectures</a> covers Rust verification with the <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a> framework, low-level software verification, and formally verified OS kernels. Speakers include Max Tegmark, Shaowei Lin, Leo de Moura, Jonathan Protzenko, Andres Erbsen, and Mike Dodds; a livestream will be available, with recordings afterward.</p>
+    <figure class="media"><img src="../../assets/img/624336b218905db2-480.webp" srcset="../../assets/img/624336b218905db2-480.webp 480w, ../../assets/img/624336b218905db2-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1080" height="565" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: x.com/leanprover</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/leanprover/status/2114845590739931589" rel="noopener">@leanprover on X</a><span class="dot" aria-hidden="true">·</span><a href="https://functional.cafe/@leanprover/117509551640325237" rel="noopener">functional.cafe</a><span class="dot" aria-hidden="true">·</span><a href="https://bsky.app/profile/lean-lang.org/post/3mysr7bbod22j" rel="noopener">bsky.app</a></p>
   </div>
 </article>
 <article class="card c-verification" id="2026-10-25-thomas-coratger-announces-ethlib-a-lean-4-library-for-ethereum">

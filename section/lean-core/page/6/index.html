@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 6</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 148 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 6</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 149 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-05-14-kim-morrison-splits-lean-s-implicit-transparency-level-into-impl">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-05">Apr 5</time><button class="copy" type="button" hidden data-link="../../../../2026-05-14/#2026-05-14-kim-morrison-splits-lean-s-implicit-transparency-level-into-impl" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Kim Morrison splits Lean's implicit transparency level into implicit and instances</h2>
+    <p class="card-text">A merged pull request by Kim Morrison makes the <a class="inl" href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">transparency hierarchy</a> none &lt; reducible &lt; instances &lt; implicit &lt; default &lt; all, so @[implicit_reducible] annotations no longer have the side effects @[instance_reducible] has. A separate open pull request by Leo de Moura enables the <a class="inl" href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">backward.isDefEq.respectTransparency.types</a> option by default.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">lean4#13637</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">lean4#13283</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-04-09-leo-de-moura-proposes-stricter-transparency-default-for-lean-s-d">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -238,15 +247,6 @@
     <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">Willem Vanhulle</a> is putting together a TUI (a terminal-only user interface) for Lean4 users, built with Ratatui. The TUI has several display modes with different display styles for on-going mathematical proof development, and documentation is available.</p>
     <figure class="media"><img src="../../../../assets/img/1842d4fc105abdb3-480.webp" srcset="../../../../assets/img/1842d4fc105abdb3-480.webp 480w, ../../../../assets/img/1842d4fc105abdb3-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="396" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">LinkedIn post</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-01-22-lean-repository-adds-symm-symbolic-simulation-benchmark-from-lea">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-22">Jan 22</time><button class="copy" type="button" hidden data-link="../../../../2026-01-22/#2026-01-22-lean-repository-adds-symm-symbolic-simulation-benchmark-from-lea" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean repository adds SymM symbolic simulation benchmark from Lean@Google Hackathon</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/blob/ef1e080386afea1599ffe8891433a440875d18e6/tests/bench/sym/add_sub_cancel.lean" rel="noopener">A new benchmark in the lean4 test suite</a>, described as a synthetic benchmark from the Lean@Google Hackathon, compares a MetaM tactic solution with SymM solutions, including a &quot;SymM Solution + reusing simplifier cache&quot; variant, on generated command sequences of up to 700 iterations, also timing kernel checking.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/blob/ef1e080386afea1599ffe8891433a440875d18e6/tests/bench/sym/add_sub_cancel.lean" rel="noopener">leanprover/lean4</a></p>
   </div>
 </article>
 </div>

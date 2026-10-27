@@ -32,6 +32,33 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 12</h1></header>
 <div class="stream">
+<article class="card c-verification" id="2026-02-26-rutgers-group-formalizes-the-upcoming-ieee-p3109-floating-point">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-19">Feb 19</time><button class="copy" type="button" hidden data-link="../../2026-02-26/#2026-02-26-rutgers-group-formalizes-the-upcoming-ieee-p3109-floating-point" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Rutgers group formalizes the upcoming IEEE-P3109 floating-point standard in Lean</h2>
+    <p class="card-text"><a class="inl" href="https://mathstodon.xyz/@santoshgnag/116094965862661574" rel="noopener">Santosh Nagarakatte's group built FLoPS</a>, which formalizes the upcoming IEEE-P3109 standard for low-precision floating-point arithmetic in Lean. The work found errors in the draft standard, which were reported to the working group and fixed, and established properties of algorithms such as Fast2Sum in the context of P3109.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://mathstodon.xyz/@santoshgnag/116094965862661574" rel="noopener">mathstodon.xyz</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-02-19-nick-palladinos-publishes-smtlibdsl-a-type-safe-smt-lib-dsl-for">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-19">Feb 19</time><button class="copy" type="button" hidden data-link="../../2026-02-19/#2026-02-19-nick-palladinos-publishes-smtlibdsl-a-type-safe-smt-lib-dsl-for" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Nick Palladinos publishes SmtLibDsl, a type-safe SMT-LIB DSL for Lean 4</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/palladin/SmtLibDsl" rel="noopener">SmtLibDsl</a> is a domain-specific language embedded in Lean 4 for writing SMT-LIB2 constraint programs, with backends including Z3, cvc5, Kissat, and CaDiCaL. Bitvector widths and enabled SMT theories are tracked at compile time, and Lean validates every decoded SAT model.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/palladin/SmtLibDsl" rel="noopener">palladin/SmtLibDsl</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-02-19-lean-v4-29-0-rc1-changes-how-isdefeq-handles-transparency-on-imp">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-18">Feb 18</time><button class="copy" type="button" hidden data-link="../../2026-02-19/#2026-02-19-lean-v4-29-0-rc1-changes-how-isdefeq-handles-transparency-on-imp" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean v4.29.0-rc1 changes how isDefEq handles transparency on implicit arguments</h2>
+    <p class="card-text">Leo de Moura's <a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean#12179</a>, merged on 2026-02-16, stops isDefEq from raising transparency to .default for implicit arguments, a behavior that caused scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. Kim Morrison advises downstream projects not to move to v4.29.0-rc1 yet, and <a class="inl" href="https://github.com/leanprover/lean4/pull/12561" rel="noopener">a later PR</a> documents the design rationale behind the transparency hierarchy.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/113486-announce/topic/releases.20of.20new.20Lean.20versions/near/574617729" rel="noopener">leanprover.zulipchat.com</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12561" rel="noopener">lean4#12561</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -226,33 +253,6 @@
     <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">Willem Vanhulle</a> is putting together a TUI (a terminal-only user interface) for Lean4 users, built with Ratatui. The TUI has several display modes with different display styles for on-going mathematical proof development, and documentation is available.</p>
     <figure class="media"><img src="../../assets/img/1842d4fc105abdb3-480.webp" srcset="../../assets/img/1842d4fc105abdb3-480.webp 480w, ../../assets/img/1842d4fc105abdb3-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="396" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">LinkedIn post</a></p>
-  </div>
-</article>
-<article class="card c-papers" id="2026-01-22-leo-de-moura-presents-the-state-of-lean-at-lean-together-2026">
-  <span class="avatar" aria-hidden="true">¶</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-22">Jan 22</time><button class="copy" type="button" hidden data-link="../../2026-01-22/#2026-01-22-leo-de-moura-presents-the-state-of-lean-at-lean-together-2026" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura presents The State of Lean at Lean Together 2026</h2>
-    <p class="card-text">Leo de Moura, Chief Architect of the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, <a class="inl" href="https://leodemoura.github.io/files/LeanTogether2026.pdf" rel="noopener">reviewed 2025 at Lean Together</a> in January 2026: 12 releases, a new compiler fully implemented in Lean, and the <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> proof-automation tactic. The talk also said 2026 will be the last year with significant changes to the language and standard library.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/files/LeanTogether2026.pdf" rel="noopener">slides (pdf)</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-01-22-lean-repository-adds-symm-symbolic-simulation-benchmark-from-lea">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-22">Jan 22</time><button class="copy" type="button" hidden data-link="../../2026-01-22/#2026-01-22-lean-repository-adds-symm-symbolic-simulation-benchmark-from-lea" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean repository adds SymM symbolic simulation benchmark from Lean@Google Hackathon</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/blob/ef1e080386afea1599ffe8891433a440875d18e6/tests/bench/sym/add_sub_cancel.lean" rel="noopener">A new benchmark in the lean4 test suite</a>, described as a synthetic benchmark from the Lean@Google Hackathon, compares a MetaM tactic solution with SymM solutions, including a &quot;SymM Solution + reusing simplifier cache&quot; variant, on generated command sequences of up to 700 iterations, also timing kernel checking.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/blob/ef1e080386afea1599ffe8891433a440875d18e6/tests/bench/sym/add_sub_cancel.lean" rel="noopener">leanprover/lean4</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-01-22-ilya-sergey-shows-how-to-verify-imperative-lean-4-programs-with">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-21">Jan 21</time><button class="copy" type="button" hidden data-link="../../2026-01-22/#2026-01-22-ilya-sergey-shows-how-to-verify-imperative-lean-4-programs-with" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Ilya Sergey shows how to verify imperative Lean 4 programs with Velvet</h2>
-    <p class="card-text"><a class="inl" href="https://proofsandintuitions.net/2026/01/21/multi-modal-verification-velvet/" rel="noopener">A Proofs and Intuitions post</a> walks through Velvet, a verifier embedded in Lean as a library and developed by VERSE Lab. Velvet discharges most proof obligations with SMT solvers (such as Z3 and cvc5) and tactics like <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>, then leaves the rest for interactive proof. In the example, Claude Code and Harmonic's Aristotle each finished the remaining proof.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://proofsandintuitions.net/2026/01/21/multi-modal-verification-velvet/" rel="noopener">proofsandintuitions.net</a></p>
   </div>
 </article>
 </div>

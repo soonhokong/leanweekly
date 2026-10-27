@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 5</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 148 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 5</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 149 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-05-14-lean-publishes-lean-workbench-an-experimental-online-environment">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time><button class="copy" type="button" hidden data-link="../../../../2026-05-14/#2026-05-14-lean-publishes-lean-workbench-an-experimental-online-environment" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean publishes Lean Workbench, an experimental online environment for Lean</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/lean-workbench" rel="noopener">leanprover/lean-workbench repository</a> aims to provide familiar (VS Code with the Lean 4 extension) and novel interfaces to Lean online, giving each user an isolated Code Server instance inside a bubblewrap sandbox. The README warns the project is in progress and experimental, with a security audit forthcoming.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench" rel="noopener">leanprover/lean-workbench</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-05-14-lake-adds-a-requiresmodulesystem-option-to-flag-non-module-impor">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -238,15 +247,6 @@
     <h2 class="card-title">Leo de Moura merges Sym framework and transparency changes into Lean</h2>
     <p class="card-text">Leo de Moura merged pull requests adding <a class="inl" href="https://github.com/leanprover/lean4/pull/13289" rel="noopener">Sym.Arith infrastructure</a> for arithmetic normalization, <a class="inl" href="https://github.com/leanprover/lean4/pull/13317" rel="noopener">fixing the sym canonicalizer</a>, and adding a backward.isDefEq.respectTransparency.types option. An <a class="inl" href="https://github.com/leanprover/lean4/pull/13280" rel="noopener">opt-in linter</a> also warns about rfl simp theorems that only hold at higher transparency, part of a broader effort to ensure isDefEq respects transparency levels.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13289" rel="noopener">lean4#13289</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13317" rel="noopener">lean4#13317</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13280" rel="noopener">lean4#13280</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13271" rel="noopener">lean4#13271</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13272" rel="noopener">lean4#13272</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13273" rel="noopener">lean4#13273</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13281" rel="noopener">lean4#13281</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-kim-morrison-splits-lean-s-implicit-transparency-level-into-impl">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-05">Apr 5</time><button class="copy" type="button" hidden data-link="../../../../2026-05-14/#2026-05-14-kim-morrison-splits-lean-s-implicit-transparency-level-into-impl" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Kim Morrison splits Lean's implicit transparency level into implicit and instances</h2>
-    <p class="card-text">A merged pull request by Kim Morrison makes the <a class="inl" href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">transparency hierarchy</a> none &lt; reducible &lt; instances &lt; implicit &lt; default &lt; all, so @[implicit_reducible] annotations no longer have the side effects @[instance_reducible] has. A separate open pull request by Leo de Moura enables the <a class="inl" href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">backward.isDefEq.respectTransparency.types</a> option by default.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">lean4#13637</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">lean4#13283</a></p>
   </div>
 </article>
 </div>

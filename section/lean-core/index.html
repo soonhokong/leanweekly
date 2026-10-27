@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 148 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 149 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-26-cedar-policy-publishes-lean-parser-generator-which-generates-val">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-26">Oct 26</time><button class="copy" type="button" hidden data-link="../../2026-10-26/#2026-10-26-cedar-policy-publishes-lean-parser-generator-which-generates-val" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">cedar-policy publishes lean-parser-generator, which generates validated LR(1) parsers in Lean</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/cedar-policy/lean-parser-generator" rel="noopener">The tool</a> turns an LR(1) grammar in a .lig file into a compiled Lean parser, plus certificates that Lean checks to prove the parser agrees with a generated dependent specification. It follows the a-posteriori validation architecture also used by Menhir's verified back end, so the automaton construction and code generator need not be trusted.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/cedar-policy/lean-parser-generator" rel="noopener">cedar-policy/lean-parser-generator</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -237,15 +246,6 @@
     <h2 class="card-title">Lake gains a samply profiling command, copied path dependencies, and separate codegen</h2>
     <p class="card-text">Kim Morrison's <code>lake samply</code> command records a CPU profile of a Lean executable and serves it to Firefox Profiler, and Mac Malone added a <code>copy</code> option for path dependencies and split <code>leanir</code> code generation into a separate <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> job. Mac Malone also published <a class="inl" href="https://nerodia.lean-lang.org/" rel="noopener">Nerodia</a>, a work-in-progress library for Lean/Python FFI inspired by PyO3.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12545" rel="noopener">lean4#12545</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15142" rel="noopener">lean4#15142</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14906" rel="noopener">lean4#14906</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15231" rel="noopener">lean4#15231</a><span class="dot" aria-hidden="true">·</span><a href="https://nerodia.lean-lang.org/" rel="noopener">nerodia.lean-lang.org</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean publishes hex, an aggregator for verified computational algebra libraries</h2>
-    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/hex" rel="noopener">leanprover/hex repository</a> bundles the released hex libraries for verified computational algebra in Lean 4, including LLL lattice reduction, integer polynomial factorization, graph canonical labelling via a formalization of nauty, and algebraic numbers. Each computational library is <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>-free, with Mathlib correspondence proofs in separate theory libraries.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/hex" rel="noopener">leanprover/hex</a></p>
   </div>
 </article>
 </div>

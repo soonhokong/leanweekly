@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 3</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 148 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 3</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 149 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-08-15-paul-reichert-fixes-instance-search-seeing-through-type-synonyms">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-15">Aug 15</time><button class="copy" type="button" hidden data-link="../../../../2026-08-15/#2026-08-15-paul-reichert-fixes-instance-search-seeing-through-type-synonyms" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Paul Reichert fixes instance search seeing through type synonyms in Lean</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14624" rel="noopener">Paul Reichert's merged PR</a> ensures that, during instance search, metavariables for instance-implicit arguments are only assigned values of the expected type, fixing <a class="inl" href="https://github.com/leanprover/lean4/issues/9077" rel="noopener">an issue</a> Sebastien Gouezel hit while formalizing Riemannian metrics in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. <a class="inl" href="https://github.com/leanprover/lean4/pull/14583" rel="noopener">A preparatory PR</a> brought a clear performance improvement with no Mathlib breakage observed. Affected Mathlib declarations were fixed with a backward compatibility option.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14624" rel="noopener">lean4#14624</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14583" rel="noopener">lean4#14583</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/issues/9077" rel="noopener">lean4#9077</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-08-15-lean-releases-nerodia-a-library-for-writing-python-modules-in-le">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -238,15 +247,6 @@
     <h2 class="card-title">Kim Morrison releases first packages of Hex, a computational algebra library</h2>
     <p class="card-text"><a class="inl" href="https://github.com/kim-em/hex" rel="noopener">The first Hex packages</a> provide dense matrices, row reduction, Gram-Schmidt, and a verified implementation of the LLL lattice basis reduction algorithm, plus a version that delegates computation to the C library fplll while verifying a certificate. Specifications are written first, then AIs implement code and proofs, and <a class="inl" href="https://kim-em.github.io/blog/2026-7-7-lattice-basis-reduction-using-the-hex-lean-library/" rel="noopener">a blog post</a> runs the Coppersmith attack on RSA.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://kim-em.github.io/blog/2026-7-7-lattice-basis-reduction-using-the-hex-lean-library/" rel="noopener">kim-em.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/kim-em/hex" rel="noopener">kim-em/hex</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-07-16-sebastian-ullrich-merges-editor-whitespace-fix-and-deterministic">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-07">Jul 7</time><button class="copy" type="button" hidden data-link="../../../../2026-07-16/#2026-07-16-sebastian-ullrich-merges-editor-whitespace-fix-and-deterministic" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Ullrich merges editor whitespace fix and deterministic kernel recursion limit</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13956" rel="noopener">Lean now reuses tactic results</a> when only whitespace after a tactic changes, so progress is kept when preparing to type the next tactic. The <a class="inl" href="https://github.com/leanprover/lean4/pull/11958" rel="noopener">kernel's deep recursion error</a> is now bounded by the maxRecDepth option instead of the physical stack size, which is a breaking change that may require explicit maxRecDepth bumps.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13956" rel="noopener">lean4#13956</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/11958" rel="noopener">lean4#11958</a></p>
   </div>
 </article>
 </div>

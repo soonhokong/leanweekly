@@ -6,6 +6,32 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-26/#2026-10-26-cedar-policy-publishes-lean-parser-generator-which-generates-val",
+   "url": "https://leanweekly.news/2026-10-26/#2026-10-26-cedar-policy-publishes-lean-parser-generator-which-generates-val",
+   "title": "cedar-policy publishes lean-parser-generator, which generates validated LR(1) parsers in Lean",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/cedar-policy/lean-parser-generator\" rel=\"noopener\">The tool</a> turns an LR(1) grammar in a .lig file into a compiled Lean parser, plus certificates that Lean checks to prove the parser agrees with a generated dependent specification. It follows the a-posteriori validation architecture also used by Menhir's verified back end, so the automaton construction and code generator need not be trusted.</p><p>Sources: <a href=\"https://github.com/cedar-policy/lean-parser-generator\">cedar-policy/lean-parser-generator</a></p>",
+   "date_published": "2026-10-26T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "parsing",
+    "verification",
+    "cedar"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-26/#2026-10-26-software-verification-in-lean-comes-to-stanford-university-on-no",
+   "url": "https://leanweekly.news/2026-10-26/#2026-10-26-software-verification-in-lean-comes-to-stanford-university-on-no",
+   "title": "Software Verification in Lean comes to Stanford University on November 7",
+   "content_html": "<p>Co-organized by the Beneficial AI Foundation and the <a class=\"inl\" href=\"https://lean-fro.org/\" rel=\"noopener\">Lean FRO</a>, <a class=\"inl\" href=\"https://x.com/leanprover/status/2114845590739931589\" rel=\"noopener\">the day of public lectures</a> covers Rust verification with the <a class=\"inl\" href=\"https://github.com/AeneasVerif/aeneas\" rel=\"noopener\">Aeneas</a> framework, low-level software verification, and formally verified OS kernels. Speakers include Max Tegmark, Shaowei Lin, Leo de Moura, Jonathan Protzenko, Andres Erbsen, and Mike Dodds; a livestream will be available, with recordings afterward.</p><p>Sources: <a href=\"https://x.com/leanprover/status/2114845590739931589\">@leanprover on X</a>, <a href=\"https://functional.cafe/@leanprover/117509551640325237\">functional.cafe</a>, <a href=\"https://bsky.app/profile/lean-lang.org/post/3mysr7bbod22j\">bsky.app</a></p>",
+   "date_published": "2026-10-26T12:00:00Z",
+   "tags": [
+    "Papers and events",
+    "event",
+    "software verification",
+    "aeneas"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-25/#2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified",
    "url": "https://leanweekly.news/2026-10-25/#2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified",
    "title": "Joachim Breitner releases con-agua, a Lean checker with verified x86 assembly",
@@ -302,6 +328,19 @@
     "autoformalization",
     "coding agents",
     "openai"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-26/#2026-10-26-zhe-ye-and-coauthors-propose-agentic-verified-optimization-in-le",
+   "url": "https://leanweekly.news/2026-10-26/#2026-10-26-zhe-ye-and-coauthors-propose-agentic-verified-optimization-in-le",
+   "title": "Zhe Ye and coauthors propose agentic verified optimization in Lean 4",
+   "content_html": "<p>Agents return faster code plus a Lean proof that it equals the original, which serves as the specification. The agents did so for 156 of 189 Verina functions, and 92 proved rewrites sped up 47 of 51 scenarios in 17 applications the authors' <a class=\"inl\" href=\"https://aqueduct.verina.io/\" rel=\"noopener\">Aqueduct framework</a> migrated to Lean from C, C++, Go, or Rust.</p><p>Sources: <a href=\"https://aqueduct.verina.io/\">aqueduct.verina.io</a>, <a href=\"https://arxiv.org/abs/2610.30188\">arXiv:2610.30188</a>, <a href=\"https://x.com/0xlf_/status/2113752716254331352\">@0xlf_ on X</a></p>",
+   "date_published": "2026-10-20T12:00:00Z",
+   "tags": [
+    "Verification",
+    "ai agents",
+    "verified optimization",
+    "aqueduct"
    ]
   },
   {
@@ -614,45 +653,6 @@
     "release",
     "vcgen",
     "lake"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-15/#2026-10-15-sebastian-ullrich-removes-lean-s-255-object-field-limit-per-cons",
-   "url": "https://leanweekly.news/2026-10-15/#2026-10-15-sebastian-ullrich-removes-lean-s-255-object-field-limit-per-cons",
-   "title": "Sebastian Ullrich removes Lean's 255-object-field limit per constructor",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15516\" rel=\"noopener\">A merged pull request by Sebastian Ullrich</a> removes the limit of 255 object fields per constructor, and thus per structure. When a constructor has more, the compiler keeps the first 254 in the constructor object and stores the rest in a chain of spill objects, with one pointer followed per spill object on access.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/15516\">lean4#15516</a></p>",
-   "date_published": "2026-10-12T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "compiler",
-    "structures",
-    "runtime"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-15/#2026-10-15-sebastian-ullrich-merges-two-fixes-to-how-lean-modules-export-th",
-   "url": "https://leanweekly.news/2026-10-15/#2026-10-15-sebastian-ullrich-merges-two-fixes-to-how-lean-modules-export-th",
-   "title": "Sebastian Ullrich merges two fixes to how Lean modules export theorems",
-   "content_html": "<p>In Lean, an <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15559\" rel=\"noopener\">asynchronously elaborated theorem's exported info</a> in a <code>module</code> is now available as soon as its signature is, instead of after its proof is elaborated. <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15563\" rel=\"noopener\">A second change</a> stops modules from exporting constants such as <code>foo.eq_1</code> realized only inside a proof, so such proofs no longer trigger downstream rebuilds.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/15559\">lean4#15559</a>, <a href=\"https://github.com/leanprover/lean4/pull/15563\">lean4#15563</a></p>",
-   "date_published": "2026-10-09T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "lean4",
-    "modules",
-    "performance"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-15/#2026-10-15-ai-proof-search-agent-resolves-nine-open-erd-s-problems-verified",
-   "url": "https://leanweekly.news/2026-10-15/#2026-10-15-ai-proof-search-agent-resolves-nine-open-erd-s-problems-verified",
-   "title": "AI proof-search agent resolves nine open Erdős problems, verified in Lean",
-   "content_html": "<p><a class=\"inl\" href=\"https://www.science.org/doi/10.1126/science.aej2213\" rel=\"noopener\">A paper in Science</a> by George Tsoukalas, Swarat Chaudhuri and coauthors describes an agent for formal proof search that autonomously resolved nine of 353 open Erdős problems and proved 44 of 492 On-Line Encyclopedia of Integer Sequences conjectures. A basic agent alternating LLM-based generation with Lean-based verification replicated the Erdős successes.</p><p>Sources: <a href=\"https://www.science.org/doi/10.1126/science.aej2213\">science.org</a></p>",
-   "date_published": "2026-10-08T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "erdos problems",
-    "proof search",
-    "llm"
    ]
   }
  ]

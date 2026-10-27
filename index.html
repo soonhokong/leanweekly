@@ -32,6 +32,25 @@
 <div class="frame"><div class="timeline">
 <h1 class="sr-only">Lean Weekly: the latest news</h1>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-26-cedar-policy-publishes-lean-parser-generator-which-generates-val">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-26">Oct 26</time><button class="copy" type="button" hidden data-link="./2026-10-26/#2026-10-26-cedar-policy-publishes-lean-parser-generator-which-generates-val" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">cedar-policy publishes lean-parser-generator, which generates validated LR(1) parsers in Lean</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/cedar-policy/lean-parser-generator" rel="noopener">The tool</a> turns an LR(1) grammar in a .lig file into a compiled Lean parser, plus certificates that Lean checks to prove the parser agrees with a generated dependent specification. It follows the a-posteriori validation architecture also used by Menhir's verified back end, so the automaton construction and code generator need not be trusted.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/cedar-policy/lean-parser-generator" rel="noopener">cedar-policy/lean-parser-generator</a></p>
+  </div>
+</article>
+<article class="card c-papers" id="2026-10-26-software-verification-in-lean-comes-to-stanford-university-on-no">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-26">Oct 26</time><button class="copy" type="button" hidden data-link="./2026-10-26/#2026-10-26-software-verification-in-lean-comes-to-stanford-university-on-no" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Software Verification in Lean comes to Stanford University on November 7</h2>
+    <p class="card-text">Co-organized by the Beneficial AI Foundation and the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, <a class="inl" href="https://x.com/leanprover/status/2114845590739931589" rel="noopener">the day of public lectures</a> covers Rust verification with the <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a> framework, low-level software verification, and formally verified OS kernels. Speakers include Max Tegmark, Shaowei Lin, Leo de Moura, Jonathan Protzenko, Andres Erbsen, and Mike Dodds; a livestream will be available, with recordings afterward.</p>
+    <figure class="media"><img src="./assets/img/624336b218905db2-480.webp" srcset="./assets/img/624336b218905db2-480.webp 480w, ./assets/img/624336b218905db2-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1080" height="565" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: x.com/leanprover</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/leanprover/status/2114845590739931589" rel="noopener">@leanprover on X</a><span class="dot" aria-hidden="true">·</span><a href="https://functional.cafe/@leanprover/117509551640325237" rel="noopener">functional.cafe</a><span class="dot" aria-hidden="true">·</span><a href="https://bsky.app/profile/lean-lang.org/post/3mysr7bbod22j" rel="noopener">bsky.app</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -232,25 +251,6 @@
     <h2 class="card-title">Resolution uses Claude Fable 5.1 to formalize Hironaka's resolution of singularities</h2>
     <p class="card-text"><a class="inl" href="https://github.com/resolutionorg/hironaka" rel="noopener">The library</a>, written in Lean 4 over <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>, proves Hironaka's main theorems in characteristic zero and their refinements by Kollár, Włodarczyk and Bierstone–Milman, for algebraic schemes and analytic manifolds and spaces. Chris Elliott at Resolution directed and audited the automated formalization process, and the code is licensed under Apache License 2.0.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/resolutionorg/hironaka" rel="noopener">resolutionorg/hironaka</a><span class="dot" aria-hidden="true">·</span><a href="https://resolutionorg.github.io/hironaka/" rel="noopener">resolutionorg.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://reservoir.lean-lang.org/@resolutionorg/hironaka" rel="noopener">reservoir.lean-lang.org</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-20">Oct 20</time><button class="copy" type="button" hidden data-link="./2026-10-20/#2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Joris Roos formalizes OpenAI's L³ trilinear Hilbert transform bound with coding agents</h2>
-    <p class="card-text">The <a class="inl" href="https://github.com/roos-j/lean-trilinearht" rel="noopener">Lean 4 formalization</a>, about 194,000 lines of code, verifies the main result of a preprint OpenAI made public on October 6, 2026 without an accompanying formalization. The theorem statement is human-written, while Codex and Claude coding agents, following a blueprint generated by GPT-6 Astra Pro, autoformalized the proof over about eight days.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/roos-j/lean-trilinearht" rel="noopener">roos-j/lean-trilinearht</a><span class="dot" aria-hidden="true">·</span><a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-20-000001&amp;version=1" rel="noopener">palomar-registry.org</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-20">Oct 20</time><button class="copy" type="button" hidden data-link="./2026-10-26/#2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">John Zhuoyang Ye and Jens Palsberg verify fault-tolerant quantum compilation in Lean</h2>
-    <p class="card-text"><a class="inl" href="https://arxiv.org/abs/2610.31694" rel="noopener">The paper</a> introduces QPPM, a language for Pauli-product measurement programs, and verifies lowering of Clifford+T circuits to QPPM and an optimizer that eliminates measurements, fuses and reorders rotations, and schedules logical rounds. On QASMBench, verified fusion and scheduling reduce logical measurement depth by a median of 17.9%.</p>
-    <figure class="media media-paper"><img src="./assets/img/da15946acfcb2ce6-480.webp" srcset="./assets/img/da15946acfcb2ce6-480.webp 480w, ./assets/img/da15946acfcb2ce6-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="949" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.31694" rel="noopener">arXiv:2610.31694</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2610.31694.html" rel="noopener">paperswithlean.com</a></p>
   </div>
 </article>
 </div>

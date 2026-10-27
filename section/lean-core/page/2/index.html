@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 2</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 148 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 2</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 149 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../../../2026-09-17/#2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean publishes hex, an aggregator for verified computational algebra libraries</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/hex" rel="noopener">leanprover/hex repository</a> bundles the released hex libraries for verified computational algebra in Lean 4, including LLL lattice reduction, integer polynomial factorization, graph canonical labelling via a formalization of nauty, and algebraic numbers. Each computational library is <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>-free, with Mathlib correspondence proofs in separate theory libraries.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/hex" rel="noopener">leanprover/hex</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -242,15 +251,6 @@
     <p class="card-text">A &quot;<a class="inl" href="https://hackmd.io/@f6l0w8kXTciyFFqVRXVh5A/rJActgtIMx" rel="noopener">Kernel bug hunt</a>&quot; document explains what counts as a Lean kernel soundness bug and how to validate a candidate before reporting it, using lake check, <a class="inl" href="https://github.com/leanprover/comparator" rel="noopener">comparator</a> (the validation tool) or its web interface. Starting with Lean v4.35.0, the distribution bundles four additional kernels, two of them formally verified.</p>
     <figure class="media"><img src="../../../../assets/img/155f46d5e27bbc17-480.webp" srcset="../../../../assets/img/155f46d5e27bbc17-480.webp 480w, ../../../../assets/img/155f46d5e27bbc17-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="630" alt="Kernel bug hunt - HackMD" loading="lazy" decoding="async"><figcaption class="credit">Image: hackmd.io</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://hackmd.io/@f6l0w8kXTciyFFqVRXVh5A/rJActgtIMx" rel="noopener">hackmd.io</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-08-15-paul-reichert-fixes-instance-search-seeing-through-type-synonyms">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-15">Aug 15</time><button class="copy" type="button" hidden data-link="../../../../2026-08-15/#2026-08-15-paul-reichert-fixes-instance-search-seeing-through-type-synonyms" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Paul Reichert fixes instance search seeing through type synonyms in Lean</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14624" rel="noopener">Paul Reichert's merged PR</a> ensures that, during instance search, metavariables for instance-implicit arguments are only assigned values of the expected type, fixing <a class="inl" href="https://github.com/leanprover/lean4/issues/9077" rel="noopener">an issue</a> Sebastien Gouezel hit while formalizing Riemannian metrics in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. <a class="inl" href="https://github.com/leanprover/lean4/pull/14583" rel="noopener">A preparatory PR</a> brought a clear performance improvement with no Mathlib breakage observed. Affected Mathlib declarations were fixed with a backward compatibility option.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14624" rel="noopener">lean4#14624</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14583" rel="noopener">lean4#14583</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/issues/9077" rel="noopener">lean4#9077</a></p>
   </div>
 </article>
 </div>

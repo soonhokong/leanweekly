@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 4</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 148 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 4</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 149 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-07-16-sebastian-ullrich-merges-editor-whitespace-fix-and-deterministic">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-07">Jul 7</time><button class="copy" type="button" hidden data-link="../../../../2026-07-16/#2026-07-16-sebastian-ullrich-merges-editor-whitespace-fix-and-deterministic" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich merges editor whitespace fix and deterministic kernel recursion limit</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13956" rel="noopener">Lean now reuses tactic results</a> when only whitespace after a tactic changes, so progress is kept when preparing to type the next tactic. The <a class="inl" href="https://github.com/leanprover/lean4/pull/11958" rel="noopener">kernel's deep recursion error</a> is now bounded by the maxRecDepth option instead of the physical stack size, which is a breaking change that may require explicit maxRecDepth bumps.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13956" rel="noopener">lean4#13956</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/11958" rel="noopener">lean4#11958</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-07-09-leo-de-moura-adds-rw-and-case-tactics-to-lean-s-sym-mode">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -237,15 +246,6 @@
     <h2 class="card-title">Kyle Miller replaces Lean's tactic configuration system with a faster one</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13651" rel="noopener">A merged Lean pull request</a> by Kyle Miller adds a tactic configuration system that supports custom configuration syntaxes, and on a simple benchmark configuration evaluation takes 6.2% of the time it used to. <a class="inl" href="https://github.com/leanprover/lean4/pull/13446" rel="noopener">A separate pull request</a> by Kyle Miller makes InfoView hovers include information about specific metavariables.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13651" rel="noopener">lean4#13651</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13446" rel="noopener">lean4#13446</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-lean-publishes-lean-workbench-an-experimental-online-environment">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time><button class="copy" type="button" hidden data-link="../../../../2026-05-14/#2026-05-14-lean-publishes-lean-workbench-an-experimental-online-environment" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean publishes Lean Workbench, an experimental online environment for Lean</h2>
-    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/lean-workbench" rel="noopener">leanprover/lean-workbench repository</a> aims to provide familiar (VS Code with the Lean 4 extension) and novel interfaces to Lean online, giving each user an isolated Code Server instance inside a bubblewrap sandbox. The README warns the project is in progress and experimental, with a security audit forthcoming.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench" rel="noopener">leanprover/lean-workbench</a></p>
   </div>
 </article>
 </div>
