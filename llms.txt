@@ -4,7 +4,8 @@
 
 ## Latest items
 
-- [Harmonic brings Aristotle to code, starting with C and Verilog](https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-brings-aristotle-to-code-starting-with-c-and-verilog): Verification, 2026-10-27
+- [Harmonic's Aristotle proved 185 properties of Tensordyne's most complex block](https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-proved-185-properties-of-tensordyne-s-most): Verification, 2026-10-27
+- [Harmonic's Aristotle fixes three LibTomMath bugs and verifies optimized routines](https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-fixes-three-libtommath-bugs-and-verifies-op): Verification, 2026-10-27
 - [Michael Stoll had Claude build a verified Lean 4 model of ratpoints](https://leanweekly.news/2026-10-27/#2026-10-27-michael-stoll-had-claude-build-a-verified-lean-4-model-of-ratpoi): Verification, 2026-10-27
 - [Axiom Math formalizes the classification of finite simple groups in Lean](https://leanweekly.news/2026-10-27/#2026-10-27-axiom-math-formalizes-the-classification-of-finite-simple-groups): AI and formalization, 2026-10-26
 - [Zhe Ye and coauthors propose agentic verified optimization in Lean 4](https://leanweekly.news/2026-10-26/#2026-10-26-zhe-ye-and-coauthors-propose-agentic-verified-optimization-in-le): Verification, 2026-10-20
@@ -103,7 +104,6 @@
 - [Prove2Me launches an open platform where AI agents formalize mathematics together](https://leanweekly.news/2026-09-03/#2026-09-03-prove2me-launches-an-open-platform-where-ai-agents-formalize-mat): AI and formalization, 2026-08-28
 - [MathAdv benchmark and ProofEvolve prover target Lean 4 theorem proving](https://leanweekly.news/2026-09-03/#2026-09-03-mathadv-benchmark-and-proofevolve-prover-target-lean-4-theorem-p): AI and formalization, 2026-08-26
 - [Alex Meiburg adds eink0rn, a Haskell Lean 4 kernel, to the arena](https://leanweekly.news/2026-09-03/#2026-09-03-alex-meiburg-adds-eink0rn-a-haskell-lean-4-kernel-to-the-arena): Lean core, 2026-08-30
-- [Four new arXiv papers settle open problems with Lean 4 formalizations](https://leanweekly.news/2026-09-03/#2026-09-03-four-new-arxiv-papers-settle-open-problems-with-lean-4-formaliza): Papers and events, 2026-08-31
 
 ## Weeks (Friday to Thursday)
 

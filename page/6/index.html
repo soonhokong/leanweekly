@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 6</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-08-06-sebastian-graf-extends-lean-s-def-contracts-with-requires-and-as">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-30">Jul 30</time><button class="copy" type="button" hidden data-link="../../2026-08-06/#2026-08-06-sebastian-graf-extends-lean-s-def-contracts-with-requires-and-as" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Graf extends Lean's def contracts with requires and assert</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14602" rel="noopener">Merged Lean pull requests</a> by Sebastian Graf name the precondition clause of a def contract <code>requires</code>, pairing with <code>ensures</code>, let <code>requires</code> and <code>invariant</code> bind assertion arguments such as a state monad's state, and add an <code>assert</code> element to <code>do</code> notation that <code>vcgen</code> proves as a verification condition while doing nothing at runtime.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14602" rel="noopener">lean4#14602</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14589" rel="noopener">lean4#14589</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14603" rel="noopener">lean4#14603</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14614" rel="noopener">lean4#14614</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-08-06-leo-de-moura-gives-floc-2026-talk-on-lean-s-design-and-impact">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -239,15 +248,6 @@
     <h2 class="card-title">Kim Morrison releases first packages of Hex, a computational algebra library</h2>
     <p class="card-text"><a class="inl" href="https://github.com/kim-em/hex" rel="noopener">The first Hex packages</a> provide dense matrices, row reduction, Gram-Schmidt, and a verified implementation of the LLL lattice basis reduction algorithm, plus a version that delegates computation to the C library fplll while verifying a certificate. Specifications are written first, then AIs implement code and proofs, and <a class="inl" href="https://kim-em.github.io/blog/2026-7-7-lattice-basis-reduction-using-the-hex-lean-library/" rel="noopener">a blog post</a> runs the Coppersmith attack on RSA.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://kim-em.github.io/blog/2026-7-7-lattice-basis-reduction-using-the-hex-lean-library/" rel="noopener">kim-em.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/kim-em/hex" rel="noopener">kim-em/hex</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-06-25-lean-4-33-gives-float-a-pure-lean-model-making-float-proofs-poss">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-19">Jun 19</time><button class="copy" type="button" hidden data-link="../../2026-06-25/#2026-06-25-lean-4-33-gives-float-a-pure-lean-model-making-float-proofs-poss" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean 4.33 gives Float a pure Lean model, making float proofs possible</h2>
-    <p class="card-text">Julia Markus Himmel added <a class="inl" href="https://github.com/leanprover/lean4/pull/14079" rel="noopener">Float.Model</a>, a <a class="inl" href="https://juliahimmel.de/blog/float-qanda/" rel="noopener">pure Lean implementation of 64-bit floating-point numbers</a>, and made Float a wrapper around it, so float operations are no longer opaque to the kernel while compiled code still uses native operations. Users can now prove 0.1 + 0.2 != 0.3 with rfl.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://juliahimmel.de/blog/float-qanda/" rel="noopener">juliahimmel.de</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14079" rel="noopener">lean4#14079</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14091" rel="noopener">lean4#14091</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14110" rel="noopener">lean4#14110</a></p>
   </div>
 </article>
 </div>

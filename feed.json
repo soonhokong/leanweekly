@@ -6,16 +6,29 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
-   "id": "https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-brings-aristotle-to-code-starting-with-c-and-verilog",
-   "url": "https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-brings-aristotle-to-code-starting-with-c-and-verilog",
-   "title": "Harmonic brings Aristotle to code, starting with C and Verilog",
-   "content_html": "<p>In an <a class=\"inl\" href=\"https://x.com/HarmonicMath/status/2115118879127351586\" rel=\"noopener\">October 27 post on X</a>, Harmonic said it is building the AI that verifies code, arguing that AI is writing more code than anyone can review.</p><p>Sources: <a href=\"https://x.com/HarmonicMath/status/2115118879127351586\">@HarmonicMath on X</a></p>",
+   "id": "https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-proved-185-properties-of-tensordyne-s-most",
+   "url": "https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-proved-185-properties-of-tensordyne-s-most",
+   "title": "Harmonic's Aristotle proved 185 properties of Tensordyne's most complex block",
+   "content_html": "<p><a class=\"inl\" href=\"https://www.harmonic.fun/\" rel=\"noopener\">Aristotle</a>, an AI that formally verifies software and hardware, also refuted 56 properties of the 12.2 million gate-equivalent block, each with a reproducible counterexample, exposing bugs up to 110,000 cycles after reset. Counting earlier Aristotle runs on sub-blocks, <a class=\"inl\" href=\"https://www.harmonic.fun/aristotle/case-studies/tensordyne/\" rel=\"noopener\">Tensordyne</a> found 8 bugs early in its next chip's design cycle.</p><p>Sources: <a href=\"https://www.harmonic.fun/aristotle/case-studies/tensordyne/\">harmonic.fun</a></p>",
    "date_published": "2026-10-27T12:00:00Z",
    "tags": [
     "Verification",
     "harmonic",
     "aristotle",
-    "code verification"
+    "hardware"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-fixes-three-libtommath-bugs-and-verifies-op",
+   "url": "https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-fixes-three-libtommath-bugs-and-verifies-op",
+   "title": "Harmonic's Aristotle fixes three LibTomMath bugs and verifies optimized routines",
+   "content_html": "<p>Aristotle, <a class=\"inl\" href=\"https://www.harmonic.fun/\" rel=\"noopener\">Harmonic's</a> AI that formally verifies software, found and repaired three bugs in <a class=\"inl\" href=\"https://www.harmonic.fun/aristotle/case-studies/libtommath/\" rel=\"noopener\">LibTomMath 1.2.0</a>, which supplies large-integer arithmetic to Tcl and Dropbear SSH. Aristotle then optimized two arithmetic routines, making modular exponentiation 31–38% faster in benchmarks, and proved them against the repaired code's specifications for results, memory safety, errors, and stored values.</p><p>Sources: <a href=\"https://www.harmonic.fun/aristotle/case-studies/libtommath/\">harmonic.fun</a></p>",
+   "date_published": "2026-10-27T12:00:00Z",
+   "tags": [
+    "Verification",
+    "aristotle",
+    "harmonic",
+    "c verification"
    ]
   },
   {
@@ -640,19 +653,6 @@
     "release",
     "kernel",
     "soundness"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-24/#2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w",
-   "url": "https://leanweekly.news/2026-09-24/#2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w",
-   "title": "Son Ho and colleagues verify Rust code in Microsoft's SymCrypt with Lean",
-   "content_html": "<p>Using <a class=\"inl\" href=\"https://arxiv.org/abs/2609.15648\" rel=\"noopener\">Aeneas</a>, which extracts a pure model of Rust code in Lean, a 237 KLOC Lean development establishes safety, panic-freedom, and functional correctness of 16.7 KLOC of Rust, including SHA-3 and ML-KEM ported from C. AI agents autonomously write proofs, which the Lean kernel independently verifies.</p><p>Sources: <a href=\"https://arxiv.org/abs/2609.15648\">arXiv:2609.15648</a></p>",
-   "date_published": "2026-09-14T12:00:00Z",
-   "tags": [
-    "Verification",
-    "cryptography",
-    "rust",
-    "aeneas"
    ]
   }
  ]

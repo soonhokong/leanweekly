@@ -8,12 +8,20 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Tue, 27 Oct 2026 12:00:00 +0000</lastBuildDate>
 <item>
-<title>Harmonic brings Aristotle to code, starting with C and Verilog</title>
-<link>https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-brings-aristotle-to-code-starting-with-c-and-verilog</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-brings-aristotle-to-code-starting-with-c-and-verilog</guid>
+<title>Harmonic's Aristotle proved 185 properties of Tensordyne's most complex block</title>
+<link>https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-proved-185-properties-of-tensordyne-s-most</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-proved-185-properties-of-tensordyne-s-most</guid>
 <pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
-<description>&lt;p&gt;In an &lt;a class="inl" href="https://x.com/HarmonicMath/status/2115118879127351586" rel="noopener"&gt;October 27 post on X&lt;/a&gt;, Harmonic said it is building the AI that verifies code, arguing that AI is writing more code than anyone can review.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://x.com/HarmonicMath/status/2115118879127351586"&gt;@HarmonicMath on X&lt;/a&gt;&lt;/p&gt;</description>
+<description>&lt;p&gt;&lt;a class="inl" href="https://www.harmonic.fun/" rel="noopener"&gt;Aristotle&lt;/a&gt;, an AI that formally verifies software and hardware, also refuted 56 properties of the 12.2 million gate-equivalent block, each with a reproducible counterexample, exposing bugs up to 110,000 cycles after reset. Counting earlier Aristotle runs on sub-blocks, &lt;a class="inl" href="https://www.harmonic.fun/aristotle/case-studies/tensordyne/" rel="noopener"&gt;Tensordyne&lt;/a&gt; found 8 bugs early in its next chip's design cycle.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.harmonic.fun/aristotle/case-studies/tensordyne/"&gt;harmonic.fun&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Harmonic's Aristotle fixes three LibTomMath bugs and verifies optimized routines</title>
+<link>https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-fixes-three-libtommath-bugs-and-verifies-op</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-fixes-three-libtommath-bugs-and-verifies-op</guid>
+<pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;Aristotle, &lt;a class="inl" href="https://www.harmonic.fun/" rel="noopener"&gt;Harmonic's&lt;/a&gt; AI that formally verifies software, found and repaired three bugs in &lt;a class="inl" href="https://www.harmonic.fun/aristotle/case-studies/libtommath/" rel="noopener"&gt;LibTomMath 1.2.0&lt;/a&gt;, which supplies large-integer arithmetic to Tcl and Dropbear SSH. Aristotle then optimized two arithmetic routines, making modular exponentiation 31–38% faster in benchmarks, and proved them against the repaired code's specifications for results, memory safety, errors, and stored values.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.harmonic.fun/aristotle/case-studies/libtommath/"&gt;harmonic.fun&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Michael Stoll had Claude build a verified Lean 4 model of ratpoints</title>
@@ -398,14 +406,6 @@
 <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
 <category>Lean core</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener"&gt;Lean 4.34.0&lt;/a&gt;, released 2026-09-14, fixes three soundness issues found with AI adversarial testing and adds defensive kernel checks. bv_decide gets integrated with sym and &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener"&gt;grind&lt;/a&gt; interactive modes and is up to six times faster, linters can carry state across commands, and lake lint gains a --code-quality mode emitting machine-readable JSON.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/"&gt;v4.34.0 release notes&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Son Ho and colleagues verify Rust code in Microsoft's SymCrypt with Lean</title>
-<link>https://leanweekly.news/2026-09-24/#2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-24/#2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w</guid>
-<pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;Using &lt;a class="inl" href="https://arxiv.org/abs/2609.15648" rel="noopener"&gt;Aeneas&lt;/a&gt;, which extracts a pure model of Rust code in Lean, a 237 KLOC Lean development establishes safety, panic-freedom, and functional correctness of 16.7 KLOC of Rust, including SHA-3 and ML-KEM ported from C. AI agents autonomously write proofs, which the Lean kernel independently verifies.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2609.15648"&gt;arXiv:2609.15648&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
