@@ -6,6 +6,32 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-28/#2026-10-28-scott-armstrong-and-zohar-komargodski-formalize-the-positive-mea",
+   "url": "https://leanweekly.news/2026-10-28/#2026-10-28-scott-armstrong-and-zohar-komargodski-formalize-the-positive-mea",
+   "title": "Scott Armstrong and Zohar Komargodski formalize the positive-measure KAM theorem in Lean",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/scottnarmstrong/KAM-dev\" rel=\"noopener\">headline theorem</a> is proved: for a nearly-integrable Hamiltonian with a small enough perturbation, most of phase space is filled by invariant tori carrying quasi-periodic motion. Agents prove the frozen statements (approved line by line, never edited); 11 of 22 are proved so far, with 73,724 of an estimated 117,000 lines of Lean.</p><p>Sources: <a href=\"https://github.com/scottnarmstrong/KAM-dev\">scottnarmstrong/KAM-dev</a></p>",
+   "date_published": "2026-10-28T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "formalization",
+    "kam theorem",
+    "agents"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-28/#2026-10-28-open-source-desktop-os-zenos-releases-first-preview-with-lean-pr",
+   "url": "https://leanweekly.news/2026-10-28/#2026-10-28-open-source-desktop-os-zenos-releases-first-preview-with-lean-pr",
+   "title": "Open-source desktop OS ZENOS releases first preview with Lean-proved security decisions",
+   "content_html": "<p><a class=\"inl\" href=\"https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/ZENOS.3A.20OS.20security.20decisions.20proved.20in.20Lean.204/with/635560572\" rel=\"noopener\">ZENOS</a>'s services ask zenos-decide, built from the same Lean definitions as <a class=\"inl\" href=\"https://github.com/zenos-org/zenos/tree/main/formal\" rel=\"noopener\">the proofs</a>, whether a file opens, content may reach a printer or AI, and a send is allowed, treating missing or unreadable answers as refusals. The theorems rest only on Lean's standard axioms, but the <a class=\"inl\" href=\"https://github.com/zenos-org/zenos/releases/tag/v0.1.0-preview\" rel=\"noopener\">unaudited preview</a> is not for real sensitive data.</p><p>Sources: <a href=\"https://github.com/zenos-org/zenos/blob/main/docs/FORMAL_VERIFICATION.md\">zenos-org/zenos</a>, <a href=\"https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/ZENOS.3A.20OS.20security.20decisions.20proved.20in.20Lean.204/with/635560572\">leanprover.zulipchat.com</a>, <a href=\"https://github.com/zenos-org/zenos/releases/tag/v0.1.0-preview\">zenos v0.1.0-preview</a></p>",
+   "date_published": "2026-10-28T12:00:00Z",
+   "tags": [
+    "Verification",
+    "security",
+    "operating systems",
+    "authorization"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-28/#2026-10-28-anthropic-s-claude-generates-lean-proof-of-subexponential-determ",
    "url": "https://leanweekly.news/2026-10-28/#2026-10-28-anthropic-s-claude-generates-lean-proof-of-subexponential-determ",
    "title": "Anthropic's Claude generates Lean proof of subexponential deterministic factoring",
@@ -627,32 +653,6 @@
     "funding",
     "lean fro",
     "mathlib"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-anthropic-s-claude-formalizes-a-complete-proof-of-fermat-s-last",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-anthropic-s-claude-formalizes-a-complete-proof-of-fermat-s-last",
-   "title": "Anthropic's Claude formalizes a complete proof of Fermat's Last Theorem in Lean",
-   "content_html": "<p>Working largely autonomously over 11 days, <a class=\"inl\" href=\"https://www.anthropic.com/research/formalizing-fermats-last-theorem\" rel=\"noopener\">Claude wrote 13 million lines of Lean</a> (over 5x the size of <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>, the principal community library) and proved 29,500 intermediate theorems. <a class=\"inl\" href=\"https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/\" rel=\"noopener\">Kevin Buzzard</a> compiled the code and ran <a class=\"inl\" href=\"https://github.com/leanprover/comparator\" rel=\"noopener\">comparator</a> on it, and <a class=\"inl\" href=\"https://github.com/anthropics/fermats-last-theorem\" rel=\"noopener\">the full proof is on GitHub</a> with a written walk-through.</p><p>Sources: <a href=\"https://www.anthropic.com/research/formalizing-fermats-last-theorem\">anthropic.com</a>, <a href=\"https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it/\">xenaproject.wordpress.com</a>, <a href=\"https://github.com/anthropics/fermats-last-theorem\">anthropics/fermats-last-theorem</a>, <a href=\"https://www.nature.com/articles/d41586-026-02822-9\">nature.com</a></p>",
-   "date_published": "2026-09-04T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "flt",
-    "autoformalization",
-    "claude"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-09-17/#2026-09-17-openai-announces-lean-checked-singularity-in-the-3d-navier-stoke",
-   "url": "https://leanweekly.news/2026-09-17/#2026-09-17-openai-announces-lean-checked-singularity-in-the-3d-navier-stoke",
-   "title": "OpenAI announces Lean-checked singularity in the 3D Navier-Stokes equations",
-   "content_html": "<p><a class=\"inl\" href=\"https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/\" rel=\"noopener\">OpenAI said 10,000 autonomous AI agents</a> found a singularity in the Navier-Stokes equations in three dimensions, with the result formally checked in Lean. Hours earlier, Tristan Buckmaster at New York University and Levent Alpöge at Anthropic reported Lean-verified proofs for three related results, including one for the Euler equations.</p><p>Sources: <a href=\"https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/\">quantamagazine.org</a>, <a href=\"https://blog.computationalcomplexity.org/2026/09/navier-stokes-and-lean.html\">blog.computationalcomplexity.org</a></p>",
-   "date_published": "2026-09-08T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "navier-stokes",
-    "openai",
-    "millennium prize"
    ]
   }
  ]

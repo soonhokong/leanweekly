@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 11</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-04-09-leo-de-moura-merges-sym-framework-and-transparency-changes-into">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-06">Apr 6</time><button class="copy" type="button" hidden data-link="../../2026-04-09/#2026-04-09-leo-de-moura-merges-sym-framework-and-transparency-changes-into" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura merges Sym framework and transparency changes into Lean</h2>
+    <p class="card-text">Leo de Moura merged pull requests adding <a class="inl" href="https://github.com/leanprover/lean4/pull/13289" rel="noopener">Sym.Arith infrastructure</a> for arithmetic normalization, <a class="inl" href="https://github.com/leanprover/lean4/pull/13317" rel="noopener">fixing the sym canonicalizer</a>, and adding a backward.isDefEq.respectTransparency.types option. An <a class="inl" href="https://github.com/leanprover/lean4/pull/13280" rel="noopener">opt-in linter</a> also warns about rfl simp theorems that only hold at higher transparency, part of a broader effort to ensure isDefEq respects transparency levels.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13289" rel="noopener">lean4#13289</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13317" rel="noopener">lean4#13317</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13280" rel="noopener">lean4#13280</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13271" rel="noopener">lean4#13271</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13272" rel="noopener">lean4#13272</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13273" rel="noopener">lean4#13273</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13281" rel="noopener">lean4#13281</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-04-09-leo-de-moura-proposes-stricter-transparency-default-for-lean-s-d">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-05">Apr 5</time><button class="copy" type="button" hidden data-link="../../2026-04-09/#2026-04-09-leo-de-moura-proposes-stricter-transparency-default-for-lean-s-d" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura proposes stricter transparency default for Lean's definitional equality checker</h2>
+    <p class="card-text">Leo de Moura <a class="inl" href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">opened a pull request</a> enabling the backward.isDefEq.respectTransparency.types option by default, so the definitional equality checker respects the current transparency setting when matching metavariable types. The change prevents unintended unfolding of definitions and requires adding @[implicit_reducible] and @[expose] attributes to many library definitions.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">lean4#13283</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-04-09-kyle-miller-merges-lean-syntax-and-structure-default-value-chang">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -231,24 +249,6 @@
     <h2 class="card-title">Nick Palladinos publishes SmtLibDsl, a type-safe SMT-LIB DSL for Lean 4</h2>
     <p class="card-text"><a class="inl" href="https://github.com/palladin/SmtLibDsl" rel="noopener">SmtLibDsl</a> is a domain-specific language embedded in Lean 4 for writing SMT-LIB2 constraint programs, with backends including Z3, cvc5, Kissat, and CaDiCaL. Bitvector widths and enabled SMT theories are tracked at compile time, and Lean validates every decoded SAT model.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/palladin/SmtLibDsl" rel="noopener">palladin/SmtLibDsl</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-02-19-leo-de-moura-adds-a-cache-for-isdefeqi-results-in-sym">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-15">Feb 15</time><button class="copy" type="button" hidden data-link="../../2026-02-19/#2026-02-19-leo-de-moura-adds-a-cache-for-isdefeqi-results-in-sym" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura adds a cache for isDefEqI results in Sym</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12486" rel="noopener">A merged Lean 4 pull request</a> by Leo de Moura caches isDefEqI results in Sym, since symbolic computation such as VC generators finds the same instances repeatedly. On the vcgen_deep_add_sub_cancel benchmark, speedups range from 30% to 37%, with goal_1000 dropping from 1663.1 ms to 1141.9 ms.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12486" rel="noopener">lean4#12486</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-02-19-kim-morrison-proposes-making-mathlib-s-orderdual-a-structure-pre">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-11">Feb 11</time><button class="copy" type="button" hidden data-link="../../2026-02-19/#2026-02-19-kim-morrison-proposes-making-mathlib-s-orderdual-a-structure-pre" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Kim Morrison proposes making Mathlib's OrderDual a structure, prepared with Claude Code</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover-community/mathlib4/pull/35125" rel="noopener">A Mathlib pull request</a> by Kim Morrison changes OrderDual from a type alias to a one-field structure, which prevents defeq abuse between a type and its order dual and requires explicit toDual/ofDual wrapping at type boundaries. The pull request notes it was prepared with Claude Code.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/mathlib4/pull/35125" rel="noopener">mathlib4#35125</a></p>
   </div>
 </article>
 </div>

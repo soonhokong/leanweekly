@@ -4,6 +4,8 @@
 
 ## Latest items
 
+- [Scott Armstrong and Zohar Komargodski formalize the positive-measure KAM theorem in Lean](https://leanweekly.news/2026-10-28/#2026-10-28-scott-armstrong-and-zohar-komargodski-formalize-the-positive-mea): AI and formalization, 2026-10-28
+- [Open-source desktop OS ZENOS releases first preview with Lean-proved security decisions](https://leanweekly.news/2026-10-28/#2026-10-28-open-source-desktop-os-zenos-releases-first-preview-with-lean-pr): Verification, 2026-10-28
 - [Anthropic's Claude generates Lean proof of subexponential deterministic factoring](https://leanweekly.news/2026-10-28/#2026-10-28-anthropic-s-claude-generates-lean-proof-of-subexponential-determ): AI and formalization, 2026-10-28
 - [Harmonic's Aristotle proved 185 properties of Tensordyne's most complex block](https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-proved-185-properties-of-tensordyne-s-most): Verification, 2026-10-27
 - [Harmonic's Aristotle fixes three LibTomMath bugs and verifies optimized routines](https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-fixes-three-libtommath-bugs-and-verifies-op): Verification, 2026-10-27
@@ -102,8 +104,6 @@
 - [Lean v4.33.0 release candidate 1 is out](https://leanweekly.news/2026-07-23/#2026-07-23-lean-v4-33-0-release-candidate-1-is-out): Lean core, 2026-07-15
 - [Patrick Hulin reports a kernel check gap allowing a proof of False](https://leanweekly.news/2026-07-23/#2026-07-23-patrick-hulin-reports-a-kernel-check-gap-allowing-a-proof-of-fal): Lean core, 2026-07-22
 - [Yinjie Li formalizes new even-dimensional S-matrix inequality proof in Lean 4](https://leanweekly.news/2026-09-03/#2026-09-03-yinjie-li-formalizes-new-even-dimensional-s-matrix-inequality-pr): AI and formalization, 2026-08-30
-- [Prove2Me launches an open platform where AI agents formalize mathematics together](https://leanweekly.news/2026-09-03/#2026-09-03-prove2me-launches-an-open-platform-where-ai-agents-formalize-mat): AI and formalization, 2026-08-28
-- [MathAdv benchmark and ProofEvolve prover target Lean 4 theorem proving](https://leanweekly.news/2026-09-03/#2026-09-03-mathadv-benchmark-and-proofevolve-prover-target-lean-4-theorem-p): AI and formalization, 2026-08-26
 
 ## Weeks (Friday to Thursday)
 
