@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Anthropic's Claude generates Lean proof of subexponential deterministic factoring](https://leanweekly.news/2026-10-28/#2026-10-28-anthropic-s-claude-generates-lean-proof-of-subexponential-determ): AI and formalization, 2026-10-28
 - [Harmonic's Aristotle proved 185 properties of Tensordyne's most complex block](https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-proved-185-properties-of-tensordyne-s-most): Verification, 2026-10-27
 - [Harmonic's Aristotle fixes three LibTomMath bugs and verifies optimized routines](https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-fixes-three-libtommath-bugs-and-verifies-op): Verification, 2026-10-27
 - [Michael Stoll had Claude build a verified Lean 4 model of ratpoints](https://leanweekly.news/2026-10-27/#2026-10-27-michael-stoll-had-claude-build-a-verified-lean-4-model-of-ratpoi): Verification, 2026-10-27
@@ -103,7 +104,6 @@
 - [Yinjie Li formalizes new even-dimensional S-matrix inequality proof in Lean 4](https://leanweekly.news/2026-09-03/#2026-09-03-yinjie-li-formalizes-new-even-dimensional-s-matrix-inequality-pr): AI and formalization, 2026-08-30
 - [Prove2Me launches an open platform where AI agents formalize mathematics together](https://leanweekly.news/2026-09-03/#2026-09-03-prove2me-launches-an-open-platform-where-ai-agents-formalize-mat): AI and formalization, 2026-08-28
 - [MathAdv benchmark and ProofEvolve prover target Lean 4 theorem proving](https://leanweekly.news/2026-09-03/#2026-09-03-mathadv-benchmark-and-proofevolve-prover-target-lean-4-theorem-p): AI and formalization, 2026-08-26
-- [Alex Meiburg adds eink0rn, a Haskell Lean 4 kernel, to the arena](https://leanweekly.news/2026-09-03/#2026-09-03-alex-meiburg-adds-eink0rn-a-haskell-lean-4-kernel-to-the-arena): Lean core, 2026-08-30
 
 ## Weeks (Friday to Thursday)
 
@@ -142,6 +142,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Oct 28, 2026](https://leanweekly.news/2026-10-28/items.md)
 - [Published Oct 27, 2026](https://leanweekly.news/2026-10-27/items.md)
 - [Published Oct 26, 2026](https://leanweekly.news/2026-10-26/items.md)
 - [Published Oct 25, 2026](https://leanweekly.news/2026-10-25/items.md)

@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 4</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean FRO publishes con-ron, a Rust port of the con-leche checker</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/con-ron" rel="noopener">con-ron</a> ports <a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener">con-leche</a>, an external Lean checker with a formal consistency proof, to Rust. It was written by AI under supervision from Joachim Breitner, and its Rust code is proven (partially) correct via an <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a>-generated model, so checking a proof with both tools guards against compiler or runtime bugs.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/con-ron" rel="noopener">leanprover/con-ron</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-09-17-lean-runtime-now-compiles-mimalloc-in-and-trims-elaboration-over">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -245,15 +254,6 @@
     <h2 class="card-title">Lean v4.33.0 release candidate 1 is out</h2>
     <p class="card-text">The Lean developers published <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.33.0-rc1" rel="noopener">release candidate 1 for Lean v4.33.0</a>, which centers on a <a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.33.0/" rel="noopener">more responsive editor</a>, automatic try? proof suggestions, improved lia and <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> tactics, a Float type that is no longer opaque, and kernel soundness fixes. It also enables backward.isDefEq.respectTransparency.types by default, the change most likely to need attention when porting.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.33.0/" rel="noopener">v4.33.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.33.0-rc1" rel="noopener">lean4 v4.33.0-rc1</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-07-23-patrick-hulin-reports-a-kernel-check-gap-allowing-a-proof-of-fal">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-22">Jul 22</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-patrick-hulin-reports-a-kernel-check-gap-allowing-a-proof-of-fal" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Patrick Hulin reports a kernel check gap allowing a proof of False</h2>
-    <p class="card-text">In <a class="inl" href="https://github.com/leanprover/lean4/issues/14484" rel="noopener">leanprover/lean4#14484</a>, Patrick Hulin reports that the kernel does not reject free variables in opaque declaration bodies, letting an adversarial metaprogram prove False with no axiom dependencies. The report, largely generated with AI, suggests applying the closure check used for definitions and theorems, and the issue is now closed.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/issues/14484" rel="noopener">lean4#14484</a></p>
   </div>
 </article>
 </div>

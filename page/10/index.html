@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 10</h1></header>
 <div class="stream">
+<article class="card c-papers" id="2026-04-23-software-verification-in-lean-2026-workshop-recordings-now-avail">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-20">Apr 20</time><button class="copy" type="button" hidden data-link="../../2026-04-23/#2026-04-23-software-verification-in-lean-2026-workshop-recordings-now-avail" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Software Verification in Lean 2026 workshop recordings now available</h2>
+    <p class="card-text">Talks from the <a class="inl" href="https://beneficial-ai-foundation.github.io/SVIL2026/" rel="noopener">one-day workshop at INRIA Paris</a> on April 20, 2026 are on YouTube, including a talk presenting <a class="inl" href="https://leodemoura.github.io/static/svil26/" rel="noopener">SymM</a>, a new monadic framework for high-performance verification tools built on Lean, Son Ho on SymCrypt, and Karthikeyan Bhargavan on verifying cryptographic applications. Derek Sorensen's talk was not recorded, and slides were provided instead.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://beneficial-ai-foundation.github.io/SVIL2026/" rel="noopener">beneficial-ai-foundation.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://leodemoura.github.io/static/svil26/" rel="noopener">leodemoura.github.io</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-04-09-lean-releases-nerodia-a-work-in-progress-library-for-writing-pyt">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -240,15 +249,6 @@
     <h2 class="card-title">Leo de Moura proposes stricter transparency default for Lean's definitional equality checker</h2>
     <p class="card-text">Leo de Moura <a class="inl" href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">opened a pull request</a> enabling the backward.isDefEq.respectTransparency.types option by default, so the definitional equality checker respects the current transparency setting when matching metavariable types. The change prevents unintended unfolding of definitions and requires adding @[implicit_reducible] and @[expose] attributes to many library definitions.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">lean4#13283</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-04-09-kyle-miller-merges-lean-syntax-and-structure-default-value-chang">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-09">Mar 9</time><button class="copy" type="button" hidden data-link="../../2026-04-09/#2026-04-09-kyle-miller-merges-lean-syntax-and-structure-default-value-chang" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Kyle Miller merges Lean syntax and structure default value changes</h2>
-    <p class="card-text">In Lean, <a class="inl" href="https://github.com/leanprover/lean4/pull/12841" rel="noopener">structure field defaults</a> can now depend on fields that come before and after them, and <a class="inl" href="https://github.com/leanprover/lean4/pull/13245" rel="noopener">dotted function notation</a> supports explicit mode (<code>@.f</code>) and explicit universes (<code>.f.{u,v}</code>). <a class="inl" href="https://github.com/leanprover/lean4/pull/13262" rel="noopener">Field notation</a> such as <code>e.f.{u,v}</code> now also accepts explicit universe levels, fixing a bug where levels were attributed to the wrong expression.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12841" rel="noopener">lean4#12841</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13245" rel="noopener">lean4#13245</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13262" rel="noopener">lean4#13262</a></p>
   </div>
 </article>
 </div>

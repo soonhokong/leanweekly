@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 27 Oct 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 28 Oct 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Anthropic's Claude generates Lean proof of subexponential deterministic factoring</title>
+<link>https://leanweekly.news/2026-10-28/#2026-10-28-anthropic-s-claude-generates-lean-proof-of-subexponential-determ</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-28/#2026-10-28-anthropic-s-claude-generates-lean-proof-of-subexponential-determ</guid>
+<pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Isaac Rudich and Louis-Martin Rousseau &lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-28-000015&amp;amp;version=1" rel="noopener"&gt;registered the proof&lt;/a&gt; that one deterministic Turing machine computes the smallest prime factor of every natural number N in time N^{o(1)}; the best previously published deterministic bounds known to the authors have exponent 1/5. The authors audited the statement and did not &lt;a class="inl" href="https://github.com/IsaacRudich/SubexponentialDeterministicFactoring" rel="noopener"&gt;read the proof&lt;/a&gt;, which Lean checks.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-28-000015&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/IsaacRudich/SubexponentialDeterministicFactoring"&gt;IsaacRudich/SubexponentialDeterministicFactoring&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Harmonic's Aristotle proved 185 properties of Tensordyne's most complex block</title>
 <link>https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-proved-185-properties-of-tensordyne-s-most</link>
@@ -398,14 +406,6 @@
 <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/" rel="noopener"&gt;OpenAI said 10,000 autonomous AI agents&lt;/a&gt; found a singularity in the Navier-Stokes equations in three dimensions, with the result formally checked in Lean. Hours earlier, Tristan Buckmaster at New York University and Levent Alpöge at Anthropic reported Lean-verified proofs for three related results, including one for the Euler equations.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"&gt;quantamagazine.org&lt;/a&gt;, &lt;a href="https://blog.computationalcomplexity.org/2026/09/navier-stokes-and-lean.html"&gt;blog.computationalcomplexity.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Lean 4.34.0 fixes three kernel soundness issues found with AI testing</title>
-<link>https://leanweekly.news/2026-09-17/#2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-17/#2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te</guid>
-<pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener"&gt;Lean 4.34.0&lt;/a&gt;, released 2026-09-14, fixes three soundness issues found with AI adversarial testing and adds defensive kernel checks. bv_decide gets integrated with sym and &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener"&gt;grind&lt;/a&gt; interactive modes and is up to six times faster, linters can carry state across commands, and lake lint gains a --code-quality mode emitting machine-readable JSON.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/"&gt;v4.34.0 release notes&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

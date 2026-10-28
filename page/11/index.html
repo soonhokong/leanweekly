@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 11</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-04-09-kyle-miller-merges-lean-syntax-and-structure-default-value-chang">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-09">Mar 9</time><button class="copy" type="button" hidden data-link="../../2026-04-09/#2026-04-09-kyle-miller-merges-lean-syntax-and-structure-default-value-chang" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Kyle Miller merges Lean syntax and structure default value changes</h2>
+    <p class="card-text">In Lean, <a class="inl" href="https://github.com/leanprover/lean4/pull/12841" rel="noopener">structure field defaults</a> can now depend on fields that come before and after them, and <a class="inl" href="https://github.com/leanprover/lean4/pull/13245" rel="noopener">dotted function notation</a> supports explicit mode (<code>@.f</code>) and explicit universes (<code>.f.{u,v}</code>). <a class="inl" href="https://github.com/leanprover/lean4/pull/13262" rel="noopener">Field notation</a> such as <code>e.f.{u,v}</code> now also accepts explicit universe levels, fixing a bug where levels were attributed to the wrong expression.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12841" rel="noopener">lean4#12841</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13245" rel="noopener">lean4#13245</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13262" rel="noopener">lean4#13262</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-04-09-leo-de-moura-gives-talk-on-lean-and-machine-checked-mathematics">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -240,15 +249,6 @@
     <h2 class="card-title">Kim Morrison proposes making Mathlib's OrderDual a structure, prepared with Claude Code</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover-community/mathlib4/pull/35125" rel="noopener">A Mathlib pull request</a> by Kim Morrison changes OrderDual from a type alias to a one-field structure, which prevents defeq abuse between a type and its order dual and requires explicit toDual/ofDual wrapping at type boundaries. The pull request notes it was prepared with Claude Code.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/mathlib4/pull/35125" rel="noopener">mathlib4#35125</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-02-12-leo-de-moura-tests-claude-assisted-refactoring-of-lean-s-grind-a">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-12">Feb 12</time><button class="copy" type="button" hidden data-link="../../2026-02-12/#2026-02-12-leo-de-moura-tests-claude-assisted-refactoring-of-lean-s-grind-a" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura tests Claude-assisted refactoring of Lean's grind and Sym modules</h2>
-    <p class="card-text">Leo de Moura opened <a class="inl" href="https://github.com/leanprover/lean4/pull/12448" rel="noopener">leanprover/lean4#12448</a>, a pull request that refactors the <code>grind</code> and <code>Sym</code> modules using Claude-assisted code transformations as an experiment in AI-aided code maintenance. The pull request is marked &quot;do not merge&quot;.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12448" rel="noopener">lean4#12448</a></p>
   </div>
 </article>
 </div>
