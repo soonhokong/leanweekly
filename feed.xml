@@ -8,6 +8,70 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Thu, 29 Oct 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Anthropic publishes Lean formalization of Claude's refutation of the Exponential Time Hypothesis</title>
+<link>https://leanweekly.news/2026-10-29/#2026-10-29-anthropic-publishes-lean-formalization-of-claude-s-refutation-of</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-anthropic-publishes-lean-formalization-of-claude-s-refutation-of</guid>
+<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/anthropics/formal-math/tree/main/eth" rel="noopener"&gt;Anthropic's eth/ project&lt;/a&gt;, a machine-checked Lean 4 formalization, states that a single deterministic Turing machine counts the satisfying assignments of every k-CNF with at least two clauses on at least four variables, each of which occurs, within a step bound that refutes the hypothesis. Claude's paper is in the project folder.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/anthropics/formal-math/tree/main/eth"&gt;anthropics/formal-math&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>XTX Markets gives £5 million to Imperial College London for Langlands Lab</title>
+<link>https://leanweekly.news/2026-10-29/#2026-10-29-xtx-markets-gives-5-million-to-imperial-college-london-for-langl</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-xtx-markets-gives-5-million-to-imperial-college-london-for-langl</guid>
+<pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
+<category>Papers and events</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://www.imperial.ac.uk/news/articles/admin-services/giving/2026/5-million-grant-to-establish-new-laboratory-for-ai-assisted-mathematics-at-imperial/" rel="noopener"&gt;lab for AI-assisted mathematics&lt;/a&gt;, led by Kevin Buzzard, will focus on the Langlands program, which seeks connections between fields, particularly number theory and analysis. It aims to produce new results verified in Lean and begins operating in 2027, with the grant supporting five PhD students and three postdoctoral researchers over four years.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.imperial.ac.uk/news/articles/admin-services/giving/2026/5-million-grant-to-establish-new-laboratory-for-ai-assisted-mathematics-at-imperial/"&gt;imperial.ac.uk&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Leo de Moura speeds up kernel checking of lia and grind proofs</title>
+<link>https://leanweekly.news/2026-10-29/#2026-10-29-leo-de-moura-speeds-up-kernel-checking-of-lia-and-grind-proofs</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-leo-de-moura-speeds-up-kernel-checking-of-lia-and-grind-proofs</guid>
+<pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
+<category>Lean core</category>
+<description>&lt;p&gt;Lean's lia (cutsat) now &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15905" rel="noopener"&gt;shares proofs across grind case splits&lt;/a&gt;, for up to 2.8x faster elaboration and up to 200x faster kernel checking on goals with many case splits. &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15911" rel="noopener"&gt;Kernel-friendly certificates for lia&lt;/a&gt;, &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15943" rel="noopener"&gt;grind's ring solver&lt;/a&gt;, simp +arith and &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener"&gt;grind&lt;/a&gt; linarith followed; the ring certificates cut kernel instructions by 51.5% across 40 benchmark files.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/15905"&gt;lean4#15905&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15911"&gt;lean4#15911&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15943"&gt;lean4#15943&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15981"&gt;lean4#15981&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15983"&gt;lean4#15983&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Sebastian Graf merged vcgen +jp, which verifies code after a split once</title>
+<link>https://leanweekly.news/2026-10-29/#2026-10-29-sebastian-graf-merged-vcgen-jp-which-verifies-code-after-a-split</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-sebastian-graf-merged-vcgen-jp-which-verifies-code-after-a-split</guid>
+<pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
+<category>Lean core</category>
+<description>&lt;p&gt;Without &lt;code&gt;+jp&lt;/code&gt;, &lt;code&gt;vcgen&lt;/code&gt; copies the code after an &lt;code&gt;if&lt;/code&gt; or a &lt;code&gt;match&lt;/code&gt; into every branch, so the number of copies doubles with each consecutive split. With &lt;code&gt;+jp&lt;/code&gt;, &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/14398" rel="noopener"&gt;VC generation&lt;/a&gt; grows linearly with the number of splits, and the shared code is verified under a hypothesis stating what each branch knows at its end.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/14398"&gt;lean4#14398&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Benjamin Pierce announces Agentic Proof Engineering, a Spring 2027 course at Penn</title>
+<link>https://leanweekly.news/2026-10-29/#2026-10-29-benjamin-pierce-announces-agentic-proof-engineering-a-spring-202</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-benjamin-pierce-announces-agentic-proof-engineering-a-spring-202</guid>
+<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
+<category>Papers and events</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://www.cis.upenn.edu/~bcpierce/agentic-proof-engineering/syllabus.html" rel="noopener"&gt;semester course&lt;/a&gt; is on building formal proofs about software systems at scale, in collaboration with AI agents, and will also be delivered as a live webinar for participants outside Penn. Some lectures and projects will be phrased in terms of Lean, though fluency with the specifics of Lean will not be needed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cis.upenn.edu/~bcpierce/agentic-proof-engineering/syllabus.html"&gt;cis.upenn.edu&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Leo de Moura makes grind failure messages short by default</title>
+<link>https://leanweekly.news/2026-10-29/#2026-10-29-leo-de-moura-makes-grind-failure-messages-short-by-default</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-leo-de-moura-makes-grind-failure-messages-short-by-default</guid>
+<pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+<category>Lean core</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15906" rel="noopener"&gt;Pull request #15906&lt;/a&gt; made diagnostics opt-in via +verbose, so failures showed only the remaining goal and a hint; collecting and printing diagnostics took about 38% of the time spent on easy failing lia goals. &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16073" rel="noopener"&gt;Pull request #16073&lt;/a&gt; shortened the failure message further, naming the invoked tactic, such as lia, without printing the goal.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/15906"&gt;lean4#15906&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/16073"&gt;lean4#16073&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Mac Malone opens Lake pull request to reduce build-store contention</title>
+<link>https://leanweekly.news/2026-10-29/#2026-10-29-mac-malone-opens-lake-pull-request-to-reduce-build-store-content</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-mac-malone-opens-lake-pull-request-to-reduce-build-store-content</guid>
+<pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
+<category>Lean core</category>
+<description>&lt;p&gt;The pending change (&lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15805" rel="noopener"&gt;#15805&lt;/a&gt;) has &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener"&gt;Lake&lt;/a&gt; first fetch transitive artifacts from a single build-store snapshot, falling back to the real build store only when an artifact is missing. Mac Malone also opened &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16083" rel="noopener"&gt;#16083&lt;/a&gt; to benchmark Lake's module setup computation, which experiments show is a significant scalability chokepoint in projects with thousands of modules.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/15805"&gt;lean4#15805&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/16083"&gt;lean4#16083&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>GenProof paper on verifying Minecraft redstone circuits uses Lean's bv_decide</title>
+<link>https://leanweekly.news/2026-10-29/#2026-10-29-genproof-paper-on-verifying-minecraft-redstone-circuits-uses-lea</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-genproof-paper-on-verifying-minecraft-redstone-circuits-uses-lea</guid>
+<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
+<category>Papers and events</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://balalaika.ai/projects/redstone-verify/paper.pdf" rel="noopener"&gt;Mike Murunov and Maksim Borisov's gate&lt;/a&gt; accepts a redstone layout only with a machine-checkable certificate of equivalence to its Verilog specification. Lean 4 re-proves the claim, unfolding it to one 4-bit equation per node and calling bv_decide, which bit-blasts, runs the CaDiCaL solver and checks its proof with a verified checker.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://balalaika.ai/projects/redstone-verify/paper.pdf"&gt;paper (pdf)&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Troy Lee formalizes László Babai's graph isomorphism algorithm using an AI agent</title>
 <link>https://leanweekly.news/2026-10-29/#2026-10-29-troy-lee-formalizes-l-szl-babai-s-graph-isomorphism-algorithm-us</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-troy-lee-formalizes-l-szl-babai-s-graph-isomorphism-algorithm-us</guid>
@@ -342,70 +406,6 @@
 <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://www.openmathmodel.org/" rel="noopener"&gt;Open Math OS&lt;/a&gt; offers open-source models and AI agents that explore problems in parallel, and gives every project a 24/7 cloud machine with more than 100 mathematical and scientific computing tools preinstalled. Compute is free for approved teams, the mathematical community owns its data, and launch partners include Hugging Face, Lean, CSCS and EPFL.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.openmathmodel.org/"&gt;openmathmodel.org&lt;/a&gt;, &lt;a href="https://x.com/SAIRfoundation/status/2111106860468285931"&gt;@SAIRfoundation on X&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Kraken Lean project proves FFmpeg's SBR decoder binary safe</title>
-<link>https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe</guid>
-<pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;The theorem sbr_session_safe covers the linked machine code (aacsbr.o with its callees): given the link's layout, external routines' contracts and a 32-bit bound on their stack, every run stays in the memory it owns and uses at most the stated stack. The prefix-code and bound facts of FFmpeg's Huffman tables are proved.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/zrlk/kraken/blob/sbr-wf-preserve/Kraken/X64/Examples/Sbr/SessionBin/Top.lean"&gt;zrlk/kraken&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Ilya Sergey describes Vermilion, an experimental Lean backend for Rust verifier Verus</title>
-<link>https://leanweekly.news/2026-10-21/#2026-10-21-ilya-sergey-describes-vermilion-an-experimental-lean-backend-for</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-21/#2026-10-21-ilya-sergey-describes-vermilion-an-experimental-lean-backend-for</guid>
-<pubDate>Sun, 18 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://proofsandintuitions.net/2026/10/18/vermilion-experiment-lean-backend-verus/" rel="noopener"&gt;Vermilion&lt;/a&gt; expresses Verus's verification conditions (mathematical propositions about a program), normally sent to the Z3 solver, as Lean theorems, though it does not prove that they correctly describe Rust's semantics. Its default tactic, vrml, tries to prove each automatically, and any it leaves open can be proved interactively, drawing on &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://proofsandintuitions.net/2026/10/18/vermilion-experiment-lean-backend-verus/"&gt;proofsandintuitions.net&lt;/a&gt;, &lt;a href="https://x.com/ilyasergey/status/2111708968662036516"&gt;@ilyasergey on X&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Vasily Ilin shares a prompt to build verified, faster software in Lean</title>
-<link>https://leanweekly.news/2026-10-21/#2026-10-21-vasily-ilin-shares-a-prompt-to-build-verified-faster-software-in</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-21/#2026-10-21-vasily-ilin-shares-a-prompt-to-build-verified-faster-software-in</guid>
-<pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;The prompt asks for a Lean version of software X, proved correct and optimized to run at least 10% faster than X's fastest implementation, with tests and proofs passing throughout. Kim Morrison's &lt;a class="inl" href="https://github.com/kim-em/lean-zip" rel="noopener"&gt;lean-zip&lt;/a&gt;, a verified DEFLATE implementation, inspired the workflow; examples cover &lt;a class="inl" href="https://github.com/Vilin97/PrimeFactorLean" rel="noopener"&gt;integer factorization&lt;/a&gt; and &lt;a class="inl" href="https://github.com/Vilin97/JumpProcessesLean" rel="noopener"&gt;jump processes&lt;/a&gt;, the latter faster than Julia's JumpProcesses.jl.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://x.com/IlinVasily29521/status/2110973208799367198"&gt;@IlinVasily29521 on X&lt;/a&gt;, &lt;a href="https://github.com/Vilin97/PrimeFactorLean"&gt;Vilin97/PrimeFactorLean&lt;/a&gt;, &lt;a href="https://github.com/Vilin97/JumpProcessesLean"&gt;Vilin97/JumpProcessesLean&lt;/a&gt;, &lt;a href="https://github.com/kim-em/lean-zip"&gt;kim-em/lean-zip&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Matija Bucić, Fankang He and Hyunwoo Lee prove Erdős-Szemerédi sunflower conjecture</title>
-<link>https://leanweekly.news/2026-10-21/#2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-21/#2026-10-21-matija-buci-fankang-he-and-hyunwoo-lee-prove-erd-s-szemer-di-sun</guid>
-<pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;Posed in the 1970s, the conjecture bounds the size of any family of subsets containing no k-sunflower and was previously known only for k = 3, via cap-set results. According to &lt;a class="inl" href="https://paperswithlean.com/paper/2610.26686.html" rel="noopener"&gt;paperswithlean.com&lt;/a&gt;, &lt;a class="inl" href="https://arxiv.org/abs/2610.26686" rel="noopener"&gt;the proof&lt;/a&gt; was machine-verified in Lean 4, with the formalization to be released in the &lt;a class="inl" href="https://palomar-registry.org/" rel="noopener"&gt;Palomar&lt;/a&gt; repository.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.26686"&gt;arXiv:2610.26686&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2610.26686.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Linux 7.3 works around AMD CPU bug behind Lean build segfaults</title>
-<link>https://leanweekly.news/2026-10-21/#2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-21/#2026-10-21-linux-7-3-works-around-amd-cpu-bug-behind-lean-build-segfaults</guid>
-<pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;The FRO noticed &lt;a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113486-General-announcements/topic/Linux.207.2E3.20contains.20a.20bugfix.20for.20Lean/with/633073219" rel="noopener"&gt;probabilistic segfaults&lt;/a&gt; while compiling big Lean projects on certain AMD CPUs running Linux 6.15 or later, and reported them to &lt;a class="inl" href="https://lore.kernel.org/lkml/CAAuFnRTyva1_3tsF3vrMBL+TLS1YL4EgUPT2c3O9k7A9hWUMnA@mail.gmail.com/" rel="noopener"&gt;the Linux kernel&lt;/a&gt;. Users of AMD Zen 5 CPUs on kernels 6.15 through 7.2 should consider kernel 7.3 and/or the latest AMD microcode, or, failing that, boot with the option tlbi=ipi.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/113486-General-announcements/topic/Linux.207.2E3.20contains.20a.20bugfix.20for.20Lean/with/633073219"&gt;leanprover.zulipchat.com&lt;/a&gt;, &lt;a href="https://lore.kernel.org/lkml/CAAuFnRTyva1_3tsF3vrMBL+TLS1YL4EgUPT2c3O9k7A9hWUMnA@mail.gmail.com/"&gt;lore.kernel.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Joris Roos formalizes OpenAI's L³ trilinear Hilbert transform bound with coding agents</title>
-<link>https://leanweekly.news/2026-10-20/#2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-20/#2026-10-20-joris-roos-formalizes-openai-s-l-trilinear-hilbert-transform-bou</guid>
-<pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/roos-j/lean-trilinearht" rel="noopener"&gt;Lean 4 formalization&lt;/a&gt;, about 194,000 lines of code, verifies the main result of a preprint OpenAI made public on October 6, 2026 without an accompanying formalization. The theorem statement is human-written, while Codex and Claude coding agents, following a blueprint generated by GPT-6 Astra Pro, autoformalized the proof over about eight days.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/roos-j/lean-trilinearht"&gt;roos-j/lean-trilinearht&lt;/a&gt;, &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-20-000001&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Lean now ships verified kernels (proof checkers) and a lake check command</title>
-<link>https://leanweekly.news/2026-10-18/#2026-10-18-lean-now-ships-verified-kernels-proof-checkers-and-a-lake-check</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-18/#2026-10-18-lean-now-ships-verified-kernels-proof-checkers-and-a-lake-check</guid>
-<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/" rel="noopener"&gt;Leo de Moura writes&lt;/a&gt; that AI agents are effective at finding vulnerabilities in Lean's kernel. Lean v4.35.0's lake check rechecks a project with leanchecker, the official Lean kernel without the baggage around it, and lake check --paranoid runs four additional kernels, including &lt;a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener"&gt;con-leche&lt;/a&gt;, the first kernel for Lean written in Lean and proven consistent.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/"&gt;leodemoura.github.io&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Jeremy Avigad and coauthors back formalizing all of mathematics, if done well</title>
-<link>https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-18/#2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics</guid>
-<pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
-<category>Papers and events</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/" rel="noopener"&gt;Xena guest post&lt;/a&gt;, co-written by Kevin Buzzard, Johan Commelin, Rémy Degenne, Kim Morrison, Oliver Nash and Adam Topaz, follows a big OpenAI release and warns against building formal libraries nobody uses. It highlights &lt;a class="inl" href="https://taucetiproject.github.io/TauCeti/" rel="noopener"&gt;Tau Ceti&lt;/a&gt;, an AI-written library slightly larger than &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;, and says most of mathematics can be formalized within three years.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://xenaproject.wordpress.com/2026/10/16/how-to-formalize-all-of-mathematics/"&gt;xenaproject.wordpress.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

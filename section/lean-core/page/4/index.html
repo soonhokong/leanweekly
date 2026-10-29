@@ -30,8 +30,44 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 4</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 149 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 4</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 153 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-06-25-lean-enables-respecttransparency-types-by-default-a-breaking-cha">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-19">Jun 19</time><button class="copy" type="button" hidden data-link="../../../../2026-06-25/#2026-06-25-lean-enables-respecttransparency-types-by-default-a-breaking-cha" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean enables respectTransparency.types by default, a breaking change</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13895" rel="noopener">Paul Reichert's merged pull request</a> makes Lean compare metavariable types at implicit transparency instead of default, building on Kim Morrison's <a class="inl" href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">split of transparency into implicit and instances levels</a> (merged on 2026-06-19). Some lemmas may stop applying in simp or <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>; set_option backward.isDefEq.respectTransparency.types false restores the old behavior.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13895" rel="noopener">lean4#13895</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">lean4#13637</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-05-28-lean-s-hex-aggregator-bundles-verified-computational-algebra-lib">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-28">May 28</time><button class="copy" type="button" hidden data-link="../../../../2026-05-28/#2026-05-28-lean-s-hex-aggregator-bundles-verified-computational-algebra-lib" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean's hex aggregator bundles verified computational algebra libraries for Lean 4</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/kim-em/hex" rel="noopener">leanprover/hex repository</a> installs the released hex libraries at a single pinned set, including HexLLL for LLL lattice reduction and HexBerlekampZassenhaus for integer polynomial factorization. Each computational library is <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>-free, with Mathlib correspondence proofs in a separate theory library.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/kim-em/hex" rel="noopener">kim-em/hex</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-05-28-kim-morrison-splits-lean-s-implicit-transparency-level-into-impl">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-28">May 28</time><button class="copy" type="button" hidden data-link="../../../../2026-05-28/#2026-05-28-kim-morrison-splits-lean-s-implicit-transparency-level-into-impl" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Kim Morrison splits Lean's implicit transparency level into implicit and instances</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">A merged pull request</a> by Kim Morrison separates the levels so that @[implicit_reducible] annotations no longer have the side effects @[instance_reducible] has, such as allowing type class search to see through marked declarations. The hierarchy is now none &lt; reducible &lt; instances &lt; implicit &lt; default &lt; all, and a new with_implicit tactic is added.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">lean4#13637</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-05-28-kyle-miller-replaces-lean-s-tactic-configuration-system-with-a-f">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time><button class="copy" type="button" hidden data-link="../../../../2026-05-28/#2026-05-28-kyle-miller-replaces-lean-s-tactic-configuration-system-with-a-f" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Kyle Miller replaces Lean's tactic configuration system with a faster one</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13651" rel="noopener">A merged Lean pull request</a> by Kyle Miller adds a tactic configuration system that supports custom configuration syntaxes, and on a simple benchmark configuration evaluation takes 6.2% of the time it used to. <a class="inl" href="https://github.com/leanprover/lean4/pull/13446" rel="noopener">A separate pull request</a> by Kyle Miller makes InfoView hovers include information about specific metavariables.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13651" rel="noopener">lean4#13651</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13446" rel="noopener">lean4#13446</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-05-28-joachim-breitner-adds-an-impossible-tactic-combinator-to-lean">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -210,42 +246,6 @@
     <h2 class="card-title">Mac Malone merges three Lake fixes, including workspace-level compiled configurations</h2>
     <p class="card-text">Compiled <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> configurations such as <a class="inl" href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lakefile.olean</a> now live in the workspace's .lake/config, removing a source of contention between workspaces sharing a dependency. Lake also now includes <a class="inl" href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">IR for a meta import's transitive imports</a>, fixing &quot;missing data file&quot; errors with the artifact cache, and <a class="inl" href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">all Lake tests are re-enabled</a> by default.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lean4#13683</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">lean4#13600</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">lean4#13692</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-demo-previews-rust-source-references-resolved-through-rust-analy">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time><button class="copy" type="button" hidden data-link="../../../../2026-05-14/#2026-05-14-demo-previews-rust-source-references-resolved-through-rust-analy" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Demo previews Rust source references resolved through rust-analyzer</h2>
-    <p class="card-text">A <a class="inl" href="https://x80.org/vbp-rust-demo-1/Foreign-Rust-References/" rel="noopener">demo chapter on x80.org</a> previews foreign Rust references backed by a live language-server lookup: resolved references render a compact Rust source link and a grouped Rust code panel fetched from the location returned by rust-analyzer. A reference the language server cannot find is reported as unresolved, without a code panel.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x80.org/vbp-rust-demo-1/Foreign-Rust-References/" rel="noopener">x80.org</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-wojciech-nawrocki-adds-collaborative-editing-to-lean-workbench">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-07">May 7</time><button class="copy" type="button" hidden data-link="../../../../2026-05-14/#2026-05-14-wojciech-nawrocki-adds-collaborative-editing-to-lean-workbench" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Wojciech Nawrocki adds collaborative editing to Lean Workbench</h2>
-    <p class="card-text">Wojciech Nawrocki merged a <a class="inl" href="https://github.com/leanprover/lean-workbench/pull/14" rel="noopener">Yjs-based collaboration server</a> that syncs changes between clients, plus <a class="inl" href="https://github.com/leanprover/lean-workbench/pull/12" rel="noopener">collaborative editing support</a> in the vscode-workbench extension. A separate change makes it impossible for <a class="inl" href="https://github.com/leanprover/lean-workbench/pull/18" rel="noopener">openvscode-server instances</a> to make requests against other instances.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench/pull/14" rel="noopener">lean-workbench#14</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean-workbench/pull/12" rel="noopener">lean-workbench#12</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean-workbench/pull/18" rel="noopener">lean-workbench#18</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean-workbench/pull/17" rel="noopener">lean-workbench#17</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-04-02-lean-4-29-0-released-with-a-new-extensible-do-elaborator">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-27">Mar 27</time><button class="copy" type="button" hidden data-link="../../../../2026-04-02/#2026-04-02-lean-4-29-0-released-with-a-new-extensible-do-elaborator" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean 4.29.0 released with a new extensible do elaborator</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.29.0" rel="noopener">The release</a> changes reducibility handling: isDefEq no longer bumps transparency when comparing implicit arguments, and a new @[implicit_reducible] attribute and a backward-compatibility option ease migration. It also adds <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> support for higher-order Miller patterns, mvcgen support for specifications in the local context, and faster startup.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.29.0/" rel="noopener">v4.29.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.29.0" rel="noopener">lean4 v4.29.0</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-07-sebastian-graf-merges-experimental-mvcgen-tactic-into-the-lean-t">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-07">May 7</time><button class="copy" type="button" hidden data-link="../../../../2026-05-07/#2026-05-07-sebastian-graf-merges-experimental-mvcgen-tactic-into-the-lean-t" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Graf merges experimental mvcgen' tactic into the Lean toolchain</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13644" rel="noopener">The pull request</a> adds mvcgen', reimplemented from the ground up on the new SymM-based framework for efficient symbolic evaluation. It will soon replace mvcgen and can outperform it by a factor of more than 100 on some synthetic benchmarks. Join point sharing and introduction of local specs are not yet supported.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13644" rel="noopener">lean4#13644</a></p>
   </div>
 </article>
 </div>

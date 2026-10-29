@@ -30,8 +30,44 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 7</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 149 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 7</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 153 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-15-sebastian-ullrich-makes-lean-s-type-class-resolution-cache-persi">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-04">Oct 4</time><button class="copy" type="button" hidden data-link="../../../../2026-10-15/#2026-10-15-sebastian-ullrich-makes-lean-s-type-class-resolution-cache-persi" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich makes Lean's type class resolution cache persist across commands</h2>
+    <p class="card-text">Two merged pull requests by Sebastian Ullrich keep <a class="inl" href="https://github.com/leanprover/lean4/pull/14369" rel="noopener">type class resolution results for later commands</a> and let queries differing only in free variables <a class="inl" href="https://github.com/leanprover/lean4/pull/14316" rel="noopener">share a cache entry</a>. Building <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> takes about 4% fewer instructions and 8% less wall-clock time, and spends about 16% less time in type class resolution.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14369" rel="noopener">lean4#14369</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14316" rel="noopener">lean4#14316</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-15-joachim-breitner-and-lean-fro-describe-the-proof-behind-con-lech">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-14">Oct 14</time><button class="copy" type="button" hidden data-link="../../../../2026-10-15/#2026-10-15-joachim-breitner-and-lean-fro-describe-the-proof-behind-con-lech" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Joachim Breitner and Lean FRO describe the proof behind con-leche checker</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener">con-leche</a>, a checker for Lean 4, comes with a proof in Lean that every environment it accepts has a model in set theory, so no accepted environment holds a proof of False. A new document gives a <a class="inl" href="https://leanprover.github.io/con-leche/con-leche-proof-idea.html" rel="noopener">pen-and-paper account</a> of that argument on a simplified fragment of the checker.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.github.io/con-leche/con-leche-proof-idea.html" rel="noopener">leanprover.github.io</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-15-sebastian-ullrich-removes-lean-s-255-object-field-limit-per-cons">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-12">Oct 12</time><button class="copy" type="button" hidden data-link="../../../../2026-10-15/#2026-10-15-sebastian-ullrich-removes-lean-s-255-object-field-limit-per-cons" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich removes Lean's 255-object-field limit per constructor</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/15516" rel="noopener">A merged pull request by Sebastian Ullrich</a> removes the limit of 255 object fields per constructor, and thus per structure. When a constructor has more, the compiler keeps the first 254 in the constructor object and stores the rest in a chain of spill objects, with one pointer followed per spill object on access.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15516" rel="noopener">lean4#15516</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-10-15-julia-markus-himmel-reworks-order-instances-across-lean-core-typ">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-13">Oct 13</time><button class="copy" type="button" hidden data-link="../../../../2026-10-15/#2026-10-15-julia-markus-himmel-reworks-order-instances-across-lean-core-typ" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Julia Markus Himmel reworks order instances across Lean core types</h2>
+    <p class="card-text">Julia Markus Himmel <a class="inl" href="https://github.com/leanprover/lean4/pull/15581" rel="noopener">redefined the order on String</a> as the lexicographic order of its UTF-8 encoding, <a class="inl" href="https://github.com/leanprover/lean4/pull/15257" rel="noopener">made Min Float follow the IEEE-754-2019 minimum operation</a>, and added missing order instances for BitVec, List, Array, Vector and ByteArray. Sofia Rodrigues <a class="inl" href="https://github.com/leanprover/lean4/pull/15175" rel="noopener">fixed leaks</a> and refactored the libuv bindings.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15581" rel="noopener">lean4#15581</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15257" rel="noopener">lean4#15257</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15274" rel="noopener">lean4#15274</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15304" rel="noopener">lean4#15304</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15329" rel="noopener">lean4#15329</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15175" rel="noopener">lean4#15175</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15545" rel="noopener">lean4#15545</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-10-15-lean-core-gains-an-html-type-renderer-and-html-like-syntax">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
