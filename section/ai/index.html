@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">AI and formalization</h1><p class="page-blurb">AI systems that prove or formalize mathematics, large formalizations, and benchmarks. 50 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">AI and formalization</h1><p class="page-blurb">AI systems that prove or formalize mathematics, large formalizations, and benchmarks. 51 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-ai" id="2026-10-29-troy-lee-formalizes-l-szl-babai-s-graph-isomorphism-algorithm-us">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-29">Oct 29</time><button class="copy" type="button" hidden data-link="../../2026-10-29/#2026-10-29-troy-lee-formalizes-l-szl-babai-s-graph-isomorphism-algorithm-us" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Troy Lee formalizes László Babai's graph isomorphism algorithm using an AI agent</h2>
+    <p class="card-text">With László Pyber's analysis replacing the classification of finite simple groups, <a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-29-000015&amp;version=1" rel="noopener">the formalization</a> proves that a single-tape Turing machine (<a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>'s Turing.TM0) decides whether two simple graphs are isomorphic within a quasipolynomial number of transitions. The agent (Claude Code, with Claude Opus 5.5) wrote <a class="inl" href="https://github.com/troyjlee/graph-iso-lean" rel="noopener">the Lean code</a> from 18 to 29 October 2026.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-29-000015&amp;version=1" rel="noopener">palomar-registry.org</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/troyjlee/graph-iso-lean" rel="noopener">troyjlee/graph-iso-lean</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-10-28-scott-armstrong-and-zohar-komargodski-formalize-the-positive-mea">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -249,15 +258,6 @@
     <p class="card-text">Researchers including Kaiyu Yang, Soonho Kong, Jingxuan He, and Dawn Song introduce <a class="inl" href="https://arxiv.org/abs/2608.13522" rel="noopener">Vero</a>, a benchmark of 43 multi-module instances sourced from real-world repositories, each a multi-module Lean 4 repository with predetermined API interfaces. The strongest agent fully solves only 27 of 43 instances.</p>
     <figure class="media media-paper"><img src="../../assets/img/e64d7246915c669a-480.webp" srcset="../../assets/img/e64d7246915c669a-480.webp 480w, ../../assets/img/e64d7246915c669a-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2608.13522" rel="noopener">arXiv:2608.13522</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-08-06-cslib-adds-a-fully-verified-proof-of-the-flp-impossibility-resul">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-03">Aug 3</time><button class="copy" type="button" hidden data-link="../../2026-08-06/#2026-08-06-cslib-adds-a-fully-verified-proof-of-the-flp-impossibility-resul" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">CSLib adds a fully verified proof of the FLP impossibility result</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/cslib" rel="noopener">CSLib</a>, the Lean Computer Science Library, now includes a <a class="inl" href="https://lnkd.in/p/gJ9DvPbH" rel="noopener">proof of the FLP</a> (Fischer, Lynch and Paterson) result: consensus is impossible in a distributed system with a faulty process and asynchronous messaging. Ching-Tsun Chou formalised the constructive pen and paper proof by Hagen Völzer from 2004.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lnkd.in/p/gJ9DvPbH" rel="noopener">lnkd.in</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/cslib" rel="noopener">leanprover/cslib</a></p>
   </div>
 </article>
 </div>

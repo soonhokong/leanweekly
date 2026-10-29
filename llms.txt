@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Troy Lee formalizes László Babai's graph isomorphism algorithm using an AI agent](https://leanweekly.news/2026-10-29/#2026-10-29-troy-lee-formalizes-l-szl-babai-s-graph-isomorphism-algorithm-us): AI and formalization, 2026-10-29
 - [Adam Gall publishes lean-sudo, a drop-in sudo replacement written in Lean 4](https://leanweekly.news/2026-10-28/#2026-10-28-adam-gall-publishes-lean-sudo-a-drop-in-sudo-replacement-written): Verification, 2026-10-28
 - [holmesworcester publishes Lean Quiet, a chat app written mostly in Lean](https://leanweekly.news/2026-10-28/#2026-10-28-holmesworcester-publishes-lean-quiet-a-chat-app-written-mostly-i): Verification, 2026-10-28
 - [Scott Armstrong and Zohar Komargodski formalize the positive-measure KAM theorem in Lean](https://leanweekly.news/2026-10-28/#2026-10-28-scott-armstrong-and-zohar-komargodski-formalize-the-positive-mea): AI and formalization, 2026-10-28
@@ -103,7 +104,6 @@
 - [CSLib adds a fully verified proof of the FLP impossibility result](https://leanweekly.news/2026-08-06/#2026-08-06-cslib-adds-a-fully-verified-proof-of-the-flp-impossibility-resul): AI and formalization, 2026-08-03
 - [Pramaana Labs reports solving all 6 IMO 2026 problems in Lean](https://leanweekly.news/2026-08-06/#2026-08-06-pramaana-labs-reports-solving-all-6-imo-2026-problems-in-lean): AI and formalization, 2026-08-05
 - [Tau Ceti, a "Mathlib for AIs" from the Lean FRO, is released](https://leanweekly.news/2026-07-23/#2026-07-23-tau-ceti-a-mathlib-for-ais-from-the-lean-fro-is-released): AI and formalization, 2026-07-20
-- [Lean v4.33.0 release candidate 1 is out](https://leanweekly.news/2026-07-23/#2026-07-23-lean-v4-33-0-release-candidate-1-is-out): Lean core, 2026-07-15
 
 ## Weeks (Friday to Thursday)
 
@@ -142,6 +142,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Oct 29, 2026](https://leanweekly.news/2026-10-29/items.md)
 - [Published Oct 28, 2026](https://leanweekly.news/2026-10-28/items.md)
 - [Published Oct 27, 2026](https://leanweekly.news/2026-10-27/items.md)
 - [Published Oct 26, 2026](https://leanweekly.news/2026-10-26/items.md)

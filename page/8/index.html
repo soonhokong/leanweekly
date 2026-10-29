@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 8</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-05-28-joachim-breitner-adds-an-impossible-tactic-combinator-to-lean">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-25">May 25</time><button class="copy" type="button" hidden data-link="../../2026-05-28/#2026-05-28-joachim-breitner-adds-an-impossible-tactic-combinator-to-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Joachim Breitner adds an impossible tactic combinator to Lean</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13771" rel="noopener">The merged pull request</a> adds <code>impossible by t</code>, which uses the tactic <code>t</code> to prove that the current goal is impossible, closing the original goal as if <code>sorry</code> were used. <code>try?</code> gains an <code>impossible</code> branch that runs <code>impossible by decide</code>, <code>impossible by simp</code>, and <code>impossible by grind</code> in parallel.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13771" rel="noopener">lean4#13771</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-05-14-lean-publishes-lean-workbench-an-experimental-online-environment">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -239,15 +248,6 @@
     <h2 class="card-title">Mac Malone merges three Lake fixes, including workspace-level compiled configurations</h2>
     <p class="card-text">Compiled <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> configurations such as <a class="inl" href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lakefile.olean</a> now live in the workspace's .lake/config, removing a source of contention between workspaces sharing a dependency. Lake also now includes <a class="inl" href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">IR for a meta import's transitive imports</a>, fixing &quot;missing data file&quot; errors with the artifact cache, and <a class="inl" href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">all Lake tests are re-enabled</a> by default.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lean4#13683</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">lean4#13600</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">lean4#13692</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-demo-previews-rust-source-references-resolved-through-rust-analy">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time><button class="copy" type="button" hidden data-link="../../2026-05-14/#2026-05-14-demo-previews-rust-source-references-resolved-through-rust-analy" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Demo previews Rust source references resolved through rust-analyzer</h2>
-    <p class="card-text">A <a class="inl" href="https://x80.org/vbp-rust-demo-1/Foreign-Rust-References/" rel="noopener">demo chapter on x80.org</a> previews foreign Rust references backed by a live language-server lookup: resolved references render a compact Rust source link and a grouped Rust code panel fetched from the location returned by rust-analyzer. A reference the language server cannot find is reported as unresolved, without a code panel.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x80.org/vbp-rust-demo-1/Foreign-Rust-References/" rel="noopener">x80.org</a></p>
   </div>
 </article>
 </div>

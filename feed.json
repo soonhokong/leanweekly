@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-29/#2026-10-29-troy-lee-formalizes-l-szl-babai-s-graph-isomorphism-algorithm-us",
+   "url": "https://leanweekly.news/2026-10-29/#2026-10-29-troy-lee-formalizes-l-szl-babai-s-graph-isomorphism-algorithm-us",
+   "title": "Troy Lee formalizes László Babai's graph isomorphism algorithm using an AI agent",
+   "content_html": "<p>With László Pyber's analysis replacing the classification of finite simple groups, <a class=\"inl\" href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-10-29-000015&amp;version=1\" rel=\"noopener\">the formalization</a> proves that a single-tape Turing machine (<a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>'s Turing.TM0) decides whether two simple graphs are isomorphic within a quasipolynomial number of transitions. The agent (Claude Code, with Claude Opus 5.5) wrote <a class=\"inl\" href=\"https://github.com/troyjlee/graph-iso-lean\" rel=\"noopener\">the Lean code</a> from 18 to 29 October 2026.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-10-29-000015&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/troyjlee/graph-iso-lean\">troyjlee/graph-iso-lean</a></p>",
+   "date_published": "2026-10-29T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "graph isomorphism",
+    "turing machines",
+    "ai agents"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-28/#2026-10-28-adam-gall-publishes-lean-sudo-a-drop-in-sudo-replacement-written",
    "url": "https://leanweekly.news/2026-10-28/#2026-10-28-adam-gall-publishes-lean-sudo-a-drop-in-sudo-replacement-written",
    "title": "Adam Gall publishes lean-sudo, a drop-in sudo replacement written in Lean 4",
@@ -640,19 +653,6 @@
     "autoformalization",
     "mathlib",
     "ai"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-18/#2026-10-18-shanghai-ai-lab-s-shusheng-s2-helps-prove-3d-ghys-conjecture-ver",
-   "url": "https://leanweekly.news/2026-10-18/#2026-10-18-shanghai-ai-lab-s-shusheng-s2-helps-prove-3d-ghys-conjecture-ver",
-   "title": "Shanghai AI Lab's Shusheng-S2 helps prove 3D Ghys conjecture, verified in Lean",
-   "content_html": "<p><a class=\"inl\" href=\"https://www.techtimes.com/articles/329134/20261016/chinese-ai-model-helps-prove-31-year-old-math-conjecture-machine-verified-lean-proof.htm\" rel=\"noopener\">Tech Times</a> calls <a class=\"inl\" href=\"https://pandaily.com/shanghai-ai-lab-intern-s2-ghys-conjecture-proof-human-ai-collaboration-lean-sheaf\" rel=\"noopener\">Shusheng-S2</a> the first Chinese AI model to help resolve a world-class open conjecture in pure mathematics: the three-dimensional Ghys conjecture, unresolved for 31 years. A Peking University team, using up to 100 AI agents, independently verified every logical step of Jiesong Zhang's proof, producing more than 550,000 lines of Lean code.</p><p>Sources: <a href=\"https://www.techtimes.com/articles/329134/20261016/chinese-ai-model-helps-prove-31-year-old-math-conjecture-machine-verified-lean-proof.htm\">techtimes.com</a>, <a href=\"https://pandaily.com/shanghai-ai-lab-intern-s2-ghys-conjecture-proof-human-ai-collaboration-lean-sheaf\">pandaily.com</a></p>",
-   "date_published": "2026-10-16T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "ghys conjecture",
-    "shusheng-s2",
-    "ai theorem proving"
    ]
   }
  ]

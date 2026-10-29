@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 6</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-08-15-paul-reichert-fixes-instance-search-seeing-through-type-synonyms">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-15">Aug 15</time><button class="copy" type="button" hidden data-link="../../2026-08-15/#2026-08-15-paul-reichert-fixes-instance-search-seeing-through-type-synonyms" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Paul Reichert fixes instance search seeing through type synonyms in Lean</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14624" rel="noopener">Paul Reichert's merged PR</a> ensures that, during instance search, metavariables for instance-implicit arguments are only assigned values of the expected type, fixing <a class="inl" href="https://github.com/leanprover/lean4/issues/9077" rel="noopener">an issue</a> Sebastien Gouezel hit while formalizing Riemannian metrics in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. <a class="inl" href="https://github.com/leanprover/lean4/pull/14583" rel="noopener">A preparatory PR</a> brought a clear performance improvement with no Mathlib breakage observed. Affected Mathlib declarations were fixed with a backward compatibility option.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14624" rel="noopener">lean4#14624</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14583" rel="noopener">lean4#14583</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/issues/9077" rel="noopener">lean4#9077</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-08-15-lean-releases-nerodia-a-library-for-writing-python-modules-in-le">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -241,16 +250,6 @@
     <h2 class="card-title">lean4web enables deflate compression for large websocket messages</h2>
     <p class="card-text">A <a class="inl" href="https://github.com/leanprover-community/lean4web/pull/133" rel="noopener">merged pull request</a> by Jason (@jcreedcmu) enables per-message deflate compression for messages larger than 16MB in the websocket server behind lean4web, aiming to improve responsiveness of <a class="inl" href="https://live.lean-lang.org/" rel="noopener">live.lean-lang.org</a>. Full completions with <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> imported produce 20-40MB jsonrpc responses, which compress by a factor of 8-9x.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/lean4web/pull/133" rel="noopener">lean4web#133</a></p>
-  </div>
-</article>
-<article class="card c-papers" id="2026-07-23-son-ho-speaks-at-the-3rd-lean-in-munich-meetup">
-  <span class="avatar" aria-hidden="true">¶</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-16">Jul 16</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-son-ho-speaks-at-the-3rd-lean-in-munich-meetup" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Son Ho speaks at the 3rd Lean in Munich meetup</h2>
-    <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/cpfrang_lean-formalverification-cryptography-ugcPost-7483505833889243136-vHUU/" rel="noopener">Son Ho's talk</a> at the meetup, hosted by UTUM Venture Labs, previewed Formal Spec driven Development: AI implements a spec and generates its constraints using autoformalisation, while humans write the spec and check that the constraints cover it. <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>'s Munich-based team, including Head of Engineering Sebastian Ullrich, attended.</p>
-    <figure class="media"><img src="../../assets/img/f83075e5d3e20670-480.webp" srcset="../../assets/img/f83075e5d3e20670-480.webp 480w, ../../assets/img/f83075e5d3e20670-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="600" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/cpfrang_lean-formalverification-cryptography-ugcPost-7483505833889243136-vHUU/" rel="noopener">LinkedIn post</a></p>
   </div>
 </article>
 </div>

@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 3</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-18-lean-now-ships-verified-kernels-proof-checkers-and-a-lake-check">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-15">Oct 15</time><button class="copy" type="button" hidden data-link="../../2026-10-18/#2026-10-18-lean-now-ships-verified-kernels-proof-checkers-and-a-lake-check" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean now ships verified kernels (proof checkers) and a lake check command</h2>
+    <p class="card-text"><a class="inl" href="https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/" rel="noopener">Leo de Moura writes</a> that AI agents are effective at finding vulnerabilities in Lean's kernel. Lean v4.35.0's lake check rechecks a project with leanchecker, the official Lean kernel without the baggage around it, and lake check --paranoid runs four additional kernels, including <a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener">con-leche</a>, the first kernel for Lean written in Lean and proven consistent.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/" rel="noopener">leodemoura.github.io</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-10-18-jeremy-avigad-and-coauthors-back-formalizing-all-of-mathematics">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -250,15 +259,6 @@
     <h2 class="card-title">Kim Morrison opens Mathlib PRs for certified root counting and sum-of-squares</h2>
     <p class="card-text">Kim Morrison opened a <a class="inl" href="https://github.com/leanprover-community/mathlib4/pull/43512" rel="noopener">Mathlib pull request</a> adding <code>real_root_count</code>, which checks an untrusted Sturm chain from <a class="inl" href="https://github.com/leanprover/hex" rel="noopener">Hex</a> and shrinks the Abel–Ruffini archive file from 175 to 127 lines. <a class="inl" href="https://github.com/leanprover-community/mathlib4/pull/42336" rel="noopener">A second pull request</a> adds the <code>leanprover/sos</code> sum-of-squares tactic, where CSDP serves as a search oracle outside the trusted base.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/mathlib4/pull/43512" rel="noopener">mathlib4#43512</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover-community/mathlib4/pull/42336" rel="noopener">mathlib4#42336</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-24-leo-de-moura-adds-a-polynomial-arithmetic-normalizer-to-lean-s-s">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-23">Sep 23</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-leo-de-moura-adds-a-polynomial-arithmetic-normalizer-to-lean-s-s" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura adds a polynomial arithmetic normalizer to Lean's Sym.simp</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/15292" rel="noopener">A series of merged Lean pull requests</a> adds Sym.Arith.normalize?, which rewrites ring and semiring terms into polynomial normal form with a proof by reflection, and an <a class="inl" href="https://github.com/leanprover/lean4/pull/15279" rel="noopener">arith simproc</a> for Sym.simp that uses it. Later changes extend it to relations, ring characteristic, non-commutative rings, and some field rewrites, and <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>'s ring solver now shares Sym.Arith code.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15292" rel="noopener">lean4#15292</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15279" rel="noopener">lean4#15279</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15293" rel="noopener">lean4#15293</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15295" rel="noopener">lean4#15295</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15297" rel="noopener">lean4#15297</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15298" rel="noopener">lean4#15298</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15190" rel="noopener">lean4#15190</a></p>
   </div>
 </article>
 </div>

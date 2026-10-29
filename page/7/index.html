@@ -32,6 +32,16 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 7</h1></header>
 <div class="stream">
+<article class="card c-papers" id="2026-07-23-son-ho-speaks-at-the-3rd-lean-in-munich-meetup">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-16">Jul 16</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-son-ho-speaks-at-the-3rd-lean-in-munich-meetup" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Son Ho speaks at the 3rd Lean in Munich meetup</h2>
+    <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/cpfrang_lean-formalverification-cryptography-ugcPost-7483505833889243136-vHUU/" rel="noopener">Son Ho's talk</a> at the meetup, hosted by UTUM Venture Labs, previewed Formal Spec driven Development: AI implements a spec and generates its constraints using autoformalisation, while humans write the spec and check that the constraints cover it. <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>'s Munich-based team, including Head of Engineering Sebastian Ullrich, attended.</p>
+    <figure class="media"><img src="../../assets/img/f83075e5d3e20670-480.webp" srcset="../../assets/img/f83075e5d3e20670-480.webp 480w, ../../assets/img/f83075e5d3e20670-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="600" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/cpfrang_lean-formalverification-cryptography-ugcPost-7483505833889243136-vHUU/" rel="noopener">LinkedIn post</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-07-16-paul-reichert-fixes-slowdown-caused-by-lean-s-stricter-transpare">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -241,15 +251,6 @@
     <h2 class="card-title">Kyle Miller replaces Lean's tactic configuration system with a faster one</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13651" rel="noopener">A merged Lean pull request</a> by Kyle Miller adds a tactic configuration system that supports custom configuration syntaxes, and on a simple benchmark configuration evaluation takes 6.2% of the time it used to. <a class="inl" href="https://github.com/leanprover/lean4/pull/13446" rel="noopener">A separate pull request</a> by Kyle Miller makes InfoView hovers include information about specific metavariables.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13651" rel="noopener">lean4#13651</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13446" rel="noopener">lean4#13446</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-28-joachim-breitner-adds-an-impossible-tactic-combinator-to-lean">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-25">May 25</time><button class="copy" type="button" hidden data-link="../../2026-05-28/#2026-05-28-joachim-breitner-adds-an-impossible-tactic-combinator-to-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Joachim Breitner adds an impossible tactic combinator to Lean</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13771" rel="noopener">The merged pull request</a> adds <code>impossible by t</code>, which uses the tactic <code>t</code> to prove that the current goal is impossible, closing the original goal as if <code>sorry</code> were used. <code>try?</code> gains an <code>impossible</code> branch that runs <code>impossible by decide</code>, <code>impossible by simp</code>, and <code>impossible by grind</code> in parallel.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13771" rel="noopener">lean4#13771</a></p>
   </div>
 </article>
 </div>
