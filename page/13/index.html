@@ -32,6 +32,16 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 13</h1></header>
 <div class="stream">
+<article class="card c-ai" id="2026-01-15-axiom-s-axiomprover-solves-all-12-putnam-problems-with-lean-proo">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-11">Jan 11</time><button class="copy" type="button" hidden data-link="../../2026-01-15/#2026-01-15-axiom-s-axiomprover-solves-all-12-putnam-problems-with-lean-proo" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Axiom's AxiomProver solves all 12 Putnam problems with Lean proofs</h2>
+    <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/dhyey-mavani_12-problems-from-the-hardest-math-exam-converted-activity-7416256349250048000-zzpn" rel="noopener">AxiomProver</a>, an autonomous AI theorem prover built by Axiom, solved 12 out of 12 problems from the Putnam Competition, 8 of them within the strict exam time limit, producing formal proofs in Lean. One combinatorial step in Problem A5 required 2,054 lines of formal proof.</p>
+    <figure class="media"><img src="../../assets/img/2557f4367a01df1c-480.webp" srcset="../../assets/img/2557f4367a01df1c-480.webp 480w, ../../assets/img/2557f4367a01df1c-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="512" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/dhyey-mavani_12-problems-from-the-hardest-math-exam-converted-activity-7416256349250048000-zzpn" rel="noopener">LinkedIn post</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-01-22-ilya-sergey-shows-how-to-verify-imperative-lean-4-programs-with">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -242,15 +252,6 @@
     <h2 class="card-title">Lean reference manual documents vcgen, the successor of mvcgen in Lean 4.35</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/reference-manual/pull/927" rel="noopener">A pull request by Sebastian Graf</a> documents the vcgen tactic and its Std.WP framework, adds the tutorial &quot;Verifying Imperative Programs Using vcgen&quot;, and moves the mvcgen chapter and tutorial to their own files. The <a class="inl" href="https://github.com/zrlk/kraken/blob/vcgen/Kraken/X64/Examples/FfScalarproductFloatFma3.lean" rel="noopener">Kraken project</a> already uses vcgen to prove that FFmpeg's FMA3 dot-product loop, over two arrays that may alias, terminates without faulting.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/reference-manual/pull/927" rel="noopener">reference-manual#927</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/zrlk/kraken/blob/vcgen/Kraken/X64/Examples/FfScalarproductFloatFma3.lean" rel="noopener">zrlk/kraken</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-10-15-sebastian-ullrich-makes-lean-s-type-class-resolution-cache-persi">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-04">Oct 4</time><button class="copy" type="button" hidden data-link="../../2026-10-15/#2026-10-15-sebastian-ullrich-makes-lean-s-type-class-resolution-cache-persi" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Ullrich makes Lean's type class resolution cache persist across commands</h2>
-    <p class="card-text">Two merged pull requests by Sebastian Ullrich keep <a class="inl" href="https://github.com/leanprover/lean4/pull/14369" rel="noopener">type class resolution results for later commands</a> and let queries differing only in free variables <a class="inl" href="https://github.com/leanprover/lean4/pull/14316" rel="noopener">share a cache entry</a>. Building <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> takes about 4% fewer instructions and 8% less wall-clock time, and spends about 16% less time in type class resolution.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14369" rel="noopener">lean4#14369</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14316" rel="noopener">lean4#14316</a></p>
   </div>
 </article>
 </div>

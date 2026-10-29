@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-29/#2026-10-29-juan-j-manfredi-completes-lean-formalization-of-openai-s-infinit",
+   "url": "https://leanweekly.news/2026-10-29/#2026-10-29-juan-j-manfredi-completes-lean-formalization-of-openai-s-infinit",
+   "title": "Juan J. Manfredi completes Lean formalization of OpenAI's infinity-harmonic estimates",
+   "content_html": "<p><a class=\"inl\" href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-10-29-000040&amp;version=1\" rel=\"noopener\">The formalization</a>, built on <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>, proves the main results of OpenAI's 4 October 2026 preprint, including that infinity-harmonic functions (viscosity solutions of the infinity-Laplace equation) on connected open sets in dimensions 3 and higher are C¹, using only Lean's three standard axioms. Claude agents wrote <a class=\"inl\" href=\"https://github.com/na0b/infharmonic-lean\" rel=\"noopener\">the Lean proofs</a> with Trellis, an AI-assisted formalization pipeline.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-10-29-000040&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/na0b/infharmonic-lean\">na0b/infharmonic-lean</a></p>",
+   "date_published": "2026-10-29T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "pde",
+    "ai-formalization",
+    "palomar"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-29/#2026-10-29-anthropic-publishes-lean-formalization-of-claude-s-refutation-of",
    "url": "https://leanweekly.news/2026-10-29/#2026-10-29-anthropic-publishes-lean-formalization-of-claude-s-refutation-of",
    "title": "Anthropic publishes Lean formalization of Claude's refutation of the Exponential Time Hypothesis",
@@ -640,19 +653,6 @@
     "ai",
     "quantum computing",
     "claude"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-sair-launches-open-math-os-a-research-workspace-built-on-open-mo",
-   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-sair-launches-open-math-os-a-research-workspace-built-on-open-mo",
-   "title": "SAIR launches Open Math OS, a research workspace built on open models",
-   "content_html": "<p><a class=\"inl\" href=\"https://www.openmathmodel.org/\" rel=\"noopener\">Open Math OS</a> offers open-source models and AI agents that explore problems in parallel, and gives every project a 24/7 cloud machine with more than 100 mathematical and scientific computing tools preinstalled. Compute is free for approved teams, the mathematical community owns its data, and launch partners include Hugging Face, Lean, CSCS and EPFL.</p><p>Sources: <a href=\"https://www.openmathmodel.org/\">openmathmodel.org</a>, <a href=\"https://x.com/SAIRfoundation/status/2111106860468285931\">@SAIRfoundation on X</a></p>",
-   "date_published": "2026-10-16T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "ai agents",
-    "open models",
-    "compute"
    ]
   }
  ]

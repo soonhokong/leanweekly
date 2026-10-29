@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 7</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-08-27-lean-adds-strong-coinduction-principles-and-a-monotonicity-by-cl">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-25">Aug 25</time><button class="copy" type="button" hidden data-link="../../2026-08-27/#2026-08-27-lean-adds-strong-coinduction-principles-and-a-monotonicity-by-cl" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean adds strong coinduction principles and a monotonicity_by clause for predicates</h2>
+    <p class="card-text">Wojciech Różowski merged <a class="inl" href="https://github.com/leanprover/lean4/pull/14855" rel="noopener">a Lean pull request</a> that generates strong_coinduct for coinductive_fixpoint predicates, strengthening coinduct, plus strong_induct for inductive_fixpoint ones. <a class="inl" href="https://github.com/leanprover/lean4/pull/14861" rel="noopener">A second merged pull request</a> adds a monotonicity_by clause so users can prove monotonicity of the underlying fixpoint functor with an explicit tactic block when automatic proof search fails.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14855" rel="noopener">lean4#14855</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14861" rel="noopener">lean4#14861</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-08-27-tim-sweeney-praises-the-lean-team-s-handling-of-a-kernel-bug">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -241,15 +250,6 @@
     <h2 class="card-title">Sebastian Graf ports mvcgen' to Std.Internal.Do and extends it to embedded languages</h2>
     <p class="card-text">Sebastian Graf merged a <a class="inl" href="https://github.com/leanprover/lean4/pull/14080" rel="noopener">port of the experimental mvcgen' tactic</a> to the new Std.Internal.Do meta theory, where loop invariants no longer restate the exceptional postcondition. A follow-up <a class="inl" href="https://github.com/leanprover/lean4/pull/14015" rel="noopener">extracts a WP type class from WPMonad</a>, enabling verification of deeply embedded languages, tested on an IMP language whose WP instance has no accompanying WPMonad.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14080" rel="noopener">lean4#14080</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14015" rel="noopener">lean4#14015</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-06-25-lean-enables-respecttransparency-types-by-default-a-breaking-cha">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-19">Jun 19</time><button class="copy" type="button" hidden data-link="../../2026-06-25/#2026-06-25-lean-enables-respecttransparency-types-by-default-a-breaking-cha" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean enables respectTransparency.types by default, a breaking change</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13895" rel="noopener">Paul Reichert's merged pull request</a> makes Lean compare metavariable types at implicit transparency instead of default, building on Kim Morrison's <a class="inl" href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">split of transparency into implicit and instances levels</a> (merged on 2026-06-19). Some lemmas may stop applying in simp or <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>; set_option backward.isDefEq.respectTransparency.types false restores the old behavior.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13895" rel="noopener">lean4#13895</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">lean4#13637</a></p>
   </div>
 </article>
 </div>

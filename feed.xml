@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Thu, 29 Oct 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Juan J. Manfredi completes Lean formalization of OpenAI's infinity-harmonic estimates</title>
+<link>https://leanweekly.news/2026-10-29/#2026-10-29-juan-j-manfredi-completes-lean-formalization-of-openai-s-infinit</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-juan-j-manfredi-completes-lean-formalization-of-openai-s-infinit</guid>
+<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-29-000040&amp;amp;version=1" rel="noopener"&gt;The formalization&lt;/a&gt;, built on &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;, proves the main results of OpenAI's 4 October 2026 preprint, including that infinity-harmonic functions (viscosity solutions of the infinity-Laplace equation) on connected open sets in dimensions 3 and higher are C¹, using only Lean's three standard axioms. Claude agents wrote &lt;a class="inl" href="https://github.com/na0b/infharmonic-lean" rel="noopener"&gt;the Lean proofs&lt;/a&gt; with Trellis, an AI-assisted formalization pipeline.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-29-000040&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/na0b/infharmonic-lean"&gt;na0b/infharmonic-lean&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Anthropic publishes Lean formalization of Claude's refutation of the Exponential Time Hypothesis</title>
 <link>https://leanweekly.news/2026-10-29/#2026-10-29-anthropic-publishes-lean-formalization-of-claude-s-refutation-of</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-anthropic-publishes-lean-formalization-of-claude-s-refutation-of</guid>
@@ -398,14 +406,6 @@
 <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;Working largely on its own, Claude Mythos 5 produced circuits that improve on the best published versions. For &lt;a class="inl" href="https://arxiv.org/abs/2610.22367" rel="noopener"&gt;a new circuit computing modular inversion&lt;/a&gt;, the wraparound version of division, Claude checked the formula behind the design with large-scale numerical simulations, then formalized the claim in Lean, a step &lt;a class="inl" href="https://www.anthropic.com/research/designing-efficient-quantum-circuits" rel="noopener"&gt;Anthropic&lt;/a&gt; attributes to the model's caution.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.anthropic.com/research/designing-efficient-quantum-circuits"&gt;anthropic.com&lt;/a&gt;, &lt;a href="https://arxiv.org/abs/2610.22367"&gt;arXiv:2610.22367&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>SAIR launches Open Math OS, a research workspace built on open models</title>
-<link>https://leanweekly.news/2026-10-21/#2026-10-21-sair-launches-open-math-os-a-research-workspace-built-on-open-mo</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-21/#2026-10-21-sair-launches-open-math-os-a-research-workspace-built-on-open-mo</guid>
-<pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://www.openmathmodel.org/" rel="noopener"&gt;Open Math OS&lt;/a&gt; offers open-source models and AI agents that explore problems in parallel, and gives every project a 24/7 cloud machine with more than 100 mathematical and scientific computing tools preinstalled. Compute is free for approved teams, the mathematical community owns its data, and launch partners include Hugging Face, Lean, CSCS and EPFL.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.openmathmodel.org/"&gt;openmathmodel.org&lt;/a&gt;, &lt;a href="https://x.com/SAIRfoundation/status/2111106860468285931"&gt;@SAIRfoundation on X&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
