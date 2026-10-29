@@ -30,8 +30,28 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Verification, page 2</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 54 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Verification, page 2</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 56 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-verification" id="2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-14">Sep 14</time><button class="copy" type="button" hidden data-link="../../../../2026-09-24/#2026-09-24-son-ho-and-colleagues-verify-rust-code-in-microsoft-s-symcrypt-w" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Son Ho and colleagues verify Rust code in Microsoft's SymCrypt with Lean</h2>
+    <p class="card-text">Using <a class="inl" href="https://arxiv.org/abs/2609.15648" rel="noopener">Aeneas</a>, which extracts a pure model of Rust code in Lean, a 237 KLOC Lean development establishes safety, panic-freedom, and functional correctness of 16.7 KLOC of Rust, including SHA-3 and ML-KEM ported from C. AI agents autonomously write proofs, which the Lean kernel independently verifies.</p>
+    <figure class="media media-paper"><img src="../../../../assets/img/7fcff038fb927884-480.webp" srcset="../../../../assets/img/7fcff038fb927884-480.webp 480w, ../../../../assets/img/7fcff038fb927884-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2609.15648" rel="noopener">arXiv:2609.15648</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-09-17-certora-proves-zlib-s-inflate-table-memory-safe-and-terminating">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-10">Sep 10</time><button class="copy" type="button" hidden data-link="../../../../2026-09-17/#2026-09-17-certora-proves-zlib-s-inflate-table-memory-safe-and-terminating" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Certora proves zlib's inflate_table memory-safe and terminating in Lean</h2>
+    <p class="card-text">In under two weeks, <a class="inl" href="https://www.certora.com/blog/formally-verifying-zlib-memory-safety-with-lean" rel="noopener">Certora</a> built an experimental C-to-Lean pipeline and proved that the Clight (CompCert's C intermediate representation) model of zlib's 266-line inflate_table function is memory-safe and terminating. The proof, around 20,000 lines of Lean, was written almost entirely by LLMs, and the Lean kernel checked every step.</p>
+    <figure class="media"><img src="../../../../assets/img/2140867fb096f152-480.webp" srcset="../../../../assets/img/2140867fb096f152-480.webp 480w, ../../../../assets/img/2140867fb096f152-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="630" alt="Formally Verifying zlib Memory Safety with Lean | Certora" loading="lazy" decoding="async"><figcaption class="credit">Image: certora.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.certora.com/blog/formally-verifying-zlib-memory-safety-with-lean" rel="noopener">certora.com</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-09-24-boris-cherny-used-opus-5-5-and-lean-to-verify-the-claude-agent-s">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -237,25 +257,6 @@
     <p class="card-text"><a class="inl" href="https://blog.lambdaclass.com/amo-lean-towards-formally-verified-optimization-via-equality-saturation-in-lean-4/" rel="noopener">LambdaClass</a> described Truth Research ZK, which turns Lean 4 specifications into optimized C and Rust code with formal correctness guarantees, noting one axiom (applyIndex_tensor_eq) needed for the tensor product of permutations. <a class="inl" href="https://github.com/lambdaclass/amo-lean/pull/2" rel="noopener">A pull request by Kim Morrison</a>, prepared with Claude Code, proves that axiom as a theorem.</p>
     <figure class="media"><img src="../../../../assets/img/59a5c6b6a07b128a-480.webp" srcset="../../../../assets/img/59a5c6b6a07b128a-480.webp 480w, ../../../../assets/img/59a5c6b6a07b128a-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="899" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: blog.lambdaclass.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/lambdaclass/amo-lean/pull/2" rel="noopener">amo-lean#2</a><span class="dot" aria-hidden="true">·</span><a href="https://blog.lambdaclass.com/amo-lean-towards-formally-verified-optimization-via-equality-saturation-in-lean-4/" rel="noopener">blog.lambdaclass.com</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-02-12-ilya-sergey-shows-how-to-verify-distributed-protocols-in-veil">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-09">Feb 9</time><button class="copy" type="button" hidden data-link="../../../../2026-02-12/#2026-02-12-ilya-sergey-shows-how-to-verify-distributed-protocols-in-veil" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Ilya Sergey shows how to verify distributed protocols in Veil</h2>
-    <p class="card-text"><a class="inl" href="https://proofsandintuitions.net/2026/02/09/distributed-verification-veil/" rel="noopener">In a February 9, 2026 post</a>, Ilya Sergey walks through modelling, model checking, and proving the Dolev-Strong Floodset consensus protocol in <a class="inl" href="https://veil.dev/" rel="noopener">Veil</a>, VERSE lab's auto-active Lean-based verifier for distributed protocols. Veil's model checker Lace explored 54904 states, 362 of them distinct, and caught a deliberately introduced agreement bug.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://proofsandintuitions.net/2026/02/09/distributed-verification-veil/" rel="noopener">proofsandintuitions.net</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-02-05-predictable-machines-explains-why-it-chose-lean-for-predictable">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-03">Feb 3</time><button class="copy" type="button" hidden data-link="../../../../2026-02-05/#2026-02-05-predictable-machines-explains-why-it-chose-lean-for-predictable" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Predictable Machines explains why it chose Lean for Predictable Code</h2>
-    <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/davidmazarro_the-first-time-i-fell-in-love-with-a-programming-share-7424423431200227330-m9RD" rel="noopener">In an article</a>, <a class="inl" href="https://predictablemachines.com/" rel="noopener">Predictable Machines, Inc.</a> explains why it chose Lean as the foundation for Predictable Code, saying Lean's combination of a programming language and a theorem prover makes it possible to formally verify that AI-generated code stays aligned with specifications as systems evolve.</p>
-    <figure class="media"><img src="../../../../assets/img/c88b4b7e782eec07-480.webp" srcset="../../../../assets/img/c88b4b7e782eec07-480.webp 480w, ../../../../assets/img/c88b4b7e782eec07-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1080" height="1080" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/davidmazarro_the-first-time-i-fell-in-love-with-a-programming-share-7424423431200227330-m9RD" rel="noopener">LinkedIn post</a><span class="dot" aria-hidden="true">·</span><a href="https://predictablemachines.com/" rel="noopener">predictablemachines.com</a></p>
   </div>
 </article>
 </div>

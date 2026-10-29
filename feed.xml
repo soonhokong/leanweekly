@@ -8,6 +8,22 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Wed, 28 Oct 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Adam Gall publishes lean-sudo, a drop-in sudo replacement written in Lean 4</title>
+<link>https://leanweekly.news/2026-10-28/#2026-10-28-adam-gall-publishes-lean-sudo-a-drop-in-sudo-replacement-written</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-28/#2026-10-28-adam-gall-publishes-lean-sudo-a-drop-in-sudo-replacement-written</guid>
+<pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;Its policy, environment and authentication logic is formally verified, with 498 hand-written theorems. On Ubuntu, &lt;a class="inl" href="https://github.com/adamgall/lean-sudo" rel="noopener"&gt;lean-sudo&lt;/a&gt; reads the existing /etc/sudoers, /etc/sudoers.d and /etc/sudo.conf, uses the system's PAM stack, and passes the same 1113-test end-to-end suite as the original sudo, a large C program written around 1980 with a decades-long history of security bugs.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/adamgall/lean-sudo"&gt;adamgall/lean-sudo&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>holmesworcester publishes Lean Quiet, a chat app written mostly in Lean</title>
+<link>https://leanweekly.news/2026-10-28/#2026-10-28-holmesworcester-publishes-lean-quiet-a-chat-app-written-mostly-i</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-28/#2026-10-28-holmesworcester-publishes-lean-quiet-a-chat-app-written-mostly-i</guid>
+<pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/holmesworcester/lean-quiet" rel="noopener"&gt;iOS and Android app&lt;/a&gt; uses Lean for everything from TCP packets to pixels; 429 of its 586 theorems are about the code that runs. Because it is local-first, end-to-end encrypted, and peer-to-peer, many properties that would normally depend on a server operator are provable over all possible deployments, assuming user device integrity.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/holmesworcester/lean-quiet"&gt;holmesworcester/lean-quiet&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Scott Armstrong and Zohar Komargodski formalize the positive-measure KAM theorem in Lean</title>
 <link>https://leanweekly.news/2026-10-28/#2026-10-28-scott-armstrong-and-zohar-komargodski-formalize-the-positive-mea</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-10-28/#2026-10-28-scott-armstrong-and-zohar-komargodski-formalize-the-positive-mea</guid>
@@ -390,22 +406,6 @@
 <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://www.techtimes.com/articles/329134/20261016/chinese-ai-model-helps-prove-31-year-old-math-conjecture-machine-verified-lean-proof.htm" rel="noopener"&gt;Tech Times&lt;/a&gt; calls &lt;a class="inl" href="https://pandaily.com/shanghai-ai-lab-intern-s2-ghys-conjecture-proof-human-ai-collaboration-lean-sheaf" rel="noopener"&gt;Shusheng-S2&lt;/a&gt; the first Chinese AI model to help resolve a world-class open conjecture in pure mathematics: the three-dimensional Ghys conjecture, unresolved for 31 years. A Peking University team, using up to 100 AI agents, independently verified every logical step of Jiesong Zhang's proof, producing more than 550,000 lines of Lean code.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.techtimes.com/articles/329134/20261016/chinese-ai-model-helps-prove-31-year-old-math-conjecture-machine-verified-lean-proof.htm"&gt;techtimes.com&lt;/a&gt;, &lt;a href="https://pandaily.com/shanghai-ai-lab-intern-s2-ghys-conjecture-proof-human-ai-collaboration-lean-sheaf"&gt;pandaily.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AxiomProver generates Lean proof of Collatz positive density results</title>
-<link>https://leanweekly.news/2026-10-18/#2026-10-18-axiomprover-generates-lean-proof-of-collatz-positive-density-res</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-18/#2026-10-18-axiomprover-generates-lean-proof-of-collatz-positive-density-res</guid>
-<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/AxiomMath/CollatzPositiveDensity" rel="noopener"&gt;CollatzPosDens&lt;/a&gt;, &lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-15-000013&amp;amp;version=1" rel="noopener"&gt;a Palomar registry entry&lt;/a&gt;, formally proves the main results of Kenny Lau's paper &amp;quot;Explicit positive lower density for the Collatz Conjecture&amp;quot;, including Theorem 1.3, an explicit positive density of odd starting values reaching a prescribed target not divisible by 3. AxiomProver, Axiom Math's in-house theorem proving system, generated the Lean files.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-15-000013&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/AxiomMath/CollatzPositiveDensity"&gt;AxiomMath/CollatzPositiveDensity&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>XTX Markets grants $10mn each to Lean FRO and the Mathlib Initiative</title>
-<link>https://leanweekly.news/2026-09-17/#2026-09-17-xtx-markets-grants-10mn-each-to-lean-fro-and-the-mathlib-initiat</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-09-17/#2026-09-17-xtx-markets-grants-10mn-each-to-lean-fro-and-the-mathlib-initiat</guid>
-<pubDate>Wed, 16 Sep 2026 12:00:00 +0000</pubDate>
-<category>Papers and events</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://www.xtxmarkets.com/news/2026-update-on-xtx-markets-ai-philanthropy/" rel="noopener"&gt;XTX Markets announced $10mn&lt;/a&gt; to &lt;a class="inl" href="https://lean-fro.org/" rel="noopener"&gt;Lean FRO&lt;/a&gt;, a focused research organisation run by Convergent Research, and $10mn to the &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; Initiative, each covering core operating costs to 2030. XTX Markets says Lean provided the verification layer in the auto-formalisation of Fermat's Last Theorem.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.xtxmarkets.com/news/2026-update-on-xtx-markets-ai-philanthropy/"&gt;xtxmarkets.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

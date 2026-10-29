@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 7</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-07-16-paul-reichert-fixes-slowdown-caused-by-lean-s-stricter-transpare">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-15">Jul 15</time><button class="copy" type="button" hidden data-link="../../2026-07-16/#2026-07-16-paul-reichert-fixes-slowdown-caused-by-lean-s-stricter-transpare" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Paul Reichert fixes slowdown caused by Lean's stricter transparency default</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14323" rel="noopener">A merged Lean pull request</a> by Paul Reichert makes <code>whnfMatcher</code> use the WHNF cache at sub-default transparency. It fixes a performance regression from <a class="inl" href="https://github.com/leanprover/lean4/pull/13895" rel="noopener">#13895</a>, merged on 2026-07-06, which enabled <code>backward.isDefEq.respectTransparency.types</code> by default as a breaking change that gives users more control over what is unfolded.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14323" rel="noopener">lean4#14323</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13895" rel="noopener">lean4#13895</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-16-leo-de-moura-merges-three-fixes-to-lean-s-symm-and-sym-simp">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-15">Jul 15</time><button class="copy" type="button" hidden data-link="../../2026-07-16/#2026-07-16-leo-de-moura-merges-three-fixes-to-lean-s-symm-and-sym-simp" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura merges three fixes to Lean's SymM and Sym.simp</h2>
+    <p class="card-text">Leo de Moura merged pull requests that <a class="inl" href="https://github.com/leanprover/lean4/pull/14404" rel="noopener">improve support for offsets in the SymM matcher/unifier</a>, <a class="inl" href="https://github.com/leanprover/lean4/pull/14405" rel="noopener">fix Sym.simp failing to rewrite terms containing unassigned metavariables</a> (a failure reported by Sebastian Graf), and <a class="inl" href="https://github.com/leanprover/lean4/pull/14401" rel="noopener">stop preprocessType in SymM from performing zetaDelta by default</a>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14404" rel="noopener">lean4#14404</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14405" rel="noopener">lean4#14405</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14401" rel="noopener">lean4#14401</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-07-16-leo-de-moura-adds-liasteps-option-and-bitvec-literal-propagators">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -232,24 +250,6 @@
     <h2 class="card-title">Joachim Breitner adds an impossible tactic combinator to Lean</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13771" rel="noopener">The merged pull request</a> adds <code>impossible by t</code>, which uses the tactic <code>t</code> to prove that the current goal is impossible, closing the original goal as if <code>sorry</code> were used. <code>try?</code> gains an <code>impossible</code> branch that runs <code>impossible by decide</code>, <code>impossible by simp</code>, and <code>impossible by grind</code> in parallel.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13771" rel="noopener">lean4#13771</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-lean-publishes-lean-workbench-an-experimental-online-environment">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time><button class="copy" type="button" hidden data-link="../../2026-05-14/#2026-05-14-lean-publishes-lean-workbench-an-experimental-online-environment" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean publishes Lean Workbench, an experimental online environment for Lean</h2>
-    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/lean-workbench" rel="noopener">leanprover/lean-workbench repository</a> aims to provide familiar (VS Code with the Lean 4 extension) and novel interfaces to Lean online, giving each user an isolated Code Server instance inside a bubblewrap sandbox. The README warns the project is in progress and experimental, with a security audit forthcoming.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench" rel="noopener">leanprover/lean-workbench</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-sebastian-graf-brings-sym-based-mvcgen-to-parity-with-mvcgen">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time><button class="copy" type="button" hidden data-link="../../2026-05-14/#2026-05-14-sebastian-graf-brings-sym-based-mvcgen-to-parity-with-mvcgen" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Graf brings Sym-based mvcgen' to parity with mvcgen</h2>
-    <p class="card-text">A merged Lean pull request by Sebastian Graf gives the <a class="inl" href="https://github.com/leanprover/lean4/pull/13578" rel="noopener">Sym-based mvcgen'</a> feature parity with mvcgen, except +jp (join-point handling), at a cost of about 10% vcgen slowdown for cleaner user-visible VCs. A separate change adds <a class="inl" href="https://github.com/leanprover/lean4/pull/13209" rel="noopener">whileM</a>, which makes repeat/while loops verifiable with mvcgen.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13578" rel="noopener">lean4#13578</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13209" rel="noopener">lean4#13209</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13672" rel="noopener">lean4#13672</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13582" rel="noopener">lean4#13582</a></p>
   </div>
 </article>
 </div>
