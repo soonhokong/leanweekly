@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 3</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-14">Oct 14</time><button class="copy" type="button" hidden data-link="../../2026-10-22/#2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4 merges libuv buffer fix and refactor from Sofia Rodrigues</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">The fix</a>, merged October 14, makes send and recv fail with an invalid-argument error for buffers of 4 GiB or more, instead of letting the length wrap to 32 bits. <a class="inl" href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">The refactor</a>, merged October 15, adds owned_ref, a helper that owns Lean objects and helps avoid hundreds of lean_inc and lean_dec in libuv code.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">lean4#15598</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">lean4#15603</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -252,15 +261,6 @@
     <p class="card-text">The <a class="inl" href="https://competition.sair.foundation/competitions/lean-kernel-challenge" rel="noopener">multi-stage competition</a> seeks faster algorithms for verified computation (using the Lean kernel to check computational results in a proof) across eight problems, including Fibonacci, prime counting, Rule 110, and SHA-256. Entrants prove each algorithm matches its specification; submissions close November 20, 2026.</p>
     <figure class="media"><img src="../../assets/img/31882763a23ac484-480.webp" srcset="../../assets/img/31882763a23ac484-480.webp 480w, ../../assets/img/31882763a23ac484-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="628" alt="Lean Kernel Challenge submission verification and instruction count workflow" loading="lazy" decoding="async"><figcaption class="credit">Image: competition.sair.foundation</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://terrytao.wordpress.com/2026/09/16/sair-competition-lean-kernel-challenge/" rel="noopener">terrytao.wordpress.com</a><span class="dot" aria-hidden="true">·</span><a href="https://competition.sair.foundation/competitions/lean-kernel-challenge" rel="noopener">competition.sair.foundation</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-17-joachim-breitner-announces-con-leche-a-lean-checker-proven-consi">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-10">Sep 10</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-joachim-breitner-announces-con-leche-a-lean-checker-proven-consi" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Joachim Breitner announces con-leche, a Lean checker proven consistent</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener">con-leche</a> is an external checker for Lean, proven in Lean never to accept a proof of False, implemented and proven by Claude (Fable and Opus) under heavy supervision by Joachim Breitner at the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>. On the FLT proof by Anthropic, it accepted 1,044,222 declarations in 2 h 22 min wall time.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/con-leche" rel="noopener">leanprover/con-leche</a><span class="dot" aria-hidden="true">·</span><a href="https://leanprover.zulipchat.com/#narrow/channel/583339-AI-authored-projects/topic/con-leche.2C.20a.20lean.20checker.20with.20a.20proof.20of.20consistency/with/623085852" rel="noopener">leanprover.zulipchat.com</a></p>
   </div>
 </article>
 </div>

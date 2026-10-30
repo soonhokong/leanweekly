@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-29/#2026-10-29-lean-becomes-first-to-formalize-all-100-theorems-on-freek-wiedij",
+   "url": "https://leanweekly.news/2026-10-29/#2026-10-29-lean-becomes-first-to-formalize-all-100-theorems-on-freek-wiedij",
+   "title": "Lean becomes first to formalize all 100 theorems on Freek Wiedijk's list",
+   "content_html": "<p><a class=\"inl\" href=\"https://www.cs.ru.nl/F.Wiedijk/100/index.html\" rel=\"noopener\">Freek Wiedijk's page</a> tracking formalizations of 100 theorems, last modified October 29, 2026, shows Lean at 100, with HOL Light and Isabelle next at 95. <a class=\"inl\" href=\"https://kim-em.github.io/blog/2026-10-30-all-100-theorems-in-lean/\" rel=\"noopener\">Kim Morrison reports</a> that the 100th theorem completed in Lean, a strong formulation of Green's theorem (TauCeti.Green.green_ac_index_one), landed in <a class=\"inl\" href=\"https://taucetiproject.org/\" rel=\"noopener\">Tau Ceti</a>, a library of AI-authored Lean mathematics.</p><p>Sources: <a href=\"https://kim-em.github.io/blog/2026-10-30-all-100-theorems-in-lean/\">kim-em.github.io</a>, <a href=\"https://www.cs.ru.nl/F.Wiedijk/100/index.html\">cs.ru.nl</a>, <a href=\"https://taucetiproject.org/docs/TauCeti/Analysis/Green/IndexOne.html\">taucetiproject.org</a>, <a href=\"https://leanprover.zulipchat.com/#narrow/channel/113486-General-announcements/topic/Freek&#x27;s.20list.20now.20100.2F100.20in.20Lean/with/636168484\">leanprover.zulipchat.com</a></p>",
+   "date_published": "2026-10-29T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "100 theorems",
+    "tau ceti",
+    "autoformalization"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-29/#2026-10-29-mathstodon-user-markusde-posts-about-porting-xv6-to-iris-lean",
    "url": "https://leanweekly.news/2026-10-29/#2026-10-29-mathstodon-user-markusde-posts-about-porting-xv6-to-iris-lean",
    "title": "Mathstodon user markusde posts about porting xv6 to Iris-Lean",
@@ -640,19 +653,6 @@
     "autoformalization",
     "benchmark",
     "mathlib"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver",
-   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver",
-   "title": "AI agents help researchers discover a new consensus protocol, verified in Lean",
-   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2610.30114\" rel=\"noopener\">AI-greement</a>, an agent harness with a Lean-based verification framework, helped researchers discover A-greement, a consensus protocol proved linearizable in about <a class=\"inl\" href=\"https://paperswithlean.com/paper/2610.30114.html\" rel=\"noopener\">98,000 lines of Lean</a>. A-greement cuts mean latency over the fastest baseline by 12.2% on write-heavy and 33.3% on read-heavy workloads, and the harness's Lean formalization uncovered four previously unreported vulnerabilities in existing protocols.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.30114\">arXiv:2610.30114</a>, <a href=\"https://paperswithlean.com/paper/2610.30114.html\">paperswithlean.com</a></p>",
-   "date_published": "2026-10-21T12:00:00Z",
-   "tags": [
-    "Verification",
-    "consensus",
-    "ai agents",
-    "distributed systems"
    ]
   }
  ]

@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 8</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-07-02-sebastian-graf-renames-mvcgen-to-vcgen-and-adds-frame-support">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-22">Jun 22</time><button class="copy" type="button" hidden data-link="../../2026-07-02/#2026-07-02-sebastian-graf-renames-mvcgen-to-vcgen-and-adds-frame-support" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Graf renames mvcgen' to vcgen and adds frame support</h2>
+    <p class="card-text">Sebastian Graf merged pull requests renaming the experimental Sym-based mvcgen' tactic to vcgen, speeding up its matching, and adding a frames clause. A new @[frameproc] attribute lets a program type register how it frames a resource, so cost budgets, separation-logic footprints, and trace invariants frame through the same mechanism.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14195" rel="noopener">lean4#14195</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14146" rel="noopener">lean4#14146</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14167" rel="noopener">lean4#14167</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14134" rel="noopener">lean4#14134</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-06-25-sebastian-graf-ports-mvcgen-to-std-internal-do-and-extends-it-to">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -240,15 +249,6 @@
     <h2 class="card-title">Sebastian Ullrich speeds up Lean's test suite with shared header snapshots</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14077" rel="noopener">A merged pull request</a> lets about 389 elab tests that use <code>import Lean</code> reuse one pre-built snapshot, cutting CPU time by 26.0% (2222 s to 1645 s), with CI test wall-clock speedups of about 10-40% depending on platform. Related pull requests speed up <code>.olean</code> and snapshot serialization, one cutting snapshot save time by about 28%.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14077" rel="noopener">lean4#14077</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14109" rel="noopener">lean4#14109</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14122" rel="noopener">lean4#14122</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-06-25-henrik-b-ving-adds-cost-metrics-for-grind-s-e-matching-graph">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-25">Jun 25</time><button class="copy" type="button" hidden data-link="../../2026-06-25/#2026-06-25-henrik-b-ving-adds-cost-metrics-for-grind-s-e-matching-graph" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Henrik Böving adds cost metrics for grind's e-matching graph</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14118" rel="noopener">A merged Lean pull request</a> by Henrik Böving adds optional diagnostics, enabled via <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>.ematch.diagnostics, that flag instances with many direct follow-up children and instances that participated in a large, transitive closure of follow-up instances. The metric is based on the cost heuristic of smt-scope, and thresholds are configurable.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14118" rel="noopener">lean4#14118</a></p>
   </div>
 </article>
 </div>

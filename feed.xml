@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Thu, 29 Oct 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Lean becomes first to formalize all 100 theorems on Freek Wiedijk's list</title>
+<link>https://leanweekly.news/2026-10-29/#2026-10-29-lean-becomes-first-to-formalize-all-100-theorems-on-freek-wiedij</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-lean-becomes-first-to-formalize-all-100-theorems-on-freek-wiedij</guid>
+<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://www.cs.ru.nl/F.Wiedijk/100/index.html" rel="noopener"&gt;Freek Wiedijk's page&lt;/a&gt; tracking formalizations of 100 theorems, last modified October 29, 2026, shows Lean at 100, with HOL Light and Isabelle next at 95. &lt;a class="inl" href="https://kim-em.github.io/blog/2026-10-30-all-100-theorems-in-lean/" rel="noopener"&gt;Kim Morrison reports&lt;/a&gt; that the 100th theorem completed in Lean, a strong formulation of Green's theorem (TauCeti.Green.green_ac_index_one), landed in &lt;a class="inl" href="https://taucetiproject.org/" rel="noopener"&gt;Tau Ceti&lt;/a&gt;, a library of AI-authored Lean mathematics.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://kim-em.github.io/blog/2026-10-30-all-100-theorems-in-lean/"&gt;kim-em.github.io&lt;/a&gt;, &lt;a href="https://www.cs.ru.nl/F.Wiedijk/100/index.html"&gt;cs.ru.nl&lt;/a&gt;, &lt;a href="https://taucetiproject.org/docs/TauCeti/Analysis/Green/IndexOne.html"&gt;taucetiproject.org&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/113486-General-announcements/topic/Freek&amp;#x27;s.20list.20now.20100.2F100.20in.20Lean/with/636168484"&gt;leanprover.zulipchat.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Mathstodon user markusde posts about porting xv6 to Iris-Lean</title>
 <link>https://leanweekly.news/2026-10-29/#2026-10-29-mathstodon-user-markusde-posts-about-porting-xv6-to-iris-lean</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-mathstodon-user-markusde-posts-about-porting-xv6-to-iris-lean</guid>
@@ -398,14 +406,6 @@
 <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;Each statement, written by hand in Lean 4 using &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;, is the main result of an Annals of Mathematics paper published since 2020; all were manually reviewed, then audited by AI, and are released without formalized proofs. &lt;a class="inl" href="https://arxiv.org/abs/2610.18301" rel="noopener"&gt;The authors&lt;/a&gt; say measuring progress in AI autoformalization of mathematics requires hard, trustworthy datasets of formal statements.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.18301"&gt;arXiv:2610.18301&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AI agents help researchers discover a new consensus protocol, verified in Lean</title>
-<link>https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver</guid>
-<pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2610.30114" rel="noopener"&gt;AI-greement&lt;/a&gt;, an agent harness with a Lean-based verification framework, helped researchers discover A-greement, a consensus protocol proved linearizable in about &lt;a class="inl" href="https://paperswithlean.com/paper/2610.30114.html" rel="noopener"&gt;98,000 lines of Lean&lt;/a&gt;. A-greement cuts mean latency over the fastest baseline by 12.2% on write-heavy and 33.3% on read-heavy workloads, and the harness's Lean formalization uncovered four previously unreported vulnerabilities in existing protocols.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.30114"&gt;arXiv:2610.30114&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2610.30114.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
