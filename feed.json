@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-29/#2026-10-29-mathstodon-user-markusde-posts-about-porting-xv6-to-iris-lean",
+   "url": "https://leanweekly.news/2026-10-29/#2026-10-29-mathstodon-user-markusde-posts-about-porting-xv6-to-iris-lean",
+   "title": "Mathstodon user markusde posts about porting xv6 to Iris-Lean",
+   "content_html": "<p><a class=\"inl\" href=\"https://mathstodon.xyz/@markusde/117526484542409147\" rel=\"noopener\">The post</a> includes one attached image and thanks @ahuoguo for noticing the update.</p><p>Sources: <a href=\"https://mathstodon.xyz/@markusde/117526484542409147\">mathstodon.xyz</a></p>",
+   "date_published": "2026-10-29T12:00:00Z",
+   "tags": [
+    "Verification",
+    "iris-lean",
+    "xv6",
+    "verification"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-29/#2026-10-29-juan-j-manfredi-completes-lean-formalization-of-openai-s-infinit",
    "url": "https://leanweekly.news/2026-10-29/#2026-10-29-juan-j-manfredi-completes-lean-formalization-of-openai-s-infinit",
    "title": "Juan J. Manfredi completes Lean formalization of OpenAI's infinity-harmonic estimates",
@@ -640,19 +653,6 @@
     "consensus",
     "ai agents",
     "distributed systems"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-anthropic-s-claude-designs-more-efficient-quantum-circuits-verif",
-   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-anthropic-s-claude-designs-more-efficient-quantum-circuits-verif",
-   "title": "Anthropic's Claude designs more efficient quantum circuits, verifying one with Lean proofs",
-   "content_html": "<p>Working largely on its own, Claude Mythos 5 produced circuits that improve on the best published versions. For <a class=\"inl\" href=\"https://arxiv.org/abs/2610.22367\" rel=\"noopener\">a new circuit computing modular inversion</a>, the wraparound version of division, Claude checked the formula behind the design with large-scale numerical simulations, then formalized the claim in Lean, a step <a class=\"inl\" href=\"https://www.anthropic.com/research/designing-efficient-quantum-circuits\" rel=\"noopener\">Anthropic</a> attributes to the model's caution.</p><p>Sources: <a href=\"https://www.anthropic.com/research/designing-efficient-quantum-circuits\">anthropic.com</a>, <a href=\"https://arxiv.org/abs/2610.22367\">arXiv:2610.22367</a></p>",
-   "date_published": "2026-10-16T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "ai",
-    "quantum computing",
-    "claude"
    ]
   }
  ]

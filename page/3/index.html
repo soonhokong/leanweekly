@@ -32,6 +32,16 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 3</h1></header>
 <div class="stream">
+<article class="card c-ai" id="2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-13">Oct 13</time><button class="copy" type="button" hidden data-link="../../2026-10-21/#2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Thomas Browning and coauthors release AnnalsChallenge, 50 Annals theorems stated in Lean</h2>
+    <p class="card-text">Each statement, written by hand in Lean 4 using <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>, is the main result of an Annals of Mathematics paper published since 2020; all were manually reviewed, then audited by AI, and are released without formalized proofs. <a class="inl" href="https://arxiv.org/abs/2610.18301" rel="noopener">The authors</a> say measuring progress in AI autoformalization of mathematics requires hard, trustworthy datasets of formal statements.</p>
+    <figure class="media media-paper"><img src="../../assets/img/f7fc749931414611-480.webp" srcset="../../assets/img/f7fc749931414611-480.webp 480w, ../../assets/img/f7fc749931414611-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.18301" rel="noopener">arXiv:2610.18301</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -251,15 +261,6 @@
     <h2 class="card-title">Joachim Breitner announces con-leche, a Lean checker proven consistent</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener">con-leche</a> is an external checker for Lean, proven in Lean never to accept a proof of False, implemented and proven by Claude (Fable and Opus) under heavy supervision by Joachim Breitner at the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>. On the FLT proof by Anthropic, it accepted 1,044,222 declarations in 2 h 22 min wall time.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/con-leche" rel="noopener">leanprover/con-leche</a><span class="dot" aria-hidden="true">·</span><a href="https://leanprover.zulipchat.com/#narrow/channel/583339-AI-authored-projects/topic/con-leche.2C.20a.20lean.20checker.20with.20a.20proof.20of.20consistency/with/623085852" rel="noopener">leanprover.zulipchat.com</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-17-arthur-adjedj-proposes-a-renovation-of-the-lean-kernel-logic">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-31">Aug 31</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-arthur-adjedj-proposes-a-renovation-of-the-lean-kernel-logic" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Arthur Adjedj proposes a renovation of the Lean kernel logic</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/issues/14977" rel="noopener">A meta issue</a> by Arthur Adjedj, worked out with @nomeata, plans kernel changes that move feature selection for inductives to the elaborator and aim for a decidable, transitive definitional equality algorithm. Recursive predicates like Acc would lose large elimination, and the kernel changes would ideally ship in a single release.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/issues/14977" rel="noopener">lean4#14977</a></p>
   </div>
 </article>
 </div>

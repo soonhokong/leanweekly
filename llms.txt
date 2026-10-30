@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Mathstodon user markusde posts about porting xv6 to Iris-Lean](https://leanweekly.news/2026-10-29/#2026-10-29-mathstodon-user-markusde-posts-about-porting-xv6-to-iris-lean): Verification, 2026-10-29
 - [Juan J. Manfredi completes Lean formalization of OpenAI's infinity-harmonic estimates](https://leanweekly.news/2026-10-29/#2026-10-29-juan-j-manfredi-completes-lean-formalization-of-openai-s-infinit): AI and formalization, 2026-10-29
 - [Anthropic publishes Lean formalization of Claude's refutation of the Exponential Time Hypothesis](https://leanweekly.news/2026-10-29/#2026-10-29-anthropic-publishes-lean-formalization-of-claude-s-refutation-of): AI and formalization, 2026-10-29
 - [XTX Markets gives £5 million to Imperial College London for Langlands Lab](https://leanweekly.news/2026-10-29/#2026-10-29-xtx-markets-gives-5-million-to-imperial-college-london-for-langl): Papers and events, 2026-10-27
@@ -103,7 +104,6 @@
 - [Arthur Adjedj opens meta issue planning a renovation of Lean's kernel logic](https://leanweekly.news/2026-09-03/#2026-09-03-arthur-adjedj-opens-meta-issue-planning-a-renovation-of-lean-s-k): Lean core, 2026-08-31
 - [Lean FRO publishes postmortem of kernel soundness bug hunt with OpenAI models](https://leanweekly.news/2026-08-27/#2026-08-27-lean-fro-publishes-postmortem-of-kernel-soundness-bug-hunt-with): Lean core, 2026-08-24
 - [Lean FRO publishes six-month roadmap for September 2026 to February 2027](https://leanweekly.news/2026-08-27/#2026-08-27-lean-fro-publishes-six-month-roadmap-for-september-2026-to-febru): Lean core, 2026-08-27
-- [Lean v4.33.1 patches kernel soundness bugs, v4.34.0-rc2 also published](https://leanweekly.news/2026-08-27/#2026-08-27-lean-v4-33-1-patches-kernel-soundness-bugs-v4-34-0-rc2-also-publ): Lean core, 2026-08-21
 
 ## Weeks (Friday to Thursday)
 

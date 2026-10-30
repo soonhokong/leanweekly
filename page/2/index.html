@@ -32,6 +32,16 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 2</h1></header>
 <div class="stream">
+<article class="card c-verification" id="2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-20">Oct 20</time><button class="copy" type="button" hidden data-link="../../2026-10-26/#2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">John Zhuoyang Ye and Jens Palsberg verify fault-tolerant quantum compilation in Lean</h2>
+    <p class="card-text"><a class="inl" href="https://arxiv.org/abs/2610.31694" rel="noopener">The paper</a> introduces QPPM, a language for Pauli-product measurement programs, and verifies lowering of Clifford+T circuits to QPPM and an optimizer that eliminates measurements, fuses and reorders rotations, and schedules logical rounds. On QASMBench, verified fusion and scheduling reduce logical measurement depth by a median of 17.9%.</p>
+    <figure class="media media-paper"><img src="../../assets/img/da15946acfcb2ce6-480.webp" srcset="../../assets/img/da15946acfcb2ce6-480.webp 480w, ../../assets/img/da15946acfcb2ce6-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="949" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.31694" rel="noopener">arXiv:2610.31694</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2610.31694.html" rel="noopener">paperswithlean.com</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-10-25-resolution-uses-claude-fable-5-1-to-formalize-hironaka-s-resolut">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -242,16 +252,6 @@
     <h2 class="card-title">Lean 4 merges libuv buffer fix and refactor from Sofia Rodrigues</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">The fix</a>, merged October 14, makes send and recv fail with an invalid-argument error for buffers of 4 GiB or more, instead of letting the length wrap to 32 bits. <a class="inl" href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">The refactor</a>, merged October 15, adds owned_ref, a helper that owns Lean objects and helps avoid hundreds of lean_inc and lean_dec in libuv code.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15598" rel="noopener">lean4#15598</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15603" rel="noopener">lean4#15603</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-13">Oct 13</time><button class="copy" type="button" hidden data-link="../../2026-10-21/#2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Thomas Browning and coauthors release AnnalsChallenge, 50 Annals theorems stated in Lean</h2>
-    <p class="card-text">Each statement, written by hand in Lean 4 using <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>, is the main result of an Annals of Mathematics paper published since 2020; all were manually reviewed, then audited by AI, and are released without formalized proofs. <a class="inl" href="https://arxiv.org/abs/2610.18301" rel="noopener">The authors</a> say measuring progress in AI autoformalization of mathematics requires hard, trustworthy datasets of formal statements.</p>
-    <figure class="media media-paper"><img src="../../assets/img/f7fc749931414611-480.webp" srcset="../../assets/img/f7fc749931414611-480.webp 480w, ../../assets/img/f7fc749931414611-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.18301" rel="noopener">arXiv:2610.18301</a></p>
   </div>
 </article>
 </div>
