@@ -30,8 +30,18 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 153 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 154 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-31-harsh-gupta-s-lean-4-submission-ranks-first-in-the-12-server-cha">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-31">Oct 31</time><button class="copy" type="button" hidden data-link="../../2026-10-31/#2026-10-31-harsh-gupta-s-lean-4-submission-ranks-first-in-the-12-server-cha" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Harsh Gupta's Lean 4 submission ranks first in the $12 server challenge</h2>
+    <p class="card-text">Harsh Gupta <a class="inl" href="https://x.com/hargup13/status/2116422880221409621" rel="noopener">announced on X</a> that the ranking is now official, with the submission serving more users than Rust, C, or handwritten assembly. The post credits the challenge's creator with explaining how Lean 4 lets developers create software more optimized than handwritten C.</p>
+    <figure class="media"><img src="../../assets/img/f0057282dc394e14-480.webp" srcset="../../assets/img/f0057282dc394e14-480.webp 480w, ../../assets/img/f0057282dc394e14-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="675" height="1200" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: x.com/hargup13</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/hargup13/status/2116422880221409621" rel="noopener">@hargup13 on X</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-10-29-leo-de-moura-speeds-up-kernel-checking-of-lia-and-grind-proofs">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -240,15 +250,6 @@
     <h2 class="card-title">Lean merges rewritten Verso docstring parser, unblocking automatic formatting</h2>
     <p class="card-text">David Thrane Christiansen's <a class="inl" href="https://github.com/leanprover/lean4/pull/15064" rel="noopener">rewrite of the Verso docstring parser</a>, a breaking change that tracks all details of the concrete syntax, was merged on 2026-09-18, and <a class="inl" href="https://github.com/leanprover/verso/pull/989" rel="noopener">Verso has been adapted</a> to it. Marc Huisinga has <a class="inl" href="https://github.com/leanprover/lean4/pull/15218" rel="noopener">opened a pull request</a> adding an extensible code formatter integrated with the language server.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15064" rel="noopener">lean4#15064</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/verso/pull/989" rel="noopener">verso#989</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15218" rel="noopener">lean4#15218</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lake gains a samply profiling command, copied path dependencies, and separate codegen</h2>
-    <p class="card-text">Kim Morrison's <code>lake samply</code> command records a CPU profile of a Lean executable and serves it to Firefox Profiler, and Mac Malone added a <code>copy</code> option for path dependencies and split <code>leanir</code> code generation into a separate <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> job. Mac Malone also published <a class="inl" href="https://nerodia.lean-lang.org/" rel="noopener">Nerodia</a>, a work-in-progress library for Lean/Python FFI inspired by PyO3.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12545" rel="noopener">lean4#12545</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15142" rel="noopener">lean4#15142</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14906" rel="noopener">lean4#14906</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15231" rel="noopener">lean4#15231</a><span class="dot" aria-hidden="true">·</span><a href="https://nerodia.lean-lang.org/" rel="noopener">nerodia.lean-lang.org</a></p>
   </div>
 </article>
 </div>

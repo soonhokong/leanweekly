@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 5</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 153 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 5</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 154 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-05-14-mac-malone-merges-three-lake-fixes-including-workspace-level-com">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-08">May 8</time><button class="copy" type="button" hidden data-link="../../../../2026-05-14/#2026-05-14-mac-malone-merges-three-lake-fixes-including-workspace-level-com" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Mac Malone merges three Lake fixes, including workspace-level compiled configurations</h2>
+    <p class="card-text">Compiled <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> configurations such as <a class="inl" href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lakefile.olean</a> now live in the workspace's .lake/config, removing a source of contention between workspaces sharing a dependency. Lake also now includes <a class="inl" href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">IR for a meta import's transitive imports</a>, fixing &quot;missing data file&quot; errors with the artifact cache, and <a class="inl" href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">all Lake tests are re-enabled</a> by default.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lean4#13683</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">lean4#13600</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">lean4#13692</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-05-14-demo-previews-rust-source-references-resolved-through-rust-analy">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -238,15 +247,6 @@
     <h2 class="card-title">Kyle Miller merges Lean syntax and structure default value changes</h2>
     <p class="card-text">In Lean, <a class="inl" href="https://github.com/leanprover/lean4/pull/12841" rel="noopener">structure field defaults</a> can now depend on fields that come before and after them, and <a class="inl" href="https://github.com/leanprover/lean4/pull/13245" rel="noopener">dotted function notation</a> supports explicit mode (<code>@.f</code>) and explicit universes (<code>.f.{u,v}</code>). <a class="inl" href="https://github.com/leanprover/lean4/pull/13262" rel="noopener">Field notation</a> such as <code>e.f.{u,v}</code> now also accepts explicit universe levels, fixing a bug where levels were attributed to the wrong expression.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12841" rel="noopener">lean4#12841</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13245" rel="noopener">lean4#13245</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13262" rel="noopener">lean4#13262</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-17">Feb 17</time><button class="copy" type="button" hidden data-link="../../../../2026-02-19/#2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean v4.28.0 released with a symbolic simulation framework and grind extensions</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.28.0" rel="noopener">Lean v4.28.0</a> adds a lightweight symbolic simulation framework that integrates with <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> and enables verification condition generators, plus user-defined grind attributes, a solver mode for bv_decide, and a first_par combinator that runs tactics in parallel. The release landed <a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.28.0/" rel="noopener">309 changes</a>, including performance improvements in bv_decide.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.28.0/" rel="noopener">v4.28.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.28.0" rel="noopener">lean4 v4.28.0</a></p>
   </div>
 </article>
 </div>

@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Harsh Gupta's Lean 4 submission ranks first in the $12 server challenge](https://leanweekly.news/2026-10-31/#2026-10-31-harsh-gupta-s-lean-4-submission-ranks-first-in-the-12-server-cha): Lean core, 2026-10-31
 - [Basis Research Institute proves compiled libtommath correct in Lean, finds bugs](https://leanweekly.news/2026-10-30/#2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l): Verification, 2026-10-30
 - [Junpeng Ren disproves the pure semisimplicity conjecture, with a Lean formalization](https://leanweekly.news/2026-10-30/#2026-10-30-junpeng-ren-disproves-the-pure-semisimplicity-conjecture-with-a): AI and formalization, 2026-10-29
 - [Denis Firsov verifies worst-case constant-time order maintenance in Lean 4](https://leanweekly.news/2026-10-30/#2026-10-30-denis-firsov-verifies-worst-case-constant-time-order-maintenance): Verification, 2026-10-28
@@ -103,7 +104,6 @@
 - [Lean 4.33.0 released with editor, tactic, Float, and kernel changes](https://leanweekly.news/2026-08-15/#2026-08-15-lean-4-33-0-released-with-editor-tactic-float-and-kernel-changes): Lean core, 2026-08-10
 - [Amazon provides long-term financial support to the Lean Focused Research Organization](https://leanweekly.news/2026-08-06/#2026-08-06-amazon-provides-long-term-financial-support-to-the-lean-focused): Papers and events, 2026-07-26
 - [Lean v4.32.0 makes the new do elaborator the default](https://leanweekly.news/2026-07-16/#2026-07-16-lean-v4-32-0-makes-the-new-do-elaborator-the-default): Lean core, 2026-07-13
-- [Palomar, a registry of Lean verified mathematics, opens for submissions](https://leanweekly.news/2026-09-03/#2026-09-03-palomar-a-registry-of-lean-verified-mathematics-opens-for-submis): AI and formalization, 2026-08-18
 
 ## Weeks (Friday to Thursday)
 
@@ -143,6 +143,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Oct 31, 2026](https://leanweekly.news/2026-10-31/items.md)
 - [Published Oct 30, 2026](https://leanweekly.news/2026-10-30/items.md)
 - [Published Oct 29, 2026](https://leanweekly.news/2026-10-29/items.md)
 - [Published Oct 28, 2026](https://leanweekly.news/2026-10-28/items.md)

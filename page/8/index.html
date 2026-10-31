@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 8</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-07-09-kim-morrison-releases-sos-a-sum-of-squares-tactic-for-lean">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-13">May 13</time><button class="copy" type="button" hidden data-link="../../2026-07-09/#2026-07-09-kim-morrison-releases-sos-a-sum-of-squares-tactic-for-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Kim Morrison releases sos, a sum-of-squares tactic for Lean</h2>
+    <p class="card-text"><a class="inl" href="https://kim-em.github.io/blog/2026-5-13-a-sum-of-squares-tactic/" rel="noopener">The sos tactic</a> is a sum-of-squares decision procedure for nonlinear real arithmetic, closely following John Harrison's HOL Light implementation. It calls the CSDP semidefinite programming library and rebuilds a fully certified result in Lean. <a class="inl" href="https://www.linkedin.com/posts/kim-morrison-219962b_lean4-formalverification-activity-7478622597069455360-B4aF/" rel="noopener">Kim Morrison</a> calls it a prototype and notes that frontier models have become very good at Lean metaprogramming.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://kim-em.github.io/blog/2026-5-13-a-sum-of-squares-tactic/" rel="noopener">kim-em.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://www.linkedin.com/posts/kim-morrison-219962b_lean4-formalverification-activity-7478622597069455360-B4aF/" rel="noopener">LinkedIn post</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-07-09-joachim-breitner-adds-automatic-try-suggestions-to-lean-at-commo">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -240,16 +249,6 @@
     <h2 class="card-title">Mac Malone merges new Lake APIs for dynamic libraries and linking</h2>
     <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> adds <code>Dynlib.runtimeOnlyDeps</code>, for transitive dependencies that should not be linked but must be preloaded when precompiling, plus <a class="inl" href="https://github.com/leanprover/lean4/pull/14220" rel="noopener">an API for retrieving the complete set of core dynamic libraries</a>. A third change lets <a class="inl" href="https://github.com/leanprover/lean4/pull/14219" rel="noopener">custom build targets</a> link shared libraries or executables from a module without copying the code in <code>LeanExe.recBuildExe</code>.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14254" rel="noopener">lean4#14254</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14220" rel="noopener">lean4#14220</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14219" rel="noopener">lean4#14219</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14240" rel="noopener">lean4#14240</a></p>
-  </div>
-</article>
-<article class="card c-papers" id="2026-07-09-dwarkesh-patel-relays-idea-of-ais-forking-mathlib-into-parallel">
-  <span class="avatar" aria-hidden="true">¶</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-01">Jul 1</time><button class="copy" type="button" hidden data-link="../../2026-07-09/#2026-07-09-dwarkesh-patel-relays-idea-of-ais-forking-mathlib-into-parallel" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Dwarkesh Patel relays idea of AIs forking Mathlib into parallel mathematics</h2>
-    <p class="card-text">In <a class="inl" href="https://x.com/dwarkesh_sp/status/2072403064846520346" rel="noopener">a post on X</a>, Dwarkesh Patel described Grant's speculation that AIs could fork <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>, the Lean library of formalized math concepts and proofs, and build a &quot;parallel math civilization.&quot; Dwarkesh Patel wrote that Lean guarantees any new conjectures would be logically valid, and that whether they would be interesting is another matter.</p>
-    <figure class="media"><img src="../../assets/img/970f9f4143dabc1b-480.webp" srcset="../../assets/img/970f9f4143dabc1b-480.webp 480w, ../../assets/img/970f9f4143dabc1b-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="1200" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: x.com/dwarkesh_sp</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/dwarkesh_sp/status/2072403064846520346" rel="noopener">@dwarkesh_sp on X</a></p>
   </div>
 </article>
 </div>

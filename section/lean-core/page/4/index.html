@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 4</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 153 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 4</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 154 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-06-25-sebastian-graf-ports-mvcgen-to-std-internal-do-and-extends-it-to">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-19">Jun 19</time><button class="copy" type="button" hidden data-link="../../../../2026-06-25/#2026-06-25-sebastian-graf-ports-mvcgen-to-std-internal-do-and-extends-it-to" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Graf ports mvcgen' to Std.Internal.Do and extends it to embedded languages</h2>
+    <p class="card-text">Sebastian Graf merged a <a class="inl" href="https://github.com/leanprover/lean4/pull/14080" rel="noopener">port of the experimental mvcgen' tactic</a> to the new Std.Internal.Do meta theory, where loop invariants no longer restate the exceptional postcondition. A follow-up <a class="inl" href="https://github.com/leanprover/lean4/pull/14015" rel="noopener">extracts a WP type class from WPMonad</a>, enabling verification of deeply embedded languages, tested on an IMP language whose WP instance has no accompanying WPMonad.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14080" rel="noopener">lean4#14080</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14015" rel="noopener">lean4#14015</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-06-25-lean-enables-respecttransparency-types-by-default-a-breaking-cha">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -237,15 +246,6 @@
     <h2 class="card-title">Leo de Moura merges grind improvements for local theorems in Lean</h2>
     <p class="card-text">In merged Lean pull requests by Leo de Moura, <a class="inl" href="https://github.com/leanprover/lean4/pull/13699" rel="noopener">grind diagnostics</a> now show local hypotheses used as E-matching theorems with their user-facing names and instantiation counters. A new <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> option, <a class="inl" href="https://github.com/leanprover/lean4/pull/13698" rel="noopener">genLocal</a>, controls the maximum term generation for local theorems (for example, hypotheses) and defaults to 8, the same value as gen.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13699" rel="noopener">lean4#13699</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13698" rel="noopener">lean4#13698</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-mac-malone-merges-three-lake-fixes-including-workspace-level-com">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-08">May 8</time><button class="copy" type="button" hidden data-link="../../../../2026-05-14/#2026-05-14-mac-malone-merges-three-lake-fixes-including-workspace-level-com" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Mac Malone merges three Lake fixes, including workspace-level compiled configurations</h2>
-    <p class="card-text">Compiled <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> configurations such as <a class="inl" href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lakefile.olean</a> now live in the workspace's .lake/config, removing a source of contention between workspaces sharing a dependency. Lake also now includes <a class="inl" href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">IR for a meta import's transitive imports</a>, fixing &quot;missing data file&quot; errors with the artifact cache, and <a class="inl" href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">all Lake tests are re-enabled</a> by default.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13683" rel="noopener">lean4#13683</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13600" rel="noopener">lean4#13600</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13692" rel="noopener">lean4#13692</a></p>
   </div>
 </article>
 </div>

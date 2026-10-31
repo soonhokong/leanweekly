@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 30 Oct 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sat, 31 Oct 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Harsh Gupta's Lean 4 submission ranks first in the $12 server challenge</title>
+<link>https://leanweekly.news/2026-10-31/#2026-10-31-harsh-gupta-s-lean-4-submission-ranks-first-in-the-12-server-cha</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-31/#2026-10-31-harsh-gupta-s-lean-4-submission-ranks-first-in-the-12-server-cha</guid>
+<pubDate>Sat, 31 Oct 2026 12:00:00 +0000</pubDate>
+<category>Lean core</category>
+<description>&lt;p&gt;Harsh Gupta &lt;a class="inl" href="https://x.com/hargup13/status/2116422880221409621" rel="noopener"&gt;announced on X&lt;/a&gt; that the ranking is now official, with the submission serving more users than Rust, C, or handwritten assembly. The post credits the challenge's creator with explaining how Lean 4 lets developers create software more optimized than handwritten C.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://x.com/hargup13/status/2116422880221409621"&gt;@hargup13 on X&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Basis Research Institute proves compiled libtommath correct in Lean, finds bugs</title>
 <link>https://leanweekly.news/2026-10-30/#2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l</link>
@@ -398,14 +406,6 @@
 <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;Written for &lt;a class="inl" href="https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr" rel="noopener"&gt;Veil&lt;/a&gt;, a Lean-based verifier for transition systems, &lt;a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646" rel="noopener"&gt;#synthesize_invariants&lt;/a&gt; runs the universal PDR algorithm on a module and its safety property. It returns inductive invariants or a counterexample (both proven sound), a &amp;quot;no universal invariant&amp;quot; result (not proven sound) or &amp;quot;unknown&amp;quot;; it succeeded on every &lt;a class="inl" href="https://veil.dev/" rel="noopener"&gt;Veil&lt;/a&gt; example tested within its supported fragment.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646"&gt;leanprover.zulipchat.com&lt;/a&gt;, &lt;a href="https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr"&gt;verse-lab/veil&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Leo de Moura adds three lia changes that avoid large case splits</title>
-<link>https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits</guid>
-<pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;The pull requests, merged October 20 and 21, add &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15835" rel="noopener"&gt;dynamic variable reordering&lt;/a&gt; before large Cooper splits (case splits with as many cases as a variable's coefficient), &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15838" rel="noopener"&gt;exact elimination of equations without unit coefficients&lt;/a&gt;, and &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15827" rel="noopener"&gt;divisibility normalization&lt;/a&gt;. Chains of such equations from &lt;code&gt;/&lt;/code&gt; and &lt;code&gt;%&lt;/code&gt; definitions no longer yield Cooper splits with thousands of cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/15835"&gt;lean4#15835&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15838"&gt;lean4#15838&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15827"&gt;lean4#15827&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

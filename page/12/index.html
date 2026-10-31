@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 12</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-17">Feb 17</time><button class="copy" type="button" hidden data-link="../../2026-02-19/#2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean v4.28.0 released with a symbolic simulation framework and grind extensions</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.28.0" rel="noopener">Lean v4.28.0</a> adds a lightweight symbolic simulation framework that integrates with <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> and enables verification condition generators, plus user-defined grind attributes, a solver mode for bv_decide, and a first_par combinator that runs tactics in parallel. The release landed <a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.28.0/" rel="noopener">309 changes</a>, including performance improvements in bv_decide.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.28.0/" rel="noopener">v4.28.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.28.0" rel="noopener">lean4 v4.28.0</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-02-19-lean-v4-29-0-rc1-changes-how-isdefeq-handles-transparency-on-imp">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -241,15 +250,6 @@
     <h2 class="card-title">New leancall library lets Python code call Lean functions directly</h2>
     <p class="card-text">A post titled &quot;<a class="inl" href="https://www.philipzucker.com/leancall/" rel="noopener">Calling Lean Functions As Python Functions</a>&quot; introduces leancall, a Python library for Lean-Python interop built on LeanInteract, which gives a Lean REPL as a Python library. Examples include a Lean controller balancing a gym cartpole environment and a Lean ray tracer displayed with Python plotting tools.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.philipzucker.com/leancall/" rel="noopener">philipzucker.com</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-02-05-leo-de-moura-fixes-lean-s-type-class-resolution-cache">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-05">Feb 5</time><button class="copy" type="button" hidden data-link="../../2026-02-05/#2026-02-05-leo-de-moura-fixes-lean-s-type-class-resolution-cache" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura fixes Lean's type class resolution cache</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">A merged pull request</a> to leanprover/lean4 makes the type class resolution cache properly cache results for type classes containing output parameters. Output parameter arguments, and universe levels that only appear in output parameter types, are erased from the cache key to avoid cache misses.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">lean4#12286</a></p>
   </div>
 </article>
 </div>

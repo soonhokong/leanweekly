@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-31/#2026-10-31-harsh-gupta-s-lean-4-submission-ranks-first-in-the-12-server-cha",
+   "url": "https://leanweekly.news/2026-10-31/#2026-10-31-harsh-gupta-s-lean-4-submission-ranks-first-in-the-12-server-cha",
+   "title": "Harsh Gupta's Lean 4 submission ranks first in the $12 server challenge",
+   "content_html": "<p>Harsh Gupta <a class=\"inl\" href=\"https://x.com/hargup13/status/2116422880221409621\" rel=\"noopener\">announced on X</a> that the ranking is now official, with the submission serving more users than Rust, C, or handwritten assembly. The post credits the challenge's creator with explaining how Lean 4 lets developers create software more optimized than handwritten C.</p><p>Sources: <a href=\"https://x.com/hargup13/status/2116422880221409621\">@hargup13 on X</a></p>",
+   "date_published": "2026-10-31T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "performance",
+    "programming",
+    "competition"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-30/#2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l",
    "url": "https://leanweekly.news/2026-10-30/#2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l",
    "title": "Basis Research Institute proves compiled libtommath correct in Lean, finds bugs",
@@ -640,19 +653,6 @@
     "veil",
     "invariant synthesis",
     "tactics"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits",
-   "url": "https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits",
-   "title": "Leo de Moura adds three lia changes that avoid large case splits",
-   "content_html": "<p>The pull requests, merged October 20 and 21, add <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15835\" rel=\"noopener\">dynamic variable reordering</a> before large Cooper splits (case splits with as many cases as a variable's coefficient), <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15838\" rel=\"noopener\">exact elimination of equations without unit coefficients</a>, and <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15827\" rel=\"noopener\">divisibility normalization</a>. Chains of such equations from <code>/</code> and <code>%</code> definitions no longer yield Cooper splits with thousands of cases.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/15835\">lean4#15835</a>, <a href=\"https://github.com/leanprover/lean4/pull/15838\">lean4#15838</a>, <a href=\"https://github.com/leanprover/lean4/pull/15827\">lean4#15827</a></p>",
-   "date_published": "2026-10-21T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "lia",
-    "proof automation",
-    "lean core"
    ]
   }
  ]
