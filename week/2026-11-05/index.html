@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../../">
+<head>
+<meta charset="utf-8">
+<script src="../../assets/theme.js?v=1fe176d120"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lean news, Oct 30 to Nov 5, 2026 · Lean Weekly</title>
+<meta name="description" content="Lean news from Oct 30 to Nov 5, 2026.">
+<link rel="preload" href="../../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../assets/lw.css?v=edba6bded4">
+<link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../../feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../../feed.json">
+<script defer src="../../assets/lw.js?v=4d35c1ac95"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the news</a>
+<header class="bar">
+<div class="bar-row">
+  <div class="brand"><a class="wordmark" href="../../" aria-label="Lean Weekly"><img class="logo" src="../../assets/lean-logo.svg" alt="Lean" width="80" height="30"><span>Weekly</span></a>
+  <p class="tagline">News about Lean, the theorem prover and programming language.</p></div>
+  <button class="theme" type="button" hidden aria-label="Switch to night mode"><svg class="i-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg><svg class="i-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
+  <form class="search" role="search" action="../../search/" method="get">
+    <label class="sr-only" for="q">Search Lean news</label>
+    <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <kbd aria-hidden="true">/</kbd>
+    <div class="search-results" id="search-results" role="listbox" hidden></div>
+  </form>
+</div>
+<nav class="tabs" aria-label="Sections"><a class="t-latest" href="../../">Latest</a><a class="t-ai" href="../../section/ai/">AI and formalization</a><a class="t-verification" href="../../section/verification/">Verification</a><a class="t-lean-core" href="../../section/lean-core/">Lean core</a><a class="t-papers" href="../../section/papers/">Papers and events</a><span class="tabs-gap"></span><a class="quiet" href="../../about/">About</a><a class="quiet" href="../../feed.xml">RSS</a></nav>
+</header>
+<main id="main">
+<div class="frame"><div class="timeline">
+<header class="page-head"><h1 class="page-title">Lean news, Oct 30 to Nov 5, 2026</h1><p class="page-blurb">3 items published in the 7 days to Thursday, Nov 5, 2026. Most important first.</p></header>
+<div class="stream">
+<article class="card c-verification" id="2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-30">Oct 30</time><button class="copy" type="button" hidden data-link="../../2026-10-30/#2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Basis Research Institute proves compiled libtommath correct in Lean, finds bugs</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/BasisResearch/verified-libtommath" rel="noopener">The proofs</a> show that all 100 functions of the RV64I image of libtommath v1.3.0 (76 libtommath functions and the 24 newlib/libgcc routines they call) meet specifications as total-correctness triples on the Sail RISC-V model. Bugs found in that version include mp_invmod returning −2 for -3 and 7 instead of an inverse.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/BasisResearch/verified-libtommath" rel="noopener">BasisResearch/verified-libtommath</a></p>
+  </div>
+</article>
+<article class="card c-ai" id="2026-10-30-junpeng-ren-disproves-the-pure-semisimplicity-conjecture-with-a">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-29">Oct 29</time><button class="copy" type="button" hidden data-link="../../2026-10-30/#2026-10-30-junpeng-ren-disproves-the-pure-semisimplicity-conjecture-with-a" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Junpeng Ren disproves the pure semisimplicity conjecture, with a Lean formalization</h2>
+    <p class="card-text">The conjecture asserts that every right pure semisimple ring (one whose right modules are all direct sums of finitely generated modules) is of finite representation type. Junpeng Ren's triangular ring is right pure semisimple but not of finite representation type, and all sixteen labelled statements of <a class="inl" href="https://arxiv.org/abs/2610.39883" rel="noopener">the manuscript</a> have compiled and audited <a class="inl" href="https://github.com/oasisss6666/pure-semisimplicity-lean" rel="noopener">Lean counterparts</a>.</p>
+    <figure class="media media-paper"><img src="../../assets/img/7da3dd8c22d2047b-480.webp" srcset="../../assets/img/7da3dd8c22d2047b-480.webp 480w, ../../assets/img/7da3dd8c22d2047b-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="906" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.39883" rel="noopener">arXiv:2610.39883</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/oasisss6666/pure-semisimplicity-lean" rel="noopener">oasisss6666/pure-semisimplicity-lean</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-10-30-denis-firsov-verifies-worst-case-constant-time-order-maintenance">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-28">Oct 28</time><button class="copy" type="button" hidden data-link="../../2026-10-30/#2026-10-30-denis-firsov-verifies-worst-case-constant-time-order-maintenance" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Denis Firsov verifies worst-case constant-time order maintenance in Lean 4</h2>
+    <p class="card-text">No order-maintenance algorithm (keeping a sequence under insertions and deletions and telling which of two elements comes first) had been verified in a proof assistant. <a class="inl" href="https://arxiv.org/abs/2610.38616" rel="noopener">This verification</a>, about <a class="inl" href="https://github.com/dfirsov/order_maintenance" rel="noopener">78,000 lines</a>, proves that a program for a step-counting machine embedded in Lean matches a reference specification within a fixed number of steps per operation.</p>
+    <figure class="media media-paper"><img src="../../assets/img/71e5b86f4085c424-480.webp" srcset="../../assets/img/71e5b86f4085c424-480.webp 480w, ../../assets/img/71e5b86f4085c424-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="906" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.38616" rel="noopener">arXiv:2610.38616</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/dfirsov/order_maintenance" rel="noopener">dfirsov/order_maintenance</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2610.38616.html" rel="noopener">paperswithlean.com</a></p>
+  </div>
+</article>
+</div>
+</div></div>
+</main>
+<p class="sr-only" id="status" role="status" aria-live="polite"></p>
+<footer class="foot"><div class="foot-in"><p><a href="../../about/">About</a> · <a href="../../search/">Search</a> · <a href="../../feed.xml">RSS</a> · <a href="../../feed.json">JSON Feed</a></p></div></footer>
+</body>
+</html>

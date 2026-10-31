@@ -4,6 +4,9 @@
 
 ## Latest items
 
+- [Basis Research Institute proves compiled libtommath correct in Lean, finds bugs](https://leanweekly.news/2026-10-30/#2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l): Verification, 2026-10-30
+- [Junpeng Ren disproves the pure semisimplicity conjecture, with a Lean formalization](https://leanweekly.news/2026-10-30/#2026-10-30-junpeng-ren-disproves-the-pure-semisimplicity-conjecture-with-a): AI and formalization, 2026-10-29
+- [Denis Firsov verifies worst-case constant-time order maintenance in Lean 4](https://leanweekly.news/2026-10-30/#2026-10-30-denis-firsov-verifies-worst-case-constant-time-order-maintenance): Verification, 2026-10-28
 - [Lean becomes first to formalize all 100 theorems on Freek Wiedijk's list](https://leanweekly.news/2026-10-29/#2026-10-29-lean-becomes-first-to-formalize-all-100-theorems-on-freek-wiedij): AI and formalization, 2026-10-29
 - [Mathstodon user markusde posts about porting xv6 to Iris-Lean](https://leanweekly.news/2026-10-29/#2026-10-29-mathstodon-user-markusde-posts-about-porting-xv6-to-iris-lean): Verification, 2026-10-29
 - [Juan J. Manfredi completes Lean formalization of OpenAI's infinity-harmonic estimates](https://leanweekly.news/2026-10-29/#2026-10-29-juan-j-manfredi-completes-lean-formalization-of-openai-s-infinit): AI and formalization, 2026-10-29
@@ -101,12 +104,10 @@
 - [Amazon provides long-term financial support to the Lean Focused Research Organization](https://leanweekly.news/2026-08-06/#2026-08-06-amazon-provides-long-term-financial-support-to-the-lean-focused): Papers and events, 2026-07-26
 - [Lean v4.32.0 makes the new do elaborator the default](https://leanweekly.news/2026-07-16/#2026-07-16-lean-v4-32-0-makes-the-new-do-elaborator-the-default): Lean core, 2026-07-13
 - [Palomar, a registry of Lean verified mathematics, opens for submissions](https://leanweekly.news/2026-09-03/#2026-09-03-palomar-a-registry-of-lean-verified-mathematics-opens-for-submis): AI and formalization, 2026-08-18
-- [Coding agents autoformalize a norm-variation result for multiple ergodic averages in Lean](https://leanweekly.news/2026-09-03/#2026-09-03-coding-agents-autoformalize-a-norm-variation-result-for-multiple): AI and formalization, 2026-08-27
-- [Arthur Adjedj opens meta issue planning a renovation of Lean's kernel logic](https://leanweekly.news/2026-09-03/#2026-09-03-arthur-adjedj-opens-meta-issue-planning-a-renovation-of-lean-s-k): Lean core, 2026-08-31
-- [Lean FRO publishes postmortem of kernel soundness bug hunt with OpenAI models](https://leanweekly.news/2026-08-27/#2026-08-27-lean-fro-publishes-postmortem-of-kernel-soundness-bug-hunt-with): Lean core, 2026-08-24
 
 ## Weeks (Friday to Thursday)
 
+- [Lean news, Oct 30 to Nov 5, 2026](https://leanweekly.news/week/2026-11-05/)
 - [Lean news, Oct 23 to Oct 29, 2026](https://leanweekly.news/week/2026-10-29/)
 - [Lean news, Oct 16 to Oct 22, 2026](https://leanweekly.news/week/2026-10-22/)
 - [Lean news, Oct 9 to Oct 15, 2026](https://leanweekly.news/week/2026-10-15/)
@@ -142,6 +143,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Oct 30, 2026](https://leanweekly.news/2026-10-30/items.md)
 - [Published Oct 29, 2026](https://leanweekly.news/2026-10-29/items.md)
 - [Published Oct 28, 2026](https://leanweekly.news/2026-10-28/items.md)
 - [Published Oct 27, 2026](https://leanweekly.news/2026-10-27/items.md)

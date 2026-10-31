@@ -32,6 +32,34 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 7</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-07-16-sebastian-ullrich-merges-editor-whitespace-fix-and-deterministic">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-07">Jul 7</time><button class="copy" type="button" hidden data-link="../../2026-07-16/#2026-07-16-sebastian-ullrich-merges-editor-whitespace-fix-and-deterministic" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich merges editor whitespace fix and deterministic kernel recursion limit</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13956" rel="noopener">Lean now reuses tactic results</a> when only whitespace after a tactic changes, so progress is kept when preparing to type the next tactic. The <a class="inl" href="https://github.com/leanprover/lean4/pull/11958" rel="noopener">kernel's deep recursion error</a> is now bounded by the maxRecDepth option instead of the physical stack size, which is a breaking change that may require explicit maxRecDepth bumps.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13956" rel="noopener">lean4#13956</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/11958" rel="noopener">lean4#11958</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-16-wojciech-r-owski-adds-two-phase-stateful-linters-to-lean">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-08">Jul 8</time><button class="copy" type="button" hidden data-link="../../2026-07-16/#2026-07-16-wojciech-r-owski-adds-two-phase-stateful-linters-to-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Wojciech Różowski adds two-phase stateful linters to Lean</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14357" rel="noopener">A merged pull request</a> lets linters persist and share state across command elaboration, with each stateful linter running an early phase and a late phase. Wojciech Różowski also changed the <a class="inl" href="https://github.com/leanprover/lean4/pull/14344" rel="noopener">UnusedSimpArgs linter hint</a> and <a class="inl" href="https://github.com/leanprover/lean4/pull/14313" rel="noopener">split registerParametricAttribute</a> as preparatory work for warning when @[deprecated] points at an already-deprecated declaration.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14357" rel="noopener">lean4#14357</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14344" rel="noopener">lean4#14344</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14313" rel="noopener">lean4#14313</a></p>
+  </div>
+</article>
+<article class="card c-papers" id="2026-09-03-essay-on-proofs-and-prompts-warns-against-ai-proofs-of-cherished">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-30">Aug 30</time><button class="copy" type="button" hidden data-link="../../2026-09-03/#2026-09-03-essay-on-proofs-and-prompts-warns-against-ai-proofs-of-cherished" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Essay on Proofs and Prompts warns against AI proofs of cherished conjectures</h2>
+    <p class="card-text">An essay by Just Different on <a class="inl" href="https://proofsandprompts.com/2026/08/30/care-for-a-little-more-ai/" rel="noopener">Proofs and Prompts</a> notes that ChatGPT Pro proved a difficult percolation problem known among colleagues as &quot;p_c &lt; 1&quot; and urges mathematicians not to use their most beautiful conjectures as mere &quot;benchmarks&quot; for the next frontier model.</p>
+    <figure class="media"><img src="../../assets/img/90039461896d91bc-480.webp" srcset="../../assets/img/90039461896d91bc-480.webp 480w, ../../assets/img/90039461896d91bc-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="512" height="512" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: proofsandprompts.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://proofsandprompts.com/2026/08/30/care-for-a-little-more-ai/" rel="noopener">proofsandprompts.com</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-09-03-new-york-university-runs-a-lean-formalization-course-in-fall-202">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -222,34 +250,6 @@
     <h2 class="card-title">Kim Morrison releases sos, a sum-of-squares tactic for Lean</h2>
     <p class="card-text"><a class="inl" href="https://kim-em.github.io/blog/2026-5-13-a-sum-of-squares-tactic/" rel="noopener">The sos tactic</a> is a sum-of-squares decision procedure for nonlinear real arithmetic, closely following John Harrison's HOL Light implementation. It calls the CSDP semidefinite programming library and rebuilds a fully certified result in Lean. <a class="inl" href="https://www.linkedin.com/posts/kim-morrison-219962b_lean4-formalverification-activity-7478622597069455360-B4aF/" rel="noopener">Kim Morrison</a> calls it a prototype and notes that frontier models have become very good at Lean metaprogramming.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://kim-em.github.io/blog/2026-5-13-a-sum-of-squares-tactic/" rel="noopener">kim-em.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://www.linkedin.com/posts/kim-morrison-219962b_lean4-formalverification-activity-7478622597069455360-B4aF/" rel="noopener">LinkedIn post</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-07-09-joachim-breitner-adds-automatic-try-suggestions-to-lean-at-commo">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-01">Jul 1</time><button class="copy" type="button" hidden data-link="../../2026-07-09/#2026-07-09-joachim-breitner-adds-automatic-try-suggestions-to-lean-at-commo" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Joachim Breitner adds automatic try? suggestions to Lean at common proof sites</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13830" rel="noopener">A merged pull request by Joachim Breitner</a> makes Lean suggest try? output for empty by blocks, unsolved goals, and sorry tactics, gated by three options that default to off. It replaces the tactic.tryOnEmptyBy option from an earlier pull request with a different implementation.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13830" rel="noopener">lean4#13830</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-07-02-mistral-ai-lists-leanstral-1-5-an-updated-lean-4-proving-model">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-30">Jun 30</time><button class="copy" type="button" hidden data-link="../../2026-07-02/#2026-07-02-mistral-ai-lists-leanstral-1-5-an-updated-lean-4-proving-model" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Mistral AI lists Leanstral 1.5, an updated Lean 4 proving model</h2>
-    <p class="card-text">Mistral AI's documentation lists <a class="inl" href="https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06" rel="noopener">Leanstral 1.5</a>, dated June 30, 2026, as an updated Lean 4 formal proof engineering model optimised for automated theorem proving and autoformalization. The Apache 2.0 model has 119B total parameters (6.5B active) and a 256k context, though the page marks it deprecated with a deprecation date of 9/29/2026.</p>
-    <figure class="media"><img src="../../assets/img/56c39b61046cd58b-480.webp" srcset="../../assets/img/56c39b61046cd58b-480.webp 480w, ../../assets/img/56c39b61046cd58b-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="630" alt="Leanstral 1.5 - Mistral AI" loading="lazy" decoding="async"><figcaption class="credit">Image: docs.mistral.ai</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06" rel="noopener">docs.mistral.ai</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-07-02-arklib-anchors-a-growing-ecosystem-of-lean-libraries-for-verifyi">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-02">Jul 2</time><button class="copy" type="button" hidden data-link="../../2026-07-02/#2026-07-02-arklib-anchors-a-growing-ecosystem-of-lean-libraries-for-verifyi" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">ArkLib anchors a growing ecosystem of Lean libraries for verifying SNARKs</h2>
-    <p class="card-text">ArkLib, a project supported by the Ethereum Foundation, mechanizes the probabilistic security proofs that succinct non-interactive arguments of knowledge (SNARKs) depend on. It gives zk engineers and cryptography researchers machine-checked specifications and executable references for proof systems where a single soundness bug can be catastrophic.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/" rel="noopener">lean-lang.org</a></p>
   </div>
 </article>
 </div>

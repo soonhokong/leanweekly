@@ -30,8 +30,27 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 57 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 59 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-verification" id="2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-30">Oct 30</time><button class="copy" type="button" hidden data-link="../../2026-10-30/#2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Basis Research Institute proves compiled libtommath correct in Lean, finds bugs</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/BasisResearch/verified-libtommath" rel="noopener">The proofs</a> show that all 100 functions of the RV64I image of libtommath v1.3.0 (76 libtommath functions and the 24 newlib/libgcc routines they call) meet specifications as total-correctness triples on the Sail RISC-V model. Bugs found in that version include mp_invmod returning −2 for -3 and 7 instead of an inverse.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/BasisResearch/verified-libtommath" rel="noopener">BasisResearch/verified-libtommath</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-10-30-denis-firsov-verifies-worst-case-constant-time-order-maintenance">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-28">Oct 28</time><button class="copy" type="button" hidden data-link="../../2026-10-30/#2026-10-30-denis-firsov-verifies-worst-case-constant-time-order-maintenance" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Denis Firsov verifies worst-case constant-time order maintenance in Lean 4</h2>
+    <p class="card-text">No order-maintenance algorithm (keeping a sequence under insertions and deletions and telling which of two elements comes first) had been verified in a proof assistant. <a class="inl" href="https://arxiv.org/abs/2610.38616" rel="noopener">This verification</a>, about <a class="inl" href="https://github.com/dfirsov/order_maintenance" rel="noopener">78,000 lines</a>, proves that a program for a step-counting machine embedded in Lean matches a reference specification within a fixed number of steps per operation.</p>
+    <figure class="media media-paper"><img src="../../assets/img/71e5b86f4085c424-480.webp" srcset="../../assets/img/71e5b86f4085c424-480.webp 480w, ../../assets/img/71e5b86f4085c424-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="906" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.38616" rel="noopener">arXiv:2610.38616</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/dfirsov/order_maintenance" rel="noopener">dfirsov/order_maintenance</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2610.38616.html" rel="noopener">paperswithlean.com</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-10-29-mathstodon-user-markusde-posts-about-porting-xv6-to-iris-lean">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -237,24 +256,6 @@
     <p class="card-text"><a class="inl" href="https://arxiv.org/abs/2610.30114" rel="noopener">AI-greement</a>, an agent harness with a Lean-based verification framework, helped researchers discover A-greement, a consensus protocol proved linearizable in about <a class="inl" href="https://paperswithlean.com/paper/2610.30114.html" rel="noopener">98,000 lines of Lean</a>. A-greement cuts mean latency over the fastest baseline by 12.2% on write-heavy and 33.3% on read-heavy workloads, and the harness's Lean formalization uncovered four previously unreported vulnerabilities in existing protocols.</p>
     <figure class="media media-paper"><img src="../../assets/img/e16c0680ee266286-480.webp" srcset="../../assets/img/e16c0680ee266286-480.webp 480w, ../../assets/img/e16c0680ee266286-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.30114" rel="noopener">arXiv:2610.30114</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2610.30114.html" rel="noopener">paperswithlean.com</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-21">Oct 21</time><button class="copy" type="button" hidden data-link="../../2026-10-21/#2026-10-21-kraken-lean-project-proves-ffmpeg-s-sbr-decoder-binary-safe" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Kraken Lean project proves FFmpeg's SBR decoder binary safe</h2>
-    <p class="card-text">The theorem sbr_session_safe covers the linked machine code (aacsbr.o with its callees): given the link's layout, external routines' contracts and a 32-bit bound on their stack, every run stays in the memory it owns and uses at most the stated stack. The prefix-code and bound facts of FFmpeg's Huffman tables are proved.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/zrlk/kraken/blob/sbr-wf-preserve/Kraken/X64/Examples/Sbr/SessionBin/Top.lean" rel="noopener">zrlk/kraken</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-10-21-ilya-sergey-describes-vermilion-an-experimental-lean-backend-for">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-18">Oct 18</time><button class="copy" type="button" hidden data-link="../../2026-10-21/#2026-10-21-ilya-sergey-describes-vermilion-an-experimental-lean-backend-for" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Ilya Sergey describes Vermilion, an experimental Lean backend for Rust verifier Verus</h2>
-    <p class="card-text"><a class="inl" href="https://proofsandintuitions.net/2026/10/18/vermilion-experiment-lean-backend-verus/" rel="noopener">Vermilion</a> expresses Verus's verification conditions (mathematical propositions about a program), normally sent to the Z3 solver, as Lean theorems, though it does not prove that they correctly describe Rust's semantics. Its default tactic, vrml, tries to prove each automatically, and any it leaves open can be proved interactively, drawing on <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://proofsandintuitions.net/2026/10/18/vermilion-experiment-lean-backend-verus/" rel="noopener">proofsandintuitions.net</a><span class="dot" aria-hidden="true">·</span><a href="https://x.com/ilyasergey/status/2111708968662036516" rel="noopener">@ilyasergey on X</a></p>
   </div>
 </article>
 </div>

@@ -6,6 +6,45 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-10-30/#2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l",
+   "url": "https://leanweekly.news/2026-10-30/#2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l",
+   "title": "Basis Research Institute proves compiled libtommath correct in Lean, finds bugs",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/BasisResearch/verified-libtommath\" rel=\"noopener\">The proofs</a> show that all 100 functions of the RV64I image of libtommath v1.3.0 (76 libtommath functions and the 24 newlib/libgcc routines they call) meet specifications as total-correctness triples on the Sail RISC-V model. Bugs found in that version include mp_invmod returning −2 for -3 and 7 instead of an inverse.</p><p>Sources: <a href=\"https://github.com/BasisResearch/verified-libtommath\">BasisResearch/verified-libtommath</a></p>",
+   "date_published": "2026-10-30T12:00:00Z",
+   "tags": [
+    "Verification",
+    "risc-v",
+    "sail",
+    "libtommath"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-30/#2026-10-30-junpeng-ren-disproves-the-pure-semisimplicity-conjecture-with-a",
+   "url": "https://leanweekly.news/2026-10-30/#2026-10-30-junpeng-ren-disproves-the-pure-semisimplicity-conjecture-with-a",
+   "title": "Junpeng Ren disproves the pure semisimplicity conjecture, with a Lean formalization",
+   "content_html": "<p>The conjecture asserts that every right pure semisimple ring (one whose right modules are all direct sums of finitely generated modules) is of finite representation type. Junpeng Ren's triangular ring is right pure semisimple but not of finite representation type, and all sixteen labelled statements of <a class=\"inl\" href=\"https://arxiv.org/abs/2610.39883\" rel=\"noopener\">the manuscript</a> have compiled and audited <a class=\"inl\" href=\"https://github.com/oasisss6666/pure-semisimplicity-lean\" rel=\"noopener\">Lean counterparts</a>.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.39883\">arXiv:2610.39883</a>, <a href=\"https://github.com/oasisss6666/pure-semisimplicity-lean\">oasisss6666/pure-semisimplicity-lean</a></p>",
+   "date_published": "2026-10-29T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "ring theory",
+    "counterexample",
+    "mathlib"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-30/#2026-10-30-denis-firsov-verifies-worst-case-constant-time-order-maintenance",
+   "url": "https://leanweekly.news/2026-10-30/#2026-10-30-denis-firsov-verifies-worst-case-constant-time-order-maintenance",
+   "title": "Denis Firsov verifies worst-case constant-time order maintenance in Lean 4",
+   "content_html": "<p>No order-maintenance algorithm (keeping a sequence under insertions and deletions and telling which of two elements comes first) had been verified in a proof assistant. <a class=\"inl\" href=\"https://arxiv.org/abs/2610.38616\" rel=\"noopener\">This verification</a>, about <a class=\"inl\" href=\"https://github.com/dfirsov/order_maintenance\" rel=\"noopener\">78,000 lines</a>, proves that a program for a step-counting machine embedded in Lean matches a reference specification within a fixed number of steps per operation.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.38616\">arXiv:2610.38616</a>, <a href=\"https://github.com/dfirsov/order_maintenance\">dfirsov/order_maintenance</a>, <a href=\"https://paperswithlean.com/paper/2610.38616.html\">paperswithlean.com</a></p>",
+   "date_published": "2026-10-28T12:00:00Z",
+   "tags": [
+    "Verification",
+    "data structures",
+    "complexity",
+    "cost semantics"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-29/#2026-10-29-lean-becomes-first-to-formalize-all-100-theorems-on-freek-wiedij",
    "url": "https://leanweekly.news/2026-10-29/#2026-10-29-lean-becomes-first-to-formalize-all-100-theorems-on-freek-wiedij",
    "title": "Lean becomes first to formalize all 100 theorems on Freek Wiedijk's list",
@@ -614,45 +653,6 @@
     "lia",
     "proof automation",
     "lean core"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up",
-   "url": "https://leanweekly.news/2026-10-22/#2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up",
-   "title": "Sebastian Ullrich proposes precomputed prefix trees to speed up Lean imports",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/14362\" rel=\"noopener\">open pull request</a> replaces hash maps of imported constants, built eagerly at import time, with per-module prefix trees precomputed when oleans are written and merged lazily on first access. The change cuts <code>import Lean</code> wall-clock time by 28% and <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>'s import phase by 21%, in exchange for about 6% larger standard library oleans.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/14362\">lean4#14362</a></p>",
-   "date_published": "2026-10-22T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "performance",
-    "imports",
-    "olean"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-22/#2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues",
-   "url": "https://leanweekly.news/2026-10-22/#2026-10-22-lean-4-merges-libuv-buffer-fix-and-refactor-from-sofia-rodrigues",
-   "title": "Lean 4 merges libuv buffer fix and refactor from Sofia Rodrigues",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15598\" rel=\"noopener\">The fix</a>, merged October 14, makes send and recv fail with an invalid-argument error for buffers of 4 GiB or more, instead of letting the length wrap to 32 bits. <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15603\" rel=\"noopener\">The refactor</a>, merged October 15, adds owned_ref, a helper that owns Lean objects and helps avoid hundreds of lean_inc and lean_dec in libuv code.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/15598\">lean4#15598</a>, <a href=\"https://github.com/leanprover/lean4/pull/15603\">lean4#15603</a></p>",
-   "date_published": "2026-10-14T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "libuv",
-    "networking",
-    "bug fix"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-21/#2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals",
-   "url": "https://leanweekly.news/2026-10-21/#2026-10-21-thomas-browning-and-coauthors-release-annalschallenge-50-annals",
-   "title": "Thomas Browning and coauthors release AnnalsChallenge, 50 Annals theorems stated in Lean",
-   "content_html": "<p>Each statement, written by hand in Lean 4 using <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>, is the main result of an Annals of Mathematics paper published since 2020; all were manually reviewed, then audited by AI, and are released without formalized proofs. <a class=\"inl\" href=\"https://arxiv.org/abs/2610.18301\" rel=\"noopener\">The authors</a> say measuring progress in AI autoformalization of mathematics requires hard, trustworthy datasets of formal statements.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.18301\">arXiv:2610.18301</a></p>",
-   "date_published": "2026-10-13T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "autoformalization",
-    "benchmark",
-    "mathlib"
    ]
   }
  ]
