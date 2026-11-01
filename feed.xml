@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 31 Oct 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 01 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Zayn Blore proves in Lean that the Poisson conjecture is false</title>
+<link>https://leanweekly.news/2026-11-01/#2026-11-01-zayn-blore-proves-in-lean-that-the-poisson-conjecture-is-false</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-01/#2026-11-01-zayn-blore-proves-in-lean-that-the-poisson-conjecture-is-false</guid>
+<pubDate>Sun, 01 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Following the explicit counterexample in Christopher D. Long's unrefereed 2026 preprint, &lt;a class="inl" href="https://github.com/zblore/fc-poisson-2" rel="noopener"&gt;the proof&lt;/a&gt; shows the conjecture (every substitution preserving the canonical Poisson bracket is invertible) fails for two canonical pairs and hence for every number of pairs from two up. It proves four statements from Google DeepMind's Formal Conjectures, with their definitions copied verbatim.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/zblore/fc-poisson-2"&gt;zblore/fc-poisson-2&lt;/a&gt;, &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-01-000002&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Harsh Gupta's Lean 4 submission ranks first in the $12 server challenge</title>
 <link>https://leanweekly.news/2026-10-31/#2026-10-31-harsh-gupta-s-lean-4-submission-ranks-first-in-the-12-server-cha</link>
@@ -398,14 +406,6 @@
 <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;The repository's &lt;a class="inl" href="https://github.com/ATOMSLab/LeanSMILES" rel="noopener"&gt;SMILES toolkit&lt;/a&gt; parses SMILES strings into typed molecular graphs, with a canonicity proof for canonical SMILES and an order-invariance proof for RDKit-compatible Morgan fingerprints. Its LeanLearn library covers linear and logistic regression, and the machine-learning pipeline from SMILES to model runs in Lean, with results checked against scikit-learn.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/ATOMSLab/LeanSMILES"&gt;ATOMSLab/LeanSMILES&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Tanner Duve of Logical Intelligence offers Veil an invariant-synthesis tactic</title>
-<link>https://leanweekly.news/2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn</guid>
-<pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;Written for &lt;a class="inl" href="https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr" rel="noopener"&gt;Veil&lt;/a&gt;, a Lean-based verifier for transition systems, &lt;a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646" rel="noopener"&gt;#synthesize_invariants&lt;/a&gt; runs the universal PDR algorithm on a module and its safety property. It returns inductive invariants or a counterexample (both proven sound), a &amp;quot;no universal invariant&amp;quot; result (not proven sound) or &amp;quot;unknown&amp;quot;; it succeeded on every &lt;a class="inl" href="https://veil.dev/" rel="noopener"&gt;Veil&lt;/a&gt; example tested within its supported fragment.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646"&gt;leanprover.zulipchat.com&lt;/a&gt;, &lt;a href="https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr"&gt;verse-lab/veil&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

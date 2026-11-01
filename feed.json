@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-01/#2026-11-01-zayn-blore-proves-in-lean-that-the-poisson-conjecture-is-false",
+   "url": "https://leanweekly.news/2026-11-01/#2026-11-01-zayn-blore-proves-in-lean-that-the-poisson-conjecture-is-false",
+   "title": "Zayn Blore proves in Lean that the Poisson conjecture is false",
+   "content_html": "<p>Following the explicit counterexample in Christopher D. Long's unrefereed 2026 preprint, <a class=\"inl\" href=\"https://github.com/zblore/fc-poisson-2\" rel=\"noopener\">the proof</a> shows the conjecture (every substitution preserving the canonical Poisson bracket is invertible) fails for two canonical pairs and hence for every number of pairs from two up. It proves four statements from Google DeepMind's Formal Conjectures, with their definitions copied verbatim.</p><p>Sources: <a href=\"https://github.com/zblore/fc-poisson-2\">zblore/fc-poisson-2</a>, <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-01-000002&amp;version=1\">palomar-registry.org</a></p>",
+   "date_published": "2026-11-01T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "formal conjectures",
+    "counterexample",
+    "palomar"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-10-31/#2026-10-31-harsh-gupta-s-lean-4-submission-ranks-first-in-the-12-server-cha",
    "url": "https://leanweekly.news/2026-10-31/#2026-10-31-harsh-gupta-s-lean-4-submission-ranks-first-in-the-12-server-cha",
    "title": "Harsh Gupta's Lean 4 submission ranks first in the $12 server challenge",
@@ -640,19 +653,6 @@
     "chemistry",
     "machine learning",
     "smiles"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn",
-   "url": "https://leanweekly.news/2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn",
-   "title": "Tanner Duve of Logical Intelligence offers Veil an invariant-synthesis tactic",
-   "content_html": "<p>Written for <a class=\"inl\" href=\"https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr\" rel=\"noopener\">Veil</a>, a Lean-based verifier for transition systems, <a class=\"inl\" href=\"https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646\" rel=\"noopener\">#synthesize_invariants</a> runs the universal PDR algorithm on a module and its safety property. It returns inductive invariants or a counterexample (both proven sound), a &quot;no universal invariant&quot; result (not proven sound) or &quot;unknown&quot;; it succeeded on every <a class=\"inl\" href=\"https://veil.dev/\" rel=\"noopener\">Veil</a> example tested within its supported fragment.</p><p>Sources: <a href=\"https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646\">leanprover.zulipchat.com</a>, <a href=\"https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr\">verse-lab/veil</a></p>",
-   "date_published": "2026-10-22T12:00:00Z",
-   "tags": [
-    "Verification",
-    "veil",
-    "invariant synthesis",
-    "tactics"
    ]
   }
  ]
