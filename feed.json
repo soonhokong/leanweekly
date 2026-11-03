@@ -6,6 +6,71 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-02/#2026-11-02-tau-ceti-uses-ai-to-build-a-library-of-formalized-mathematics",
+   "url": "https://leanweekly.news/2026-11-02/#2026-11-02-tau-ceti-uses-ai-to-build-a-library-of-formalized-mathematics",
+   "title": "Tau Ceti uses AI to build a library of formalized mathematics",
+   "content_html": "<p>Human-written roadmaps specify the intended mathematics, Lean's kernel checks every proof the AI contributors produce, and adversarial AI reviewers assess whether definitions and statements match what the roadmaps intend. Incubated by the <a class=\"inl\" href=\"https://lean-fro.org/\" rel=\"noopener\">Lean FRO</a> and the <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a> Initiative, <a class=\"inl\" href=\"https://lean-lang.org/use-cases/tau-ceti/\" rel=\"noopener\">the project</a> aims at reusable formalizations of &quot;all of basic mathematics&quot; and invites contributions from everyone.</p><p>Sources: <a href=\"https://lean-lang.org/use-cases/tau-ceti/\">lean-lang.org</a>, <a href=\"https://x.com/leanprover/status/2117333513242550672\">@leanprover on X</a></p>",
+   "date_published": "2026-11-02T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "tau ceti",
+    "ai",
+    "mathlib"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-02/#2026-11-02-autoresearch-inc-releases-silmaril-lean-models-of-programs-and-v",
+   "url": "https://leanweekly.news/2026-11-02/#2026-11-02-autoresearch-inc-releases-silmaril-lean-models-of-programs-and-v",
+   "title": "Autoresearch, Inc. releases Silmaril: Lean models of programs and verified WebAssembly tools",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/hiloopai/silmaril-lean\" rel=\"noopener\">Silmaril</a> uses Lean 4 to model programs and prove properties about them, with a library of logics, models, lambda calculi and verified translations. Its demo exercises all seven Binaryen-style WebAssembly tools and checks that run() returns 42 in both the Lean WebAssembly interpreter and Node.</p><p>Sources: <a href=\"https://github.com/hiloopai/silmaril-lean\">hiloopai/silmaril-lean</a></p>",
+   "date_published": "2026-11-02T12:00:00Z",
+   "tags": [
+    "Verification",
+    "webassembly",
+    "compilers",
+    "verification"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-02/#2026-11-02-s-bastien-celles-uses-lean-4-to-find-correctness-bugs-in-go",
+   "url": "https://leanweekly.news/2026-11-02/#2026-11-02-s-bastien-celles-uses-lean-4-to-find-correctness-bugs-in-go",
+   "title": "Sébastien Celles uses Lean 4 to find correctness bugs in Go",
+   "content_html": "<p>Inspired by julia-in-lean, the <a class=\"inl\" href=\"https://github.com/s-celles/go-in-lean\" rel=\"noopener\">go-in-lean proof-of-concept</a> models a bounded subset of Go (including all of math/bits), states each function's documented behaviour as a theorem, proves it with Lean's kernel and bv_decide, and turns failed proofs into Go tests. Counterexamples must reproduce in Go, and the README lists Go compiler bugs reported after human review.</p><p>Sources: <a href=\"https://github.com/s-celles/go-in-lean\">s-celles/go-in-lean</a></p>",
+   "date_published": "2026-11-02T12:00:00Z",
+   "tags": [
+    "Verification",
+    "go",
+    "bv_decide",
+    "bug finding"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-02/#2026-11-02-darius-foo-and-coauthors-reconstruct-the-iris-base-logic-in-lean",
+   "url": "https://leanweekly.news/2026-11-02/#2026-11-02-darius-foo-and-coauthors-reconstruct-the-iris-base-logic-in-lean",
+   "title": "Darius Foo and coauthors reconstruct the Iris base logic in Lean",
+   "content_html": "<p>Indirection Theory is simpler than Iris, thanks to ordinary dependent types, but less expressive; the authors' <a class=\"inl\" href=\"https://arxiv.org/abs/2610.41202\" rel=\"noopener\">lightweight Lean mechanisation</a> generalises it to Iris-style resources. Two case studies, including a program logic complete enough to verify concurrent and higher-order programs, show the base logic is expressive and faithful to Iris.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.41202\">arXiv:2610.41202</a></p>",
+   "date_published": "2026-10-30T12:00:00Z",
+   "tags": [
+    "Papers and events",
+    "iris",
+    "program logic",
+    "concurrency"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-02/#2026-11-02-volodymyr-pavlyshyn-s-leanrdf-certifies-rdf-entailment-with-a-ve",
+   "url": "https://leanweekly.news/2026-11-02/#2026-11-02-volodymyr-pavlyshyn-s-leanrdf-certifies-rdf-entailment-with-a-ve",
+   "title": "Volodymyr Pavlyshyn's LeanRDF certifies RDF entailment with a verified checker",
+   "content_html": "<p>Its <a class=\"inl\" href=\"https://github.com/Volland/rdf-lean\" rel=\"noopener\">Lean 4 libraries</a> define the W3C semantics of RDF, RDFS, OWL 2 RL and EL, SPARQL 1.1 and SHACL Core. Untrusted engines, Elpi (λProlog) and oxilite (a SPARQL store on SQLite), find answers that the checker turns into theorems, and the SPARQL evaluator and SHACL validator are proven to compute their semantics exactly.</p><p>Sources: <a href=\"https://github.com/Volland/rdf-lean\">Volland/rdf-lean</a></p>",
+   "date_published": "2026-11-02T12:00:00Z",
+   "tags": [
+    "Verification",
+    "rdf",
+    "sparql",
+    "certificates"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-01/#2026-11-01-zayn-blore-proves-in-lean-that-the-poisson-conjecture-is-false",
    "url": "https://leanweekly.news/2026-11-01/#2026-11-01-zayn-blore-proves-in-lean-that-the-poisson-conjecture-is-false",
    "title": "Zayn Blore proves in Lean that the Poisson conjecture is false",
@@ -588,71 +653,6 @@
     "hardware",
     "type systems",
     "popl"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-23/#2026-10-23-alexander-meiburg-disproves-perfect-randomized-composition-for-t",
-   "url": "https://leanweekly.news/2026-10-23/#2026-10-23-alexander-meiburg-disproves-perfect-randomized-composition-for-t",
-   "title": "Alexander Meiburg disproves perfect randomized composition for total functions, checked in Lean",
-   "content_html": "<p>Perfect randomized composition (a composition's randomized query complexity is always at least a constant times the product of its factors' complexities) was known to fail for partial Boolean functions but open for total ones. <a class=\"inl\" href=\"https://arxiv.org/abs/2610.31638\" rel=\"noopener\">The main result</a> is <a class=\"inl\" href=\"https://paperswithlean.com/paper/2610.31638.html\" rel=\"noopener\">machine-checked in Lean 4</a> as a little-o statement on a subsequence of the construction.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.31638\">arXiv:2610.31638</a>, <a href=\"https://paperswithlean.com/paper/2610.31638.html\">paperswithlean.com</a></p>",
-   "date_published": "2026-10-22T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "query complexity",
-    "complexity theory",
-    "formalization"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-23/#2026-10-23-carlo-ciliberto-alessandro-rudi-enrico-tassi-introduce-proof-car",
-   "url": "https://leanweekly.news/2026-10-23/#2026-10-23-carlo-ciliberto-alessandro-rudi-enrico-tassi-introduce-proof-car",
-   "title": "Carlo Ciliberto, Alessandro Rudi, Enrico Tassi introduce Proof-Carrying Contracts for AI agents",
-   "content_html": "<p>An execution system called <a class=\"inl\" href=\"https://arxiv.org/abs/2610.28484\" rel=\"noopener\">the Airlock</a> runs a tool call only if the Lean kernel accepts the agent's proof that the call preserves the agreed constraints in every case its model allows. <a class=\"inl\" href=\"https://github.com/consequential-ai/proof-carrying-contracts\" rel=\"noopener\">A Lean 4 mechanization</a> proves the constraints hold at every instant of execution, even for an adversarial agent, under stated assumptions.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.28484\">arXiv:2610.28484</a>, <a href=\"https://github.com/consequential-ai/proof-carrying-contracts\">consequential-ai/proof-carrying-contracts</a>, <a href=\"https://paperswithlean.com/paper/2610.28484.html\">paperswithlean.com</a></p>",
-   "date_published": "2026-10-20T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "ai agents",
-    "safety",
-    "mechanization"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-23/#2026-10-23-giulio-rebuffo-s-janus-verifies-compiled-go-arm64-machine-code-i",
-   "url": "https://leanweekly.news/2026-10-23/#2026-10-23-giulio-rebuffo-s-janus-verifies-compiled-go-arm64-machine-code-i",
-   "title": "Giulio rebuffo's Janus verifies compiled Go arm64 machine code in Lean 4",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/Giulio2002/Janus\" rel=\"noopener\">Janus</a>, an early work in progress, decodes instructions in Lean and does not trust the Go compiler, linker, or any source-level reasoning. Every load and store must fall inside a caller-provided allocation, and Go runtime panic stubs (bounds checks, nil, divide) are named outcomes, so &quot;this function never panics&quot; is provable.</p><p>Sources: <a href=\"https://github.com/Giulio2002/Janus\">Giulio2002/Janus</a></p>",
-   "date_published": "2026-10-23T12:00:00Z",
-   "tags": [
-    "Verification",
-    "go",
-    "arm64",
-    "machine code"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-publishes-miniforth-a-lean-tutorial-for-programming",
-   "url": "https://leanweekly.news/2026-10-22/#2026-10-22-leo-de-moura-publishes-miniforth-a-lean-tutorial-for-programming",
-   "title": "Leo de Moura publishes MiniForth, a Lean tutorial for programming language semantics",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/leodemoura/MiniForth\" rel=\"noopener\">MiniForth</a>'s Forth-inspired teaching language, whose programs act on a stack, has arithmetic, DUP, SWAP, DROP, calls, and conditionals. The tutorial embeds it as Lean functions (a shallow embedding) and as data (a deep embedding), proves program equivalences, and adds a second pass where <a class=\"inl\" href=\"https://lean-lang.org/doc/reference/latest/The--grind--tactic/\" rel=\"noopener\">grind</a> handles routine reasoning; the build checks the examples and proofs.</p><p>Sources: <a href=\"https://github.com/leodemoura/MiniForth\">leodemoura/MiniForth</a></p>",
-   "date_published": "2026-10-22T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "tutorial",
-    "semantics",
-    "grind"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-22/#2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l",
-   "url": "https://leanweekly.news/2026-10-22/#2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l",
-   "title": "ATOMSLab's LeanSMILES formalizes molecular representations and learning algorithms in Lean",
-   "content_html": "<p>The repository's <a class=\"inl\" href=\"https://github.com/ATOMSLab/LeanSMILES\" rel=\"noopener\">SMILES toolkit</a> parses SMILES strings into typed molecular graphs, with a canonicity proof for canonical SMILES and an order-invariance proof for RDKit-compatible Morgan fingerprints. Its LeanLearn library covers linear and logistic regression, and the machine-learning pipeline from SMILES to model runs in Lean, with results checked against scikit-learn.</p><p>Sources: <a href=\"https://github.com/ATOMSLab/LeanSMILES\">ATOMSLab/LeanSMILES</a></p>",
-   "date_published": "2026-10-22T12:00:00Z",
-   "tags": [
-    "Verification",
-    "chemistry",
-    "machine learning",
-    "smiles"
    ]
   }
  ]

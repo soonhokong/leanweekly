@@ -4,6 +4,11 @@
 
 ## Latest items
 
+- [Tau Ceti uses AI to build a library of formalized mathematics](https://leanweekly.news/2026-11-02/#2026-11-02-tau-ceti-uses-ai-to-build-a-library-of-formalized-mathematics): AI and formalization, 2026-11-02
+- [Autoresearch, Inc. releases Silmaril: Lean models of programs and verified WebAssembly tools](https://leanweekly.news/2026-11-02/#2026-11-02-autoresearch-inc-releases-silmaril-lean-models-of-programs-and-v): Verification, 2026-11-02
+- [Sébastien Celles uses Lean 4 to find correctness bugs in Go](https://leanweekly.news/2026-11-02/#2026-11-02-s-bastien-celles-uses-lean-4-to-find-correctness-bugs-in-go): Verification, 2026-11-02
+- [Darius Foo and coauthors reconstruct the Iris base logic in Lean](https://leanweekly.news/2026-11-02/#2026-11-02-darius-foo-and-coauthors-reconstruct-the-iris-base-logic-in-lean): Papers and events, 2026-10-30
+- [Volodymyr Pavlyshyn's LeanRDF certifies RDF entailment with a verified checker](https://leanweekly.news/2026-11-02/#2026-11-02-volodymyr-pavlyshyn-s-leanrdf-certifies-rdf-entailment-with-a-ve): Verification, 2026-11-02
 - [Zayn Blore proves in Lean that the Poisson conjecture is false](https://leanweekly.news/2026-11-01/#2026-11-01-zayn-blore-proves-in-lean-that-the-poisson-conjecture-is-false): AI and formalization, 2026-11-01
 - [Harsh Gupta's Lean 4 submission ranks first in the $12 server challenge](https://leanweekly.news/2026-10-31/#2026-10-31-harsh-gupta-s-lean-4-submission-ranks-first-in-the-12-server-cha): Lean core, 2026-10-31
 - [Basis Research Institute proves compiled libtommath correct in Lean, finds bugs](https://leanweekly.news/2026-10-30/#2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l): Verification, 2026-10-30
@@ -99,11 +104,6 @@
 - [Lean publishes hex, an aggregator for verified computational algebra libraries](https://leanweekly.news/2026-09-17/#2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge): Lean core, 2026-09-17
 - [Lean FRO publishes con-ron, a Rust port of the con-leche checker](https://leanweekly.news/2026-09-17/#2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker): Lean core, 2026-09-17
 - [Lean runtime now compiles mimalloc in and trims elaboration overhead](https://leanweekly.news/2026-09-17/#2026-09-17-lean-runtime-now-compiles-mimalloc-in-and-trims-elaboration-over): Lean core, 2026-09-04
-- [Wojciech Nawrocki adds an HTML type and HTML-like syntax to Lean](https://leanweekly.news/2026-09-17/#2026-09-17-wojciech-nawrocki-adds-an-html-type-and-html-like-syntax-to-lean): Lean core, 2026-09-17
-- [Greg Brockman says AI makes formally verifying all software possible](https://leanweekly.news/2026-09-17/#2026-09-17-greg-brockman-says-ai-makes-formally-verifying-all-software-poss): Papers and events, 2026-09-14
-- [Claude raises Riemann zeta zero bound to 67.2%, formalized in Lean](https://leanweekly.news/2026-08-15/#2026-08-15-claude-raises-riemann-zeta-zero-bound-to-67-2-formalized-in-lean): AI and formalization, 2026-08-10
-- [Lean 4.33.0 released with editor, tactic, Float, and kernel changes](https://leanweekly.news/2026-08-15/#2026-08-15-lean-4-33-0-released-with-editor-tactic-float-and-kernel-changes): Lean core, 2026-08-10
-- [Amazon provides long-term financial support to the Lean Focused Research Organization](https://leanweekly.news/2026-08-06/#2026-08-06-amazon-provides-long-term-financial-support-to-the-lean-focused): Papers and events, 2026-07-26
 
 ## Weeks (Friday to Thursday)
 
@@ -143,6 +143,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 2, 2026](https://leanweekly.news/2026-11-02/items.md)
 - [Published Nov 1, 2026](https://leanweekly.news/2026-11-01/items.md)
 - [Published Oct 31, 2026](https://leanweekly.news/2026-10-31/items.md)
 - [Published Oct 30, 2026](https://leanweekly.news/2026-10-30/items.md)

@@ -30,8 +30,35 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 59 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 62 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-verification" id="2026-11-02-autoresearch-inc-releases-silmaril-lean-models-of-programs-and-v">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-02">Nov 2</time><button class="copy" type="button" hidden data-link="../../2026-11-02/#2026-11-02-autoresearch-inc-releases-silmaril-lean-models-of-programs-and-v" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Autoresearch, Inc. releases Silmaril: Lean models of programs and verified WebAssembly tools</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/hiloopai/silmaril-lean" rel="noopener">Silmaril</a> uses Lean 4 to model programs and prove properties about them, with a library of logics, models, lambda calculi and verified translations. Its demo exercises all seven Binaryen-style WebAssembly tools and checks that run() returns 42 in both the Lean WebAssembly interpreter and Node.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/hiloopai/silmaril-lean" rel="noopener">hiloopai/silmaril-lean</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-11-02-s-bastien-celles-uses-lean-4-to-find-correctness-bugs-in-go">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-02">Nov 2</time><button class="copy" type="button" hidden data-link="../../2026-11-02/#2026-11-02-s-bastien-celles-uses-lean-4-to-find-correctness-bugs-in-go" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sébastien Celles uses Lean 4 to find correctness bugs in Go</h2>
+    <p class="card-text">Inspired by julia-in-lean, the <a class="inl" href="https://github.com/s-celles/go-in-lean" rel="noopener">go-in-lean proof-of-concept</a> models a bounded subset of Go (including all of math/bits), states each function's documented behaviour as a theorem, proves it with Lean's kernel and bv_decide, and turns failed proofs into Go tests. Counterexamples must reproduce in Go, and the README lists Go compiler bugs reported after human review.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/s-celles/go-in-lean" rel="noopener">s-celles/go-in-lean</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-11-02-volodymyr-pavlyshyn-s-leanrdf-certifies-rdf-entailment-with-a-ve">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-02">Nov 2</time><button class="copy" type="button" hidden data-link="../../2026-11-02/#2026-11-02-volodymyr-pavlyshyn-s-leanrdf-certifies-rdf-entailment-with-a-ve" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Volodymyr Pavlyshyn's LeanRDF certifies RDF entailment with a verified checker</h2>
+    <p class="card-text">Its <a class="inl" href="https://github.com/Volland/rdf-lean" rel="noopener">Lean 4 libraries</a> define the W3C semantics of RDF, RDFS, OWL 2 RL and EL, SPARQL 1.1 and SHACL Core. Untrusted engines, Elpi (λProlog) and oxilite (a SPARQL store on SQLite), find answers that the checker turns into theorems, and the SPARQL evaluator and SHACL validator are proven to compute their semantics exactly.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/Volland/rdf-lean" rel="noopener">Volland/rdf-lean</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -228,34 +255,6 @@
     <h2 class="card-title">Giulio rebuffo's Janus verifies compiled Go arm64 machine code in Lean 4</h2>
     <p class="card-text"><a class="inl" href="https://github.com/Giulio2002/Janus" rel="noopener">Janus</a>, an early work in progress, decodes instructions in Lean and does not trust the Go compiler, linker, or any source-level reasoning. Every load and store must fall inside a caller-provided allocation, and Go runtime panic stubs (bounds checks, nil, divide) are named outcomes, so &quot;this function never panics&quot; is provable.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/Giulio2002/Janus" rel="noopener">Giulio2002/Janus</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-22">Oct 22</time><button class="copy" type="button" hidden data-link="../../2026-10-22/#2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">ATOMSLab's LeanSMILES formalizes molecular representations and learning algorithms in Lean</h2>
-    <p class="card-text">The repository's <a class="inl" href="https://github.com/ATOMSLab/LeanSMILES" rel="noopener">SMILES toolkit</a> parses SMILES strings into typed molecular graphs, with a canonicity proof for canonical SMILES and an order-invariance proof for RDKit-compatible Morgan fingerprints. Its LeanLearn library covers linear and logistic regression, and the machine-learning pipeline from SMILES to model runs in Lean, with results checked against scikit-learn.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/ATOMSLab/LeanSMILES" rel="noopener">ATOMSLab/LeanSMILES</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-22">Oct 22</time><button class="copy" type="button" hidden data-link="../../2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Tanner Duve of Logical Intelligence offers Veil an invariant-synthesis tactic</h2>
-    <p class="card-text">Written for <a class="inl" href="https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr" rel="noopener">Veil</a>, a Lean-based verifier for transition systems, <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646" rel="noopener">#synthesize_invariants</a> runs the universal PDR algorithm on a module and its safety property. It returns inductive invariants or a counterexample (both proven sound), a &quot;no universal invariant&quot; result (not proven sound) or &quot;unknown&quot;; it succeeded on every <a class="inl" href="https://veil.dev/" rel="noopener">Veil</a> example tested within its supported fragment.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646" rel="noopener">leanprover.zulipchat.com</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr" rel="noopener">verse-lab/veil</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-21">Oct 21</time><button class="copy" type="button" hidden data-link="../../2026-10-21/#2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">AI agents help researchers discover a new consensus protocol, verified in Lean</h2>
-    <p class="card-text"><a class="inl" href="https://arxiv.org/abs/2610.30114" rel="noopener">AI-greement</a>, an agent harness with a Lean-based verification framework, helped researchers discover A-greement, a consensus protocol proved linearizable in about <a class="inl" href="https://paperswithlean.com/paper/2610.30114.html" rel="noopener">98,000 lines of Lean</a>. A-greement cuts mean latency over the fastest baseline by 12.2% on write-heavy and 33.3% on read-heavy workloads, and the harness's Lean formalization uncovered four previously unreported vulnerabilities in existing protocols.</p>
-    <figure class="media media-paper"><img src="../../assets/img/e16c0680ee266286-480.webp" srcset="../../assets/img/e16c0680ee266286-480.webp 480w, ../../assets/img/e16c0680ee266286-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.30114" rel="noopener">arXiv:2610.30114</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2610.30114.html" rel="noopener">paperswithlean.com</a></p>
   </div>
 </article>
 </div>
