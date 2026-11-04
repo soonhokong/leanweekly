@@ -6,7 +6,47 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 02 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 01 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>LARK verifies GPU kernels against PyTorch references using LLM agents and Lean</title>
+<link>https://leanweekly.news/2026-11-03/#2026-11-03-lark-verifies-gpu-kernels-against-pytorch-references-using-llm-a</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-03/#2026-11-03-lark-verifies-gpu-kernels-against-pytorch-references-using-llm-a</guid>
+<pubDate>Sun, 01 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.02028" rel="noopener"&gt;LARK&lt;/a&gt; formalizes a GPU machine model and per-operation semantics in Lean 4 once per target language (PTX, CUDA, HIP), and agents prove segment-by-segment equivalence under exact arithmetic. Of 10 production kernels from LLM serving frameworks, it verifies 9 and finds a previously unknown data race in the tenth, an llm.c softmax kernel.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.02028"&gt;arXiv:2611.02028&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.02028.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Baoyu Zhang and Shengmin Zhang prove Díaz–Park conjecture, formalized in Lean</title>
+<link>https://leanweekly.news/2026-11-03/#2026-11-03-baoyu-zhang-and-shengmin-zhang-prove-d-az-park-conjecture-formal</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-03/#2026-11-03-baoyu-zhang-and-shengmin-zhang-prove-d-az-park-conjecture-formal</guid>
+<pubDate>Sun, 01 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;The conjecture concerns sharpness of saturated fusion systems; &lt;a class="inl" href="https://arxiv.org/abs/2611.02043" rel="noopener"&gt;the proof&lt;/a&gt; avoids the classification of finite simple groups and answers a question from M. Aschbacher, R. Kessar and B. Oliver's list of important open problems. &lt;a class="inl" href="https://github.com/BaoyuZhang747/sharpness-Lean-Rocq" rel="noopener"&gt;The formalization&lt;/a&gt;, built with AI assistance from Codex, spans Lean (61,849 lines in 957 modules) and Rocq (99,857 lines).&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.02043"&gt;arXiv:2611.02043&lt;/a&gt;, &lt;a href="https://github.com/BaoyuZhang747/sharpness-Lean-Rocq"&gt;BaoyuZhang747/sharpness-Lean-Rocq&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.02043.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Sreehari Sankar and coauthors present LeanGuard, Lean-verified guardrails for AI agents</title>
+<link>https://leanweekly.news/2026-11-03/#2026-11-03-sreehari-sankar-and-coauthors-present-leanguard-lean-verified-gu</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-03/#2026-11-03-sreehari-sankar-and-coauthors-present-leanguard-lean-verified-gu</guid>
+<pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.02332" rel="noopener"&gt;LeanGuard&lt;/a&gt; checks every tool call an agent proposes against a Lean 4 policy, using a decision procedure proved equivalent to a LeanLTL temporal semantics. On Tau-Bench, unguarded Qwen agents executed at least 33 policy-forbidden calls while LeanGuard executed none, and it cut direct prompt-injection success on DTap from 57.9% to 5.9%.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.02332"&gt;arXiv:2611.02332&lt;/a&gt;, &lt;a href="https://github.com/DebarghaG/LeanGuard"&gt;DebarghaG/LeanGuard&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Jan Onderka, Armin Biere and Henrik Böving verify a Lean SMT-LIB parser</title>
+<link>https://leanweekly.news/2026-11-03/#2026-11-03-jan-onderka-armin-biere-and-henrik-b-ving-verify-a-lean-smt-lib</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-03/#2026-11-03-jan-onderka-armin-biere-and-henrik-b-ving-verify-a-lean-smt-lib</guid>
+<pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.00185" rel="noopener"&gt;The paper&lt;/a&gt; introduces &lt;a class="inl" href="https://github.com/onderjan/blazing-smtlib" rel="noopener"&gt;blazing-smtlib&lt;/a&gt;, a Rust parsing library for SMT-LIB (a standard input format for SMT solvers), and its Lean port BSmtLib, whose optimised lexer and parser provably match a formalised SMT-LIB syntax. On 9,201 benchmark files, blazing-smtlib is more than 6 times faster than previous libraries (geometric mean); BSmtLib is faster or comparable.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.00185"&gt;arXiv:2611.00185&lt;/a&gt;, &lt;a href="https://github.com/onderjan/blazing-smtlib"&gt;onderjan/blazing-smtlib&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.00185.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Researchers bring effect handlers to JAX, backed by Lean 4 proofs</title>
+<link>https://leanweekly.news/2026-11-03/#2026-11-03-researchers-bring-effect-handlers-to-jax-backed-by-lean-4-proofs</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-03/#2026-11-03-researchers-bring-effect-handlers-to-jax-backed-by-lean-4-proofs</guid>
+<pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
+<category>Papers and events</category>
+<description>&lt;p&gt;Oghenevwogaga Ebresafe, Daniel Zheng, Gordon Plotkin, and Ningning Xie &lt;a class="inl" href="https://arxiv.org/abs/2611.03918" rel="noopener"&gt;compile effect handlers&lt;/a&gt; to restricted, first-order accelerator languages via a translation that statically eliminates the handlers and preserves typing and semantics, with proofs fully mechanized in Lean 4. The design is implemented as a library for JAX, a Python domain-specific language for accelerator programming.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.03918"&gt;arXiv:2611.03918&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Tau Ceti uses AI to build a library of formalized mathematics</title>
 <link>https://leanweekly.news/2026-11-02/#2026-11-02-tau-ceti-uses-ai-to-build-a-library-of-formalized-mathematics</link>
@@ -366,46 +406,6 @@
 <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://github.com/akkeshavan/lean-qverify" rel="noopener"&gt;The open-source project&lt;/a&gt; includes a Lean library, a Qiskit integration, and &lt;a class="inl" href="https://akkeshavan.github.io/lean-qverify/" rel="noopener"&gt;a free workbook&lt;/a&gt; with executable examples covering circuit specifications, semantic proofs, Quantum Hoare Logic and ZX-calculus. Anand Kumar Keshavan calls the current implementation an initial research and educational framework, welcomes independent technical reviews, and is interested in collaborating on compositional proof techniques.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/akkeshavan/lean-qverify"&gt;akkeshavan/lean-qverify&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/lean-qverify.20.E2.80.94.20open-source.20formal.20verification.20for.20quantum.20c/with/634576355"&gt;leanprover.zulipchat.com&lt;/a&gt;, &lt;a href="https://akkeshavan.github.io/lean-qverify/"&gt;akkeshavan.github.io&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Pranava Kumar registers a Lean proof of Nivat's conjecture with Palomar</title>
-<link>https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with</guid>
-<pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-23-000002&amp;amp;version=1" rel="noopener"&gt;The entry&lt;/a&gt; formalizes Pranava Kumar's manuscript, proving that any configuration on the integer plane over a finite alphabet with at most k times n distinct k by n patterns has a nonzero global period. Its independent Challenge states the full conjecture using only standard &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; notions; &lt;a class="inl" href="https://github.com/PranavaKCode/nivat-lean" rel="noopener"&gt;the 339-file proof&lt;/a&gt; needs only Lean's foundational axioms.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-23-000002&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/PranavaKCode/nivat-lean"&gt;PranavaKCode/nivat-lean&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Ziqing Xiang formalizes Haemers' conjecture for the generalized spectrum in Lean</title>
-<link>https://leanweekly.news/2026-10-23/#2026-10-23-ziqing-xiang-formalizes-haemers-conjecture-for-the-generalized-s</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-ziqing-xiang-formalizes-haemers-conjecture-for-the-generalized-s</guid>
-<pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/ziqingxiang/dgs" rel="noopener"&gt;The Mathlib-based formalization&lt;/a&gt; contains the accompanying paper's whole proof that the proportion of n-vertex graphs determined by their generalized spectrum (the spectra of the adjacency matrices of a graph and its complement) tends to 1 as n grows. It also proves the results the paper quotes from the literature, including Kneser's addition theorem.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-23-000011&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/ziqingxiang/dgs"&gt;ziqingxiang/dgs&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Haruhisa Enomoto formalizes two classical theorems of Bautista, Gabriel, Roiter and Salmerón</title>
-<link>https://leanweekly.news/2026-10-23/#2026-10-23-haruhisa-enomoto-formalizes-two-classical-theorems-of-bautista-g</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-haruhisa-enomoto-formalizes-two-classical-theorems-of-bautista-g</guid>
-<pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;Built on &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;, &lt;a class="inl" href="https://github.com/haruhisa-enomoto/multiplicative-bases-deformations" rel="noopener"&gt;the complete formalization&lt;/a&gt; follows Haruhisa Enomoto's new proof that representation-finite algebras over algebraically closed fields have normed multiplicative bases (closed under products up to zero) and basic ones in characteristic other than two are standard (indecomposable modules match their Auslander–Reiten quiver's mesh category). It also proves the Auslander–Reiten theory it uses.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-23-000004&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/haruhisa-enomoto/multiplicative-bases-deformations"&gt;haruhisa-enomoto/multiplicative-bases-deformations&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Anirudh Gupta, Siddhartha Gadgil and Petros Markopoulos present PastaLean for verifying Python</title>
-<link>https://leanweekly.news/2026-10-23/#2026-10-23-anirudh-gupta-siddhartha-gadgil-and-petros-markopoulos-present-p</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-anirudh-gupta-siddhartha-gadgil-and-petros-markopoulos-present-p</guid>
-<pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/siddhartha-gadgil/PastaLean" rel="noopener"&gt;PastaLean&lt;/a&gt; deterministically translates Python into Lean through Python's abstract syntax tree, with no LLM, turning specifications written in Python into theorems for agents or humans to prove. It also includes TypeInfer, a Python type inference engine that completed one benchmark in 1.25 s against HeaderGen's 36.2 s, and an MCP server for coding agents.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://anirudhg07.github.io/blogs/pastalean-proving-python-correct/"&gt;anirudhg07.github.io&lt;/a&gt;, &lt;a href="https://github.com/siddhartha-gadgil/PastaLean"&gt;siddhartha-gadgil/PastaLean&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/PastaLean.3A.20Python.20to.20Lean/with/634334615"&gt;leanprover.zulipchat.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Aditya Ranjan Jha and coauthors mechanize a hardware type system in Lean</title>
-<link>https://leanweekly.news/2026-10-23/#2026-10-23-aditya-ranjan-jha-and-coauthors-mechanize-a-hardware-type-system</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-23/#2026-10-23-aditya-ranjan-jha-and-coauthors-mechanize-a-hardware-type-system</guid>
-<pubDate>Mon, 19 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2610.26599" rel="noopener"&gt;Pact&lt;/a&gt;, a typed extension of the Anvil hardware description language, checks each component against its type, and compatible types guarantee communication safety (no unsynchronized exchanges or loss of progress). &lt;a class="inl" href="https://doi.org/10.5281/zenodo.23301148" rel="noopener"&gt;The POPL 2027 paper's artifact&lt;/a&gt; includes a Lean 4 mechanization proving soundness of type inference, type checking, and compatibility, plus optimality of inferred types.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.26599"&gt;arXiv:2610.26599&lt;/a&gt;, &lt;a href="https://doi.org/10.5281/zenodo.23301148"&gt;doi.org&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

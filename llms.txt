@@ -4,6 +4,11 @@
 
 ## Latest items
 
+- [LARK verifies GPU kernels against PyTorch references using LLM agents and Lean](https://leanweekly.news/2026-11-03/#2026-11-03-lark-verifies-gpu-kernels-against-pytorch-references-using-llm-a): Verification, 2026-11-01
+- [Baoyu Zhang and Shengmin Zhang prove Díaz–Park conjecture, formalized in Lean](https://leanweekly.news/2026-11-03/#2026-11-03-baoyu-zhang-and-shengmin-zhang-prove-d-az-park-conjecture-formal): AI and formalization, 2026-11-01
+- [Sreehari Sankar and coauthors present LeanGuard, Lean-verified guardrails for AI agents](https://leanweekly.news/2026-11-03/#2026-11-03-sreehari-sankar-and-coauthors-present-leanguard-lean-verified-gu): Verification, 2026-11-02
+- [Jan Onderka, Armin Biere and Henrik Böving verify a Lean SMT-LIB parser](https://leanweekly.news/2026-11-03/#2026-11-03-jan-onderka-armin-biere-and-henrik-b-ving-verify-a-lean-smt-lib): Verification, 2026-10-30
+- [Researchers bring effect handlers to JAX, backed by Lean 4 proofs](https://leanweekly.news/2026-11-03/#2026-11-03-researchers-bring-effect-handlers-to-jax-backed-by-lean-4-proofs): Papers and events, 2026-11-02
 - [Tau Ceti uses AI to build a library of formalized mathematics](https://leanweekly.news/2026-11-02/#2026-11-02-tau-ceti-uses-ai-to-build-a-library-of-formalized-mathematics): AI and formalization, 2026-11-02
 - [Autoresearch, Inc. releases Silmaril: Lean models of programs and verified WebAssembly tools](https://leanweekly.news/2026-11-02/#2026-11-02-autoresearch-inc-releases-silmaril-lean-models-of-programs-and-v): Verification, 2026-11-02
 - [Sébastien Celles uses Lean 4 to find correctness bugs in Go](https://leanweekly.news/2026-11-02/#2026-11-02-s-bastien-celles-uses-lean-4-to-find-correctness-bugs-in-go): Verification, 2026-11-02
@@ -99,11 +104,6 @@
 - [Kim Morrison opens Mathlib PRs for certified root counting and sum-of-squares](https://leanweekly.news/2026-09-24/#2026-09-24-kim-morrison-opens-mathlib-prs-for-certified-root-counting-and-s): Lean core, 2026-09-07
 - [Leo de Moura adds a polynomial arithmetic normalizer to Lean's Sym.simp](https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-adds-a-polynomial-arithmetic-normalizer-to-lean-s-s): Lean core, 2026-09-23
 - [Leo de Moura prototypes on-demand commutation theorems for state operations](https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-prototypes-on-demand-commutation-theorems-for-state): Lean core, 2026-09-21
-- [Lean merges rewritten Verso docstring parser, unblocking automatic formatting](https://leanweekly.news/2026-09-24/#2026-09-24-lean-merges-rewritten-verso-docstring-parser-unblocking-automati): Lean core, 2026-09-18
-- [Lake gains a samply profiling command, copied path dependencies, and separate codegen](https://leanweekly.news/2026-09-24/#2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a): Lean core, 2026-09-17
-- [Lean publishes hex, an aggregator for verified computational algebra libraries](https://leanweekly.news/2026-09-17/#2026-09-17-lean-publishes-hex-an-aggregator-for-verified-computational-alge): Lean core, 2026-09-17
-- [Lean FRO publishes con-ron, a Rust port of the con-leche checker](https://leanweekly.news/2026-09-17/#2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker): Lean core, 2026-09-17
-- [Lean runtime now compiles mimalloc in and trims elaboration overhead](https://leanweekly.news/2026-09-17/#2026-09-17-lean-runtime-now-compiles-mimalloc-in-and-trims-elaboration-over): Lean core, 2026-09-04
 
 ## Weeks (Friday to Thursday)
 
@@ -143,6 +143,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 3, 2026](https://leanweekly.news/2026-11-03/items.md)
 - [Published Nov 2, 2026](https://leanweekly.news/2026-11-02/items.md)
 - [Published Nov 1, 2026](https://leanweekly.news/2026-11-01/items.md)
 - [Published Oct 31, 2026](https://leanweekly.news/2026-10-31/items.md)
