@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 6</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-08-27-sebastian-ullrich-fixes-reference-count-overflow-that-could-enab">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-20">Aug 20</time><button class="copy" type="button" hidden data-link="../../2026-08-27/#2026-08-27-sebastian-ullrich-fixes-reference-count-overflow-that-could-enab" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich fixes reference count overflow that could enable a proof of False</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14838" rel="noopener">A merged Lean 4 pull request</a> freezes objects whose 32-bit reference count overflows, preventing a use-after-free in the official kernel. The new logic is validated with a transliteration of its core to Lean followed by correctness proofs in a test file. Daniel Selsam (OpenAI) reported the issue using internal models.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14838" rel="noopener">lean4#14838</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-08-27-sair-foundation-and-lean-fro-announce-the-lean-kernel-challenge">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -247,15 +256,6 @@
     <h2 class="card-title">Sebastian Graf moves VERINA contracts onto programs and names verification-condition variables</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14759" rel="noopener">Two merged Lean pull requests</a> by Sebastian Graf state each VERINA program's requires, ensures and loop invariants on the definition itself, for all 27 programs. <a class="inl" href="https://github.com/leanprover/lean4/pull/14590" rel="noopener">A second pull request</a> names a verification condition's variables after the program (acc, x instead of b✝), so proofs no longer need rename_i.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14759" rel="noopener">lean4#14759</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14590" rel="noopener">lean4#14590</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-08-27-lake-now-fetches-dependencies-as-treeless-partial-git-clones">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-17">Aug 17</time><button class="copy" type="button" hidden data-link="../../2026-08-27/#2026-08-27-lake-now-fetches-dependencies-as-treeless-partial-git-clones" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lake now fetches dependencies as treeless partial Git clones</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14782" rel="noopener">A merged pull request by Mac Malone</a> makes <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> fetch dependencies as treeless partial Git clones of a single revision, minimizing the amount of data downloaded. One caveat: Git operations inside a dependency, such as a git blame triggered by a VSCode extension, can cause lazy fetches.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14782" rel="noopener">lean4#14782</a></p>
   </div>
 </article>
 </div>

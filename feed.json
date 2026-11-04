@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-04/#2026-11-04-xi-yin-michael-r-douglas-and-anna-mei-machine-check-the-osterwal",
+   "url": "https://leanweekly.news/2026-11-04/#2026-11-04-xi-yin-michael-r-douglas-and-anna-mei-machine-check-the-osterwal",
+   "title": "Xi Yin, Michael R. Douglas and Anna Mei machine-check the Osterwalder-Schrader correspondence",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/mrdouglasny/OSreconstruction-comparator\" rel=\"noopener\">Three Lean theorems</a>, registered in the <a class=\"inl\" href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-04-000010&amp;version=1\" rel=\"noopener\">Palomar Registry</a>, go from Euclidean Schwinger functions to relativistic Wightman distributions and back, in every positive spatial dimension. Euclidean growth is assumed and not recovered, so the two directions do not compose to a biconditional; field operators are not reconstructed, and four conventions are weaker than textbook ones.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-04-000010&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/mrdouglasny/OSreconstruction-comparator\">mrdouglasny/OSreconstruction-comparator</a></p>",
+   "date_published": "2026-11-04T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "qft",
+    "palomar",
+    "comparator"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-04/#2026-11-04-nidhal-mghirbi-and-seth-douglas-give-lean-checked-hyperbolic-cou",
    "url": "https://leanweekly.news/2026-11-04/#2026-11-04-nidhal-mghirbi-and-seth-douglas-give-lean-checked-hyperbolic-cou",
    "title": "Nidhal Mghirbi and Seth Douglas give Lean-checked hyperbolic counterexamples to Kaplansky's conjectures",
@@ -640,19 +653,6 @@
     "checker",
     "x86 assembly",
     "ai-written"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-25/#2026-10-25-assurecode-uses-lean-for-structured-justification-of-ai-generate",
-   "url": "https://leanweekly.news/2026-10-25/#2026-10-25-assurecode-uses-lean-for-structured-justification-of-ai-generate",
-   "title": "AssureCode uses Lean for structured justification of AI-generated code",
-   "content_html": "<p>Logan Murphy and coauthors describe <a class=\"inl\" href=\"https://arxiv.org/abs/2610.29758\" rel=\"noopener\">AssureCode</a>, which autoformalizes developer intent into Lean specifications for human approval, then decomposes claims via Lean templates, with Lean checking an agent's decomposition-soundness proofs. On HumanEval, LiveCodeBench and MBPP samples with four LLMs, a single run recovered most of an iterative LLM baseline's concerns and surfaced additional ones.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.29758\">arXiv:2610.29758</a>, <a href=\"https://paperswithlean.com/paper/2610.29758.html\">paperswithlean.com</a></p>",
-   "date_published": "2026-10-21T12:00:00Z",
-   "tags": [
-    "Verification",
-    "agentic coding",
-    "autoformalization",
-    "assurance"
    ]
   }
  ]

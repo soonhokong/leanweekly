@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 03 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 04 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Xi Yin, Michael R. Douglas and Anna Mei machine-check the Osterwalder-Schrader correspondence</title>
+<link>https://leanweekly.news/2026-11-04/#2026-11-04-xi-yin-michael-r-douglas-and-anna-mei-machine-check-the-osterwal</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-xi-yin-michael-r-douglas-and-anna-mei-machine-check-the-osterwal</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/mrdouglasny/OSreconstruction-comparator" rel="noopener"&gt;Three Lean theorems&lt;/a&gt;, registered in the &lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-04-000010&amp;amp;version=1" rel="noopener"&gt;Palomar Registry&lt;/a&gt;, go from Euclidean Schwinger functions to relativistic Wightman distributions and back, in every positive spatial dimension. Euclidean growth is assumed and not recovered, so the two directions do not compose to a biconditional; field operators are not reconstructed, and four conventions are weaker than textbook ones.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-04-000010&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/mrdouglasny/OSreconstruction-comparator"&gt;mrdouglasny/OSreconstruction-comparator&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Nidhal Mghirbi and Seth Douglas give Lean-checked hyperbolic counterexamples to Kaplansky's conjectures</title>
 <link>https://leanweekly.news/2026-11-04/#2026-11-04-nidhal-mghirbi-and-seth-douglas-give-lean-checked-hyperbolic-cou</link>
@@ -398,14 +406,6 @@
 <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
 <category>Lean core</category>
 <description>&lt;p&gt;Written by AI under Joachim Breitner's supervision, &lt;a class="inl" href="https://github.com/leanprover/con-agua/" rel="noopener"&gt;con-agua&lt;/a&gt; is an &lt;a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-agua.2C.20an.20x86.20assembly.20port.20of.20con-leche/with/634779855" rel="noopener"&gt;x86 assembly port&lt;/a&gt; of the external Lean checker &lt;a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener"&gt;con-leche&lt;/a&gt; and requires the Kraken x86 semantics to be correct in place of the Lean compiler and runtime. A 5MB assembly file and a 200-line main.c, plus one data file, are all it needs.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/con-agua/"&gt;leanprover/con-agua&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-agua.2C.20an.20x86.20assembly.20port.20of.20con-leche/with/634779855"&gt;leanprover.zulipchat.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>AssureCode uses Lean for structured justification of AI-generated code</title>
-<link>https://leanweekly.news/2026-10-25/#2026-10-25-assurecode-uses-lean-for-structured-justification-of-ai-generate</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-25/#2026-10-25-assurecode-uses-lean-for-structured-justification-of-ai-generate</guid>
-<pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;Logan Murphy and coauthors describe &lt;a class="inl" href="https://arxiv.org/abs/2610.29758" rel="noopener"&gt;AssureCode&lt;/a&gt;, which autoformalizes developer intent into Lean specifications for human approval, then decomposes claims via Lean templates, with Lean checking an agent's decomposition-soundness proofs. On HumanEval, LiveCodeBench and MBPP samples with four LLMs, a single run recovered most of an iterative LLM baseline's concerns and surfaced additional ones.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.29758"&gt;arXiv:2610.29758&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2610.29758.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
