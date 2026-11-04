@@ -4,6 +4,8 @@
 
 ## Latest items
 
+- [Nidhal Mghirbi and Seth Douglas give Lean-checked hyperbolic counterexamples to Kaplansky's conjectures](https://leanweekly.news/2026-11-04/#2026-11-04-nidhal-mghirbi-and-seth-douglas-give-lean-checked-hyperbolic-cou): AI and formalization, 2026-11-03
+- [Luk Koska, Tom Koska and Ben Koska verify GPU kernels in Lean](https://leanweekly.news/2026-11-04/#2026-11-04-luk-koska-tom-koska-and-ben-koska-verify-gpu-kernels-in-lean): Verification, 2026-11-03
 - [LARK verifies GPU kernels against PyTorch references using LLM agents and Lean](https://leanweekly.news/2026-11-03/#2026-11-03-lark-verifies-gpu-kernels-against-pytorch-references-using-llm-a): Verification, 2026-11-01
 - [Baoyu Zhang and Shengmin Zhang prove Díaz–Park conjecture, formalized in Lean](https://leanweekly.news/2026-11-03/#2026-11-03-baoyu-zhang-and-shengmin-zhang-prove-d-az-park-conjecture-formal): AI and formalization, 2026-11-01
 - [Sreehari Sankar and coauthors present LeanGuard, Lean-verified guardrails for AI agents](https://leanweekly.news/2026-11-03/#2026-11-03-sreehari-sankar-and-coauthors-present-leanguard-lean-verified-gu): Verification, 2026-11-02
@@ -102,8 +104,6 @@
 - [lazylean, a lazy-evaluation Lean kernel, competes in the Lean Kernel Arena](https://leanweekly.news/2026-09-24/#2026-09-24-lazylean-a-lazy-evaluation-lean-kernel-competes-in-the-lean-kern): Lean core, 2026-09-24
 - [Keith Adler releases Lean Studio, a native desktop IDE for Lean 4](https://leanweekly.news/2026-09-24/#2026-09-24-keith-adler-releases-lean-studio-a-native-desktop-ide-for-lean-4): Lean core, 2026-09-24
 - [Kim Morrison opens Mathlib PRs for certified root counting and sum-of-squares](https://leanweekly.news/2026-09-24/#2026-09-24-kim-morrison-opens-mathlib-prs-for-certified-root-counting-and-s): Lean core, 2026-09-07
-- [Leo de Moura adds a polynomial arithmetic normalizer to Lean's Sym.simp](https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-adds-a-polynomial-arithmetic-normalizer-to-lean-s-s): Lean core, 2026-09-23
-- [Leo de Moura prototypes on-demand commutation theorems for state operations](https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-prototypes-on-demand-commutation-theorems-for-state): Lean core, 2026-09-21
 
 ## Weeks (Friday to Thursday)
 
@@ -143,6 +143,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 4, 2026](https://leanweekly.news/2026-11-04/items.md)
 - [Published Nov 3, 2026](https://leanweekly.news/2026-11-03/items.md)
 - [Published Nov 2, 2026](https://leanweekly.news/2026-11-02/items.md)
 - [Published Nov 1, 2026](https://leanweekly.news/2026-11-01/items.md)

@@ -32,6 +32,25 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 5</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-09-24-robert-joseph-george-will-adkisson-anima-anandkumar-present-floa">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-16">Sep 16</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-robert-joseph-george-will-adkisson-anima-anandkumar-present-floa" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Robert Joseph George, Will Adkisson, Anima Anandkumar present FloatLib for Lean 4</h2>
+    <p class="card-text"><a class="inl" href="https://arxiv.org/abs/2609.19352" rel="noopener">FloatLib</a> is a verified arbitrary-precision floating-point arithmetic library in Lean 4 that unifies IEEE binary and decimal arithmetic, arbitrary-width posits, P3109, and user-defined formats and rounding rules. Every certified backend is proved equal to a complete encoded specification, and the library, proofs, and benchmarks are released as open source.</p>
+    <figure class="media media-paper"><img src="../../assets/img/f03b79c6cc23d575-480.webp" srcset="../../assets/img/f03b79c6cc23d575-480.webp 480w, ../../assets/img/f03b79c6cc23d575-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="906" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2609.19352" rel="noopener">arXiv:2609.19352</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-09-24-lazylean-a-lazy-evaluation-lean-kernel-competes-in-the-lean-kern">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-24">Sep 24</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-lazylean-a-lazy-evaluation-lean-kernel-competes-in-the-lean-kern" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">lazylean, a lazy-evaluation Lean kernel, competes in the Lean Kernel Arena</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/corun1024/lazylean" rel="noopener">lazylean</a>, a C++ type checker for Lean 4, hands computing terms to a Krivine machine with call-by-need thunks, after Coq's cClosure. The <a class="inl" href="https://arena.lean-lang.org/" rel="noopener">Lean Kernel Arena</a>, which tests and benchmarks proof checkers for Lean, lists lazylean 0.3.0 alongside checkers such as tenet 0.11.1, lean4cobol and nanoclo-fortran.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/corun1024/lazylean" rel="noopener">corun1024/lazylean</a><span class="dot" aria-hidden="true">·</span><a href="https://arena.lean-lang.org/" rel="noopener">arena.lean-lang.org</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-09-24-keith-adler-releases-lean-studio-a-native-desktop-ide-for-lean-4">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -232,24 +251,6 @@
     <h2 class="card-title">Sebastian Ullrich fixes reference count overflow that could enable a proof of False</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14838" rel="noopener">A merged Lean 4 pull request</a> freezes objects whose 32-bit reference count overflows, preventing a use-after-free in the official kernel. The new logic is validated with a transliteration of its core to Lean followed by correctness proofs in a test file. Daniel Selsam (OpenAI) reported the issue using internal models.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14838" rel="noopener">lean4#14838</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-08-27-sair-foundation-and-lean-fro-announce-the-lean-kernel-challenge">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-25">Aug 25</time><button class="copy" type="button" hidden data-link="../../2026-08-27/#2026-08-27-sair-foundation-and-lean-fro-announce-the-lean-kernel-challenge" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">SAIR Foundation and Lean FRO announce the Lean Kernel Challenge competition</h2>
-    <p class="card-text">The competition asks participants to improve the performance of verified computation in the Lean 4 kernel (the trusted component that checks every proof accepted by Lean) with optimized implementations and machine-checked proofs of correctness. <a class="inl" href="https://x.com/Leonard41111588/status/2092297497293066592" rel="noopener">Stage 1 pre-registration</a> is open, with the official launch on September 15, 2026.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/Leonard41111588/status/2092297497293066592" rel="noopener">@Leonard41111588 on X</a><span class="dot" aria-hidden="true">·</span><a href="https://www.linkedin.com/feed/update/urn:li:activity:7498062411179098112/" rel="noopener">LinkedIn post</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-08-27-lean-fro-and-icarm-open-palomar-a-registry-of-lean-verified-math">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-18">Aug 18</time><button class="copy" type="button" hidden data-link="../../2026-08-27/#2026-08-27-lean-fro-and-icarm-open-palomar-a-registry-of-lean-verified-math" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean FRO and ICARM open Palomar, a registry of Lean-verified mathematics</h2>
-    <p class="card-text"><a class="inl" href="https://www.linkedin.com/feed/update/urn:li:activity:7498115329475166208/" rel="noopener">Palomar</a>, a public, searchable registry of machine-checked Lean formalizations incubated by the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a> and ICARM, is now open for submissions, <a class="inl" href="https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/" rel="noopener">Terence Tao</a> announced. Submitted repository snapshots are checked mechanically with the Lean tool Comparator and by a large language model, though <a class="inl" href="https://palomar-registry.org/" rel="noopener">Palomar</a> is not a peer-reviewed journal.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/" rel="noopener">terrytao.wordpress.com</a><span class="dot" aria-hidden="true">·</span><a href="https://www.linkedin.com/feed/update/urn:li:activity:7498115329475166208/" rel="noopener">LinkedIn post</a></p>
   </div>
 </article>
 </div>

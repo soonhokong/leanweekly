@@ -6,7 +6,23 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 01 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 03 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Nidhal Mghirbi and Seth Douglas give Lean-checked hyperbolic counterexamples to Kaplansky's conjectures</title>
+<link>https://leanweekly.news/2026-11-04/#2026-11-04-nidhal-mghirbi-and-seth-douglas-give-lean-checked-hyperbolic-cou</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-nidhal-mghirbi-and-seth-douglas-give-lean-checked-hyperbolic-cou</guid>
+<pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;For every prime p, &lt;a class="inl" href="https://arxiv.org/abs/2611.04599" rel="noopener"&gt;a torsion-free, word-hyperbolic group&lt;/a&gt; based on OpenAI's constructions fails all four group-ring conjectures in characteristic p; no torsion-free hyperbolic counterexample to any of them was previously known. Nidhal Mghirbi's &lt;a class="inl" href="https://github.com/Apsiape/kaplansky-conjectures-hyperbolic-groups" rel="noopener"&gt;Lean 4 formalization&lt;/a&gt; proves the main theorem, including existence forms of the random-graph estimates, and builds on OpenAI's Lean development.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.04599"&gt;arXiv:2611.04599&lt;/a&gt;, &lt;a href="https://github.com/Apsiape/kaplansky-conjectures-hyperbolic-groups"&gt;Apsiape/kaplansky-conjectures-hyperbolic-groups&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Luk Koska, Tom Koska and Ben Koska verify GPU kernels in Lean</title>
+<link>https://leanweekly.news/2026-11-04/#2026-11-04-luk-koska-tom-koska-and-ben-koska-verify-gpu-kernels-in-lean</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-luk-koska-tom-koska-and-ben-koska-verify-gpu-kernels-in-lean</guid>
+<pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;The authors &lt;a class="inl" href="https://arxiv.org/abs/2611.04447" rel="noopener"&gt;formalize PTX&lt;/a&gt;, combining an interpreter covering 81 instruction forms with the axiomatic PTX memory model, and prove correct 9 hand-written PTX entry points (454 instructions), including simple implementations of FlashAttention and a 3-kernel MoE pipeline. LLM coding agents helped write the &lt;a class="inl" href="https://paperswithlean.com/paper/2611.04447.html" rel="noopener"&gt;34,034 lines of proof&lt;/a&gt;, which contain no sorry or custom axioms.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.04447"&gt;arXiv:2611.04447&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.04447.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>LARK verifies GPU kernels against PyTorch references using LLM agents and Lean</title>
 <link>https://leanweekly.news/2026-11-03/#2026-11-03-lark-verifies-gpu-kernels-against-pytorch-references-using-llm-a</link>
@@ -390,22 +406,6 @@
 <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;Logan Murphy and coauthors describe &lt;a class="inl" href="https://arxiv.org/abs/2610.29758" rel="noopener"&gt;AssureCode&lt;/a&gt;, which autoformalizes developer intent into Lean specifications for human approval, then decomposes claims via Lean templates, with Lean checking an agent's decomposition-soundness proofs. On HumanEval, LiveCodeBench and MBPP samples with four LLMs, a single run recovered most of an iterative LLM baseline's concerns and surfaced additional ones.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.29758"&gt;arXiv:2610.29758&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2610.29758.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Wolfram Institute publishes reference Lean environment for Rule 30 Prize submissions</title>
-<link>https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule</guid>
-<pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;The verifier checks every submission against exactly &lt;a class="inl" href="https://github.com/WolframInstitute/Rule30PrizeKit" rel="noopener"&gt;this Lake project&lt;/a&gt; (Lean 4.35.0, &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;'s v4.35.0 tag), and the submissions site has instructions for AI agents. The kit contains the official statements of Problems 1 and 2, proved partial results, 163 equivalences and 49 sufficient conditions for Problem 1, and 14 equivalent forms of Problem 2.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/WolframInstitute/Rule30PrizeKit"&gt;WolframInstitute/Rule30PrizeKit&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Anand Kumar Keshavan announces lean-qverify for verifying quantum circuits in Lean 4</title>
-<link>https://leanweekly.news/2026-10-24/#2026-10-24-anand-kumar-keshavan-announces-lean-qverify-for-verifying-quantu</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-24/#2026-10-24-anand-kumar-keshavan-announces-lean-qverify-for-verifying-quantu</guid>
-<pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/akkeshavan/lean-qverify" rel="noopener"&gt;The open-source project&lt;/a&gt; includes a Lean library, a Qiskit integration, and &lt;a class="inl" href="https://akkeshavan.github.io/lean-qverify/" rel="noopener"&gt;a free workbook&lt;/a&gt; with executable examples covering circuit specifications, semantic proofs, Quantum Hoare Logic and ZX-calculus. Anand Kumar Keshavan calls the current implementation an initial research and educational framework, welcomes independent technical reviews, and is interested in collaborating on compositional proof techniques.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/akkeshavan/lean-qverify"&gt;akkeshavan/lean-qverify&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/lean-qverify.20.E2.80.94.20open-source.20formal.20verification.20for.20quantum.20c/with/634576355"&gt;leanprover.zulipchat.com&lt;/a&gt;, &lt;a href="https://akkeshavan.github.io/lean-qverify/"&gt;akkeshavan.github.io&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

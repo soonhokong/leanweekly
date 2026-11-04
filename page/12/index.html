@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 12</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-05-07-wojciech-nawrocki-adds-a-vscode-extension-to-lean-workbench">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time><button class="copy" type="button" hidden data-link="../../2026-05-07/#2026-05-07-wojciech-nawrocki-adds-a-vscode-extension-to-lean-workbench" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Wojciech Nawrocki adds a VSCode extension to lean-workbench</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean-workbench/pull/9" rel="noopener">A pull request by Wojciech Nawrocki</a>, merged on 2026-05-05, adds a VSCode extension to integrate it with the workbench in the leanprover/lean-workbench repository. The change also adds a launch target and server endpoint to debug the extension.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench/pull/9" rel="noopener">lean-workbench#9</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-05-07-wojciech-r-owski-moves-batteries-linters-into-lean-core-and-exte">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-28">Apr 28</time><button class="copy" type="button" hidden data-link="../../2026-05-07/#2026-05-07-wojciech-r-owski-moves-batteries-linters-into-lean-core-and-exte" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Wojciech Różowski moves Batteries linters into Lean core and extends lake lint</h2>
+    <p class="card-text">Wojciech Różowski <a class="inl" href="https://github.com/leanprover/lean4/pull/13513" rel="noopener">upstreamed the dupNamespace and unnecessarySeqFocus linters</a> from <a class="inl" href="https://github.com/leanprover-community/batteries" rel="noopener">Batteries</a> to core Lean as &quot;clippy&quot; linters, which are disabled by default and run with lake lint --clippy. lake lint --builtin-lint now also supports text linters, and a new script reports deprecated modules, options and syntax usage.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13513" rel="noopener">lean4#13513</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13538" rel="noopener">lean4#13538</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13540" rel="noopener">lean4#13540</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13586" rel="noopener">lean4#13586</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-05-07-nathanson-publishes-recording-of-talk-about-aristotle-s-solution">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -232,24 +250,6 @@
     <h2 class="card-title">Leo de Moura merges two Lean core elaborator changes</h2>
     <p class="card-text">Leo de Moura <a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">merged a pull request</a> stopping isDefEq from raising transparency to .default for implicit arguments, which was creating scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> (old behavior: set_option backward.isDefEq.respectTransparency false). <a class="inl" href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">A second pull request</a> fixes the type class resolution cache for classes with output parameters.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">lean4#12286</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-02-05-leo-de-moura-s-lean-change-stops-simp-from-simplifying-instances">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-05">Feb 5</time><button class="copy" type="button" hidden data-link="../../2026-02-05/#2026-02-05-leo-de-moura-s-lean-change-stops-simp-from-simplifying-instances" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura's Lean change stops simp from simplifying instances by default</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12244" rel="noopener">The pull request</a>, merged on 2026-02-05, ensures simp does not &quot;simplify&quot; instances by default, since doing so creates non-standard instances that cause problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. The old behavior can be retrieved with simp +instances, and the backward compatibility flag for dsimp also deactivates the change.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12244" rel="noopener">lean4#12244</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time><button class="copy" type="button" hidden data-link="../../2026-01-29/#2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean publishes leansqlite, SQLite bindings for Lean</h2>
-    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a> library bundles SQLite and adds interpolated strings that expand to prepared statements, plus iterators over query result rows. <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">A Zulip user, pandaman, shared LeanToDo</a>, an experiment in building a web application with Lean that uses leansqlite for its database and <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a> for HTML templating.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a><span class="dot" aria-hidden="true">·</span><a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">leanprover.zulipchat.com</a></p>
   </div>
 </article>
 </div>

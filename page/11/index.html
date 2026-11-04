@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 11</h1></header>
 <div class="stream">
+<article class="card c-ai" id="2026-04-30-alex-meiburg-shares-aristotle-authored-z80-emulator-with-verifie">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-23">Apr 23</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-alex-meiburg-shares-aristotle-authored-z80-emulator-with-verifie" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Alex Meiburg shares Aristotle-authored Z80 emulator with verified assembly GCD</h2>
+    <p class="card-text"><a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/583340-Aristotle/topic/Z80.20Emulation/with/590562095" rel="noopener">Alex Meiburg asked Aristotle</a> to formalize a Z80 emulator, build an assembler, and write a BigNum GCD in about 80 assembly instructions, then verify it by modeling the whole CPU execution. After 14 rounds of submitting to Aristotle (without editing the prompt), the proof succeeded.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/583340-Aristotle/topic/Z80.20Emulation/with/590562095" rel="noopener">leanprover.zulipchat.com</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-04-30-mark-ruvald-pedersen-releases-clift-an-autocorres-style-c-verifi">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-30">Apr 30</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-mark-ruvald-pedersen-releases-clift-an-autocorres-style-c-verifi" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Mark Ruvald Pedersen releases Clift, an AutoCorres-style C verification pipeline for Lean 4</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/eisbaw/Clift" rel="noopener">Clift</a> verifies C programs by lifting them into Lean 4, following the methodology pioneered by seL4's AutoCorres pipeline in Isabelle/HOL and adapting AutoCorres2's five-stage pipeline to Lean 4's type theory. <a class="inl" href="https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf" rel="noopener">The accompanying paper</a> reports that Claude Opus 4.6 generated the vast majority of the code, with 1,698 theorems and 12 remaining sorry.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf" rel="noopener">paper (pdf)</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/eisbaw/Clift" rel="noopener">eisbaw/Clift</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-04-30-leo-de-moura-merges-grind-diagnostics-solver-fixes-and-a-ring-de">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -232,24 +250,6 @@
     <h2 class="card-title">Mac Malone extends Lean-to-Python module initialization in Nerodia</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/nerodia/pull/3" rel="noopener">Mac Malone's merged pull request</a> lets a Lean-written initializer add a constant to the Python module, adds Lean-side argument validation, and adds a Lean-to-Python-to-Lean test. <a class="inl" href="https://github.com/leanprover/nerodia/pull/4" rel="noopener">A second merged change</a> splits the global Python state (g_py_main) from the per-use GIL context (py_context).</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/nerodia/pull/3" rel="noopener">nerodia#3</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/nerodia/pull/4" rel="noopener">nerodia#4</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-07-wojciech-nawrocki-adds-a-vscode-extension-to-lean-workbench">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time><button class="copy" type="button" hidden data-link="../../2026-05-07/#2026-05-07-wojciech-nawrocki-adds-a-vscode-extension-to-lean-workbench" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Wojciech Nawrocki adds a VSCode extension to lean-workbench</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean-workbench/pull/9" rel="noopener">A pull request by Wojciech Nawrocki</a>, merged on 2026-05-05, adds a VSCode extension to integrate it with the workbench in the leanprover/lean-workbench repository. The change also adds a launch target and server endpoint to debug the extension.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench/pull/9" rel="noopener">lean-workbench#9</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-07-wojciech-r-owski-moves-batteries-linters-into-lean-core-and-exte">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-28">Apr 28</time><button class="copy" type="button" hidden data-link="../../2026-05-07/#2026-05-07-wojciech-r-owski-moves-batteries-linters-into-lean-core-and-exte" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Wojciech Różowski moves Batteries linters into Lean core and extends lake lint</h2>
-    <p class="card-text">Wojciech Różowski <a class="inl" href="https://github.com/leanprover/lean4/pull/13513" rel="noopener">upstreamed the dupNamespace and unnecessarySeqFocus linters</a> from <a class="inl" href="https://github.com/leanprover-community/batteries" rel="noopener">Batteries</a> to core Lean as &quot;clippy&quot; linters, which are disabled by default and run with lake lint --clippy. lake lint --builtin-lint now also supports text linters, and a new script reports deprecated modules, options and syntax usage.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13513" rel="noopener">lean4#13513</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13538" rel="noopener">lean4#13538</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13540" rel="noopener">lean4#13540</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13586" rel="noopener">lean4#13586</a></p>
   </div>
 </article>
 </div>

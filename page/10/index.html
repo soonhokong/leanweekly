@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 10</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-05-28-leo-de-moura-adds-a-dsimp-tactic-for-lean-s-sym-mode">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-26">May 26</time><button class="copy" type="button" hidden data-link="../../2026-05-28/#2026-05-28-leo-de-moura-adds-a-dsimp-tactic-for-lean-s-sym-mode" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura adds a dsimp tactic for Lean's sym =&gt; mode</h2>
+    <p class="card-text">In a series of merged pull requests, Leo de Moura built infrastructure for a dsimp in SymM, functions for simplifying binders, reusable reduction DSimprocs (beta, zeta, zetaAll, dsimpProj, dsimpMatch), and syntax for declaring dsimp variants. The last pull request implements the dsimp tactic for interactive sym =&gt; mode.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13857" rel="noopener">lean4#13857</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13823" rel="noopener">lean4#13823</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13824" rel="noopener">lean4#13824</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13825" rel="noopener">lean4#13825</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13854" rel="noopener">lean4#13854</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-05-14-kim-morrison-splits-lean-s-implicit-transparency-level-into-impl">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-05">Apr 5</time><button class="copy" type="button" hidden data-link="../../2026-05-14/#2026-05-14-kim-morrison-splits-lean-s-implicit-transparency-level-into-impl" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Kim Morrison splits Lean's implicit transparency level into implicit and instances</h2>
+    <p class="card-text">A merged pull request by Kim Morrison makes the <a class="inl" href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">transparency hierarchy</a> none &lt; reducible &lt; instances &lt; implicit &lt; default &lt; all, so @[implicit_reducible] annotations no longer have the side effects @[instance_reducible] has. A separate open pull request by Leo de Moura enables the <a class="inl" href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">backward.isDefEq.respectTransparency.types</a> option by default.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">lean4#13637</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">lean4#13283</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-05-14-leo-de-moura-merges-grind-improvements-for-local-theorems-in-lea">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -237,24 +255,6 @@
     <h2 class="card-title">Leo de Moura presents Lean 4 at NASA Formal Methods Symposium</h2>
     <p class="card-text">Leo de Moura, Chief Architect of the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, presents &quot;Lean 4: A Unified Platform for Programming and Verification&quot; at the <a class="inl" href="https://leodemoura.github.io/static/nfm2026/" rel="noopener">NASA Formal Methods Symposium</a> on May 6, 2026. The talk covers <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>, Lean's new proof automation, and industry verification work including Cedar, SampCert, and SymCrypt.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/nfm2026/" rel="noopener">leodemoura.github.io</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-04-30-alex-meiburg-shares-aristotle-authored-z80-emulator-with-verifie">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-23">Apr 23</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-alex-meiburg-shares-aristotle-authored-z80-emulator-with-verifie" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Alex Meiburg shares Aristotle-authored Z80 emulator with verified assembly GCD</h2>
-    <p class="card-text"><a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/583340-Aristotle/topic/Z80.20Emulation/with/590562095" rel="noopener">Alex Meiburg asked Aristotle</a> to formalize a Z80 emulator, build an assembler, and write a BigNum GCD in about 80 assembly instructions, then verify it by modeling the whole CPU execution. After 14 rounds of submitting to Aristotle (without editing the prompt), the proof succeeded.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/583340-Aristotle/topic/Z80.20Emulation/with/590562095" rel="noopener">leanprover.zulipchat.com</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-04-30-mark-ruvald-pedersen-releases-clift-an-autocorres-style-c-verifi">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-30">Apr 30</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-mark-ruvald-pedersen-releases-clift-an-autocorres-style-c-verifi" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Mark Ruvald Pedersen releases Clift, an AutoCorres-style C verification pipeline for Lean 4</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/eisbaw/Clift" rel="noopener">Clift</a> verifies C programs by lifting them into Lean 4, following the methodology pioneered by seL4's AutoCorres pipeline in Isabelle/HOL and adapting AutoCorres2's five-stage pipeline to Lean 4's type theory. <a class="inl" href="https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf" rel="noopener">The accompanying paper</a> reports that Claude Opus 4.6 generated the vast majority of the code, with 1,698 theorems and 12 remaining sorry.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf" rel="noopener">paper (pdf)</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/eisbaw/Clift" rel="noopener">eisbaw/Clift</a></p>
   </div>
 </article>
 </div>
