@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Axiom Math formalizes the Stacks Project in Lean with AI agents](https://leanweekly.news/2026-11-04/#2026-11-04-axiom-math-formalizes-the-stacks-project-in-lean-with-ai-agents): AI and formalization, 2026-11-04
 - [Fedor Popov and Leonardo Rastelli release LeanVOA, a vertex operator algebra library](https://leanweekly.news/2026-11-04/#2026-11-04-fedor-popov-and-leonardo-rastelli-release-leanvoa-a-vertex-opera): AI and formalization, 2026-11-04
 - [Mahdi JafariRaviz's repository formalizes a quasipolynomial-time graph isomorphism algorithm in Lean](https://leanweekly.news/2026-11-04/#2026-11-04-mahdi-jafariraviz-s-repository-formalizes-a-quasipolynomial-time): AI and formalization, 2026-11-04
 - [Scott Armstrong and Ahmed Bou-Rabee fully formalize Elboim-Sly paper with AI agents](https://leanweekly.news/2026-11-04/#2026-11-04-scott-armstrong-and-ahmed-bou-rabee-fully-formalize-elboim-sly-p): AI and formalization, 2026-11-04
@@ -103,7 +104,6 @@
 - [Leo de Moura prototypes on-demand commutation theorems for state operations](https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-prototypes-on-demand-commutation-theorems-for-state): Lean core, 2026-09-21
 - [Lean merges rewritten Verso docstring parser, unblocking automatic formatting](https://leanweekly.news/2026-09-24/#2026-09-24-lean-merges-rewritten-verso-docstring-parser-unblocking-automati): Lean core, 2026-09-18
 - [Lake gains a samply profiling command, copied path dependencies, and separate codegen](https://leanweekly.news/2026-09-24/#2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a): Lean core, 2026-09-17
-- [XTX Markets grants $10mn each to Lean FRO and the Mathlib Initiative](https://leanweekly.news/2026-09-17/#2026-09-17-xtx-markets-grants-10mn-each-to-lean-fro-and-the-mathlib-initiat): Papers and events, 2026-09-16
 
 ## Weeks (Friday to Thursday)
 

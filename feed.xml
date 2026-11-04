@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Wed, 04 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Axiom Math formalizes the Stacks Project in Lean with AI agents</title>
+<link>https://leanweekly.news/2026-11-04/#2026-11-04-axiom-math-formalizes-the-stacks-project-in-lean-with-ai-agents</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-axiom-math-formalizes-the-stacks-project-in-lean-with-ai-agents</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;The library, &lt;a class="inl" href="https://github.com/AxiomMath/Stacks" rel="noopener"&gt;Stacks&lt;/a&gt;, covers chapters 3 to 109 of the open-source algebraic geometry reference in over 15 million lines of code; Lean's kernel checks every proof, but only the StacksCore tier is human-reviewed. &lt;a class="inl" href="https://axiommath.ai/research/the-stacks-project-formalized/" rel="noopener"&gt;Axiom Math&lt;/a&gt; found several Stacks Project statements that do not hold in the generality stated and formalized corrected versions alongside counterexamples.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://axiommath.ai/research/the-stacks-project-formalized/"&gt;axiommath.ai&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Stacks.20Project/with/637577442"&gt;leanprover.zulipchat.com&lt;/a&gt;, &lt;a href="https://github.com/AxiomMath/Stacks"&gt;AxiomMath/Stacks&lt;/a&gt;, &lt;a href="https://stacks.axiommath.ai/"&gt;stacks.axiommath.ai&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Fedor Popov and Leonardo Rastelli release LeanVOA, a vertex operator algebra library</title>
 <link>https://leanweekly.news/2026-11-04/#2026-11-04-fedor-popov-and-leonardo-rastelli-release-leanvoa-a-vertex-opera</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-fedor-popov-and-leonardo-rastelli-release-leanvoa-a-vertex-opera</guid>
@@ -398,14 +406,6 @@
 <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;Lean definitions mirror Julia functions line by line, and each property ends proven, or refuted with a concrete counterexample and a pure-Julia reproducer. In Julia Base and several standard libraries, 400 of 910 properties were refuted and 75 issues filed on JuliaLang/julia; DynamicExpressions.jl, the expression-tree package behind PySR, merged 38 Lean-derived fixes.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/MilesCranmer/julia-in-lean"&gt;MilesCranmer/julia-in-lean&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Thomas Coratger announces EthLib, a Lean 4 library for Ethereum</title>
-<link>https://leanweekly.news/2026-10-25/#2026-10-25-thomas-coratger-announces-ethlib-a-lean-4-library-for-ethereum</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-25/#2026-10-25-thomas-coratger-announces-ethlib-a-lean-4-library-for-ethereum</guid>
-<pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;The library, hosted at github.com/ethereum/EthLib, launched with the goal of bringing Ethereum's primitives, specifications and theorems into one place, building a shared foundation for formally specifying and proving things about Ethereum.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://x.com/tcoratger/status/2114395664687771936"&gt;@tcoratger on X&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

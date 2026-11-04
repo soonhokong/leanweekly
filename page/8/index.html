@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 8</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-07-23-patrick-hulin-reports-a-kernel-check-gap-allowing-a-proof-of-fal">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-22">Jul 22</time><button class="copy" type="button" hidden data-link="../../2026-07-23/#2026-07-23-patrick-hulin-reports-a-kernel-check-gap-allowing-a-proof-of-fal" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Patrick Hulin reports a kernel check gap allowing a proof of False</h2>
+    <p class="card-text">In <a class="inl" href="https://github.com/leanprover/lean4/issues/14484" rel="noopener">leanprover/lean4#14484</a>, Patrick Hulin reports that the kernel does not reject free variables in opaque declaration bodies, letting an adversarial metaprogram prove False with no axiom dependencies. The report, largely generated with AI, suggests applying the closure check used for definitions and theorems, and the issue is now closed.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/issues/14484" rel="noopener">lean4#14484</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-07-23-sebastian-ullrich-proposes-prefix-trees-in-oleans-to-speed-up-le">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -241,15 +250,6 @@
     <h2 class="card-title">Sebastian Graf renames mvcgen' to vcgen and adds frame support</h2>
     <p class="card-text">Sebastian Graf merged pull requests renaming the experimental Sym-based mvcgen' tactic to vcgen, speeding up its matching, and adding a frames clause. A new @[frameproc] attribute lets a program type register how it frames a resource, so cost budgets, separation-logic footprints, and trace invariants frame through the same mechanism.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14195" rel="noopener">lean4#14195</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14146" rel="noopener">lean4#14146</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14167" rel="noopener">lean4#14167</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14134" rel="noopener">lean4#14134</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-07-02-lean-4-moves-deferred-docstring-checks-onto-the-linter-framework">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-02">Jul 2</time><button class="copy" type="button" hidden data-link="../../2026-07-02/#2026-07-02-lean-4-moves-deferred-docstring-checks-onto-the-linter-framework" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean 4 moves deferred docstring checks onto the linter framework</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14206" rel="noopener">A merged pull request</a> by David Thrane Christiansen adapts Lean's deferred docstring check mechanism to use the linter mechanism, replacing custom CI setup with an interface akin to environment linters and governed by the option linter.doc.deferred. In a breaking change, custom <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a> docstring elements now use a two-constructor type.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14206" rel="noopener">lean4#14206</a></p>
   </div>
 </article>
 </div>
