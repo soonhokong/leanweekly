@@ -8,6 +8,30 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Wed, 04 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Fedor Popov and Leonardo Rastelli release LeanVOA, a vertex operator algebra library</title>
+<link>https://leanweekly.news/2026-11-04/#2026-11-04-fedor-popov-and-leonardo-rastelli-release-leanvoa-a-vertex-opera</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-fedor-popov-and-leonardo-rastelli-release-leanvoa-a-vertex-opera</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/Fedor-Popov/Lean_VOA" rel="noopener"&gt;Mathlib-based library&lt;/a&gt; (11,660 Lean files, 3,752,244 lines) constructs the Moonshine module, formalizes Zhu's modular invariance and Huang's tensor categories, and proves new results, declaring no axiom of its own. Under the authors' direction, AI agents (Claude Opus, Claude Fable, Codex) wrote the Lean code and first drafts of a 2,337-page companion book.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/Fedor-Popov/Lean_VOA"&gt;Fedor-Popov/Lean_VOA&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/583339-AI-authored-projects/topic/LeanVOA.3A.20vertex.20operator.20algebras.20in.20Lean/with/637543686"&gt;leanprover.zulipchat.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Mahdi JafariRaviz's repository formalizes a quasipolynomial-time graph isomorphism algorithm in Lean</title>
+<link>https://leanweekly.news/2026-11-04/#2026-11-04-mahdi-jafariraviz-s-repository-formalizes-a-quasipolynomial-time</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-mahdi-jafariraviz-s-repository-formalizes-a-quasipolynomial-time</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/mahdi-jfri/GraphIsomorphismLog2" rel="noopener"&gt;The proof&lt;/a&gt; writes the whole deterministic algorithm from a paper by MohammadTaghi Hajiaghayi and Mahdi JafariRaviz as one program for a simple machine and proves it gives correct answers within the time bound. Ten results from the literature, each relying on the classification of finite simple groups, serve as axioms.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/mahdi-jfri/GraphIsomorphismLog2"&gt;mahdi-jfri/GraphIsomorphismLog2&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Scott Armstrong and Ahmed Bou-Rabee fully formalize Elboim-Sly paper with AI agents</title>
+<link>https://leanweekly.news/2026-11-04/#2026-11-04-scott-armstrong-and-ahmed-bou-rabee-fully-formalize-elboim-sly-p</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-scott-armstrong-and-ahmed-bou-rabee-fully-formalize-elboim-sly-p</guid>
+<pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Dor Elboim and Allan Sly proved &lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-04-000011&amp;amp;version=1" rel="noopener"&gt;Tóth's conjecture&lt;/a&gt; in five or more dimensions: the interchange process (particles swapping across lattice edges whose Poisson clocks ring), run long enough, yields a permutation with infinite cycles. Claude Opus 5.5 and Claude Sonnet 5.5 wrote &lt;a class="inl" href="https://github.com/scottnarmstrong/elboim-sly" rel="noopener"&gt;the Lean code&lt;/a&gt; (about 180,000 lines), which assumes nothing the paper cites.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/scottnarmstrong/elboim-sly"&gt;scottnarmstrong/elboim-sly&lt;/a&gt;, &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-04-000011&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Xi Yin, Michael R. Douglas and Anna Mei machine-check the Osterwalder-Schrader correspondence</title>
 <link>https://leanweekly.news/2026-11-04/#2026-11-04-xi-yin-michael-r-douglas-and-anna-mei-machine-check-the-osterwal</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-xi-yin-michael-r-douglas-and-anna-mei-machine-check-the-osterwal</guid>
@@ -382,30 +406,6 @@
 <pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;The library, hosted at github.com/ethereum/EthLib, launched with the goal of bringing Ethereum's primitives, specifications and theorems into one place, building a shared foundation for formally specifying and proving things about Ethereum.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://x.com/tcoratger/status/2114395664687771936"&gt;@tcoratger on X&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Katzenpost's Lean library Cryptlib implements the Sphinx cryptographic packet format</title>
-<link>https://leanweekly.news/2026-10-25/#2026-10-25-katzenpost-s-lean-library-cryptlib-implements-the-sphinx-cryptog</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-25/#2026-10-25-katzenpost-s-lean-library-cryptlib-implements-the-sphinx-cryptog</guid>
-<pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/katzenpost/cryptlib" rel="noopener"&gt;Cryptlib&lt;/a&gt;'s Sphinx packets are binary compatible with the Katzenpost mix network's Go implementation, including with a post-quantum/classical hybrid key encapsulation method (X25519 and ML-KEM-768) per hop. &lt;a class="inl" href="https://cryptlib.io/" rel="noopener"&gt;The AGPLv3-licensed library&lt;/a&gt; is for modeling protocols and proving their properties; each kind of primitive has a Lean structure with proposition fields that every instance must satisfy.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/katzenpost/cryptlib"&gt;katzenpost/cryptlib&lt;/a&gt;, &lt;a href="https://cryptlib.io/"&gt;cryptlib.io&lt;/a&gt;, &lt;a href="https://reservoir.lean-lang.org/@katzenpost/cryptlib"&gt;reservoir.lean-lang.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>GitHub user joehattori uses Aeneas and Lean to verify core crosvm components</title>
-<link>https://leanweekly.news/2026-10-25/#2026-10-25-github-user-joehattori-uses-aeneas-and-lean-to-verify-core-crosv</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-25/#2026-10-25-github-user-joehattori-uses-aeneas-and-lean-to-verify-core-crosv</guid>
-<pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;In &lt;a class="inl" href="https://github.com/joehattori/crosvm-verif" rel="noopener"&gt;crosvm-verif&lt;/a&gt;, Charon and &lt;a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener"&gt;Aeneas&lt;/a&gt; extract Rust code and generate Lean, and &lt;code&gt;make verify&lt;/code&gt; checks the Lean translation and its specifications. The package is also listed on &lt;a class="inl" href="https://reservoir.lean-lang.org/@joehattori/crosvm-verif" rel="noopener"&gt;Reservoir&lt;/a&gt;, the package registry for &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener"&gt;Lake&lt;/a&gt;, Lean's build system and package manager.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/joehattori/crosvm-verif"&gt;joehattori/crosvm-verif&lt;/a&gt;, &lt;a href="https://reservoir.lean-lang.org/@joehattori/crosvm-verif"&gt;reservoir.lean-lang.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Joachim Breitner releases con-agua, a Lean checker with verified x86 assembly</title>
-<link>https://leanweekly.news/2026-10-25/#2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-25/#2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified</guid>
-<pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;Written by AI under Joachim Breitner's supervision, &lt;a class="inl" href="https://github.com/leanprover/con-agua/" rel="noopener"&gt;con-agua&lt;/a&gt; is an &lt;a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-agua.2C.20an.20x86.20assembly.20port.20of.20con-leche/with/634779855" rel="noopener"&gt;x86 assembly port&lt;/a&gt; of the external Lean checker &lt;a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener"&gt;con-leche&lt;/a&gt; and requires the Kraken x86 semantics to be correct in place of the Lean compiler and runtime. A 5MB assembly file and a 200-line main.c, plus one data file, are all it needs.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/con-agua/"&gt;leanprover/con-agua&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/con-agua.2C.20an.20x86.20assembly.20port.20of.20con-leche/with/634779855"&gt;leanprover.zulipchat.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

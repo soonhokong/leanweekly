@@ -32,6 +32,33 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 9</h1></header>
 <div class="stream">
+<article class="card c-papers" id="2026-07-02-gwern-net-proposes-measuring-how-lean-code-predictability-scales">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-02">Jul 2</time><button class="copy" type="button" hidden data-link="../../2026-07-02/#2026-07-02-gwern-net-proposes-measuring-how-lean-code-predictability-scales" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Gwern Net proposes measuring how Lean code predictability scales for LLMs</h2>
+    <p class="card-text">Gwern Net's <a class="inl" href="https://gwern.net/lean-scaling" rel="noopener">research proposal</a> would measure coding LLM perplexity over growing codebase context to estimate scaling laws of predictability by language. The essay predicts Lean suffers from a very high constant but would have the best scaling exponent, and so would eventually cross over more popular languages such as Python.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://gwern.net/lean-scaling" rel="noopener">gwern.net</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-06-25-lean-4-33-gives-float-a-pure-lean-model-making-float-proofs-poss">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-19">Jun 19</time><button class="copy" type="button" hidden data-link="../../2026-06-25/#2026-06-25-lean-4-33-gives-float-a-pure-lean-model-making-float-proofs-poss" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean 4.33 gives Float a pure Lean model, making float proofs possible</h2>
+    <p class="card-text">Julia Markus Himmel added <a class="inl" href="https://github.com/leanprover/lean4/pull/14079" rel="noopener">Float.Model</a>, a <a class="inl" href="https://juliahimmel.de/blog/float-qanda/" rel="noopener">pure Lean implementation of 64-bit floating-point numbers</a>, and made Float a wrapper around it, so float operations are no longer opaque to the kernel while compiled code still uses native operations. Users can now prove 0.1 + 0.2 != 0.3 with rfl.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://juliahimmel.de/blog/float-qanda/" rel="noopener">juliahimmel.de</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14079" rel="noopener">lean4#14079</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14091" rel="noopener">lean4#14091</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14110" rel="noopener">lean4#14110</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-06-25-sebastian-graf-ports-mvcgen-to-std-internal-do-and-extends-it-to">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-19">Jun 19</time><button class="copy" type="button" hidden data-link="../../2026-06-25/#2026-06-25-sebastian-graf-ports-mvcgen-to-std-internal-do-and-extends-it-to" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Graf ports mvcgen' to Std.Internal.Do and extends it to embedded languages</h2>
+    <p class="card-text">Sebastian Graf merged a <a class="inl" href="https://github.com/leanprover/lean4/pull/14080" rel="noopener">port of the experimental mvcgen' tactic</a> to the new Std.Internal.Do meta theory, where loop invariants no longer restate the exceptional postcondition. A follow-up <a class="inl" href="https://github.com/leanprover/lean4/pull/14015" rel="noopener">extracts a WP type class from WPMonad</a>, enabling verification of deeply embedded languages, tested on an IMP language whose WP instance has no accompanying WPMonad.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14080" rel="noopener">lean4#14080</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14015" rel="noopener">lean4#14015</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-06-25-lean-enables-respecttransparency-types-by-default-a-breaking-cha">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -221,33 +248,6 @@
     <h2 class="card-title">Leo de Moura adds a dsimp tactic for Lean's sym =&gt; mode</h2>
     <p class="card-text">In a series of merged pull requests, Leo de Moura built infrastructure for a dsimp in SymM, functions for simplifying binders, reusable reduction DSimprocs (beta, zeta, zetaAll, dsimpProj, dsimpMatch), and syntax for declaring dsimp variants. The last pull request implements the dsimp tactic for interactive sym =&gt; mode.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13857" rel="noopener">lean4#13857</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13823" rel="noopener">lean4#13823</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13824" rel="noopener">lean4#13824</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13825" rel="noopener">lean4#13825</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13854" rel="noopener">lean4#13854</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-lean-publishes-lean-workbench-an-experimental-online-environment">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time><button class="copy" type="button" hidden data-link="../../2026-05-14/#2026-05-14-lean-publishes-lean-workbench-an-experimental-online-environment" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean publishes Lean Workbench, an experimental online environment for Lean</h2>
-    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/lean-workbench" rel="noopener">leanprover/lean-workbench repository</a> aims to provide familiar (VS Code with the Lean 4 extension) and novel interfaces to Lean online, giving each user an isolated Code Server instance inside a bubblewrap sandbox. The README warns the project is in progress and experimental, with a security audit forthcoming.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench" rel="noopener">leanprover/lean-workbench</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-sebastian-graf-brings-sym-based-mvcgen-to-parity-with-mvcgen">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time><button class="copy" type="button" hidden data-link="../../2026-05-14/#2026-05-14-sebastian-graf-brings-sym-based-mvcgen-to-parity-with-mvcgen" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Graf brings Sym-based mvcgen' to parity with mvcgen</h2>
-    <p class="card-text">A merged Lean pull request by Sebastian Graf gives the <a class="inl" href="https://github.com/leanprover/lean4/pull/13578" rel="noopener">Sym-based mvcgen'</a> feature parity with mvcgen, except +jp (join-point handling), at a cost of about 10% vcgen slowdown for cleaner user-visible VCs. A separate change adds <a class="inl" href="https://github.com/leanprover/lean4/pull/13209" rel="noopener">whileM</a>, which makes repeat/while loops verifiable with mvcgen.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13578" rel="noopener">lean4#13578</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13209" rel="noopener">lean4#13209</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13672" rel="noopener">lean4#13672</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13582" rel="noopener">lean4#13582</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-lake-adds-a-requiresmodulesystem-option-to-flag-non-module-impor">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-14">May 14</time><button class="copy" type="button" hidden data-link="../../2026-05-14/#2026-05-14-lake-adds-a-requiresmodulesystem-option-to-flag-non-module-impor" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lake adds a requiresModuleSystem option to flag non-module imports</h2>
-    <p class="card-text">Sebastian Ullrich's merged Lean pull request adds the <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> package option <code>requiresModuleSystem</code>: Lake then warns whenever a non-module-system file (one without a <code>module</code> header) imports a module of the package. A separate <a class="inl" href="https://github.com/leanprover/lean4/pull/13679" rel="noopener">fix repairs code generation</a> that broke with structures using private fields and types inaccessible in the current scope.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13646" rel="noopener">lean4#13646</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13679" rel="noopener">lean4#13679</a></p>
   </div>
 </article>
 </div>

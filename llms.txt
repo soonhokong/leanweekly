@@ -4,6 +4,9 @@
 
 ## Latest items
 
+- [Fedor Popov and Leonardo Rastelli release LeanVOA, a vertex operator algebra library](https://leanweekly.news/2026-11-04/#2026-11-04-fedor-popov-and-leonardo-rastelli-release-leanvoa-a-vertex-opera): AI and formalization, 2026-11-04
+- [Mahdi JafariRaviz's repository formalizes a quasipolynomial-time graph isomorphism algorithm in Lean](https://leanweekly.news/2026-11-04/#2026-11-04-mahdi-jafariraviz-s-repository-formalizes-a-quasipolynomial-time): AI and formalization, 2026-11-04
+- [Scott Armstrong and Ahmed Bou-Rabee fully formalize Elboim-Sly paper with AI agents](https://leanweekly.news/2026-11-04/#2026-11-04-scott-armstrong-and-ahmed-bou-rabee-fully-formalize-elboim-sly-p): AI and formalization, 2026-11-04
 - [Xi Yin, Michael R. Douglas and Anna Mei machine-check the Osterwalder-Schrader correspondence](https://leanweekly.news/2026-11-04/#2026-11-04-xi-yin-michael-r-douglas-and-anna-mei-machine-check-the-osterwal): AI and formalization, 2026-11-04
 - [Nidhal Mghirbi and Seth Douglas give Lean-checked hyperbolic counterexamples to Kaplansky's conjectures](https://leanweekly.news/2026-11-04/#2026-11-04-nidhal-mghirbi-and-seth-douglas-give-lean-checked-hyperbolic-cou): AI and formalization, 2026-11-03
 - [Luk Koska, Tom Koska and Ben Koska verify GPU kernels in Lean](https://leanweekly.news/2026-11-04/#2026-11-04-luk-koska-tom-koska-and-ben-koska-verify-gpu-kernels-in-lean): Verification, 2026-11-03
@@ -101,9 +104,6 @@
 - [Lean merges rewritten Verso docstring parser, unblocking automatic formatting](https://leanweekly.news/2026-09-24/#2026-09-24-lean-merges-rewritten-verso-docstring-parser-unblocking-automati): Lean core, 2026-09-18
 - [Lake gains a samply profiling command, copied path dependencies, and separate codegen](https://leanweekly.news/2026-09-24/#2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a): Lean core, 2026-09-17
 - [XTX Markets grants $10mn each to Lean FRO and the Mathlib Initiative](https://leanweekly.news/2026-09-17/#2026-09-17-xtx-markets-grants-10mn-each-to-lean-fro-and-the-mathlib-initiat): Papers and events, 2026-09-16
-- [Anthropic's Claude formalizes a complete proof of Fermat's Last Theorem in Lean](https://leanweekly.news/2026-09-17/#2026-09-17-anthropic-s-claude-formalizes-a-complete-proof-of-fermat-s-last): AI and formalization, 2026-09-04
-- [OpenAI announces Lean-checked singularity in the 3D Navier-Stokes equations](https://leanweekly.news/2026-09-17/#2026-09-17-openai-announces-lean-checked-singularity-in-the-3d-navier-stoke): AI and formalization, 2026-09-08
-- [Lean 4.34.0 fixes three kernel soundness issues found with AI testing](https://leanweekly.news/2026-09-17/#2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te): Lean core, 2026-09-14
 
 ## Weeks (Friday to Thursday)
 
