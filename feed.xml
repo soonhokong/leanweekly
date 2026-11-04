@@ -96,20 +96,20 @@
 <description>&lt;p&gt;Inspired by julia-in-lean, the &lt;a class="inl" href="https://github.com/s-celles/go-in-lean" rel="noopener"&gt;go-in-lean proof-of-concept&lt;/a&gt; models a bounded subset of Go (including all of math/bits), states each function's documented behaviour as a theorem, proves it with Lean's kernel and bv_decide, and turns failed proofs into Go tests. Counterexamples must reproduce in Go, and the README lists Go compiler bugs reported after human review.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/s-celles/go-in-lean"&gt;s-celles/go-in-lean&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>Darius Foo and coauthors reconstruct the Iris base logic in Lean</title>
-<link>https://leanweekly.news/2026-11-02/#2026-11-02-darius-foo-and-coauthors-reconstruct-the-iris-base-logic-in-lean</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-02/#2026-11-02-darius-foo-and-coauthors-reconstruct-the-iris-base-logic-in-lean</guid>
-<pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
-<category>Papers and events</category>
-<description>&lt;p&gt;Indirection Theory is simpler than Iris, thanks to ordinary dependent types, but less expressive; the authors' &lt;a class="inl" href="https://arxiv.org/abs/2610.41202" rel="noopener"&gt;lightweight Lean mechanisation&lt;/a&gt; generalises it to Iris-style resources. Two case studies, including a program logic complete enough to verify concurrent and higher-order programs, show the base logic is expressive and faithful to Iris.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.41202"&gt;arXiv:2610.41202&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
 <title>Volodymyr Pavlyshyn's LeanRDF certifies RDF entailment with a verified checker</title>
 <link>https://leanweekly.news/2026-11-02/#2026-11-02-volodymyr-pavlyshyn-s-leanrdf-certifies-rdf-entailment-with-a-ve</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-02/#2026-11-02-volodymyr-pavlyshyn-s-leanrdf-certifies-rdf-entailment-with-a-ve</guid>
 <pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;Its &lt;a class="inl" href="https://github.com/Volland/rdf-lean" rel="noopener"&gt;Lean 4 libraries&lt;/a&gt; define the W3C semantics of RDF, RDFS, OWL 2 RL and EL, SPARQL 1.1 and SHACL Core. Untrusted engines, Elpi (λProlog) and oxilite (a SPARQL store on SQLite), find answers that the checker turns into theorems, and the SPARQL evaluator and SHACL validator are proven to compute their semantics exactly.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/Volland/rdf-lean"&gt;Volland/rdf-lean&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Darius Foo and coauthors reconstruct the Iris base logic in Lean</title>
+<link>https://leanweekly.news/2026-11-02/#2026-11-02-darius-foo-and-coauthors-reconstruct-the-iris-base-logic-in-lean</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-02/#2026-11-02-darius-foo-and-coauthors-reconstruct-the-iris-base-logic-in-lean</guid>
+<pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
+<category>Papers and events</category>
+<description>&lt;p&gt;Indirection Theory is simpler than Iris, thanks to ordinary dependent types, but less expressive; the authors' &lt;a class="inl" href="https://arxiv.org/abs/2610.41202" rel="noopener"&gt;lightweight Lean mechanisation&lt;/a&gt; generalises it to Iris-style resources. Two case studies, including a program logic complete enough to verify concurrent and higher-order programs, show the base logic is expressive and faithful to Iris.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2610.41202"&gt;arXiv:2610.41202&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Zayn Blore proves in Lean that the Poisson conjecture is false</title>
@@ -208,14 +208,6 @@
 <description>&lt;p&gt;Without &lt;code&gt;+jp&lt;/code&gt;, &lt;code&gt;vcgen&lt;/code&gt; copies the code after an &lt;code&gt;if&lt;/code&gt; or a &lt;code&gt;match&lt;/code&gt; into every branch, so the number of copies doubles with each consecutive split. With &lt;code&gt;+jp&lt;/code&gt;, &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/14398" rel="noopener"&gt;VC generation&lt;/a&gt; grows linearly with the number of splits, and the shared code is verified under a hypothesis stating what each branch knows at its end.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/14398"&gt;lean4#14398&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>Benjamin Pierce announces Agentic Proof Engineering, a Spring 2027 course at Penn</title>
-<link>https://leanweekly.news/2026-10-29/#2026-10-29-benjamin-pierce-announces-agentic-proof-engineering-a-spring-202</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-benjamin-pierce-announces-agentic-proof-engineering-a-spring-202</guid>
-<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
-<category>Papers and events</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://www.cis.upenn.edu/~bcpierce/agentic-proof-engineering/syllabus.html" rel="noopener"&gt;semester course&lt;/a&gt; is on building formal proofs about software systems at scale, in collaboration with AI agents, and will also be delivered as a live webinar for participants outside Penn. Some lectures and projects will be phrased in terms of Lean, though fluency with the specifics of Lean will not be needed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cis.upenn.edu/~bcpierce/agentic-proof-engineering/syllabus.html"&gt;cis.upenn.edu&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
 <title>Leo de Moura makes grind failure messages short by default</title>
 <link>https://leanweekly.news/2026-10-29/#2026-10-29-leo-de-moura-makes-grind-failure-messages-short-by-default</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-leo-de-moura-makes-grind-failure-messages-short-by-default</guid>
@@ -230,6 +222,14 @@
 <pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
 <category>Lean core</category>
 <description>&lt;p&gt;The pending change (&lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15805" rel="noopener"&gt;#15805&lt;/a&gt;) has &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener"&gt;Lake&lt;/a&gt; first fetch transitive artifacts from a single build-store snapshot, falling back to the real build store only when an artifact is missing. Mac Malone also opened &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16083" rel="noopener"&gt;#16083&lt;/a&gt; to benchmark Lake's module setup computation, which experiments show is a significant scalability chokepoint in projects with thousands of modules.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/15805"&gt;lean4#15805&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/16083"&gt;lean4#16083&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Benjamin Pierce announces Agentic Proof Engineering, a Spring 2027 course at Penn</title>
+<link>https://leanweekly.news/2026-10-29/#2026-10-29-benjamin-pierce-announces-agentic-proof-engineering-a-spring-202</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-10-29/#2026-10-29-benjamin-pierce-announces-agentic-proof-engineering-a-spring-202</guid>
+<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
+<category>Papers and events</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://www.cis.upenn.edu/~bcpierce/agentic-proof-engineering/syllabus.html" rel="noopener"&gt;semester course&lt;/a&gt; is on building formal proofs about software systems at scale, in collaboration with AI agents, and will also be delivered as a live webinar for participants outside Penn. Some lectures and projects will be phrased in terms of Lean, though fluency with the specifics of Lean will not be needed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.cis.upenn.edu/~bcpierce/agentic-proof-engineering/syllabus.html"&gt;cis.upenn.edu&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>GenProof paper on verifying Minecraft redstone circuits uses Lean's bv_decide</title>

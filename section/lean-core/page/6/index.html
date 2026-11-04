@@ -32,6 +32,33 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">Lean core, page 6</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 154 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-03-05-cslib-publishes-contributor-guide-for-formalizing-computer-scien">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-05">Mar 5</time><button class="copy" type="button" hidden data-link="../../../../2026-03-05/#2026-03-05-cslib-publishes-contributor-guide-for-formalizing-computer-scien" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">CSLib publishes contributor guide for formalizing computer science in Lean</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/cslib/blob/main/CONTRIBUTING.md" rel="noopener">CSLib contributing guide</a> covers two pillars: formalising computer science as reusable infrastructure, and code reasoning about mainstream programming languages via Boole, intermediate representations, and VC generation. Contributors who use AI must explain which tools they used in the PR description, following the <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> policy.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/cslib/blob/main/CONTRIBUTING.md" rel="noopener">leanprover/cslib</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-03-05-lean-publishes-fifth-release-candidate-for-v4-29-0">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-05">Mar 5</time><button class="copy" type="button" hidden data-link="../../../../2026-03-05/#2026-03-05-lean-publishes-fifth-release-candidate-for-v4-29-0" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean publishes fifth release candidate for v4.29.0</h2>
+    <p class="card-text">The Lean project published <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc5" rel="noopener">v4.29.0-rc5</a>, the fifth release candidate for the v4.29.0 release of Lean, on GitHub on March 5, 2026.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc5" rel="noopener">lean4 v4.29.0-rc5</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-02-26-leo-de-moura-merges-isdefeq-transparency-change-into-lean-core">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-16">Feb 16</time><button class="copy" type="button" hidden data-link="../../../../2026-02-26/#2026-02-26-leo-de-moura-merges-isdefeq-transparency-change-into-lean-core" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura merges isDefEq transparency change into Lean core</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">The pull request</a> stops isDefEq from raising transparency to .default when checking implicit arguments, which was creating scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. The PR calls it a very disruptive change, reversible with set_option backward.isDefEq.respectTransparency false. Separately, Lean published the <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc2" rel="noopener">second release candidate for v4.29.0</a>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc2" rel="noopener">lean4 v4.29.0-rc2</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-02-19-lean-v4-28-0-released-with-a-symbolic-simulation-framework-and-g">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -50,15 +77,6 @@
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/113486-announce/topic/releases.20of.20new.20Lean.20versions/near/574617729" rel="noopener">leanprover.zulipchat.com</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12561" rel="noopener">lean4#12561</a></p>
   </div>
 </article>
-<article class="card c-lean-core" id="2026-02-26-leo-de-moura-merges-isdefeq-transparency-change-into-lean-core">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-16">Feb 16</time><button class="copy" type="button" hidden data-link="../../../../2026-02-26/#2026-02-26-leo-de-moura-merges-isdefeq-transparency-change-into-lean-core" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura merges isDefEq transparency change into Lean core</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">The pull request</a> stops isDefEq from raising transparency to .default when checking implicit arguments, which was creating scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. The PR calls it a very disruptive change, reversible with set_option backward.isDefEq.respectTransparency false. Separately, Lean published the <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc2" rel="noopener">second release candidate for v4.29.0</a>.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc2" rel="noopener">lean4 v4.29.0-rc2</a></p>
-  </div>
-</article>
 <article class="card c-lean-core" id="2026-02-19-leo-de-moura-adds-higher-order-miller-patterns-to-grind-s-e-matc">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -66,69 +84,6 @@
     <h2 class="card-title">Leo de Moura adds higher-order Miller patterns to grind's e-matching</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12483" rel="noopener">A merged Lean 4 pull request</a> lets <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>'s e-matching engine keep lambda arguments as patterns when pattern variables are applied only to distinct lambda-bound variables. Previously such lambdas were ignored during matching, which limited theorems about combinators like List.foldl that take a function argument.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12483" rel="noopener">lean4#12483</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-02-12-leo-de-moura-merges-two-lean-core-elaborator-changes">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-12">Feb 12</time><button class="copy" type="button" hidden data-link="../../../../2026-02-12/#2026-02-12-leo-de-moura-merges-two-lean-core-elaborator-changes" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura merges two Lean core elaborator changes</h2>
-    <p class="card-text">Leo de Moura <a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">merged a pull request</a> stopping isDefEq from raising transparency to .default for implicit arguments, which was creating scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> (old behavior: set_option backward.isDefEq.respectTransparency false). <a class="inl" href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">A second pull request</a> fixes the type class resolution cache for classes with output parameters.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">lean4#12286</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-02-05-leo-de-moura-s-lean-change-stops-simp-from-simplifying-instances">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-05">Feb 5</time><button class="copy" type="button" hidden data-link="../../../../2026-02-05/#2026-02-05-leo-de-moura-s-lean-change-stops-simp-from-simplifying-instances" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura's Lean change stops simp from simplifying instances by default</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12244" rel="noopener">The pull request</a>, merged on 2026-02-05, ensures simp does not &quot;simplify&quot; instances by default, since doing so creates non-standard instances that cause problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. The old behavior can be retrieved with simp +instances, and the backward compatibility flag for dsimp also deactivates the change.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12244" rel="noopener">lean4#12244</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time><button class="copy" type="button" hidden data-link="../../../../2026-01-29/#2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean publishes leansqlite, SQLite bindings for Lean</h2>
-    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a> library bundles SQLite and adds interpolated strings that expand to prepared statements, plus iterators over query result rows. <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">A Zulip user, pandaman, shared LeanToDo</a>, an experiment in building a web application with Lean that uses leansqlite for its database and <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a> for HTML templating.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a><span class="dot" aria-hidden="true">·</span><a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">leanprover.zulipchat.com</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-01-29-sebastian-ullrich-s-merged-pr-separates-meta-and-non-meta-code-i">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time><button class="copy" type="button" hidden data-link="../../../../2026-01-29/#2026-01-29-sebastian-ullrich-s-merged-pr-separates-meta-and-non-meta-code-i" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Ullrich's merged PR separates meta and non-meta code in Lean binaries</h2>
-    <p class="card-text">The change lets the module system, in cooperation with the linker, keep tactics used only in proofs out of the final native binary. A simple example using <code>meta import Lean</code> shrinks from 130MB to 1.7MB. As a breaking change, <code>importModules (loadExts := true)</code> must now be preceded by <code>enableInitializersExecution</code>.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12016" rel="noopener">lean4#12016</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-01-29-leo-de-moura-merges-three-lean-core-changes-to-instance-handling">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-28">Jan 28</time><button class="copy" type="button" hidden data-link="../../../../2026-01-29/#2026-01-29-leo-de-moura-merges-three-lean-core-changes-to-instance-handling" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura merges three Lean core changes to instance handling</h2>
-    <p class="card-text">Lean now identifies instance parameters by type using isClass? instead of binder syntax, dsimp no longer simplifies instances by default, and isDefEq no longer raises transparency to .default for implicit arguments, a change the PR calls very disruptive. Old behavior is available through backward.* options, and the PRs cite problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12172" rel="noopener">lean4#12172</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12195" rel="noopener">lean4#12195</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-03-05-cslib-publishes-contributor-guide-for-formalizing-computer-scien">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-05">Mar 5</time><button class="copy" type="button" hidden data-link="../../../../2026-03-05/#2026-03-05-cslib-publishes-contributor-guide-for-formalizing-computer-scien" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">CSLib publishes contributor guide for formalizing computer science in Lean</h2>
-    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/cslib/blob/main/CONTRIBUTING.md" rel="noopener">CSLib contributing guide</a> covers two pillars: formalising computer science as reusable infrastructure, and code reasoning about mainstream programming languages via Boole, intermediate representations, and VC generation. Contributors who use AI must explain which tools they used in the PR description, following the <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> policy.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/cslib/blob/main/CONTRIBUTING.md" rel="noopener">leanprover/cslib</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-03-05-lean-publishes-fifth-release-candidate-for-v4-29-0">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-05">Mar 5</time><button class="copy" type="button" hidden data-link="../../../../2026-03-05/#2026-03-05-lean-publishes-fifth-release-candidate-for-v4-29-0" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean publishes fifth release candidate for v4.29.0</h2>
-    <p class="card-text">The Lean project published <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc5" rel="noopener">v4.29.0-rc5</a>, the fifth release candidate for the v4.29.0 release of Lean, on GitHub on March 5, 2026.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/releases/tag/v4.29.0-rc5" rel="noopener">lean4 v4.29.0-rc5</a></p>
   </div>
 </article>
 <article class="card c-lean-core" id="2026-02-19-nick-palladinos-publishes-smtlibdsl-a-type-safe-smt-lib-dsl-for">
@@ -158,6 +113,15 @@
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/mathlib4/pull/35125" rel="noopener">mathlib4#35125</a></p>
   </div>
 </article>
+<article class="card c-lean-core" id="2026-02-12-leo-de-moura-merges-two-lean-core-elaborator-changes">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-12">Feb 12</time><button class="copy" type="button" hidden data-link="../../../../2026-02-12/#2026-02-12-leo-de-moura-merges-two-lean-core-elaborator-changes" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura merges two Lean core elaborator changes</h2>
+    <p class="card-text">Leo de Moura <a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">merged a pull request</a> stopping isDefEq from raising transparency to .default for implicit arguments, which was creating scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> (old behavior: set_option backward.isDefEq.respectTransparency false). <a class="inl" href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">A second pull request</a> fixes the type class resolution cache for classes with output parameters.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">lean4#12286</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-02-12-leo-de-moura-tests-claude-assisted-refactoring-of-lean-s-grind-a">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -165,6 +129,15 @@
     <h2 class="card-title">Leo de Moura tests Claude-assisted refactoring of Lean's grind and Sym modules</h2>
     <p class="card-text">Leo de Moura opened <a class="inl" href="https://github.com/leanprover/lean4/pull/12448" rel="noopener">leanprover/lean4#12448</a>, a pull request that refactors the <code>grind</code> and <code>Sym</code> modules using Claude-assisted code transformations as an experiment in AI-aided code maintenance. The pull request is marked &quot;do not merge&quot;.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12448" rel="noopener">lean4#12448</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-02-05-leo-de-moura-s-lean-change-stops-simp-from-simplifying-instances">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-05">Feb 5</time><button class="copy" type="button" hidden data-link="../../../../2026-02-05/#2026-02-05-leo-de-moura-s-lean-change-stops-simp-from-simplifying-instances" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura's Lean change stops simp from simplifying instances by default</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12244" rel="noopener">The pull request</a>, merged on 2026-02-05, ensures simp does not &quot;simplify&quot; instances by default, since doing so creates non-standard instances that cause problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. The old behavior can be retrieved with simp +instances, and the backward compatibility flag for dsimp also deactivates the change.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12244" rel="noopener">lean4#12244</a></p>
   </div>
 </article>
 <article class="card c-lean-core" id="2026-02-05-new-leancall-library-lets-python-code-call-lean-functions-direct">
@@ -185,6 +158,33 @@
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">lean4#12286</a></p>
   </div>
 </article>
+<article class="card c-lean-core" id="2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time><button class="copy" type="button" hidden data-link="../../../../2026-01-29/#2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean publishes leansqlite, SQLite bindings for Lean</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a> library bundles SQLite and adds interpolated strings that expand to prepared statements, plus iterators over query result rows. <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">A Zulip user, pandaman, shared LeanToDo</a>, an experiment in building a web application with Lean that uses leansqlite for its database and <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a> for HTML templating.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a><span class="dot" aria-hidden="true">·</span><a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">leanprover.zulipchat.com</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-01-29-sebastian-ullrich-s-merged-pr-separates-meta-and-non-meta-code-i">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time><button class="copy" type="button" hidden data-link="../../../../2026-01-29/#2026-01-29-sebastian-ullrich-s-merged-pr-separates-meta-and-non-meta-code-i" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich's merged PR separates meta and non-meta code in Lean binaries</h2>
+    <p class="card-text">The change lets the module system, in cooperation with the linker, keep tactics used only in proofs out of the final native binary. A simple example using <code>meta import Lean</code> shrinks from 130MB to 1.7MB. As a breaking change, <code>importModules (loadExts := true)</code> must now be preceded by <code>enableInitializersExecution</code>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12016" rel="noopener">lean4#12016</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-01-29-leo-de-moura-merges-three-lean-core-changes-to-instance-handling">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-28">Jan 28</time><button class="copy" type="button" hidden data-link="../../../../2026-01-29/#2026-01-29-leo-de-moura-merges-three-lean-core-changes-to-instance-handling" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura merges three Lean core changes to instance handling</h2>
+    <p class="card-text">Lean now identifies instance parameters by type using isClass? instead of binder syntax, dsimp no longer simplifies instances by default, and isDefEq no longer raises transparency to .default for implicit arguments, a change the PR calls very disruptive. Old behavior is available through backward.* options, and the PRs cite problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12172" rel="noopener">lean4#12172</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12195" rel="noopener">lean4#12195</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-01-29-willem-vanhulle-builds-a-terminal-user-interface-for-lean-4-user">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -193,24 +193,6 @@
     <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">Willem Vanhulle</a> is putting together a TUI (a terminal-only user interface) for Lean4 users, built with Ratatui. The TUI has several display modes with different display styles for on-going mathematical proof development, and documentation is available.</p>
     <figure class="media"><img src="../../../../assets/img/1842d4fc105abdb3-480.webp" srcset="../../../../assets/img/1842d4fc105abdb3-480.webp 480w, ../../../../assets/img/1842d4fc105abdb3-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="396" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">LinkedIn post</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-01-15-sebastian-ullrich-proposes-bundling-lean-s-init-library-into-one">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-10">Jan 10</time><button class="copy" type="button" hidden data-link="../../../../2026-01-15/#2026-01-15-sebastian-ullrich-proposes-bundling-lean-s-init-library-into-one" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Ullrich proposes bundling Lean's Init library into one .olean file</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/11965" rel="noopener">A pull request by Sebastian Ullrich</a> bundles all <code>Init</code> module files into a single file with cross-sharing, reducing cumulative size from 325MB to 264MB and <code>openat</code> calls for <code>import Init</code> on Linux from about 2000 to about 80. The pull request is still open.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/11965" rel="noopener">lean4#11965</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-01-08-leo-de-moura-adds-benchmarks-showing-symm-beating-metam-on-intro">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2025-12-30">Dec 30, 2025</time><button class="copy" type="button" hidden data-link="../../../../2026-01-08/#2026-01-08-leo-de-moura-adds-benchmarks-showing-symm-beating-metam-on-intro" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura adds benchmarks showing SymM beating MetaM on intros/apply</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/11838" rel="noopener">A merged Lean 4 pull request</a> by Leo de Moura adds performance comparison tests between the new <a class="inl" href="https://github.com/leanprover/lean4/tree/master/src/Lean/Meta/Sym" rel="noopener">SymM monad</a> and the standard MetaM for intros/apply operations. Results show a 10-20x speedup, rising from 10.8x at size 1000 to 22.0x at size 6000.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/11838" rel="noopener">lean4#11838</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/tree/master/src/Lean/Meta/Sym" rel="noopener">leanprover/lean4</a></p>
   </div>
 </article>
 <article class="card c-lean-core" id="2026-01-22-leo-de-moura-adds-ground-evaluation-and-conditional-rewriting-to">
@@ -231,6 +213,15 @@
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/blob/ef1e080386afea1599ffe8891433a440875d18e6/tests/bench/sym/add_sub_cancel.lean" rel="noopener">leanprover/lean4</a></p>
   </div>
 </article>
+<article class="card c-lean-core" id="2026-01-15-sebastian-ullrich-proposes-bundling-lean-s-init-library-into-one">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-10">Jan 10</time><button class="copy" type="button" hidden data-link="../../../../2026-01-15/#2026-01-15-sebastian-ullrich-proposes-bundling-lean-s-init-library-into-one" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich proposes bundling Lean's Init library into one .olean file</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/11965" rel="noopener">A pull request by Sebastian Ullrich</a> bundles all <code>Init</code> module files into a single file with cross-sharing, reducing cumulative size from 325MB to 264MB and <code>openat</code> calls for <code>import Init</code> on Linux from about 2000 to about 80. The pull request is still open.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/11965" rel="noopener">lean4#11965</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-01-15-leo-de-moura-removes-super-linear-kernel-overhead-in-lambda-simp">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -238,6 +229,15 @@
     <h2 class="card-title">Leo de Moura removes super-linear kernel overhead in lambda simplification</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/11932" rel="noopener">A merged Lean pull request</a> by Leo de Moura improves the proof term produced by <code>mkFunext</code>, which <code>Sym.simp</code> uses when simplifying lambda expressions. For a 200-lambda benchmark, kernel checking time fell from 148.681 ms to 6.903 ms, and the approach will later come to <code>Meta.simp</code>.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/11932" rel="noopener">lean4#11932</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-01-08-leo-de-moura-adds-benchmarks-showing-symm-beating-metam-on-intro">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2025-12-30">Dec 30, 2025</time><button class="copy" type="button" hidden data-link="../../../../2026-01-08/#2026-01-08-leo-de-moura-adds-benchmarks-showing-symm-beating-metam-on-intro" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura adds benchmarks showing SymM beating MetaM on intros/apply</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/11838" rel="noopener">A merged Lean 4 pull request</a> by Leo de Moura adds performance comparison tests between the new <a class="inl" href="https://github.com/leanprover/lean4/tree/master/src/Lean/Meta/Sym" rel="noopener">SymM monad</a> and the standard MetaM for intros/apply operations. Results show a 10-20x speedup, rising from 10.8x at size 1000 to 22.0x at size 6000.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/11838" rel="noopener">lean4#11838</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/tree/master/src/Lean/Meta/Sym" rel="noopener">leanprover/lean4</a></p>
   </div>
 </article>
 <article class="card c-lean-core" id="2026-10-15-lean-4-35-0-ships-vcgen-lake-check-and-bundled-independent-kerne">

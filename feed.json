@@ -149,19 +149,6 @@
    ]
   },
   {
-   "id": "https://leanweekly.news/2026-11-02/#2026-11-02-darius-foo-and-coauthors-reconstruct-the-iris-base-logic-in-lean",
-   "url": "https://leanweekly.news/2026-11-02/#2026-11-02-darius-foo-and-coauthors-reconstruct-the-iris-base-logic-in-lean",
-   "title": "Darius Foo and coauthors reconstruct the Iris base logic in Lean",
-   "content_html": "<p>Indirection Theory is simpler than Iris, thanks to ordinary dependent types, but less expressive; the authors' <a class=\"inl\" href=\"https://arxiv.org/abs/2610.41202\" rel=\"noopener\">lightweight Lean mechanisation</a> generalises it to Iris-style resources. Two case studies, including a program logic complete enough to verify concurrent and higher-order programs, show the base logic is expressive and faithful to Iris.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.41202\">arXiv:2610.41202</a></p>",
-   "date_published": "2026-10-30T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "iris",
-    "program logic",
-    "concurrency"
-   ]
-  },
-  {
    "id": "https://leanweekly.news/2026-11-02/#2026-11-02-volodymyr-pavlyshyn-s-leanrdf-certifies-rdf-entailment-with-a-ve",
    "url": "https://leanweekly.news/2026-11-02/#2026-11-02-volodymyr-pavlyshyn-s-leanrdf-certifies-rdf-entailment-with-a-ve",
    "title": "Volodymyr Pavlyshyn's LeanRDF certifies RDF entailment with a verified checker",
@@ -172,6 +159,19 @@
     "rdf",
     "sparql",
     "certificates"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-02/#2026-11-02-darius-foo-and-coauthors-reconstruct-the-iris-base-logic-in-lean",
+   "url": "https://leanweekly.news/2026-11-02/#2026-11-02-darius-foo-and-coauthors-reconstruct-the-iris-base-logic-in-lean",
+   "title": "Darius Foo and coauthors reconstruct the Iris base logic in Lean",
+   "content_html": "<p>Indirection Theory is simpler than Iris, thanks to ordinary dependent types, but less expressive; the authors' <a class=\"inl\" href=\"https://arxiv.org/abs/2610.41202\" rel=\"noopener\">lightweight Lean mechanisation</a> generalises it to Iris-style resources. Two case studies, including a program logic complete enough to verify concurrent and higher-order programs, show the base logic is expressive and faithful to Iris.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.41202\">arXiv:2610.41202</a></p>",
+   "date_published": "2026-10-30T12:00:00Z",
+   "tags": [
+    "Papers and events",
+    "iris",
+    "program logic",
+    "concurrency"
    ]
   },
   {
@@ -331,19 +331,6 @@
    ]
   },
   {
-   "id": "https://leanweekly.news/2026-10-29/#2026-10-29-benjamin-pierce-announces-agentic-proof-engineering-a-spring-202",
-   "url": "https://leanweekly.news/2026-10-29/#2026-10-29-benjamin-pierce-announces-agentic-proof-engineering-a-spring-202",
-   "title": "Benjamin Pierce announces Agentic Proof Engineering, a Spring 2027 course at Penn",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://www.cis.upenn.edu/~bcpierce/agentic-proof-engineering/syllabus.html\" rel=\"noopener\">semester course</a> is on building formal proofs about software systems at scale, in collaboration with AI agents, and will also be delivered as a live webinar for participants outside Penn. Some lectures and projects will be phrased in terms of Lean, though fluency with the specifics of Lean will not be needed.</p><p>Sources: <a href=\"https://www.cis.upenn.edu/~bcpierce/agentic-proof-engineering/syllabus.html\">cis.upenn.edu</a></p>",
-   "date_published": "2026-10-29T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "course",
-    "ai agents",
-    "verification"
-   ]
-  },
-  {
    "id": "https://leanweekly.news/2026-10-29/#2026-10-29-leo-de-moura-makes-grind-failure-messages-short-by-default",
    "url": "https://leanweekly.news/2026-10-29/#2026-10-29-leo-de-moura-makes-grind-failure-messages-short-by-default",
    "title": "Leo de Moura makes grind failure messages short by default",
@@ -367,6 +354,19 @@
     "lake",
     "performance",
     "scalability"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-10-29/#2026-10-29-benjamin-pierce-announces-agentic-proof-engineering-a-spring-202",
+   "url": "https://leanweekly.news/2026-10-29/#2026-10-29-benjamin-pierce-announces-agentic-proof-engineering-a-spring-202",
+   "title": "Benjamin Pierce announces Agentic Proof Engineering, a Spring 2027 course at Penn",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://www.cis.upenn.edu/~bcpierce/agentic-proof-engineering/syllabus.html\" rel=\"noopener\">semester course</a> is on building formal proofs about software systems at scale, in collaboration with AI agents, and will also be delivered as a live webinar for participants outside Penn. Some lectures and projects will be phrased in terms of Lean, though fluency with the specifics of Lean will not be needed.</p><p>Sources: <a href=\"https://www.cis.upenn.edu/~bcpierce/agentic-proof-engineering/syllabus.html\">cis.upenn.edu</a></p>",
+   "date_published": "2026-10-29T12:00:00Z",
+   "tags": [
+    "Papers and events",
+    "course",
+    "ai agents",
+    "verification"
    ]
   },
   {
