@@ -4,6 +4,15 @@
 
 ## Latest items
 
+- [Zayn Blore machine-checks the Dixmier conjecture's failure in dimension 3 and above](https://leanweekly.news/2026-11-06/#2026-11-06-zayn-blore-machine-checks-the-dixmier-conjecture-s-failure-in-di): AI and formalization, 2026-11-06
+- [Anthropic releases FlashProve, with Lean proofs of its security properties](https://leanweekly.news/2026-11-06/#2026-11-06-anthropic-releases-flashprove-with-lean-proofs-of-its-security-p): Verification, 2026-11-02
+- [Kiro proves properties of its own agent harness in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-kiro-proves-properties-of-its-own-agent-harness-in-lean): Verification, 2026-11-02
+- [Thanin Quartz and coauthors prove 2×2 matrix mortality undecidable, checked in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-thanin-quartz-and-coauthors-prove-2-2-matrix-mortality-undecidab): AI and formalization, 2026-11-04
+- [Jesse Comer and coauthors present Whiel for Lean-certified relational program verification](https://leanweekly.news/2026-11-06/#2026-11-06-jesse-comer-and-coauthors-present-whiel-for-lean-certified-relat): Verification, 2026-11-03
+- [Naoya Yamashita releases lean-ritsuryo, Japanese statutory computation with proofs in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-naoya-yamashita-releases-lean-ritsuryo-japanese-statutory-comput): Verification, 2026-11-06
+- [Leo de Moura cuts Mathlib build instruction counts, speeds up rw tactic](https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-cuts-mathlib-build-instruction-counts-speeds-up-rw): Lean core, 2026-11-01
+- [Leo de Moura fixes three quadratic performance issues in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-fixes-three-quadratic-performance-issues-in-lean): Lean core, 2026-10-30
+- [Sebastian Graf lets Lean's vcgen tactic discharge frame conditions with frameproc theorems](https://leanweekly.news/2026-11-06/#2026-11-06-sebastian-graf-lets-lean-s-vcgen-tactic-discharge-frame-conditio): Lean core, 2026-10-29
 - [Researchers formalize the Strong Perfect Graph Theorem in Lean with AI agents](https://leanweekly.news/2026-11-05/#2026-11-05-researchers-formalize-the-strong-perfect-graph-theorem-in-lean-w): AI and formalization, 2026-11-05
 - [Axiom Math formalizes the Stacks Project in Lean with AI agents](https://leanweekly.news/2026-11-04/#2026-11-04-axiom-math-formalizes-the-stacks-project-in-lean-with-ai-agents): AI and formalization, 2026-11-04
 - [Fedor Popov and Leonardo Rastelli release LeanVOA, a vertex operator algebra library](https://leanweekly.news/2026-11-04/#2026-11-04-fedor-popov-and-leonardo-rastelli-release-leanvoa-a-vertex-opera): AI and formalization, 2026-11-04
@@ -95,18 +104,10 @@
 - [Ten Claude Opus 5.5 agents produce a Lean-verified shortest-path algorithm, C-HD](https://leanweekly.news/2026-09-24/#2026-09-24-ten-claude-opus-5-5-agents-produce-a-lean-verified-shortest-path): AI and formalization, 2026-09-20
 - [Boris Cherny used Opus 5.5 and Lean to verify the Claude Agent SDK](https://leanweekly.news/2026-09-24/#2026-09-24-boris-cherny-used-opus-5-5-and-lean-to-verify-the-claude-agent-s): Verification, 2026-09-22
 - [Velvet 2.0 released, and Ilya Sergey publishes Vermilion, a Lean backend for Verus](https://leanweekly.news/2026-09-24/#2026-09-24-velvet-2-0-released-and-ilya-sergey-publishes-vermilion-a-lean-b): Verification, 2026-09-18
-- [Trivet combines LLMs and Lean to validate LLVM compiler transformations](https://leanweekly.news/2026-09-24/#2026-09-24-trivet-combines-llms-and-lean-to-validate-llvm-compiler-transfor): Verification, 2026-09-17
-- [NASA Jet Propulsion Laboratory formalizes a metrology quantity calculus in Lean 4](https://leanweekly.news/2026-09-24/#2026-09-24-nasa-jet-propulsion-laboratory-formalizes-a-metrology-quantity-c): Verification, 2026-09-24
-- [Robert Joseph George, Will Adkisson, Anima Anandkumar present FloatLib for Lean 4](https://leanweekly.news/2026-09-24/#2026-09-24-robert-joseph-george-will-adkisson-anima-anandkumar-present-floa): Lean core, 2026-09-16
-- [lazylean, a lazy-evaluation Lean kernel, competes in the Lean Kernel Arena](https://leanweekly.news/2026-09-24/#2026-09-24-lazylean-a-lazy-evaluation-lean-kernel-competes-in-the-lean-kern): Lean core, 2026-09-24
-- [Keith Adler releases Lean Studio, a native desktop IDE for Lean 4](https://leanweekly.news/2026-09-24/#2026-09-24-keith-adler-releases-lean-studio-a-native-desktop-ide-for-lean-4): Lean core, 2026-09-24
-- [Kim Morrison opens Mathlib PRs for certified root counting and sum-of-squares](https://leanweekly.news/2026-09-24/#2026-09-24-kim-morrison-opens-mathlib-prs-for-certified-root-counting-and-s): Lean core, 2026-09-07
-- [Leo de Moura adds a polynomial arithmetic normalizer to Lean's Sym.simp](https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-adds-a-polynomial-arithmetic-normalizer-to-lean-s-s): Lean core, 2026-09-23
-- [Leo de Moura prototypes on-demand commutation theorems for state operations](https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-prototypes-on-demand-commutation-theorems-for-state): Lean core, 2026-09-21
-- [Lean merges rewritten Verso docstring parser, unblocking automatic formatting](https://leanweekly.news/2026-09-24/#2026-09-24-lean-merges-rewritten-verso-docstring-parser-unblocking-automati): Lean core, 2026-09-18
 
 ## Weeks (Friday to Thursday)
 
+- [Lean news, Nov 6 to Nov 12, 2026](https://leanweekly.news/week/2026-11-12/)
 - [Lean news, Oct 30 to Nov 5, 2026](https://leanweekly.news/week/2026-11-05/)
 - [Lean news, Oct 23 to Oct 29, 2026](https://leanweekly.news/week/2026-10-29/)
 - [Lean news, Oct 16 to Oct 22, 2026](https://leanweekly.news/week/2026-10-22/)
@@ -143,6 +144,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 6, 2026](https://leanweekly.news/2026-11-06/items.md)
 - [Published Nov 5, 2026](https://leanweekly.news/2026-11-05/items.md)
 - [Published Nov 4, 2026](https://leanweekly.news/2026-11-04/items.md)
 - [Published Nov 3, 2026](https://leanweekly.news/2026-11-03/items.md)

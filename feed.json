@@ -6,6 +6,123 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-zayn-blore-machine-checks-the-dixmier-conjecture-s-failure-in-di",
+   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-zayn-blore-machine-checks-the-dixmier-conjecture-s-failure-in-di",
+   "title": "Zayn Blore machine-checks the Dixmier conjecture's failure in dimension 3 and above",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-06-000008&amp;version=1\" rel=\"noopener\">Palomar registry entry</a> proves in Lean that, over any field of characteristic zero and in each dimension, the Dixmier conjecture implies the Jacobian conjecture, and checks an explicit counterexample to the Jacobian conjecture in every dimension of 3 or more. Its four statements are copied verbatim from Google DeepMind's Formal Conjectures.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-06-000008&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/zblore/fc-dixmier-jacobian\">zblore/fc-dixmier-jacobian</a></p>",
+   "date_published": "2026-11-06T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "dixmier-conjecture",
+    "formal-conjectures",
+    "palomar"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-anthropic-releases-flashprove-with-lean-proofs-of-its-security-p",
+   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-anthropic-releases-flashprove-with-lean-proofs-of-its-security-p",
+   "title": "Anthropic releases FlashProve, with Lean proofs of its security properties",
+   "content_html": "<p>Anthropic released <a class=\"inl\" href=\"https://www.anthropic.com/research/provable-inference\" rel=\"noopener\">FlashProve</a>, which uses a zkSNARK (a type of cryptographic proof) to prove which AI model answered a request. Anthropic used Lean to specify FlashProve's protocol and prove completeness (honest proofs are accepted), soundness (fake proofs are rejected) and zero-knowledge (proofs hide the model's weights), and shipped an executable, <a class=\"inl\" href=\"https://github.com/anthropics/FlashProve\" rel=\"noopener\">provably correct Lean verifier</a>.</p><p>Sources: <a href=\"https://www.anthropic.com/research/provable-inference\">anthropic.com</a>, <a href=\"https://github.com/anthropics/FlashProve\">anthropics/FlashProve</a></p>",
+   "date_published": "2026-11-02T12:00:00Z",
+   "tags": [
+    "Verification",
+    "cryptography",
+    "zksnark",
+    "anthropic"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-kiro-proves-properties-of-its-own-agent-harness-in-lean",
+   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-kiro-proves-properties-of-its-own-agent-harness-in-lean",
+   "title": "Kiro proves properties of its own agent harness in Lean",
+   "content_html": "<p>Kiro wrote Lean models of 26 functions from its TypeScript, Rust, and Python harness (the code managing context, permissions, and state), proving 70 of 96 properties; 18 falsified ones reproduced on the real code. “Lean’s kernel checks every proof, the real code checks every finding,” says <a class=\"inl\" href=\"https://kiro.dev/blog/harness-properties-in-lean/\" rel=\"noopener\">the post</a>, which Swami Sivasubramanian <a class=\"inl\" href=\"https://www.linkedin.com/posts/swaminathansivasubramanian_automated-reasoning-has-been-a-core-investment-share-7523502466101886976-ZBJB/\" rel=\"noopener\">shared on LinkedIn</a>.</p><p>Sources: <a href=\"https://kiro.dev/blog/harness-properties-in-lean/\">kiro.dev</a>, <a href=\"https://www.linkedin.com/posts/swaminathansivasubramanian_automated-reasoning-has-been-a-core-investment-share-7523502466101886976-ZBJB/\">LinkedIn post</a></p>",
+   "date_published": "2026-11-02T12:00:00Z",
+   "tags": [
+    "Verification",
+    "kiro",
+    "ai agents",
+    "software verification"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-thanin-quartz-and-coauthors-prove-2-2-matrix-mortality-undecidab",
+   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-thanin-quartz-and-coauthors-prove-2-2-matrix-mortality-undecidab",
+   "title": "Thanin Quartz and coauthors prove 2×2 matrix mortality undecidable, checked in Lean",
+   "content_html": "<p>Matrix mortality asks whether some product of matrices from a finite family equals the zero matrix; only dimension two was open, with higher dimensions known undecidable since 1970. <a class=\"inl\" href=\"https://arxiv.org/abs/2611.06562\" rel=\"noopener\">The result</a> holds for families of 5,799 distinct 2×2 integer matrices, and a <a class=\"inl\" href=\"https://paperswithlean.com/paper/2611.06562.html\" rel=\"noopener\">Lean 4 formalization</a> checks the full reduction from halting, without project-specific axioms.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.06562\">arXiv:2611.06562</a>, <a href=\"https://paperswithlean.com/paper/2611.06562.html\">paperswithlean.com</a></p>",
+   "date_published": "2026-11-04T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "undecidability",
+    "matrix mortality",
+    "computability"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-jesse-comer-and-coauthors-present-whiel-for-lean-certified-relat",
+   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-jesse-comer-and-coauthors-present-whiel-for-lean-certified-relat",
+   "title": "Jesse Comer and coauthors present Whiel for Lean-certified relational program verification",
+   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2611.05612\" rel=\"noopener\">Whiel</a> verifies programs whose states are database instances against Hoare specifications: an LLM proposes loop invariants, and the Vampire first-order theorem prover checks their verification conditions. An independent certifier constructs Lean proofs of the original specification or its negation; the <a class=\"inl\" href=\"https://github.com/JesseComer/whiel\" rel=\"noopener\">86 benchmark tasks</a> have certified reference answers, 69 valid and 17 invalid.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.05612\">arXiv:2611.05612</a>, <a href=\"https://github.com/JesseComer/whiel\">JesseComer/whiel</a></p>",
+   "date_published": "2026-11-03T12:00:00Z",
+   "tags": [
+    "Verification",
+    "databases",
+    "neurosymbolic",
+    "certification"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-naoya-yamashita-releases-lean-ritsuryo-japanese-statutory-comput",
+   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-naoya-yamashita-releases-lean-ritsuryo-japanese-statutory-comput",
+   "title": "Naoya Yamashita releases lean-ritsuryo, Japanese statutory computation with proofs in Lean",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/conao3/lean-ritsuryo\" rel=\"noopener\">Lean 4 library and CLI</a> (Apache-2.0 license) compute periods, deadlines, ages, holidays, and taxes under Japanese law, including income and inheritance tax. The library's functions come with proofs that they compute what the provisions say, and the CLI computes by calling them; the README also links a paper.</p><p>Sources: <a href=\"https://github.com/conao3/lean-ritsuryo\">conao3/lean-ritsuryo</a></p>",
+   "date_published": "2026-11-06T12:00:00Z",
+   "tags": [
+    "Verification",
+    "law",
+    "tax",
+    "verified software"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-cuts-mathlib-build-instruction-counts-speeds-up-rw",
+   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-cuts-mathlib-build-instruction-counts-speeds-up-rw",
+   "title": "Leo de Moura cuts Mathlib build instruction counts, speeds up rw tactic",
+   "content_html": "<p>Three interpreter and Meta changes cut <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a> build instructions by 1.8% (a <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/16153\" rel=\"noopener\">cache for callee lookups</a>), 3.7% (<a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/16148\" rel=\"noopener\">in-place evaluation</a> of USize, UInt64 and Array.uget/uset primitives) and 2.7% (a <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/16155\" rel=\"noopener\">cache of definition unfoldings</a>). Two others make rw faster on large goals and on goals with shared subterms.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/16153\">lean4#16153</a>, <a href=\"https://github.com/leanprover/lean4/pull/16148\">lean4#16148</a>, <a href=\"https://github.com/leanprover/lean4/pull/16155\">lean4#16155</a>, <a href=\"https://github.com/leanprover/lean4/pull/16130\">lean4#16130</a>, <a href=\"https://github.com/leanprover/lean4/pull/16131\">lean4#16131</a></p>",
+   "date_published": "2026-11-01T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "performance",
+    "mathlib",
+    "rw"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-fixes-three-quadratic-performance-issues-in-lean",
+   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-fixes-three-quadratic-performance-issues-in-lean",
+   "title": "Leo de Moura fixes three quadratic performance issues in Lean",
+   "content_html": "<p>The issues include an <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/16107\" rel=\"noopener\">Expr hash collision</a>: chains of the same application with different lengths could share hashes, so kernel cache lookups compared them structurally and checks became quadratic. The other two are <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/16046\" rel=\"noopener\">quadratic elaboration of large string-literal equalities</a> and <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/16049\" rel=\"noopener\">quadratic compilation of large list literals</a>.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/16107\">lean4#16107</a>, <a href=\"https://github.com/leanprover/lean4/pull/16046\">lean4#16046</a>, <a href=\"https://github.com/leanprover/lean4/pull/16049\">lean4#16049</a></p>",
+   "date_published": "2026-10-30T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "performance",
+    "kernel",
+    "compiler"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-sebastian-graf-lets-lean-s-vcgen-tactic-discharge-frame-conditio",
+   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-sebastian-graf-lets-lean-s-vcgen-tactic-discharge-frame-conditio",
+   "title": "Sebastian Graf lets Lean's vcgen tactic discharge frame conditions with frameproc theorems",
+   "content_html": "<p>The vcgen tactic now <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/16093\" rel=\"noopener\">discharges the frame condition</a> of each framed call with a theorem named by a <code>@[frameproc]</code>, for example one for a separation logic, so the frame condition no longer becomes a verification condition. Sebastian Graf also added the <code>@[vcgen_simp]</code> <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15955\" rel=\"noopener\">attribute</a>, which collects <code>Sym.simp</code> theorems for vcgen.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/16093\">lean4#16093</a>, <a href=\"https://github.com/leanprover/lean4/pull/15955\">lean4#15955</a></p>",
+   "date_published": "2026-10-29T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "vcgen",
+    "tactics",
+    "verification"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-05/#2026-11-05-researchers-formalize-the-strong-perfect-graph-theorem-in-lean-w",
    "url": "https://leanweekly.news/2026-11-05/#2026-11-05-researchers-formalize-the-strong-perfect-graph-theorem-in-lean-w",
    "title": "Researchers formalize the Strong Perfect Graph Theorem in Lean with AI agents",
@@ -536,123 +653,6 @@
     "harmonic",
     "aristotle",
     "hardware"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-fixes-three-libtommath-bugs-and-verifies-op",
-   "url": "https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-fixes-three-libtommath-bugs-and-verifies-op",
-   "title": "Harmonic's Aristotle fixes three LibTomMath bugs and verifies optimized routines",
-   "content_html": "<p>Aristotle, <a class=\"inl\" href=\"https://www.harmonic.fun/\" rel=\"noopener\">Harmonic's</a> AI that formally verifies software, found and repaired three bugs in <a class=\"inl\" href=\"https://www.harmonic.fun/aristotle/case-studies/libtommath/\" rel=\"noopener\">LibTomMath 1.2.0</a>, which supplies large-integer arithmetic to Tcl and Dropbear SSH. Aristotle then optimized two arithmetic routines, making modular exponentiation 31–38% faster in benchmarks, and proved them against the repaired code's specifications for results, memory safety, errors, and stored values.</p><p>Sources: <a href=\"https://www.harmonic.fun/aristotle/case-studies/libtommath/\">harmonic.fun</a></p>",
-   "date_published": "2026-10-27T12:00:00Z",
-   "tags": [
-    "Verification",
-    "aristotle",
-    "harmonic",
-    "c verification"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-27/#2026-10-27-michael-stoll-had-claude-build-a-verified-lean-4-model-of-ratpoi",
-   "url": "https://leanweekly.news/2026-10-27/#2026-10-27-michael-stoll-had-claude-build-a-verified-lean-4-model-of-ratpoi",
-   "title": "Michael Stoll had Claude build a verified Lean 4 model of ratpoints",
-   "content_html": "<p>Claude mirrored <a class=\"inl\" href=\"https://github.com/MichaelStollBayreuth/ratpoints\" rel=\"noopener\">ratpoints</a>, Michael Stoll's C program that finds rational points on hyperelliptic curves, in Lean function by function and proved, as Comparator certified, that <a class=\"inl\" href=\"https://github.com/MichaelStollBayreuth/RatpointsLean\" rel=\"noopener\">the model</a> meets a short specification. Michael Stoll called <a class=\"inl\" href=\"https://leanprover.zulipchat.com/#narrow/channel/583339-AI-authored-projects/topic/RatpointsLean/with/635501056\" rel=\"noopener\">the work</a> token-intensive enough to use up a Max 20x subscription's weekly Opus 5.5 allowance within three to four days.</p><p>Sources: <a href=\"https://github.com/MichaelStollBayreuth/RatpointsLean\">MichaelStollBayreuth/RatpointsLean</a>, <a href=\"https://leanprover.zulipchat.com/#narrow/channel/583339-AI-authored-projects/topic/RatpointsLean/with/635501056\">leanprover.zulipchat.com</a>, <a href=\"https://github.com/MichaelStollBayreuth/ratpoints\">MichaelStollBayreuth/ratpoints</a></p>",
-   "date_published": "2026-10-27T12:00:00Z",
-   "tags": [
-    "Verification",
-    "software verification",
-    "claude",
-    "comparator"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-27/#2026-10-27-axiom-math-formalizes-the-classification-of-finite-simple-groups",
-   "url": "https://leanweekly.news/2026-10-27/#2026-10-27-axiom-math-formalizes-the-classification-of-finite-simple-groups",
-   "title": "Axiom Math formalizes the classification of finite simple groups in Lean",
-   "content_html": "<p><a class=\"inl\" href=\"https://cfsg.axiommath.ai/\" rel=\"noopener\">The complete formalization</a> follows the first-generation proof (thousands of journal pages by about a hundred mathematicians), and Lean's kernel checks every logical step. <a class=\"inl\" href=\"https://axiommath.ai/research/the-enormous-theorem-formalized/\" rel=\"noopener\">Axiom Math</a> engineers and mathematicians directed AI agents over 24 days, producing approximately <a class=\"inl\" href=\"https://github.com/AxiomMath/CFSG\" rel=\"noopener\">43.1 million lines of code</a> and finding an issue in a published argument for the Unbalanced Group Theorem.</p><p>Sources: <a href=\"https://axiommath.ai/research/the-enormous-theorem-formalized/\">axiommath.ai</a>, <a href=\"https://cfsg.axiommath.ai/\">cfsg.axiommath.ai</a>, <a href=\"https://github.com/AxiomMath/CFSG\">AxiomMath/CFSG</a>, <a href=\"https://hexagonmath.org/pdf/2610.00575v1\">hexagonmath.org</a></p>",
-   "date_published": "2026-10-26T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "cfsg",
-    "group theory",
-    "ai agents"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-26/#2026-10-26-zhe-ye-and-coauthors-propose-agentic-verified-optimization-in-le",
-   "url": "https://leanweekly.news/2026-10-26/#2026-10-26-zhe-ye-and-coauthors-propose-agentic-verified-optimization-in-le",
-   "title": "Zhe Ye and coauthors propose agentic verified optimization in Lean 4",
-   "content_html": "<p>Agents return faster code plus a Lean proof that it equals the original, which serves as the specification. The agents did so for 156 of 189 Verina functions, and 92 proved rewrites sped up 47 of 51 scenarios in 17 applications the authors' <a class=\"inl\" href=\"https://aqueduct.verina.io/\" rel=\"noopener\">Aqueduct framework</a> migrated to Lean from C, C++, Go, or Rust.</p><p>Sources: <a href=\"https://aqueduct.verina.io/\">aqueduct.verina.io</a>, <a href=\"https://arxiv.org/abs/2610.30188\">arXiv:2610.30188</a>, <a href=\"https://x.com/0xlf_/status/2113752716254331352\">@0xlf_ on X</a></p>",
-   "date_published": "2026-10-20T12:00:00Z",
-   "tags": [
-    "Verification",
-    "ai agents",
-    "verified optimization",
-    "aqueduct"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-26/#2026-10-26-cedar-policy-publishes-lean-parser-generator-which-generates-val",
-   "url": "https://leanweekly.news/2026-10-26/#2026-10-26-cedar-policy-publishes-lean-parser-generator-which-generates-val",
-   "title": "cedar-policy publishes lean-parser-generator, which generates validated LR(1) parsers in Lean",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/cedar-policy/lean-parser-generator\" rel=\"noopener\">The tool</a> turns an LR(1) grammar in a .lig file into a compiled Lean parser, plus certificates that Lean checks to prove the parser agrees with a generated dependent specification. It follows the a-posteriori validation architecture also used by Menhir's verified back end, so the automaton construction and code generator need not be trusted.</p><p>Sources: <a href=\"https://github.com/cedar-policy/lean-parser-generator\">cedar-policy/lean-parser-generator</a></p>",
-   "date_published": "2026-10-26T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "parsing",
-    "verification",
-    "cedar"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-26/#2026-10-26-software-verification-in-lean-comes-to-stanford-university-on-no",
-   "url": "https://leanweekly.news/2026-10-26/#2026-10-26-software-verification-in-lean-comes-to-stanford-university-on-no",
-   "title": "Software Verification in Lean comes to Stanford University on November 7",
-   "content_html": "<p>Co-organized by the Beneficial AI Foundation and the <a class=\"inl\" href=\"https://lean-fro.org/\" rel=\"noopener\">Lean FRO</a>, <a class=\"inl\" href=\"https://x.com/leanprover/status/2114845590739931589\" rel=\"noopener\">the day of public lectures</a> covers Rust verification with the <a class=\"inl\" href=\"https://github.com/AeneasVerif/aeneas\" rel=\"noopener\">Aeneas</a> framework, low-level software verification, and formally verified OS kernels. Speakers include Max Tegmark, Shaowei Lin, Leo de Moura, Jonathan Protzenko, Andres Erbsen, and Mike Dodds; a livestream will be available, with recordings afterward.</p><p>Sources: <a href=\"https://x.com/leanprover/status/2114845590739931589\">@leanprover on X</a>, <a href=\"https://functional.cafe/@leanprover/117509551640325237\">functional.cafe</a>, <a href=\"https://bsky.app/profile/lean-lang.org/post/3mysr7bbod22j\">bsky.app</a></p>",
-   "date_published": "2026-10-26T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "event",
-    "software verification",
-    "aeneas"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-26/#2026-10-26-natalie-marleny-announces-formal-git-modelling-about-30-of-git-i",
-   "url": "https://leanweekly.news/2026-10-26/#2026-10-26-natalie-marleny-announces-formal-git-modelling-about-30-of-git-i",
-   "title": "Natalie Marleny announces formal-git, modelling about 30% of Git in Lean 4",
-   "content_html": "<p>Built over two months with heavy use of coding agents, <a class=\"inl\" href=\"https://x.com/NatalieMarleny/status/2113611475554124091\" rel=\"noopener\">the project</a> proved more than 8,000 theorems of varying usefulness and uncovered more than 100 potential defects in Git v2.55, including at least two possible security vulnerabilities. Its differential random testing harness and more than 10,000 unique tests will be open-sourced after responsible disclosure.</p><p>Sources: <a href=\"https://x.com/NatalieMarleny/status/2113611475554124091\">@NatalieMarleny on X</a></p>",
-   "date_published": "2026-10-23T12:00:00Z",
-   "tags": [
-    "Verification",
-    "git",
-    "coding agents",
-    "differential testing"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-26/#2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum",
-   "url": "https://leanweekly.news/2026-10-26/#2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum",
-   "title": "John Zhuoyang Ye and Jens Palsberg verify fault-tolerant quantum compilation in Lean",
-   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2610.31694\" rel=\"noopener\">The paper</a> introduces QPPM, a language for Pauli-product measurement programs, and verifies lowering of Clifford+T circuits to QPPM and an optimizer that eliminates measurements, fuses and reorders rotations, and schedules logical rounds. On QASMBench, verified fusion and scheduling reduce logical measurement depth by a median of 17.9%.</p><p>Sources: <a href=\"https://arxiv.org/abs/2610.31694\">arXiv:2610.31694</a>, <a href=\"https://paperswithlean.com/paper/2610.31694.html\">paperswithlean.com</a></p>",
-   "date_published": "2026-10-20T12:00:00Z",
-   "tags": [
-    "Verification",
-    "quantum",
-    "compilers",
-    "hoare logic"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-25/#2026-10-25-resolution-uses-claude-fable-5-1-to-formalize-hironaka-s-resolut",
-   "url": "https://leanweekly.news/2026-10-25/#2026-10-25-resolution-uses-claude-fable-5-1-to-formalize-hironaka-s-resolut",
-   "title": "Resolution uses Claude Fable 5.1 to formalize Hironaka's resolution of singularities",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/resolutionorg/hironaka\" rel=\"noopener\">The library</a>, written in Lean 4 over <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>, proves Hironaka's main theorems in characteristic zero and their refinements by Kollár, Włodarczyk and Bierstone–Milman, for algebraic schemes and analytic manifolds and spaces. Chris Elliott at Resolution directed and audited the automated formalization process, and the code is licensed under Apache License 2.0.</p><p>Sources: <a href=\"https://github.com/resolutionorg/hironaka\">resolutionorg/hironaka</a>, <a href=\"https://resolutionorg.github.io/hironaka/\">resolutionorg.github.io</a>, <a href=\"https://reservoir.lean-lang.org/@resolutionorg/hironaka\">reservoir.lean-lang.org</a></p>",
-   "date_published": "2026-10-20T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "autoformalization",
-    "algebraic geometry",
-    "mathlib"
    ]
   }
  ]
