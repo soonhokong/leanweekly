@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Researchers formalize the Strong Perfect Graph Theorem in Lean with AI agents](https://leanweekly.news/2026-11-05/#2026-11-05-researchers-formalize-the-strong-perfect-graph-theorem-in-lean-w): AI and formalization, 2026-11-05
 - [Axiom Math formalizes the Stacks Project in Lean with AI agents](https://leanweekly.news/2026-11-04/#2026-11-04-axiom-math-formalizes-the-stacks-project-in-lean-with-ai-agents): AI and formalization, 2026-11-04
 - [Fedor Popov and Leonardo Rastelli release LeanVOA, a vertex operator algebra library](https://leanweekly.news/2026-11-04/#2026-11-04-fedor-popov-and-leonardo-rastelli-release-leanvoa-a-vertex-opera): AI and formalization, 2026-11-04
 - [Mahdi JafariRaviz's repository formalizes a quasipolynomial-time graph isomorphism algorithm in Lean](https://leanweekly.news/2026-11-04/#2026-11-04-mahdi-jafariraviz-s-repository-formalizes-a-quasipolynomial-time): AI and formalization, 2026-11-04
@@ -103,7 +104,6 @@
 - [Leo de Moura adds a polynomial arithmetic normalizer to Lean's Sym.simp](https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-adds-a-polynomial-arithmetic-normalizer-to-lean-s-s): Lean core, 2026-09-23
 - [Leo de Moura prototypes on-demand commutation theorems for state operations](https://leanweekly.news/2026-09-24/#2026-09-24-leo-de-moura-prototypes-on-demand-commutation-theorems-for-state): Lean core, 2026-09-21
 - [Lean merges rewritten Verso docstring parser, unblocking automatic formatting](https://leanweekly.news/2026-09-24/#2026-09-24-lean-merges-rewritten-verso-docstring-parser-unblocking-automati): Lean core, 2026-09-18
-- [Lake gains a samply profiling command, copied path dependencies, and separate codegen](https://leanweekly.news/2026-09-24/#2026-09-24-lake-gains-a-samply-profiling-command-copied-path-dependencies-a): Lean core, 2026-09-17
 
 ## Weeks (Friday to Thursday)
 
@@ -143,6 +143,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 5, 2026](https://leanweekly.news/2026-11-05/items.md)
 - [Published Nov 4, 2026](https://leanweekly.news/2026-11-04/items.md)
 - [Published Nov 3, 2026](https://leanweekly.news/2026-11-03/items.md)
 - [Published Nov 2, 2026](https://leanweekly.news/2026-11-02/items.md)

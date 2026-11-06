@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 9</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-07-02-sebastian-graf-renames-mvcgen-to-vcgen-and-adds-frame-support">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-22">Jun 22</time><button class="copy" type="button" hidden data-link="../../2026-07-02/#2026-07-02-sebastian-graf-renames-mvcgen-to-vcgen-and-adds-frame-support" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Graf renames mvcgen' to vcgen and adds frame support</h2>
+    <p class="card-text">Sebastian Graf merged pull requests renaming the experimental Sym-based mvcgen' tactic to vcgen, speeding up its matching, and adding a frames clause. A new @[frameproc] attribute lets a program type register how it frames a resource, so cost budgets, separation-logic footprints, and trace invariants frame through the same mechanism.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14195" rel="noopener">lean4#14195</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14146" rel="noopener">lean4#14146</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14167" rel="noopener">lean4#14167</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14134" rel="noopener">lean4#14134</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-07-02-lean-4-moves-deferred-docstring-checks-onto-the-linter-framework">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -239,15 +248,6 @@
     <h2 class="card-title">Joachim Breitner adds an impossible tactic combinator to Lean</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13771" rel="noopener">The merged pull request</a> adds <code>impossible by t</code>, which uses the tactic <code>t</code> to prove that the current goal is impossible, closing the original goal as if <code>sorry</code> were used. <code>try?</code> gains an <code>impossible</code> branch that runs <code>impossible by decide</code>, <code>impossible by simp</code>, and <code>impossible by grind</code> in parallel.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13771" rel="noopener">lean4#13771</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-28-sebastian-ullrich-merges-cross-file-object-sharing-for-lean-modu">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-16">May 16</time><button class="copy" type="button" hidden data-link="../../2026-05-28/#2026-05-28-sebastian-ullrich-merges-cross-file-object-sharing-for-lean-modu" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Ullrich merges cross-file object sharing for Lean module serialization</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13185" rel="noopener">A merged pull request</a> adds Lean.CompactedRegion.save and read, which save or load one module at a time with explicit sharing, generalizing the batch saveModuleDataParts API. Separate pull requests by Sebastian Ullrich <a class="inl" href="https://github.com/leanprover/lean4/pull/13721" rel="noopener">make Lean's CI build everything with Lake</a> and <a class="inl" href="https://github.com/leanprover/lean4/pull/13759" rel="noopener">fold the Linux Lake job into the Linux release job</a>.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13185" rel="noopener">lean4#13185</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13721" rel="noopener">lean4#13721</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13759" rel="noopener">lean4#13759</a></p>
   </div>
 </article>
 </div>

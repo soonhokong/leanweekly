@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 10</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-05-28-sebastian-ullrich-merges-cross-file-object-sharing-for-lean-modu">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-16">May 16</time><button class="copy" type="button" hidden data-link="../../2026-05-28/#2026-05-28-sebastian-ullrich-merges-cross-file-object-sharing-for-lean-modu" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich merges cross-file object sharing for Lean module serialization</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13185" rel="noopener">A merged pull request</a> adds Lean.CompactedRegion.save and read, which save or load one module at a time with explicit sharing, generalizing the batch saveModuleDataParts API. Separate pull requests by Sebastian Ullrich <a class="inl" href="https://github.com/leanprover/lean4/pull/13721" rel="noopener">make Lean's CI build everything with Lake</a> and <a class="inl" href="https://github.com/leanprover/lean4/pull/13759" rel="noopener">fold the Linux Lake job into the Linux release job</a>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13185" rel="noopener">lean4#13185</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13721" rel="noopener">lean4#13721</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13759" rel="noopener">lean4#13759</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-05-28-leo-de-moura-adds-a-dsimp-tactic-for-lean-s-sym-mode">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -239,16 +248,6 @@
     <h2 class="card-title">Signal Shot launches to formally verify the Signal protocol and app in Lean</h2>
     <p class="card-text">The Beneficial AI Foundation, Signal, and the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a> launched <a class="inl" href="https://www.beneficialaifoundation.org/signal-shot" rel="noopener">Signal Shot</a> on April 20, 2026, at the Software Verification in Lean workshop in Paris, with a talk by Max Tegmark and others. <a class="inl" href="https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/" rel="noopener">Leo de Moura writes</a> that the effort targets libsignal's Rust implementation, translated to Lean with <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a>, Son Ho's Rust-to-Lean functional translator.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/" rel="noopener">leodemoura.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://www.beneficialaifoundation.org/signal-shot" rel="noopener">beneficialaifoundation.org</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-04-30-sidharth-hariharan-maryna-viazovska-and-coauthors-report-on-form">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-25">Apr 25</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-sidharth-hariharan-maryna-viazovska-and-coauthors-report-on-form" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sidharth Hariharan, Maryna Viazovska and coauthors report on formalizing 8-dimensional sphere packing</h2>
-    <p class="card-text"><a class="inl" href="https://arxiv.org/pdf/2604.23468" rel="noopener">The paper</a> describes how Maryna Viazovska's 2016 solution of the sphere packing problem in dimension 8 was formally verified in Lean in February 2026, with the final stages done by Math, Inc.'s autoformalization model Gauss. It discusses the techniques used, the collaboration between humans and Gauss, and remaining project objectives.</p>
-    <figure class="media media-paper"><img src="../../assets/img/bb9c06cd7fb300d3-480.webp" srcset="../../assets/img/bb9c06cd7fb300d3-480.webp 480w, ../../assets/img/bb9c06cd7fb300d3-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/pdf/2604.23468" rel="noopener">arXiv:2604.23468</a></p>
   </div>
 </article>
 </div>

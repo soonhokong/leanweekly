@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 04 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 05 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Researchers formalize the Strong Perfect Graph Theorem in Lean with AI agents</title>
+<link>https://leanweekly.news/2026-11-05/#2026-11-05-researchers-formalize-the-strong-perfect-graph-theorem-in-lean-w</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-05/#2026-11-05-researchers-formalize-the-strong-perfect-graph-theorem-in-lean-w</guid>
+<pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/mahdi-jfri/StrongPerfectGraphTheorem" rel="noopener"&gt;complete Lean proof&lt;/a&gt; follows, result by result, the 2006 proof by Maria Chudnovsky, Neil Robertson, Paul Seymour and Robin Thomas that a finite graph is perfect (every induced subgraph's chromatic number equals its clique number) exactly when it is Berge (it and its complement lack induced odd cycles of length at least five).&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/mahdi-jfri/StrongPerfectGraphTheorem"&gt;mahdi-jfri/StrongPerfectGraphTheorem&lt;/a&gt;, &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-06-000006&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Axiom Math formalizes the Stacks Project in Lean with AI agents</title>
 <link>https://leanweekly.news/2026-11-04/#2026-11-04-axiom-math-formalizes-the-stacks-project-in-lean-with-ai-agents</link>
@@ -398,14 +406,6 @@
 <pubDate>Tue, 20 Oct 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://github.com/resolutionorg/hironaka" rel="noopener"&gt;The library&lt;/a&gt;, written in Lean 4 over &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;, proves Hironaka's main theorems in characteristic zero and their refinements by Kollár, Włodarczyk and Bierstone–Milman, for algebraic schemes and analytic manifolds and spaces. Chris Elliott at Resolution directed and audited the automated formalization process, and the code is licensed under Apache License 2.0.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/resolutionorg/hironaka"&gt;resolutionorg/hironaka&lt;/a&gt;, &lt;a href="https://resolutionorg.github.io/hironaka/"&gt;resolutionorg.github.io&lt;/a&gt;, &lt;a href="https://reservoir.lean-lang.org/@resolutionorg/hironaka"&gt;reservoir.lean-lang.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Miles Cranmer's AI agents model Julia code in Lean and find bugs</title>
-<link>https://leanweekly.news/2026-10-25/#2026-10-25-miles-cranmer-s-ai-agents-model-julia-code-in-lean-and-find-bugs</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-25/#2026-10-25-miles-cranmer-s-ai-agents-model-julia-code-in-lean-and-find-bugs</guid>
-<pubDate>Sun, 25 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;Lean definitions mirror Julia functions line by line, and each property ends proven, or refuted with a concrete counterexample and a pure-Julia reproducer. In Julia Base and several standard libraries, 400 of 910 properties were refuted and 75 issues filed on JuliaLang/julia; DynamicExpressions.jl, the expression-tree package behind PySR, merged 38 Lean-derived fixes.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/MilesCranmer/julia-in-lean"&gt;MilesCranmer/julia-in-lean&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
