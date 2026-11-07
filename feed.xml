@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Fri, 06 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Alpha Squared Labs formalizes the Atiyah–Singer index theorem in Lean 4</title>
+<link>https://leanweekly.news/2026-11-06/#2026-11-06-alpha-squared-labs-formalizes-the-atiyah-singer-index-theorem-in</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-06/#2026-11-06-alpha-squared-labs-formalizes-the-atiyah-singer-index-theorem-in</guid>
+<pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/alpha-squared-labs/Lean-Atiyah-Singer" rel="noopener"&gt;The project&lt;/a&gt; also covers the theorem's cohomological and twisted spin Dirac formulations, and Comparator, a harness checking seven independently written propositions, reported acceptance by both Lean's default kernel and the Nanoda kernel. AI assisted with Lean statements and proof development under human maintainers' responsibility; no new mathematical theorem is claimed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/alpha-squared-labs/Lean-Atiyah-Singer"&gt;alpha-squared-labs/Lean-Atiyah-Singer&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Zayn Blore machine-checks the Dixmier conjecture's failure in dimension 3 and above</title>
 <link>https://leanweekly.news/2026-11-06/#2026-11-06-zayn-blore-machine-checks-the-dixmier-conjecture-s-failure-in-di</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-06/#2026-11-06-zayn-blore-machine-checks-the-dixmier-conjecture-s-failure-in-di</guid>
@@ -398,14 +406,6 @@
 <pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;Isaac Rudich and Louis-Martin Rousseau &lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-28-000015&amp;amp;version=1" rel="noopener"&gt;registered the proof&lt;/a&gt; that one deterministic Turing machine computes the smallest prime factor of every natural number N in time N^{o(1)}; the best previously published deterministic bounds known to the authors have exponent 1/5. The authors audited the statement and did not &lt;a class="inl" href="https://github.com/IsaacRudich/SubexponentialDeterministicFactoring" rel="noopener"&gt;read the proof&lt;/a&gt;, which Lean checks.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-10-28-000015&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/IsaacRudich/SubexponentialDeterministicFactoring"&gt;IsaacRudich/SubexponentialDeterministicFactoring&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Harmonic's Aristotle proved 185 properties of Tensordyne's most complex block</title>
-<link>https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-proved-185-properties-of-tensordyne-s-most</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-proved-185-properties-of-tensordyne-s-most</guid>
-<pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://www.harmonic.fun/" rel="noopener"&gt;Aristotle&lt;/a&gt;, an AI that formally verifies software and hardware, also refuted 56 properties of the 12.2 million gate-equivalent block, each with a reproducible counterexample, exposing bugs up to 110,000 cycles after reset. Counting earlier Aristotle runs on sub-blocks, &lt;a class="inl" href="https://www.harmonic.fun/aristotle/case-studies/tensordyne/" rel="noopener"&gt;Tensordyne&lt;/a&gt; found 8 bugs early in its next chip's design cycle.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.harmonic.fun/aristotle/case-studies/tensordyne/"&gt;harmonic.fun&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

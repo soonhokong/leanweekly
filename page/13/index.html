@@ -32,6 +32,16 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 13</h1></header>
 <div class="stream">
+<article class="card c-ai" id="2026-03-19-math-inc-s-gauss-autoformalizes-viazovska-s-24-dimensional-spher">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-02">Mar 2</time><button class="copy" type="button" hidden data-link="../../2026-03-19/#2026-03-19-math-inc-s-gauss-autoformalizes-viazovska-s-24-dimensional-spher" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Math, Inc.'s Gauss autoformalizes Viazovska's 24-dimensional sphere-packing proof in Lean</h2>
+    <p class="card-text"><a class="inl" href="https://spectrum.ieee.org/ai-proof-verification" rel="noopener">Gauss, a Math, Inc. reasoning agent</a> built to formalize proofs automatically, produced over 200,000 lines of Lean code for Maryna Viazovska's 24-dimensional proof in two weeks, without a preexisting blueprint. The work follows the 8-dimensional formalization announced on February 23, which built on the Formalising Sphere Packing in Lean project.</p>
+    <figure class="media"><img src="../../assets/img/56089aa56f22af89-480.webp" srcset="../../assets/img/56089aa56f22af89-480.webp 480w, ../../assets/img/56089aa56f22af89-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="600" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: spectrum.ieee.org</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://spectrum.ieee.org/ai-proof-verification" rel="noopener">spectrum.ieee.org</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-03-19-axiom-raises-200-million-to-verify-ai-generated-code-with-lean">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -245,15 +255,6 @@
     <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/gavinmendelgleason_vibe-coding-using-programme-verification-share-7422605545607643137-cGqz/" rel="noopener">Gavin Mendel-Gleason reports</a> that opencode, GPT-5.2 and lean-lsp-mcp produced a provably correct citation streaming program for a RAG answering system in two hours with no interventions. Gavin Mendel-Gleason argues that LLMs increase software generation faster than software understanding, and calls the approach vericoding (vibe-coding using programme verification).</p>
     <figure class="media"><img src="../../assets/img/58b921dd030b2f3d-480.webp" srcset="../../assets/img/58b921dd030b2f3d-480.webp 480w, ../../assets/img/58b921dd030b2f3d-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="446" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/gavinmendelgleason_vibe-coding-using-programme-verification-share-7422605545607643137-cGqz/" rel="noopener">LinkedIn post</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-02-05-leo-de-moura-s-lean-change-stops-simp-from-simplifying-instances">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-05">Feb 5</time><button class="copy" type="button" hidden data-link="../../2026-02-05/#2026-02-05-leo-de-moura-s-lean-change-stops-simp-from-simplifying-instances" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura's Lean change stops simp from simplifying instances by default</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12244" rel="noopener">The pull request</a>, merged on 2026-02-05, ensures simp does not &quot;simplify&quot; instances by default, since doing so creates non-standard instances that cause problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>. The old behavior can be retrieved with simp +instances, and the backward compatibility flag for dsimp also deactivates the change.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12244" rel="noopener">lean4#12244</a></p>
   </div>
 </article>
 </div>
