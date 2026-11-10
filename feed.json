@@ -6,6 +6,32 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-google-researchers-use-ai-agents-to-design-lean-verified-quantum",
+   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-google-researchers-use-ai-agents-to-design-lean-verified-quantum",
+   "title": "Google researchers use AI agents to design Lean-verified quantum programs",
+   "content_html": "<p><a class=\"inl\" href=\"https://mlq.ai/news/google-researchers-use-ai-agents-and-lean-proofs-to-cut-the-resources-quantum-algorithms-need-by-up-to-290-times/\" rel=\"noopener\">Google DeepMind and Google Quantum AI researchers</a> had teams of AI agents write quantum programs in a Lean library and prove both correctness and resource cost; a separate checker confirmed each solution met the original specification. The preprint reports a 290-fold reduction over prior baselines for a quantum arithmetic routine (an arcsine calculation).</p><p>Sources: <a href=\"https://mlq.ai/news/google-researchers-use-ai-agents-and-lean-proofs-to-cut-the-resources-quantum-algorithms-need-by-up-to-290-times/\">mlq.ai</a></p>",
+   "date_published": "2026-11-10T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "quantum",
+    "ai agents",
+    "google deepmind"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-project-numina-formalizes-a-braided-fusion-category-preprint-in",
+   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-project-numina-formalizes-a-braided-fusion-category-preprint-in",
+   "title": "Project Numina formalizes a braided fusion category preprint in Lean 4",
+   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2611.12836\" rel=\"noopener\">The preprint</a>, by Justin Asher, Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez and Richard Tuddenham, proves that every non-degenerate pivotal braided fusion category with property F is pseudo-unitary and weakly integral, assuming neither sphericality nor pseudo-unitarity. <a class=\"inl\" href=\"https://github.com/project-numina/mtc\" rel=\"noopener\">The formalization</a> also includes the extension to degenerate categories under a positivity hypothesis.</p><p>Sources: <a href=\"https://github.com/project-numina/mtc\">project-numina/mtc</a>, <a href=\"https://arxiv.org/abs/2611.12836\">arXiv:2611.12836</a></p>",
+   "date_published": "2026-11-09T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "fusion categories",
+    "category theory",
+    "project numina"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-10/#2026-11-10-google-deepmind-uses-ai-agents-to-verify-signal-s-messaging-secu",
    "url": "https://leanweekly.news/2026-11-10/#2026-11-10-google-deepmind-uses-ai-agents-to-verify-signal-s-messaging-secu",
    "title": "Google DeepMind uses AI agents to verify Signal's messaging security in Lean",
@@ -627,32 +653,6 @@
     "sudo",
     "security",
     "verified software"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-28/#2026-10-28-holmesworcester-publishes-lean-quiet-a-chat-app-written-mostly-i",
-   "url": "https://leanweekly.news/2026-10-28/#2026-10-28-holmesworcester-publishes-lean-quiet-a-chat-app-written-mostly-i",
-   "title": "holmesworcester publishes Lean Quiet, a chat app written mostly in Lean",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/holmesworcester/lean-quiet\" rel=\"noopener\">iOS and Android app</a> uses Lean for everything from TCP packets to pixels; 429 of its 586 theorems are about the code that runs. Because it is local-first, end-to-end encrypted, and peer-to-peer, many properties that would normally depend on a server operator are provable over all possible deployments, assuming user device integrity.</p><p>Sources: <a href=\"https://github.com/holmesworcester/lean-quiet\">holmesworcester/lean-quiet</a></p>",
-   "date_published": "2026-10-28T12:00:00Z",
-   "tags": [
-    "Verification",
-    "mobile",
-    "security",
-    "peer-to-peer"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-28/#2026-10-28-scott-armstrong-and-zohar-komargodski-formalize-the-positive-mea",
-   "url": "https://leanweekly.news/2026-10-28/#2026-10-28-scott-armstrong-and-zohar-komargodski-formalize-the-positive-mea",
-   "title": "Scott Armstrong and Zohar Komargodski formalize the positive-measure KAM theorem in Lean",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/scottnarmstrong/KAM-dev\" rel=\"noopener\">headline theorem</a> is proved: for a nearly-integrable Hamiltonian with a small enough perturbation, most of phase space is filled by invariant tori carrying quasi-periodic motion. Agents prove the frozen statements (approved line by line, never edited); 11 of 22 are proved so far, with 73,724 of an estimated 117,000 lines of Lean.</p><p>Sources: <a href=\"https://github.com/scottnarmstrong/KAM-dev\">scottnarmstrong/KAM-dev</a></p>",
-   "date_published": "2026-10-28T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "formalization",
-    "kam theorem",
-    "agents"
    ]
   }
  ]

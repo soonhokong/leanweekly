@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 7</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-08-27-lean-v4-33-1-patches-kernel-soundness-bugs-v4-34-0-rc2-also-publ">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-21">Aug 21</time><button class="copy" type="button" hidden data-link="../../2026-08-27/#2026-08-27-lean-v4-33-1-patches-kernel-soundness-bugs-v4-34-0-rc2-also-publ" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean v4.33.1 patches kernel soundness bugs, v4.34.0-rc2 also published</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.33.1" rel="noopener">Lean v4.33.1</a> is a patch release with runtime and kernel fixes, including soundness issues reported by Daniel Selsam (OpenAI) using OpenAI's internal models, and all users of v4.33.0 or earlier are encouraged to upgrade. <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.34.0-rc2" rel="noopener">Release candidate 2 for v4.34.0</a> was published the same day.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/stable/releases/v4.33.1/" rel="noopener">v4.33.1 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.33.1" rel="noopener">lean4 v4.33.1</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.34.0-rc2" rel="noopener">lean4 v4.34.0-rc2</a><span class="dot" aria-hidden="true">·</span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener">v4.34.0 release notes</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-08-27-sebastian-ullrich-fixes-reference-count-overflow-that-could-enab">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-20">Aug 20</time><button class="copy" type="button" hidden data-link="../../2026-08-27/#2026-08-27-sebastian-ullrich-fixes-reference-count-overflow-that-could-enab" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich fixes reference count overflow that could enable a proof of False</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14838" rel="noopener">A merged Lean 4 pull request</a> freezes objects whose 32-bit reference count overflows, preventing a use-after-free in the official kernel. The new logic is validated with a transliteration of its core to Lean followed by correctness proofs in a test file. Daniel Selsam (OpenAI) reported the issue using internal models.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14838" rel="noopener">lean4#14838</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-08-27-sair-foundation-and-lean-fro-announce-the-lean-kernel-challenge">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -234,24 +252,6 @@
     <h2 class="card-title">Lean releases Nerodia, a library for writing Python modules in Lean</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/nerodia" rel="noopener">Nerodia</a>, a Lean/Python FFI library inspired by PyO3, uses <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a>, Lean's build system, to build native Python modules in pure Lean and generates type stubs automatically. It is a work-in-progress with a very limited API, released primarily as a proof-of-concept and to obtain feedback on its design and build process.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/nerodia" rel="noopener">leanprover/nerodia</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-08-15-leo-de-moura-adds-a-lift-lets-tactic-for-lean-s-sym-mode">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-12">Aug 12</time><button class="copy" type="button" hidden data-link="../../2026-08-15/#2026-08-15-leo-de-moura-adds-a-lift-lets-tactic-for-lean-s-sym-mode" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura adds a lift_lets tactic for Lean's sym =&gt; mode</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14768" rel="noopener">The merged pull request</a> moves let/have declarations of the goal toward the root as far as dependencies allow. The new Sym.liftLets implementation is near-linear in the DAG size of the input term, running 680x faster than Meta.liftLets on a chain of 4000 lets and taking 85 ms for 32000.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14768" rel="noopener">lean4#14768</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-08-15-mac-malone-merges-lake-remote-cache-fixes-tests-and-a-package-op">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-09">Aug 9</time><button class="copy" type="button" hidden data-link="../../2026-08-15/#2026-08-15-mac-malone-merges-lake-remote-cache-fixes-tests-and-a-package-op" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Mac Malone merges Lake remote cache fixes, tests, and a --package option</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14720" rel="noopener">Lake now demotes cache failures</a> during a build to trace-level messages, so builds run with --wfail or --iofail do not fail solely due to the cache, and <a class="inl" href="https://github.com/leanprover/lean4/pull/14724" rel="noopener">lake cache get</a> gains --package to fetch outputs for a specific workspace package. <a class="inl" href="https://github.com/leanprover/lean4/pull/14700" rel="noopener">A new test</a> mocks remote cache transfers with a mock Python HTTP server.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14720" rel="noopener">lean4#14720</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14724" rel="noopener">lean4#14724</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14700" rel="noopener">lean4#14700</a></p>
   </div>
 </article>
 </div>

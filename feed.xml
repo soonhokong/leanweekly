@@ -8,6 +8,22 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Tue, 10 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Google researchers use AI agents to design Lean-verified quantum programs</title>
+<link>https://leanweekly.news/2026-11-10/#2026-11-10-google-researchers-use-ai-agents-to-design-lean-verified-quantum</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-google-researchers-use-ai-agents-to-design-lean-verified-quantum</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://mlq.ai/news/google-researchers-use-ai-agents-and-lean-proofs-to-cut-the-resources-quantum-algorithms-need-by-up-to-290-times/" rel="noopener"&gt;Google DeepMind and Google Quantum AI researchers&lt;/a&gt; had teams of AI agents write quantum programs in a Lean library and prove both correctness and resource cost; a separate checker confirmed each solution met the original specification. The preprint reports a 290-fold reduction over prior baselines for a quantum arithmetic routine (an arcsine calculation).&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://mlq.ai/news/google-researchers-use-ai-agents-and-lean-proofs-to-cut-the-resources-quantum-algorithms-need-by-up-to-290-times/"&gt;mlq.ai&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Project Numina formalizes a braided fusion category preprint in Lean 4</title>
+<link>https://leanweekly.news/2026-11-10/#2026-11-10-project-numina-formalizes-a-braided-fusion-category-preprint-in</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-project-numina-formalizes-a-braided-fusion-category-preprint-in</guid>
+<pubDate>Mon, 09 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.12836" rel="noopener"&gt;The preprint&lt;/a&gt;, by Justin Asher, Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez and Richard Tuddenham, proves that every non-degenerate pivotal braided fusion category with property F is pseudo-unitary and weakly integral, assuming neither sphericality nor pseudo-unitarity. &lt;a class="inl" href="https://github.com/project-numina/mtc" rel="noopener"&gt;The formalization&lt;/a&gt; also includes the extension to degenerate categories under a positivity hypothesis.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/project-numina/mtc"&gt;project-numina/mtc&lt;/a&gt;, &lt;a href="https://arxiv.org/abs/2611.12836"&gt;arXiv:2611.12836&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Google DeepMind uses AI agents to verify Signal's messaging security in Lean</title>
 <link>https://leanweekly.news/2026-11-10/#2026-11-10-google-deepmind-uses-ai-agents-to-verify-signal-s-messaging-secu</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-google-deepmind-uses-ai-agents-to-verify-signal-s-messaging-secu</guid>
@@ -390,22 +406,6 @@
 <pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;Its policy, environment and authentication logic is formally verified, with 498 hand-written theorems. On Ubuntu, &lt;a class="inl" href="https://github.com/adamgall/lean-sudo" rel="noopener"&gt;lean-sudo&lt;/a&gt; reads the existing /etc/sudoers, /etc/sudoers.d and /etc/sudo.conf, uses the system's PAM stack, and passes the same 1113-test end-to-end suite as the original sudo, a large C program written around 1980 with a decades-long history of security bugs.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/adamgall/lean-sudo"&gt;adamgall/lean-sudo&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>holmesworcester publishes Lean Quiet, a chat app written mostly in Lean</title>
-<link>https://leanweekly.news/2026-10-28/#2026-10-28-holmesworcester-publishes-lean-quiet-a-chat-app-written-mostly-i</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-28/#2026-10-28-holmesworcester-publishes-lean-quiet-a-chat-app-written-mostly-i</guid>
-<pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/holmesworcester/lean-quiet" rel="noopener"&gt;iOS and Android app&lt;/a&gt; uses Lean for everything from TCP packets to pixels; 429 of its 586 theorems are about the code that runs. Because it is local-first, end-to-end encrypted, and peer-to-peer, many properties that would normally depend on a server operator are provable over all possible deployments, assuming user device integrity.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/holmesworcester/lean-quiet"&gt;holmesworcester/lean-quiet&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Scott Armstrong and Zohar Komargodski formalize the positive-measure KAM theorem in Lean</title>
-<link>https://leanweekly.news/2026-10-28/#2026-10-28-scott-armstrong-and-zohar-komargodski-formalize-the-positive-mea</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-28/#2026-10-28-scott-armstrong-and-zohar-komargodski-formalize-the-positive-mea</guid>
-<pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/scottnarmstrong/KAM-dev" rel="noopener"&gt;headline theorem&lt;/a&gt; is proved: for a nearly-integrable Hamiltonian with a small enough perturbation, most of phase space is filled by invariant tori carrying quasi-periodic motion. Agents prove the frozen statements (approved line by line, never edited); 11 of 22 are proved so far, with 73,724 of an estimated 117,000 lines of Lean.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/scottnarmstrong/KAM-dev"&gt;scottnarmstrong/KAM-dev&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
