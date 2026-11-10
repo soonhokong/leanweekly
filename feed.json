@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-google-deepmind-uses-ai-agents-to-verify-signal-s-messaging-secu",
+   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-google-deepmind-uses-ai-agents-to-verify-signal-s-messaging-secu",
+   "title": "Google DeepMind uses AI agents to verify Signal's messaging security in Lean",
+   "content_html": "<p>The researchers used <a class=\"inl\" href=\"https://news.lavx.hu/article/google-deepmind-uses-ai-agents-to-verify-signal-s-secure-messaging-techniques\" rel=\"noopener\">AlphaProof Code</a>, a multi-agent framework for formal software specification and verification, on Signal's post-quantum PQXDH handshake and Triple Ratchet. The agents generated 6.5 million lines of Lean code proving the libsignal implementation correct against a human-reviewed specification; the proof assumes perfect cryptography.</p><p>Sources: <a href=\"https://news.lavx.hu/article/google-deepmind-uses-ai-agents-to-verify-signal-s-secure-messaging-techniques\">news.lavx.hu</a></p>",
+   "date_published": "2026-11-10T12:00:00Z",
+   "tags": [
+    "Verification",
+    "deepmind",
+    "signal",
+    "cryptography"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-09/#2026-11-09-polona-durcik-registers-ai-generated-lean-proof-on-triangles-in",
    "url": "https://leanweekly.news/2026-11-09/#2026-11-09-polona-durcik-registers-ai-generated-lean-proof-on-triangles-in",
    "title": "Polona Durcik registers AI-generated Lean proof on triangles in positive-density sets",
@@ -640,19 +653,6 @@
     "formalization",
     "kam theorem",
     "agents"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-28/#2026-10-28-open-source-desktop-os-zenos-releases-first-preview-with-lean-pr",
-   "url": "https://leanweekly.news/2026-10-28/#2026-10-28-open-source-desktop-os-zenos-releases-first-preview-with-lean-pr",
-   "title": "Open-source desktop OS ZENOS releases first preview with Lean-proved security decisions",
-   "content_html": "<p><a class=\"inl\" href=\"https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/ZENOS.3A.20OS.20security.20decisions.20proved.20in.20Lean.204/with/635560572\" rel=\"noopener\">ZENOS</a>'s services ask zenos-decide, built from the same Lean definitions as <a class=\"inl\" href=\"https://github.com/zenos-org/zenos/tree/main/formal\" rel=\"noopener\">the proofs</a>, whether a file opens, content may reach a printer or AI, and a send is allowed, treating missing or unreadable answers as refusals. The theorems rest only on Lean's standard axioms, but the <a class=\"inl\" href=\"https://github.com/zenos-org/zenos/releases/tag/v0.1.0-preview\" rel=\"noopener\">unaudited preview</a> is not for real sensitive data.</p><p>Sources: <a href=\"https://github.com/zenos-org/zenos/blob/main/docs/FORMAL_VERIFICATION.md\">zenos-org/zenos</a>, <a href=\"https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/ZENOS.3A.20OS.20security.20decisions.20proved.20in.20Lean.204/with/635560572\">leanprover.zulipchat.com</a>, <a href=\"https://github.com/zenos-org/zenos/releases/tag/v0.1.0-preview\">zenos v0.1.0-preview</a></p>",
-   "date_published": "2026-10-28T12:00:00Z",
-   "tags": [
-    "Verification",
-    "security",
-    "operating systems",
-    "authorization"
    ]
   }
  ]

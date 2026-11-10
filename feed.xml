@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 09 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Google DeepMind uses AI agents to verify Signal's messaging security in Lean</title>
+<link>https://leanweekly.news/2026-11-10/#2026-11-10-google-deepmind-uses-ai-agents-to-verify-signal-s-messaging-secu</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-google-deepmind-uses-ai-agents-to-verify-signal-s-messaging-secu</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;The researchers used &lt;a class="inl" href="https://news.lavx.hu/article/google-deepmind-uses-ai-agents-to-verify-signal-s-secure-messaging-techniques" rel="noopener"&gt;AlphaProof Code&lt;/a&gt;, a multi-agent framework for formal software specification and verification, on Signal's post-quantum PQXDH handshake and Triple Ratchet. The agents generated 6.5 million lines of Lean code proving the libsignal implementation correct against a human-reviewed specification; the proof assumes perfect cryptography.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://news.lavx.hu/article/google-deepmind-uses-ai-agents-to-verify-signal-s-secure-messaging-techniques"&gt;news.lavx.hu&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Polona Durcik registers AI-generated Lean proof on triangles in positive-density sets</title>
 <link>https://leanweekly.news/2026-11-09/#2026-11-09-polona-durcik-registers-ai-generated-lean-proof-on-triangles-in</link>
@@ -398,14 +406,6 @@
 <pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/scottnarmstrong/KAM-dev" rel="noopener"&gt;headline theorem&lt;/a&gt; is proved: for a nearly-integrable Hamiltonian with a small enough perturbation, most of phase space is filled by invariant tori carrying quasi-periodic motion. Agents prove the frozen statements (approved line by line, never edited); 11 of 22 are proved so far, with 73,724 of an estimated 117,000 lines of Lean.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/scottnarmstrong/KAM-dev"&gt;scottnarmstrong/KAM-dev&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Open-source desktop OS ZENOS releases first preview with Lean-proved security decisions</title>
-<link>https://leanweekly.news/2026-10-28/#2026-10-28-open-source-desktop-os-zenos-releases-first-preview-with-lean-pr</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-10-28/#2026-10-28-open-source-desktop-os-zenos-releases-first-preview-with-lean-pr</guid>
-<pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/ZENOS.3A.20OS.20security.20decisions.20proved.20in.20Lean.204/with/635560572" rel="noopener"&gt;ZENOS&lt;/a&gt;'s services ask zenos-decide, built from the same Lean definitions as &lt;a class="inl" href="https://github.com/zenos-org/zenos/tree/main/formal" rel="noopener"&gt;the proofs&lt;/a&gt;, whether a file opens, content may reach a printer or AI, and a send is allowed, treating missing or unreadable answers as refusals. The theorems rest only on Lean's standard axioms, but the &lt;a class="inl" href="https://github.com/zenos-org/zenos/releases/tag/v0.1.0-preview" rel="noopener"&gt;unaudited preview&lt;/a&gt; is not for real sensitive data.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/zenos-org/zenos/blob/main/docs/FORMAL_VERIFICATION.md"&gt;zenos-org/zenos&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/ZENOS.3A.20OS.20security.20decisions.20proved.20in.20Lean.204/with/635560572"&gt;leanprover.zulipchat.com&lt;/a&gt;, &lt;a href="https://github.com/zenos-org/zenos/releases/tag/v0.1.0-preview"&gt;zenos v0.1.0-preview&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 11</h1></header>
 <div class="stream">
+<article class="card c-verification" id="2026-05-07-jonathan-protzenko-uses-aeneas-to-verify-bounds-safety-in-jxl-rs">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time><button class="copy" type="button" hidden data-link="../../2026-05-07/#2026-05-07-jonathan-protzenko-uses-aeneas-to-verify-bounds-safety-in-jxl-rs" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Jonathan Protzenko uses Aeneas to verify bounds safety in jxl-rs</h2>
+    <p class="card-text"><a class="inl" href="https://jonathan.protzenko.fr/2026/05/05/jxl-rs.html" rel="noopener">Jonathan Protzenko's case study</a> uses <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a>, a toolchain for verifying Rust programs through a functional translation to Lean, on jxl-rs, a Rust rewrite of the jpeg-xl codec. The proof shows an unchecked array access always stays within bounds and showcases recent Aeneas features, including official <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> support and loop combinators.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://jonathan.protzenko.fr/2026/05/05/jxl-rs.html" rel="noopener">jonathan.protzenko.fr</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-05-07-sebastian-graf-merges-experimental-mvcgen-tactic-into-the-lean-t">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -241,16 +250,6 @@
     <p class="card-text"><a class="inl" href="https://www.beneficialaifoundation.org/blog/signal-shot" rel="noopener">The Beneficial AI Foundation</a> is verifying the Signal protocol and its Rust implementation in Lean, a public project meant to show that formal verification of major applications is doable today. The plan proves security properties of a protocol model, then uses the <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a> tool to translate Signal's Rust code to Lean and check it against that model.</p>
     <figure class="media"><img src="../../assets/img/50e58a830c2af137-480.webp" srcset="../../assets/img/50e58a830c2af137-480.webp 480w, ../../assets/img/50e58a830c2af137-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="966" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: beneficialaifoundation.org</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.beneficialaifoundation.org/blog/signal-shot" rel="noopener">beneficialaifoundation.org</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-04-23-dsyme-s-lean-squad-workflow-applies-lean-4-verification-to-three">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-20">Apr 20</time><button class="copy" type="button" hidden data-link="../../2026-04-23/#2026-04-23-dsyme-s-lean-squad-workflow-applies-lean-4-verification-to-three" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Dsyme's Lean Squad workflow applies Lean 4 verification to three codebases</h2>
-    <p class="card-text"><a class="inl" href="https://dsyme.net/2026/04/20/lean-squad-automated-software-verification-with-near-zero-human-labour/" rel="noopener">Lean Squad</a>, a GitHub Agentic Workflow, proved 443 theorems for raft-rs with three human nudge comments for about $240, and 518 theorems for Cloudflare's quiche, where it found an Ord antisymmetry violation. It also proved 259 theorems for PX4-Autopilot and found 2 bugs. Every definition and theorem statement is AI written.</p>
-    <figure class="media"><img src="../../assets/img/314fb8fec35ee694-480.webp" srcset="../../assets/img/314fb8fec35ee694-480.webp 480w, ../../assets/img/314fb8fec35ee694-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="936" height="671" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: dsyme.net</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://dsyme.net/2026/04/20/lean-squad-automated-software-verification-with-near-zero-human-labour/" rel="noopener">dsyme.net</a></p>
   </div>
 </article>
 </div>
