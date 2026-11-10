@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-09/#2026-11-09-polona-durcik-registers-ai-generated-lean-proof-on-triangles-in",
+   "url": "https://leanweekly.news/2026-11-09/#2026-11-09-polona-durcik-registers-ai-generated-lean-proof-on-triangles-in",
+   "title": "Polona Durcik registers AI-generated Lean proof on triangles in positive-density sets",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-10-000004&amp;version=1\" rel=\"noopener\">Palomar registry entry</a> formalizes the theorem that every Lebesgue measurable planar set with positive upper Banach density contains a translated and rotated copy of every sufficiently large dilate of any fixed noncollinear triangle. The proof was developed using GPT 6 Astra Pro with human oversight; Claude Opus 5.5 Medium generated the <a class=\"inl\" href=\"https://github.com/durcikp/lean-trianglesinplane\" rel=\"noopener\">Lean formalization</a>.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-10-000004&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/durcikp/lean-trianglesinplane\">durcikp/lean-trianglesinplane</a></p>",
+   "date_published": "2026-11-09T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "autoformalization",
+    "ai-proofs",
+    "palomar"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-06/#2026-11-06-alpha-squared-labs-formalizes-the-atiyah-singer-index-theorem-in",
    "url": "https://leanweekly.news/2026-11-06/#2026-11-06-alpha-squared-labs-formalizes-the-atiyah-singer-index-theorem-in",
    "title": "Alpha Squared Labs formalizes the Atiyah–Singer index theorem in Lean 4",
@@ -640,19 +653,6 @@
     "security",
     "operating systems",
     "authorization"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-10-28/#2026-10-28-anthropic-s-claude-generates-lean-proof-of-subexponential-determ",
-   "url": "https://leanweekly.news/2026-10-28/#2026-10-28-anthropic-s-claude-generates-lean-proof-of-subexponential-determ",
-   "title": "Anthropic's Claude generates Lean proof of subexponential deterministic factoring",
-   "content_html": "<p>Isaac Rudich and Louis-Martin Rousseau <a class=\"inl\" href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-10-28-000015&amp;version=1\" rel=\"noopener\">registered the proof</a> that one deterministic Turing machine computes the smallest prime factor of every natural number N in time N^{o(1)}; the best previously published deterministic bounds known to the authors have exponent 1/5. The authors audited the statement and did not <a class=\"inl\" href=\"https://github.com/IsaacRudich/SubexponentialDeterministicFactoring\" rel=\"noopener\">read the proof</a>, which Lean checks.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-10-28-000015&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/IsaacRudich/SubexponentialDeterministicFactoring\">IsaacRudich/SubexponentialDeterministicFactoring</a></p>",
-   "date_published": "2026-10-28T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "factoring",
-    "complexity",
-    "ai-generated proofs"
    ]
   }
  ]
