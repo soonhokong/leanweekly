@@ -4,6 +4,9 @@
 
 ## Latest items
 
+- [yang-mills-group posts OpenAI construction of pure Yang-Mills in Lean](https://leanweekly.news/2026-11-11/#2026-11-11-yang-mills-group-posts-openai-construction-of-pure-yang-mills-in): AI and formalization, 2026-11-11
+- [Crowd-sourced project aims to make the 4D Yang-Mills Lean proof human-readable](https://leanweekly.news/2026-11-11/#2026-11-11-crowd-sourced-project-aims-to-make-the-4d-yang-mills-lean-proof): AI and formalization, 2026-11-11
+- [With LongTails, AI agents prove more than 100 new Lean-verified optimization bounds](https://leanweekly.news/2026-11-11/#2026-11-11-with-longtails-ai-agents-prove-more-than-100-new-lean-verified-o): AI and formalization, 2026-11-10
 - [Christian Merten and collaborators formalize the Weil conjectures with AI assistance](https://leanweekly.news/2026-11-10/#2026-11-10-christian-merten-and-collaborators-formalize-the-weil-conjecture): AI and formalization, 2026-11-06
 - [Physical Superintelligence releases an AI-produced Lean proof of the Aaronson-Ambainis conjecture](https://leanweekly.news/2026-11-10/#2026-11-10-physical-superintelligence-releases-an-ai-produced-lean-proof-of): AI and formalization, 2026-11-10
 - [ChatGPT Pro and Claude Opus 5.5 prove the Reinhardt conjecture in Lean](https://leanweekly.news/2026-11-10/#2026-11-10-chatgpt-pro-and-claude-opus-5-5-prove-the-reinhardt-conjecture-i): AI and formalization, 2026-11-09
@@ -101,9 +104,6 @@
 - [Haruhisa Enomoto formalizes two classical theorems of Bautista, Gabriel, Roiter and Salmerón](https://leanweekly.news/2026-10-23/#2026-10-23-haruhisa-enomoto-formalizes-two-classical-theorems-of-bautista-g): AI and formalization, 2026-10-23
 - [Anirudh Gupta, Siddhartha Gadgil and Petros Markopoulos present PastaLean for verifying Python](https://leanweekly.news/2026-10-23/#2026-10-23-anirudh-gupta-siddhartha-gadgil-and-petros-markopoulos-present-p): Verification, 2026-10-17
 - [Aditya Ranjan Jha and coauthors mechanize a hardware type system in Lean](https://leanweekly.news/2026-10-23/#2026-10-23-aditya-ranjan-jha-and-coauthors-mechanize-a-hardware-type-system): Verification, 2026-10-19
-- [Giulio rebuffo's Janus verifies compiled Go arm64 machine code in Lean 4](https://leanweekly.news/2026-10-23/#2026-10-23-giulio-rebuffo-s-janus-verifies-compiled-go-arm64-machine-code-i): Verification, 2026-10-23
-- [Alexander Meiburg disproves perfect randomized composition for total functions, checked in Lean](https://leanweekly.news/2026-10-23/#2026-10-23-alexander-meiburg-disproves-perfect-randomized-composition-for-t): Papers and events, 2026-10-22
-- [Carlo Ciliberto, Alessandro Rudi, Enrico Tassi introduce Proof-Carrying Contracts for AI agents](https://leanweekly.news/2026-10-23/#2026-10-23-carlo-ciliberto-alessandro-rudi-enrico-tassi-introduce-proof-car): Papers and events, 2026-10-20
 
 ## Weeks (Friday to Thursday)
 
@@ -144,6 +144,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 11, 2026](https://leanweekly.news/2026-11-11/items.md)
 - [Published Nov 10, 2026](https://leanweekly.news/2026-11-10/items.md)
 - [Published Nov 9, 2026](https://leanweekly.news/2026-11-09/items.md)
 - [Published Nov 6, 2026](https://leanweekly.news/2026-11-06/items.md)

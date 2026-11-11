@@ -32,6 +32,33 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 10</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-07-16-paul-reichert-fixes-slowdown-caused-by-lean-s-stricter-transpare">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-15">Jul 15</time><button class="copy" type="button" hidden data-link="../../2026-07-16/#2026-07-16-paul-reichert-fixes-slowdown-caused-by-lean-s-stricter-transpare" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Paul Reichert fixes slowdown caused by Lean's stricter transparency default</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14323" rel="noopener">A merged Lean pull request</a> by Paul Reichert makes <code>whnfMatcher</code> use the WHNF cache at sub-default transparency. It fixes a performance regression from <a class="inl" href="https://github.com/leanprover/lean4/pull/13895" rel="noopener">#13895</a>, merged on 2026-07-06, which enabled <code>backward.isDefEq.respectTransparency.types</code> by default as a breaking change that gives users more control over what is unfolded.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14323" rel="noopener">lean4#14323</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13895" rel="noopener">lean4#13895</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-16-leo-de-moura-merges-three-fixes-to-lean-s-symm-and-sym-simp">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-15">Jul 15</time><button class="copy" type="button" hidden data-link="../../2026-07-16/#2026-07-16-leo-de-moura-merges-three-fixes-to-lean-s-symm-and-sym-simp" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura merges three fixes to Lean's SymM and Sym.simp</h2>
+    <p class="card-text">Leo de Moura merged pull requests that <a class="inl" href="https://github.com/leanprover/lean4/pull/14404" rel="noopener">improve support for offsets in the SymM matcher/unifier</a>, <a class="inl" href="https://github.com/leanprover/lean4/pull/14405" rel="noopener">fix Sym.simp failing to rewrite terms containing unassigned metavariables</a> (a failure reported by Sebastian Graf), and <a class="inl" href="https://github.com/leanprover/lean4/pull/14401" rel="noopener">stop preprocessType in SymM from performing zetaDelta by default</a>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14404" rel="noopener">lean4#14404</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14405" rel="noopener">lean4#14405</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14401" rel="noopener">lean4#14401</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-07-16-leo-de-moura-adds-liasteps-option-and-bitvec-literal-propagators">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-14">Jul 14</time><button class="copy" type="button" hidden data-link="../../2026-07-16/#2026-07-16-leo-de-moura-adds-liasteps-option-and-bitvec-literal-propagators" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura adds liaSteps option and BitVec literal propagators to grind</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14392" rel="noopener">A merged Lean pull request</a> adds a <code>liaSteps</code> configuration option to <code>grind</code>, meant to quickly interrupt the search for hard linear integer arithmetic problems. <a class="inl" href="https://github.com/leanprover/lean4/pull/14393" rel="noopener">A second merged pull request</a> implements <code>grind</code> propagators that evaluate <code>BitVec</code> operations on literals.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14392" rel="noopener">lean4#14392</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14393" rel="noopener">lean4#14393</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-07-09-kim-morrison-releases-first-packages-of-hex-a-computational-alge">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -222,34 +249,6 @@
     <h2 class="card-title">David Thrane Christiansen adds extensible Markdown rendering for Verso docstrings</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14115" rel="noopener">A merged Lean pull request</a> lets custom elements in <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a> docstrings define their own Markdown rendering, which is used for LSP hovers and for legacy clients that don't directly support Verso. Example uses include including one docstring in another and showing all currently-available instances of a class.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14115" rel="noopener">lean4#14115</a></p>
-  </div>
-</article>
-<article class="card c-papers" id="2026-06-25-leo-de-moura-gives-aws-talk-on-lean-s-use-across-aws">
-  <span class="avatar" aria-hidden="true">¶</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-25">Jun 25</time><button class="copy" type="button" hidden data-link="../../2026-06-25/#2026-06-25-leo-de-moura-gives-aws-talk-on-lean-s-use-across-aws" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura gives AWS talk on Lean's use across AWS</h2>
-    <p class="card-text">In a <a class="inl" href="https://leodemoura.github.io/static/aws-june-2026/" rel="noopener">June 2026 talk</a>, Leo de Moura (Senior Principal Applied Scientist, AWS, and Chief Architect, <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>) described AWS projects built with Lean, including Cedar, a verified authorization policy language, and SampCert, verified differential privacy. The slides are written in <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a>.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/aws-june-2026/" rel="noopener">leodemoura.github.io</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-06-18-lean-4-31-0-released-with-new-do-loops-lake-linting-mvcgen">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-13">Jun 13</time><button class="copy" type="button" hidden data-link="../../2026-06-18/#2026-06-18-lean-4-31-0-released-with-new-do-loops-lake-linting-mvcgen" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean 4.31.0 released with new do loops, Lake linting, mvcgen'</h2>
-    <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.31.0/" rel="noopener">Lean 4.31.0</a> lands <a class="inl" href="https://github.com/leanprover/lean4/releases/tag/v4.31.0" rel="noopener">305 changes</a>, including while let loops in do blocks, a built-in <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> linting framework, stricter transparency handling in definitional-equality checking, and the experimental mvcgen' tactic, which can outperform mvcgen by over 100x on some synthetic benchmarks. The bundled toolchain moves from LLVM 19 to LLVM 22.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.31.0/" rel="noopener">v4.31.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.31.0" rel="noopener">lean4 v4.31.0</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-06-18-peter-o-hearn-seeks-a-postdoc-for-separation-logic-in-lean-at-me">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-03">Jun 3</time><button class="copy" type="button" hidden data-link="../../2026-06-18/#2026-06-18-peter-o-hearn-seeks-a-postdoc-for-separation-logic-in-lean-at-me" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Peter O'Hearn seeks a postdoc for Separation Logic in Lean at Meta</h2>
-    <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/peter-o-hearn-81471647_postdoctoral-researcher-ai-verification-activity-7467927741754044416-OJjv" rel="noopener">Peter O'Hearn is hiring a postdoc</a> in the Meta London office who will work closely with Peter O'Hearn and others in the new AI Verification team, collaborating across Meta Superintelligence Labs and possibly building on lean/<a class="inl" href="https://github.com/leanprover/cslib" rel="noopener">CSLib</a>, <a class="inl" href="https://github.com/leanprover-community/iris-lean" rel="noopener">Iris-Lean</a> and loom/velvet.</p>
-    <figure class="media"><img src="../../assets/img/253614b306c1009f-480.webp" srcset="../../assets/img/253614b306c1009f-480.webp 480w, ../../assets/img/253614b306c1009f-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="418" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/peter-o-hearn-81471647_postdoctoral-researcher-ai-verification-activity-7467927741754044416-OJjv" rel="noopener">LinkedIn post</a></p>
   </div>
 </article>
 </div>

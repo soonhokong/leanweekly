@@ -6,7 +6,31 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 06 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>yang-mills-group posts OpenAI construction of pure Yang-Mills in Lean</title>
+<link>https://leanweekly.news/2026-11-11/#2026-11-11-yang-mills-group-posts-openai-construction-of-pure-yang-mills-in</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-11/#2026-11-11-yang-mills-group-posts-openai-construction-of-pure-yang-mills-in</guid>
+<pubDate>Wed, 11 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/yang-mills-group/OpenAI-YM-20261028" rel="noopener"&gt;The construction&lt;/a&gt;, obtained October 28, 2026, proves a challenge statement with a &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;-only import closure: for each closed matrix subgroup with nonabelian simple real Lie algebra, a Wilson lattice family with a Wightman reconstruction (positive energy, unique vacuum). A kernel replay found only standard axioms; a positive mass gap is outside the challenge's scope.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/yang-mills-group/OpenAI-YM-20261028"&gt;yang-mills-group/OpenAI-YM-20261028&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Crowd-sourced project aims to make the 4D Yang-Mills Lean proof human-readable</title>
+<link>https://leanweekly.news/2026-11-11/#2026-11-11-crowd-sourced-project-aims-to-make-the-4d-yang-mills-lean-proof</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-11/#2026-11-11-crowd-sourced-project-aims-to-make-the-4d-yang-mills-lean-proof</guid>
+<pubDate>Wed, 11 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/hairer/humanise-yang-mills" rel="noopener"&gt;hairer/humanise-yang-mills repository&lt;/a&gt; plans a research monograph giving detailed proofs, traceable to a fixed version of the announced Lean formalisation of four-dimensional Yang-Mills theory, with contributors' agents working on tasks claimed through GitHub issues. Preliminary dependency mapping is under way; a full build, axiom audit, and line-by-line mathematical audit are still outstanding.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/hairer/humanise-yang-mills"&gt;hairer/humanise-yang-mills&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>With LongTails, AI agents prove more than 100 new Lean-verified optimization bounds</title>
+<link>https://leanweekly.news/2026-11-11/#2026-11-11-with-longtails-ai-agents-prove-more-than-100-new-lean-verified-o</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-11/#2026-11-11-with-longtails-ai-agents-prove-more-than-100-new-lean-verified-o</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;In the &lt;a class="inl" href="https://github.com/k3nfalt/longtails" rel="noopener"&gt;Lean 4 framework&lt;/a&gt; by Alexander Tyurin, QuocViet Pham, Valentin Khrulkov, and Ivan Oseledets, agents such as Codex or Claude Code search for better oracle-call budgets under a fixed problem setup, and Comparator independently audits each result. One new gradient-only guarantee for (L0,L1)-smooth convex optimization resolves what the authors call an open problem.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.13872"&gt;arXiv:2611.13872&lt;/a&gt;, &lt;a href="https://github.com/k3nfalt/longtails"&gt;k3nfalt/longtails&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Christian Merten and collaborators formalize the Weil conjectures with AI assistance</title>
 <link>https://leanweekly.news/2026-11-10/#2026-11-10-christian-merten-and-collaborators-formalize-the-weil-conjecture</link>
@@ -382,30 +406,6 @@
 <pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
 <category>Papers and events</category>
 <description>&lt;p&gt;Oghenevwogaga Ebresafe, Daniel Zheng, Gordon Plotkin, and Ningning Xie &lt;a class="inl" href="https://arxiv.org/abs/2611.03918" rel="noopener"&gt;compile effect handlers&lt;/a&gt; to restricted, first-order accelerator languages via a translation that statically eliminates the handlers and preserves typing and semantics, with proofs fully mechanized in Lean 4. The design is implemented as a library for JAX, a Python domain-specific language for accelerator programming.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.03918"&gt;arXiv:2611.03918&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Tau Ceti uses AI to build a library of formalized mathematics</title>
-<link>https://leanweekly.news/2026-11-02/#2026-11-02-tau-ceti-uses-ai-to-build-a-library-of-formalized-mathematics</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-02/#2026-11-02-tau-ceti-uses-ai-to-build-a-library-of-formalized-mathematics</guid>
-<pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;Human-written roadmaps specify the intended mathematics, Lean's kernel checks every proof the AI contributors produce, and adversarial AI reviewers assess whether definitions and statements match what the roadmaps intend. Incubated by the &lt;a class="inl" href="https://lean-fro.org/" rel="noopener"&gt;Lean FRO&lt;/a&gt; and the &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; Initiative, &lt;a class="inl" href="https://lean-lang.org/use-cases/tau-ceti/" rel="noopener"&gt;the project&lt;/a&gt; aims at reusable formalizations of &amp;quot;all of basic mathematics&amp;quot; and invites contributions from everyone.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://lean-lang.org/use-cases/tau-ceti/"&gt;lean-lang.org&lt;/a&gt;, &lt;a href="https://x.com/leanprover/status/2117333513242550672"&gt;@leanprover on X&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Autoresearch, Inc. releases Silmaril: Lean models of programs and verified WebAssembly tools</title>
-<link>https://leanweekly.news/2026-11-02/#2026-11-02-autoresearch-inc-releases-silmaril-lean-models-of-programs-and-v</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-02/#2026-11-02-autoresearch-inc-releases-silmaril-lean-models-of-programs-and-v</guid>
-<pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/hiloopai/silmaril-lean" rel="noopener"&gt;Silmaril&lt;/a&gt; uses Lean 4 to model programs and prove properties about them, with a library of logics, models, lambda calculi and verified translations. Its demo exercises all seven Binaryen-style WebAssembly tools and checks that run() returns 42 in both the Lean WebAssembly interpreter and Node.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/hiloopai/silmaril-lean"&gt;hiloopai/silmaril-lean&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Sébastien Celles uses Lean 4 to find correctness bugs in Go</title>
-<link>https://leanweekly.news/2026-11-02/#2026-11-02-s-bastien-celles-uses-lean-4-to-find-correctness-bugs-in-go</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-02/#2026-11-02-s-bastien-celles-uses-lean-4-to-find-correctness-bugs-in-go</guid>
-<pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;Inspired by julia-in-lean, the &lt;a class="inl" href="https://github.com/s-celles/go-in-lean" rel="noopener"&gt;go-in-lean proof-of-concept&lt;/a&gt; models a bounded subset of Go (including all of math/bits), states each function's documented behaviour as a theorem, proves it with Lean's kernel and bv_decide, and turns failed proofs into Go tests. Counterexamples must reproduce in Go, and the README lists Go compiler bugs reported after human review.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/s-celles/go-in-lean"&gt;s-celles/go-in-lean&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
