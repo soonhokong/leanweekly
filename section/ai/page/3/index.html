@@ -30,8 +30,18 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">AI and formalization, page 3</h1><p class="page-blurb">AI systems that prove or formalize mathematics, large formalizations, and benchmarks. 82 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">AI and formalization, page 3</h1><p class="page-blurb">AI systems that prove or formalize mathematics, large formalizations, and benchmarks. 83 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-ai" id="2026-09-24-ten-claude-opus-5-5-agents-produce-a-lean-verified-shortest-path">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-20">Sep 20</time><button class="copy" type="button" hidden data-link="../../../../2026-09-24/#2026-09-24-ten-claude-opus-5-5-agents-produce-a-lean-verified-shortest-path" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Ten Claude Opus 5.5 agents produce a Lean-verified shortest-path algorithm, C-HD</h2>
+    <p class="card-text"><a class="inl" href="https://www.vals.ai/blogs/faster-shortest-path-algorithm" rel="noopener">Geby Jaff of Vals AI</a> had 10 Claude Opus 5.5 agents coordinate on a message board; after about 15 hours and 733 messages they proposed C-HD, whose Lean proof (checked with the Lean Comparator tool) establishes a strict asymptotic improvement over n log n for a stated density of edges. The constants are enormous, so no practical speedup is established.</p>
+    <figure class="media"><img src="../../../../assets/img/bfc15bfca166c105-480.webp" srcset="../../../../assets/img/bfc15bfca166c105-480.webp 480w, ../../../../assets/img/bfc15bfca166c105-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="600" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: vals.ai</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.vals.ai/blogs/faster-shortest-path-algorithm" rel="noopener">vals.ai</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-09-17-anthropic-s-claude-formalizes-a-complete-proof-of-fermat-s-last">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -254,16 +264,6 @@
     <p class="card-text"><a class="inl" href="https://spectrum.ieee.org/ai-proof-verification" rel="noopener">Gauss, a Math, Inc. reasoning agent</a> built to formalize proofs automatically, produced over 200,000 lines of Lean code for Maryna Viazovska's 24-dimensional proof in two weeks, without a preexisting blueprint. The work follows the 8-dimensional formalization announced on February 23, which built on the Formalising Sphere Packing in Lean project.</p>
     <figure class="media"><img src="../../../../assets/img/56089aa56f22af89-480.webp" srcset="../../../../assets/img/56089aa56f22af89-480.webp 480w, ../../../../assets/img/56089aa56f22af89-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="600" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: spectrum.ieee.org</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://spectrum.ieee.org/ai-proof-verification" rel="noopener">spectrum.ieee.org</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-03-19-mistral-ai-releases-leanstral-an-open-source-code-agent-for-lean">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-16">Mar 16</time><button class="copy" type="button" hidden data-link="../../../../2026-03-19/#2026-03-19-mistral-ai-releases-leanstral-an-open-source-code-agent-for-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Mistral AI releases Leanstral, an open-source code agent for Lean 4</h2>
-    <p class="card-text">Mistral AI released <a class="inl" href="https://mistral.ai/news/leanstral" rel="noopener">Leanstral</a>, with 6B active parameters and weights under an Apache 2.0 license. On FLTEval, a new suite built from pull requests to the FLT project, Leanstral pass@2 scores 26.3, beating Sonnet by 2.6 points while costing $36 to run versus Sonnet's $549.</p>
-    <figure class="media"><img src="../../../../assets/img/fbbdaec66f938429-480.webp" srcset="../../../../assets/img/fbbdaec66f938429-480.webp 480w, ../../../../assets/img/fbbdaec66f938429-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="716" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: mistral.ai</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://mistral.ai/news/leanstral" rel="noopener">mistral.ai</a></p>
   </div>
 </article>
 </div>

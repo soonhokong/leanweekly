@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Peter Burton formalizes a group whose nontrivial Bernoulli shifts are all isomorphic](https://leanweekly.news/2026-11-11/#2026-11-11-peter-burton-formalizes-a-group-whose-nontrivial-bernoulli-shift): AI and formalization, 2026-11-11
 - [yang-mills-group posts OpenAI construction of pure Yang-Mills in Lean](https://leanweekly.news/2026-11-11/#2026-11-11-yang-mills-group-posts-openai-construction-of-pure-yang-mills-in): AI and formalization, 2026-11-11
 - [Crowd-sourced project aims to make the 4D Yang-Mills Lean proof human-readable](https://leanweekly.news/2026-11-11/#2026-11-11-crowd-sourced-project-aims-to-make-the-4d-yang-mills-lean-proof): AI and formalization, 2026-11-11
 - [With LongTails, AI agents prove more than 100 new Lean-verified optimization bounds](https://leanweekly.news/2026-11-11/#2026-11-11-with-longtails-ai-agents-prove-more-than-100-new-lean-verified-o): AI and formalization, 2026-11-10
@@ -103,7 +104,6 @@
 - [Ziqing Xiang formalizes Haemers' conjecture for the generalized spectrum in Lean](https://leanweekly.news/2026-10-23/#2026-10-23-ziqing-xiang-formalizes-haemers-conjecture-for-the-generalized-s): AI and formalization, 2026-10-23
 - [Haruhisa Enomoto formalizes two classical theorems of Bautista, Gabriel, Roiter and Salmerón](https://leanweekly.news/2026-10-23/#2026-10-23-haruhisa-enomoto-formalizes-two-classical-theorems-of-bautista-g): AI and formalization, 2026-10-23
 - [Anirudh Gupta, Siddhartha Gadgil and Petros Markopoulos present PastaLean for verifying Python](https://leanweekly.news/2026-10-23/#2026-10-23-anirudh-gupta-siddhartha-gadgil-and-petros-markopoulos-present-p): Verification, 2026-10-17
-- [Aditya Ranjan Jha and coauthors mechanize a hardware type system in Lean](https://leanweekly.news/2026-10-23/#2026-10-23-aditya-ranjan-jha-and-coauthors-mechanize-a-hardware-type-system): Verification, 2026-10-19
 
 ## Weeks (Friday to Thursday)
 

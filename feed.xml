@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Wed, 11 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Peter Burton formalizes a group whose nontrivial Bernoulli shifts are all isomorphic</title>
+<link>https://leanweekly.news/2026-11-11/#2026-11-11-peter-burton-formalizes-a-group-whose-nontrivial-bernoulli-shift</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-11/#2026-11-11-peter-burton-formalizes-a-group-whose-nontrivial-bernoulli-shift</guid>
+<pubDate>Wed, 11 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-12-000001&amp;amp;version=1" rel="noopener"&gt;Palomar registry entry&lt;/a&gt; covers all standard probability bases whose measures are not point masses, with possibly different or infinite entropies. The countable group is built from the group of an OpenAI construction, which supplies the algebraic existence input; &lt;a class="inl" href="https://github.com/peterburton1728/bernoulli-iso-1" rel="noopener"&gt;the formalization&lt;/a&gt; does not certify finitary or continuous conjugacy and says nothing about other groups.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-12-000001&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/peterburton1728/bernoulli-iso-1"&gt;peterburton1728/bernoulli-iso-1&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>yang-mills-group posts OpenAI construction of pure Yang-Mills in Lean</title>
 <link>https://leanweekly.news/2026-11-11/#2026-11-11-yang-mills-group-posts-openai-construction-of-pure-yang-mills-in</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-11/#2026-11-11-yang-mills-group-posts-openai-construction-of-pure-yang-mills-in</guid>
@@ -398,14 +406,6 @@
 <pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.00185" rel="noopener"&gt;The paper&lt;/a&gt; introduces &lt;a class="inl" href="https://github.com/onderjan/blazing-smtlib" rel="noopener"&gt;blazing-smtlib&lt;/a&gt;, a Rust parsing library for SMT-LIB (a standard input format for SMT solvers), and its Lean port BSmtLib, whose optimised lexer and parser provably match a formalised SMT-LIB syntax. On 9,201 benchmark files, blazing-smtlib is more than 6 times faster than previous libraries (geometric mean); BSmtLib is faster or comparable.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.00185"&gt;arXiv:2611.00185&lt;/a&gt;, &lt;a href="https://github.com/onderjan/blazing-smtlib"&gt;onderjan/blazing-smtlib&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.00185.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Researchers bring effect handlers to JAX, backed by Lean 4 proofs</title>
-<link>https://leanweekly.news/2026-11-03/#2026-11-03-researchers-bring-effect-handlers-to-jax-backed-by-lean-4-proofs</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-03/#2026-11-03-researchers-bring-effect-handlers-to-jax-backed-by-lean-4-proofs</guid>
-<pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
-<category>Papers and events</category>
-<description>&lt;p&gt;Oghenevwogaga Ebresafe, Daniel Zheng, Gordon Plotkin, and Ningning Xie &lt;a class="inl" href="https://arxiv.org/abs/2611.03918" rel="noopener"&gt;compile effect handlers&lt;/a&gt; to restricted, first-order accelerator languages via a translation that statically eliminates the handlers and preserves typing and semantics, with proofs fully mechanized in Lean 4. The design is implemented as a library for JAX, a Python domain-specific language for accelerator programming.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.03918"&gt;arXiv:2611.03918&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
