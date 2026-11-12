@@ -66,6 +66,9 @@
         if (!res.ok) throw new Error(String(res.status));
         const doc = new DOMParser().parseFromString(await res.text(), "text/html");
         for (const node of doc.querySelectorAll(".stream > article.card")) {
+          // New posts push items onto later pages, so a page fetched after a
+          // publish repeats cards already shown: skip those (2026-11-12).
+          if (node.id && document.getElementById(node.id)) continue;
           // Links in the fetched page are relative to that page; make them absolute.
           for (const a of node.querySelectorAll("a[href]")) a.href = new URL(a.getAttribute("href"), res.url).href;
           for (const b of node.querySelectorAll("button[data-link]")) b.dataset.link = new URL(b.dataset.link, res.url).href;
