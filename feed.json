@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-12/#2026-11-12-c-t-lin-i-c-rstea-and-lauri-oksanen-formalize-anisotropic-calder",
+   "url": "https://leanweekly.news/2026-11-12/#2026-11-12-c-t-lin-i-c-rstea-and-lauri-oksanen-formalize-anisotropic-calder",
+   "title": "Cătălin I. Cârstea and Lauri Oksanen formalize anisotropic Calderón uniqueness in Lean",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/catalin-carstea/anisotropic-calderon-lean\" rel=\"noopener\">The proof</a> covers a special case of the smooth anisotropic Calderón uniqueness theorem OpenAI released on October 6, 2026 without a Lean proof: three-dimensional unit ball, full boundary measurements, metrics Euclidean outside the ball. It builds on <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a> and the <a class=\"inl\" href=\"https://taucetiproject.github.io/TauCeti/\" rel=\"noopener\">Tau Ceti</a> analytic library and answers a <a class=\"inl\" href=\"https://github.com/leanprover/comparator\" rel=\"noopener\">comparator</a> challenge permitting only Lean's standard axioms.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.10537\">arXiv:2611.10537</a>, <a href=\"https://github.com/catalin-carstea/anisotropic-calderon-lean\">catalin-carstea/anisotropic-calderon-lean</a></p>",
+   "date_published": "2026-11-07T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "formalization",
+    "analysis",
+    "openai"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-12/#2026-11-12-salvatore-mercuri-and-bhavik-mehta-formally-verify-riemann-hypot",
    "url": "https://leanweekly.news/2026-11-12/#2026-11-12-salvatore-mercuri-and-bhavik-mehta-formally-verify-riemann-hypot",
    "title": "Salvatore Mercuri and Bhavik Mehta formally verify Riemann hypothesis up to 10⁸",
@@ -367,19 +380,6 @@
     "arxiv",
     "number theory",
     "probability"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-google-researchers-use-ai-agents-to-design-lean-verified-quantum",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-google-researchers-use-ai-agents-to-design-lean-verified-quantum",
-   "title": "Google researchers use AI agents to design Lean-verified quantum programs",
-   "content_html": "<p><a class=\"inl\" href=\"https://mlq.ai/news/google-researchers-use-ai-agents-and-lean-proofs-to-cut-the-resources-quantum-algorithms-need-by-up-to-290-times/\" rel=\"noopener\">Google DeepMind and Google Quantum AI researchers</a> had teams of AI agents write quantum programs in a Lean library and prove both correctness and resource cost; a separate checker confirmed each solution met the original specification. The preprint reports a 290-fold reduction over prior baselines for a quantum arithmetic routine (an arcsine calculation).</p><p>Sources: <a href=\"https://mlq.ai/news/google-researchers-use-ai-agents-and-lean-proofs-to-cut-the-resources-quantum-algorithms-need-by-up-to-290-times/\">mlq.ai</a></p>",
-   "date_published": "2026-11-10T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "quantum",
-    "ai agents",
-    "google deepmind"
    ]
   },
   {

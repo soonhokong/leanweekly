@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 12 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sat, 07 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Cătălin I. Cârstea and Lauri Oksanen formalize anisotropic Calderón uniqueness in Lean</title>
+<link>https://leanweekly.news/2026-11-12/#2026-11-12-c-t-lin-i-c-rstea-and-lauri-oksanen-formalize-anisotropic-calder</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-12/#2026-11-12-c-t-lin-i-c-rstea-and-lauri-oksanen-formalize-anisotropic-calder</guid>
+<pubDate>Sat, 07 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/catalin-carstea/anisotropic-calderon-lean" rel="noopener"&gt;The proof&lt;/a&gt; covers a special case of the smooth anisotropic Calderón uniqueness theorem OpenAI released on October 6, 2026 without a Lean proof: three-dimensional unit ball, full boundary measurements, metrics Euclidean outside the ball. It builds on &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; and the &lt;a class="inl" href="https://taucetiproject.github.io/TauCeti/" rel="noopener"&gt;Tau Ceti&lt;/a&gt; analytic library and answers a &lt;a class="inl" href="https://github.com/leanprover/comparator" rel="noopener"&gt;comparator&lt;/a&gt; challenge permitting only Lean's standard axioms.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.10537"&gt;arXiv:2611.10537&lt;/a&gt;, &lt;a href="https://github.com/catalin-carstea/anisotropic-calderon-lean"&gt;catalin-carstea/anisotropic-calderon-lean&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Salvatore Mercuri and Bhavik Mehta formally verify Riemann hypothesis up to 10⁸</title>
 <link>https://leanweekly.news/2026-11-12/#2026-11-12-salvatore-mercuri-and-bhavik-mehta-formally-verify-riemann-hypot</link>
@@ -230,14 +238,6 @@
 <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
 <category>Papers and events</category>
 <description>&lt;p&gt;Christopher Atherfold, Maxim Gerspach and Jad Hamdan study &lt;a class="inl" href="https://arxiv.org/abs/2611.05492" rel="noopener"&gt;the 2q-th moments&lt;/a&gt;, for q from 0 to 1, of sums up to x of a random, completely multiplicative function with independent, uniform ±1 values at the primes. A transition from better-than-square-root cancellation to growth like a power of log x occurs when q crosses 1/2.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.05492"&gt;arXiv:2611.05492&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Google researchers use AI agents to design Lean-verified quantum programs</title>
-<link>https://leanweekly.news/2026-11-10/#2026-11-10-google-researchers-use-ai-agents-to-design-lean-verified-quantum</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-google-researchers-use-ai-agents-to-design-lean-verified-quantum</guid>
-<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://mlq.ai/news/google-researchers-use-ai-agents-and-lean-proofs-to-cut-the-resources-quantum-algorithms-need-by-up-to-290-times/" rel="noopener"&gt;Google DeepMind and Google Quantum AI researchers&lt;/a&gt; had teams of AI agents write quantum programs in a Lean library and prove both correctness and resource cost; a separate checker confirmed each solution met the original specification. The preprint reports a 290-fold reduction over prior baselines for a quantum arithmetic routine (an arcsine calculation).&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://mlq.ai/news/google-researchers-use-ai-agents-and-lean-proofs-to-cut-the-resources-quantum-algorithms-need-by-up-to-290-times/"&gt;mlq.ai&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
 <title>Project Numina formalizes a braided fusion category preprint in Lean 4</title>

@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Cătălin I. Cârstea and Lauri Oksanen formalize anisotropic Calderón uniqueness in Lean](https://leanweekly.news/2026-11-12/#2026-11-12-c-t-lin-i-c-rstea-and-lauri-oksanen-formalize-anisotropic-calder): AI and formalization, 2026-11-07
 - [Salvatore Mercuri and Bhavik Mehta formally verify Riemann hypothesis up to 10⁸](https://leanweekly.news/2026-11-12/#2026-11-12-salvatore-mercuri-and-bhavik-mehta-formally-verify-riemann-hypot): AI and formalization, 2026-11-12
 - [Axiom formalizes first seven chapters of Introduction to Cluster Algebras in Lean](https://leanweekly.news/2026-11-12/#2026-11-12-axiom-formalizes-first-seven-chapters-of-introduction-to-cluster): AI and formalization, 2026-11-10
 - [Bartosz Naskręcki publishes Lean Doom Lab, pairing Doom play with Lean proofs](https://leanweekly.news/2026-11-12/#2026-11-12-bartosz-naskr-cki-publishes-lean-doom-lab-pairing-doom-play-with): Verification, 2026-11-12
@@ -32,7 +33,6 @@
 - [Jason Rute says articles on Lean's "trust surface" should mention external checking](https://leanweekly.news/2026-11-10/#2026-11-10-jason-rute-says-articles-on-lean-s-trust-surface-should-mention): Papers and events, 2026-11-09
 - [Jason Hickey proposes agent-authored software where humans review only formal specifications](https://leanweekly.news/2026-11-10/#2026-11-10-jason-hickey-proposes-agent-authored-software-where-humans-revie): Papers and events, 2026-11-01
 - [Paper determines order of magnitude of low moments of random multiplicative sums](https://leanweekly.news/2026-11-10/#2026-11-10-paper-determines-order-of-magnitude-of-low-moments-of-random-mul): Papers and events, 2026-11-03
-- [Google researchers use AI agents to design Lean-verified quantum programs](https://leanweekly.news/2026-11-10/#2026-11-10-google-researchers-use-ai-agents-to-design-lean-verified-quantum): AI and formalization, 2026-11-10
 - [Project Numina formalizes a braided fusion category preprint in Lean 4](https://leanweekly.news/2026-11-10/#2026-11-10-project-numina-formalizes-a-braided-fusion-category-preprint-in): AI and formalization, 2026-11-09
 - [Google DeepMind uses AI agents to verify Signal's messaging security in Lean](https://leanweekly.news/2026-11-10/#2026-11-10-google-deepmind-uses-ai-agents-to-verify-signal-s-messaging-secu): Verification, 2026-11-10
 - [Polona Durcik registers AI-generated Lean proof on triangles in positive-density sets](https://leanweekly.news/2026-11-09/#2026-11-09-polona-durcik-registers-ai-generated-lean-proof-on-triangles-in): AI and formalization, 2026-11-09
