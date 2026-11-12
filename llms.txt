@@ -4,6 +4,10 @@
 
 ## Latest items
 
+- [Salvatore Mercuri and Bhavik Mehta formally verify Riemann hypothesis up to 10⁸](https://leanweekly.news/2026-11-12/#2026-11-12-salvatore-mercuri-and-bhavik-mehta-formally-verify-riemann-hypot): AI and formalization, 2026-11-12
+- [Axiom formalizes first seven chapters of Introduction to Cluster Algebras in Lean](https://leanweekly.news/2026-11-12/#2026-11-12-axiom-formalizes-first-seven-chapters-of-introduction-to-cluster): AI and formalization, 2026-11-10
+- [Bartosz Naskręcki publishes Lean Doom Lab, pairing Doom play with Lean proofs](https://leanweekly.news/2026-11-12/#2026-11-12-bartosz-naskr-cki-publishes-lean-doom-lab-pairing-doom-play-with): Verification, 2026-11-12
+- [Kamil Braun's Kotlean runs proven Lean code inside Android apps](https://leanweekly.news/2026-11-12/#2026-11-12-kamil-braun-s-kotlean-runs-proven-lean-code-inside-android-apps): Verification, 2026-11-12
 - [Peter Burton formalizes a group whose nontrivial Bernoulli shifts are all isomorphic](https://leanweekly.news/2026-11-11/#2026-11-11-peter-burton-formalizes-a-group-whose-nontrivial-bernoulli-shift): AI and formalization, 2026-11-11
 - [yang-mills-group posts OpenAI construction of pure Yang-Mills in Lean](https://leanweekly.news/2026-11-11/#2026-11-11-yang-mills-group-posts-openai-construction-of-pure-yang-mills-in): AI and formalization, 2026-11-11
 - [Crowd-sourced project aims to make the 4D Yang-Mills Lean proof human-readable](https://leanweekly.news/2026-11-11/#2026-11-11-crowd-sourced-project-aims-to-make-the-4d-yang-mills-lean-proof): AI and formalization, 2026-11-11
@@ -100,10 +104,6 @@
 - [AssureCode uses Lean for structured justification of AI-generated code](https://leanweekly.news/2026-10-25/#2026-10-25-assurecode-uses-lean-for-structured-justification-of-ai-generate): Verification, 2026-10-21
 - [Wolfram Institute publishes reference Lean environment for Rule 30 Prize submissions](https://leanweekly.news/2026-10-24/#2026-10-24-wolfram-institute-publishes-reference-lean-environment-for-rule): AI and formalization, 2026-10-24
 - [Anand Kumar Keshavan announces lean-qverify for verifying quantum circuits in Lean 4](https://leanweekly.news/2026-10-24/#2026-10-24-anand-kumar-keshavan-announces-lean-qverify-for-verifying-quantu): Verification, 2026-10-24
-- [Pranava Kumar registers a Lean proof of Nivat's conjecture with Palomar](https://leanweekly.news/2026-10-23/#2026-10-23-pranava-kumar-registers-a-lean-proof-of-nivat-s-conjecture-with): AI and formalization, 2026-10-23
-- [Ziqing Xiang formalizes Haemers' conjecture for the generalized spectrum in Lean](https://leanweekly.news/2026-10-23/#2026-10-23-ziqing-xiang-formalizes-haemers-conjecture-for-the-generalized-s): AI and formalization, 2026-10-23
-- [Haruhisa Enomoto formalizes two classical theorems of Bautista, Gabriel, Roiter and Salmerón](https://leanweekly.news/2026-10-23/#2026-10-23-haruhisa-enomoto-formalizes-two-classical-theorems-of-bautista-g): AI and formalization, 2026-10-23
-- [Anirudh Gupta, Siddhartha Gadgil and Petros Markopoulos present PastaLean for verifying Python](https://leanweekly.news/2026-10-23/#2026-10-23-anirudh-gupta-siddhartha-gadgil-and-petros-markopoulos-present-p): Verification, 2026-10-17
 
 ## Weeks (Friday to Thursday)
 
@@ -144,6 +144,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 12, 2026](https://leanweekly.news/2026-11-12/items.md)
 - [Published Nov 11, 2026](https://leanweekly.news/2026-11-11/items.md)
 - [Published Nov 10, 2026](https://leanweekly.news/2026-11-10/items.md)
 - [Published Nov 9, 2026](https://leanweekly.news/2026-11-09/items.md)

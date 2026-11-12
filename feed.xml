@@ -6,7 +6,39 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 11 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 12 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Salvatore Mercuri and Bhavik Mehta formally verify Riemann hypothesis up to 10⁸</title>
+<link>https://leanweekly.news/2026-11-12/#2026-11-12-salvatore-mercuri-and-bhavik-mehta-formally-verify-riemann-hypot</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-12/#2026-11-12-salvatore-mercuri-and-bhavik-mehta-formally-verify-riemann-hypot</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Lean's kernel checks, using only the standard axioms, that the first 248,008,818 nontrivial zeros of the Riemann zeta function lie on the critical line. &lt;a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/The.20Riemann.20hypothesis.20up.20to.2010.E2.81.B8/with/639780945" rel="noopener"&gt;The announcement&lt;/a&gt; calls this &lt;a class="inl" href="https://www.github.com/smmercuri/zeta" rel="noopener"&gt;the first kernel-checked verification at this scale&lt;/a&gt;; &lt;a class="inl" href="https://zenodo.org/records/24085183" rel="noopener"&gt;the build of more than 6 million modules&lt;/a&gt; took over 240,000 CPU hours on EPCC's Cirrus supercomputer.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/The.20Riemann.20hypothesis.20up.20to.2010.E2.81.B8/with/639780945"&gt;leanprover.zulipchat.com&lt;/a&gt;, &lt;a href="https://www.github.com/smmercuri/zeta"&gt;smmercuri/zeta&lt;/a&gt;, &lt;a href="https://zenodo.org/records/24085183"&gt;zenodo.org&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Axiom formalizes first seven chapters of Introduction to Cluster Algebras in Lean</title>
+<link>https://leanweekly.news/2026-11-12/#2026-11-12-axiom-formalizes-first-seven-chapters-of-introduction-to-cluster</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-12/#2026-11-12-axiom-formalizes-first-seven-chapters-of-introduction-to-cluster</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Using &lt;a class="inl" href="https://axiommath.ai/research/cluster-algebras-formalized-in-lean/" rel="noopener"&gt;Axiom's AxiomCode tooling&lt;/a&gt;, AI agents (Anthropic's Claude) formalized 1,348 of &lt;a class="inl" href="https://clusteralgebras.axiommath.ai/" rel="noopener"&gt;1,429 blueprint entries&lt;/a&gt;, one per definition or result, from the textbook by Sergey Fomin, Lauren Williams, and Andrei Zelevinsky. &lt;a class="inl" href="https://github.com/AxiomMath/ClusterAlgebras" rel="noopener"&gt;The Mathlib-based library&lt;/a&gt; declares no axioms, stating its 31 assumptions as explicit hypotheses, and Lean's &lt;a class="inl" href="https://github.com/leanprover/comparator" rel="noopener"&gt;comparator&lt;/a&gt; checks that it proves eleven headline theorems.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://axiommath.ai/research/cluster-algebras-formalized-in-lean/"&gt;axiommath.ai&lt;/a&gt;, &lt;a href="https://clusteralgebras.axiommath.ai/"&gt;clusteralgebras.axiommath.ai&lt;/a&gt;, &lt;a href="https://github.com/AxiomMath/ClusterAlgebras"&gt;AxiomMath/ClusterAlgebras&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Bartosz Naskręcki publishes Lean Doom Lab, pairing Doom play with Lean proofs</title>
+<link>https://leanweekly.news/2026-11-12/#2026-11-12-bartosz-naskr-cki-publishes-lean-doom-lab-pairing-doom-play-with</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-12/#2026-11-12-bartosz-naskr-cki-publishes-lean-doom-lab-pairing-doom-play-with</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;Users can play a route, pause on a game tick and inspect its Lean proof; in a browser course of nine authored maps, all 27 supplied route witnesses have stock Lean kernel audits. &lt;a class="inl" href="https://github.com/nasqret/leandoom-proofs" rel="noopener"&gt;The lab's first-safe-exit theorems&lt;/a&gt; state that the player remains alive, physics succeeds and the last input raises the exit flag.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/nasqret/leandoom-proofs"&gt;nasqret/leandoom-proofs&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Kamil Braun's Kotlean runs proven Lean code inside Android apps</title>
+<link>https://leanweekly.news/2026-11-12/#2026-11-12-kamil-braun-s-kotlean-runs-proven-lean-code-inside-android-apps</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-12/#2026-11-12-kamil-braun-s-kotlean-runs-proven-lean-code-inside-android-apps</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;Developers write an app's state, behavior and UI in Lean, prove properties of that code, and compile it into the app, while &lt;a class="inl" href="https://github.com/kbr-/kotlean" rel="noopener"&gt;a small Kotlin host&lt;/a&gt; renders native Android Views. Examples include SnackNet, an original maze-chase game written in Lean, and Counter, a smaller starter with buttons and an editable note.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/kbr-/kotlean"&gt;kbr-/kotlean&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Peter Burton formalizes a group whose nontrivial Bernoulli shifts are all isomorphic</title>
 <link>https://leanweekly.news/2026-11-11/#2026-11-11-peter-burton-formalizes-a-group-whose-nontrivial-bernoulli-shift</link>
@@ -374,38 +406,6 @@
 <pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;The authors &lt;a class="inl" href="https://arxiv.org/abs/2611.04447" rel="noopener"&gt;formalize PTX&lt;/a&gt;, combining an interpreter covering 81 instruction forms with the axiomatic PTX memory model, and prove correct 9 hand-written PTX entry points (454 instructions), including simple implementations of FlashAttention and a 3-kernel MoE pipeline. LLM coding agents helped write the &lt;a class="inl" href="https://paperswithlean.com/paper/2611.04447.html" rel="noopener"&gt;34,034 lines of proof&lt;/a&gt;, which contain no sorry or custom axioms.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.04447"&gt;arXiv:2611.04447&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.04447.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>LARK verifies GPU kernels against PyTorch references using LLM agents and Lean</title>
-<link>https://leanweekly.news/2026-11-03/#2026-11-03-lark-verifies-gpu-kernels-against-pytorch-references-using-llm-a</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-03/#2026-11-03-lark-verifies-gpu-kernels-against-pytorch-references-using-llm-a</guid>
-<pubDate>Sun, 01 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.02028" rel="noopener"&gt;LARK&lt;/a&gt; formalizes a GPU machine model and per-operation semantics in Lean 4 once per target language (PTX, CUDA, HIP), and agents prove segment-by-segment equivalence under exact arithmetic. Of 10 production kernels from LLM serving frameworks, it verifies 9 and finds a previously unknown data race in the tenth, an llm.c softmax kernel.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.02028"&gt;arXiv:2611.02028&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.02028.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Baoyu Zhang and Shengmin Zhang prove Díaz–Park conjecture, formalized in Lean</title>
-<link>https://leanweekly.news/2026-11-03/#2026-11-03-baoyu-zhang-and-shengmin-zhang-prove-d-az-park-conjecture-formal</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-03/#2026-11-03-baoyu-zhang-and-shengmin-zhang-prove-d-az-park-conjecture-formal</guid>
-<pubDate>Sun, 01 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;The conjecture concerns sharpness of saturated fusion systems; &lt;a class="inl" href="https://arxiv.org/abs/2611.02043" rel="noopener"&gt;the proof&lt;/a&gt; avoids the classification of finite simple groups and answers a question from M. Aschbacher, R. Kessar and B. Oliver's list of important open problems. &lt;a class="inl" href="https://github.com/BaoyuZhang747/sharpness-Lean-Rocq" rel="noopener"&gt;The formalization&lt;/a&gt;, built with AI assistance from Codex, spans Lean (61,849 lines in 957 modules) and Rocq (99,857 lines).&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.02043"&gt;arXiv:2611.02043&lt;/a&gt;, &lt;a href="https://github.com/BaoyuZhang747/sharpness-Lean-Rocq"&gt;BaoyuZhang747/sharpness-Lean-Rocq&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.02043.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Sreehari Sankar and coauthors present LeanGuard, Lean-verified guardrails for AI agents</title>
-<link>https://leanweekly.news/2026-11-03/#2026-11-03-sreehari-sankar-and-coauthors-present-leanguard-lean-verified-gu</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-03/#2026-11-03-sreehari-sankar-and-coauthors-present-leanguard-lean-verified-gu</guid>
-<pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.02332" rel="noopener"&gt;LeanGuard&lt;/a&gt; checks every tool call an agent proposes against a Lean 4 policy, using a decision procedure proved equivalent to a LeanLTL temporal semantics. On Tau-Bench, unguarded Qwen agents executed at least 33 policy-forbidden calls while LeanGuard executed none, and it cut direct prompt-injection success on DTap from 57.9% to 5.9%.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.02332"&gt;arXiv:2611.02332&lt;/a&gt;, &lt;a href="https://github.com/DebarghaG/LeanGuard"&gt;DebarghaG/LeanGuard&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Jan Onderka, Armin Biere and Henrik Böving verify a Lean SMT-LIB parser</title>
-<link>https://leanweekly.news/2026-11-03/#2026-11-03-jan-onderka-armin-biere-and-henrik-b-ving-verify-a-lean-smt-lib</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-03/#2026-11-03-jan-onderka-armin-biere-and-henrik-b-ving-verify-a-lean-smt-lib</guid>
-<pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.00185" rel="noopener"&gt;The paper&lt;/a&gt; introduces &lt;a class="inl" href="https://github.com/onderjan/blazing-smtlib" rel="noopener"&gt;blazing-smtlib&lt;/a&gt;, a Rust parsing library for SMT-LIB (a standard input format for SMT solvers), and its Lean port BSmtLib, whose optimised lexer and parser provably match a formalised SMT-LIB syntax. On 9,201 benchmark files, blazing-smtlib is more than 6 times faster than previous libraries (geometric mean); BSmtLib is faster or comparable.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.00185"&gt;arXiv:2611.00185&lt;/a&gt;, &lt;a href="https://github.com/onderjan/blazing-smtlib"&gt;onderjan/blazing-smtlib&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.00185.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

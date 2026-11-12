@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<script src="../assets/theme.js?v=1fe176d120"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Published Nov 12, 2026 · Lean Weekly</title>
+<meta name="description" content="News about Lean, the theorem prover and programming language.">
+<link rel="preload" href="../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/lw.css?v=edba6bded4">
+<link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../feed.json">
+<script defer src="../assets/lw.js?v=d000a0f320"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the news</a>
+<header class="bar">
+<div class="bar-row">
+  <div class="brand"><a class="wordmark" href="../" aria-label="Lean Weekly"><img class="logo" src="../assets/lean-logo.svg" alt="Lean" width="80" height="30"><span>Weekly</span></a>
+  <p class="tagline">News about Lean, the theorem prover and programming language.</p></div>
+  <button class="theme" type="button" hidden aria-label="Switch to night mode"><svg class="i-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg><svg class="i-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
+  <form class="search" role="search" action="../search/" method="get">
+    <label class="sr-only" for="q">Search Lean news</label>
+    <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <kbd aria-hidden="true">/</kbd>
+    <div class="search-results" id="search-results" role="listbox" hidden></div>
+  </form>
+</div>
+<nav class="tabs" aria-label="Sections"><a class="t-latest" href="../">Latest</a><a class="t-ai" href="../section/ai/">AI and formalization</a><a class="t-verification" href="../section/verification/">Verification</a><a class="t-lean-core" href="../section/lean-core/">Lean core</a><a class="t-papers" href="../section/papers/">Papers and events</a><span class="tabs-gap"></span><a class="quiet" href="../about/">About</a><a class="quiet" href="../feed.xml">RSS</a></nav>
+</header>
+<main id="main">
+<div class="frame"><div class="timeline">
+<header class="page-head"><h1 class="page-title">Published Nov 12, 2026</h1><p class="page-blurb">4 items.</p></header>
+
+<div class="stream">
+<article class="card c-ai" id="2026-11-12-salvatore-mercuri-and-bhavik-mehta-formally-verify-riemann-hypot">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-12">Nov 12</time><button class="copy" type="button" hidden data-link="../2026-11-12/#2026-11-12-salvatore-mercuri-and-bhavik-mehta-formally-verify-riemann-hypot" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Salvatore Mercuri and Bhavik Mehta formally verify Riemann hypothesis up to 10⁸</h2>
+    <p class="card-text">Lean's kernel checks, using only the standard axioms, that the first 248,008,818 nontrivial zeros of the Riemann zeta function lie on the critical line. <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/The.20Riemann.20hypothesis.20up.20to.2010.E2.81.B8/with/639780945" rel="noopener">The announcement</a> calls this <a class="inl" href="https://www.github.com/smmercuri/zeta" rel="noopener">the first kernel-checked verification at this scale</a>; <a class="inl" href="https://zenodo.org/records/24085183" rel="noopener">the build of more than 6 million modules</a> took over 240,000 CPU hours on EPCC's Cirrus supercomputer.</p>
+    <figure class="media"><img src="../assets/img/fb28ef692b4406fd-480.webp" srcset="../assets/img/fb28ef692b4406fd-480.webp 480w, ../assets/img/fb28ef692b4406fd-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="512" height="512" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: zenodo.org</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/The.20Riemann.20hypothesis.20up.20to.2010.E2.81.B8/with/639780945" rel="noopener">leanprover.zulipchat.com</a><span class="dot" aria-hidden="true">·</span><a href="https://www.github.com/smmercuri/zeta" rel="noopener">smmercuri/zeta</a><span class="dot" aria-hidden="true">·</span><a href="https://zenodo.org/records/24085183" rel="noopener">zenodo.org</a></p>
+  </div>
+</article>
+<article class="card c-ai" id="2026-11-12-axiom-formalizes-first-seven-chapters-of-introduction-to-cluster">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-10">Nov 10</time><button class="copy" type="button" hidden data-link="../2026-11-12/#2026-11-12-axiom-formalizes-first-seven-chapters-of-introduction-to-cluster" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Axiom formalizes first seven chapters of Introduction to Cluster Algebras in Lean</h2>
+    <p class="card-text">Using <a class="inl" href="https://axiommath.ai/research/cluster-algebras-formalized-in-lean/" rel="noopener">Axiom's AxiomCode tooling</a>, AI agents (Anthropic's Claude) formalized 1,348 of <a class="inl" href="https://clusteralgebras.axiommath.ai/" rel="noopener">1,429 blueprint entries</a>, one per definition or result, from the textbook by Sergey Fomin, Lauren Williams, and Andrei Zelevinsky. <a class="inl" href="https://github.com/AxiomMath/ClusterAlgebras" rel="noopener">The Mathlib-based library</a> declares no axioms, stating its 31 assumptions as explicit hypotheses, and Lean's <a class="inl" href="https://github.com/leanprover/comparator" rel="noopener">comparator</a> checks that it proves eleven headline theorems.</p>
+    <figure class="media"><img src="../assets/img/cebee5309e225b6d-480.webp" srcset="../assets/img/cebee5309e225b6d-480.webp 480w, ../assets/img/cebee5309e225b6d-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="806" height="806" alt="Plabic graph in a circle with eight numbered boundary points and shaded regions" loading="lazy" decoding="async"><figcaption class="credit">Image: axiommath.ai</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://axiommath.ai/research/cluster-algebras-formalized-in-lean/" rel="noopener">axiommath.ai</a><span class="dot" aria-hidden="true">·</span><a href="https://clusteralgebras.axiommath.ai/" rel="noopener">clusteralgebras.axiommath.ai</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/AxiomMath/ClusterAlgebras" rel="noopener">AxiomMath/ClusterAlgebras</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-11-12-bartosz-naskr-cki-publishes-lean-doom-lab-pairing-doom-play-with">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-12">Nov 12</time><button class="copy" type="button" hidden data-link="../2026-11-12/#2026-11-12-bartosz-naskr-cki-publishes-lean-doom-lab-pairing-doom-play-with" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Bartosz Naskręcki publishes Lean Doom Lab, pairing Doom play with Lean proofs</h2>
+    <p class="card-text">Users can play a route, pause on a game tick and inspect its Lean proof; in a browser course of nine authored maps, all 27 supplied route witnesses have stock Lean kernel audits. <a class="inl" href="https://github.com/nasqret/leandoom-proofs" rel="noopener">The lab's first-safe-exit theorems</a> state that the player remains alive, physics succeeds and the last input raises the exit flag.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/nasqret/leandoom-proofs" rel="noopener">nasqret/leandoom-proofs</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-11-12-kamil-braun-s-kotlean-runs-proven-lean-code-inside-android-apps">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-12">Nov 12</time><button class="copy" type="button" hidden data-link="../2026-11-12/#2026-11-12-kamil-braun-s-kotlean-runs-proven-lean-code-inside-android-apps" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Kamil Braun's Kotlean runs proven Lean code inside Android apps</h2>
+    <p class="card-text">Developers write an app's state, behavior and UI in Lean, prove properties of that code, and compile it into the app, while <a class="inl" href="https://github.com/kbr-/kotlean" rel="noopener">a small Kotlin host</a> renders native Android Views. Examples include SnackNet, an original maze-chase game written in Lean, and Counter, a smaller starter with buttons and an editable note.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/kbr-/kotlean" rel="noopener">kbr-/kotlean</a></p>
+  </div>
+</article>
+</div>
+</div></div>
+</main>
+<p class="sr-only" id="status" role="status" aria-live="polite"></p>
+<footer class="foot"><div class="foot-in"><p><a href="../about/">About</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
+</body>
+</html>

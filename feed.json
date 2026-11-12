@@ -6,6 +6,58 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-12/#2026-11-12-salvatore-mercuri-and-bhavik-mehta-formally-verify-riemann-hypot",
+   "url": "https://leanweekly.news/2026-11-12/#2026-11-12-salvatore-mercuri-and-bhavik-mehta-formally-verify-riemann-hypot",
+   "title": "Salvatore Mercuri and Bhavik Mehta formally verify Riemann hypothesis up to 10⁸",
+   "content_html": "<p>Lean's kernel checks, using only the standard axioms, that the first 248,008,818 nontrivial zeros of the Riemann zeta function lie on the critical line. <a class=\"inl\" href=\"https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/The.20Riemann.20hypothesis.20up.20to.2010.E2.81.B8/with/639780945\" rel=\"noopener\">The announcement</a> calls this <a class=\"inl\" href=\"https://www.github.com/smmercuri/zeta\" rel=\"noopener\">the first kernel-checked verification at this scale</a>; <a class=\"inl\" href=\"https://zenodo.org/records/24085183\" rel=\"noopener\">the build of more than 6 million modules</a> took over 240,000 CPU hours on EPCC's Cirrus supercomputer.</p><p>Sources: <a href=\"https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/The.20Riemann.20hypothesis.20up.20to.2010.E2.81.B8/with/639780945\">leanprover.zulipchat.com</a>, <a href=\"https://www.github.com/smmercuri/zeta\">smmercuri/zeta</a>, <a href=\"https://zenodo.org/records/24085183\">zenodo.org</a></p>",
+   "date_published": "2026-11-12T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "riemann hypothesis",
+    "number theory",
+    "certified computation"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-12/#2026-11-12-axiom-formalizes-first-seven-chapters-of-introduction-to-cluster",
+   "url": "https://leanweekly.news/2026-11-12/#2026-11-12-axiom-formalizes-first-seven-chapters-of-introduction-to-cluster",
+   "title": "Axiom formalizes first seven chapters of Introduction to Cluster Algebras in Lean",
+   "content_html": "<p>Using <a class=\"inl\" href=\"https://axiommath.ai/research/cluster-algebras-formalized-in-lean/\" rel=\"noopener\">Axiom's AxiomCode tooling</a>, AI agents (Anthropic's Claude) formalized 1,348 of <a class=\"inl\" href=\"https://clusteralgebras.axiommath.ai/\" rel=\"noopener\">1,429 blueprint entries</a>, one per definition or result, from the textbook by Sergey Fomin, Lauren Williams, and Andrei Zelevinsky. <a class=\"inl\" href=\"https://github.com/AxiomMath/ClusterAlgebras\" rel=\"noopener\">The Mathlib-based library</a> declares no axioms, stating its 31 assumptions as explicit hypotheses, and Lean's <a class=\"inl\" href=\"https://github.com/leanprover/comparator\" rel=\"noopener\">comparator</a> checks that it proves eleven headline theorems.</p><p>Sources: <a href=\"https://axiommath.ai/research/cluster-algebras-formalized-in-lean/\">axiommath.ai</a>, <a href=\"https://clusteralgebras.axiommath.ai/\">clusteralgebras.axiommath.ai</a>, <a href=\"https://github.com/AxiomMath/ClusterAlgebras\">AxiomMath/ClusterAlgebras</a></p>",
+   "date_published": "2026-11-10T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "cluster algebras",
+    "ai agents",
+    "axiom math"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-12/#2026-11-12-bartosz-naskr-cki-publishes-lean-doom-lab-pairing-doom-play-with",
+   "url": "https://leanweekly.news/2026-11-12/#2026-11-12-bartosz-naskr-cki-publishes-lean-doom-lab-pairing-doom-play-with",
+   "title": "Bartosz Naskręcki publishes Lean Doom Lab, pairing Doom play with Lean proofs",
+   "content_html": "<p>Users can play a route, pause on a game tick and inspect its Lean proof; in a browser course of nine authored maps, all 27 supplied route witnesses have stock Lean kernel audits. <a class=\"inl\" href=\"https://github.com/nasqret/leandoom-proofs\" rel=\"noopener\">The lab's first-safe-exit theorems</a> state that the player remains alive, physics succeeds and the last input raises the exit flag.</p><p>Sources: <a href=\"https://github.com/nasqret/leandoom-proofs\">nasqret/leandoom-proofs</a></p>",
+   "date_published": "2026-11-12T12:00:00Z",
+   "tags": [
+    "Verification",
+    "doom",
+    "games",
+    "education"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-12/#2026-11-12-kamil-braun-s-kotlean-runs-proven-lean-code-inside-android-apps",
+   "url": "https://leanweekly.news/2026-11-12/#2026-11-12-kamil-braun-s-kotlean-runs-proven-lean-code-inside-android-apps",
+   "title": "Kamil Braun's Kotlean runs proven Lean code inside Android apps",
+   "content_html": "<p>Developers write an app's state, behavior and UI in Lean, prove properties of that code, and compile it into the app, while <a class=\"inl\" href=\"https://github.com/kbr-/kotlean\" rel=\"noopener\">a small Kotlin host</a> renders native Android Views. Examples include SnackNet, an original maze-chase game written in Lean, and Counter, a smaller starter with buttons and an editable note.</p><p>Sources: <a href=\"https://github.com/kbr-/kotlean\">kbr-/kotlean</a></p>",
+   "date_published": "2026-11-12T12:00:00Z",
+   "tags": [
+    "Verification",
+    "android",
+    "kotlin",
+    "ui"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-11/#2026-11-11-peter-burton-formalizes-a-group-whose-nontrivial-bernoulli-shift",
    "url": "https://leanweekly.news/2026-11-11/#2026-11-11-peter-burton-formalizes-a-group-whose-nontrivial-bernoulli-shift",
    "title": "Peter Burton formalizes a group whose nontrivial Bernoulli shifts are all isomorphic",
@@ -601,58 +653,6 @@
     "gpu kernels",
     "ptx",
     "llm agents"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-03/#2026-11-03-lark-verifies-gpu-kernels-against-pytorch-references-using-llm-a",
-   "url": "https://leanweekly.news/2026-11-03/#2026-11-03-lark-verifies-gpu-kernels-against-pytorch-references-using-llm-a",
-   "title": "LARK verifies GPU kernels against PyTorch references using LLM agents and Lean",
-   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2611.02028\" rel=\"noopener\">LARK</a> formalizes a GPU machine model and per-operation semantics in Lean 4 once per target language (PTX, CUDA, HIP), and agents prove segment-by-segment equivalence under exact arithmetic. Of 10 production kernels from LLM serving frameworks, it verifies 9 and finds a previously unknown data race in the tenth, an llm.c softmax kernel.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.02028\">arXiv:2611.02028</a>, <a href=\"https://paperswithlean.com/paper/2611.02028.html\">paperswithlean.com</a></p>",
-   "date_published": "2026-11-01T12:00:00Z",
-   "tags": [
-    "Verification",
-    "gpu kernels",
-    "llm agents",
-    "pytorch"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-03/#2026-11-03-baoyu-zhang-and-shengmin-zhang-prove-d-az-park-conjecture-formal",
-   "url": "https://leanweekly.news/2026-11-03/#2026-11-03-baoyu-zhang-and-shengmin-zhang-prove-d-az-park-conjecture-formal",
-   "title": "Baoyu Zhang and Shengmin Zhang prove Díaz–Park conjecture, formalized in Lean",
-   "content_html": "<p>The conjecture concerns sharpness of saturated fusion systems; <a class=\"inl\" href=\"https://arxiv.org/abs/2611.02043\" rel=\"noopener\">the proof</a> avoids the classification of finite simple groups and answers a question from M. Aschbacher, R. Kessar and B. Oliver's list of important open problems. <a class=\"inl\" href=\"https://github.com/BaoyuZhang747/sharpness-Lean-Rocq\" rel=\"noopener\">The formalization</a>, built with AI assistance from Codex, spans Lean (61,849 lines in 957 modules) and Rocq (99,857 lines).</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.02043\">arXiv:2611.02043</a>, <a href=\"https://github.com/BaoyuZhang747/sharpness-Lean-Rocq\">BaoyuZhang747/sharpness-Lean-Rocq</a>, <a href=\"https://paperswithlean.com/paper/2611.02043.html\">paperswithlean.com</a></p>",
-   "date_published": "2026-11-01T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "fusion systems",
-    "codex",
-    "rocq"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-03/#2026-11-03-sreehari-sankar-and-coauthors-present-leanguard-lean-verified-gu",
-   "url": "https://leanweekly.news/2026-11-03/#2026-11-03-sreehari-sankar-and-coauthors-present-leanguard-lean-verified-gu",
-   "title": "Sreehari Sankar and coauthors present LeanGuard, Lean-verified guardrails for AI agents",
-   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2611.02332\" rel=\"noopener\">LeanGuard</a> checks every tool call an agent proposes against a Lean 4 policy, using a decision procedure proved equivalent to a LeanLTL temporal semantics. On Tau-Bench, unguarded Qwen agents executed at least 33 policy-forbidden calls while LeanGuard executed none, and it cut direct prompt-injection success on DTap from 57.9% to 5.9%.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.02332\">arXiv:2611.02332</a>, <a href=\"https://github.com/DebarghaG/LeanGuard\">DebarghaG/LeanGuard</a></p>",
-   "date_published": "2026-11-02T12:00:00Z",
-   "tags": [
-    "Verification",
-    "ai agents",
-    "guardrails",
-    "temporal logic"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-03/#2026-11-03-jan-onderka-armin-biere-and-henrik-b-ving-verify-a-lean-smt-lib",
-   "url": "https://leanweekly.news/2026-11-03/#2026-11-03-jan-onderka-armin-biere-and-henrik-b-ving-verify-a-lean-smt-lib",
-   "title": "Jan Onderka, Armin Biere and Henrik Böving verify a Lean SMT-LIB parser",
-   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2611.00185\" rel=\"noopener\">The paper</a> introduces <a class=\"inl\" href=\"https://github.com/onderjan/blazing-smtlib\" rel=\"noopener\">blazing-smtlib</a>, a Rust parsing library for SMT-LIB (a standard input format for SMT solvers), and its Lean port BSmtLib, whose optimised lexer and parser provably match a formalised SMT-LIB syntax. On 9,201 benchmark files, blazing-smtlib is more than 6 times faster than previous libraries (geometric mean); BSmtLib is faster or comparable.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.00185\">arXiv:2611.00185</a>, <a href=\"https://github.com/onderjan/blazing-smtlib\">onderjan/blazing-smtlib</a>, <a href=\"https://paperswithlean.com/paper/2611.00185.html\">paperswithlean.com</a></p>",
-   "date_published": "2026-10-30T12:00:00Z",
-   "tags": [
-    "Verification",
-    "smt",
-    "parsing",
-    "rust"
    ]
   }
  ]

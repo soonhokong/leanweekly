@@ -32,6 +32,43 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 15</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-02-19-leo-de-moura-adds-a-cache-for-isdefeqi-results-in-sym">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-15">Feb 15</time><button class="copy" type="button" hidden data-link="../../2026-02-19/#2026-02-19-leo-de-moura-adds-a-cache-for-isdefeqi-results-in-sym" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura adds a cache for isDefEqI results in Sym</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/12486" rel="noopener">A merged Lean 4 pull request</a> by Leo de Moura caches isDefEqI results in Sym, since symbolic computation such as VC generators finds the same instances repeatedly. On the vcgen_deep_add_sub_cancel benchmark, speedups range from 30% to 37%, with goal_1000 dropping from 1663.1 ms to 1141.9 ms.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12486" rel="noopener">lean4#12486</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-02-19-kim-morrison-proposes-making-mathlib-s-orderdual-a-structure-pre">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-11">Feb 11</time><button class="copy" type="button" hidden data-link="../../2026-02-19/#2026-02-19-kim-morrison-proposes-making-mathlib-s-orderdual-a-structure-pre" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Kim Morrison proposes making Mathlib's OrderDual a structure, prepared with Claude Code</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover-community/mathlib4/pull/35125" rel="noopener">A Mathlib pull request</a> by Kim Morrison changes OrderDual from a type alias to a one-field structure, which prevents defeq abuse between a type and its order dual and requires explicit toDual/ofDual wrapping at type boundaries. The pull request notes it was prepared with Claude Code.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/mathlib4/pull/35125" rel="noopener">mathlib4#35125</a></p>
+  </div>
+</article>
+<article class="card c-papers" id="2026-02-19-stephen-diehl-tests-opus-4-6-on-a-category-theory-library-in-lea">
+  <span class="avatar" aria-hidden="true">¶</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-16">Feb 16</time><button class="copy" type="button" hidden data-link="../../2026-02-19/#2026-02-19-stephen-diehl-tests-opus-4-6-on-a-category-theory-library-in-lea" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Stephen Diehl tests Opus 4.6 on a category theory library in Lean</h2>
+    <p class="card-text">Stephen Diehl built <a class="inl" href="https://www.stephendiehl.com/posts/lean-opus-blog/" rel="noopener">Kitty Cats</a>, about 900 lines of Lean, with Anthropic's Opus 4.6 over two 30-minute sessions. The model handled the Yoneda lemma but needed guidance on multi-step rewrites and on refactoring verbose proofs. Diehl credits the lean-lsp-mcp server and the lean4-skills plugin for giving the model a feedback loop.</p>
+    <figure class="media"><img src="../../assets/img/1ae21f6c25f181dc-480.webp" srcset="../../assets/img/1ae21f6c25f181dc-480.webp 480w, ../../assets/img/1ae21f6c25f181dc-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="675" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: stephendiehl.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.stephendiehl.com/posts/lean-opus-blog/" rel="noopener">stephendiehl.com</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-02-12-ilya-sergey-shows-how-to-verify-distributed-protocols-in-veil">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-09">Feb 9</time><button class="copy" type="button" hidden data-link="../../2026-02-12/#2026-02-12-ilya-sergey-shows-how-to-verify-distributed-protocols-in-veil" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Ilya Sergey shows how to verify distributed protocols in Veil</h2>
+    <p class="card-text"><a class="inl" href="https://proofsandintuitions.net/2026/02/09/distributed-verification-veil/" rel="noopener">In a February 9, 2026 post</a>, Ilya Sergey walks through modelling, model checking, and proving the Dolev-Strong Floodset consensus protocol in <a class="inl" href="https://veil.dev/" rel="noopener">Veil</a>, VERSE lab's auto-active Lean-based verifier for distributed protocols. Veil's model checker Lace explored 54904 states, 362 of them distinct, and caught a deliberately introduced agreement bug.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://proofsandintuitions.net/2026/02/09/distributed-verification-veil/" rel="noopener">proofsandintuitions.net</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-02-12-leo-de-moura-merges-two-lean-core-elaborator-changes">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -217,43 +254,6 @@
     <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/dhyey-mavani_12-problems-from-the-hardest-math-exam-converted-activity-7416256349250048000-zzpn" rel="noopener">AxiomProver</a>, an autonomous AI theorem prover built by Axiom, solved 12 out of 12 problems from the Putnam Competition, 8 of them within the strict exam time limit, producing formal proofs in Lean. One combinatorial step in Problem A5 required 2,054 lines of formal proof.</p>
     <figure class="media"><img src="../../assets/img/2557f4367a01df1c-480.webp" srcset="../../assets/img/2557f4367a01df1c-480.webp 480w, ../../assets/img/2557f4367a01df1c-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="512" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/dhyey-mavani_12-problems-from-the-hardest-math-exam-converted-activity-7416256349250048000-zzpn" rel="noopener">LinkedIn post</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-01-15-hacker-news-discusses-erdos-problem-728-solved-largely-autonomou">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-09">Jan 9</time><button class="copy" type="button" hidden data-link="../../2026-01-15/#2026-01-15-hacker-news-discusses-erdos-problem-728-solved-largely-autonomou" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Hacker News discusses Erdos problem #728 solved largely autonomously by AI</h2>
-    <p class="card-text"><a class="inl" href="https://news.ycombinator.com/item?id=46560445" rel="noopener">A Hacker News thread</a> on the claim that Erdos problem #728 &quot;was solved more or less autonomously by AI&quot; drew 619 points and 363 comments. A Harmonic employee said Aristotle, the company's system, can translate an informal English proof into Lean, and commenters debated how to check that a theorem statement is formalized correctly.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://news.ycombinator.com/item?id=46560445" rel="noopener">news.ycombinator.com</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-01-15-sebastian-ullrich-proposes-bundling-lean-s-init-library-into-one">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-10">Jan 10</time><button class="copy" type="button" hidden data-link="../../2026-01-15/#2026-01-15-sebastian-ullrich-proposes-bundling-lean-s-init-library-into-one" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Ullrich proposes bundling Lean's Init library into one .olean file</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/11965" rel="noopener">A pull request by Sebastian Ullrich</a> bundles all <code>Init</code> module files into a single file with cross-sharing, reducing cumulative size from 325MB to 264MB and <code>openat</code> calls for <code>import Init</code> on Linux from about 2000 to about 80. The pull request is still open.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/11965" rel="noopener">lean4#11965</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-01-15-leo-de-moura-removes-super-linear-kernel-overhead-in-lambda-simp">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-08">Jan 8</time><button class="copy" type="button" hidden data-link="../../2026-01-15/#2026-01-15-leo-de-moura-removes-super-linear-kernel-overhead-in-lambda-simp" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura removes super-linear kernel overhead in lambda simplification</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/11932" rel="noopener">A merged Lean pull request</a> by Leo de Moura improves the proof term produced by <code>mkFunext</code>, which <code>Sym.simp</code> uses when simplifying lambda expressions. For a 200-lambda benchmark, kernel checking time fell from 148.681 ms to 6.903 ms, and the approach will later come to <code>Meta.simp</code>.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/11932" rel="noopener">lean4#11932</a></p>
-  </div>
-</article>
-<article class="card c-papers" id="2026-01-15-martin-ciupa-summarizes-tom-kalil-s-interview-with-terence-tao-o">
-  <span class="avatar" aria-hidden="true">¶</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-12">Jan 12</time><button class="copy" type="button" hidden data-link="../../2026-01-15/#2026-01-15-martin-ciupa-summarizes-tom-kalil-s-interview-with-terence-tao-o" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Martin Ciupa summarizes Tom Kalil's interview with Terence Tao on AI in math</h2>
-    <p class="card-text">In <a class="inl" href="https://www.linkedin.com/posts/martin-ciupa-76418b17_is-math-the-next-ai-frontier-a-conversation-activity-7416497501903511552-aEXF" rel="noopener">a LinkedIn post</a>, Martin Ciupa recaps the conversation, in which Terence Tao calls automating formalization (turning ordinary math into proof-assistant-checked form) the near-term change, stresses formal verification over trusting AI blindly, and highlights Lean-style autocomplete that fills a line or two at a time.</p>
-    <figure class="media"><img src="../../assets/img/848715284da3a40c-480.webp" srcset="../../assets/img/848715284da3a40c-480.webp 480w, ../../assets/img/848715284da3a40c-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="440" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/martin-ciupa-76418b17_is-math-the-next-ai-frontier-a-conversation-activity-7416497501903511552-aEXF" rel="noopener">LinkedIn post</a></p>
   </div>
 </article>
 </div>
