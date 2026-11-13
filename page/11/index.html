@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 11</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-06-25-lean-enables-respecttransparency-types-by-default-a-breaking-cha">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-19">Jun 19</time><button class="copy" type="button" hidden data-link="../../2026-06-25/#2026-06-25-lean-enables-respecttransparency-types-by-default-a-breaking-cha" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean enables respectTransparency.types by default, a breaking change</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13895" rel="noopener">Paul Reichert's merged pull request</a> makes Lean compare metavariable types at implicit transparency instead of default, building on Kim Morrison's <a class="inl" href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">split of transparency into implicit and instances levels</a> (merged on 2026-06-19). Some lemmas may stop applying in simp or <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>; set_option backward.isDefEq.respectTransparency.types false restores the old behavior.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13895" rel="noopener">lean4#13895</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">lean4#13637</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-06-25-sebastian-ullrich-speeds-up-lean-s-test-suite-with-shared-header">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -239,15 +248,6 @@
     <h2 class="card-title">Lake adds a requiresModuleSystem option to flag non-module imports</h2>
     <p class="card-text">Sebastian Ullrich's merged Lean pull request adds the <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> package option <code>requiresModuleSystem</code>: Lake then warns whenever a non-module-system file (one without a <code>module</code> header) imports a module of the package. A separate <a class="inl" href="https://github.com/leanprover/lean4/pull/13679" rel="noopener">fix repairs code generation</a> that broke with structures using private fields and types inaccessible in the current scope.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13646" rel="noopener">lean4#13646</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13679" rel="noopener">lean4#13679</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-kim-morrison-splits-lean-s-implicit-transparency-level-into-impl">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-05">Apr 5</time><button class="copy" type="button" hidden data-link="../../2026-05-14/#2026-05-14-kim-morrison-splits-lean-s-implicit-transparency-level-into-impl" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Kim Morrison splits Lean's implicit transparency level into implicit and instances</h2>
-    <p class="card-text">A merged pull request by Kim Morrison makes the <a class="inl" href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">transparency hierarchy</a> none &lt; reducible &lt; instances &lt; implicit &lt; default &lt; all, so @[implicit_reducible] annotations no longer have the side effects @[instance_reducible] has. A separate open pull request by Leo de Moura enables the <a class="inl" href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">backward.isDefEq.respectTransparency.types</a> option by default.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13637" rel="noopener">lean4#13637</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13283" rel="noopener">lean4#13283</a></p>
   </div>
 </article>
 </div>
