@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 4</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-29-leo-de-moura-speeds-up-kernel-checking-of-lia-and-grind-proofs">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-23">Oct 23</time><button class="copy" type="button" hidden data-link="../../2026-10-29/#2026-10-29-leo-de-moura-speeds-up-kernel-checking-of-lia-and-grind-proofs" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura speeds up kernel checking of lia and grind proofs</h2>
+    <p class="card-text">Lean's lia (cutsat) now <a class="inl" href="https://github.com/leanprover/lean4/pull/15905" rel="noopener">shares proofs across grind case splits</a>, for up to 2.8x faster elaboration and up to 200x faster kernel checking on goals with many case splits. <a class="inl" href="https://github.com/leanprover/lean4/pull/15911" rel="noopener">Kernel-friendly certificates for lia</a>, <a class="inl" href="https://github.com/leanprover/lean4/pull/15943" rel="noopener">grind's ring solver</a>, simp +arith and <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> linarith followed; the ring certificates cut kernel instructions by 51.5% across 40 benchmark files.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15905" rel="noopener">lean4#15905</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15911" rel="noopener">lean4#15911</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15943" rel="noopener">lean4#15943</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15981" rel="noopener">lean4#15981</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15983" rel="noopener">lean4#15983</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-10-29-sebastian-graf-merged-vcgen-jp-which-verifies-code-after-a-split">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -244,15 +253,6 @@
     <h2 class="card-title">Thomas Coratger announces EthLib, a Lean 4 library for Ethereum</h2>
     <p class="card-text">The library, hosted at github.com/ethereum/EthLib, launched with the goal of bringing Ethereum's primitives, specifications and theorems into one place, building a shared foundation for formally specifying and proving things about Ethereum.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/tcoratger/status/2114395664687771936" rel="noopener">@tcoratger on X</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-10-25-katzenpost-s-lean-library-cryptlib-implements-the-sphinx-cryptog">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-21">Oct 21</time><button class="copy" type="button" hidden data-link="../../2026-10-25/#2026-10-25-katzenpost-s-lean-library-cryptlib-implements-the-sphinx-cryptog" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Katzenpost's Lean library Cryptlib implements the Sphinx cryptographic packet format</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/katzenpost/cryptlib" rel="noopener">Cryptlib</a>'s Sphinx packets are binary compatible with the Katzenpost mix network's Go implementation, including with a post-quantum/classical hybrid key encapsulation method (X25519 and ML-KEM-768) per hop. <a class="inl" href="https://cryptlib.io/" rel="noopener">The AGPLv3-licensed library</a> is for modeling protocols and proving their properties; each kind of primitive has a Lean structure with proposition fields that every instance must satisfy.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/katzenpost/cryptlib" rel="noopener">katzenpost/cryptlib</a><span class="dot" aria-hidden="true">·</span><a href="https://cryptlib.io/" rel="noopener">cryptlib.io</a><span class="dot" aria-hidden="true">·</span><a href="https://reservoir.lean-lang.org/@katzenpost/cryptlib" rel="noopener">reservoir.lean-lang.org</a></p>
   </div>
 </article>
 </div>
