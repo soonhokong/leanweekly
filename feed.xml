@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 13 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Mahdi JafariRaviz formalizes Robertson and Seymour's Graph Minors series in Lean 4</title>
+<link>https://leanweekly.news/2026-11-14/#2026-11-14-mahdi-jafariraviz-formalizes-robertson-and-seymour-s-graph-minor</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-14/#2026-11-14-mahdi-jafariraviz-formalizes-robertson-and-seymour-s-graph-minor</guid>
+<pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Graph.20Minors/with/640335582" rel="noopener"&gt;The formalization&lt;/a&gt; covers all 838 numbered results across 22 papers, including the graph minor theorem (Wagner's conjecture), the excluded-minor structure theorem, and the O(n³) algorithm for the k disjoint paths problem. The three main theorems pass &lt;a class="inl" href="https://github.com/leanprover/comparator" rel="noopener"&gt;comparator&lt;/a&gt; and use only the standard axioms; the repository describes corrections to the papers, none affecting those theorems.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Graph.20Minors/with/640335582"&gt;leanprover.zulipchat.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Grothendieck Labs publishes a Lean formalization of Grothendieck–Riemann–Roch</title>
 <link>https://leanweekly.news/2026-11-13/#2026-11-13-grothendieck-labs-publishes-a-lean-formalization-of-grothendieck</link>
@@ -398,14 +406,6 @@
 <pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
 <category>Lean core</category>
 <description>&lt;p&gt;The issues include an &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16107" rel="noopener"&gt;Expr hash collision&lt;/a&gt;: chains of the same application with different lengths could share hashes, so kernel cache lookups compared them structurally and checks became quadratic. The other two are &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16046" rel="noopener"&gt;quadratic elaboration of large string-literal equalities&lt;/a&gt; and &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16049" rel="noopener"&gt;quadratic compilation of large list literals&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/16107"&gt;lean4#16107&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/16046"&gt;lean4#16046&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/16049"&gt;lean4#16049&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Sebastian Graf lets Lean's vcgen tactic discharge frame conditions with frameproc theorems</title>
-<link>https://leanweekly.news/2026-11-06/#2026-11-06-sebastian-graf-lets-lean-s-vcgen-tactic-discharge-frame-conditio</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-06/#2026-11-06-sebastian-graf-lets-lean-s-vcgen-tactic-discharge-frame-conditio</guid>
-<pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;The vcgen tactic now &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16093" rel="noopener"&gt;discharges the frame condition&lt;/a&gt; of each framed call with a theorem named by a &lt;code&gt;@[frameproc]&lt;/code&gt;, for example one for a separation logic, so the frame condition no longer becomes a verification condition. Sebastian Graf also added the &lt;code&gt;@[vcgen_simp]&lt;/code&gt; &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15955" rel="noopener"&gt;attribute&lt;/a&gt;, which collects &lt;code&gt;Sym.simp&lt;/code&gt; theorems for vcgen.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/16093"&gt;lean4#16093&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15955"&gt;lean4#15955&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

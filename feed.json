@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-14/#2026-11-14-mahdi-jafariraviz-formalizes-robertson-and-seymour-s-graph-minor",
+   "url": "https://leanweekly.news/2026-11-14/#2026-11-14-mahdi-jafariraviz-formalizes-robertson-and-seymour-s-graph-minor",
+   "title": "Mahdi JafariRaviz formalizes Robertson and Seymour's Graph Minors series in Lean 4",
+   "content_html": "<p><a class=\"inl\" href=\"https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Graph.20Minors/with/640335582\" rel=\"noopener\">The formalization</a> covers all 838 numbered results across 22 papers, including the graph minor theorem (Wagner's conjecture), the excluded-minor structure theorem, and the O(n³) algorithm for the k disjoint paths problem. The three main theorems pass <a class=\"inl\" href=\"https://github.com/leanprover/comparator\" rel=\"noopener\">comparator</a> and use only the standard axioms; the repository describes corrections to the papers, none affecting those theorems.</p><p>Sources: <a href=\"https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Graph.20Minors/with/640335582\">leanprover.zulipchat.com</a></p>",
+   "date_published": "2026-11-14T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "graph theory",
+    "graph minors",
+    "formalization"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-13/#2026-11-13-grothendieck-labs-publishes-a-lean-formalization-of-grothendieck",
    "url": "https://leanweekly.news/2026-11-13/#2026-11-13-grothendieck-labs-publishes-a-lean-formalization-of-grothendieck",
    "title": "Grothendieck Labs publishes a Lean formalization of Grothendieck–Riemann–Roch",
@@ -640,19 +653,6 @@
     "performance",
     "kernel",
     "compiler"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-sebastian-graf-lets-lean-s-vcgen-tactic-discharge-frame-conditio",
-   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-sebastian-graf-lets-lean-s-vcgen-tactic-discharge-frame-conditio",
-   "title": "Sebastian Graf lets Lean's vcgen tactic discharge frame conditions with frameproc theorems",
-   "content_html": "<p>The vcgen tactic now <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/16093\" rel=\"noopener\">discharges the frame condition</a> of each framed call with a theorem named by a <code>@[frameproc]</code>, for example one for a separation logic, so the frame condition no longer becomes a verification condition. Sebastian Graf also added the <code>@[vcgen_simp]</code> <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/15955\" rel=\"noopener\">attribute</a>, which collects <code>Sym.simp</code> theorems for vcgen.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/16093\">lean4#16093</a>, <a href=\"https://github.com/leanprover/lean4/pull/15955\">lean4#15955</a></p>",
-   "date_published": "2026-10-29T12:00:00Z",
-   "tags": [
-    "Lean core",
-    "vcgen",
-    "tactics",
-    "verification"
    ]
   }
  ]

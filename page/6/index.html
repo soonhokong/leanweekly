@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 6</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-21">Oct 21</time><button class="copy" type="button" hidden data-link="../../2026-10-22/#2026-10-22-leo-de-moura-adds-three-lia-changes-that-avoid-large-case-splits" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura adds three <code>lia</code> changes that avoid large case splits</h2>
+    <p class="card-text">The pull requests, merged October 20 and 21, add <a class="inl" href="https://github.com/leanprover/lean4/pull/15835" rel="noopener">dynamic variable reordering</a> before large Cooper splits (case splits with as many cases as a variable's coefficient), <a class="inl" href="https://github.com/leanprover/lean4/pull/15838" rel="noopener">exact elimination of equations without unit coefficients</a>, and <a class="inl" href="https://github.com/leanprover/lean4/pull/15827" rel="noopener">divisibility normalization</a>. Chains of such equations from <code>/</code> and <code>%</code> definitions no longer yield Cooper splits with thousands of cases.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15835" rel="noopener">lean4#15835</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15838" rel="noopener">lean4#15838</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15827" rel="noopener">lean4#15827</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-10-22-sebastian-ullrich-proposes-precomputed-prefix-trees-to-speed-up">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -249,16 +258,6 @@
     <h2 class="card-title">NASA Jet Propulsion Laboratory formalizes a metrology quantity calculus in Lean 4</h2>
     <p class="card-text">NASA Jet Propulsion Laboratory's <a class="inl" href="https://github.com/nasa-jpl/PropertyKindCalculus" rel="noopener">PropertyKindCalculus</a> formalizes René Dybkær's ontology on property, extended with Flater's tracking of kinds of quantities, and is described as the first in which the quantity calculus itself, beyond the taxonomy around it, is a checked artifact. It includes catalogues for eleven of the thirteen ISO/IEC 80000 parts.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/nasa-jpl/PropertyKindCalculus" rel="noopener">nasa-jpl/PropertyKindCalculus</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-24-robert-joseph-george-will-adkisson-anima-anandkumar-present-floa">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-16">Sep 16</time><button class="copy" type="button" hidden data-link="../../2026-09-24/#2026-09-24-robert-joseph-george-will-adkisson-anima-anandkumar-present-floa" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Robert Joseph George, Will Adkisson, Anima Anandkumar present FloatLib for Lean 4</h2>
-    <p class="card-text"><a class="inl" href="https://arxiv.org/abs/2609.19352" rel="noopener">FloatLib</a> is a verified arbitrary-precision floating-point arithmetic library in Lean 4 that unifies IEEE binary and decimal arithmetic, arbitrary-width posits, P3109, and user-defined formats and rounding rules. Every certified backend is proved equal to a complete encoded specification, and the library, proofs, and benchmarks are released as open source.</p>
-    <figure class="media media-paper"><img src="../../assets/img/f03b79c6cc23d575-480.webp" srcset="../../assets/img/f03b79c6cc23d575-480.webp 480w, ../../assets/img/f03b79c6cc23d575-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="906" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2609.19352" rel="noopener">arXiv:2609.19352</a></p>
   </div>
 </article>
 </div>

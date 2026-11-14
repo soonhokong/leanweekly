@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Mahdi JafariRaviz formalizes Robertson and Seymour's Graph Minors series in Lean 4](https://leanweekly.news/2026-11-14/#2026-11-14-mahdi-jafariraviz-formalizes-robertson-and-seymour-s-graph-minor): AI and formalization, 2026-11-14
 - [Grothendieck Labs publishes a Lean formalization of Grothendieck–Riemann–Roch](https://leanweekly.news/2026-11-13/#2026-11-13-grothendieck-labs-publishes-a-lean-formalization-of-grothendieck): AI and formalization, 2026-11-13
 - [Malvin Gattinger answers an open logic question using LLMs and Lean](https://leanweekly.news/2026-11-13/#2026-11-13-malvin-gattinger-answers-an-open-logic-question-using-llms-and-l): AI and formalization, 2026-11-12
 - [Igor Inozemtsev registers Lean proof of Ben Green's Problem 64 in Palomar](https://leanweekly.news/2026-11-13/#2026-11-13-igor-inozemtsev-registers-lean-proof-of-ben-green-s-problem-64-i): AI and formalization, 2026-11-13
@@ -103,7 +104,6 @@
 - [Software Verification in Lean comes to Stanford University on November 7](https://leanweekly.news/2026-10-26/#2026-10-26-software-verification-in-lean-comes-to-stanford-university-on-no): Papers and events, 2026-10-26
 - [Natalie Marleny announces formal-git, modelling about 30% of Git in Lean 4](https://leanweekly.news/2026-10-26/#2026-10-26-natalie-marleny-announces-formal-git-modelling-about-30-of-git-i): Verification, 2026-10-23
 - [John Zhuoyang Ye and Jens Palsberg verify fault-tolerant quantum compilation in Lean](https://leanweekly.news/2026-10-26/#2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum): Verification, 2026-10-20
-- [Resolution uses Claude Fable 5.1 to formalize Hironaka's resolution of singularities](https://leanweekly.news/2026-10-25/#2026-10-25-resolution-uses-claude-fable-5-1-to-formalize-hironaka-s-resolut): AI and formalization, 2026-10-20
 
 ## Weeks (Friday to Thursday)
 
@@ -145,6 +145,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 14, 2026](https://leanweekly.news/2026-11-14/items.md)
 - [Published Nov 13, 2026](https://leanweekly.news/2026-11-13/items.md)
 - [Published Nov 12, 2026](https://leanweekly.news/2026-11-12/items.md)
 - [Published Nov 11, 2026](https://leanweekly.news/2026-11-11/items.md)

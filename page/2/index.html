@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 2</h1></header>
 <div class="stream">
+<article class="card c-ai" id="2026-11-10-carlos-toledo-formalizes-a-seven-point-counterexample-to-graham">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-08">Nov 8</time><button class="copy" type="button" hidden data-link="../../2026-11-10/#2026-11-10-carlos-toledo-formalizes-a-seven-point-counterexample-to-graham" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Carlos Toledo formalizes a seven-point counterexample to Graham's spherical-set conjecture</h2>
+    <p class="card-text">Dömötör Pálvölgyi's heptagon and generic seven points on a circle (Theorem A.3 of arXiv:2609.23327) are proved non-Ramsey under formal-conjectures' definition, copied byte for byte (Ramsey: for any number of colours, every colouring of some Euclidean space has a monochromatic copy). Anthropic's Claude wrote <a class="inl" href="https://github.com/carlostoledo1891/heptagon-ramsey-lean" rel="noopener">the Lean proofs</a> under Carlos Toledo's direction, building on OpenAI's formalization.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-08-000001&amp;version=1" rel="noopener">palomar-registry.org</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/carlostoledo1891/heptagon-ramsey-lean" rel="noopener">carlostoledo1891/heptagon-ramsey-lean</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-11-10-the-anh-vu-le-registers-lean-proofs-of-brouwer-s-kakutani-s-and">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -248,15 +257,6 @@
     <h2 class="card-title">Naoya Yamashita releases lean-ritsuryo, Japanese statutory computation with proofs in Lean</h2>
     <p class="card-text">The <a class="inl" href="https://github.com/conao3/lean-ritsuryo" rel="noopener">Lean 4 library and CLI</a> (Apache-2.0 license) compute periods, deadlines, ages, holidays, and taxes under Japanese law, including income and inheritance tax. The library's functions come with proofs that they compute what the provisions say, and the CLI computes by calling them; the README also links a paper.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/conao3/lean-ritsuryo" rel="noopener">conao3/lean-ritsuryo</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-11-06-leo-de-moura-cuts-mathlib-build-instruction-counts-speeds-up-rw">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-01">Nov 1</time><button class="copy" type="button" hidden data-link="../../2026-11-06/#2026-11-06-leo-de-moura-cuts-mathlib-build-instruction-counts-speeds-up-rw" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura cuts Mathlib build instruction counts, speeds up rw tactic</h2>
-    <p class="card-text">Three interpreter and Meta changes cut <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> build instructions by 1.8% (a <a class="inl" href="https://github.com/leanprover/lean4/pull/16153" rel="noopener">cache for callee lookups</a>), 3.7% (<a class="inl" href="https://github.com/leanprover/lean4/pull/16148" rel="noopener">in-place evaluation</a> of USize, UInt64 and Array.uget/uset primitives) and 2.7% (a <a class="inl" href="https://github.com/leanprover/lean4/pull/16155" rel="noopener">cache of definition unfoldings</a>). Two others make rw faster on large goals and on goals with shared subterms.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16153" rel="noopener">lean4#16153</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16148" rel="noopener">lean4#16148</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16155" rel="noopener">lean4#16155</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16130" rel="noopener">lean4#16130</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16131" rel="noopener">lean4#16131</a></p>
   </div>
 </article>
 </div>
