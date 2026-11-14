@@ -30,8 +30,26 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 82 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 84 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-verification" id="2026-11-13-okcontract-publishes-solidity-spec-an-executable-formal-model-of">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-13">Nov 13</time><button class="copy" type="button" hidden data-link="../../2026-11-13/#2026-11-13-okcontract-publishes-solidity-spec-an-executable-formal-model-of" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">okcontract publishes Solidity Spec, an executable formal model of Solidity in Lean</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/okcontract/solidity-spec" rel="noopener">The Lean 4.29.0 package</a> targets Solidity 0.8.36 and comes with a paper on its semantics and trust boundary. Conformance checks compare selected executions with the pinned compiler and a local Cancun EVM; okcontract calls the formalization incomplete and notes that compiler compatibility, scoped to viaIR: true, is not a proof of general compiler conformance.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/okcontract/solidity-spec" rel="noopener">okcontract/solidity-spec</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-11-13-mathematics-inc-runs-linux-s-wireguard-handshake-code-in-lean-fi">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-13">Nov 13</time><button class="copy" type="button" hidden data-link="../../2026-11-13/#2026-11-13-mathematics-inc-runs-linux-s-wireguard-handshake-code-in-lean-fi" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">mathematics-inc runs Linux's WireGuard handshake code in Lean, finding undefined behaviour</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/mathematics-inc/wireguard-handshake-cerberus-lean" rel="noopener">The repository</a> holds the Cerberus Core of a program running a complete two-peer WireGuard handshake, as readable Lean modules with one definition per WireGuard C function. Running it under a C semantics in Cerberus-Lean produced output identical to an independent reference implementation and also found limitations of Cerberus and Cerberus-Lean.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/mathematics-inc/wireguard-handshake-cerberus-lean" rel="noopener">mathematics-inc/wireguard-handshake-cerberus-lean</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-11-12-bartosz-naskr-cki-publishes-lean-doom-lab-pairing-doom-play-with">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -239,24 +257,6 @@
     <h2 class="card-title">Sébastien Celles uses Lean 4 to find correctness bugs in Go</h2>
     <p class="card-text">Inspired by julia-in-lean, the <a class="inl" href="https://github.com/s-celles/go-in-lean" rel="noopener">go-in-lean proof-of-concept</a> models a bounded subset of Go (including all of math/bits), states each function's documented behaviour as a theorem, proves it with Lean's kernel and bv_decide, and turns failed proofs into Go tests. Counterexamples must reproduce in Go, and the README lists Go compiler bugs reported after human review.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/s-celles/go-in-lean" rel="noopener">s-celles/go-in-lean</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-11-02-volodymyr-pavlyshyn-s-leanrdf-certifies-rdf-entailment-with-a-ve">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-02">Nov 2</time><button class="copy" type="button" hidden data-link="../../2026-11-02/#2026-11-02-volodymyr-pavlyshyn-s-leanrdf-certifies-rdf-entailment-with-a-ve" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Volodymyr Pavlyshyn's LeanRDF certifies RDF entailment with a verified checker</h2>
-    <p class="card-text">Its <a class="inl" href="https://github.com/Volland/rdf-lean" rel="noopener">Lean 4 libraries</a> define the W3C semantics of RDF, RDFS, OWL 2 RL and EL, SPARQL 1.1 and SHACL Core. Untrusted engines, Elpi (λProlog) and oxilite (a SPARQL store on SQLite), find answers that the checker turns into theorems, and the SPARQL evaluator and SHACL validator are proven to compute their semantics exactly.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/Volland/rdf-lean" rel="noopener">Volland/rdf-lean</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-30">Oct 30</time><button class="copy" type="button" hidden data-link="../../2026-10-30/#2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Basis Research Institute proves compiled libtommath correct in Lean, finds bugs</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/BasisResearch/verified-libtommath" rel="noopener">The proofs</a> show that all 100 functions of the RV64I image of libtommath v1.3.0 (76 libtommath functions and the 24 newlib/libgcc routines they call) meet specifications as total-correctness triples on the Sail RISC-V model. Bugs found in that version include mp_invmod returning −2 for -3 and 7 instead of an inverse.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/BasisResearch/verified-libtommath" rel="noopener">BasisResearch/verified-libtommath</a></p>
   </div>
 </article>
 </div>

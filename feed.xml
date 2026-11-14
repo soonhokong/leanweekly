@@ -8,6 +8,54 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Fri, 13 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Grothendieck Labs publishes a Lean formalization of Grothendieck–Riemann–Roch</title>
+<link>https://leanweekly.news/2026-11-13/#2026-11-13-grothendieck-labs-publishes-a-lean-formalization-of-grothendieck</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-13/#2026-11-13-grothendieck-labs-publishes-a-lean-formalization-of-grothendieck</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/grothendiecklabs/grothendieck-riemann-roch" rel="noopener"&gt;The proof&lt;/a&gt; covers projective morphisms of smooth quasi-projective varieties over a field, uses no sorry and no axioms beyond Lean's standard three, and rests on Stacks for Chow groups and Chern classes. It was made on the grothendieck platform with the model Fable 5.2 in 6 hours 23 minutes.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/grothendiecklabs/grothendieck-riemann-roch"&gt;grothendiecklabs/grothendieck-riemann-roch&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Malvin Gattinger answers an open logic question using LLMs and Lean</title>
+<link>https://leanweekly.news/2026-11-13/#2026-11-13-malvin-gattinger-answers-an-open-logic-question-using-llms-and-l</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-13/#2026-11-13-malvin-gattinger-answers-an-open-logic-question-using-llms-and-l</guid>
+<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Malvin Gattinger's &lt;a class="inl" href="https://arxiv.org/abs/2611.16759" rel="noopener"&gt;arXiv paper&lt;/a&gt; gives a counterexample showing that test-free PDL (Propositional Dynamic Logic without the '?' operator) lacks Craig Interpolation, which Borzechowski et al. (2026) showed PDL has. The example was originally obtained using LLMs and Lean, and the paper links to all prompts, LLM output summaries and &lt;a class="inl" href="https://doi.org/10.5281/zenodo.23987961" rel="noopener"&gt;the Lean proof&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.16759"&gt;arXiv:2611.16759&lt;/a&gt;, &lt;a href="https://doi.org/10.5281/zenodo.23987961"&gt;doi.org&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Igor Inozemtsev registers Lean proof of Ben Green's Problem 64 in Palomar</title>
+<link>https://leanweekly.news/2026-11-13/#2026-11-13-igor-inozemtsev-registers-lean-proof-of-ben-green-s-problem-64-i</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-13/#2026-11-13-igor-inozemtsev-registers-lean-proof-of-ben-green-s-problem-64-i</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-13-000010&amp;amp;version=1" rel="noopener"&gt;The proof&lt;/a&gt; shows, without additional hypotheses, that there are infinitely many primes p for which p minus 2 has an odd number of prime factors, counted with multiplicity. &lt;a class="inl" href="https://github.com/inozemtsev/formal-math" rel="noopener"&gt;The standalone development&lt;/a&gt;, credited to gpt-6 astra and adapting Jizhou Guo's argument, includes supporting analytic number theory and uses &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; as its only direct &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener"&gt;Lake&lt;/a&gt; dependency.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-13-000010&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/inozemtsev/formal-math"&gt;inozemtsev/formal-math&lt;/a&gt;, &lt;a href="https://data.palomar-registry.org/entries/PALOMAR-2026-11-13-000010-v1.json"&gt;data.palomar-registry.org&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>okcontract publishes Solidity Spec, an executable formal model of Solidity in Lean</title>
+<link>https://leanweekly.news/2026-11-13/#2026-11-13-okcontract-publishes-solidity-spec-an-executable-formal-model-of</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-13/#2026-11-13-okcontract-publishes-solidity-spec-an-executable-formal-model-of</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/okcontract/solidity-spec" rel="noopener"&gt;The Lean 4.29.0 package&lt;/a&gt; targets Solidity 0.8.36 and comes with a paper on its semantics and trust boundary. Conformance checks compare selected executions with the pinned compiler and a local Cancun EVM; okcontract calls the formalization incomplete and notes that compiler compatibility, scoped to viaIR: true, is not a proof of general compiler conformance.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/okcontract/solidity-spec"&gt;okcontract/solidity-spec&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>mathematics-inc runs Linux's WireGuard handshake code in Lean, finding undefined behaviour</title>
+<link>https://leanweekly.news/2026-11-13/#2026-11-13-mathematics-inc-runs-linux-s-wireguard-handshake-code-in-lean-fi</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-13/#2026-11-13-mathematics-inc-runs-linux-s-wireguard-handshake-code-in-lean-fi</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/mathematics-inc/wireguard-handshake-cerberus-lean" rel="noopener"&gt;The repository&lt;/a&gt; holds the Cerberus Core of a program running a complete two-peer WireGuard handshake, as readable Lean modules with one definition per WireGuard C function. Running it under a C semantics in Cerberus-Lean produced output identical to an independent reference implementation and also found limitations of Cerberus and Cerberus-Lean.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/mathematics-inc/wireguard-handshake-cerberus-lean"&gt;mathematics-inc/wireguard-handshake-cerberus-lean&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Leo de Moura is guest speaker at an NYU Courant seminar</title>
+<link>https://leanweekly.news/2026-11-13/#2026-11-13-leo-de-moura-is-guest-speaker-at-an-nyu-courant-seminar</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-13/#2026-11-13-leo-de-moura-is-guest-speaker-at-an-nyu-courant-seminar</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+<category>Papers and events</category>
+<description>&lt;p&gt;NYU Courant announced in &lt;a class="inl" href="https://x.com/NYU_Courant/status/2121352240036225061" rel="noopener"&gt;a November 13 post on X&lt;/a&gt; that Leo de Moura would speak at a special Mathematics in the Age of AI Seminar the next day at 3:30pm in Warren Weaver Hall. The post links to more information on NYU Courant's website.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://x.com/NYU_Courant/status/2121352240036225061"&gt;@NYU_Courant on X&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>AxiomMath publishes AI-written Lean formalization of Faltings' theorem, the Mordell conjecture</title>
 <link>https://leanweekly.news/2026-11-13/#2026-11-13-axiommath-publishes-ai-written-lean-formalization-of-faltings-th</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-13/#2026-11-13-axiommath-publishes-ai-written-lean-formalization-of-faltings-th</guid>
@@ -358,54 +406,6 @@
 <pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
 <category>Lean core</category>
 <description>&lt;p&gt;The vcgen tactic now &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16093" rel="noopener"&gt;discharges the frame condition&lt;/a&gt; of each framed call with a theorem named by a &lt;code&gt;@[frameproc]&lt;/code&gt;, for example one for a separation logic, so the frame condition no longer becomes a verification condition. Sebastian Graf also added the &lt;code&gt;@[vcgen_simp]&lt;/code&gt; &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/15955" rel="noopener"&gt;attribute&lt;/a&gt;, which collects &lt;code&gt;Sym.simp&lt;/code&gt; theorems for vcgen.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/16093"&gt;lean4#16093&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/15955"&gt;lean4#15955&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Researchers formalize the Strong Perfect Graph Theorem in Lean with AI agents</title>
-<link>https://leanweekly.news/2026-11-05/#2026-11-05-researchers-formalize-the-strong-perfect-graph-theorem-in-lean-w</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-05/#2026-11-05-researchers-formalize-the-strong-perfect-graph-theorem-in-lean-w</guid>
-<pubDate>Thu, 05 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/mahdi-jfri/StrongPerfectGraphTheorem" rel="noopener"&gt;complete Lean proof&lt;/a&gt; follows, result by result, the 2006 proof by Maria Chudnovsky, Neil Robertson, Paul Seymour and Robin Thomas that a finite graph is perfect (every induced subgraph's chromatic number equals its clique number) exactly when it is Berge (it and its complement lack induced odd cycles of length at least five).&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/mahdi-jfri/StrongPerfectGraphTheorem"&gt;mahdi-jfri/StrongPerfectGraphTheorem&lt;/a&gt;, &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-06-000006&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Axiom Math formalizes the Stacks Project in Lean with AI agents</title>
-<link>https://leanweekly.news/2026-11-04/#2026-11-04-axiom-math-formalizes-the-stacks-project-in-lean-with-ai-agents</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-axiom-math-formalizes-the-stacks-project-in-lean-with-ai-agents</guid>
-<pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;The library, &lt;a class="inl" href="https://github.com/AxiomMath/Stacks" rel="noopener"&gt;Stacks&lt;/a&gt;, covers chapters 3 to 109 of the open-source algebraic geometry reference in over 15 million lines of code; Lean's kernel checks every proof, but only the StacksCore tier is human-reviewed. &lt;a class="inl" href="https://axiommath.ai/research/the-stacks-project-formalized/" rel="noopener"&gt;Axiom Math&lt;/a&gt; found several Stacks Project statements that do not hold in the generality stated and formalized corrected versions alongside counterexamples.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://axiommath.ai/research/the-stacks-project-formalized/"&gt;axiommath.ai&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Stacks.20Project/with/637577442"&gt;leanprover.zulipchat.com&lt;/a&gt;, &lt;a href="https://github.com/AxiomMath/Stacks"&gt;AxiomMath/Stacks&lt;/a&gt;, &lt;a href="https://stacks.axiommath.ai/"&gt;stacks.axiommath.ai&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Fedor Popov and Leonardo Rastelli release LeanVOA, a vertex operator algebra library</title>
-<link>https://leanweekly.news/2026-11-04/#2026-11-04-fedor-popov-and-leonardo-rastelli-release-leanvoa-a-vertex-opera</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-fedor-popov-and-leonardo-rastelli-release-leanvoa-a-vertex-opera</guid>
-<pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/Fedor-Popov/Lean_VOA" rel="noopener"&gt;Mathlib-based library&lt;/a&gt; (11,660 Lean files, 3,752,244 lines) constructs the Moonshine module, formalizes Zhu's modular invariance and Huang's tensor categories, and proves new results, declaring no axiom of its own. Under the authors' direction, AI agents (Claude Opus, Claude Fable, Codex) wrote the Lean code and first drafts of a 2,337-page companion book.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/Fedor-Popov/Lean_VOA"&gt;Fedor-Popov/Lean_VOA&lt;/a&gt;, &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/583339-AI-authored-projects/topic/LeanVOA.3A.20vertex.20operator.20algebras.20in.20Lean/with/637543686"&gt;leanprover.zulipchat.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Mahdi JafariRaviz's repository formalizes a quasipolynomial-time graph isomorphism algorithm in Lean</title>
-<link>https://leanweekly.news/2026-11-04/#2026-11-04-mahdi-jafariraviz-s-repository-formalizes-a-quasipolynomial-time</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-mahdi-jafariraviz-s-repository-formalizes-a-quasipolynomial-time</guid>
-<pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/mahdi-jfri/GraphIsomorphismLog2" rel="noopener"&gt;The proof&lt;/a&gt; writes the whole deterministic algorithm from a paper by MohammadTaghi Hajiaghayi and Mahdi JafariRaviz as one program for a simple machine and proves it gives correct answers within the time bound. Ten results from the literature, each relying on the classification of finite simple groups, serve as axioms.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/mahdi-jfri/GraphIsomorphismLog2"&gt;mahdi-jfri/GraphIsomorphismLog2&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Scott Armstrong and Ahmed Bou-Rabee fully formalize Elboim-Sly paper with AI agents</title>
-<link>https://leanweekly.news/2026-11-04/#2026-11-04-scott-armstrong-and-ahmed-bou-rabee-fully-formalize-elboim-sly-p</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-scott-armstrong-and-ahmed-bou-rabee-fully-formalize-elboim-sly-p</guid>
-<pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;Dor Elboim and Allan Sly proved &lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-04-000011&amp;amp;version=1" rel="noopener"&gt;Tóth's conjecture&lt;/a&gt; in five or more dimensions: the interchange process (particles swapping across lattice edges whose Poisson clocks ring), run long enough, yields a permutation with infinite cycles. Claude Opus 5.5 and Claude Sonnet 5.5 wrote &lt;a class="inl" href="https://github.com/scottnarmstrong/elboim-sly" rel="noopener"&gt;the Lean code&lt;/a&gt; (about 180,000 lines), which assumes nothing the paper cites.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/scottnarmstrong/elboim-sly"&gt;scottnarmstrong/elboim-sly&lt;/a&gt;, &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-04-000011&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Xi Yin, Michael R. Douglas and Anna Mei machine-check the Osterwalder-Schrader correspondence</title>
-<link>https://leanweekly.news/2026-11-04/#2026-11-04-xi-yin-michael-r-douglas-and-anna-mei-machine-check-the-osterwal</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-04/#2026-11-04-xi-yin-michael-r-douglas-and-anna-mei-machine-check-the-osterwal</guid>
-<pubDate>Wed, 04 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/mrdouglasny/OSreconstruction-comparator" rel="noopener"&gt;Three Lean theorems&lt;/a&gt;, registered in the &lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-04-000010&amp;amp;version=1" rel="noopener"&gt;Palomar Registry&lt;/a&gt;, go from Euclidean Schwinger functions to relativistic Wightman distributions and back, in every positive spatial dimension. Euclidean growth is assumed and not recovered, so the two directions do not compose to a biconditional; field operators are not reconstructed, and four conventions are weaker than textbook ones.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-04-000010&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/mrdouglasny/OSreconstruction-comparator"&gt;mrdouglasny/OSreconstruction-comparator&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

@@ -4,6 +4,12 @@
 
 ## Latest items
 
+- [Grothendieck Labs publishes a Lean formalization of Grothendieck–Riemann–Roch](https://leanweekly.news/2026-11-13/#2026-11-13-grothendieck-labs-publishes-a-lean-formalization-of-grothendieck): AI and formalization, 2026-11-13
+- [Malvin Gattinger answers an open logic question using LLMs and Lean](https://leanweekly.news/2026-11-13/#2026-11-13-malvin-gattinger-answers-an-open-logic-question-using-llms-and-l): AI and formalization, 2026-11-12
+- [Igor Inozemtsev registers Lean proof of Ben Green's Problem 64 in Palomar](https://leanweekly.news/2026-11-13/#2026-11-13-igor-inozemtsev-registers-lean-proof-of-ben-green-s-problem-64-i): AI and formalization, 2026-11-13
+- [okcontract publishes Solidity Spec, an executable formal model of Solidity in Lean](https://leanweekly.news/2026-11-13/#2026-11-13-okcontract-publishes-solidity-spec-an-executable-formal-model-of): Verification, 2026-11-13
+- [mathematics-inc runs Linux's WireGuard handshake code in Lean, finding undefined behaviour](https://leanweekly.news/2026-11-13/#2026-11-13-mathematics-inc-runs-linux-s-wireguard-handshake-code-in-lean-fi): Verification, 2026-11-13
+- [Leo de Moura is guest speaker at an NYU Courant seminar](https://leanweekly.news/2026-11-13/#2026-11-13-leo-de-moura-is-guest-speaker-at-an-nyu-courant-seminar): Papers and events, 2026-11-13
 - [AxiomMath publishes AI-written Lean formalization of Faltings' theorem, the Mordell conjecture](https://leanweekly.news/2026-11-13/#2026-11-13-axiommath-publishes-ai-written-lean-formalization-of-faltings-th): AI and formalization, 2026-11-13
 - [Dave Goel proves in Lean that Smale's mean value constant equals 4](https://leanweekly.news/2026-11-12/#2026-11-12-dave-goel-proves-in-lean-that-smale-s-mean-value-constant-equals): AI and formalization, 2026-11-12
 - [Cătălin I. Cârstea and Lauri Oksanen formalize anisotropic Calderón uniqueness in Lean](https://leanweekly.news/2026-11-12/#2026-11-12-c-t-lin-i-c-rstea-and-lauri-oksanen-formalize-anisotropic-calder): AI and formalization, 2026-11-07
@@ -98,12 +104,6 @@
 - [Natalie Marleny announces formal-git, modelling about 30% of Git in Lean 4](https://leanweekly.news/2026-10-26/#2026-10-26-natalie-marleny-announces-formal-git-modelling-about-30-of-git-i): Verification, 2026-10-23
 - [John Zhuoyang Ye and Jens Palsberg verify fault-tolerant quantum compilation in Lean](https://leanweekly.news/2026-10-26/#2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum): Verification, 2026-10-20
 - [Resolution uses Claude Fable 5.1 to formalize Hironaka's resolution of singularities](https://leanweekly.news/2026-10-25/#2026-10-25-resolution-uses-claude-fable-5-1-to-formalize-hironaka-s-resolut): AI and formalization, 2026-10-20
-- [Miles Cranmer's AI agents model Julia code in Lean and find bugs](https://leanweekly.news/2026-10-25/#2026-10-25-miles-cranmer-s-ai-agents-model-julia-code-in-lean-and-find-bugs): Verification, 2026-10-25
-- [Thomas Coratger announces EthLib, a Lean 4 library for Ethereum](https://leanweekly.news/2026-10-25/#2026-10-25-thomas-coratger-announces-ethlib-a-lean-4-library-for-ethereum): Verification, 2026-10-25
-- [Katzenpost's Lean library Cryptlib implements the Sphinx cryptographic packet format](https://leanweekly.news/2026-10-25/#2026-10-25-katzenpost-s-lean-library-cryptlib-implements-the-sphinx-cryptog): Verification, 2026-10-21
-- [GitHub user joehattori uses Aeneas and Lean to verify core crosvm components](https://leanweekly.news/2026-10-25/#2026-10-25-github-user-joehattori-uses-aeneas-and-lean-to-verify-core-crosv): Verification, 2026-10-25
-- [Joachim Breitner releases con-agua, a Lean checker with verified x86 assembly](https://leanweekly.news/2026-10-25/#2026-10-25-joachim-breitner-releases-con-agua-a-lean-checker-with-verified): Lean core, 2026-10-25
-- [AssureCode uses Lean for structured justification of AI-generated code](https://leanweekly.news/2026-10-25/#2026-10-25-assurecode-uses-lean-for-structured-justification-of-ai-generate): Verification, 2026-10-21
 
 ## Weeks (Friday to Thursday)
 
