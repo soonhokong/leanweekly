@@ -4,6 +4,8 @@
 
 ## Latest items
 
+- [Claude and Codex agents produce complete Lean formalization of restricted isometry paper](https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r): AI and formalization, 2026-11-10
+- [Lexifina formalizes the US tax code in Lean, finding 138 drafting mistakes](https://leanweekly.news/2026-11-14/#2026-11-14-lexifina-formalizes-the-us-tax-code-in-lean-finding-138-drafting): AI and formalization, 2026-11-10
 - [Mahdi JafariRaviz formalizes Robertson and Seymour's Graph Minors series in Lean 4](https://leanweekly.news/2026-11-14/#2026-11-14-mahdi-jafariraviz-formalizes-robertson-and-seymour-s-graph-minor): AI and formalization, 2026-11-14
 - [Grothendieck Labs publishes a Lean formalization of Grothendieck–Riemann–Roch](https://leanweekly.news/2026-11-13/#2026-11-13-grothendieck-labs-publishes-a-lean-formalization-of-grothendieck): AI and formalization, 2026-11-13
 - [Malvin Gattinger answers an open logic question using LLMs and Lean](https://leanweekly.news/2026-11-13/#2026-11-13-malvin-gattinger-answers-an-open-logic-question-using-llms-and-l): AI and formalization, 2026-11-12
@@ -102,8 +104,6 @@
 - [Zhe Ye and coauthors propose agentic verified optimization in Lean 4](https://leanweekly.news/2026-10-26/#2026-10-26-zhe-ye-and-coauthors-propose-agentic-verified-optimization-in-le): Verification, 2026-10-20
 - [cedar-policy publishes lean-parser-generator, which generates validated LR(1) parsers in Lean](https://leanweekly.news/2026-10-26/#2026-10-26-cedar-policy-publishes-lean-parser-generator-which-generates-val): Lean core, 2026-10-26
 - [Software Verification in Lean comes to Stanford University on November 7](https://leanweekly.news/2026-10-26/#2026-10-26-software-verification-in-lean-comes-to-stanford-university-on-no): Papers and events, 2026-10-26
-- [Natalie Marleny announces formal-git, modelling about 30% of Git in Lean 4](https://leanweekly.news/2026-10-26/#2026-10-26-natalie-marleny-announces-formal-git-modelling-about-30-of-git-i): Verification, 2026-10-23
-- [John Zhuoyang Ye and Jens Palsberg verify fault-tolerant quantum compilation in Lean](https://leanweekly.news/2026-10-26/#2026-10-26-john-zhuoyang-ye-and-jens-palsberg-verify-fault-tolerant-quantum): Verification, 2026-10-20
 
 ## Weeks (Friday to Thursday)
 

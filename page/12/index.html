@@ -32,6 +32,24 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 12</h1></header>
 <div class="stream">
+<article class="card c-verification" id="2026-05-28-cajal-introduces-talos-a-lean-4-framework-for-verifying-webassem">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-22">May 22</time><button class="copy" type="button" hidden data-link="../../2026-05-28/#2026-05-28-cajal-introduces-talos-a-lean-4-framework-for-verifying-webassem" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Cajal introduces Talos, a Lean 4 framework for verifying WebAssembly modules</h2>
+    <p class="card-text"><a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Talos.3A.20A.20Formal.20Verification.20Framework.20for.20WebAssembly/with/597057652" rel="noopener">Talos</a> provides a Wasm interpreter optimized for reasoning plus a WP calculus layer for proving program properties, with a proof that the num-integer crate's gcd using Stein's algorithm is correct. The early-stage project aims for full Wasm coverage by passing the official testsuite, and verification of any Rust crate that compiles to Wasm.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Talos.3A.20A.20Formal.20Verification.20Framework.20for.20WebAssembly/with/597057652" rel="noopener">leanprover.zulipchat.com</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-05-28-lean-s-hex-aggregator-bundles-verified-computational-algebra-lib">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-28">May 28</time><button class="copy" type="button" hidden data-link="../../2026-05-28/#2026-05-28-lean-s-hex-aggregator-bundles-verified-computational-algebra-lib" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean's hex aggregator bundles verified computational algebra libraries for Lean 4</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/kim-em/hex" rel="noopener">leanprover/hex repository</a> installs the released hex libraries at a single pinned set, including HexLLL for LLL lattice reduction and HexBerlekampZassenhaus for integer polynomial factorization. Each computational library is <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>-free, with Mathlib correspondence proofs in a separate theory library.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/kim-em/hex" rel="noopener">kim-em/hex</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-05-28-kim-morrison-splits-lean-s-implicit-transparency-level-into-impl">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -229,24 +247,6 @@
     <h2 class="card-title">Wojciech Różowski moves Batteries linters into Lean core and extends lake lint</h2>
     <p class="card-text">Wojciech Różowski <a class="inl" href="https://github.com/leanprover/lean4/pull/13513" rel="noopener">upstreamed the dupNamespace and unnecessarySeqFocus linters</a> from <a class="inl" href="https://github.com/leanprover-community/batteries" rel="noopener">Batteries</a> to core Lean as &quot;clippy&quot; linters, which are disabled by default and run with lake lint --clippy. lake lint --builtin-lint now also supports text linters, and a new script reports deprecated modules, options and syntax usage.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13513" rel="noopener">lean4#13513</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13538" rel="noopener">lean4#13538</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13540" rel="noopener">lean4#13540</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13586" rel="noopener">lean4#13586</a></p>
-  </div>
-</article>
-<article class="card c-papers" id="2026-05-07-leo-de-moura-presents-machine-checked-mathematics-talk-at-stanfo">
-  <span class="avatar" aria-hidden="true">¶</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-01">May 1</time><button class="copy" type="button" hidden data-link="../../2026-05-07/#2026-05-07-leo-de-moura-presents-machine-checked-mathematics-talk-at-stanfo" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura presents machine-checked mathematics talk at Stanford symposium</h2>
-    <p class="card-text">Leo de Moura, Chief Architect of the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, spoke on &quot;Machine-Checked Mathematics in the Age of AI&quot; at the Stanford Future of Mathematics Symposium on May 1, 2026. <a class="inl" href="https://leodemoura.github.io/static/stanford-fmi-2026/" rel="noopener">The slides</a>, written in Verso, cover <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>'s 270,000+ formalized theorems, <a class="inl" href="https://github.com/leanprover/verso-blueprint" rel="noopener">Verso Blueprint</a>, Comparator (a judge for Lean proofs), and Lean-based IMO medal AIs.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/stanford-fmi-2026/" rel="noopener">leodemoura.github.io</a></p>
-  </div>
-</article>
-<article class="card c-papers" id="2026-05-07-leo-de-moura-presents-lean-4-at-nasa-formal-methods-symposium">
-  <span class="avatar" aria-hidden="true">¶</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/papers/">Papers and events</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-03-18">Mar 18</time><button class="copy" type="button" hidden data-link="../../2026-05-07/#2026-05-07-leo-de-moura-presents-lean-4-at-nasa-formal-methods-symposium" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura presents Lean 4 at NASA Formal Methods Symposium</h2>
-    <p class="card-text">Leo de Moura, Chief Architect of the <a class="inl" href="https://lean-fro.org/" rel="noopener">Lean FRO</a>, presents &quot;Lean 4: A Unified Platform for Programming and Verification&quot; at the <a class="inl" href="https://leodemoura.github.io/static/nfm2026/" rel="noopener">NASA Formal Methods Symposium</a> on May 6, 2026. The talk covers <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a>, Lean's new proof automation, and industry verification work including Cedar, SampCert, and SymCrypt.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leodemoura.github.io/static/nfm2026/" rel="noopener">leodemoura.github.io</a></p>
   </div>
 </article>
 </div>

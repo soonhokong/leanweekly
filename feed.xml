@@ -6,7 +6,23 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 14 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Claude and Codex agents produce complete Lean formalization of restricted isometry paper</title>
+<link>https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.14475" rel="noopener"&gt;The paper&lt;/a&gt;, by Christian Kümmerle and Dustin G. Mixon, constructs explicit restricted isometries (measurement matrices for compressed sensing) beyond the square-root barrier believed to limit its proof technique. The agents, directed by the authors, proved every numbered result, including the needed case of Zahl's sphere-tangency theorem, but no running-time bound.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/ckuemmerle/ExplicitRIPTwoThirds"&gt;ckuemmerle/ExplicitRIPTwoThirds&lt;/a&gt;, &lt;a href="https://arxiv.org/abs/2611.14475"&gt;arXiv:2611.14475&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.14475.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Lexifina formalizes the US tax code in Lean, finding 138 drafting mistakes</title>
+<link>https://leanweekly.news/2026-11-14/#2026-11-14-lexifina-formalizes-the-us-tax-code-in-lean-finding-138-drafting</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-14/#2026-11-14-lexifina-formalizes-the-us-tax-code-in-lean-finding-138-drafting</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://lexifina.com/blog/formalizing-the-us-tax-code" rel="noopener"&gt;Lexifina&lt;/a&gt; used AI to translate each section of the tax law into Lean, staying close to the statute's own words, and tested it against worked examples in IRS forms and instructions. Each drafting mistake has a Lean certificate proving the fault, and a comparison with three tax programs found bugs in Tax-Calculator and UsTaxes.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://lexifina.com/blog/formalizing-the-us-tax-code"&gt;lexifina.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Mahdi JafariRaviz formalizes Robertson and Seymour's Graph Minors series in Lean 4</title>
 <link>https://leanweekly.news/2026-11-14/#2026-11-14-mahdi-jafariraviz-formalizes-robertson-and-seymour-s-graph-minor</link>
@@ -390,22 +406,6 @@
 <pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/conao3/lean-ritsuryo" rel="noopener"&gt;Lean 4 library and CLI&lt;/a&gt; (Apache-2.0 license) compute periods, deadlines, ages, holidays, and taxes under Japanese law, including income and inheritance tax. The library's functions come with proofs that they compute what the provisions say, and the CLI computes by calling them; the README also links a paper.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/conao3/lean-ritsuryo"&gt;conao3/lean-ritsuryo&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Leo de Moura cuts Mathlib build instruction counts, speeds up rw tactic</title>
-<link>https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-cuts-mathlib-build-instruction-counts-speeds-up-rw</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-cuts-mathlib-build-instruction-counts-speeds-up-rw</guid>
-<pubDate>Sun, 01 Nov 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;Three interpreter and Meta changes cut &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; build instructions by 1.8% (a &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16153" rel="noopener"&gt;cache for callee lookups&lt;/a&gt;), 3.7% (&lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16148" rel="noopener"&gt;in-place evaluation&lt;/a&gt; of USize, UInt64 and Array.uget/uset primitives) and 2.7% (a &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16155" rel="noopener"&gt;cache of definition unfoldings&lt;/a&gt;). Two others make rw faster on large goals and on goals with shared subterms.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/16153"&gt;lean4#16153&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/16148"&gt;lean4#16148&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/16155"&gt;lean4#16155&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/16130"&gt;lean4#16130&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/16131"&gt;lean4#16131&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Leo de Moura fixes three quadratic performance issues in Lean</title>
-<link>https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-fixes-three-quadratic-performance-issues-in-lean</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-fixes-three-quadratic-performance-issues-in-lean</guid>
-<pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;The issues include an &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16107" rel="noopener"&gt;Expr hash collision&lt;/a&gt;: chains of the same application with different lengths could share hashes, so kernel cache lookups compared them structurally and checks became quadratic. The other two are &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16046" rel="noopener"&gt;quadratic elaboration of large string-literal equalities&lt;/a&gt; and &lt;a class="inl" href="https://github.com/leanprover/lean4/pull/16049" rel="noopener"&gt;quadratic compilation of large list literals&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leanprover/lean4/pull/16107"&gt;lean4#16107&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/16046"&gt;lean4#16046&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/pull/16049"&gt;lean4#16049&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
