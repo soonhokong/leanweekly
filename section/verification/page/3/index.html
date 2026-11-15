@@ -30,8 +30,35 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Verification, page 3</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 84 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Verification, page 3</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 87 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-verification" id="2026-10-23-giulio-rebuffo-s-janus-verifies-compiled-go-arm64-machine-code-i">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-23">Oct 23</time><button class="copy" type="button" hidden data-link="../../../../2026-10-23/#2026-10-23-giulio-rebuffo-s-janus-verifies-compiled-go-arm64-machine-code-i" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Giulio rebuffo's Janus verifies compiled Go arm64 machine code in Lean 4</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/Giulio2002/Janus" rel="noopener">Janus</a>, an early work in progress, decodes instructions in Lean and does not trust the Go compiler, linker, or any source-level reasoning. Every load and store must fall inside a caller-provided allocation, and Go runtime panic stubs (bounds checks, nil, divide) are named outcomes, so &quot;this function never panics&quot; is provable.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/Giulio2002/Janus" rel="noopener">Giulio2002/Janus</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-22">Oct 22</time><button class="copy" type="button" hidden data-link="../../../../2026-10-22/#2026-10-22-atomslab-s-leansmiles-formalizes-molecular-representations-and-l" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">ATOMSLab's LeanSMILES formalizes molecular representations and learning algorithms in Lean</h2>
+    <p class="card-text">The repository's <a class="inl" href="https://github.com/ATOMSLab/LeanSMILES" rel="noopener">SMILES toolkit</a> parses SMILES strings into typed molecular graphs, with a canonicity proof for canonical SMILES and an order-invariance proof for RDKit-compatible Morgan fingerprints. Its LeanLearn library covers linear and logistic regression, and the machine-learning pipeline from SMILES to model runs in Lean, with results checked against scikit-learn.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/ATOMSLab/LeanSMILES" rel="noopener">ATOMSLab/LeanSMILES</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-22">Oct 22</time><button class="copy" type="button" hidden data-link="../../../../2026-10-22/#2026-10-22-tanner-duve-of-logical-intelligence-offers-veil-an-invariant-syn" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Tanner Duve of Logical Intelligence offers Veil an invariant-synthesis tactic</h2>
+    <p class="card-text">Written for <a class="inl" href="https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr" rel="noopener">Veil</a>, a Lean-based verifier for transition systems, <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646" rel="noopener">#synthesize_invariants</a> runs the universal PDR algorithm on a module and its safety property. It returns inductive invariants or a counterexample (both proven sound), a &quot;no universal invariant&quot; result (not proven sound) or &quot;unknown&quot;; it succeeded on every <a class="inl" href="https://veil.dev/" rel="noopener">Veil</a> example tested within its supported fragment.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://leanprover.zulipchat.com/#narrow/channel/537982-Veil/topic/.23synthesize_invariants.20tactic.20using.20PDR.20algorithm/with/634045646" rel="noopener">leanprover.zulipchat.com</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/verse-lab/veil/compare/main...tannerduve:veil:updr" rel="noopener">verse-lab/veil</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-10-21-ai-agents-help-researchers-discover-a-new-consensus-protocol-ver">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -230,34 +257,6 @@
     <p class="card-text"><a class="inl" href="https://www.beneficialaifoundation.org/blog/signal-shot" rel="noopener">The Beneficial AI Foundation</a> is verifying the Signal protocol and its Rust implementation in Lean, a public project meant to show that formal verification of major applications is doable today. The plan proves security properties of a protocol model, then uses the <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a> tool to translate Signal's Rust code to Lean and check it against that model.</p>
     <figure class="media"><img src="../../../../assets/img/50e58a830c2af137-480.webp" srcset="../../../../assets/img/50e58a830c2af137-480.webp 480w, ../../../../assets/img/50e58a830c2af137-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="966" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: beneficialaifoundation.org</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.beneficialaifoundation.org/blog/signal-shot" rel="noopener">beneficialaifoundation.org</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-04-23-dsyme-s-lean-squad-workflow-applies-lean-4-verification-to-three">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-20">Apr 20</time><button class="copy" type="button" hidden data-link="../../../../2026-04-23/#2026-04-23-dsyme-s-lean-squad-workflow-applies-lean-4-verification-to-three" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Dsyme's Lean Squad workflow applies Lean 4 verification to three codebases</h2>
-    <p class="card-text"><a class="inl" href="https://dsyme.net/2026/04/20/lean-squad-automated-software-verification-with-near-zero-human-labour/" rel="noopener">Lean Squad</a>, a GitHub Agentic Workflow, proved 443 theorems for raft-rs with three human nudge comments for about $240, and 518 theorems for Cloudflare's quiche, where it found an Ord antisymmetry violation. It also proved 259 theorems for PX4-Autopilot and found 2 bugs. Every definition and theorem statement is AI written.</p>
-    <figure class="media"><img src="../../../../assets/img/314fb8fec35ee694-480.webp" srcset="../../../../assets/img/314fb8fec35ee694-480.webp 480w, ../../../../assets/img/314fb8fec35ee694-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="936" height="671" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: dsyme.net</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://dsyme.net/2026/04/20/lean-squad-automated-software-verification-with-near-zero-human-labour/" rel="noopener">dsyme.net</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-04-23-alexandre-rademaker-presents-a-port-of-aws-s-s2n-bignum-to-lean">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-23">Apr 23</time><button class="copy" type="button" hidden data-link="../../../../2026-04-23/#2026-04-23-alexandre-rademaker-presents-a-port-of-aws-s-s2n-bignum-to-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Alexandre Rademaker presents a port of AWS's s2n-bignum to Lean 4</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/atlas-computing-org/bignum" rel="noopener">s2n-bignum</a> is a collection of integer arithmetic routines in pure machine code for cryptographic applications, and each function ships with a machine-checked proof in HOL Light. The <a class="inl" href="https://arademaker.github.io/sviL-hackathon-2026/" rel="noopener">CSLib Community port</a>, presented at INRIA Paris 2026, covers the ARM (aarch64) part first, with the first two tutorials completed.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arademaker.github.io/sviL-hackathon-2026/" rel="noopener">arademaker.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/atlas-computing-org/bignum" rel="noopener">atlas-computing-org/bignum</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-04-09-veil-verifies-distributed-protocols-with-a-framework-embedded-in">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-09">Apr 9</time><button class="copy" type="button" hidden data-link="../../../../2026-04-09/#2026-04-09-veil-verifies-distributed-protocols-with-a-framework-embedded-in" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Veil verifies distributed protocols with a framework embedded in Lean</h2>
-    <p class="card-text"><a class="inl" href="https://lean-lang.org/" rel="noopener">Veil</a> is an open-source multi-modal verification framework for distributed protocols, embedded in Lean. It combines symbolic and concrete model checking, SMT-based automated proofs, and interactive theorem proving in a single tool with foundational guarantees and in-editor feedback.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/" rel="noopener">lean-lang.org</a></p>
   </div>
 </article>
 </div>

@@ -6,6 +6,71 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-15/#2026-11-15-mark-lewko-formalizes-sharp-kakeya-bounds-in-every-dimension-wit",
+   "url": "https://leanweekly.news/2026-11-15/#2026-11-15-mark-lewko-formalizes-sharp-kakeya-bounds-in-every-dimension-wit",
+   "title": "Mark Lewko formalizes sharp Kakeya bounds in every dimension, with AI assistance",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-15-000001&amp;version=1\" rel=\"noopener\">Palomar registry entry</a> proves two upper estimates, on the Kakeya maximal operator (largest averages over tubes around unit segments in each direction) and weighted tube overlaps, and says they imply the Kakeya maximal function conjecture. Only those two estimates are Lean theorems, and the <a class=\"inl\" href=\"https://github.com/mrklwk/kakeya-sharp\" rel=\"noopener\">repository</a> discloses the lack of independent human mathematical review.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-15-000001&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/mrklwk/kakeya-sharp\">mrklwk/kakeya-sharp</a></p>",
+   "date_published": "2026-11-15T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "kakeya",
+    "palomar",
+    "ai-assisted"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-15/#2026-11-15-juan-pablo-traverso-gianini-directs-ai-to-formalize-peter-keevas",
+   "url": "https://leanweekly.news/2026-11-15/#2026-11-15-juan-pablo-traverso-gianini-directs-ai-to-formalize-peter-keevas",
+   "title": "Juan Pablo Traverso Gianini directs AI to formalize Peter Keevash's triangle-decomposition theorem",
+   "content_html": "<p>Written by Harmonic's Aristotle and Claude Opus 5.5, the <a class=\"inl\" href=\"https://github.com/jtraverso/keevash-triangle-decompositions\" rel=\"noopener\">Lean proof of Theorem 2.1</a> of &quot;Counting designs&quot; assumes typicality on every set of at most 16 vertices, stronger than the paper's pairs-only hypothesis, so the paper's version is not covered. The proof replaces the Completion stage's random greedy algorithms with a deterministic potential argument.</p><p>Sources: <a href=\"https://github.com/jtraverso/keevash-triangle-decompositions\">jtraverso/keevash-triangle-decompositions</a>, <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-14-000022&amp;version=1\">palomar-registry.org</a></p>",
+   "date_published": "2026-11-14T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "combinatorics",
+    "palomar",
+    "ai-assisted"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-15/#2026-11-15-nethermind-s-foxglove-formalizes-a-separation-logic-for-probabil",
+   "url": "https://leanweekly.news/2026-11-15/#2026-11-15-nethermind-s-foxglove-formalizes-a-separation-logic-for-probabil",
+   "title": "Nethermind's Foxglove formalizes a separation logic for probabilistic programs in Lean",
+   "content_html": "<p>Built on iris-lean, <a class=\"inl\" href=\"https://github.com/NethermindEth/Foxglove\" rel=\"noopener\">Foxglove</a> adapts the Bluebell logic of Bao, D'Osualdo and Farzan to functional programs and is intended to support verifying cryptographic primitives formalized in ArkLib. Every rule of the logic is proved against a semantic model with no axioms beyond Lean's own, and the Ethereum Foundation funded the work.</p><p>Sources: <a href=\"https://github.com/NethermindEth/Foxglove\">NethermindEth/Foxglove</a>, <a href=\"https://reservoir.lean-lang.org/@NethermindEth/foxglove\">reservoir.lean-lang.org</a></p>",
+   "date_published": "2026-11-13T12:00:00Z",
+   "tags": [
+    "Verification",
+    "separation logic",
+    "cryptography",
+    "iris-lean"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-15/#2026-11-15-scidonia-limited-ports-libexpat-s-xml-1-0-parsing-semantics-to-l",
+   "url": "https://leanweekly.news/2026-11-15/#2026-11-15-scidonia-limited-ports-libexpat-s-xml-1-0-parsing-semantics-to-l",
+   "title": "Scidonia Limited ports libexpat's XML 1.0 parsing semantics to Lean 4",
+   "content_html": "<p>The port, <a class=\"inl\" href=\"https://github.com/scidonia/lexpat\" rel=\"noopener\">lexpat</a>, is aimed at untrusted input and has a resumable streaming core, machine-checked properties of its UTF-8 decoder, and a bounded differential fixture against libexpat. A C header and shared library for x86_64-linux provide a subset of libexpat's XML_* calls; namespace processing, DTDs and external entities are not implemented.</p><p>Sources: <a href=\"https://github.com/scidonia/lexpat\">scidonia/lexpat</a>, <a href=\"https://reservoir.lean-lang.org/@scidonia/lexpat\">reservoir.lean-lang.org</a></p>",
+   "date_published": "2026-11-14T12:00:00Z",
+   "tags": [
+    "Verification",
+    "xml",
+    "parsing",
+    "security"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust",
+   "url": "https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust",
+   "title": "emberian's qsag combines post-quantum threshold signing in Rust with Lean proofs",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/emberian/qsag\" rel=\"noopener\">research-preview stack</a> implements NIST FIPS 205 SLH-DSA-SHAKE and FIPS 204 ML-DSA-44, and Lean certificate checks pass for its 19 x86-64 and 9 AArch64 certified assembly kernels. Its main-library axiom audit checks 59,257 declarations, including 28,744 kernel theorem declarations, across 57 modules, with no rejected axioms.</p><p>Sources: <a href=\"https://github.com/emberian/qsag\">emberian/qsag</a></p>",
+   "date_published": "2026-11-15T12:00:00Z",
+   "tags": [
+    "Verification",
+    "cryptography",
+    "post-quantum",
+    "rust"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r",
    "url": "https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r",
    "title": "Claude and Codex agents produce complete Lean formalization of restricted isometry paper",
@@ -588,71 +653,6 @@
     "dixmier-conjecture",
     "formal-conjectures",
     "palomar"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-anthropic-releases-flashprove-with-lean-proofs-of-its-security-p",
-   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-anthropic-releases-flashprove-with-lean-proofs-of-its-security-p",
-   "title": "Anthropic releases FlashProve, with Lean proofs of its security properties",
-   "content_html": "<p>Anthropic released <a class=\"inl\" href=\"https://www.anthropic.com/research/provable-inference\" rel=\"noopener\">FlashProve</a>, which uses a zkSNARK (a type of cryptographic proof) to prove which AI model answered a request. Anthropic used Lean to specify FlashProve's protocol and prove completeness (honest proofs are accepted), soundness (fake proofs are rejected) and zero-knowledge (proofs hide the model's weights), and shipped an executable, <a class=\"inl\" href=\"https://github.com/anthropics/FlashProve\" rel=\"noopener\">provably correct Lean verifier</a>.</p><p>Sources: <a href=\"https://www.anthropic.com/research/provable-inference\">anthropic.com</a>, <a href=\"https://github.com/anthropics/FlashProve\">anthropics/FlashProve</a></p>",
-   "date_published": "2026-11-02T12:00:00Z",
-   "tags": [
-    "Verification",
-    "cryptography",
-    "zksnark",
-    "anthropic"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-kiro-proves-properties-of-its-own-agent-harness-in-lean",
-   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-kiro-proves-properties-of-its-own-agent-harness-in-lean",
-   "title": "Kiro proves properties of its own agent harness in Lean",
-   "content_html": "<p>Kiro wrote Lean models of 26 functions from its TypeScript, Rust, and Python harness (the code managing context, permissions, and state), proving 70 of 96 properties; 18 falsified ones reproduced on the real code. “Lean’s kernel checks every proof, the real code checks every finding,” says <a class=\"inl\" href=\"https://kiro.dev/blog/harness-properties-in-lean/\" rel=\"noopener\">the post</a>, which Swami Sivasubramanian <a class=\"inl\" href=\"https://www.linkedin.com/posts/swaminathansivasubramanian_automated-reasoning-has-been-a-core-investment-share-7523502466101886976-ZBJB/\" rel=\"noopener\">shared on LinkedIn</a>.</p><p>Sources: <a href=\"https://kiro.dev/blog/harness-properties-in-lean/\">kiro.dev</a>, <a href=\"https://www.linkedin.com/posts/swaminathansivasubramanian_automated-reasoning-has-been-a-core-investment-share-7523502466101886976-ZBJB/\">LinkedIn post</a></p>",
-   "date_published": "2026-11-02T12:00:00Z",
-   "tags": [
-    "Verification",
-    "kiro",
-    "ai agents",
-    "software verification"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-thanin-quartz-and-coauthors-prove-2-2-matrix-mortality-undecidab",
-   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-thanin-quartz-and-coauthors-prove-2-2-matrix-mortality-undecidab",
-   "title": "Thanin Quartz and coauthors prove 2×2 matrix mortality undecidable, checked in Lean",
-   "content_html": "<p>Matrix mortality asks whether some product of matrices from a finite family equals the zero matrix; only dimension two was open, with higher dimensions known undecidable since 1970. <a class=\"inl\" href=\"https://arxiv.org/abs/2611.06562\" rel=\"noopener\">The result</a> holds for families of 5,799 distinct 2×2 integer matrices, and a <a class=\"inl\" href=\"https://paperswithlean.com/paper/2611.06562.html\" rel=\"noopener\">Lean 4 formalization</a> checks the full reduction from halting, without project-specific axioms.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.06562\">arXiv:2611.06562</a>, <a href=\"https://paperswithlean.com/paper/2611.06562.html\">paperswithlean.com</a></p>",
-   "date_published": "2026-11-04T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "undecidability",
-    "matrix mortality",
-    "computability"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-jesse-comer-and-coauthors-present-whiel-for-lean-certified-relat",
-   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-jesse-comer-and-coauthors-present-whiel-for-lean-certified-relat",
-   "title": "Jesse Comer and coauthors present Whiel for Lean-certified relational program verification",
-   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2611.05612\" rel=\"noopener\">Whiel</a> verifies programs whose states are database instances against Hoare specifications: an LLM proposes loop invariants, and the Vampire first-order theorem prover checks their verification conditions. An independent certifier constructs Lean proofs of the original specification or its negation; the <a class=\"inl\" href=\"https://github.com/JesseComer/whiel\" rel=\"noopener\">86 benchmark tasks</a> have certified reference answers, 69 valid and 17 invalid.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.05612\">arXiv:2611.05612</a>, <a href=\"https://github.com/JesseComer/whiel\">JesseComer/whiel</a></p>",
-   "date_published": "2026-11-03T12:00:00Z",
-   "tags": [
-    "Verification",
-    "databases",
-    "neurosymbolic",
-    "certification"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-naoya-yamashita-releases-lean-ritsuryo-japanese-statutory-comput",
-   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-naoya-yamashita-releases-lean-ritsuryo-japanese-statutory-comput",
-   "title": "Naoya Yamashita releases lean-ritsuryo, Japanese statutory computation with proofs in Lean",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/conao3/lean-ritsuryo\" rel=\"noopener\">Lean 4 library and CLI</a> (Apache-2.0 license) compute periods, deadlines, ages, holidays, and taxes under Japanese law, including income and inheritance tax. The library's functions come with proofs that they compute what the provisions say, and the CLI computes by calling them; the README also links a paper.</p><p>Sources: <a href=\"https://github.com/conao3/lean-ritsuryo\">conao3/lean-ritsuryo</a></p>",
-   "date_published": "2026-11-06T12:00:00Z",
-   "tags": [
-    "Verification",
-    "law",
-    "tax",
-    "verified software"
    ]
   }
  ]

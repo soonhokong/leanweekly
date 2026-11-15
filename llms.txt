@@ -4,6 +4,11 @@
 
 ## Latest items
 
+- [Mark Lewko formalizes sharp Kakeya bounds in every dimension, with AI assistance](https://leanweekly.news/2026-11-15/#2026-11-15-mark-lewko-formalizes-sharp-kakeya-bounds-in-every-dimension-wit): AI and formalization, 2026-11-15
+- [Juan Pablo Traverso Gianini directs AI to formalize Peter Keevash's triangle-decomposition theorem](https://leanweekly.news/2026-11-15/#2026-11-15-juan-pablo-traverso-gianini-directs-ai-to-formalize-peter-keevas): AI and formalization, 2026-11-14
+- [Nethermind's Foxglove formalizes a separation logic for probabilistic programs in Lean](https://leanweekly.news/2026-11-15/#2026-11-15-nethermind-s-foxglove-formalizes-a-separation-logic-for-probabil): Verification, 2026-11-13
+- [Scidonia Limited ports libexpat's XML 1.0 parsing semantics to Lean 4](https://leanweekly.news/2026-11-15/#2026-11-15-scidonia-limited-ports-libexpat-s-xml-1-0-parsing-semantics-to-l): Verification, 2026-11-14
+- [emberian's qsag combines post-quantum threshold signing in Rust with Lean proofs](https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust): Verification, 2026-11-15
 - [Claude and Codex agents produce complete Lean formalization of restricted isometry paper](https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r): AI and formalization, 2026-11-10
 - [Lexifina formalizes the US tax code in Lean, finding 138 drafting mistakes](https://leanweekly.news/2026-11-14/#2026-11-14-lexifina-formalizes-the-us-tax-code-in-lean-finding-138-drafting): AI and formalization, 2026-11-10
 - [Mahdi JafariRaviz formalizes Robertson and Seymour's Graph Minors series in Lean 4](https://leanweekly.news/2026-11-14/#2026-11-14-mahdi-jafariraviz-formalizes-robertson-and-seymour-s-graph-minor): AI and formalization, 2026-11-14
@@ -99,11 +104,6 @@
 - [Anthropic's Claude generates Lean proof of subexponential deterministic factoring](https://leanweekly.news/2026-10-28/#2026-10-28-anthropic-s-claude-generates-lean-proof-of-subexponential-determ): AI and formalization, 2026-10-28
 - [Harmonic's Aristotle proved 185 properties of Tensordyne's most complex block](https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-proved-185-properties-of-tensordyne-s-most): Verification, 2026-10-27
 - [Harmonic's Aristotle fixes three LibTomMath bugs and verifies optimized routines](https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-fixes-three-libtommath-bugs-and-verifies-op): Verification, 2026-10-27
-- [Michael Stoll had Claude build a verified Lean 4 model of ratpoints](https://leanweekly.news/2026-10-27/#2026-10-27-michael-stoll-had-claude-build-a-verified-lean-4-model-of-ratpoi): Verification, 2026-10-27
-- [Axiom Math formalizes the classification of finite simple groups in Lean](https://leanweekly.news/2026-10-27/#2026-10-27-axiom-math-formalizes-the-classification-of-finite-simple-groups): AI and formalization, 2026-10-26
-- [Zhe Ye and coauthors propose agentic verified optimization in Lean 4](https://leanweekly.news/2026-10-26/#2026-10-26-zhe-ye-and-coauthors-propose-agentic-verified-optimization-in-le): Verification, 2026-10-20
-- [cedar-policy publishes lean-parser-generator, which generates validated LR(1) parsers in Lean](https://leanweekly.news/2026-10-26/#2026-10-26-cedar-policy-publishes-lean-parser-generator-which-generates-val): Lean core, 2026-10-26
-- [Software Verification in Lean comes to Stanford University on November 7](https://leanweekly.news/2026-10-26/#2026-10-26-software-verification-in-lean-comes-to-stanford-university-on-no): Papers and events, 2026-10-26
 
 ## Weeks (Friday to Thursday)
 
@@ -145,6 +145,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 15, 2026](https://leanweekly.news/2026-11-15/items.md)
 - [Published Nov 14, 2026](https://leanweekly.news/2026-11-14/items.md)
 - [Published Nov 13, 2026](https://leanweekly.news/2026-11-13/items.md)
 - [Published Nov 12, 2026](https://leanweekly.news/2026-11-12/items.md)
