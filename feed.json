@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-15/#2026-11-15-logan-r-chalmers-lowers-four-dimensional-borsuk-bound-to-six-for",
+   "url": "https://leanweekly.news/2026-11-15/#2026-11-15-logan-r-chalmers-lowers-four-dimensional-borsuk-bound-to-six-for",
+   "title": "Logan R. Chalmers lowers four-dimensional Borsuk bound to six, formalized in Lean",
+   "content_html": "<p>Logan R. Chalmers proves that every set of diameter one in four dimensions can be split into at most six parts of smaller diameter, improving the previous upper bound of seven; five are sometimes necessary. <a class=\"inl\" href=\"https://arxiv.org/abs/2611.17375\" rel=\"noopener\">The proof</a> uses cones, balls or a rational polytope depending on circumradius, and the theorem is formalized in Lean.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.17375\">arXiv:2611.17375</a></p>",
+   "date_published": "2026-11-10T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "geometry",
+    "borsuk",
+    "formalization"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-15/#2026-11-15-mark-lewko-formalizes-sharp-kakeya-bounds-in-every-dimension-wit",
    "url": "https://leanweekly.news/2026-11-15/#2026-11-15-mark-lewko-formalizes-sharp-kakeya-bounds-in-every-dimension-wit",
    "title": "Mark Lewko formalizes sharp Kakeya bounds in every dimension, with AI assistance",
@@ -640,19 +653,6 @@
     "formalization",
     "atiyah-singer",
     "comparator"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-zayn-blore-machine-checks-the-dixmier-conjecture-s-failure-in-di",
-   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-zayn-blore-machine-checks-the-dixmier-conjecture-s-failure-in-di",
-   "title": "Zayn Blore machine-checks the Dixmier conjecture's failure in dimension 3 and above",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-06-000008&amp;version=1\" rel=\"noopener\">Palomar registry entry</a> proves in Lean that, over any field of characteristic zero and in each dimension, the Dixmier conjecture implies the Jacobian conjecture, and checks an explicit counterexample to the Jacobian conjecture in every dimension of 3 or more. Its four statements are copied verbatim from Google DeepMind's Formal Conjectures.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-06-000008&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/zblore/fc-dixmier-jacobian\">zblore/fc-dixmier-jacobian</a></p>",
-   "date_published": "2026-11-06T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "dixmier-conjecture",
-    "formal-conjectures",
-    "palomar"
    ]
   }
  ]

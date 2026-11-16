@@ -8,6 +8,7 @@ window_end: 2026-11-15
 ## Headlines
 
 - **Mark Lewko formalizes sharp Kakeya bounds in every dimension, with AI assistance.** The Palomar registry entry proves two upper estimates, on the Kakeya maximal operator (largest averages over tubes around unit segments in each direction) and weighted tube overlaps, and says they imply the Kakeya maximal function conjecture. Only those two estimates are Lean theorems, and the repository discloses the lack of independent human mathematical review. ([palomar-registry.org](https://palomar-registry.org/entry?id=PALOMAR-2026-11-15-000001&version=1), [mrklwk/kakeya-sharp](https://github.com/mrklwk/kakeya-sharp))
+- **Logan R. Chalmers lowers four-dimensional Borsuk bound to six, formalized in Lean.** Logan R. Chalmers proves that every set of diameter one in four dimensions can be split into at most six parts of smaller diameter, improving the previous upper bound of seven; five are sometimes necessary. The proof uses cones, balls or a rational polytope depending on circumradius, and the theorem is formalized in Lean. ([arXiv:2611.17375](https://arxiv.org/abs/2611.17375))
 
 ## AI and formalization
 

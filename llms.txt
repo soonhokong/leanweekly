@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Logan R. Chalmers lowers four-dimensional Borsuk bound to six, formalized in Lean](https://leanweekly.news/2026-11-15/#2026-11-15-logan-r-chalmers-lowers-four-dimensional-borsuk-bound-to-six-for): AI and formalization, 2026-11-10
 - [Mark Lewko formalizes sharp Kakeya bounds in every dimension, with AI assistance](https://leanweekly.news/2026-11-15/#2026-11-15-mark-lewko-formalizes-sharp-kakeya-bounds-in-every-dimension-wit): AI and formalization, 2026-11-15
 - [Juan Pablo Traverso Gianini directs AI to formalize Peter Keevash's triangle-decomposition theorem](https://leanweekly.news/2026-11-15/#2026-11-15-juan-pablo-traverso-gianini-directs-ai-to-formalize-peter-keevas): AI and formalization, 2026-11-14
 - [Nethermind's Foxglove formalizes a separation logic for probabilistic programs in Lean](https://leanweekly.news/2026-11-15/#2026-11-15-nethermind-s-foxglove-formalizes-a-separation-logic-for-probabil): Verification, 2026-11-13
@@ -103,7 +104,6 @@
 - [Open-source desktop OS ZENOS releases first preview with Lean-proved security decisions](https://leanweekly.news/2026-10-28/#2026-10-28-open-source-desktop-os-zenos-releases-first-preview-with-lean-pr): Verification, 2026-10-28
 - [Anthropic's Claude generates Lean proof of subexponential deterministic factoring](https://leanweekly.news/2026-10-28/#2026-10-28-anthropic-s-claude-generates-lean-proof-of-subexponential-determ): AI and formalization, 2026-10-28
 - [Harmonic's Aristotle proved 185 properties of Tensordyne's most complex block](https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-proved-185-properties-of-tensordyne-s-most): Verification, 2026-10-27
-- [Harmonic's Aristotle fixes three LibTomMath bugs and verifies optimized routines](https://leanweekly.news/2026-10-27/#2026-10-27-harmonic-s-aristotle-fixes-three-libtommath-bugs-and-verifies-op): Verification, 2026-10-27
 
 ## Weeks (Friday to Thursday)
 

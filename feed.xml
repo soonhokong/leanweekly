@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 15 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Logan R. Chalmers lowers four-dimensional Borsuk bound to six, formalized in Lean</title>
+<link>https://leanweekly.news/2026-11-15/#2026-11-15-logan-r-chalmers-lowers-four-dimensional-borsuk-bound-to-six-for</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-15/#2026-11-15-logan-r-chalmers-lowers-four-dimensional-borsuk-bound-to-six-for</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Logan R. Chalmers proves that every set of diameter one in four dimensions can be split into at most six parts of smaller diameter, improving the previous upper bound of seven; five are sometimes necessary. &lt;a class="inl" href="https://arxiv.org/abs/2611.17375" rel="noopener"&gt;The proof&lt;/a&gt; uses cones, balls or a rational polytope depending on circumradius, and the theorem is formalized in Lean.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.17375"&gt;arXiv:2611.17375&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Mark Lewko formalizes sharp Kakeya bounds in every dimension, with AI assistance</title>
 <link>https://leanweekly.news/2026-11-15/#2026-11-15-mark-lewko-formalizes-sharp-kakeya-bounds-in-every-dimension-wit</link>
@@ -398,14 +406,6 @@
 <pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://github.com/alpha-squared-labs/Lean-Atiyah-Singer" rel="noopener"&gt;The project&lt;/a&gt; also covers the theorem's cohomological and twisted spin Dirac formulations, and Comparator, a harness checking seven independently written propositions, reported acceptance by both Lean's default kernel and the Nanoda kernel. AI assisted with Lean statements and proof development under human maintainers' responsibility; no new mathematical theorem is claimed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/alpha-squared-labs/Lean-Atiyah-Singer"&gt;alpha-squared-labs/Lean-Atiyah-Singer&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Zayn Blore machine-checks the Dixmier conjecture's failure in dimension 3 and above</title>
-<link>https://leanweekly.news/2026-11-06/#2026-11-06-zayn-blore-machine-checks-the-dixmier-conjecture-s-failure-in-di</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-06/#2026-11-06-zayn-blore-machine-checks-the-dixmier-conjecture-s-failure-in-di</guid>
-<pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-06-000008&amp;amp;version=1" rel="noopener"&gt;Palomar registry entry&lt;/a&gt; proves in Lean that, over any field of characteristic zero and in each dimension, the Dixmier conjecture implies the Jacobian conjecture, and checks an explicit counterexample to the Jacobian conjecture in every dimension of 3 or more. Its four statements are copied verbatim from Google DeepMind's Formal Conjectures.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-06-000008&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/zblore/fc-dixmier-jacobian"&gt;zblore/fc-dixmier-jacobian&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
