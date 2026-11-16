@@ -6,6 +6,32 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-aaron-elijah-mars-verifies-15-ethereum-tokens-deployed-bytecode",
+   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-aaron-elijah-mars-verifies-15-ethereum-tokens-deployed-bytecode",
+   "title": "Aaron Elijah Mars verifies 15 Ethereum tokens' deployed bytecode in Lean 4",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/aaronjmars/proven-tokens\" rel=\"noopener\">The proofs</a>, 7,024 theorems in total, cover every input, caller and order of calls for tokens worth about $54 billion on Ethereum, including DAI, UNI, SHIB and PEPE. They show balances always add up to the total supply (or supply grows only as the rules say) and who can mint, freeze, blacklist or pause.</p><p>Sources: <a href=\"https://github.com/aaronjmars/proven-tokens\">aaronjmars/proven-tokens</a></p>",
+   "date_published": "2026-11-16T12:00:00Z",
+   "tags": [
+    "Verification",
+    "ethereum",
+    "smart contracts",
+    "evm"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-nyxfoundation-publishes-leanasm-a-lean-4-foundation-for-verified",
+   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-nyxfoundation-publishes-leanasm-a-lean-4-foundation-for-verified",
+   "title": "NyxFoundation publishes LeanAsm, a Lean 4 foundation for verified RV64 assembly",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/NyxFoundation/LeanAsm\" rel=\"noopener\">LeanAsm</a> covers typed RV64IM (RISC-V) and scalar x86-64 assembly, executable machine semantics, encoding, and source emission; it is intended to be shared by ssz-asm, cl-asm, and p2p-asm. Its architecture follows the verified macro-assembly approach demonstrated by Verified-zkEVM's evm-asm while remaining independent of EVM, zkVM execution, and riscv-zkvm.</p><p>Sources: <a href=\"https://github.com/NyxFoundation/LeanAsm\">NyxFoundation/LeanAsm</a></p>",
+   "date_published": "2026-11-16T12:00:00Z",
+   "tags": [
+    "Verification",
+    "assembly",
+    "risc-v",
+    "x86-64"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-15/#2026-11-15-logan-r-chalmers-lowers-four-dimensional-borsuk-bound-to-six-for",
    "url": "https://leanweekly.news/2026-11-15/#2026-11-15-logan-r-chalmers-lowers-four-dimensional-borsuk-bound-to-six-for",
    "title": "Logan R. Chalmers lowers four-dimensional Borsuk bound to six, formalized in Lean",
@@ -627,32 +653,6 @@
     "deepmind",
     "signal",
     "cryptography"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-09/#2026-11-09-polona-durcik-registers-ai-generated-lean-proof-on-triangles-in",
-   "url": "https://leanweekly.news/2026-11-09/#2026-11-09-polona-durcik-registers-ai-generated-lean-proof-on-triangles-in",
-   "title": "Polona Durcik registers AI-generated Lean proof on triangles in positive-density sets",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-10-000004&amp;version=1\" rel=\"noopener\">Palomar registry entry</a> formalizes the theorem that every Lebesgue measurable planar set with positive upper Banach density contains a translated and rotated copy of every sufficiently large dilate of any fixed noncollinear triangle. The proof was developed using GPT 6 Astra Pro with human oversight; Claude Opus 5.5 Medium generated the <a class=\"inl\" href=\"https://github.com/durcikp/lean-trianglesinplane\" rel=\"noopener\">Lean formalization</a>.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-10-000004&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/durcikp/lean-trianglesinplane\">durcikp/lean-trianglesinplane</a></p>",
-   "date_published": "2026-11-09T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "autoformalization",
-    "ai-proofs",
-    "palomar"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-06/#2026-11-06-alpha-squared-labs-formalizes-the-atiyah-singer-index-theorem-in",
-   "url": "https://leanweekly.news/2026-11-06/#2026-11-06-alpha-squared-labs-formalizes-the-atiyah-singer-index-theorem-in",
-   "title": "Alpha Squared Labs formalizes the Atiyah–Singer index theorem in Lean 4",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/alpha-squared-labs/Lean-Atiyah-Singer\" rel=\"noopener\">The project</a> also covers the theorem's cohomological and twisted spin Dirac formulations, and Comparator, a harness checking seven independently written propositions, reported acceptance by both Lean's default kernel and the Nanoda kernel. AI assisted with Lean statements and proof development under human maintainers' responsibility; no new mathematical theorem is claimed.</p><p>Sources: <a href=\"https://github.com/alpha-squared-labs/Lean-Atiyah-Singer\">alpha-squared-labs/Lean-Atiyah-Singer</a></p>",
-   "date_published": "2026-11-06T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "formalization",
-    "atiyah-singer",
-    "comparator"
    ]
   }
  ]
