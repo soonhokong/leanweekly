@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [AxiomMath formalizes the minimal model program in dimension at most four](https://leanweekly.news/2026-11-17/#2026-11-17-axiommath-formalizes-the-minimal-model-program-in-dimension-at-m): AI and formalization, 2026-11-17
 - [Joris Roos formalizes Carleson's theorem on Fourier series using coding agents](https://leanweekly.news/2026-11-17/#2026-11-17-joris-roos-formalizes-carleson-s-theorem-on-fourier-series-using): AI and formalization, 2026-11-17
 - [Lean harness ForShor verifies Shor's algorithm, including its asymptotic gate cost](https://leanweekly.news/2026-11-17/#2026-11-17-lean-harness-forshor-verifies-shor-s-algorithm-including-its-asy): Verification, 2026-11-16
 - [One expert directing LLM agents ports CompCert's verified compiler core to Lean](https://leanweekly.news/2026-11-17/#2026-11-17-one-expert-directing-llm-agents-ports-compcert-s-verified-compil): AI and formalization, 2026-11-16
@@ -103,7 +104,6 @@
 - [Denis Firsov verifies worst-case constant-time order maintenance in Lean 4](https://leanweekly.news/2026-10-30/#2026-10-30-denis-firsov-verifies-worst-case-constant-time-order-maintenance): Verification, 2026-10-28
 - [Lean becomes first to formalize all 100 theorems on Freek Wiedijk's list](https://leanweekly.news/2026-10-29/#2026-10-29-lean-becomes-first-to-formalize-all-100-theorems-on-freek-wiedij): AI and formalization, 2026-10-29
 - [Mathstodon user markusde posts about porting xv6 to Iris-Lean](https://leanweekly.news/2026-10-29/#2026-10-29-mathstodon-user-markusde-posts-about-porting-xv6-to-iris-lean): Verification, 2026-10-29
-- [Juan J. Manfredi completes Lean formalization of OpenAI's infinity-harmonic estimates](https://leanweekly.news/2026-10-29/#2026-10-29-juan-j-manfredi-completes-lean-formalization-of-openai-s-infinit): AI and formalization, 2026-10-29
 
 ## Weeks (Friday to Thursday)
 

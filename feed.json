@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-17/#2026-11-17-axiommath-formalizes-the-minimal-model-program-in-dimension-at-m",
+   "url": "https://leanweekly.news/2026-11-17/#2026-11-17-axiommath-formalizes-the-minimal-model-program-in-dimension-at-m",
+   "title": "AxiomMath formalizes the minimal model program in dimension at most four",
+   "content_html": "<p>AI agents wrote <a class=\"inl\" href=\"https://github.com/AxiomMath/MMP\" rel=\"noopener\">the library</a>, about 2,270 modules built on <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a> and the Stacks Project in Lean; its four-dimensional theorem follows a 2026 OpenAI paper on termination for log canonical fourfolds. Lean's kernel checks every proof, with no <code>sorry</code>, no <code>native_decide</code> and no added axiom, though humans have not yet reviewed the code.</p><p>Sources: <a href=\"https://github.com/AxiomMath/MMP\">AxiomMath/MMP</a></p>",
+   "date_published": "2026-11-17T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "algebraic geometry",
+    "ai agents",
+    "axiommath"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-17/#2026-11-17-joris-roos-formalizes-carleson-s-theorem-on-fourier-series-using",
    "url": "https://leanweekly.news/2026-11-17/#2026-11-17-joris-roos-formalizes-carleson-s-theorem-on-fourier-series-using",
    "title": "Joris Roos formalizes Carleson's theorem on Fourier series using coding agents",
@@ -640,19 +653,6 @@
     "fixed-point theorems",
     "palomar",
     "claude"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-veil-2-0-released-for-verifying-distributed-protocols-in-lean-4",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-veil-2-0-released-for-verifying-distributed-protocols-in-lean-4",
-   "title": "Veil 2.0 released for verifying distributed protocols in Lean 4",
-   "content_html": "<p>The release adds verified model checkers for safety (2 to 20 times faster than TLC) and liveness, an LTL proof mode, a TLA+-to-Veil LLM skill, and a PlusCal-style DSL. <a class=\"inl\" href=\"https://x.com/GeorgePirlea/status/2118894026858566070\" rel=\"noopener\">George Pîrlea</a> says <a class=\"inl\" href=\"https://veil.dev/\" rel=\"noopener\">Veil</a> now supports anything the TLA+ Toolbox is used for; <a class=\"inl\" href=\"https://x.com/ilyasergey/status/2118797820698521933\" rel=\"noopener\">Ilya Sergey</a> credits @zqy1018 and external contributors.</p><p>Sources: <a href=\"https://x.com/ilyasergey/status/2118797820698521933\">@ilyasergey on X</a>, <a href=\"https://x.com/GeorgePirlea/status/2118894026858566070\">@GeorgePirlea on X</a></p>",
-   "date_published": "2026-11-06T12:00:00Z",
-   "tags": [
-    "Verification",
-    "veil",
-    "distributed protocols",
-    "model checking"
    ]
   }
  ]

@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Tue, 17 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>AxiomMath formalizes the minimal model program in dimension at most four</title>
+<link>https://leanweekly.news/2026-11-17/#2026-11-17-axiommath-formalizes-the-minimal-model-program-in-dimension-at-m</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-axiommath-formalizes-the-minimal-model-program-in-dimension-at-m</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;AI agents wrote &lt;a class="inl" href="https://github.com/AxiomMath/MMP" rel="noopener"&gt;the library&lt;/a&gt;, about 2,270 modules built on &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; and the Stacks Project in Lean; its four-dimensional theorem follows a 2026 OpenAI paper on termination for log canonical fourfolds. Lean's kernel checks every proof, with no &lt;code&gt;sorry&lt;/code&gt;, no &lt;code&gt;native_decide&lt;/code&gt; and no added axiom, though humans have not yet reviewed the code.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/AxiomMath/MMP"&gt;AxiomMath/MMP&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Joris Roos formalizes Carleson's theorem on Fourier series using coding agents</title>
 <link>https://leanweekly.news/2026-11-17/#2026-11-17-joris-roos-formalizes-carleson-s-theorem-on-fourier-series-using</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-joris-roos-formalizes-carleson-s-theorem-on-fourier-series-using</guid>
@@ -398,14 +406,6 @@
 <pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;Brouwer's theorem, in every finite dimension, has &lt;a class="inl" href="https://github.com/vltanh/lean4-fixed-point" rel="noopener"&gt;two proofs&lt;/a&gt;: an analytic one, following John Milnor (1978) and C. A. Rogers (1980) and using no homology, degree theory or simplicial approximation, and one through Sperner's lemma. Claude Opus 5.5 wrote the proofs in Claude Code; no person has reviewed them, and Lean has checked them.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-10-000001&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/vltanh/lean4-fixed-point"&gt;vltanh/lean4-fixed-point&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Veil 2.0 released for verifying distributed protocols in Lean 4</title>
-<link>https://leanweekly.news/2026-11-10/#2026-11-10-veil-2-0-released-for-verifying-distributed-protocols-in-lean-4</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-veil-2-0-released-for-verifying-distributed-protocols-in-lean-4</guid>
-<pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;The release adds verified model checkers for safety (2 to 20 times faster than TLC) and liveness, an LTL proof mode, a TLA+-to-Veil LLM skill, and a PlusCal-style DSL. &lt;a class="inl" href="https://x.com/GeorgePirlea/status/2118894026858566070" rel="noopener"&gt;George Pîrlea&lt;/a&gt; says &lt;a class="inl" href="https://veil.dev/" rel="noopener"&gt;Veil&lt;/a&gt; now supports anything the TLA+ Toolbox is used for; &lt;a class="inl" href="https://x.com/ilyasergey/status/2118797820698521933" rel="noopener"&gt;Ilya Sergey&lt;/a&gt; credits @zqy1018 and external contributors.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://x.com/ilyasergey/status/2118797820698521933"&gt;@ilyasergey on X&lt;/a&gt;, &lt;a href="https://x.com/GeorgePirlea/status/2118894026858566070"&gt;@GeorgePirlea on X&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
