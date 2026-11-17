@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 157 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 158 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-11-16-lean-v4-36-0-released-with-type-class-resolution-caching-across">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-14">Oct 14</time><button class="copy" type="button" hidden data-link="../../2026-11-16/#2026-11-16-lean-v4-36-0-released-with-type-class-resolution-caching-across" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean v4.36.0 released with type class resolution caching across commands</h2>
+    <p class="card-text">The cross-command cache cuts type class resolution time on the standard library build by about 14% (<a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> gains 0.2% overall). Other changes fix many <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> bugs and several quadratic slowdowns (on a file with 4,000 definition/theorem pairs, elaboration time drops from 99 s to 32 s), and let def contracts state exception postconditions.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.36.0/" rel="noopener">v4.36.0 release notes</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/releases/tag/v4.36.0" rel="noopener">lean4 v4.36.0</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-11-06-leo-de-moura-cuts-mathlib-build-instruction-counts-speeds-up-rw">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -239,15 +248,6 @@
     <h2 class="card-title">Lake gains a samply profiling command, copied path dependencies, and separate codegen</h2>
     <p class="card-text">Kim Morrison's <code>lake samply</code> command records a CPU profile of a Lean executable and serves it to Firefox Profiler, and Mac Malone added a <code>copy</code> option for path dependencies and split <code>leanir</code> code generation into a separate <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> job. Mac Malone also published <a class="inl" href="https://nerodia.lean-lang.org/" rel="noopener">Nerodia</a>, a work-in-progress library for Lean/Python FFI inspired by PyO3.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12545" rel="noopener">lean4#12545</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15142" rel="noopener">lean4#15142</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14906" rel="noopener">lean4#14906</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15231" rel="noopener">lean4#15231</a><span class="dot" aria-hidden="true">·</span><a href="https://nerodia.lean-lang.org/" rel="noopener">nerodia.lean-lang.org</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-14">Sep 14</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-lean-4-34-0-fixes-three-kernel-soundness-issues-found-with-ai-te" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean 4.34.0 fixes three kernel soundness issues found with AI testing</h2>
-    <p class="card-text"><a class="inl" href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener">Lean 4.34.0</a>, released 2026-09-14, fixes three soundness issues found with AI adversarial testing and adds defensive kernel checks. bv_decide gets integrated with sym and <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> interactive modes and is up to six times faster, linters can carry state across commands, and lake lint gains a --code-quality mode emitting machine-readable JSON.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://lean-lang.org/doc/reference/latest/releases/v4.34.0/" rel="noopener">v4.34.0 release notes</a></p>
   </div>
 </article>
 </div>

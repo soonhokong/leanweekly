@@ -30,8 +30,18 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 3</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 157 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 3</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 158 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-08-15-guide-explains-how-to-validate-and-report-lean-kernel-soundness">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-15">Aug 15</time><button class="copy" type="button" hidden data-link="../../../../2026-08-15/#2026-08-15-guide-explains-how-to-validate-and-report-lean-kernel-soundness" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Guide explains how to validate and report Lean kernel soundness bugs</h2>
+    <p class="card-text">A &quot;<a class="inl" href="https://hackmd.io/@f6l0w8kXTciyFFqVRXVh5A/rJActgtIMx" rel="noopener">Kernel bug hunt</a>&quot; document explains what counts as a Lean kernel soundness bug and how to validate a candidate before reporting it, using lake check, <a class="inl" href="https://github.com/leanprover/comparator" rel="noopener">comparator</a> (the validation tool) or its web interface. Starting with Lean v4.35.0, the distribution bundles four additional kernels, two of them formally verified.</p>
+    <figure class="media"><img src="../../../../assets/img/155f46d5e27bbc17-480.webp" srcset="../../../../assets/img/155f46d5e27bbc17-480.webp 480w, ../../../../assets/img/155f46d5e27bbc17-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="630" alt="Kernel bug hunt - HackMD" loading="lazy" decoding="async"><figcaption class="credit">Image: hackmd.io</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://hackmd.io/@f6l0w8kXTciyFFqVRXVh5A/rJActgtIMx" rel="noopener">hackmd.io</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-08-15-sebastian-graf-extends-lean-s-def-contracts-and-vcgen-loop-verif">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -237,15 +247,6 @@
     <h2 class="card-title">Kim Morrison releases sos, a sum-of-squares tactic for Lean</h2>
     <p class="card-text"><a class="inl" href="https://kim-em.github.io/blog/2026-5-13-a-sum-of-squares-tactic/" rel="noopener">The sos tactic</a> is a sum-of-squares decision procedure for nonlinear real arithmetic, closely following John Harrison's HOL Light implementation. It calls the CSDP semidefinite programming library and rebuilds a fully certified result in Lean. <a class="inl" href="https://www.linkedin.com/posts/kim-morrison-219962b_lean4-formalverification-activity-7478622597069455360-B4aF/" rel="noopener">Kim Morrison</a> calls it a prototype and notes that frontier models have become very good at Lean metaprogramming.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://kim-em.github.io/blog/2026-5-13-a-sum-of-squares-tactic/" rel="noopener">kim-em.github.io</a><span class="dot" aria-hidden="true">·</span><a href="https://www.linkedin.com/posts/kim-morrison-219962b_lean4-formalverification-activity-7478622597069455360-B4aF/" rel="noopener">LinkedIn post</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-07-09-joachim-breitner-adds-automatic-try-suggestions-to-lean-at-commo">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-01">Jul 1</time><button class="copy" type="button" hidden data-link="../../../../2026-07-09/#2026-07-09-joachim-breitner-adds-automatic-try-suggestions-to-lean-at-commo" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Joachim Breitner adds automatic try? suggestions to Lean at common proof sites</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13830" rel="noopener">A merged pull request by Joachim Breitner</a> makes Lean suggest try? output for empty by blocks, unsolved goals, and sorry tactics, gated by three options that default to off. It replaces the tactic.tryOnEmptyBy option from an earlier pull request with a different implementation.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13830" rel="noopener">lean4#13830</a></p>
   </div>
 </article>
 </div>

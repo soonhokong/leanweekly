@@ -6,6 +6,71 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-lean-v4-36-0-released-with-type-class-resolution-caching-across",
+   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-lean-v4-36-0-released-with-type-class-resolution-caching-across",
+   "title": "Lean v4.36.0 released with type class resolution caching across commands",
+   "content_html": "<p>The cross-command cache cuts type class resolution time on the standard library build by about 14% (<a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a> gains 0.2% overall). Other changes fix many <a class=\"inl\" href=\"https://lean-lang.org/doc/reference/latest/The--grind--tactic/\" rel=\"noopener\">grind</a> bugs and several quadratic slowdowns (on a file with 4,000 definition/theorem pairs, elaboration time drops from 99 s to 32 s), and let def contracts state exception postconditions.</p><p>Sources: <a href=\"https://lean-lang.org/doc/reference/latest/releases/v4.36.0/\">v4.36.0 release notes</a>, <a href=\"https://github.com/leanprover/lean4/releases/tag/v4.36.0\">lean4 v4.36.0</a></p>",
+   "date_published": "2026-10-14T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "release",
+    "performance",
+    "grind"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-aristotle-now-formally-verifies-rust-joining-c-and-ve",
+   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-aristotle-now-formally-verifies-rust-joining-c-and-ve",
+   "title": "Harmonic's Aristotle now formally verifies Rust, joining C and Verilog",
+   "content_html": "<p><a class=\"inl\" href=\"https://x.com/HarmonicMath/status/2122374141970133416\" rel=\"noopener\">Harmonic</a> says users can prove that Rust code has no undefined behavior and does exactly what its specification says, even if it uses unsafe, and that Rust code ported from C behaves the same as the original. The <a class=\"inl\" href=\"https://x.com/leanprover/status/2122445505506750502\" rel=\"noopener\">Lean account on X</a> welcomed the use of Lean for Rust verification.</p><p>Sources: <a href=\"https://x.com/HarmonicMath/status/2122374141970133416\">@HarmonicMath on X</a>, <a href=\"https://x.com/leanprover/status/2122445505506750502\">@leanprover on X</a></p>",
+   "date_published": "2026-11-16T12:00:00Z",
+   "tags": [
+    "Verification",
+    "harmonic",
+    "aristotle",
+    "rust"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-nockchain-releases-a-nock-zkvm-with-an-end-to-end-lean-soundness",
+   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-nockchain-releases-a-nock-zkvm-with-an-end-to-end-lean-soundness",
+   "title": "Nockchain releases a Nock zkVM with an end-to-end Lean soundness proof",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://www.nockchain.org/research/zkvm\" rel=\"noopener\">Open Proof Machine</a>'s verifier checks a short proof instead of re-running a program in Nock, a tiny combinator language; kernel-checked soundness and completeness theorems cover all twelve opcodes, unbounded natural-number atoms and jets (known formulas that an interpreter replaces with native code). The <a class=\"inl\" href=\"https://github.com/nockchain/nock-zkvm\" rel=\"noopener\">alpha research release</a> has not been independently audited.</p><p>Sources: <a href=\"https://www.nockchain.org/research/zkvm\">nockchain.org</a>, <a href=\"https://github.com/nockchain/nock-zkvm\">nockchain/nock-zkvm</a></p>",
+   "date_published": "2026-11-16T12:00:00Z",
+   "tags": [
+    "Verification",
+    "zkvm",
+    "cryptography",
+    "nock"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-lean-powered-aristotle-adds-rust-verification-alongsi",
+   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-lean-powered-aristotle-adds-rust-verification-alongsi",
+   "title": "Harmonic's Lean-powered Aristotle adds Rust verification alongside C and Verilog",
+   "content_html": "<p><a class=\"inl\" href=\"https://www.harmonic.fun/news/aristotle-rust-verification/\" rel=\"noopener\">Aristotle</a> can prove that Rust code has no undefined behavior and does exactly what its spec says, even inside unsafe blocks (code the compiler does not check), and that C rewritten in Rust matches the original. On <a class=\"inl\" href=\"https://www.harmonic.fun/aristotle/case-studies/manifest/\" rel=\"noopener\">Manifest</a>, an open-source Solana order book, Aristotle proved 28 results and found a rounding bug, since fixed.</p><p>Sources: <a href=\"https://www.harmonic.fun/news/aristotle-rust-verification/\">harmonic.fun</a>, <a href=\"https://leanprover.zulipchat.com/#narrow/channel/113486-General-announcements/topic/Aristotle.20Agent.20is.20Now.20Live/with/640844645\">leanprover.zulipchat.com</a></p>",
+   "date_published": "2026-11-16T12:00:00Z",
+   "tags": [
+    "Verification",
+    "rust",
+    "aristotle",
+    "harmonic"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-okcontract-labs-releases-zean-for-proving-zig-functions-in-lean",
+   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-okcontract-labs-releases-zean-for-proving-zig-functions-in-lean",
+   "title": "OKcontract Labs releases Zean for proving Zig functions in Lean",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://okcontract.com/blog/introducing-zean-write-zig-and-prove-it-in-lean/\" rel=\"noopener\">open-source toolkit</a> translates supported Zig functions into executable Lean models, working from Zig's analyzed intermediate representation (AIR); an included copy-loop example proves its model avoids invalid accesses and uninitialized reads. Lean checks the translated model under its stated assumptions, so the proofs do not establish correctness of the final native binary.</p><p>Sources: <a href=\"https://okcontract.com/blog/introducing-zean-write-zig-and-prove-it-in-lean/\">okcontract.com</a></p>",
+   "date_published": "2026-11-16T12:00:00Z",
+   "tags": [
+    "Verification",
+    "zig",
+    "memory safety",
+    "verification"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-16/#2026-11-16-aaron-elijah-mars-verifies-15-ethereum-tokens-deployed-bytecode",
    "url": "https://leanweekly.news/2026-11-16/#2026-11-16-aaron-elijah-mars-verifies-15-ethereum-tokens-deployed-bytecode",
    "title": "Aaron Elijah Mars verifies 15 Ethereum tokens' deployed bytecode in Lean 4",
@@ -588,71 +653,6 @@
     "databases",
     "cdc",
     "isabelle"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-jason-rute-says-articles-on-lean-s-trust-surface-should-mention",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-jason-rute-says-articles-on-lean-s-trust-surface-should-mention",
-   "title": "Jason Rute says articles on Lean's \"trust surface\" should mention external checking",
-   "content_html": "<p>In <a class=\"inl\" href=\"https://x.com/JasonRute/status/2119669220485243369\" rel=\"noopener\">a post on X</a>, Jason Rute wrote that writers covering Lean's &quot;trust surface&quot; without mentioning external checking, <a class=\"inl\" href=\"https://github.com/leanprover/comparator\" rel=\"noopener\">comparator</a>, and <a class=\"inl\" href=\"https://github.com/leanprover/con-leche\" rel=\"noopener\">con-leche</a> have not done the homework, and that &quot;there is a lot of false and misleading info out there.&quot;</p><p>Sources: <a href=\"https://x.com/JasonRute/status/2119669220485243369\">@JasonRute on X</a></p>",
-   "date_published": "2026-11-09T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "trust surface",
-    "external checking",
-    "commentary"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-jason-hickey-proposes-agent-authored-software-where-humans-revie",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-jason-hickey-proposes-agent-authored-software-where-humans-revie",
-   "title": "Jason Hickey proposes agent-authored software where humans review only formal specifications",
-   "content_html": "<p>Continuous integration checks replace code review: on a zero-copy authenticated message router, the kernel check passed in 42 ms and mutation testing killed all 10 synthetic bugs. <a class=\"inl\" href=\"https://arxiv.org/abs/2611.02285\" rel=\"noopener\">The paper</a> builds on <a class=\"inl\" href=\"https://paperswithlean.com/paper/2611.02285.html\" rel=\"noopener\">Lean 4 artifacts</a> (salt, x86lean, <a class=\"inl\" href=\"https://github.com/jyh/vir\" rel=\"noopener\">vir</a>) and contrasts Lean subtypes with Computational Type Theory subset types; several components remain proposals.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.02285\">arXiv:2611.02285</a>, <a href=\"https://paperswithlean.com/paper/2611.02285.html\">paperswithlean.com</a>, <a href=\"https://github.com/jyh/vir\">jyh/vir</a></p>",
-   "date_published": "2026-11-01T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "ai agents",
-    "specifications",
-    "software verification"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-paper-determines-order-of-magnitude-of-low-moments-of-random-mul",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-paper-determines-order-of-magnitude-of-low-moments-of-random-mul",
-   "title": "Paper determines order of magnitude of low moments of random multiplicative sums",
-   "content_html": "<p>Christopher Atherfold, Maxim Gerspach and Jad Hamdan study <a class=\"inl\" href=\"https://arxiv.org/abs/2611.05492\" rel=\"noopener\">the 2q-th moments</a>, for q from 0 to 1, of sums up to x of a random, completely multiplicative function with independent, uniform ±1 values at the primes. A transition from better-than-square-root cancellation to growth like a power of log x occurs when q crosses 1/2.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.05492\">arXiv:2611.05492</a></p>",
-   "date_published": "2026-11-03T12:00:00Z",
-   "tags": [
-    "Papers and events",
-    "arxiv",
-    "number theory",
-    "probability"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-project-numina-formalizes-a-braided-fusion-category-preprint-in",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-project-numina-formalizes-a-braided-fusion-category-preprint-in",
-   "title": "Project Numina formalizes a braided fusion category preprint in Lean 4",
-   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2611.12836\" rel=\"noopener\">The preprint</a>, by Justin Asher, Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez and Richard Tuddenham, proves that every non-degenerate pivotal braided fusion category with property F is pseudo-unitary and weakly integral, assuming neither sphericality nor pseudo-unitarity. <a class=\"inl\" href=\"https://github.com/project-numina/mtc\" rel=\"noopener\">The formalization</a> also includes the extension to degenerate categories under a positivity hypothesis.</p><p>Sources: <a href=\"https://github.com/project-numina/mtc\">project-numina/mtc</a>, <a href=\"https://arxiv.org/abs/2611.12836\">arXiv:2611.12836</a></p>",
-   "date_published": "2026-11-09T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "fusion categories",
-    "category theory",
-    "project numina"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-google-deepmind-uses-ai-agents-to-verify-signal-s-messaging-secu",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-google-deepmind-uses-ai-agents-to-verify-signal-s-messaging-secu",
-   "title": "Google DeepMind uses AI agents to verify Signal's messaging security in Lean",
-   "content_html": "<p>The researchers used <a class=\"inl\" href=\"https://news.lavx.hu/article/google-deepmind-uses-ai-agents-to-verify-signal-s-secure-messaging-techniques\" rel=\"noopener\">AlphaProof Code</a>, a multi-agent framework for formal software specification and verification, on Signal's post-quantum PQXDH handshake and Triple Ratchet. The agents generated 6.5 million lines of Lean code proving the libsignal implementation correct against a human-reviewed specification; the proof assumes perfect cryptography.</p><p>Sources: <a href=\"https://news.lavx.hu/article/google-deepmind-uses-ai-agents-to-verify-signal-s-secure-messaging-techniques\">news.lavx.hu</a></p>",
-   "date_published": "2026-11-10T12:00:00Z",
-   "tags": [
-    "Verification",
-    "deepmind",
-    "signal",
-    "cryptography"
    ]
   }
  ]

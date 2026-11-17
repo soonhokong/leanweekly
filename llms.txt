@@ -4,6 +4,11 @@
 
 ## Latest items
 
+- [Lean v4.36.0 released with type class resolution caching across commands](https://leanweekly.news/2026-11-16/#2026-11-16-lean-v4-36-0-released-with-type-class-resolution-caching-across): Lean core, 2026-10-14
+- [Harmonic's Aristotle now formally verifies Rust, joining C and Verilog](https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-aristotle-now-formally-verifies-rust-joining-c-and-ve): Verification, 2026-11-16
+- [Nockchain releases a Nock zkVM with an end-to-end Lean soundness proof](https://leanweekly.news/2026-11-16/#2026-11-16-nockchain-releases-a-nock-zkvm-with-an-end-to-end-lean-soundness): Verification, 2026-11-16
+- [Harmonic's Lean-powered Aristotle adds Rust verification alongside C and Verilog](https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-lean-powered-aristotle-adds-rust-verification-alongsi): Verification, 2026-11-16
+- [OKcontract Labs releases Zean for proving Zig functions in Lean](https://leanweekly.news/2026-11-16/#2026-11-16-okcontract-labs-releases-zean-for-proving-zig-functions-in-lean): Verification, 2026-11-16
 - [Aaron Elijah Mars verifies 15 Ethereum tokens' deployed bytecode in Lean 4](https://leanweekly.news/2026-11-16/#2026-11-16-aaron-elijah-mars-verifies-15-ethereum-tokens-deployed-bytecode): Verification, 2026-11-16
 - [NyxFoundation publishes LeanAsm, a Lean 4 foundation for verified RV64 assembly](https://leanweekly.news/2026-11-16/#2026-11-16-nyxfoundation-publishes-leanasm-a-lean-4-foundation-for-verified): Verification, 2026-11-16
 - [Logan R. Chalmers lowers four-dimensional Borsuk bound to six, formalized in Lean](https://leanweekly.news/2026-11-15/#2026-11-15-logan-r-chalmers-lowers-four-dimensional-borsuk-bound-to-six-for): AI and formalization, 2026-11-10
@@ -99,11 +104,6 @@
 - [Mac Malone opens Lake pull request to reduce build-store contention](https://leanweekly.news/2026-10-29/#2026-10-29-mac-malone-opens-lake-pull-request-to-reduce-build-store-content): Lean core, 2026-10-20
 - [Benjamin Pierce announces Agentic Proof Engineering, a Spring 2027 course at Penn](https://leanweekly.news/2026-10-29/#2026-10-29-benjamin-pierce-announces-agentic-proof-engineering-a-spring-202): Papers and events, 2026-10-29
 - [GenProof paper on verifying Minecraft redstone circuits uses Lean's bv_decide](https://leanweekly.news/2026-10-29/#2026-10-29-genproof-paper-on-verifying-minecraft-redstone-circuits-uses-lea): Papers and events, 2026-10-29
-- [Troy Lee formalizes László Babai's graph isomorphism algorithm using an AI agent](https://leanweekly.news/2026-10-29/#2026-10-29-troy-lee-formalizes-l-szl-babai-s-graph-isomorphism-algorithm-us): AI and formalization, 2026-10-29
-- [Adam Gall publishes lean-sudo, a drop-in sudo replacement written in Lean 4](https://leanweekly.news/2026-10-28/#2026-10-28-adam-gall-publishes-lean-sudo-a-drop-in-sudo-replacement-written): Verification, 2026-10-28
-- [holmesworcester publishes Lean Quiet, a chat app written mostly in Lean](https://leanweekly.news/2026-10-28/#2026-10-28-holmesworcester-publishes-lean-quiet-a-chat-app-written-mostly-i): Verification, 2026-10-28
-- [Scott Armstrong and Zohar Komargodski formalize the positive-measure KAM theorem in Lean](https://leanweekly.news/2026-10-28/#2026-10-28-scott-armstrong-and-zohar-komargodski-formalize-the-positive-mea): AI and formalization, 2026-10-28
-- [Open-source desktop OS ZENOS releases first preview with Lean-proved security decisions](https://leanweekly.news/2026-10-28/#2026-10-28-open-source-desktop-os-zenos-releases-first-preview-with-lean-pr): Verification, 2026-10-28
 
 ## Weeks (Friday to Thursday)
 

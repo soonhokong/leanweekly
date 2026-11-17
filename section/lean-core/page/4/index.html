@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 4</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 157 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 4</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 158 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-07-09-joachim-breitner-adds-automatic-try-suggestions-to-lean-at-commo">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-07-01">Jul 1</time><button class="copy" type="button" hidden data-link="../../../../2026-07-09/#2026-07-09-joachim-breitner-adds-automatic-try-suggestions-to-lean-at-commo" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Joachim Breitner adds automatic try? suggestions to Lean at common proof sites</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/13830" rel="noopener">A merged pull request by Joachim Breitner</a> makes Lean suggest try? output for empty by blocks, unsolved goals, and sorry tactics, gated by three options that default to off. It replaces the tactic.tryOnEmptyBy option from an earlier pull request with a different implementation.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13830" rel="noopener">lean4#13830</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-07-09-leo-de-moura-adds-rw-and-case-tactics-to-lean-s-sym-mode">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -237,15 +246,6 @@
     <h2 class="card-title">Lean publishes Lean Workbench, an experimental online environment for Lean</h2>
     <p class="card-text">The <a class="inl" href="https://github.com/leanprover/lean-workbench" rel="noopener">leanprover/lean-workbench repository</a> aims to provide familiar (VS Code with the Lean 4 extension) and novel interfaces to Lean online, giving each user an isolated Code Server instance inside a bubblewrap sandbox. The README warns the project is in progress and experimental, with a security audit forthcoming.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench" rel="noopener">leanprover/lean-workbench</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-05-14-sebastian-graf-brings-sym-based-mvcgen-to-parity-with-mvcgen">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time><button class="copy" type="button" hidden data-link="../../../../2026-05-14/#2026-05-14-sebastian-graf-brings-sym-based-mvcgen-to-parity-with-mvcgen" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Graf brings Sym-based mvcgen' to parity with mvcgen</h2>
-    <p class="card-text">A merged Lean pull request by Sebastian Graf gives the <a class="inl" href="https://github.com/leanprover/lean4/pull/13578" rel="noopener">Sym-based mvcgen'</a> feature parity with mvcgen, except +jp (join-point handling), at a cost of about 10% vcgen slowdown for cleaner user-visible VCs. A separate change adds <a class="inl" href="https://github.com/leanprover/lean4/pull/13209" rel="noopener">whileM</a>, which makes repeat/while loops verifiable with mvcgen.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13578" rel="noopener">lean4#13578</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13209" rel="noopener">lean4#13209</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13672" rel="noopener">lean4#13672</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13582" rel="noopener">lean4#13582</a></p>
   </div>
 </article>
 </div>
