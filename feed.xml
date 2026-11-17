@@ -6,7 +6,63 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 14 Oct 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 16 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Lean harness ForShor verifies Shor's algorithm, including its asymptotic gate cost</title>
+<link>https://leanweekly.news/2026-11-17/#2026-11-17-lean-harness-forshor-verifies-shor-s-algorithm-including-its-asy</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-lean-harness-forshor-verifies-shor-s-algorithm-including-its-asy</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;Anirudh Suresh, Joshua M. Courtney, Runzhou Tao, and Yudong Cao prove correctness and gate-count theorems once for all valid policies (Toom-Cook multiplication designs, possibly from AI agents) and publish an open challenge at &lt;a class="inl" href="https://github.com/VerifiedQC/ForShor" rel="noopener"&gt;forshor.ai&lt;/a&gt;. At 2048 bits, a varying-arity policy gives about 1.685 trillion T-gates, against 1.820 trillion for the best single arity.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.20342"&gt;arXiv:2611.20342&lt;/a&gt;, &lt;a href="https://github.com/VerifiedQC/ForShor"&gt;VerifiedQC/ForShor&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.20342.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>One expert directing LLM agents ports CompCert's verified compiler core to Lean</title>
+<link>https://leanweekly.news/2026-11-17/#2026-11-17-one-expert-directing-llm-agents-ports-compcert-s-verified-compil</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-one-expert-directing-llm-agents-ports-compcert-s-verified-compil</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/fanlong/compcert4lean" rel="noopener"&gt;port from Rocq&lt;/a&gt; took about six weeks, covers typed CompCert C through x86-64 assembly, and discharges all 4,908 proof obligations without project-specific axioms; 88.8% of 1,071 human interactions concerned workflow and coordination. With 24 active hours, GPT-6-astra cut generated-program runtime by 11.7% in Lean versus 2.3% in Rocq, preserving the end-to-end correctness theorem.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.21084"&gt;arXiv:2611.21084&lt;/a&gt;, &lt;a href="https://github.com/fanlong/compcert4lean"&gt;fanlong/compcert4lean&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.21084.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>QECLean, a Lean framework, proves an IBM quantum code has distance 24</title>
+<link>https://leanweekly.news/2026-11-17/#2026-11-17-qeclean-a-lean-framework-proves-an-ibm-quantum-code-has-distance</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-qeclean-a-lean-framework-proves-an-ibm-quantum-code-has-distance</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/QECLean/QECLean" rel="noopener"&gt;Stavan Jain, Nithin Raveendran and Aws Albarghouthi's framework&lt;/a&gt;, built on &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;, backs every claimed property of quantum error-correcting codes with a machine-checked proof. Its new code combinators prove distance compositionally for large codes beyond algorithmic techniques (24 was previously only an upper bound), and it formalizes entire code families such as the surface code.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.21236"&gt;arXiv:2611.21236&lt;/a&gt;, &lt;a href="https://github.com/QECLean/QECLean"&gt;QECLean/QECLean&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Hassana Labs defines EleutherAI's Pythia-14M exactly over the reals in Lean 4</title>
+<link>https://leanweekly.news/2026-11-17/#2026-11-17-hassana-labs-defines-eleutherai-s-pythia-14m-exactly-over-the-re</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-hassana-labs-defines-eleutherai-s-pythia-14m-exactly-over-the-re</guid>
+<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/leochlon/tiny-bayes" rel="noopener"&gt;tiny-bayes repository&lt;/a&gt; decodes all 14,067,712 parameters exactly from float16 bit patterns and defines the GPT-NeoX forward pass using exact GELU, with kernel-certified outputs. Theorems depending only on the axioms propext, Classical.choice and Quot.sound show that a tiny transformer's Bayesian-in-expectation result (order averages within 0.0034 of Laplace's rule) does not extend to Pythia-14M.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leochlon/tiny-bayes"&gt;leochlon/tiny-bayes&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Kimon Fountoulakis and coauthors describe VSCL, a Lean library formalizing numerical analysis</title>
+<link>https://leanweekly.news/2026-11-17/#2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo</guid>
+<pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;To assess AI-generated kernels, the authors audited a &lt;a class="inl" href="https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026" rel="noopener"&gt;GPU MODE QR competition&lt;/a&gt;: all five leading kernels passed its accuracy tests, yet each failed at least once on new inputs under the same checker, while the baseline passed them all. The authors propose &lt;a class="inl" href="https://arxiv.org/abs/2611.21570" rel="noopener"&gt;VERNA&lt;/a&gt;, which would use formalized results to test kernels against explicit specifications.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.21570"&gt;arXiv:2611.21570&lt;/a&gt;, &lt;a href="https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026"&gt;the-numerical-proving-ground/gpumode-kernel-audit-2026&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.21570.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Rylan Malarchick presents qlin, a dynamic quantum circuit compiler with Lean proofs</title>
+<link>https://leanweekly.news/2026-11-17/#2026-11-17-rylan-malarchick-presents-qlin-a-dynamic-quantum-circuit-compile</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-rylan-malarchick-presents-qlin-a-dynamic-quantum-circuit-compile</guid>
+<pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;Lean 4 proofs show that &lt;a class="inl" href="https://github.com/rylanmalarchick/qlin" rel="noopener"&gt;qlin&lt;/a&gt; moves operations out of measurement-dependent branches without delaying the program, and that its check of each compiled program against its source is sound. Modeled at the QICK controller's 42 ns per decision, 10 of 65 programs run at least 10% faster than the best baseline, up to 91.2%.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.19618"&gt;arXiv:2611.19618&lt;/a&gt;, &lt;a href="https://github.com/rylanmalarchick/qlin"&gt;rylanmalarchick/qlin&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>TrustBound proves in Lean how to account for payments outliving AI agents</title>
+<link>https://leanweekly.news/2026-11-17/#2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving</guid>
+<pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;Sandip Nandi, Aishwarya Bose, Apurba Bose and Soovadeep Bakshi prove that once a fence stops new admissions, discharging outstanding rights prevents further payments, and that truthful outcomes give exact accounting. Lean accepts six histories from a &lt;a class="inl" href="https://github.com/tokencraftdata/trustbound" rel="noopener"&gt;Python/SQLite service&lt;/a&gt;; concurrent tests exposed a conflict from reordered provider reads, fixed in all 84 tested cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.19551"&gt;arXiv:2611.19551&lt;/a&gt;, &lt;a href="https://github.com/tokencraftdata/trustbound"&gt;tokencraftdata/trustbound&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.19551.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Lean v4.36.0 released with type class resolution caching across commands</title>
 <link>https://leanweekly.news/2026-11-16/#2026-11-16-lean-v4-36-0-released-with-type-class-resolution-caching-across</link>
@@ -350,62 +406,6 @@
 <pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://github.com/Broyojo/python-formalization" rel="noopener"&gt;David Andrews and Chao Zhang's model&lt;/a&gt; spans 613,318 lines of Lean with 18,898 theorems and lemmas; each modelled function must agree with the real interpreter on at least 50,000 cases. Of 26,004 functions in scope, 4,071 (15.7%) are judged faithful by independent review, and 418 bug records reproduce on 3.15.2, each with a reproducer.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/Broyojo/python-formalization"&gt;Broyojo/python-formalization&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Yalu Cai, Tung-Che Chang, and Santosh Nagarakatte verify an eBPF proof checker</title>
-<link>https://leanweekly.news/2026-11-10/#2026-11-10-yalu-cai-tung-che-chang-and-santosh-nagarakatte-verify-an-ebpf-p</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-yalu-cai-tung-che-chang-and-santosh-nagarakatte-verify-an-ebpf-p</guid>
-<pubDate>Sun, 08 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.11117" rel="noopener"&gt;Keel&lt;/a&gt;, an in-kernel proof checker for the Linux eBPF verifier, is specified in Lean and proved sound against bit-vector semantics; its implementation in EmbC, a deeply embedded C fragment, is proved to refine that specification. Formalizing the eBPF Certificate Framework (BCF) checker uncovered 13 bugs, and Keel runs 1.3X faster than BCF's checker.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.11117"&gt;arXiv:2611.11117&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Giulio rebuffo's usdt-verify formally verifies deployed USDT bytecode in Lean 4</title>
-<link>https://leanweekly.news/2026-11-10/#2026-11-10-giulio-rebuffo-s-usdt-verify-formally-verifies-deployed-usdt-byt</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-giulio-rebuffo-s-usdt-verify-formally-verifies-deployed-usdt-byt</guid>
-<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;Built on EthLib's EVM model and program logic, the proofs are about the 11,075 deployed bytes read from Ethereum mainnet; the Solidity source served only as a guide. &lt;a class="inl" href="https://github.com/Giulio2002/usdt-verify" rel="noopener"&gt;The README&lt;/a&gt; says each of its claims is proved and has passed several independent reviews, and that this does not mean USDT is verified unconditionally.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/Giulio2002/usdt-verify"&gt;Giulio2002/usdt-verify&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>zkSecurity publishes Rust BLS12-381 code proved equivalent to the EthLib Lean specification</title>
-<link>https://leanweekly.news/2026-11-10/#2026-11-10-zksecurity-publishes-rust-bls12-381-code-proved-equivalent-to-th</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-zksecurity-publishes-rust-bls12-381-code-proved-equivalent-to-th</guid>
-<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/zksecurity/arkworks-ethlib" rel="noopener"&gt;The code&lt;/a&gt; covers field arithmetic, G1 encoding and decoding, and subgroup and pairing-product checks, specializing routines from the arkworks 0.5.0 crate; proofs establish termination and agreement with EthLib under documented preconditions, while arkworks agreement is tested and the Charon/&lt;a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener"&gt;Aeneas&lt;/a&gt; translation remains trusted. The project was mostly AI-generated and has not been independently reviewed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/zksecurity/arkworks-ethlib"&gt;zksecurity/arkworks-ethlib&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Rudi Cilibrasi publishes openverse, an unofficial Verse runtime with Lean verification</title>
-<link>https://leanweekly.news/2026-11-10/#2026-11-10-rudi-cilibrasi-publishes-openverse-an-unofficial-verse-runtime-w</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-rudi-cilibrasi-publishes-openverse-an-unofficial-verse-runtime-w</guid>
-<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/rudi-cilibrasi/openverse" rel="noopener"&gt;The project&lt;/a&gt; defines and proves the semantics of Verse (Epic Games' functional logic programming language) in Lean 4 and checks a C runtime against it. Its C components for integer arithmetic, program loading, and rollback are proved with QuickProof (VST and CompCert in Coq); differential testing and fuzzing check the object store and value heap.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/rudi-cilibrasi/openverse"&gt;rudi-cilibrasi/openverse&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Markus de Medeiros publishes SampLib, a Lean library of verified random samplers</title>
-<link>https://leanweekly.news/2026-11-10/#2026-11-10-markus-de-medeiros-publishes-samplib-a-lean-library-of-verified</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-markus-de-medeiros-publishes-samplib-a-lean-library-of-verified</guid>
-<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/markusdemedeiros/SampLib" rel="noopener"&gt;SampLib&lt;/a&gt; expresses samplers from Peter Occil's articles as executable ProbLang terms and proves them correct in continuous TotalEris, building on logsem/clutch-lean and Lean 4.35.0. Its completed baseline suite contains 216 samplers, and the README notes that the interpreter tests are not proofs and that the interpreter uses finite-precision Float arithmetic.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/markusdemedeiros/SampLib"&gt;markusdemedeiros/SampLib&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>yaneurao publishes Lean 4 proofs for a shogi AI opening-book algorithm</title>
-<link>https://leanweekly.news/2026-11-10/#2026-11-10-yaneurao-publishes-lean-4-proofs-for-a-shogi-ai-opening-book-alg</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-yaneurao-publishes-lean-4-proofs-for-a-shogi-ai-opening-book-alg</guid>
-<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;The algorithm, &lt;a class="inl" href="https://github.com/yaneurao/peta-shock" rel="noopener"&gt;peta-shock conversion&lt;/a&gt;, propagates evaluation values recorded in a shogi AI's opening book backward from the end positions and covers books containing ordinary and perpetual-check repetitions. PaperClaims.lean links the accompanying paper's theorem numbers to Lean theorem names, and Audit.lean checks the axioms the theorems depend on.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/yaneurao/peta-shock"&gt;yaneurao/peta-shock&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Andreas Andreakis extends DBLog to delete orphan rows, with Lean 4 proofs</title>
-<link>https://leanweekly.news/2026-11-10/#2026-11-10-andreas-andreakis-extends-dblog-to-delete-orphan-rows-with-lean</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-andreas-andreakis-extends-dblog-to-delete-orphan-rows-with-lean</guid>
-<pubDate>Sat, 07 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;DBLog-based incremental snapshots, adopted by Debezium and Flink CDC, originally did not handle orphan rows (in the sink, absent at the source); &lt;a class="inl" href="https://arxiv.org/abs/2611.10810" rel="noopener"&gt;the extension&lt;/a&gt; deletes keys a chunk read did not return. Safety and convergence are proved in Isabelle/HOL and, except for the Flink CDC theory, in Lean 4, with no unfinished proofs.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.10810"&gt;arXiv:2611.10810&lt;/a&gt;, &lt;a href="https://doi.org/10.5281/zenodo.24035424"&gt;doi.org&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

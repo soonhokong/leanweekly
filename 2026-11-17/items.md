@@ -1,0 +1,22 @@
+---
+issue: 58
+date: 2026-11-17
+window_start: 2026-11-16
+window_end: 2026-11-17
+---
+
+## Headlines
+
+- **Lean harness ForShor verifies Shor's algorithm, including its asymptotic gate cost.** Anirudh Suresh, Joshua M. Courtney, Runzhou Tao, and Yudong Cao prove correctness and gate-count theorems once for all valid policies (Toom-Cook multiplication designs, possibly from AI agents) and publish an open challenge at forshor.ai. At 2048 bits, a varying-arity policy gives about 1.685 trillion T-gates, against 1.820 trillion for the best single arity. ([arXiv:2611.20342](https://arxiv.org/abs/2611.20342), [VerifiedQC/ForShor](https://github.com/VerifiedQC/ForShor), [paperswithlean.com](https://paperswithlean.com/paper/2611.20342.html))
+- **One expert directing LLM agents ports CompCert's verified compiler core to Lean.** The port from Rocq took about six weeks, covers typed CompCert C through x86-64 assembly, and discharges all 4,908 proof obligations without project-specific axioms; 88.8% of 1,071 human interactions concerned workflow and coordination. With 24 active hours, GPT-6-astra cut generated-program runtime by 11.7% in Lean versus 2.3% in Rocq, preserving the end-to-end correctness theorem. ([arXiv:2611.21084](https://arxiv.org/abs/2611.21084), [fanlong/compcert4lean](https://github.com/fanlong/compcert4lean), [paperswithlean.com](https://paperswithlean.com/paper/2611.21084.html))
+- **QECLean, a Lean framework, proves an IBM quantum code has distance 24.** Stavan Jain, Nithin Raveendran and Aws Albarghouthi's framework, built on Mathlib, backs every claimed property of quantum error-correcting codes with a machine-checked proof. Its new code combinators prove distance compositionally for large codes beyond algorithmic techniques (24 was previously only an upper bound), and it formalizes entire code families such as the surface code. ([arXiv:2611.21236](https://arxiv.org/abs/2611.21236), [QECLean/QECLean](https://github.com/QECLean/QECLean))
+
+## AI and formalization
+
+- **Hassana Labs defines EleutherAI's Pythia-14M exactly over the reals in Lean 4.** The tiny-bayes repository decodes all 14,067,712 parameters exactly from float16 bit patterns and defines the GPT-NeoX forward pass using exact GELU, with kernel-certified outputs. Theorems depending only on the axioms propext, Classical.choice and Quot.sound show that a tiny transformer's Bayesian-in-expectation result (order averages within 0.0034 of Laplace's rule) does not extend to Pythia-14M. ([leochlon/tiny-bayes](https://github.com/leochlon/tiny-bayes))
+- **Kimon Fountoulakis and coauthors describe VSCL, a Lean library formalizing numerical analysis.** To assess AI-generated kernels, the authors audited a GPU MODE QR competition: all five leading kernels passed its accuracy tests, yet each failed at least once on new inputs under the same checker, while the baseline passed them all. The authors propose VERNA, which would use formalized results to test kernels against explicit specifications. ([arXiv:2611.21570](https://arxiv.org/abs/2611.21570), [the-numerical-proving-ground/gpumode-kernel-audit-2026](https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026), [paperswithlean.com](https://paperswithlean.com/paper/2611.21570.html))
+
+## Verification in practice
+
+- **Rylan Malarchick presents qlin, a dynamic quantum circuit compiler with Lean proofs.** Lean 4 proofs show that qlin moves operations out of measurement-dependent branches without delaying the program, and that its check of each compiled program against its source is sound. Modeled at the QICK controller's 42 ns per decision, 10 of 65 programs run at least 10% faster than the best baseline, up to 91.2%. ([arXiv:2611.19618](https://arxiv.org/abs/2611.19618), [rylanmalarchick/qlin](https://github.com/rylanmalarchick/qlin))
+- **TrustBound proves in Lean how to account for payments outliving AI agents.** Sandip Nandi, Aishwarya Bose, Apurba Bose and Soovadeep Bakshi prove that once a fence stops new admissions, discharging outstanding rights prevents further payments, and that truthful outcomes give exact accounting. Lean accepts six histories from a Python/SQLite service; concurrent tests exposed a conflict from reordered provider reads, fixed in all 84 tested cases. ([arXiv:2611.19551](https://arxiv.org/abs/2611.19551), [tokencraftdata/trustbound](https://github.com/tokencraftdata/trustbound), [paperswithlean.com](https://paperswithlean.com/paper/2611.19551.html))

@@ -6,6 +6,97 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-17/#2026-11-17-lean-harness-forshor-verifies-shor-s-algorithm-including-its-asy",
+   "url": "https://leanweekly.news/2026-11-17/#2026-11-17-lean-harness-forshor-verifies-shor-s-algorithm-including-its-asy",
+   "title": "Lean harness ForShor verifies Shor's algorithm, including its asymptotic gate cost",
+   "content_html": "<p>Anirudh Suresh, Joshua M. Courtney, Runzhou Tao, and Yudong Cao prove correctness and gate-count theorems once for all valid policies (Toom-Cook multiplication designs, possibly from AI agents) and publish an open challenge at <a class=\"inl\" href=\"https://github.com/VerifiedQC/ForShor\" rel=\"noopener\">forshor.ai</a>. At 2048 bits, a varying-arity policy gives about 1.685 trillion T-gates, against 1.820 trillion for the best single arity.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.20342\">arXiv:2611.20342</a>, <a href=\"https://github.com/VerifiedQC/ForShor\">VerifiedQC/ForShor</a>, <a href=\"https://paperswithlean.com/paper/2611.20342.html\">paperswithlean.com</a></p>",
+   "date_published": "2026-11-16T12:00:00Z",
+   "tags": [
+    "Verification",
+    "quantum",
+    "shor",
+    "open challenge"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-17/#2026-11-17-one-expert-directing-llm-agents-ports-compcert-s-verified-compil",
+   "url": "https://leanweekly.news/2026-11-17/#2026-11-17-one-expert-directing-llm-agents-ports-compcert-s-verified-compil",
+   "title": "One expert directing LLM agents ports CompCert's verified compiler core to Lean",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/fanlong/compcert4lean\" rel=\"noopener\">port from Rocq</a> took about six weeks, covers typed CompCert C through x86-64 assembly, and discharges all 4,908 proof obligations without project-specific axioms; 88.8% of 1,071 human interactions concerned workflow and coordination. With 24 active hours, GPT-6-astra cut generated-program runtime by 11.7% in Lean versus 2.3% in Rocq, preserving the end-to-end correctness theorem.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.21084\">arXiv:2611.21084</a>, <a href=\"https://github.com/fanlong/compcert4lean\">fanlong/compcert4lean</a>, <a href=\"https://paperswithlean.com/paper/2611.21084.html\">paperswithlean.com</a></p>",
+   "date_published": "2026-11-16T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "compcert",
+    "llm agents",
+    "verified compilers"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-17/#2026-11-17-qeclean-a-lean-framework-proves-an-ibm-quantum-code-has-distance",
+   "url": "https://leanweekly.news/2026-11-17/#2026-11-17-qeclean-a-lean-framework-proves-an-ibm-quantum-code-has-distance",
+   "title": "QECLean, a Lean framework, proves an IBM quantum code has distance 24",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/QECLean/QECLean\" rel=\"noopener\">Stavan Jain, Nithin Raveendran and Aws Albarghouthi's framework</a>, built on <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>, backs every claimed property of quantum error-correcting codes with a machine-checked proof. Its new code combinators prove distance compositionally for large codes beyond algorithmic techniques (24 was previously only an upper bound), and it formalizes entire code families such as the surface code.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.21236\">arXiv:2611.21236</a>, <a href=\"https://github.com/QECLean/QECLean\">QECLean/QECLean</a></p>",
+   "date_published": "2026-11-16T12:00:00Z",
+   "tags": [
+    "Verification",
+    "quantum computing",
+    "error correction",
+    "mathlib"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-17/#2026-11-17-hassana-labs-defines-eleutherai-s-pythia-14m-exactly-over-the-re",
+   "url": "https://leanweekly.news/2026-11-17/#2026-11-17-hassana-labs-defines-eleutherai-s-pythia-14m-exactly-over-the-re",
+   "title": "Hassana Labs defines EleutherAI's Pythia-14M exactly over the reals in Lean 4",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/leochlon/tiny-bayes\" rel=\"noopener\">tiny-bayes repository</a> decodes all 14,067,712 parameters exactly from float16 bit patterns and defines the GPT-NeoX forward pass using exact GELU, with kernel-certified outputs. Theorems depending only on the axioms propext, Classical.choice and Quot.sound show that a tiny transformer's Bayesian-in-expectation result (order averages within 0.0034 of Laplace's rule) does not extend to Pythia-14M.</p><p>Sources: <a href=\"https://github.com/leochlon/tiny-bayes\">leochlon/tiny-bayes</a></p>",
+   "date_published": "2026-11-17T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "transformers",
+    "pythia-14m",
+    "interval arithmetic"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-17/#2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo",
+   "url": "https://leanweekly.news/2026-11-17/#2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo",
+   "title": "Kimon Fountoulakis and coauthors describe VSCL, a Lean library formalizing numerical analysis",
+   "content_html": "<p>To assess AI-generated kernels, the authors audited a <a class=\"inl\" href=\"https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026\" rel=\"noopener\">GPU MODE QR competition</a>: all five leading kernels passed its accuracy tests, yet each failed at least once on new inputs under the same checker, while the baseline passed them all. The authors propose <a class=\"inl\" href=\"https://arxiv.org/abs/2611.21570\" rel=\"noopener\">VERNA</a>, which would use formalized results to test kernels against explicit specifications.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.21570\">arXiv:2611.21570</a>, <a href=\"https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026\">the-numerical-proving-ground/gpumode-kernel-audit-2026</a>, <a href=\"https://paperswithlean.com/paper/2611.21570.html\">paperswithlean.com</a></p>",
+   "date_published": "2026-11-16T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "numerical analysis",
+    "gpu kernels",
+    "ai-generated code"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-17/#2026-11-17-rylan-malarchick-presents-qlin-a-dynamic-quantum-circuit-compile",
+   "url": "https://leanweekly.news/2026-11-17/#2026-11-17-rylan-malarchick-presents-qlin-a-dynamic-quantum-circuit-compile",
+   "title": "Rylan Malarchick presents qlin, a dynamic quantum circuit compiler with Lean proofs",
+   "content_html": "<p>Lean 4 proofs show that <a class=\"inl\" href=\"https://github.com/rylanmalarchick/qlin\" rel=\"noopener\">qlin</a> moves operations out of measurement-dependent branches without delaying the program, and that its check of each compiled program against its source is sound. Modeled at the QICK controller's 42 ns per decision, 10 of 65 programs run at least 10% faster than the best baseline, up to 91.2%.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.19618\">arXiv:2611.19618</a>, <a href=\"https://github.com/rylanmalarchick/qlin\">rylanmalarchick/qlin</a></p>",
+   "date_published": "2026-11-14T12:00:00Z",
+   "tags": [
+    "Verification",
+    "quantum",
+    "compilers",
+    "translation validation"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-17/#2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving",
+   "url": "https://leanweekly.news/2026-11-17/#2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving",
+   "title": "TrustBound proves in Lean how to account for payments outliving AI agents",
+   "content_html": "<p>Sandip Nandi, Aishwarya Bose, Apurba Bose and Soovadeep Bakshi prove that once a fence stops new admissions, discharging outstanding rights prevents further payments, and that truthful outcomes give exact accounting. Lean accepts six histories from a <a class=\"inl\" href=\"https://github.com/tokencraftdata/trustbound\" rel=\"noopener\">Python/SQLite service</a>; concurrent tests exposed a conflict from reordered provider reads, fixed in all 84 tested cases.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.19551\">arXiv:2611.19551</a>, <a href=\"https://github.com/tokencraftdata/trustbound\">tokencraftdata/trustbound</a>, <a href=\"https://paperswithlean.com/paper/2611.19551.html\">paperswithlean.com</a></p>",
+   "date_published": "2026-11-14T12:00:00Z",
+   "tags": [
+    "Verification",
+    "payments",
+    "ai agents",
+    "refinement"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-16/#2026-11-16-lean-v4-36-0-released-with-type-class-resolution-caching-across",
    "url": "https://leanweekly.news/2026-11-16/#2026-11-16-lean-v4-36-0-released-with-type-class-resolution-caching-across",
    "title": "Lean v4.36.0 released with type class resolution caching across commands",
@@ -562,97 +653,6 @@
     "cpython",
     "ai agents",
     "bug finding"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-yalu-cai-tung-che-chang-and-santosh-nagarakatte-verify-an-ebpf-p",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-yalu-cai-tung-che-chang-and-santosh-nagarakatte-verify-an-ebpf-p",
-   "title": "Yalu Cai, Tung-Che Chang, and Santosh Nagarakatte verify an eBPF proof checker",
-   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2611.11117\" rel=\"noopener\">Keel</a>, an in-kernel proof checker for the Linux eBPF verifier, is specified in Lean and proved sound against bit-vector semantics; its implementation in EmbC, a deeply embedded C fragment, is proved to refine that specification. Formalizing the eBPF Certificate Framework (BCF) checker uncovered 13 bugs, and Keel runs 1.3X faster than BCF's checker.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.11117\">arXiv:2611.11117</a></p>",
-   "date_published": "2026-11-08T12:00:00Z",
-   "tags": [
-    "Verification",
-    "ebpf",
-    "linux kernel",
-    "proof-carrying code"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-giulio-rebuffo-s-usdt-verify-formally-verifies-deployed-usdt-byt",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-giulio-rebuffo-s-usdt-verify-formally-verifies-deployed-usdt-byt",
-   "title": "Giulio rebuffo's usdt-verify formally verifies deployed USDT bytecode in Lean 4",
-   "content_html": "<p>Built on EthLib's EVM model and program logic, the proofs are about the 11,075 deployed bytes read from Ethereum mainnet; the Solidity source served only as a guide. <a class=\"inl\" href=\"https://github.com/Giulio2002/usdt-verify\" rel=\"noopener\">The README</a> says each of its claims is proved and has passed several independent reviews, and that this does not mean USDT is verified unconditionally.</p><p>Sources: <a href=\"https://github.com/Giulio2002/usdt-verify\">Giulio2002/usdt-verify</a></p>",
-   "date_published": "2026-11-10T12:00:00Z",
-   "tags": [
-    "Verification",
-    "ethereum",
-    "evm",
-    "ethlib"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-zksecurity-publishes-rust-bls12-381-code-proved-equivalent-to-th",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-zksecurity-publishes-rust-bls12-381-code-proved-equivalent-to-th",
-   "title": "zkSecurity publishes Rust BLS12-381 code proved equivalent to the EthLib Lean specification",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/zksecurity/arkworks-ethlib\" rel=\"noopener\">The code</a> covers field arithmetic, G1 encoding and decoding, and subgroup and pairing-product checks, specializing routines from the arkworks 0.5.0 crate; proofs establish termination and agreement with EthLib under documented preconditions, while arkworks agreement is tested and the Charon/<a class=\"inl\" href=\"https://github.com/AeneasVerif/aeneas\" rel=\"noopener\">Aeneas</a> translation remains trusted. The project was mostly AI-generated and has not been independently reviewed.</p><p>Sources: <a href=\"https://github.com/zksecurity/arkworks-ethlib\">zksecurity/arkworks-ethlib</a></p>",
-   "date_published": "2026-11-10T12:00:00Z",
-   "tags": [
-    "Verification",
-    "aeneas",
-    "cryptography",
-    "ai"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-rudi-cilibrasi-publishes-openverse-an-unofficial-verse-runtime-w",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-rudi-cilibrasi-publishes-openverse-an-unofficial-verse-runtime-w",
-   "title": "Rudi Cilibrasi publishes openverse, an unofficial Verse runtime with Lean verification",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/rudi-cilibrasi/openverse\" rel=\"noopener\">The project</a> defines and proves the semantics of Verse (Epic Games' functional logic programming language) in Lean 4 and checks a C runtime against it. Its C components for integer arithmetic, program loading, and rollback are proved with QuickProof (VST and CompCert in Coq); differential testing and fuzzing check the object store and value heap.</p><p>Sources: <a href=\"https://github.com/rudi-cilibrasi/openverse\">rudi-cilibrasi/openverse</a></p>",
-   "date_published": "2026-11-10T12:00:00Z",
-   "tags": [
-    "Verification",
-    "verse",
-    "semantics",
-    "coq"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-markus-de-medeiros-publishes-samplib-a-lean-library-of-verified",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-markus-de-medeiros-publishes-samplib-a-lean-library-of-verified",
-   "title": "Markus de Medeiros publishes SampLib, a Lean library of verified random samplers",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/markusdemedeiros/SampLib\" rel=\"noopener\">SampLib</a> expresses samplers from Peter Occil's articles as executable ProbLang terms and proves them correct in continuous TotalEris, building on logsem/clutch-lean and Lean 4.35.0. Its completed baseline suite contains 216 samplers, and the README notes that the interpreter tests are not proofs and that the interpreter uses finite-precision Float arithmetic.</p><p>Sources: <a href=\"https://github.com/markusdemedeiros/SampLib\">markusdemedeiros/SampLib</a></p>",
-   "date_published": "2026-11-10T12:00:00Z",
-   "tags": [
-    "Verification",
-    "random sampling",
-    "probability",
-    "verification"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-yaneurao-publishes-lean-4-proofs-for-a-shogi-ai-opening-book-alg",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-yaneurao-publishes-lean-4-proofs-for-a-shogi-ai-opening-book-alg",
-   "title": "yaneurao publishes Lean 4 proofs for a shogi AI opening-book algorithm",
-   "content_html": "<p>The algorithm, <a class=\"inl\" href=\"https://github.com/yaneurao/peta-shock\" rel=\"noopener\">peta-shock conversion</a>, propagates evaluation values recorded in a shogi AI's opening book backward from the end positions and covers books containing ordinary and perpetual-check repetitions. PaperClaims.lean links the accompanying paper's theorem numbers to Lean theorem names, and Audit.lean checks the axioms the theorems depend on.</p><p>Sources: <a href=\"https://github.com/yaneurao/peta-shock\">yaneurao/peta-shock</a></p>",
-   "date_published": "2026-11-10T12:00:00Z",
-   "tags": [
-    "Verification",
-    "shogi",
-    "game ai",
-    "algorithms"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-10/#2026-11-10-andreas-andreakis-extends-dblog-to-delete-orphan-rows-with-lean",
-   "url": "https://leanweekly.news/2026-11-10/#2026-11-10-andreas-andreakis-extends-dblog-to-delete-orphan-rows-with-lean",
-   "title": "Andreas Andreakis extends DBLog to delete orphan rows, with Lean 4 proofs",
-   "content_html": "<p>DBLog-based incremental snapshots, adopted by Debezium and Flink CDC, originally did not handle orphan rows (in the sink, absent at the source); <a class=\"inl\" href=\"https://arxiv.org/abs/2611.10810\" rel=\"noopener\">the extension</a> deletes keys a chunk read did not return. Safety and convergence are proved in Isabelle/HOL and, except for the Flink CDC theory, in Lean 4, with no unfinished proofs.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.10810\">arXiv:2611.10810</a>, <a href=\"https://doi.org/10.5281/zenodo.24035424\">doi.org</a></p>",
-   "date_published": "2026-11-07T12:00:00Z",
-   "tags": [
-    "Verification",
-    "databases",
-    "cdc",
-    "isabelle"
    ]
   }
  ]

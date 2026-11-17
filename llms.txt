@@ -4,6 +4,13 @@
 
 ## Latest items
 
+- [Lean harness ForShor verifies Shor's algorithm, including its asymptotic gate cost](https://leanweekly.news/2026-11-17/#2026-11-17-lean-harness-forshor-verifies-shor-s-algorithm-including-its-asy): Verification, 2026-11-16
+- [One expert directing LLM agents ports CompCert's verified compiler core to Lean](https://leanweekly.news/2026-11-17/#2026-11-17-one-expert-directing-llm-agents-ports-compcert-s-verified-compil): AI and formalization, 2026-11-16
+- [QECLean, a Lean framework, proves an IBM quantum code has distance 24](https://leanweekly.news/2026-11-17/#2026-11-17-qeclean-a-lean-framework-proves-an-ibm-quantum-code-has-distance): Verification, 2026-11-16
+- [Hassana Labs defines EleutherAI's Pythia-14M exactly over the reals in Lean 4](https://leanweekly.news/2026-11-17/#2026-11-17-hassana-labs-defines-eleutherai-s-pythia-14m-exactly-over-the-re): AI and formalization, 2026-11-17
+- [Kimon Fountoulakis and coauthors describe VSCL, a Lean library formalizing numerical analysis](https://leanweekly.news/2026-11-17/#2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo): AI and formalization, 2026-11-16
+- [Rylan Malarchick presents qlin, a dynamic quantum circuit compiler with Lean proofs](https://leanweekly.news/2026-11-17/#2026-11-17-rylan-malarchick-presents-qlin-a-dynamic-quantum-circuit-compile): Verification, 2026-11-14
+- [TrustBound proves in Lean how to account for payments outliving AI agents](https://leanweekly.news/2026-11-17/#2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving): Verification, 2026-11-14
 - [Lean v4.36.0 released with type class resolution caching across commands](https://leanweekly.news/2026-11-16/#2026-11-16-lean-v4-36-0-released-with-type-class-resolution-caching-across): Lean core, 2026-10-14
 - [Harmonic's Aristotle now formally verifies Rust, joining C and Verilog](https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-aristotle-now-formally-verifies-rust-joining-c-and-ve): Verification, 2026-11-16
 - [Nockchain releases a Nock zkVM with an end-to-end Lean soundness proof](https://leanweekly.news/2026-11-16/#2026-11-16-nockchain-releases-a-nock-zkvm-with-an-end-to-end-lean-soundness): Verification, 2026-11-16
@@ -97,13 +104,6 @@
 - [Mathstodon user markusde posts about porting xv6 to Iris-Lean](https://leanweekly.news/2026-10-29/#2026-10-29-mathstodon-user-markusde-posts-about-porting-xv6-to-iris-lean): Verification, 2026-10-29
 - [Juan J. Manfredi completes Lean formalization of OpenAI's infinity-harmonic estimates](https://leanweekly.news/2026-10-29/#2026-10-29-juan-j-manfredi-completes-lean-formalization-of-openai-s-infinit): AI and formalization, 2026-10-29
 - [Anthropic publishes Lean formalization of Claude's refutation of the Exponential Time Hypothesis](https://leanweekly.news/2026-10-29/#2026-10-29-anthropic-publishes-lean-formalization-of-claude-s-refutation-of): AI and formalization, 2026-10-29
-- [XTX Markets gives £5 million to Imperial College London for Langlands Lab](https://leanweekly.news/2026-10-29/#2026-10-29-xtx-markets-gives-5-million-to-imperial-college-london-for-langl): Papers and events, 2026-10-27
-- [Leo de Moura speeds up kernel checking of lia and grind proofs](https://leanweekly.news/2026-10-29/#2026-10-29-leo-de-moura-speeds-up-kernel-checking-of-lia-and-grind-proofs): Lean core, 2026-10-23
-- [Sebastian Graf merged vcgen +jp, which verifies code after a split once](https://leanweekly.news/2026-10-29/#2026-10-29-sebastian-graf-merged-vcgen-jp-which-verifies-code-after-a-split): Lean core, 2026-10-20
-- [Leo de Moura makes grind failure messages short by default](https://leanweekly.news/2026-10-29/#2026-10-29-leo-de-moura-makes-grind-failure-messages-short-by-default): Lean core, 2026-10-24
-- [Mac Malone opens Lake pull request to reduce build-store contention](https://leanweekly.news/2026-10-29/#2026-10-29-mac-malone-opens-lake-pull-request-to-reduce-build-store-content): Lean core, 2026-10-20
-- [Benjamin Pierce announces Agentic Proof Engineering, a Spring 2027 course at Penn](https://leanweekly.news/2026-10-29/#2026-10-29-benjamin-pierce-announces-agentic-proof-engineering-a-spring-202): Papers and events, 2026-10-29
-- [GenProof paper on verifying Minecraft redstone circuits uses Lean's bv_decide](https://leanweekly.news/2026-10-29/#2026-10-29-genproof-paper-on-verifying-minecraft-redstone-circuits-uses-lea): Papers and events, 2026-10-29
 
 ## Weeks (Friday to Thursday)
 
@@ -145,6 +145,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 17, 2026](https://leanweekly.news/2026-11-17/items.md)
 - [Published Nov 16, 2026](https://leanweekly.news/2026-11-16/items.md)
 - [Published Nov 15, 2026](https://leanweekly.news/2026-11-15/items.md)
 - [Published Nov 14, 2026](https://leanweekly.news/2026-11-14/items.md)

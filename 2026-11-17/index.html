@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+<meta charset="utf-8">
+<script src="../assets/theme.js?v=1fe176d120"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Published Nov 17, 2026 · Lean Weekly</title>
+<meta name="description" content="News about Lean, the theorem prover and programming language.">
+<link rel="preload" href="../assets/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/lw.css?v=edba6bded4">
+<link rel="alternate" type="application/rss+xml" title="Lean Weekly (RSS)" href="../feed.xml">
+<link rel="alternate" type="application/feed+json" title="Lean Weekly (JSON Feed)" href="../feed.json">
+<script defer src="../assets/lw.js?v=d000a0f320"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the news</a>
+<header class="bar">
+<div class="bar-row">
+  <div class="brand"><a class="wordmark" href="../" aria-label="Lean Weekly"><img class="logo" src="../assets/lean-logo.svg" alt="Lean" width="80" height="30"><span>Weekly</span></a>
+  <p class="tagline">News about Lean, the theorem prover and programming language.</p></div>
+  <button class="theme" type="button" hidden aria-label="Switch to night mode"><svg class="i-moon" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg><svg class="i-sun" viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
+  <form class="search" role="search" action="../search/" method="get">
+    <label class="sr-only" for="q">Search Lean news</label>
+    <input id="q" name="q" type="search" placeholder="Search Lean news" autocomplete="off" spellcheck="false" aria-controls="search-results" aria-expanded="false">
+    <kbd aria-hidden="true">/</kbd>
+    <div class="search-results" id="search-results" role="listbox" hidden></div>
+  </form>
+</div>
+<nav class="tabs" aria-label="Sections"><a class="t-latest" href="../">Latest</a><a class="t-ai" href="../section/ai/">AI and formalization</a><a class="t-verification" href="../section/verification/">Verification</a><a class="t-lean-core" href="../section/lean-core/">Lean core</a><a class="t-papers" href="../section/papers/">Papers and events</a><span class="tabs-gap"></span><a class="quiet" href="../about/">About</a><a class="quiet" href="../feed.xml">RSS</a></nav>
+</header>
+<main id="main">
+<div class="frame"><div class="timeline">
+<header class="page-head"><h1 class="page-title">Published Nov 17, 2026</h1><p class="page-blurb">7 items.</p></header>
+
+<div class="stream">
+<article class="card c-verification" id="2026-11-17-lean-harness-forshor-verifies-shor-s-algorithm-including-its-asy">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-16">Nov 16</time><button class="copy" type="button" hidden data-link="../2026-11-17/#2026-11-17-lean-harness-forshor-verifies-shor-s-algorithm-including-its-asy" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean harness ForShor verifies Shor's algorithm, including its asymptotic gate cost</h2>
+    <p class="card-text">Anirudh Suresh, Joshua M. Courtney, Runzhou Tao, and Yudong Cao prove correctness and gate-count theorems once for all valid policies (Toom-Cook multiplication designs, possibly from AI agents) and publish an open challenge at <a class="inl" href="https://github.com/VerifiedQC/ForShor" rel="noopener">forshor.ai</a>. At 2048 bits, a varying-arity policy gives about 1.685 trillion T-gates, against 1.820 trillion for the best single arity.</p>
+    <figure class="media media-paper"><img src="../assets/img/fbeb4097112ca8ee-480.webp" srcset="../assets/img/fbeb4097112ca8ee-480.webp 480w, ../assets/img/fbeb4097112ca8ee-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.20342" rel="noopener">arXiv:2611.20342</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/VerifiedQC/ForShor" rel="noopener">VerifiedQC/ForShor</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2611.20342.html" rel="noopener">paperswithlean.com</a></p>
+  </div>
+</article>
+<article class="card c-ai" id="2026-11-17-one-expert-directing-llm-agents-ports-compcert-s-verified-compil">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-16">Nov 16</time><button class="copy" type="button" hidden data-link="../2026-11-17/#2026-11-17-one-expert-directing-llm-agents-ports-compcert-s-verified-compil" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">One expert directing LLM agents ports CompCert's verified compiler core to Lean</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/fanlong/compcert4lean" rel="noopener">port from Rocq</a> took about six weeks, covers typed CompCert C through x86-64 assembly, and discharges all 4,908 proof obligations without project-specific axioms; 88.8% of 1,071 human interactions concerned workflow and coordination. With 24 active hours, GPT-6-astra cut generated-program runtime by 11.7% in Lean versus 2.3% in Rocq, preserving the end-to-end correctness theorem.</p>
+    <figure class="media media-paper"><img src="../assets/img/6f77436ed57cae46-480.webp" srcset="../assets/img/6f77436ed57cae46-480.webp 480w, ../assets/img/6f77436ed57cae46-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="949" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.21084" rel="noopener">arXiv:2611.21084</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/fanlong/compcert4lean" rel="noopener">fanlong/compcert4lean</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2611.21084.html" rel="noopener">paperswithlean.com</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-11-17-qeclean-a-lean-framework-proves-an-ibm-quantum-code-has-distance">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-16">Nov 16</time><button class="copy" type="button" hidden data-link="../2026-11-17/#2026-11-17-qeclean-a-lean-framework-proves-an-ibm-quantum-code-has-distance" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">QECLean, a Lean framework, proves an IBM quantum code has distance 24</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/QECLean/QECLean" rel="noopener">Stavan Jain, Nithin Raveendran and Aws Albarghouthi's framework</a>, built on <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>, backs every claimed property of quantum error-correcting codes with a machine-checked proof. Its new code combinators prove distance compositionally for large codes beyond algorithmic techniques (24 was previously only an upper bound), and it formalizes entire code families such as the surface code.</p>
+    <figure class="media media-paper"><img src="../assets/img/8df294fe2fd23b4d-480.webp" srcset="../assets/img/8df294fe2fd23b4d-480.webp 480w, ../assets/img/8df294fe2fd23b4d-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="949" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.21236" rel="noopener">arXiv:2611.21236</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/QECLean/QECLean" rel="noopener">QECLean/QECLean</a></p>
+  </div>
+</article>
+<article class="card c-ai" id="2026-11-17-hassana-labs-defines-eleutherai-s-pythia-14m-exactly-over-the-re">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-17">Nov 17</time><button class="copy" type="button" hidden data-link="../2026-11-17/#2026-11-17-hassana-labs-defines-eleutherai-s-pythia-14m-exactly-over-the-re" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Hassana Labs defines EleutherAI's Pythia-14M exactly over the reals in Lean 4</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/leochlon/tiny-bayes" rel="noopener">tiny-bayes repository</a> decodes all 14,067,712 parameters exactly from float16 bit patterns and defines the GPT-NeoX forward pass using exact GELU, with kernel-certified outputs. Theorems depending only on the axioms propext, Classical.choice and Quot.sound show that a tiny transformer's Bayesian-in-expectation result (order averages within 0.0034 of Laplace's rule) does not extend to Pythia-14M.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leochlon/tiny-bayes" rel="noopener">leochlon/tiny-bayes</a></p>
+  </div>
+</article>
+<article class="card c-ai" id="2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-16">Nov 16</time><button class="copy" type="button" hidden data-link="../2026-11-17/#2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Kimon Fountoulakis and coauthors describe VSCL, a Lean library formalizing numerical analysis</h2>
+    <p class="card-text">To assess AI-generated kernels, the authors audited a <a class="inl" href="https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026" rel="noopener">GPU MODE QR competition</a>: all five leading kernels passed its accuracy tests, yet each failed at least once on new inputs under the same checker, while the baseline passed them all. The authors propose <a class="inl" href="https://arxiv.org/abs/2611.21570" rel="noopener">VERNA</a>, which would use formalized results to test kernels against explicit specifications.</p>
+    <figure class="media media-paper"><img src="../assets/img/4945c370fa91e892-480.webp" srcset="../assets/img/4945c370fa91e892-480.webp 480w, ../assets/img/4945c370fa91e892-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.21570" rel="noopener">arXiv:2611.21570</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026" rel="noopener">the-numerical-proving-ground/gpumode-kernel-audit-2026</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2611.21570.html" rel="noopener">paperswithlean.com</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-11-17-rylan-malarchick-presents-qlin-a-dynamic-quantum-circuit-compile">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-14">Nov 14</time><button class="copy" type="button" hidden data-link="../2026-11-17/#2026-11-17-rylan-malarchick-presents-qlin-a-dynamic-quantum-circuit-compile" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Rylan Malarchick presents qlin, a dynamic quantum circuit compiler with Lean proofs</h2>
+    <p class="card-text">Lean 4 proofs show that <a class="inl" href="https://github.com/rylanmalarchick/qlin" rel="noopener">qlin</a> moves operations out of measurement-dependent branches without delaying the program, and that its check of each compiled program against its source is sound. Modeled at the QICK controller's 42 ns per decision, 10 of 65 programs run at least 10% faster than the best baseline, up to 91.2%.</p>
+    <figure class="media media-paper"><img src="../assets/img/7d650e513c3343de-480.webp" srcset="../assets/img/7d650e513c3343de-480.webp 480w, ../assets/img/7d650e513c3343de-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="949" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.19618" rel="noopener">arXiv:2611.19618</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/rylanmalarchick/qlin" rel="noopener">rylanmalarchick/qlin</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-14">Nov 14</time><button class="copy" type="button" hidden data-link="../2026-11-17/#2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">TrustBound proves in Lean how to account for payments outliving AI agents</h2>
+    <p class="card-text">Sandip Nandi, Aishwarya Bose, Apurba Bose and Soovadeep Bakshi prove that once a fence stops new admissions, discharging outstanding rights prevents further payments, and that truthful outcomes give exact accounting. Lean accepts six histories from a <a class="inl" href="https://github.com/tokencraftdata/trustbound" rel="noopener">Python/SQLite service</a>; concurrent tests exposed a conflict from reordered provider reads, fixed in all 84 tested cases.</p>
+    <figure class="media media-paper"><img src="../assets/img/0821b00852a59ab0-480.webp" srcset="../assets/img/0821b00852a59ab0-480.webp 480w, ../assets/img/0821b00852a59ab0-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.19551" rel="noopener">arXiv:2611.19551</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/tokencraftdata/trustbound" rel="noopener">tokencraftdata/trustbound</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2611.19551.html" rel="noopener">paperswithlean.com</a></p>
+  </div>
+</article>
+</div>
+</div></div>
+</main>
+<p class="sr-only" id="status" role="status" aria-live="polite"></p>
+<footer class="foot"><div class="foot-in"><p><a href="../about/">About</a> · <a href="../search/">Search</a> · <a href="../feed.xml">RSS</a> · <a href="../feed.json">JSON Feed</a></p></div></footer>
+</body>
+</html>
