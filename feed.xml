@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 17 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Teng Zhang proves Schmeisser's 1977 conjecture; OpenAI's Codex formalizes it in Lean</title>
+<link>https://leanweekly.news/2026-11-17/#2026-11-17-teng-zhang-proves-schmeisser-s-1977-conjecture-openai-s-codex-fo</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-teng-zhang-proves-schmeisser-s-1977-conjecture-openai-s-codex-fo</guid>
+<pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://paperswithlean.com/paper/2611.19084.html" rel="noopener"&gt;The conjecture&lt;/a&gt; strengthens Sendov's: if a polynomial's zeros lie in the closed unit disk, every point of their convex hull is within distance 1 of some critical point. The &lt;a class="inl" href="https://github.com/zhangteng2000/schmeisser-conjecture" rel="noopener"&gt;Mathlib-based formalization&lt;/a&gt; covers every degree with no sorry placeholders or extra axioms, and Lean's kernel checks its interval certificates for degrees 4 to 6,000.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://paperswithlean.com/paper/2611.19084.html"&gt;paperswithlean.com&lt;/a&gt;, &lt;a href="https://github.com/zhangteng2000/schmeisser-conjecture"&gt;zhangteng2000/schmeisser-conjecture&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>AxiomMath formalizes the minimal model program in dimension at most four</title>
 <link>https://leanweekly.news/2026-11-17/#2026-11-17-axiommath-formalizes-the-minimal-model-program-in-dimension-at-m</link>
@@ -398,14 +406,6 @@
 <pubDate>Sun, 08 Nov 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;Dömötör Pálvölgyi's heptagon and generic seven points on a circle (Theorem A.3 of arXiv:2609.23327) are proved non-Ramsey under formal-conjectures' definition, copied byte for byte (Ramsey: for any number of colours, every colouring of some Euclidean space has a monochromatic copy). Anthropic's Claude wrote &lt;a class="inl" href="https://github.com/carlostoledo1891/heptagon-ramsey-lean" rel="noopener"&gt;the Lean proofs&lt;/a&gt; under Carlos Toledo's direction, building on OpenAI's formalization.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-08-000001&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/carlostoledo1891/heptagon-ramsey-lean"&gt;carlostoledo1891/heptagon-ramsey-lean&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>The-Anh Vu-Le registers Lean proofs of Brouwer's, Kakutani's and Schauder's fixed-point theorems</title>
-<link>https://leanweekly.news/2026-11-10/#2026-11-10-the-anh-vu-le-registers-lean-proofs-of-brouwer-s-kakutani-s-and</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-10/#2026-11-10-the-anh-vu-le-registers-lean-proofs-of-brouwer-s-kakutani-s-and</guid>
-<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;Brouwer's theorem, in every finite dimension, has &lt;a class="inl" href="https://github.com/vltanh/lean4-fixed-point" rel="noopener"&gt;two proofs&lt;/a&gt;: an analytic one, following John Milnor (1978) and C. A. Rogers (1980) and using no homology, degree theory or simplicial approximation, and one through Sperner's lemma. Claude Opus 5.5 wrote the proofs in Claude Code; no person has reviewed them, and Lean has checked them.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-10-000001&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/vltanh/lean4-fixed-point"&gt;vltanh/lean4-fixed-point&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
