@@ -4,6 +4,27 @@
 
 ## Latest items
 
+- [Google's Teamwork-LEAP system formalizes the Weil conjectures in Lean](https://leanweekly.news/2026-11-19/#2026-11-19-google-s-teamwork-leap-system-formalizes-the-weil-conjectures-in): AI and formalization, 2026-11-14
+- [Google DeepMind uses AI to verify Signal's libsignal down to machine code](https://leanweekly.news/2026-11-19/#2026-11-19-google-deepmind-uses-ai-to-verify-signal-s-libsignal-down-to-mac): Verification, 2026-11-12
+- [Gemini 4 agents discover formally verified quantum programs in Lean](https://leanweekly.news/2026-11-19/#2026-11-19-gemini-4-agents-discover-formally-verified-quantum-programs-in-l): AI and formalization, 2026-11-06
+- [Henrik Böving adds epr tactic for EPR, a first-order logic fragment](https://leanweekly.news/2026-11-19/#2026-11-19-henrik-b-ving-adds-epr-tactic-for-epr-a-first-order-logic-fragme): Lean core, 2026-11-16
+- [Codex agents prove Gonshor's 1986 conjecture on surreal birthdays in Lean](https://leanweekly.news/2026-11-19/#2026-11-19-codex-agents-prove-gonshor-s-1986-conjecture-on-surreal-birthday): AI and formalization, 2026-11-19
+- [&Truth says its proofs can be independently checked using Lean](https://leanweekly.news/2026-11-19/#2026-11-19-truth-says-its-proofs-can-be-independently-checked-using-lean): Verification, 2026-11-12
+- [John Zhuoyang Ye and co-authors present QCCDCert, a Lean-verified trapped-ion quantum compiler](https://leanweekly.news/2026-11-19/#2026-11-19-john-zhuoyang-ye-and-co-authors-present-qccdcert-a-lean-verified): Verification, 2026-11-17
+- [Bowen Zhu and Jian Wu certify plasma solver outputs with Lean proofs](https://leanweekly.news/2026-11-19/#2026-11-19-bowen-zhu-and-jian-wu-certify-plasma-solver-outputs-with-lean-pr): Verification, 2026-11-15
+- [Adam Reynolds publishes Noctium, a Lean 4 framework for proving Midnight contracts](https://leanweekly.news/2026-11-19/#2026-11-19-adam-reynolds-publishes-noctium-a-lean-4-framework-for-proving-m): Verification, 2026-11-19
+- [Smayan Agarwal and Aalok Thakkar's Kamot generates zippers, partly verified in Lean](https://leanweekly.news/2026-11-19/#2026-11-19-smayan-agarwal-and-aalok-thakkar-s-kamot-generates-zippers-partl): Verification, 2026-11-17
+- [Leo de Moura makes equation lemmas keep haves instead of inlining them](https://leanweekly.news/2026-11-19/#2026-11-19-leo-de-moura-makes-equation-lemmas-keep-haves-instead-of-inlinin): Lean core, 2026-11-03
+- [Julia Himmel reimplements Lean's IO.Process.spawn using libuv](https://leanweekly.news/2026-11-19/#2026-11-19-julia-himmel-reimplements-lean-s-io-process-spawn-using-libuv): Lean core, 2026-11-16
+- [Lean's CI now builds and tests Lean Beam on every Linux run](https://leanweekly.news/2026-11-19/#2026-11-19-lean-s-ci-now-builds-and-tests-lean-beam-on-every-linux-run): Lean core, 2026-11-13
+- [Naoya Yamashita releases leanfran, connecting Lean with Rust, Python, TypeScript and Clojure](https://leanweekly.news/2026-11-19/#2026-11-19-naoya-yamashita-releases-leanfran-connecting-lean-with-rust-pyth): Lean core, 2026-11-13
+- [Naoya Yamashita's leanassay checks whether Lean theorems pin down implementations](https://leanweekly.news/2026-11-19/#2026-11-19-naoya-yamashita-s-leanassay-checks-whether-lean-theorems-pin-dow): Lean core, 2026-11-19
+- [Lean 4 repository has 10,056 GitHub stars](https://leanweekly.news/2026-11-19/#2026-11-19-lean-4-repository-has-10-056-github-stars): Lean core, 2026-11-19
+- [Leo de Moura speeds up equation generation for match on many literals](https://leanweekly.news/2026-11-19/#2026-11-19-leo-de-moura-speeds-up-equation-generation-for-match-on-many-lit): Lean core, 2026-11-13
+- [Mac Malone lets Lake packages declare their own cache services](https://leanweekly.news/2026-11-19/#2026-11-19-mac-malone-lets-lake-packages-declare-their-own-cache-services): Lean core, 2026-11-06
+- [Sebastian Ullrich speeds up deriving Repr, BEq, and Hashable on mutual blocks](https://leanweekly.news/2026-11-19/#2026-11-19-sebastian-ullrich-speeds-up-deriving-repr-beq-and-hashable-on-mu): Lean core, 2026-11-07
+- [Leo de Moura presents "Scaling Lean for AI" at SViL, Stanford](https://leanweekly.news/2026-11-19/#2026-11-19-leo-de-moura-presents-scaling-lean-for-ai-at-svil-stanford): Papers and events, 2026-10-26
+- [Xueying Qin, Marco Peressotti and Fabrizio Montesi mechanise asynchronous choreographies in Lean](https://leanweekly.news/2026-11-19/#2026-11-19-xueying-qin-marco-peressotti-and-fabrizio-montesi-mechanise-asyn): Papers and events, 2026-11-18
 - [Teng Zhang proves Schmeisser's 1977 conjecture; OpenAI's Codex formalizes it in Lean](https://leanweekly.news/2026-11-17/#2026-11-17-teng-zhang-proves-schmeisser-s-1977-conjecture-openai-s-codex-fo): AI and formalization, 2026-11-14
 - [AxiomMath formalizes the minimal model program in dimension at most four](https://leanweekly.news/2026-11-17/#2026-11-17-axiommath-formalizes-the-minimal-model-program-in-dimension-at-m): AI and formalization, 2026-11-17
 - [Joris Roos formalizes Carleson's theorem on Fourier series using coding agents](https://leanweekly.news/2026-11-17/#2026-11-17-joris-roos-formalizes-carleson-s-theorem-on-fourier-series-using): AI and formalization, 2026-11-17
@@ -83,27 +104,6 @@
 - [Researchers formalize the Strong Perfect Graph Theorem in Lean with AI agents](https://leanweekly.news/2026-11-05/#2026-11-05-researchers-formalize-the-strong-perfect-graph-theorem-in-lean-w): AI and formalization, 2026-11-05
 - [Axiom Math formalizes the Stacks Project in Lean with AI agents](https://leanweekly.news/2026-11-04/#2026-11-04-axiom-math-formalizes-the-stacks-project-in-lean-with-ai-agents): AI and formalization, 2026-11-04
 - [Fedor Popov and Leonardo Rastelli release LeanVOA, a vertex operator algebra library](https://leanweekly.news/2026-11-04/#2026-11-04-fedor-popov-and-leonardo-rastelli-release-leanvoa-a-vertex-opera): AI and formalization, 2026-11-04
-- [Mahdi JafariRaviz's repository formalizes a quasipolynomial-time graph isomorphism algorithm in Lean](https://leanweekly.news/2026-11-04/#2026-11-04-mahdi-jafariraviz-s-repository-formalizes-a-quasipolynomial-time): AI and formalization, 2026-11-04
-- [Scott Armstrong and Ahmed Bou-Rabee fully formalize Elboim-Sly paper with AI agents](https://leanweekly.news/2026-11-04/#2026-11-04-scott-armstrong-and-ahmed-bou-rabee-fully-formalize-elboim-sly-p): AI and formalization, 2026-11-04
-- [Xi Yin, Michael R. Douglas and Anna Mei machine-check the Osterwalder-Schrader correspondence](https://leanweekly.news/2026-11-04/#2026-11-04-xi-yin-michael-r-douglas-and-anna-mei-machine-check-the-osterwal): AI and formalization, 2026-11-04
-- [Nidhal Mghirbi and Seth Douglas give Lean-checked hyperbolic counterexamples to Kaplansky's conjectures](https://leanweekly.news/2026-11-04/#2026-11-04-nidhal-mghirbi-and-seth-douglas-give-lean-checked-hyperbolic-cou): AI and formalization, 2026-11-03
-- [Luk Koska, Tom Koska and Ben Koska verify GPU kernels in Lean](https://leanweekly.news/2026-11-04/#2026-11-04-luk-koska-tom-koska-and-ben-koska-verify-gpu-kernels-in-lean): Verification, 2026-11-03
-- [LARK verifies GPU kernels against PyTorch references using LLM agents and Lean](https://leanweekly.news/2026-11-03/#2026-11-03-lark-verifies-gpu-kernels-against-pytorch-references-using-llm-a): Verification, 2026-11-01
-- [Baoyu Zhang and Shengmin Zhang prove Díaz–Park conjecture, formalized in Lean](https://leanweekly.news/2026-11-03/#2026-11-03-baoyu-zhang-and-shengmin-zhang-prove-d-az-park-conjecture-formal): AI and formalization, 2026-11-01
-- [Sreehari Sankar and coauthors present LeanGuard, Lean-verified guardrails for AI agents](https://leanweekly.news/2026-11-03/#2026-11-03-sreehari-sankar-and-coauthors-present-leanguard-lean-verified-gu): Verification, 2026-11-02
-- [Jan Onderka, Armin Biere and Henrik Böving verify a Lean SMT-LIB parser](https://leanweekly.news/2026-11-03/#2026-11-03-jan-onderka-armin-biere-and-henrik-b-ving-verify-a-lean-smt-lib): Verification, 2026-10-30
-- [Researchers bring effect handlers to JAX, backed by Lean 4 proofs](https://leanweekly.news/2026-11-03/#2026-11-03-researchers-bring-effect-handlers-to-jax-backed-by-lean-4-proofs): Papers and events, 2026-11-02
-- [Tau Ceti uses AI to build a library of formalized mathematics](https://leanweekly.news/2026-11-02/#2026-11-02-tau-ceti-uses-ai-to-build-a-library-of-formalized-mathematics): AI and formalization, 2026-11-02
-- [Autoresearch, Inc. releases Silmaril: Lean models of programs and verified WebAssembly tools](https://leanweekly.news/2026-11-02/#2026-11-02-autoresearch-inc-releases-silmaril-lean-models-of-programs-and-v): Verification, 2026-11-02
-- [Sébastien Celles uses Lean 4 to find correctness bugs in Go](https://leanweekly.news/2026-11-02/#2026-11-02-s-bastien-celles-uses-lean-4-to-find-correctness-bugs-in-go): Verification, 2026-11-02
-- [Volodymyr Pavlyshyn's LeanRDF certifies RDF entailment with a verified checker](https://leanweekly.news/2026-11-02/#2026-11-02-volodymyr-pavlyshyn-s-leanrdf-certifies-rdf-entailment-with-a-ve): Verification, 2026-11-02
-- [Darius Foo and coauthors reconstruct the Iris base logic in Lean](https://leanweekly.news/2026-11-02/#2026-11-02-darius-foo-and-coauthors-reconstruct-the-iris-base-logic-in-lean): Papers and events, 2026-10-30
-- [Zayn Blore proves in Lean that the Poisson conjecture is false](https://leanweekly.news/2026-11-01/#2026-11-01-zayn-blore-proves-in-lean-that-the-poisson-conjecture-is-false): AI and formalization, 2026-11-01
-- [Harsh Gupta's Lean 4 submission ranks first in the $12 server challenge](https://leanweekly.news/2026-10-31/#2026-10-31-harsh-gupta-s-lean-4-submission-ranks-first-in-the-12-server-cha): Lean core, 2026-10-31
-- [Basis Research Institute proves compiled libtommath correct in Lean, finds bugs](https://leanweekly.news/2026-10-30/#2026-10-30-basis-research-institute-proves-compiled-libtommath-correct-in-l): Verification, 2026-10-30
-- [Junpeng Ren disproves the pure semisimplicity conjecture, with a Lean formalization](https://leanweekly.news/2026-10-30/#2026-10-30-junpeng-ren-disproves-the-pure-semisimplicity-conjecture-with-a): AI and formalization, 2026-10-29
-- [Denis Firsov verifies worst-case constant-time order maintenance in Lean 4](https://leanweekly.news/2026-10-30/#2026-10-30-denis-firsov-verifies-worst-case-constant-time-order-maintenance): Verification, 2026-10-28
-- [Lean becomes first to formalize all 100 theorems on Freek Wiedijk's list](https://leanweekly.news/2026-10-29/#2026-10-29-lean-becomes-first-to-formalize-all-100-theorems-on-freek-wiedij): AI and formalization, 2026-10-29
 
 ## Weeks (Friday to Thursday)
 
@@ -145,6 +145,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 19, 2026](https://leanweekly.news/2026-11-19/items.md)
 - [Published Nov 17, 2026](https://leanweekly.news/2026-11-17/items.md)
 - [Published Nov 16, 2026](https://leanweekly.news/2026-11-16/items.md)
 - [Published Nov 15, 2026](https://leanweekly.news/2026-11-15/items.md)
