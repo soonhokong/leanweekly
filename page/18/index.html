@@ -32,6 +32,43 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 18</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time><button class="copy" type="button" hidden data-link="../../2026-01-29/#2026-01-29-lean-publishes-leansqlite-sqlite-bindings-for-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean publishes leansqlite, SQLite bindings for Lean</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a> library bundles SQLite and adds interpolated strings that expand to prepared statements, plus iterators over query result rows. <a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">A Zulip user, pandaman, shared LeanToDo</a>, an experiment in building a web application with Lean that uses leansqlite for its database and <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a> for HTML templating.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/leansqlite" rel="noopener">leanprover/leansqlite</a><span class="dot" aria-hidden="true">·</span><a href="https://leanprover.zulipchat.com/#narrow/channel/113488-general/topic/LeanToDo.3A.20creating.20a.20web.20app.20using.20Lean/with/570823744" rel="noopener">leanprover.zulipchat.com</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-01-29-sebastian-ullrich-s-merged-pr-separates-meta-and-non-meta-code-i">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-29">Jan 29</time><button class="copy" type="button" hidden data-link="../../2026-01-29/#2026-01-29-sebastian-ullrich-s-merged-pr-separates-meta-and-non-meta-code-i" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich's merged PR separates meta and non-meta code in Lean binaries</h2>
+    <p class="card-text">The change lets the module system, in cooperation with the linker, keep tactics used only in proofs out of the final native binary. A simple example using <code>meta import Lean</code> shrinks from 130MB to 1.7MB. As a breaking change, <code>importModules (loadExts := true)</code> must now be preceded by <code>enableInitializersExecution</code>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12016" rel="noopener">lean4#12016</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-01-29-leo-de-moura-merges-three-lean-core-changes-to-instance-handling">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-28">Jan 28</time><button class="copy" type="button" hidden data-link="../../2026-01-29/#2026-01-29-leo-de-moura-merges-three-lean-core-changes-to-instance-handling" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura merges three Lean core changes to instance handling</h2>
+    <p class="card-text">Lean now identifies instance parameters by type using isClass? instead of binder syntax, dsimp no longer simplifies instances by default, and isDefEq no longer raises transparency to .default for implicit arguments, a change the PR calls very disruptive. Old behavior is available through backward.* options, and the PRs cite problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12172" rel="noopener">lean4#12172</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12195" rel="noopener">lean4#12195</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-01-29-willem-vanhulle-builds-a-terminal-user-interface-for-lean-4-user">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-01-27">Jan 27</time><button class="copy" type="button" hidden data-link="../../2026-01-29/#2026-01-29-willem-vanhulle-builds-a-terminal-user-interface-for-lean-4-user" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Willem Vanhulle builds a terminal user interface for Lean 4 users</h2>
+    <p class="card-text"><a class="inl" href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">Willem Vanhulle</a> is putting together a TUI (a terminal-only user interface) for Lean4 users, built with Ratatui. The TUI has several display modes with different display styles for on-going mathematical proof development, and documentation is available.</p>
+    <figure class="media"><img src="../../assets/img/1842d4fc105abdb3-480.webp" srcset="../../assets/img/1842d4fc105abdb3-480.webp 480w, ../../assets/img/1842d4fc105abdb3-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="800" height="396" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: linkedin.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.linkedin.com/posts/willem-vanhulle-2657aa180_math-proof-tui-activity-7421958100535996416-QSdl/" rel="noopener">LinkedIn post</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-01-22-leo-de-moura-presents-the-state-of-lean-at-lean-together-2026">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -216,43 +253,6 @@
     <p class="card-text"><a class="inl" href="https://www.renaissancephilanthropy.org/insights/renaissance-philanthropy-and-xtx-markets-announce-further-171-million-to-accelerate-mathematical-progress" rel="noopener">The AI for Math Fund</a> selected 22 applications representing 30 organizations from more than 470 submissions, bringing its total commitments to $35.1 million. Winners include TorchLean, a Lean-native framework for verified machine learning, and a project turning a Lean 4 visual proofwriting prototype into open-source infrastructure for reading AI-generated proofs.</p>
     <figure class="media"><img src="../../assets/img/5af1321dcbfb2fc6-480.webp" srcset="../../assets/img/5af1321dcbfb2fc6-480.webp 480w, ../../assets/img/5af1321dcbfb2fc6-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="750" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: renaissancephilanthropy.org</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.renaissancephilanthropy.org/insights/renaissance-philanthropy-and-xtx-markets-announce-further-171-million-to-accelerate-mathematical-progress" rel="noopener">renaissancephilanthropy.org</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-10-15-ai-proof-search-agent-resolves-nine-open-erd-s-problems-verified">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-08">Oct 8</time><button class="copy" type="button" hidden data-link="../../2026-10-15/#2026-10-15-ai-proof-search-agent-resolves-nine-open-erd-s-problems-verified" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">AI proof-search agent resolves nine open Erdős problems, verified in Lean</h2>
-    <p class="card-text"><a class="inl" href="https://www.science.org/doi/10.1126/science.aej2213" rel="noopener">A paper in Science</a> by George Tsoukalas, Swarat Chaudhuri and coauthors describes an agent for formal proof search that autonomously resolved nine of 353 open Erdős problems and proved 44 of 492 On-Line Encyclopedia of Integer Sequences conjectures. A basic agent alternating LLM-based generation with Lean-based verification replicated the Erdős successes.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.science.org/doi/10.1126/science.aej2213" rel="noopener">science.org</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-10-15-machine-checked-lean-4-proof-of-the-general-courtade-kumar-inequ">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-15">Oct 15</time><button class="copy" type="button" hidden data-link="../../2026-10-15/#2026-10-15-machine-checked-lean-4-proof-of-the-general-courtade-kumar-inequ" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Machine-checked Lean 4 proof of the general Courtade–Kumar inequality released</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/dpwoodru/general-courtade-kumar-lean" rel="noopener">A repository by @dpwoodru</a> contains a complete, machine-checked Lean 4 proof of the general Courtade–Kumar inequality (the most informative Boolean function conjecture), formalizing the paper by Z. Chen, A. Gohari, A. Javanmard, H. Lin, V. Mirrokni, C. Nair and D. P. Woodruff. The whole proof spans 45,500 modules.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/dpwoodru/general-courtade-kumar-lean" rel="noopener">dpwoodru/general-courtade-kumar-lean</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-10-15-scott-armstrong-publishes-skill-files-for-llm-driven-lean-autofo">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-04">Oct 4</time><button class="copy" type="button" hidden data-link="../../2026-10-15/#2026-10-15-scott-armstrong-publishes-skill-files-for-llm-driven-lean-autofo" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Scott Armstrong publishes skill files for LLM-driven Lean autoformalization</h2>
-    <p class="card-text"><a class="inl" href="https://www.scottnarmstrong.com/2026/10/autoformalization-is-now-very-easy/" rel="noopener">Scott Armstrong</a> writes that autoformalization of research-level mathematics has become easy, citing a Lean formalization of a 145-page paper with Vicol in about 36 hours (270k lines of code), and makes the agent skill files public. <a class="inl" href="https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/" rel="noopener">A separate Xena post</a> weighs mathematicians' reactions to AI, noting &quot;You cannot fool Lean.&quot;</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.scottnarmstrong.com/2026/10/autoformalization-is-now-very-easy/" rel="noopener">scottnarmstrong.com</a><span class="dot" aria-hidden="true">·</span><a href="https://xenaproject.wordpress.com/2026/10/01/to-grieve-or-not-to-grieve/" rel="noopener">xenaproject.wordpress.com</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-10-15-google-s-gemini-4-argon-writes-a-lean-verified-quantum-arcsin-im">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-13">Oct 13</time><button class="copy" type="button" hidden data-link="../../2026-10-15/#2026-10-15-google-s-gemini-4-argon-writes-a-lean-verified-quantum-arcsin-im" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Google's Gemini 4 Argon writes a Lean-verified quantum arcsin implementation</h2>
-    <p class="card-text"><a class="inl" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/" rel="noopener">Google's launch post for Gemini 4 Argon</a> (dated 2026-10-13) reports an arcsin implementation, a building block in recent quantum simulation algorithms, written by Argon and formally verified in Lean. It cuts spacetime cost by more than 100x compared to a published quantum CORDIC baseline.</p>
-    <figure class="media"><img src="../../assets/img/7b4515c62b3f9476-480.webp" srcset="../../assets/img/7b4515c62b3f9476-480.webp 480w, ../../assets/img/7b4515c62b3f9476-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="675" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: blog.google</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/" rel="noopener">blog.google</a></p>
   </div>
 </article>
 </div>

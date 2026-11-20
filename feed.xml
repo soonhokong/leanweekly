@@ -6,7 +6,39 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 14 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 19 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Hannah Cairo and five coauthors formalize Mizohata-Takeuchi power-loss theorem in Lean</title>
+<link>https://leanweekly.news/2026-11-19/#2026-11-19-hannah-cairo-and-five-coauthors-formalize-mizohata-takeuchi-powe</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-19/#2026-11-19-hannah-cairo-and-five-coauthors-formalize-mizohata-takeuchi-powe</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;The theorem states that for every smooth hypersurface whose second fundamental form is nonzero at some point, the local Mizohata-Takeuchi constant grows at least like a power of the radius, with the exponent chosen before the dimension and the surface. The &lt;a class="inl" href="https://github.com/VjekoKovac/lean-mt" rel="noopener"&gt;AI-assisted formalization&lt;/a&gt;, registered in the &lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-19-000036&amp;amp;version=1" rel="noopener"&gt;Palomar registry&lt;/a&gt;, passed the official Lean Comparator.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-19-000036&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/VjekoKovac/lean-mt"&gt;VjekoKovac/lean-mt&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>GPT-6.2 Astra formalizes Agata Smoktunowicz's gap theorem in Lean 4</title>
+<link>https://leanweekly.news/2026-11-19/#2026-11-19-gpt-6-2-astra-formalizes-agata-smoktunowicz-s-gap-theorem-in-lea</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-19/#2026-11-19-gpt-6-2-astra-formalizes-agata-smoktunowicz-s-gap-theorem-in-lea</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Working alone, the model wrote about 1,800 lines of Lean in 94 minutes; &lt;a class="inl" href="https://www.vals.ai/blogs/smoktunowicz-gap-theorem" rel="noopener"&gt;Vals AI reports&lt;/a&gt; no other model on the Autoform-Hard leaderboard solves this task. The 2006 theorem concerns the growth of graded algebras, and Astra's proof avoids three deep results the published one uses, none in &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;, Lean's math library.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.vals.ai/blogs/smoktunowicz-gap-theorem"&gt;vals.ai&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Zayn Blore formalizes Charles J. Read's counterexample to the invariant subspace problem</title>
+<link>https://leanweekly.news/2026-11-19/#2026-11-19-zayn-blore-formalizes-charles-j-read-s-counterexample-to-the-inv</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-19/#2026-11-19-zayn-blore-formalizes-charles-j-read-s-counterexample-to-the-inv</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Following Wiesław Śliwa's 2010 explicit version, &lt;a class="inl" href="https://github.com/zblore/fc-read-l1" rel="noopener"&gt;the proof&lt;/a&gt; shows there is a bounded operator on the sequence space ℓ¹ that maps no closed subspace, other than 0 and the whole space, into itself. Drafted with Claude Code, it proves Google DeepMind's Formal Conjectures statement Invariant_subspace_problem_l1; the open separable Hilbert space case is not addressed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-19-000030&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/zblore/fc-read-l1"&gt;zblore/fc-read-l1&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Daksh Shami and Charles Yuan verify MARBLE's rewrite rules in Lean 4</title>
+<link>https://leanweekly.news/2026-11-19/#2026-11-19-daksh-shami-and-charles-yuan-verify-marble-s-rewrite-rules-in-le</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-19/#2026-11-19-daksh-shami-and-charles-yuan-verify-marble-s-rewrite-rules-in-le</guid>
+<pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://arxiv.org/abs/2611.17756" rel="noopener"&gt;MARBLE language&lt;/a&gt; compiles publication-style matrix formulas into quantum circuits, applying algebraic rewrite rules that decompose each matrix into simpler matrices with known circuits; &lt;a class="inl" href="https://paperswithlean.com/paper/2611.17756.html" rel="noopener"&gt;Lean 4 proofs&lt;/a&gt; show every rule preserves matrix semantics. MARBLE matches or surpasses 37 of 39 published baselines and produces exponentially smaller circuits than the leading tool FABLE.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.17756"&gt;arXiv:2611.17756&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.17756.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Google's Teamwork-LEAP system formalizes the Weil conjectures in Lean</title>
 <link>https://leanweekly.news/2026-11-19/#2026-11-19-google-s-teamwork-leap-system-formalizes-the-weil-conjectures-in</link>
@@ -374,38 +406,6 @@
 <pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://lexifina.com/blog/formalizing-the-us-tax-code" rel="noopener"&gt;Lexifina&lt;/a&gt; used AI to translate each section of the tax law into Lean, staying close to the statute's own words, and tested it against worked examples in IRS forms and instructions. Each drafting mistake has a Lean certificate proving the fault, and a comparison with three tax programs found bugs in Tax-Calculator and UsTaxes.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://lexifina.com/blog/formalizing-the-us-tax-code"&gt;lexifina.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Mahdi JafariRaviz formalizes Robertson and Seymour's Graph Minors series in Lean 4</title>
-<link>https://leanweekly.news/2026-11-14/#2026-11-14-mahdi-jafariraviz-formalizes-robertson-and-seymour-s-graph-minor</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-14/#2026-11-14-mahdi-jafariraviz-formalizes-robertson-and-seymour-s-graph-minor</guid>
-<pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Graph.20Minors/with/640335582" rel="noopener"&gt;The formalization&lt;/a&gt; covers all 838 numbered results across 22 papers, including the graph minor theorem (Wagner's conjecture), the excluded-minor structure theorem, and the O(n³) algorithm for the k disjoint paths problem. The three main theorems pass &lt;a class="inl" href="https://github.com/leanprover/comparator" rel="noopener"&gt;comparator&lt;/a&gt; and use only the standard axioms; the repository describes corrections to the papers, none affecting those theorems.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://leanprover.zulipchat.com/#narrow/channel/579630-Project-announcements/topic/Graph.20Minors/with/640335582"&gt;leanprover.zulipchat.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Grothendieck Labs publishes a Lean formalization of Grothendieck–Riemann–Roch</title>
-<link>https://leanweekly.news/2026-11-13/#2026-11-13-grothendieck-labs-publishes-a-lean-formalization-of-grothendieck</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-13/#2026-11-13-grothendieck-labs-publishes-a-lean-formalization-of-grothendieck</guid>
-<pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/grothendiecklabs/grothendieck-riemann-roch" rel="noopener"&gt;The proof&lt;/a&gt; covers projective morphisms of smooth quasi-projective varieties over a field, uses no sorry and no axioms beyond Lean's standard three, and rests on Stacks for Chow groups and Chern classes. It was made on the grothendieck platform with the model Fable 5.2 in 6 hours 23 minutes.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/grothendiecklabs/grothendieck-riemann-roch"&gt;grothendiecklabs/grothendieck-riemann-roch&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Malvin Gattinger answers an open logic question using LLMs and Lean</title>
-<link>https://leanweekly.news/2026-11-13/#2026-11-13-malvin-gattinger-answers-an-open-logic-question-using-llms-and-l</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-13/#2026-11-13-malvin-gattinger-answers-an-open-logic-question-using-llms-and-l</guid>
-<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;Malvin Gattinger's &lt;a class="inl" href="https://arxiv.org/abs/2611.16759" rel="noopener"&gt;arXiv paper&lt;/a&gt; gives a counterexample showing that test-free PDL (Propositional Dynamic Logic without the '?' operator) lacks Craig Interpolation, which Borzechowski et al. (2026) showed PDL has. The example was originally obtained using LLMs and Lean, and the paper links to all prompts, LLM output summaries and &lt;a class="inl" href="https://doi.org/10.5281/zenodo.23987961" rel="noopener"&gt;the Lean proof&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.16759"&gt;arXiv:2611.16759&lt;/a&gt;, &lt;a href="https://doi.org/10.5281/zenodo.23987961"&gt;doi.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Igor Inozemtsev registers Lean proof of Ben Green's Problem 64 in Palomar</title>
-<link>https://leanweekly.news/2026-11-13/#2026-11-13-igor-inozemtsev-registers-lean-proof-of-ben-green-s-problem-64-i</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-13/#2026-11-13-igor-inozemtsev-registers-lean-proof-of-ben-green-s-problem-64-i</guid>
-<pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-13-000010&amp;amp;version=1" rel="noopener"&gt;The proof&lt;/a&gt; shows, without additional hypotheses, that there are infinitely many primes p for which p minus 2 has an odd number of prime factors, counted with multiplicity. &lt;a class="inl" href="https://github.com/inozemtsev/formal-math" rel="noopener"&gt;The standalone development&lt;/a&gt;, credited to gpt-6 astra and adapting Jizhou Guo's argument, includes supporting analytic number theory and uses &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; as its only direct &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener"&gt;Lake&lt;/a&gt; dependency.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-13-000010&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/inozemtsev/formal-math"&gt;inozemtsev/formal-math&lt;/a&gt;, &lt;a href="https://data.palomar-registry.org/entries/PALOMAR-2026-11-13-000010-v1.json"&gt;data.palomar-registry.org&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
