@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 19 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Harry Wang formalizes the Four Color Theorem in Lean 4 without Mathlib</title>
+<link>https://leanweekly.news/2026-11-20/#2026-11-20-harry-wang-formalizes-the-four-color-theorem-in-lean-4-without-m</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-20/#2026-11-20-harry-wang-formalizes-the-four-color-theorem-in-lean-4-without-m</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/Harry-Tech-Guide/Lean-4-Four-Color-Theorem-Formalization" rel="noopener"&gt;self-contained proof&lt;/a&gt; follows Georges Gonthier's hypermap framework and the published mathematics of Neil Robertson, Daniel P. Sanders, Paul Seymour, and Robin Thomas. It verifies all 633 unavoidable configurations (249 D-reducible, 384 C-reducible) and all 5 cartwheel discharging trees directly inside the Lean kernel without native_decide.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-20-000011&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;, &lt;a href="https://github.com/Harry-Tech-Guide/Lean-4-Four-Color-Theorem-Formalization"&gt;Harry-Tech-Guide/Lean-4-Four-Color-Theorem-Formalization&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Hannah Cairo and five coauthors formalize Mizohata-Takeuchi power-loss theorem in Lean</title>
 <link>https://leanweekly.news/2026-11-19/#2026-11-19-hannah-cairo-and-five-coauthors-formalize-mizohata-takeuchi-powe</link>
@@ -398,14 +406,6 @@
 <pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.14475" rel="noopener"&gt;The paper&lt;/a&gt;, by Christian Kümmerle and Dustin G. Mixon, constructs explicit restricted isometries (measurement matrices for compressed sensing) beyond the square-root barrier believed to limit its proof technique. The agents, directed by the authors, proved every numbered result, including the needed case of Zahl's sphere-tangency theorem, but no running-time bound.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/ckuemmerle/ExplicitRIPTwoThirds"&gt;ckuemmerle/ExplicitRIPTwoThirds&lt;/a&gt;, &lt;a href="https://arxiv.org/abs/2611.14475"&gt;arXiv:2611.14475&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.14475.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Lexifina formalizes the US tax code in Lean, finding 138 drafting mistakes</title>
-<link>https://leanweekly.news/2026-11-14/#2026-11-14-lexifina-formalizes-the-us-tax-code-in-lean-finding-138-drafting</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-14/#2026-11-14-lexifina-formalizes-the-us-tax-code-in-lean-finding-138-drafting</guid>
-<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://lexifina.com/blog/formalizing-the-us-tax-code" rel="noopener"&gt;Lexifina&lt;/a&gt; used AI to translate each section of the tax law into Lean, staying close to the statute's own words, and tested it against worked examples in IRS forms and instructions. Each drafting mistake has a Lean certificate proving the fault, and a comparison with three tax programs found bugs in Tax-Calculator and UsTaxes.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://lexifina.com/blog/formalizing-the-us-tax-code"&gt;lexifina.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

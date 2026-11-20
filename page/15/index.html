@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 15</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-05-07-wojciech-r-owski-moves-batteries-linters-into-lean-core-and-exte">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-28">Apr 28</time><button class="copy" type="button" hidden data-link="../../2026-05-07/#2026-05-07-wojciech-r-owski-moves-batteries-linters-into-lean-core-and-exte" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Wojciech Różowski moves Batteries linters into Lean core and extends lake lint</h2>
+    <p class="card-text">Wojciech Różowski <a class="inl" href="https://github.com/leanprover/lean4/pull/13513" rel="noopener">upstreamed the dupNamespace and unnecessarySeqFocus linters</a> from <a class="inl" href="https://github.com/leanprover-community/batteries" rel="noopener">Batteries</a> to core Lean as &quot;clippy&quot; linters, which are disabled by default and run with lake lint --clippy. lake lint --builtin-lint now also supports text linters, and a new script reports deprecated modules, options and syntax usage.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13513" rel="noopener">lean4#13513</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13538" rel="noopener">lean4#13538</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13540" rel="noopener">lean4#13540</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13586" rel="noopener">lean4#13586</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-05-07-leo-de-moura-presents-machine-checked-mathematics-talk-at-stanfo">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -243,16 +252,6 @@
     <h2 class="card-title">Lean releases Nerodia, a work-in-progress library for writing Python modules in Lean</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/nerodia" rel="noopener">Nerodia</a> is a library for Lean/Python FFI inspired by PyO3 that uses <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a>, Lean's build system, and generates type stubs for editors. It has a very limited API and is released primarily as a proof-of-concept and to obtain feedback on its design and build process.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/nerodia" rel="noopener">leanprover/nerodia</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-04-09-design-note-proposes-a-two-tier-design-for-grind-scalability">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-09">Apr 9</time><button class="copy" type="button" hidden data-link="../../2026-04-09/#2026-04-09-design-note-proposes-a-two-tier-design-for-grind-scalability" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Design note proposes a two-tier design for grind scalability</h2>
-    <p class="card-text"><a class="inl" href="https://hackmd.io/pwezQpZSS-qZVOz5ZPUktg" rel="noopener">A HackMD note</a> proposes to &quot;separate the cheap default from the expensive exploration&quot;: a default <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> mode that is cheap, fast and fails quickly, plus explicit named tactics such as nonlinear_ineqs and fin_cases that users, grind?, or AI invoke to produce replayable scripts.</p>
-    <figure class="media"><img src="../../assets/img/4d450d968a4e7517-480.webp" srcset="../../assets/img/4d450d968a4e7517-480.webp 480w, ../../assets/img/4d450d968a4e7517-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="630" alt="grind scalability: Two-Tier design - HackMD" loading="lazy" decoding="async"><figcaption class="credit">Image: hackmd.io</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://hackmd.io/pwezQpZSS-qZVOz5ZPUktg" rel="noopener">hackmd.io</a></p>
   </div>
 </article>
 </div>

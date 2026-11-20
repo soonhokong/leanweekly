@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Harry Wang formalizes the Four Color Theorem in Lean 4 without Mathlib](https://leanweekly.news/2026-11-20/#2026-11-20-harry-wang-formalizes-the-four-color-theorem-in-lean-4-without-m): AI and formalization, 2026-11-20
 - [Hannah Cairo and five coauthors formalize Mizohata-Takeuchi power-loss theorem in Lean](https://leanweekly.news/2026-11-19/#2026-11-19-hannah-cairo-and-five-coauthors-formalize-mizohata-takeuchi-powe): AI and formalization, 2026-11-19
 - [GPT-6.2 Astra formalizes Agata Smoktunowicz's gap theorem in Lean 4](https://leanweekly.news/2026-11-19/#2026-11-19-gpt-6-2-astra-formalizes-agata-smoktunowicz-s-gap-theorem-in-lea): AI and formalization, 2026-11-18
 - [Zayn Blore formalizes Charles J. Read's counterexample to the invariant subspace problem](https://leanweekly.news/2026-11-19/#2026-11-19-zayn-blore-formalizes-charles-j-read-s-counterexample-to-the-inv): AI and formalization, 2026-11-19
@@ -103,10 +104,10 @@
 - [Jesse Comer and coauthors present Whiel for Lean-certified relational program verification](https://leanweekly.news/2026-11-06/#2026-11-06-jesse-comer-and-coauthors-present-whiel-for-lean-certified-relat): Verification, 2026-11-03
 - [Naoya Yamashita releases lean-ritsuryo, Japanese statutory computation with proofs in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-naoya-yamashita-releases-lean-ritsuryo-japanese-statutory-comput): Verification, 2026-11-06
 - [Leo de Moura cuts Mathlib build instruction counts, speeds up rw tactic](https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-cuts-mathlib-build-instruction-counts-speeds-up-rw): Lean core, 2026-11-01
-- [Leo de Moura fixes three quadratic performance issues in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-fixes-three-quadratic-performance-issues-in-lean): Lean core, 2026-10-30
 
 ## Weeks (Friday to Thursday)
 
+- [Lean news, Nov 20 to Nov 26, 2026](https://leanweekly.news/week/2026-11-26/)
 - [Lean news, Nov 13 to Nov 19, 2026](https://leanweekly.news/week/2026-11-19/)
 - [Lean news, Nov 6 to Nov 12, 2026](https://leanweekly.news/week/2026-11-12/)
 - [Lean news, Oct 30 to Nov 5, 2026](https://leanweekly.news/week/2026-11-05/)
@@ -145,6 +146,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 20, 2026](https://leanweekly.news/2026-11-20/items.md)
 - [Published Nov 19, 2026](https://leanweekly.news/2026-11-19/items.md)
 - [Published Nov 17, 2026](https://leanweekly.news/2026-11-17/items.md)
 - [Published Nov 16, 2026](https://leanweekly.news/2026-11-16/items.md)

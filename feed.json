@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-20/#2026-11-20-harry-wang-formalizes-the-four-color-theorem-in-lean-4-without-m",
+   "url": "https://leanweekly.news/2026-11-20/#2026-11-20-harry-wang-formalizes-the-four-color-theorem-in-lean-4-without-m",
+   "title": "Harry Wang formalizes the Four Color Theorem in Lean 4 without Mathlib",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/Harry-Tech-Guide/Lean-4-Four-Color-Theorem-Formalization\" rel=\"noopener\">self-contained proof</a> follows Georges Gonthier's hypermap framework and the published mathematics of Neil Robertson, Daniel P. Sanders, Paul Seymour, and Robin Thomas. It verifies all 633 unavoidable configurations (249 D-reducible, 384 C-reducible) and all 5 cartwheel discharging trees directly inside the Lean kernel without native_decide.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-20-000011&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/Harry-Tech-Guide/Lean-4-Four-Color-Theorem-Formalization\">Harry-Tech-Guide/Lean-4-Four-Color-Theorem-Formalization</a></p>",
+   "date_published": "2026-11-20T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "four color theorem",
+    "combinatorics",
+    "palomar"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-19/#2026-11-19-hannah-cairo-and-five-coauthors-formalize-mizohata-takeuchi-powe",
    "url": "https://leanweekly.news/2026-11-19/#2026-11-19-hannah-cairo-and-five-coauthors-formalize-mizohata-takeuchi-powe",
    "title": "Hannah Cairo and five coauthors formalize Mizohata-Takeuchi power-loss theorem in Lean",
@@ -640,19 +653,6 @@
     "ai agents",
     "autoformalization",
     "compressed sensing"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-14/#2026-11-14-lexifina-formalizes-the-us-tax-code-in-lean-finding-138-drafting",
-   "url": "https://leanweekly.news/2026-11-14/#2026-11-14-lexifina-formalizes-the-us-tax-code-in-lean-finding-138-drafting",
-   "title": "Lexifina formalizes the US tax code in Lean, finding 138 drafting mistakes",
-   "content_html": "<p><a class=\"inl\" href=\"https://lexifina.com/blog/formalizing-the-us-tax-code\" rel=\"noopener\">Lexifina</a> used AI to translate each section of the tax law into Lean, staying close to the statute's own words, and tested it against worked examples in IRS forms and instructions. Each drafting mistake has a Lean certificate proving the fault, and a comparison with three tax programs found bugs in Tax-Calculator and UsTaxes.</p><p>Sources: <a href=\"https://lexifina.com/blog/formalizing-the-us-tax-code\">lexifina.com</a></p>",
-   "date_published": "2026-11-10T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "law",
-    "tax code",
-    "autoformalization"
    ]
   }
  ]
