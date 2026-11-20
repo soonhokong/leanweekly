@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Fri, 20 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>L. Alpöge and T. Buckmaster's Navier–Stokes blow-up paper comes with Lean formalization</title>
+<link>https://leanweekly.news/2026-11-20/#2026-11-20-l-alp-ge-and-t-buckmaster-s-navier-stokes-blow-up-paper-comes-wi</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-20/#2026-11-20-l-alp-ge-and-t-buckmaster-s-navier-stokes-blow-up-paper-comes-wi</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/tristanbuckmaster/navier-stokes" rel="noopener"&gt;Lean v4.33.1 package&lt;/a&gt;, with &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;, has a library of about 2,270 files and 600,000 lines and permits only the axioms propext, Quot.sound and Classical.choice, but its patched version was not rebuilt. It contains no data: the paper's certificate is not in the repository, and the interval-arithmetic computation checking it lies outside the formalization.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/tristanbuckmaster/navier-stokes"&gt;tristanbuckmaster/navier-stokes&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Harry Wang formalizes the Four Color Theorem in Lean 4 without Mathlib</title>
 <link>https://leanweekly.news/2026-11-20/#2026-11-20-harry-wang-formalizes-the-four-color-theorem-in-lean-4-without-m</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-20/#2026-11-20-harry-wang-formalizes-the-four-color-theorem-in-lean-4-without-m</guid>
@@ -398,14 +406,6 @@
 <pubDate>Sun, 15 Nov 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/emberian/qsag" rel="noopener"&gt;research-preview stack&lt;/a&gt; implements NIST FIPS 205 SLH-DSA-SHAKE and FIPS 204 ML-DSA-44, and Lean certificate checks pass for its 19 x86-64 and 9 AArch64 certified assembly kernels. Its main-library axiom audit checks 59,257 declarations, including 28,744 kernel theorem declarations, across 57 modules, with no rejected axioms.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/emberian/qsag"&gt;emberian/qsag&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Claude and Codex agents produce complete Lean formalization of restricted isometry paper</title>
-<link>https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r</guid>
-<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.14475" rel="noopener"&gt;The paper&lt;/a&gt;, by Christian Kümmerle and Dustin G. Mixon, constructs explicit restricted isometries (measurement matrices for compressed sensing) beyond the square-root barrier believed to limit its proof technique. The agents, directed by the authors, proved every numbered result, including the needed case of Zahl's sphere-tangency theorem, but no running-time bound.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/ckuemmerle/ExplicitRIPTwoThirds"&gt;ckuemmerle/ExplicitRIPTwoThirds&lt;/a&gt;, &lt;a href="https://arxiv.org/abs/2611.14475"&gt;arXiv:2611.14475&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.14475.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

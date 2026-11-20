@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-20/#2026-11-20-l-alp-ge-and-t-buckmaster-s-navier-stokes-blow-up-paper-comes-wi",
+   "url": "https://leanweekly.news/2026-11-20/#2026-11-20-l-alp-ge-and-t-buckmaster-s-navier-stokes-blow-up-paper-comes-wi",
+   "title": "L. Alpöge and T. Buckmaster's Navier–Stokes blow-up paper comes with Lean formalization",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/tristanbuckmaster/navier-stokes\" rel=\"noopener\">Lean v4.33.1 package</a>, with <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>, has a library of about 2,270 files and 600,000 lines and permits only the axioms propext, Quot.sound and Classical.choice, but its patched version was not rebuilt. It contains no data: the paper's certificate is not in the repository, and the interval-arithmetic computation checking it lies outside the formalization.</p><p>Sources: <a href=\"https://github.com/tristanbuckmaster/navier-stokes\">tristanbuckmaster/navier-stokes</a></p>",
+   "date_published": "2026-11-20T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "navier-stokes",
+    "formalization",
+    "mathlib"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-20/#2026-11-20-harry-wang-formalizes-the-four-color-theorem-in-lean-4-without-m",
    "url": "https://leanweekly.news/2026-11-20/#2026-11-20-harry-wang-formalizes-the-four-color-theorem-in-lean-4-without-m",
    "title": "Harry Wang formalizes the Four Color Theorem in Lean 4 without Mathlib",
@@ -640,19 +653,6 @@
     "cryptography",
     "post-quantum",
     "rust"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r",
-   "url": "https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r",
-   "title": "Claude and Codex agents produce complete Lean formalization of restricted isometry paper",
-   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2611.14475\" rel=\"noopener\">The paper</a>, by Christian Kümmerle and Dustin G. Mixon, constructs explicit restricted isometries (measurement matrices for compressed sensing) beyond the square-root barrier believed to limit its proof technique. The agents, directed by the authors, proved every numbered result, including the needed case of Zahl's sphere-tangency theorem, but no running-time bound.</p><p>Sources: <a href=\"https://github.com/ckuemmerle/ExplicitRIPTwoThirds\">ckuemmerle/ExplicitRIPTwoThirds</a>, <a href=\"https://arxiv.org/abs/2611.14475\">arXiv:2611.14475</a>, <a href=\"https://paperswithlean.com/paper/2611.14475.html\">paperswithlean.com</a></p>",
-   "date_published": "2026-11-10T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "ai agents",
-    "autoformalization",
-    "compressed sensing"
    ]
   }
  ]
