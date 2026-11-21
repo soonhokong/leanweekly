@@ -107,26 +107,6 @@
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://interestingengineering.com/ai-robotics/google-antigravity-multi-agent-research" rel="noopener">interestingengineering.com</a></p>
   </div>
 </article>
-<article class="card c-verification" id="2026-11-19-google-deepmind-uses-ai-to-verify-signal-s-libsignal-down-to-mac">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-12">Nov 12</time><button class="copy" type="button" hidden data-link="./2026-11-19/#2026-11-19-google-deepmind-uses-ai-to-verify-signal-s-libsignal-down-to-mac" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Google DeepMind uses AI to verify Signal's libsignal down to machine code</h2>
-    <p class="card-text">Google DeepMind released <a class="inl" href="https://www.digitaltoday.co.kr/en/view/124440/deepmind-releases-alphaproof-code-to-verify-machine-code" rel="noopener">AlphaProof Code</a>, an AI-based formal verification framework, along with the proofs. Five researchers working with an AI agent wrote about 6.5 million lines of Lean proof code in four weeks, covering a test program that uses a specific version of Rust-based libsignal, compiled into AArch64 Linux machine code.</p>
-    <figure class="media"><img src="./assets/img/49ee7f12147ee736-480.webp" srcset="./assets/img/49ee7f12147ee736-480.webp 480w, ./assets/img/49ee7f12147ee736-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="600" height="338" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: digitaltoday.co.kr</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.digitaltoday.co.kr/en/view/124440/deepmind-releases-alphaproof-code-to-verify-machine-code" rel="noopener">digitaltoday.co.kr</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-11-19-gemini-4-agents-discover-formally-verified-quantum-programs-in-l">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-06">Nov 6</time><button class="copy" type="button" hidden data-link="./2026-11-19/#2026-11-19-gemini-4-agents-discover-formally-verified-quantum-programs-in-l" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Gemini 4 agents discover formally verified quantum programs in Lean</h2>
-    <p class="card-text">In the paper &quot;<a class="inl" href="https://arxiv.org/abs/2611.09822" rel="noopener">Discovering formally verified quantum programs with AI</a>&quot;, Gemini 4 agents synthesize programs against formal specifications in a Lean quantum program library and verify correctness and cost. The authors report a 290x improvement on quantum arithmetic over prior baselines, and up to 2.57x on parallel search.</p>
-    <figure class="media media-paper"><img src="./assets/img/9a1d2237ded455b0-480.webp" srcset="./assets/img/9a1d2237ded455b0-480.webp 480w, ./assets/img/9a1d2237ded455b0-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="906" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.09822" rel="noopener">arXiv:2611.09822</a></p>
-  </div>
-</article>
 <article class="card c-lean-core" id="2026-11-19-henrik-b-ving-adds-epr-tactic-for-epr-a-first-order-logic-fragme">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -255,6 +235,24 @@
     <h2 class="card-title">Leo de Moura speeds up equation generation for <code>match</code> on many literals</h2>
     <p class="card-text">With 64 literal patterns, generating equation theorems (which <code>simp [f]</code> and <code>cbv</code> need) used to hit the heartbeat limit. Leo de Moura fixed this with <a class="inl" href="https://github.com/leanprover/lean4/pull/16354" rel="noopener">a series of pull requests</a>; one makes equation generation for a <code>String → Nat</code> function with 128 literal alternatives and a catch-all about 20% faster.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16354" rel="noopener">lean4#16354</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16460" rel="noopener">lean4#16460</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16465" rel="noopener">lean4#16465</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16477" rel="noopener">lean4#16477</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16480" rel="noopener">lean4#16480</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16502" rel="noopener">lean4#16502</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16505" rel="noopener">lean4#16505</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-11-19-mac-malone-lets-lake-packages-declare-their-own-cache-services">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-06">Nov 6</time><button class="copy" type="button" hidden data-link="./2026-11-19/#2026-11-19-mac-malone-lets-lake-packages-declare-their-own-cache-services" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Mac Malone lets Lake packages declare their own cache services</h2>
+    <p class="card-text">Services are specified in a <code>cache_service</code> <a class="inl" href="https://github.com/leanprover/lean4/pull/16302" rel="noopener">TOML table or Lean DSL declaration</a> and can be used via <code>lake cache get --service</code>. A new <code>downloadCacheService</code> <a class="inl" href="https://github.com/leanprover/lean4/pull/16351" rel="noopener">package option</a> sets the service <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> uses by default for <code>lake cache get</code> of the package and, when the artifact cache is enabled, for on-demand downloads during builds.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16302" rel="noopener">lean4#16302</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16351" rel="noopener">lean4#16351</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-11-19-sebastian-ullrich-speeds-up-deriving-repr-beq-and-hashable-on-mu">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-07">Nov 7</time><button class="copy" type="button" hidden data-link="./2026-11-19/#2026-11-19-sebastian-ullrich-speeds-up-deriving-repr-beq-and-hashable-on-mu" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Ullrich speeds up deriving Repr, BEq, and Hashable on mutual blocks</h2>
+    <p class="card-text">Lean now derives these classes <a class="inl" href="https://github.com/leanprover/lean4/pull/16339" rel="noopener">once per mutual block</a>, generating the auxiliary functions once for the whole block instead of once per type. This removes quadratic elaboration cost: deriving Repr on every type of a 76-type mutual block went from 309 seconds and 10.2 GB to 62 seconds and 1.3 GB.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16339" rel="noopener">lean4#16339</a></p>
   </div>
 </article>
 </div>

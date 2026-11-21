@@ -110,32 +110,6 @@
    ]
   },
   {
-   "id": "https://leanweekly.news/2026-11-19/#2026-11-19-google-deepmind-uses-ai-to-verify-signal-s-libsignal-down-to-mac",
-   "url": "https://leanweekly.news/2026-11-19/#2026-11-19-google-deepmind-uses-ai-to-verify-signal-s-libsignal-down-to-mac",
-   "title": "Google DeepMind uses AI to verify Signal's libsignal down to machine code",
-   "content_html": "<p>Google DeepMind released <a class=\"inl\" href=\"https://www.digitaltoday.co.kr/en/view/124440/deepmind-releases-alphaproof-code-to-verify-machine-code\" rel=\"noopener\">AlphaProof Code</a>, an AI-based formal verification framework, along with the proofs. Five researchers working with an AI agent wrote about 6.5 million lines of Lean proof code in four weeks, covering a test program that uses a specific version of Rust-based libsignal, compiled into AArch64 Linux machine code.</p><p>Sources: <a href=\"https://www.digitaltoday.co.kr/en/view/124440/deepmind-releases-alphaproof-code-to-verify-machine-code\">digitaltoday.co.kr</a></p>",
-   "date_published": "2026-11-12T12:00:00Z",
-   "tags": [
-    "Verification",
-    "deepmind",
-    "signal",
-    "cryptography"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-19/#2026-11-19-gemini-4-agents-discover-formally-verified-quantum-programs-in-l",
-   "url": "https://leanweekly.news/2026-11-19/#2026-11-19-gemini-4-agents-discover-formally-verified-quantum-programs-in-l",
-   "title": "Gemini 4 agents discover formally verified quantum programs in Lean",
-   "content_html": "<p>In the paper &quot;<a class=\"inl\" href=\"https://arxiv.org/abs/2611.09822\" rel=\"noopener\">Discovering formally verified quantum programs with AI</a>&quot;, Gemini 4 agents synthesize programs against formal specifications in a Lean quantum program library and verify correctness and cost. The authors report a 290x improvement on quantum arithmetic over prior baselines, and up to 2.57x on parallel search.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.09822\">arXiv:2611.09822</a></p>",
-   "date_published": "2026-11-06T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "quantum computing",
-    "ai agents",
-    "program synthesis"
-   ]
-  },
-  {
    "id": "https://leanweekly.news/2026-11-19/#2026-11-19-henrik-b-ving-adds-epr-tactic-for-epr-a-first-order-logic-fragme",
    "url": "https://leanweekly.news/2026-11-19/#2026-11-19-henrik-b-ving-adds-epr-tactic-for-epr-a-first-order-logic-fragme",
    "title": "Henrik Böving adds epr tactic for EPR, a first-order logic fragment",
@@ -653,6 +627,32 @@
     "xml",
     "parsing",
     "security"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust",
+   "url": "https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust",
+   "title": "emberian's qsag combines post-quantum threshold signing in Rust with Lean proofs",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/emberian/qsag\" rel=\"noopener\">research-preview stack</a> implements NIST FIPS 205 SLH-DSA-SHAKE and FIPS 204 ML-DSA-44, and Lean certificate checks pass for its 19 x86-64 and 9 AArch64 certified assembly kernels. Its main-library axiom audit checks 59,257 declarations, including 28,744 kernel theorem declarations, across 57 modules, with no rejected axioms.</p><p>Sources: <a href=\"https://github.com/emberian/qsag\">emberian/qsag</a></p>",
+   "date_published": "2026-11-15T12:00:00Z",
+   "tags": [
+    "Verification",
+    "cryptography",
+    "post-quantum",
+    "rust"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r",
+   "url": "https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r",
+   "title": "Claude and Codex agents produce complete Lean formalization of restricted isometry paper",
+   "content_html": "<p><a class=\"inl\" href=\"https://arxiv.org/abs/2611.14475\" rel=\"noopener\">The paper</a>, by Christian Kümmerle and Dustin G. Mixon, constructs explicit restricted isometries (measurement matrices for compressed sensing) beyond the square-root barrier believed to limit its proof technique. The agents, directed by the authors, proved every numbered result, including the needed case of Zahl's sphere-tangency theorem, but no running-time bound.</p><p>Sources: <a href=\"https://github.com/ckuemmerle/ExplicitRIPTwoThirds\">ckuemmerle/ExplicitRIPTwoThirds</a>, <a href=\"https://arxiv.org/abs/2611.14475\">arXiv:2611.14475</a>, <a href=\"https://paperswithlean.com/paper/2611.14475.html\">paperswithlean.com</a></p>",
+   "date_published": "2026-11-10T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "ai agents",
+    "autoformalization",
+    "compressed sensing"
    ]
   }
  ]

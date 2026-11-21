@@ -72,22 +72,6 @@
 <description>&lt;p&gt;Teamwork-LEAP produced approximately 1.8 million lines of Lean code across 28,800 subagent invocations to formalize the conjectures, results about the number of solutions to polynomial equations over finite fields, originally proved by Pierre Deligne in 1974. The formalization comes from &lt;a class="inl" href="https://interestingengineering.com/ai-robotics/google-antigravity-multi-agent-research" rel="noopener"&gt;Google's Antigravity multi-agent system&lt;/a&gt;, which uses specialized agents powered by Gemini models.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://interestingengineering.com/ai-robotics/google-antigravity-multi-agent-research"&gt;interestingengineering.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 <item>
-<title>Google DeepMind uses AI to verify Signal's libsignal down to machine code</title>
-<link>https://leanweekly.news/2026-11-19/#2026-11-19-google-deepmind-uses-ai-to-verify-signal-s-libsignal-down-to-mac</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-19/#2026-11-19-google-deepmind-uses-ai-to-verify-signal-s-libsignal-down-to-mac</guid>
-<pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;Google DeepMind released &lt;a class="inl" href="https://www.digitaltoday.co.kr/en/view/124440/deepmind-releases-alphaproof-code-to-verify-machine-code" rel="noopener"&gt;AlphaProof Code&lt;/a&gt;, an AI-based formal verification framework, along with the proofs. Five researchers working with an AI agent wrote about 6.5 million lines of Lean proof code in four weeks, covering a test program that uses a specific version of Rust-based libsignal, compiled into AArch64 Linux machine code.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.digitaltoday.co.kr/en/view/124440/deepmind-releases-alphaproof-code-to-verify-machine-code"&gt;digitaltoday.co.kr&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Gemini 4 agents discover formally verified quantum programs in Lean</title>
-<link>https://leanweekly.news/2026-11-19/#2026-11-19-gemini-4-agents-discover-formally-verified-quantum-programs-in-l</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-19/#2026-11-19-gemini-4-agents-discover-formally-verified-quantum-programs-in-l</guid>
-<pubDate>Fri, 06 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;In the paper &amp;quot;&lt;a class="inl" href="https://arxiv.org/abs/2611.09822" rel="noopener"&gt;Discovering formally verified quantum programs with AI&lt;/a&gt;&amp;quot;, Gemini 4 agents synthesize programs against formal specifications in a Lean quantum program library and verify correctness and cost. The authors report a 290x improvement on quantum arithmetic over prior baselines, and up to 2.57x on parallel search.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.09822"&gt;arXiv:2611.09822&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
 <title>Henrik Böving adds epr tactic for EPR, a first-order logic fragment</title>
 <link>https://leanweekly.news/2026-11-19/#2026-11-19-henrik-b-ving-adds-epr-tactic-for-epr-a-first-order-logic-fragme</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-19/#2026-11-19-henrik-b-ving-adds-epr-tactic-for-epr-a-first-order-logic-fragme</guid>
@@ -406,6 +390,22 @@
 <pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;The port, &lt;a class="inl" href="https://github.com/scidonia/lexpat" rel="noopener"&gt;lexpat&lt;/a&gt;, is aimed at untrusted input and has a resumable streaming core, machine-checked properties of its UTF-8 decoder, and a bounded differential fixture against libexpat. A C header and shared library for x86_64-linux provide a subset of libexpat's XML_* calls; namespace processing, DTDs and external entities are not implemented.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/scidonia/lexpat"&gt;scidonia/lexpat&lt;/a&gt;, &lt;a href="https://reservoir.lean-lang.org/@scidonia/lexpat"&gt;reservoir.lean-lang.org&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>emberian's qsag combines post-quantum threshold signing in Rust with Lean proofs</title>
+<link>https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust</guid>
+<pubDate>Sun, 15 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/emberian/qsag" rel="noopener"&gt;research-preview stack&lt;/a&gt; implements NIST FIPS 205 SLH-DSA-SHAKE and FIPS 204 ML-DSA-44, and Lean certificate checks pass for its 19 x86-64 and 9 AArch64 certified assembly kernels. Its main-library axiom audit checks 59,257 declarations, including 28,744 kernel theorem declarations, across 57 modules, with no rejected axioms.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/emberian/qsag"&gt;emberian/qsag&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Claude and Codex agents produce complete Lean formalization of restricted isometry paper</title>
+<link>https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.14475" rel="noopener"&gt;The paper&lt;/a&gt;, by Christian Kümmerle and Dustin G. Mixon, constructs explicit restricted isometries (measurement matrices for compressed sensing) beyond the square-root barrier believed to limit its proof technique. The agents, directed by the authors, proved every numbered result, including the needed case of Zahl's sphere-tangency theorem, but no running-time bound.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/ckuemmerle/ExplicitRIPTwoThirds"&gt;ckuemmerle/ExplicitRIPTwoThirds&lt;/a&gt;, &lt;a href="https://arxiv.org/abs/2611.14475"&gt;arXiv:2611.14475&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.14475.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

@@ -12,8 +12,6 @@
 - [Zayn Blore formalizes Charles J. Read's counterexample to the invariant subspace problem](https://leanweekly.news/2026-11-19/#2026-11-19-zayn-blore-formalizes-charles-j-read-s-counterexample-to-the-inv): AI and formalization, 2026-11-19
 - [Daksh Shami and Charles Yuan verify MARBLE's rewrite rules in Lean 4](https://leanweekly.news/2026-11-19/#2026-11-19-daksh-shami-and-charles-yuan-verify-marble-s-rewrite-rules-in-le): Verification, 2026-11-13
 - [Google's Teamwork-LEAP system formalizes the Weil conjectures in Lean](https://leanweekly.news/2026-11-19/#2026-11-19-google-s-teamwork-leap-system-formalizes-the-weil-conjectures-in): AI and formalization, 2026-11-14
-- [Google DeepMind uses AI to verify Signal's libsignal down to machine code](https://leanweekly.news/2026-11-19/#2026-11-19-google-deepmind-uses-ai-to-verify-signal-s-libsignal-down-to-mac): Verification, 2026-11-12
-- [Gemini 4 agents discover formally verified quantum programs in Lean](https://leanweekly.news/2026-11-19/#2026-11-19-gemini-4-agents-discover-formally-verified-quantum-programs-in-l): AI and formalization, 2026-11-06
 - [Henrik Böving adds epr tactic for EPR, a first-order logic fragment](https://leanweekly.news/2026-11-19/#2026-11-19-henrik-b-ving-adds-epr-tactic-for-epr-a-first-order-logic-fragme): Lean core, 2026-11-16
 - [Codex agents prove Gonshor's 1986 conjecture on surreal birthdays in Lean](https://leanweekly.news/2026-11-19/#2026-11-19-codex-agents-prove-gonshor-s-1986-conjecture-on-surreal-birthday): AI and formalization, 2026-11-19
 - [&Truth says its proofs can be independently checked using Lean](https://leanweekly.news/2026-11-19/#2026-11-19-truth-says-its-proofs-can-be-independently-checked-using-lean): Verification, 2026-11-12
@@ -104,6 +102,8 @@
 - [Kiro proves properties of its own agent harness in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-kiro-proves-properties-of-its-own-agent-harness-in-lean): Verification, 2026-11-02
 - [Thanin Quartz and coauthors prove 2×2 matrix mortality undecidable, checked in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-thanin-quartz-and-coauthors-prove-2-2-matrix-mortality-undecidab): AI and formalization, 2026-11-04
 - [Jesse Comer and coauthors present Whiel for Lean-certified relational program verification](https://leanweekly.news/2026-11-06/#2026-11-06-jesse-comer-and-coauthors-present-whiel-for-lean-certified-relat): Verification, 2026-11-03
+- [Naoya Yamashita releases lean-ritsuryo, Japanese statutory computation with proofs in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-naoya-yamashita-releases-lean-ritsuryo-japanese-statutory-comput): Verification, 2026-11-06
+- [Leo de Moura cuts Mathlib build instruction counts, speeds up rw tactic](https://leanweekly.news/2026-11-06/#2026-11-06-leo-de-moura-cuts-mathlib-build-instruction-counts-speeds-up-rw): Lean core, 2026-11-01
 
 ## Weeks (Friday to Thursday)
 

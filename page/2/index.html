@@ -32,24 +32,6 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 2</h1></header>
 <div class="stream">
-<article class="card c-lean-core" id="2026-11-19-mac-malone-lets-lake-packages-declare-their-own-cache-services">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-06">Nov 6</time><button class="copy" type="button" hidden data-link="../../2026-11-19/#2026-11-19-mac-malone-lets-lake-packages-declare-their-own-cache-services" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Mac Malone lets Lake packages declare their own cache services</h2>
-    <p class="card-text">Services are specified in a <code>cache_service</code> <a class="inl" href="https://github.com/leanprover/lean4/pull/16302" rel="noopener">TOML table or Lean DSL declaration</a> and can be used via <code>lake cache get --service</code>. A new <code>downloadCacheService</code> <a class="inl" href="https://github.com/leanprover/lean4/pull/16351" rel="noopener">package option</a> sets the service <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> uses by default for <code>lake cache get</code> of the package and, when the artifact cache is enabled, for on-demand downloads during builds.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16302" rel="noopener">lean4#16302</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16351" rel="noopener">lean4#16351</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-11-19-sebastian-ullrich-speeds-up-deriving-repr-beq-and-hashable-on-mu">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-07">Nov 7</time><button class="copy" type="button" hidden data-link="../../2026-11-19/#2026-11-19-sebastian-ullrich-speeds-up-deriving-repr-beq-and-hashable-on-mu" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Ullrich speeds up deriving Repr, BEq, and Hashable on mutual blocks</h2>
-    <p class="card-text">Lean now derives these classes <a class="inl" href="https://github.com/leanprover/lean4/pull/16339" rel="noopener">once per mutual block</a>, generating the auxiliary functions once for the whole block instead of once per type. This removes quadratic elaboration cost: deriving Repr on every type of a 76-type mutual block went from 309 seconds and 10.2 GB to 62 seconds and 1.3 GB.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16339" rel="noopener">lean4#16339</a></p>
-  </div>
-</article>
 <article class="card c-papers" id="2026-11-19-leo-de-moura-presents-scaling-lean-for-ai-at-svil-stanford">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -258,6 +240,24 @@
     <h2 class="card-title">Juan Pablo Traverso Gianini directs AI to formalize Peter Keevash's triangle-decomposition theorem</h2>
     <p class="card-text">Written by Harmonic's Aristotle and Claude Opus 5.5, the <a class="inl" href="https://github.com/jtraverso/keevash-triangle-decompositions" rel="noopener">Lean proof of Theorem 2.1</a> of &quot;Counting designs&quot; assumes typicality on every set of at most 16 vertices, stronger than the paper's pairs-only hypothesis, so the paper's version is not covered. The proof replaces the Completion stage's random greedy algorithms with a deterministic potential argument.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/jtraverso/keevash-triangle-decompositions" rel="noopener">jtraverso/keevash-triangle-decompositions</a><span class="dot" aria-hidden="true">·</span><a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-14-000022&amp;version=1" rel="noopener">palomar-registry.org</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-11-15-nethermind-s-foxglove-formalizes-a-separation-logic-for-probabil">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-13">Nov 13</time><button class="copy" type="button" hidden data-link="../../2026-11-15/#2026-11-15-nethermind-s-foxglove-formalizes-a-separation-logic-for-probabil" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Nethermind's Foxglove formalizes a separation logic for probabilistic programs in Lean</h2>
+    <p class="card-text">Built on iris-lean, <a class="inl" href="https://github.com/NethermindEth/Foxglove" rel="noopener">Foxglove</a> adapts the Bluebell logic of Bao, D'Osualdo and Farzan to functional programs and is intended to support verifying cryptographic primitives formalized in ArkLib. Every rule of the logic is proved against a semantic model with no axioms beyond Lean's own, and the Ethereum Foundation funded the work.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/NethermindEth/Foxglove" rel="noopener">NethermindEth/Foxglove</a><span class="dot" aria-hidden="true">·</span><a href="https://reservoir.lean-lang.org/@NethermindEth/foxglove" rel="noopener">reservoir.lean-lang.org</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-11-15-scidonia-limited-ports-libexpat-s-xml-1-0-parsing-semantics-to-l">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-14">Nov 14</time><button class="copy" type="button" hidden data-link="../../2026-11-15/#2026-11-15-scidonia-limited-ports-libexpat-s-xml-1-0-parsing-semantics-to-l" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Scidonia Limited ports libexpat's XML 1.0 parsing semantics to Lean 4</h2>
+    <p class="card-text">The port, <a class="inl" href="https://github.com/scidonia/lexpat" rel="noopener">lexpat</a>, is aimed at untrusted input and has a resumable streaming core, machine-checked properties of its UTF-8 decoder, and a bounded differential fixture against libexpat. A C header and shared library for x86_64-linux provide a subset of libexpat's XML_* calls; namespace processing, DTDs and external entities are not implemented.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/scidonia/lexpat" rel="noopener">scidonia/lexpat</a><span class="dot" aria-hidden="true">·</span><a href="https://reservoir.lean-lang.org/@scidonia/lexpat" rel="noopener">reservoir.lean-lang.org</a></p>
   </div>
 </article>
 </div>
