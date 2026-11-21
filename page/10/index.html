@@ -32,6 +32,33 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 10</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-lean-fro-publishes-con-ron-a-rust-port-of-the-con-leche-checker" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean FRO publishes con-ron, a Rust port of the con-leche checker</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/con-ron" rel="noopener">con-ron</a> ports <a class="inl" href="https://github.com/leanprover/con-leche" rel="noopener">con-leche</a>, an external Lean checker with a formal consistency proof, to Rust. It was written by AI under supervision from Joachim Breitner, and its Rust code is proven (partially) correct via an <a class="inl" href="https://github.com/AeneasVerif/aeneas" rel="noopener">Aeneas</a>-generated model, so checking a proof with both tools guards against compiler or runtime bugs.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/con-ron" rel="noopener">leanprover/con-ron</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-09-17-lean-runtime-now-compiles-mimalloc-in-and-trims-elaboration-over">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-04">Sep 4</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-lean-runtime-now-compiles-mimalloc-in-and-trims-elaboration-over" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Lean runtime now compiles mimalloc in and trims elaboration overhead</h2>
+    <p class="card-text">Julia Markus Himmel merged a change that <a class="inl" href="https://github.com/leanprover/lean4/pull/15017" rel="noopener">compiles mimalloc as part of the Lean runtime</a>, and Sebastian Ullrich <a class="inl" href="https://github.com/leanprover/lean4/pull/14982" rel="noopener">moved rarely-updated Core.Context fields into a cold subobject</a> (mathlib4: -0.82% instructions, -2.03% wall-clock). Lean also updated to <a class="inl" href="https://github.com/leanprover/lean4/pull/15060" rel="noopener">mimalloc 3.4.5</a>, fixing a Windows memory leak, and CI changes should halve merge queue run times.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/15017" rel="noopener">lean4#15017</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14982" rel="noopener">lean4#14982</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15060" rel="noopener">lean4#15060</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15123" rel="noopener">lean4#15123</a></p>
+  </div>
+</article>
+<article class="card c-lean-core" id="2026-09-17-wojciech-nawrocki-adds-an-html-type-and-html-like-syntax-to-lean">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-17">Sep 17</time><button class="copy" type="button" hidden data-link="../../2026-09-17/#2026-09-17-wojciech-nawrocki-adds-an-html-type-and-html-like-syntax-to-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Wojciech Nawrocki adds an HTML type and HTML-like syntax to Lean</h2>
+    <p class="card-text">Two merged pull requests add <code>Lean.Data.Html</code>, a type of HTML forests aimed primarily at authoring HTML, with a renderer that produces a String, plus HTML-like syntax with an elaborator into that type. Companion downstream-lean4 pull requests adopt the type and syntax throughout supported packages.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14935" rel="noopener">lean4#14935</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15002" rel="noopener">lean4#15002</a></p>
+  </div>
+</article>
 <article class="card c-papers" id="2026-09-17-greg-brockman-says-ai-makes-formally-verifying-all-software-poss">
   <span class="avatar" aria-hidden="true">¶</span>
   <div class="card-main">
@@ -228,33 +255,6 @@
     <p class="card-text">Researchers including Kaiyu Yang, Soonho Kong, Jingxuan He, and Dawn Song introduce <a class="inl" href="https://arxiv.org/abs/2608.13522" rel="noopener">Vero</a>, a benchmark of 43 multi-module instances sourced from real-world repositories, each a multi-module Lean 4 repository with predetermined API interfaces. The strongest agent fully solves only 27 of 43 instances.</p>
     <figure class="media media-paper"><img src="../../assets/img/e64d7246915c669a-480.webp" srcset="../../assets/img/e64d7246915c669a-480.webp 480w, ../../assets/img/e64d7246915c669a-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2608.13522" rel="noopener">arXiv:2608.13522</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-08-27-scott-armstrong-says-lean-formalization-became-essential-to-his">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-22">Aug 22</time><button class="copy" type="button" hidden data-link="../../2026-08-27/#2026-08-27-scott-armstrong-says-lean-formalization-became-essential-to-his" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Scott Armstrong says Lean formalization became essential to his research in 2026</h2>
-    <p class="card-text">Scott Armstrong <a class="inl" href="https://x.com/scottnarmstrong/status/2091098230855491978" rel="noopener">wrote on X</a> that in March, Lean formalization was not possible for his papers, and by August it had become essential and increased the efficiency of his workflow dramatically. Scott Armstrong says the papers are getting written informally and finished much faster because of the Lean formalization.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/scottnarmstrong/status/2091098230855491978" rel="noopener">@scottnarmstrong on X</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-08-27-vasily-ilin-runs-a-collaborative-lean-4-formalization-of-mazur-s">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-27">Aug 27</time><button class="copy" type="button" hidden data-link="../../2026-08-27/#2026-08-27-vasily-ilin-runs-a-collaborative-lean-4-formalization-of-mazur-s" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Vasily Ilin runs a collaborative Lean 4 formalization of Mazur's torsion theorem</h2>
-    <p class="card-text">The <a class="inl" href="https://github.com/Vilin97/MazurTheorem" rel="noopener">Vilin97/MazurTheorem repository</a> targets the classification of rational torsion on elliptic curves, using Mazur's degree-one formal-immersion argument at the auxiliary prime 5. The project reports an integrated score of 17.2% on its 48-node, 1,000-point theorem DAG, and it accepts claims only on contracts marked open or research_open.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/Vilin97/MazurTheorem" rel="noopener">Vilin97/MazurTheorem</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-08-27-paul-butcher-builds-a-complete-production-todomvc-webapp-in-lean">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-27">Aug 27</time><button class="copy" type="button" hidden data-link="../../2026-08-27/#2026-08-27-paul-butcher-builds-a-complete-production-todomvc-webapp-in-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Paul Butcher builds a complete production TodoMVC webapp in Lean 4</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/paulbutcher/lean-todomvc-max" rel="noopener">The repository</a> adds passwordless sign-in, SQL migrations, OpenTelemetry traces and logs, an MCP endpoint, and deployment to AWS Lambda, built on Paul Butcher's own Lean libraries. Markup is typed and formally verified (a <code>&lt;div&gt;</code> inside a <code>&lt;p&gt;</code> is a type error), and lean-json is proved correct against the grammar of RFC 8259.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/paulbutcher/lean-todomvc-max" rel="noopener">paulbutcher/lean-todomvc-max</a></p>
   </div>
 </article>
 </div>

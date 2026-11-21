@@ -6,7 +6,31 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 20 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 19 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>AlphaProof Nexus finds Lean proof of high-dimensional photonic GHZ no-go theorem</title>
+<link>https://leanweekly.news/2026-11-21/#2026-11-21-alphaproof-nexus-finds-lean-proof-of-high-dimensional-photonic-g</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-21/#2026-11-21-alphaproof-nexus-finds-lean-proof-of-high-dimensional-photonic-g</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.26300" rel="noopener"&gt;Mario Krenn and coauthors&lt;/a&gt; used AlphaProof Nexus, which combines language models with Lean compiler feedback, to prove a Formal Conjectures statement: no complex-weighted monochromatic quantum graph exists for any even N of at least 4 when D is at least N. Generating an N-photon, D-dimensional GHZ state is equivalent to constructing such a graph.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.26300"&gt;arXiv:2611.26300&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.26300.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Long Qian and André Platzer check ODE reachability proofs with Lean 4</title>
+<link>https://leanweekly.news/2026-11-21/#2026-11-21-long-qian-and-andr-platzer-check-ode-reachability-proofs-with-le</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-21/#2026-11-21-long-qian-and-andr-platzer-check-ode-reachability-proofs-with-le</guid>
+<pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.25303" rel="noopener"&gt;The paper's&lt;/a&gt; differential dynamic logic proofs certify ordinary differential equation (ODE) reachability, like UNSAT proofs in satisfiability solving, and any approximation correctly computed via Taylor models (a technique for rigorous ODE bounds), even by untrusted algorithms, provably yields one. The checker, implemented in Lean 4 for improved performance, can formally verify ARCH competition benchmarks.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.25303"&gt;arXiv:2611.25303&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
+<title>Tether monitors AI agents with security policies written in Lean 4</title>
+<link>https://leanweekly.news/2026-11-21/#2026-11-21-tether-monitors-ai-agents-with-security-policies-written-in-lean</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-21/#2026-11-21-tether-monitors-ai-agents-with-security-policies-written-in-lean</guid>
+<pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.25599" rel="noopener"&gt;Tether&lt;/a&gt;, by Meghana Aparna Sistla and coauthors, sandboxes proposed commands and commits side effects only if a policy allows them; its Lean 4 DSL is both the executable monitor and the specification for mechanized proofs. On coding-agent benchmarks, one shared policy blocks 100% of in-scope attacks with a 4.7% benign false-positive rate.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.25599"&gt;arXiv:2611.25599&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.25599.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Authors of a 3D Euler singularity paper formalize it in Lean</title>
 <link>https://leanweekly.news/2026-11-20/#2026-11-20-authors-of-a-3d-euler-singularity-paper-formalize-it-in-lean</link>
@@ -382,30 +406,6 @@
 <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;Built on iris-lean, &lt;a class="inl" href="https://github.com/NethermindEth/Foxglove" rel="noopener"&gt;Foxglove&lt;/a&gt; adapts the Bluebell logic of Bao, D'Osualdo and Farzan to functional programs and is intended to support verifying cryptographic primitives formalized in ArkLib. Every rule of the logic is proved against a semantic model with no axioms beyond Lean's own, and the Ethereum Foundation funded the work.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/NethermindEth/Foxglove"&gt;NethermindEth/Foxglove&lt;/a&gt;, &lt;a href="https://reservoir.lean-lang.org/@NethermindEth/foxglove"&gt;reservoir.lean-lang.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Scidonia Limited ports libexpat's XML 1.0 parsing semantics to Lean 4</title>
-<link>https://leanweekly.news/2026-11-15/#2026-11-15-scidonia-limited-ports-libexpat-s-xml-1-0-parsing-semantics-to-l</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-15/#2026-11-15-scidonia-limited-ports-libexpat-s-xml-1-0-parsing-semantics-to-l</guid>
-<pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;The port, &lt;a class="inl" href="https://github.com/scidonia/lexpat" rel="noopener"&gt;lexpat&lt;/a&gt;, is aimed at untrusted input and has a resumable streaming core, machine-checked properties of its UTF-8 decoder, and a bounded differential fixture against libexpat. A C header and shared library for x86_64-linux provide a subset of libexpat's XML_* calls; namespace processing, DTDs and external entities are not implemented.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/scidonia/lexpat"&gt;scidonia/lexpat&lt;/a&gt;, &lt;a href="https://reservoir.lean-lang.org/@scidonia/lexpat"&gt;reservoir.lean-lang.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>emberian's qsag combines post-quantum threshold signing in Rust with Lean proofs</title>
-<link>https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust</guid>
-<pubDate>Sun, 15 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/emberian/qsag" rel="noopener"&gt;research-preview stack&lt;/a&gt; implements NIST FIPS 205 SLH-DSA-SHAKE and FIPS 204 ML-DSA-44, and Lean certificate checks pass for its 19 x86-64 and 9 AArch64 certified assembly kernels. Its main-library axiom audit checks 59,257 declarations, including 28,744 kernel theorem declarations, across 57 modules, with no rejected axioms.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/emberian/qsag"&gt;emberian/qsag&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Claude and Codex agents produce complete Lean formalization of restricted isometry paper</title>
-<link>https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-14/#2026-11-14-claude-and-codex-agents-produce-complete-lean-formalization-of-r</guid>
-<pubDate>Tue, 10 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://arxiv.org/abs/2611.14475" rel="noopener"&gt;The paper&lt;/a&gt;, by Christian Kümmerle and Dustin G. Mixon, constructs explicit restricted isometries (measurement matrices for compressed sensing) beyond the square-root barrier believed to limit its proof technique. The agents, directed by the authors, proved every numbered result, including the needed case of Zahl's sphere-tangency theorem, but no running-time bound.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/ckuemmerle/ExplicitRIPTwoThirds"&gt;ckuemmerle/ExplicitRIPTwoThirds&lt;/a&gt;, &lt;a href="https://arxiv.org/abs/2611.14475"&gt;arXiv:2611.14475&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.14475.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
