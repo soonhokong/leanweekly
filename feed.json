@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-20/#2026-11-20-authors-of-a-3d-euler-singularity-paper-formalize-it-in-lean",
+   "url": "https://leanweekly.news/2026-11-20/#2026-11-20-authors-of-a-3d-euler-singularity-paper-formalize-it-in-lean",
+   "title": "Authors of a 3D Euler singularity paper formalize it in Lean",
+   "content_html": "<p>Levent Alpöge, Tristan Buckmaster and Matei P. Coiculescu formalized the arXiv version of &quot;Finite-Time Singularity Formation for the Three-Dimensional Euler Equations&quot; in one-to-one correspondence with its proof: each numbered result's Lean proof assumes exactly what its TeX proof cites. <a class=\"inl\" href=\"https://github.com/mcoiculescu/EulerBlowupPublic\" rel=\"noopener\">VerifySpine.lean</a> checks the correspondence, and the sources contain no sorry.</p><p>Sources: <a href=\"https://github.com/mcoiculescu/EulerBlowupPublic\">mcoiculescu/EulerBlowupPublic</a></p>",
+   "date_published": "2026-11-20T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "euler equations",
+    "pde",
+    "singularity formation"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-20/#2026-11-20-l-alp-ge-and-t-buckmaster-s-navier-stokes-blow-up-paper-comes-wi",
    "url": "https://leanweekly.news/2026-11-20/#2026-11-20-l-alp-ge-and-t-buckmaster-s-navier-stokes-blow-up-paper-comes-wi",
    "title": "L. Alpöge and T. Buckmaster's Navier–Stokes blow-up paper comes with Lean formalization",
@@ -640,19 +653,6 @@
     "xml",
     "parsing",
     "security"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust",
-   "url": "https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust",
-   "title": "emberian's qsag combines post-quantum threshold signing in Rust with Lean proofs",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/emberian/qsag\" rel=\"noopener\">research-preview stack</a> implements NIST FIPS 205 SLH-DSA-SHAKE and FIPS 204 ML-DSA-44, and Lean certificate checks pass for its 19 x86-64 and 9 AArch64 certified assembly kernels. Its main-library axiom audit checks 59,257 declarations, including 28,744 kernel theorem declarations, across 57 modules, with no rejected axioms.</p><p>Sources: <a href=\"https://github.com/emberian/qsag\">emberian/qsag</a></p>",
-   "date_published": "2026-11-15T12:00:00Z",
-   "tags": [
-    "Verification",
-    "cryptography",
-    "post-quantum",
-    "rust"
    ]
   }
  ]

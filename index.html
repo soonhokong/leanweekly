@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <h1 class="sr-only">Lean Weekly: the latest news</h1>
 <div class="stream">
+<article class="card c-ai" id="2026-11-20-authors-of-a-3d-euler-singularity-paper-formalize-it-in-lean">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-20">Nov 20</time><button class="copy" type="button" hidden data-link="./2026-11-20/#2026-11-20-authors-of-a-3d-euler-singularity-paper-formalize-it-in-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Authors of a 3D Euler singularity paper formalize it in Lean</h2>
+    <p class="card-text">Levent Alpöge, Tristan Buckmaster and Matei P. Coiculescu formalized the arXiv version of &quot;Finite-Time Singularity Formation for the Three-Dimensional Euler Equations&quot; in one-to-one correspondence with its proof: each numbered result's Lean proof assumes exactly what its TeX proof cites. <a class="inl" href="https://github.com/mcoiculescu/EulerBlowupPublic" rel="noopener">VerifySpine.lean</a> checks the correspondence, and the sources contain no sorry.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/mcoiculescu/EulerBlowupPublic" rel="noopener">mcoiculescu/EulerBlowupPublic</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-11-20-l-alp-ge-and-t-buckmaster-s-navier-stokes-blow-up-paper-comes-wi">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -246,15 +255,6 @@
     <h2 class="card-title">Leo de Moura speeds up equation generation for <code>match</code> on many literals</h2>
     <p class="card-text">With 64 literal patterns, generating equation theorems (which <code>simp [f]</code> and <code>cbv</code> need) used to hit the heartbeat limit. Leo de Moura fixed this with <a class="inl" href="https://github.com/leanprover/lean4/pull/16354" rel="noopener">a series of pull requests</a>; one makes equation generation for a <code>String → Nat</code> function with 128 literal alternatives and a catch-all about 20% faster.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16354" rel="noopener">lean4#16354</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16460" rel="noopener">lean4#16460</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16465" rel="noopener">lean4#16465</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16477" rel="noopener">lean4#16477</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16480" rel="noopener">lean4#16480</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16502" rel="noopener">lean4#16502</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16505" rel="noopener">lean4#16505</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-11-19-mac-malone-lets-lake-packages-declare-their-own-cache-services">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-06">Nov 6</time><button class="copy" type="button" hidden data-link="./2026-11-19/#2026-11-19-mac-malone-lets-lake-packages-declare-their-own-cache-services" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Mac Malone lets Lake packages declare their own cache services</h2>
-    <p class="card-text">Services are specified in a <code>cache_service</code> <a class="inl" href="https://github.com/leanprover/lean4/pull/16302" rel="noopener">TOML table or Lean DSL declaration</a> and can be used via <code>lake cache get --service</code>. A new <code>downloadCacheService</code> <a class="inl" href="https://github.com/leanprover/lean4/pull/16351" rel="noopener">package option</a> sets the service <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> uses by default for <code>lake cache get</code> of the package and, when the artifact cache is enabled, for on-demand downloads during builds.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16302" rel="noopener">lean4#16302</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16351" rel="noopener">lean4#16351</a></p>
   </div>
 </article>
 </div>

@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Fri, 20 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Authors of a 3D Euler singularity paper formalize it in Lean</title>
+<link>https://leanweekly.news/2026-11-20/#2026-11-20-authors-of-a-3d-euler-singularity-paper-formalize-it-in-lean</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-20/#2026-11-20-authors-of-a-3d-euler-singularity-paper-formalize-it-in-lean</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Levent Alpöge, Tristan Buckmaster and Matei P. Coiculescu formalized the arXiv version of &amp;quot;Finite-Time Singularity Formation for the Three-Dimensional Euler Equations&amp;quot; in one-to-one correspondence with its proof: each numbered result's Lean proof assumes exactly what its TeX proof cites. &lt;a class="inl" href="https://github.com/mcoiculescu/EulerBlowupPublic" rel="noopener"&gt;VerifySpine.lean&lt;/a&gt; checks the correspondence, and the sources contain no sorry.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/mcoiculescu/EulerBlowupPublic"&gt;mcoiculescu/EulerBlowupPublic&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>L. Alpöge and T. Buckmaster's Navier–Stokes blow-up paper comes with Lean formalization</title>
 <link>https://leanweekly.news/2026-11-20/#2026-11-20-l-alp-ge-and-t-buckmaster-s-navier-stokes-blow-up-paper-comes-wi</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-20/#2026-11-20-l-alp-ge-and-t-buckmaster-s-navier-stokes-blow-up-paper-comes-wi</guid>
@@ -398,14 +406,6 @@
 <pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;The port, &lt;a class="inl" href="https://github.com/scidonia/lexpat" rel="noopener"&gt;lexpat&lt;/a&gt;, is aimed at untrusted input and has a resumable streaming core, machine-checked properties of its UTF-8 decoder, and a bounded differential fixture against libexpat. A C header and shared library for x86_64-linux provide a subset of libexpat's XML_* calls; namespace processing, DTDs and external entities are not implemented.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/scidonia/lexpat"&gt;scidonia/lexpat&lt;/a&gt;, &lt;a href="https://reservoir.lean-lang.org/@scidonia/lexpat"&gt;reservoir.lean-lang.org&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>emberian's qsag combines post-quantum threshold signing in Rust with Lean proofs</title>
-<link>https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-15/#2026-11-15-emberian-s-qsag-combines-post-quantum-threshold-signing-in-rust</guid>
-<pubDate>Sun, 15 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/emberian/qsag" rel="noopener"&gt;research-preview stack&lt;/a&gt; implements NIST FIPS 205 SLH-DSA-SHAKE and FIPS 204 ML-DSA-44, and Lean certificate checks pass for its 19 x86-64 and 9 AArch64 certified assembly kernels. Its main-library axiom audit checks 59,257 declarations, including 28,744 kernel theorem declarations, across 57 modules, with no rejected axioms.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/emberian/qsag"&gt;emberian/qsag&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Authors of a 3D Euler singularity paper formalize it in Lean](https://leanweekly.news/2026-11-20/#2026-11-20-authors-of-a-3d-euler-singularity-paper-formalize-it-in-lean): AI and formalization, 2026-11-20
 - [L. Alpöge and T. Buckmaster's Navier–Stokes blow-up paper comes with Lean formalization](https://leanweekly.news/2026-11-20/#2026-11-20-l-alp-ge-and-t-buckmaster-s-navier-stokes-blow-up-paper-comes-wi): AI and formalization, 2026-11-20
 - [Harry Wang formalizes the Four Color Theorem in Lean 4 without Mathlib](https://leanweekly.news/2026-11-20/#2026-11-20-harry-wang-formalizes-the-four-color-theorem-in-lean-4-without-m): AI and formalization, 2026-11-20
 - [Hannah Cairo and five coauthors formalize Mizohata-Takeuchi power-loss theorem in Lean](https://leanweekly.news/2026-11-19/#2026-11-19-hannah-cairo-and-five-coauthors-formalize-mizohata-takeuchi-powe): AI and formalization, 2026-11-19
@@ -103,7 +104,6 @@
 - [Kiro proves properties of its own agent harness in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-kiro-proves-properties-of-its-own-agent-harness-in-lean): Verification, 2026-11-02
 - [Thanin Quartz and coauthors prove 2×2 matrix mortality undecidable, checked in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-thanin-quartz-and-coauthors-prove-2-2-matrix-mortality-undecidab): AI and formalization, 2026-11-04
 - [Jesse Comer and coauthors present Whiel for Lean-certified relational program verification](https://leanweekly.news/2026-11-06/#2026-11-06-jesse-comer-and-coauthors-present-whiel-for-lean-certified-relat): Verification, 2026-11-03
-- [Naoya Yamashita releases lean-ritsuryo, Japanese statutory computation with proofs in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-naoya-yamashita-releases-lean-ritsuryo-japanese-statutory-comput): Verification, 2026-11-06
 
 ## Weeks (Friday to Thursday)
 
