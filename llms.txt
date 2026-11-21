@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Levent Alpöge releases a Lean proof of the Riemann Hypothesis](https://leanweekly.news/2026-11-21/#2026-11-21-levent-alp-ge-releases-a-lean-proof-of-the-riemann-hypothesis): AI and formalization, 2026-11-21
 - [AlphaProof Nexus finds Lean proof of high-dimensional photonic GHZ no-go theorem](https://leanweekly.news/2026-11-21/#2026-11-21-alphaproof-nexus-finds-lean-proof-of-high-dimensional-photonic-g): AI and formalization, 2026-11-19
 - [Long Qian and André Platzer check ODE reachability proofs with Lean 4](https://leanweekly.news/2026-11-21/#2026-11-21-long-qian-and-andr-platzer-check-ode-reachability-proofs-with-le): Verification, 2026-11-18
 - [Tether monitors AI agents with security policies written in Lean 4](https://leanweekly.news/2026-11-21/#2026-11-21-tether-monitors-ai-agents-with-security-policies-written-in-lean): Verification, 2026-11-19
@@ -103,7 +104,6 @@
 - [Zayn Blore machine-checks the Dixmier conjecture's failure in dimension 3 and above](https://leanweekly.news/2026-11-06/#2026-11-06-zayn-blore-machine-checks-the-dixmier-conjecture-s-failure-in-di): AI and formalization, 2026-11-06
 - [Anthropic releases FlashProve, with Lean proofs of its security properties](https://leanweekly.news/2026-11-06/#2026-11-06-anthropic-releases-flashprove-with-lean-proofs-of-its-security-p): Verification, 2026-11-02
 - [Kiro proves properties of its own agent harness in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-kiro-proves-properties-of-its-own-agent-harness-in-lean): Verification, 2026-11-02
-- [Thanin Quartz and coauthors prove 2×2 matrix mortality undecidable, checked in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-thanin-quartz-and-coauthors-prove-2-2-matrix-mortality-undecidab): AI and formalization, 2026-11-04
 
 ## Weeks (Friday to Thursday)
 

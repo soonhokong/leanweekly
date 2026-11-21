@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-21/#2026-11-21-levent-alp-ge-releases-a-lean-proof-of-the-riemann-hypothesis",
+   "url": "https://leanweekly.news/2026-11-21/#2026-11-21-levent-alp-ge-releases-a-lean-proof-of-the-riemann-hypothesis",
+   "title": "Levent Alpöge releases a Lean proof of the Riemann Hypothesis",
+   "content_html": "<p>Levent Alpöge, working with Claude, released the proof on November 20, 2026, as a Lean library comprising 17 million lines of code; <a class=\"inl\" href=\"https://github.com/CocoSgt/riemann-hypothesis-lean\" rel=\"noopener\">an unmodified mirror</a> is on GitHub. The <a class=\"inl\" href=\"https://leanprover-community.github.io/blog/posts/riemann-hypothesis/\" rel=\"noopener\">Lean and Mathlib communities</a> certified both the statement and the proof as correct after several proof checkers, including Lean's official kernel, checked the exported proof.</p><p>Sources: <a href=\"https://leanprover-community.github.io/blog/posts/riemann-hypothesis/\">leanprover-community.github.io</a>, <a href=\"https://github.com/CocoSgt/riemann-hypothesis-lean\">CocoSgt/riemann-hypothesis-lean</a></p>",
+   "date_published": "2026-11-21T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "riemann hypothesis",
+    "mathlib",
+    "claude"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-21/#2026-11-21-alphaproof-nexus-finds-lean-proof-of-high-dimensional-photonic-g",
    "url": "https://leanweekly.news/2026-11-21/#2026-11-21-alphaproof-nexus-finds-lean-proof-of-high-dimensional-photonic-g",
    "title": "AlphaProof Nexus finds Lean proof of high-dimensional photonic GHZ no-go theorem",
@@ -640,19 +653,6 @@
     "combinatorics",
     "palomar",
     "ai-assisted"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-15/#2026-11-15-nethermind-s-foxglove-formalizes-a-separation-logic-for-probabil",
-   "url": "https://leanweekly.news/2026-11-15/#2026-11-15-nethermind-s-foxglove-formalizes-a-separation-logic-for-probabil",
-   "title": "Nethermind's Foxglove formalizes a separation logic for probabilistic programs in Lean",
-   "content_html": "<p>Built on iris-lean, <a class=\"inl\" href=\"https://github.com/NethermindEth/Foxglove\" rel=\"noopener\">Foxglove</a> adapts the Bluebell logic of Bao, D'Osualdo and Farzan to functional programs and is intended to support verifying cryptographic primitives formalized in ArkLib. Every rule of the logic is proved against a semantic model with no axioms beyond Lean's own, and the Ethereum Foundation funded the work.</p><p>Sources: <a href=\"https://github.com/NethermindEth/Foxglove\">NethermindEth/Foxglove</a>, <a href=\"https://reservoir.lean-lang.org/@NethermindEth/foxglove\">reservoir.lean-lang.org</a></p>",
-   "date_published": "2026-11-13T12:00:00Z",
-   "tags": [
-    "Verification",
-    "separation logic",
-    "cryptography",
-    "iris-lean"
    ]
   }
  ]
