@@ -4,6 +4,14 @@
 
 ## Latest items
 
+- [Joachim Breitner removes large elimination for recursive Prop inductives from Lean's kernel](https://leanweekly.news/2026-11-21/#2026-11-21-joachim-breitner-removes-large-elimination-for-recursive-prop-in): Lean core, 2026-11-21
+- [CertiK and Columbia University researchers formally verify GPU kernels in Lean](https://leanweekly.news/2026-11-21/#2026-11-21-certik-and-columbia-university-researchers-formally-verify-gpu-k): Verification, 2026-11-21
+- [Dana S. Scott and coauthors formalize domain theory papers in Lean 4](https://leanweekly.news/2026-11-21/#2026-11-21-dana-s-scott-and-coauthors-formalize-domain-theory-papers-in-lea): AI and formalization, 2026-11-21
+- [Jz Pan and contributors formalize Iwasawa's classical class-number growth theorem](https://leanweekly.news/2026-11-21/#2026-11-21-jz-pan-and-contributors-formalize-iwasawa-s-classical-class-numb): AI and formalization, 2026-11-21
+- [Patrick Hayden machine-checks 3D passive quantum memory theorems in Lean](https://leanweekly.news/2026-11-21/#2026-11-21-patrick-hayden-machine-checks-3d-passive-quantum-memory-theorems): AI and formalization, 2026-11-16
+- [@rasidency publishes heresy, a Fil-C to Haskell compiler with Lean-checked output](https://leanweekly.news/2026-11-21/#2026-11-21-rasidency-publishes-heresy-a-fil-c-to-haskell-compiler-with-lean): Verification, 2026-11-21
+- [Kevin Schlegel posts a solution to the Birkhoff Problem on arXiv](https://leanweekly.news/2026-11-21/#2026-11-21-kevin-schlegel-posts-a-solution-to-the-birkhoff-problem-on-arxiv): Papers and events, 2026-11-15
+- [Cheshire Cat (@y-taka-23) posts Lean code for a book on compiler proofs](https://leanweekly.news/2026-11-21/#2026-11-21-cheshire-cat-y-taka-23-posts-lean-code-for-a-book-on-compiler-pr): Papers and events, 2026-11-21
 - [Levent Alpöge releases a Lean proof of the Riemann Hypothesis](https://leanweekly.news/2026-11-21/#2026-11-21-levent-alp-ge-releases-a-lean-proof-of-the-riemann-hypothesis): AI and formalization, 2026-11-21
 - [AlphaProof Nexus finds Lean proof of high-dimensional photonic GHZ no-go theorem](https://leanweekly.news/2026-11-21/#2026-11-21-alphaproof-nexus-finds-lean-proof-of-high-dimensional-photonic-g): AI and formalization, 2026-11-19
 - [Long Qian and André Platzer check ODE reachability proofs with Lean 4](https://leanweekly.news/2026-11-21/#2026-11-21-long-qian-and-andr-platzer-check-ode-reachability-proofs-with-le): Verification, 2026-11-18
@@ -96,14 +104,6 @@
 - [Andreas Andreakis extends DBLog to delete orphan rows, with Lean 4 proofs](https://leanweekly.news/2026-11-10/#2026-11-10-andreas-andreakis-extends-dblog-to-delete-orphan-rows-with-lean): Verification, 2026-11-07
 - [Jason Rute says articles on Lean's "trust surface" should mention external checking](https://leanweekly.news/2026-11-10/#2026-11-10-jason-rute-says-articles-on-lean-s-trust-surface-should-mention): Papers and events, 2026-11-09
 - [Jason Hickey proposes agent-authored software where humans review only formal specifications](https://leanweekly.news/2026-11-10/#2026-11-10-jason-hickey-proposes-agent-authored-software-where-humans-revie): Papers and events, 2026-11-01
-- [Paper determines order of magnitude of low moments of random multiplicative sums](https://leanweekly.news/2026-11-10/#2026-11-10-paper-determines-order-of-magnitude-of-low-moments-of-random-mul): Papers and events, 2026-11-03
-- [Project Numina formalizes a braided fusion category preprint in Lean 4](https://leanweekly.news/2026-11-10/#2026-11-10-project-numina-formalizes-a-braided-fusion-category-preprint-in): AI and formalization, 2026-11-09
-- [Google DeepMind uses AI agents to verify Signal's messaging security in Lean](https://leanweekly.news/2026-11-10/#2026-11-10-google-deepmind-uses-ai-agents-to-verify-signal-s-messaging-secu): Verification, 2026-11-10
-- [Polona Durcik registers AI-generated Lean proof on triangles in positive-density sets](https://leanweekly.news/2026-11-09/#2026-11-09-polona-durcik-registers-ai-generated-lean-proof-on-triangles-in): AI and formalization, 2026-11-09
-- [Alpha Squared Labs formalizes the Atiyah–Singer index theorem in Lean 4](https://leanweekly.news/2026-11-06/#2026-11-06-alpha-squared-labs-formalizes-the-atiyah-singer-index-theorem-in): AI and formalization, 2026-11-06
-- [Zayn Blore machine-checks the Dixmier conjecture's failure in dimension 3 and above](https://leanweekly.news/2026-11-06/#2026-11-06-zayn-blore-machine-checks-the-dixmier-conjecture-s-failure-in-di): AI and formalization, 2026-11-06
-- [Anthropic releases FlashProve, with Lean proofs of its security properties](https://leanweekly.news/2026-11-06/#2026-11-06-anthropic-releases-flashprove-with-lean-proofs-of-its-security-p): Verification, 2026-11-02
-- [Kiro proves properties of its own agent harness in Lean](https://leanweekly.news/2026-11-06/#2026-11-06-kiro-proves-properties-of-its-own-agent-harness-in-lean): Verification, 2026-11-02
 
 ## Weeks (Friday to Thursday)
 

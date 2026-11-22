@@ -30,8 +30,27 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 105 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 107 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-verification" id="2026-11-21-certik-and-columbia-university-researchers-formally-verify-gpu-k">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-21">Nov 21</time><button class="copy" type="button" hidden data-link="../../2026-11-21/#2026-11-21-certik-and-columbia-university-researchers-formally-verify-gpu-k" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">CertiK and Columbia University researchers formally verify GPU kernels in Lean</h2>
+    <p class="card-text">Using TensorLean, which checks compiled PTX code, the researchers proved 83 of 149 kernel instances conform to their Lean specifications, in what CertiK calls the world's first <a class="inl" href="https://www.panewslab.com/en/articles/01a1fbee-3b4e-7487-a7c2-35c36681b6a2" rel="noopener">formal verification of production-grade AI operators</a>. The team found 38 correctness issues across 6 libraries, including 2 in DeepSeek's DeepGEMM and 23 in the FlashAttention operator library.</p>
+    <figure class="media"><img src="../../assets/img/3d8e47026f094dee-480.webp" srcset="../../assets/img/3d8e47026f094dee-480.webp 480w, ../../assets/img/3d8e47026f094dee-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="626" alt="CertiK and Columbia University Researchers Release TensorLean Results, Completing the World&#x27;s First Formal Verification of Production-Grade AI Operators in DeepSeek and FlashAttention" loading="lazy" decoding="async"><figcaption class="credit">Image: panewslab.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://www.panewslab.com/en/articles/01a1fbee-3b4e-7487-a7c2-35c36681b6a2" rel="noopener">panewslab.com</a></p>
+  </div>
+</article>
+<article class="card c-verification" id="2026-11-21-rasidency-publishes-heresy-a-fil-c-to-haskell-compiler-with-lean">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-21">Nov 21</time><button class="copy" type="button" hidden data-link="../../2026-11-21/#2026-11-21-rasidency-publishes-heresy-a-fil-c-to-haskell-compiler-with-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">@rasidency publishes heresy, a Fil-C to Haskell compiler with Lean-checked output</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/rasidency/heresy" rel="noopener">The compiler</a> itself is written in OCaml; for accepted programs, Lean proves that the source and lowered models agree on completed observations, including exit status and stdout. A separate native backend emits a 132-byte x86-64 Linux executable for a closed integer expression and proves its exit status in the machine model.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/rasidency/heresy" rel="noopener">rasidency/heresy</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-11-21-long-qian-and-andr-platzer-check-ode-reachability-proofs-with-le">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -241,24 +260,6 @@
     <h2 class="card-title">okcontract publishes Solidity Spec, an executable formal model of Solidity in Lean</h2>
     <p class="card-text"><a class="inl" href="https://github.com/okcontract/solidity-spec" rel="noopener">The Lean 4.29.0 package</a> targets Solidity 0.8.36 and comes with a paper on its semantics and trust boundary. Conformance checks compare selected executions with the pinned compiler and a local Cancun EVM; okcontract calls the formalization incomplete and notes that compiler compatibility, scoped to viaIR: true, is not a proof of general compiler conformance.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/okcontract/solidity-spec" rel="noopener">okcontract/solidity-spec</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-11-13-mathematics-inc-runs-linux-s-wireguard-handshake-code-in-lean-fi">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-13">Nov 13</time><button class="copy" type="button" hidden data-link="../../2026-11-13/#2026-11-13-mathematics-inc-runs-linux-s-wireguard-handshake-code-in-lean-fi" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">mathematics-inc runs Linux's WireGuard handshake code in Lean, finding undefined behaviour</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/mathematics-inc/wireguard-handshake-cerberus-lean" rel="noopener">The repository</a> holds the Cerberus Core of a program running a complete two-peer WireGuard handshake, as readable Lean modules with one definition per WireGuard C function. Running it under a C semantics in Cerberus-Lean produced output identical to an independent reference implementation and also found limitations of Cerberus and Cerberus-Lean.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/mathematics-inc/wireguard-handshake-cerberus-lean" rel="noopener">mathematics-inc/wireguard-handshake-cerberus-lean</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-11-12-bartosz-naskr-cki-publishes-lean-doom-lab-pairing-doom-play-with">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-12">Nov 12</time><button class="copy" type="button" hidden data-link="../../2026-11-12/#2026-11-12-bartosz-naskr-cki-publishes-lean-doom-lab-pairing-doom-play-with" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Bartosz Naskręcki publishes Lean Doom Lab, pairing Doom play with Lean proofs</h2>
-    <p class="card-text">Users can play a route, pause on a game tick and inspect its Lean proof; in a browser course of nine authored maps, all 27 supplied route witnesses have stock Lean kernel audits. <a class="inl" href="https://github.com/nasqret/leandoom-proofs" rel="noopener">The lab's first-safe-exit theorems</a> state that the player remains alive, physics succeeds and the last input raises the exit flag.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/nasqret/leandoom-proofs" rel="noopener">nasqret/leandoom-proofs</a></p>
   </div>
 </article>
 </div>

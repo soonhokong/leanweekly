@@ -6,6 +6,110 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-21/#2026-11-21-joachim-breitner-removes-large-elimination-for-recursive-prop-in",
+   "url": "https://leanweekly.news/2026-11-21/#2026-11-21-joachim-breitner-removes-large-elimination-for-recursive-prop-in",
+   "title": "Joachim Breitner removes large elimination for recursive Prop inductives from Lean's kernel",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/leanprover/lean4/pull/13851\" rel=\"noopener\">merged pull request</a>, part of the Lean Kernel Renovation, restricts recursors such as Acc.rec to motives in Prop, while Eq and And keep large elimination. The goal is a kernel that never has to look at a proof term, which would let tools like external checkers drop proof subterms after typechecking.</p><p>Sources: <a href=\"https://github.com/leanprover/lean4/pull/13851\">lean4#13851</a></p>",
+   "date_published": "2026-11-21T12:00:00Z",
+   "tags": [
+    "Lean core",
+    "kernel",
+    "kernel renovation",
+    "large elimination"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-21/#2026-11-21-certik-and-columbia-university-researchers-formally-verify-gpu-k",
+   "url": "https://leanweekly.news/2026-11-21/#2026-11-21-certik-and-columbia-university-researchers-formally-verify-gpu-k",
+   "title": "CertiK and Columbia University researchers formally verify GPU kernels in Lean",
+   "content_html": "<p>Using TensorLean, which checks compiled PTX code, the researchers proved 83 of 149 kernel instances conform to their Lean specifications, in what CertiK calls the world's first <a class=\"inl\" href=\"https://www.panewslab.com/en/articles/01a1fbee-3b4e-7487-a7c2-35c36681b6a2\" rel=\"noopener\">formal verification of production-grade AI operators</a>. The team found 38 correctness issues across 6 libraries, including 2 in DeepSeek's DeepGEMM and 23 in the FlashAttention operator library.</p><p>Sources: <a href=\"https://www.panewslab.com/en/articles/01a1fbee-3b4e-7487-a7c2-35c36681b6a2\">panewslab.com</a></p>",
+   "date_published": "2026-11-21T12:00:00Z",
+   "tags": [
+    "Verification",
+    "gpu kernels",
+    "tensorlean",
+    "certik"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-21/#2026-11-21-dana-s-scott-and-coauthors-formalize-domain-theory-papers-in-lea",
+   "url": "https://leanweekly.news/2026-11-21/#2026-11-21-dana-s-scott-and-coauthors-formalize-domain-theory-papers-in-lea",
+   "title": "Dana S. Scott and coauthors formalize domain theory papers in Lean 4",
+   "content_html": "<p>Lars Warren Ericson, Dana S. Scott, Vijay D'Silva, and Brian Milnes wrote <a class=\"inl\" href=\"http://reports-archive.adm.cs.cmu.edu/anon/2026/CMU-CS-26-138.pdf\" rel=\"noopener\">Carnegie Mellon report CMU-CS-26-138</a>, a machine-checked Lean 4 formalization of Dana Scott's papers on domain theory: continuous lattices (1972), datatypes as lattices (1976), neighbourhood systems (1980), and information systems (1982). It adds bridge theorems relating the lattice, neighbourhood, and information systems presentations.</p><p>Sources: <a href=\"http://reports-archive.adm.cs.cmu.edu/anon/2026/CMU-CS-26-138.pdf\">paper (pdf)</a></p>",
+   "date_published": "2026-11-21T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "domain theory",
+    "formalization",
+    "continuous lattices"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-21/#2026-11-21-jz-pan-and-contributors-formalize-iwasawa-s-classical-class-numb",
+   "url": "https://leanweekly.news/2026-11-21/#2026-11-21-jz-pan-and-contributors-formalize-iwasawa-s-classical-class-numb",
+   "title": "Jz Pan and contributors formalize Iwasawa's classical class-number growth theorem",
+   "content_html": "<p><a class=\"inl\" href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-21-000013&amp;version=1\" rel=\"noopener\">The theorem</a> describes how the p-adic multiplicity of class numbers grows along an increasing tower of finite cyclic Galois extensions of a number field. The Lean statement uses only <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a> concepts, and <a class=\"inl\" href=\"https://github.com/acmepjz/lean-iwasawa\" rel=\"noopener\">the proof</a> relies on Naganori Yamaguchi's external Nyll class field theory library for the Hilbert class field inputs.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-21-000013&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/acmepjz/lean-iwasawa\">acmepjz/lean-iwasawa</a></p>",
+   "date_published": "2026-11-21T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "number theory",
+    "iwasawa theory",
+    "class field theory"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-21/#2026-11-21-patrick-hayden-machine-checks-3d-passive-quantum-memory-theorems",
+   "url": "https://leanweekly.news/2026-11-21/#2026-11-21-patrick-hayden-machine-checks-3d-passive-quantum-memory-theorems",
+   "title": "Patrick Hayden machine-checks 3D passive quantum memory theorems in Lean",
+   "content_html": "<p>Whether 3D quantum systems with local interactions can passively protect quantum information has been open since Kitaev introduced topological quantum computation. Patrick Hayden's <a class=\"inl\" href=\"https://arxiv.org/abs/2611.21749\" rel=\"noopener\">two-part paper</a> shows a variant of Balasubramanian, Davydova, and Lin's code family resists thermal noise and weak quantum perturbations; <a class=\"inl\" href=\"https://github.com/pmhayden/passive-quantum-memory\" rel=\"noopener\">Lean proofs</a> of existential theorems for both parts have zero sorry placeholders.</p><p>Sources: <a href=\"https://github.com/pmhayden/passive-quantum-memory\">pmhayden/passive-quantum-memory</a>, <a href=\"https://arxiv.org/abs/2611.21749\">arXiv:2611.21749</a></p>",
+   "date_published": "2026-11-16T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "quantum",
+    "physics",
+    "formalization"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-21/#2026-11-21-rasidency-publishes-heresy-a-fil-c-to-haskell-compiler-with-lean",
+   "url": "https://leanweekly.news/2026-11-21/#2026-11-21-rasidency-publishes-heresy-a-fil-c-to-haskell-compiler-with-lean",
+   "title": "@rasidency publishes heresy, a Fil-C to Haskell compiler with Lean-checked output",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/rasidency/heresy\" rel=\"noopener\">The compiler</a> itself is written in OCaml; for accepted programs, Lean proves that the source and lowered models agree on completed observations, including exit status and stdout. A separate native backend emits a 132-byte x86-64 Linux executable for a closed integer expression and proves its exit status in the machine model.</p><p>Sources: <a href=\"https://github.com/rasidency/heresy\">rasidency/heresy</a></p>",
+   "date_published": "2026-11-21T12:00:00Z",
+   "tags": [
+    "Verification",
+    "compilers",
+    "fil-c",
+    "haskell"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-21/#2026-11-21-kevin-schlegel-posts-a-solution-to-the-birkhoff-problem-on-arxiv",
+   "url": "https://leanweekly.news/2026-11-21/#2026-11-21-kevin-schlegel-posts-a-solution-to-the-birkhoff-problem-on-arxiv",
+   "title": "Kevin Schlegel posts a solution to the Birkhoff Problem on arXiv",
+   "content_html": "<p>For a commutative uniserial ring, <a class=\"inl\" href=\"https://arxiv.org/abs/2611.20099\" rel=\"noopener\">the paper</a> describes the indecomposable objects in its monomorphism category, independently of the specific ring for lengths up to 5 and depending only on the residue field for length 6. Classifying the monomorphism category of the integers modulo p⁶ thus reduces to a known case, resolving the Birkhoff Problem.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.20099\">arXiv:2611.20099</a></p>",
+   "date_published": "2026-11-15T12:00:00Z",
+   "tags": [
+    "Papers and events",
+    "algebra",
+    "birkhoff problem",
+    "arxiv"
+   ]
+  },
+  {
+   "id": "https://leanweekly.news/2026-11-21/#2026-11-21-cheshire-cat-y-taka-23-posts-lean-code-for-a-book-on-compiler-pr",
+   "url": "https://leanweekly.news/2026-11-21/#2026-11-21-cheshire-cat-y-taka-23-posts-lean-code-for-a-book-on-compiler-pr",
+   "title": "Cheshire Cat (@y-taka-23) posts Lean code for a book on compiler proofs",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/y-taka-23/lean-verified-compiler\" rel=\"noopener\">lean-verified-compiler repository</a> holds the sample code for 『コンパイラ証明技法』 (Compiler Proof Techniques), a self-published book on implementing a Wasm compiler in Lean, distributed at 技術書典 21. The README's steps run lake build and lake exe, convert out/julia.wat with wat2wasm, and open a locally served page in a browser.</p><p>Sources: <a href=\"https://github.com/y-taka-23/lean-verified-compiler\">y-taka-23/lean-verified-compiler</a></p>",
+   "date_published": "2026-11-21T12:00:00Z",
+   "tags": [
+    "Papers and events",
+    "book",
+    "compilers",
+    "wasm"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-21/#2026-11-21-levent-alp-ge-releases-a-lean-proof-of-the-riemann-hypothesis",
    "url": "https://leanweekly.news/2026-11-21/#2026-11-21-levent-alp-ge-releases-a-lean-proof-of-the-riemann-hypothesis",
    "title": "Levent Alpöge releases a Lean proof of the Riemann Hypothesis",
@@ -549,110 +653,6 @@
     "harmonic",
     "aristotle",
     "rust"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-nockchain-releases-a-nock-zkvm-with-an-end-to-end-lean-soundness",
-   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-nockchain-releases-a-nock-zkvm-with-an-end-to-end-lean-soundness",
-   "title": "Nockchain releases a Nock zkVM with an end-to-end Lean soundness proof",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://www.nockchain.org/research/zkvm\" rel=\"noopener\">Open Proof Machine</a>'s verifier checks a short proof instead of re-running a program in Nock, a tiny combinator language; kernel-checked soundness and completeness theorems cover all twelve opcodes, unbounded natural-number atoms and jets (known formulas that an interpreter replaces with native code). The <a class=\"inl\" href=\"https://github.com/nockchain/nock-zkvm\" rel=\"noopener\">alpha research release</a> has not been independently audited.</p><p>Sources: <a href=\"https://www.nockchain.org/research/zkvm\">nockchain.org</a>, <a href=\"https://github.com/nockchain/nock-zkvm\">nockchain/nock-zkvm</a></p>",
-   "date_published": "2026-11-16T12:00:00Z",
-   "tags": [
-    "Verification",
-    "zkvm",
-    "cryptography",
-    "nock"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-lean-powered-aristotle-adds-rust-verification-alongsi",
-   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-lean-powered-aristotle-adds-rust-verification-alongsi",
-   "title": "Harmonic's Lean-powered Aristotle adds Rust verification alongside C and Verilog",
-   "content_html": "<p><a class=\"inl\" href=\"https://www.harmonic.fun/news/aristotle-rust-verification/\" rel=\"noopener\">Aristotle</a> can prove that Rust code has no undefined behavior and does exactly what its spec says, even inside unsafe blocks (code the compiler does not check), and that C rewritten in Rust matches the original. On <a class=\"inl\" href=\"https://www.harmonic.fun/aristotle/case-studies/manifest/\" rel=\"noopener\">Manifest</a>, an open-source Solana order book, Aristotle proved 28 results and found a rounding bug, since fixed.</p><p>Sources: <a href=\"https://www.harmonic.fun/news/aristotle-rust-verification/\">harmonic.fun</a>, <a href=\"https://leanprover.zulipchat.com/#narrow/channel/113486-General-announcements/topic/Aristotle.20Agent.20is.20Now.20Live/with/640844645\">leanprover.zulipchat.com</a></p>",
-   "date_published": "2026-11-16T12:00:00Z",
-   "tags": [
-    "Verification",
-    "rust",
-    "aristotle",
-    "harmonic"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-okcontract-labs-releases-zean-for-proving-zig-functions-in-lean",
-   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-okcontract-labs-releases-zean-for-proving-zig-functions-in-lean",
-   "title": "OKcontract Labs releases Zean for proving Zig functions in Lean",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://okcontract.com/blog/introducing-zean-write-zig-and-prove-it-in-lean/\" rel=\"noopener\">open-source toolkit</a> translates supported Zig functions into executable Lean models, working from Zig's analyzed intermediate representation (AIR); an included copy-loop example proves its model avoids invalid accesses and uninitialized reads. Lean checks the translated model under its stated assumptions, so the proofs do not establish correctness of the final native binary.</p><p>Sources: <a href=\"https://okcontract.com/blog/introducing-zean-write-zig-and-prove-it-in-lean/\">okcontract.com</a></p>",
-   "date_published": "2026-11-16T12:00:00Z",
-   "tags": [
-    "Verification",
-    "zig",
-    "memory safety",
-    "verification"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-aaron-elijah-mars-verifies-15-ethereum-tokens-deployed-bytecode",
-   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-aaron-elijah-mars-verifies-15-ethereum-tokens-deployed-bytecode",
-   "title": "Aaron Elijah Mars verifies 15 Ethereum tokens' deployed bytecode in Lean 4",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/aaronjmars/proven-tokens\" rel=\"noopener\">The proofs</a>, 7,024 theorems in total, cover every input, caller and order of calls for tokens worth about $54 billion on Ethereum, including DAI, UNI, SHIB and PEPE. They show balances always add up to the total supply (or supply grows only as the rules say) and who can mint, freeze, blacklist or pause.</p><p>Sources: <a href=\"https://github.com/aaronjmars/proven-tokens\">aaronjmars/proven-tokens</a></p>",
-   "date_published": "2026-11-16T12:00:00Z",
-   "tags": [
-    "Verification",
-    "ethereum",
-    "smart contracts",
-    "evm"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-nyxfoundation-publishes-leanasm-a-lean-4-foundation-for-verified",
-   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-nyxfoundation-publishes-leanasm-a-lean-4-foundation-for-verified",
-   "title": "NyxFoundation publishes LeanAsm, a Lean 4 foundation for verified RV64 assembly",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/NyxFoundation/LeanAsm\" rel=\"noopener\">LeanAsm</a> covers typed RV64IM (RISC-V) and scalar x86-64 assembly, executable machine semantics, encoding, and source emission; it is intended to be shared by ssz-asm, cl-asm, and p2p-asm. Its architecture follows the verified macro-assembly approach demonstrated by Verified-zkEVM's evm-asm while remaining independent of EVM, zkVM execution, and riscv-zkvm.</p><p>Sources: <a href=\"https://github.com/NyxFoundation/LeanAsm\">NyxFoundation/LeanAsm</a></p>",
-   "date_published": "2026-11-16T12:00:00Z",
-   "tags": [
-    "Verification",
-    "assembly",
-    "risc-v",
-    "x86-64"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-15/#2026-11-15-logan-r-chalmers-lowers-four-dimensional-borsuk-bound-to-six-for",
-   "url": "https://leanweekly.news/2026-11-15/#2026-11-15-logan-r-chalmers-lowers-four-dimensional-borsuk-bound-to-six-for",
-   "title": "Logan R. Chalmers lowers four-dimensional Borsuk bound to six, formalized in Lean",
-   "content_html": "<p>Logan R. Chalmers proves that every set of diameter one in four dimensions can be split into at most six parts of smaller diameter, improving the previous upper bound of seven; five are sometimes necessary. <a class=\"inl\" href=\"https://arxiv.org/abs/2611.17375\" rel=\"noopener\">The proof</a> uses cones, balls or a rational polytope depending on circumradius, and the theorem is formalized in Lean.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.17375\">arXiv:2611.17375</a></p>",
-   "date_published": "2026-11-10T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "geometry",
-    "borsuk",
-    "formalization"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-15/#2026-11-15-mark-lewko-formalizes-sharp-kakeya-bounds-in-every-dimension-wit",
-   "url": "https://leanweekly.news/2026-11-15/#2026-11-15-mark-lewko-formalizes-sharp-kakeya-bounds-in-every-dimension-wit",
-   "title": "Mark Lewko formalizes sharp Kakeya bounds in every dimension, with AI assistance",
-   "content_html": "<p>The <a class=\"inl\" href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-15-000001&amp;version=1\" rel=\"noopener\">Palomar registry entry</a> proves two upper estimates, on the Kakeya maximal operator (largest averages over tubes around unit segments in each direction) and weighted tube overlaps, and says they imply the Kakeya maximal function conjecture. Only those two estimates are Lean theorems, and the <a class=\"inl\" href=\"https://github.com/mrklwk/kakeya-sharp\" rel=\"noopener\">repository</a> discloses the lack of independent human mathematical review.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-15-000001&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/mrklwk/kakeya-sharp\">mrklwk/kakeya-sharp</a></p>",
-   "date_published": "2026-11-15T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "kakeya",
-    "palomar",
-    "ai-assisted"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-15/#2026-11-15-juan-pablo-traverso-gianini-directs-ai-to-formalize-peter-keevas",
-   "url": "https://leanweekly.news/2026-11-15/#2026-11-15-juan-pablo-traverso-gianini-directs-ai-to-formalize-peter-keevas",
-   "title": "Juan Pablo Traverso Gianini directs AI to formalize Peter Keevash's triangle-decomposition theorem",
-   "content_html": "<p>Written by Harmonic's Aristotle and Claude Opus 5.5, the <a class=\"inl\" href=\"https://github.com/jtraverso/keevash-triangle-decompositions\" rel=\"noopener\">Lean proof of Theorem 2.1</a> of &quot;Counting designs&quot; assumes typicality on every set of at most 16 vertices, stronger than the paper's pairs-only hypothesis, so the paper's version is not covered. The proof replaces the Completion stage's random greedy algorithms with a deterministic potential argument.</p><p>Sources: <a href=\"https://github.com/jtraverso/keevash-triangle-decompositions\">jtraverso/keevash-triangle-decompositions</a>, <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-14-000022&amp;version=1\">palomar-registry.org</a></p>",
-   "date_published": "2026-11-14T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "combinatorics",
-    "palomar",
-    "ai-assisted"
    ]
   }
  ]

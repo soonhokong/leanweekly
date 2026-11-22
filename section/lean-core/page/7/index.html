@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 7</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 168 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 7</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 169 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-02-12-leo-de-moura-merges-two-lean-core-elaborator-changes">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-02-12">Feb 12</time><button class="copy" type="button" hidden data-link="../../../../2026-02-12/#2026-02-12-leo-de-moura-merges-two-lean-core-elaborator-changes" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura merges two Lean core elaborator changes</h2>
+    <p class="card-text">Leo de Moura <a class="inl" href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">merged a pull request</a> stopping isDefEq from raising transparency to .default for implicit arguments, which was creating scalability problems in <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a> (old behavior: set_option backward.isDefEq.respectTransparency false). <a class="inl" href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">A second pull request</a> fixes the type class resolution cache for classes with output parameters.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/12179" rel="noopener">lean4#12179</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/12286" rel="noopener">lean4#12286</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-02-12-leo-de-moura-tests-claude-assisted-refactoring-of-lean-s-grind-a">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -240,16 +249,8 @@
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean-workbench/pull/139" rel="noopener">lean-workbench#139</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean-workbench/pull/149" rel="noopener">lean-workbench#149</a></p>
   </div>
 </article>
-<article class="card c-lean-core" id="2026-10-15-kim-morrison-proposes-supply-chain-audits-for-mathlib-dependency">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-09-18">Sep 18</time><button class="copy" type="button" hidden data-link="../../../../2026-10-15/#2026-10-15-kim-morrison-proposes-supply-chain-audits-for-mathlib-dependency" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Kim Morrison proposes supply-chain audits for Mathlib dependency updates</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/leanprover-community/mathlib4/pull/43911" rel="noopener">A Mathlib pull request</a> by Kim Morrison adds a supply-chain audit step to the hourly update_dependencies.yml workflow, posting diffs, high-risk files touched and suspicious added lines for each changed dependency. The diffs come from paranoid-lake-update, which uses bare clones and git only, so nothing from upstream is executed.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover-community/mathlib4/pull/43911" rel="noopener">mathlib4#43911</a></p>
-  </div>
-</article>
 </div>
+<a class="more" href="../../../../section/lean-core/page/8/" data-more>More news</a>
 </div></div>
 </main>
 <p class="sr-only" id="status" role="status" aria-live="polite"></p>

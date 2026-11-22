@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Lean core, page 5</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 168 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Lean core, page 5</h1><p class="page-blurb">Lean releases, the compiler, tactics, Lake, Verso, libraries, kernels, and checkers. 169 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-06-25-david-thrane-christiansen-adds-extensible-markdown-rendering-for">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-06-25">Jun 25</time><button class="copy" type="button" hidden data-link="../../../../2026-06-25/#2026-06-25-david-thrane-christiansen-adds-extensible-markdown-rendering-for" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">David Thrane Christiansen adds extensible Markdown rendering for Verso docstrings</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14115" rel="noopener">A merged Lean pull request</a> lets custom elements in <a class="inl" href="https://github.com/leanprover/verso" rel="noopener">Verso</a> docstrings define their own Markdown rendering, which is used for LSP hovers and for legacy clients that don't directly support Verso. Example uses include including one docstring in another and showing all currently-available instances of a class.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14115" rel="noopener">lean4#14115</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-06-18-lean-4-31-0-released-with-new-do-loops-lake-linting-mvcgen">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -237,15 +246,6 @@
     <h2 class="card-title">Wojciech Różowski moves Batteries linters into Lean core and extends lake lint</h2>
     <p class="card-text">Wojciech Różowski <a class="inl" href="https://github.com/leanprover/lean4/pull/13513" rel="noopener">upstreamed the dupNamespace and unnecessarySeqFocus linters</a> from <a class="inl" href="https://github.com/leanprover-community/batteries" rel="noopener">Batteries</a> to core Lean as &quot;clippy&quot; linters, which are disabled by default and run with lake lint --clippy. lake lint --builtin-lint now also supports text linters, and a new script reports deprecated modules, options and syntax usage.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13513" rel="noopener">lean4#13513</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13538" rel="noopener">lean4#13538</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13540" rel="noopener">lean4#13540</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13586" rel="noopener">lean4#13586</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-04-30-leo-de-moura-merges-grind-diagnostics-solver-fixes-and-a-ring-de">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-29">Apr 29</time><button class="copy" type="button" hidden data-link="../../../../2026-04-30/#2026-04-30-leo-de-moura-merges-grind-diagnostics-solver-fixes-and-a-ring-de" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura merges grind diagnostics, solver fixes, and a ring-degree limit</h2>
-    <p class="card-text">The new <a class="inl" href="https://github.com/leanprover/lean4/pull/13558" rel="noopener">grind.ematch.diagnostics option</a> tracks how E-matching theorem instances depend on each other, and a <a class="inl" href="https://github.com/leanprover/lean4/pull/13585" rel="noopener">ringMaxDegree option</a> (default 1024) bounds polynomial degree in the <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> ring solver. Other merged pull requests fix beta reduction to respect the generation threshold, fix a kernel error for Nat casts to non-Int types, and extend the homomorphism demo.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13558" rel="noopener">lean4#13558</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13585" rel="noopener">lean4#13585</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13560" rel="noopener">lean4#13560</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13453" rel="noopener">lean4#13453</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13532" rel="noopener">lean4#13532</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13520" rel="noopener">lean4#13520</a></p>
   </div>
 </article>
 </div>
