@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-22/#2026-11-22-leo-de-moura-is-part-of-3blue1brown-s-riemann-hypothesis-video",
+   "url": "https://leanweekly.news/2026-11-22/#2026-11-22-leo-de-moura-is-part-of-3blue1brown-s-riemann-hypothesis-video",
+   "title": "Leo de Moura is part of 3Blue1Brown's Riemann Hypothesis video",
+   "content_html": "<p>&quot;Happy to be part of <a class=\"inl\" href=\"https://www.youtube.com/watch?v=zqzk43bSdDI\" rel=\"noopener\">3Blue1Brown's video on the Riemann Hypothesis</a>,&quot; Leo de Moura wrote in <a class=\"inl\" href=\"https://x.com/Leonard41111588/status/2124342108245139531\" rel=\"noopener\">a post on X</a> that links to the video on YouTube.</p><p>Sources: <a href=\"https://www.youtube.com/watch?v=zqzk43bSdDI\">youtube.com</a>, <a href=\"https://x.com/Leonard41111588/status/2124342108245139531\">@Leonard41111588 on X</a></p>",
+   "date_published": "2026-11-21T12:00:00Z",
+   "tags": [
+    "Papers and events",
+    "3blue1brown",
+    "riemann hypothesis",
+    "video"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-21/#2026-11-21-joachim-breitner-removes-large-elimination-for-recursive-prop-in",
    "url": "https://leanweekly.news/2026-11-21/#2026-11-21-joachim-breitner-removes-large-elimination-for-recursive-prop-in",
    "title": "Joachim Breitner removes large elimination for recursive Prop inductives from Lean's kernel",
@@ -640,19 +653,6 @@
     "release",
     "performance",
     "grind"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-aristotle-now-formally-verifies-rust-joining-c-and-ve",
-   "url": "https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-aristotle-now-formally-verifies-rust-joining-c-and-ve",
-   "title": "Harmonic's Aristotle now formally verifies Rust, joining C and Verilog",
-   "content_html": "<p><a class=\"inl\" href=\"https://x.com/HarmonicMath/status/2122374141970133416\" rel=\"noopener\">Harmonic</a> says users can prove that Rust code has no undefined behavior and does exactly what its specification says, even if it uses unsafe, and that Rust code ported from C behaves the same as the original. The <a class=\"inl\" href=\"https://x.com/leanprover/status/2122445505506750502\" rel=\"noopener\">Lean account on X</a> welcomed the use of Lean for Rust verification.</p><p>Sources: <a href=\"https://x.com/HarmonicMath/status/2122374141970133416\">@HarmonicMath on X</a>, <a href=\"https://x.com/leanprover/status/2122445505506750502\">@leanprover on X</a></p>",
-   "date_published": "2026-11-16T12:00:00Z",
-   "tags": [
-    "Verification",
-    "harmonic",
-    "aristotle",
-    "rust"
    ]
   }
  ]

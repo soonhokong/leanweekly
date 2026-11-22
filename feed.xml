@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Leo de Moura is part of 3Blue1Brown's Riemann Hypothesis video</title>
+<link>https://leanweekly.news/2026-11-22/#2026-11-22-leo-de-moura-is-part-of-3blue1brown-s-riemann-hypothesis-video</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-22/#2026-11-22-leo-de-moura-is-part-of-3blue1brown-s-riemann-hypothesis-video</guid>
+<pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+<category>Papers and events</category>
+<description>&lt;p&gt;&amp;quot;Happy to be part of &lt;a class="inl" href="https://www.youtube.com/watch?v=zqzk43bSdDI" rel="noopener"&gt;3Blue1Brown's video on the Riemann Hypothesis&lt;/a&gt;,&amp;quot; Leo de Moura wrote in &lt;a class="inl" href="https://x.com/Leonard41111588/status/2124342108245139531" rel="noopener"&gt;a post on X&lt;/a&gt; that links to the video on YouTube.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://www.youtube.com/watch?v=zqzk43bSdDI"&gt;youtube.com&lt;/a&gt;, &lt;a href="https://x.com/Leonard41111588/status/2124342108245139531"&gt;@Leonard41111588 on X&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Joachim Breitner removes large elimination for recursive Prop inductives from Lean's kernel</title>
 <link>https://leanweekly.news/2026-11-21/#2026-11-21-joachim-breitner-removes-large-elimination-for-recursive-prop-in</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-21/#2026-11-21-joachim-breitner-removes-large-elimination-for-recursive-prop-in</guid>
@@ -398,14 +406,6 @@
 <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
 <category>Lean core</category>
 <description>&lt;p&gt;The cross-command cache cuts type class resolution time on the standard library build by about 14% (&lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; gains 0.2% overall). Other changes fix many &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener"&gt;grind&lt;/a&gt; bugs and several quadratic slowdowns (on a file with 4,000 definition/theorem pairs, elaboration time drops from 99 s to 32 s), and let def contracts state exception postconditions.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://lean-lang.org/doc/reference/latest/releases/v4.36.0/"&gt;v4.36.0 release notes&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/releases/tag/v4.36.0"&gt;lean4 v4.36.0&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Harmonic's Aristotle now formally verifies Rust, joining C and Verilog</title>
-<link>https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-aristotle-now-formally-verifies-rust-joining-c-and-ve</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-16/#2026-11-16-harmonic-s-aristotle-now-formally-verifies-rust-joining-c-and-ve</guid>
-<pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;&lt;a class="inl" href="https://x.com/HarmonicMath/status/2122374141970133416" rel="noopener"&gt;Harmonic&lt;/a&gt; says users can prove that Rust code has no undefined behavior and does exactly what its specification says, even if it uses unsafe, and that Rust code ported from C behaves the same as the original. The &lt;a class="inl" href="https://x.com/leanprover/status/2122445505506750502" rel="noopener"&gt;Lean account on X&lt;/a&gt; welcomed the use of Lean for Rust verification.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://x.com/HarmonicMath/status/2122374141970133416"&gt;@HarmonicMath on X&lt;/a&gt;, &lt;a href="https://x.com/leanprover/status/2122445505506750502"&gt;@leanprover on X&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

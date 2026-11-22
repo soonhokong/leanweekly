@@ -32,6 +32,16 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 2</h1></header>
 <div class="stream">
+<article class="card c-verification" id="2026-11-19-john-zhuoyang-ye-and-co-authors-present-qccdcert-a-lean-verified">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-17">Nov 17</time><button class="copy" type="button" hidden data-link="../../2026-11-19/#2026-11-19-john-zhuoyang-ye-and-co-authors-present-qccdcert-a-lean-verified" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">John Zhuoyang Ye and co-authors present QCCDCert, a Lean-verified trapped-ion quantum compiler</h2>
+    <p class="card-text">Hardware descriptions and operating rules are compiler inputs, so one theorem covers every candidate design: compiled code preserves program behavior and obeys those rules. <a class="inl" href="https://arxiv.org/abs/2611.23469" rel="noopener">QCCDCert</a> provably avoids 11 defects found in three previous compilers, and an AI agent proposing devices from checked compilation results beats the fastest fixed design on 71 of 75 benchmark programs.</p>
+    <figure class="media media-paper"><img src="../../assets/img/10b9d41c03eba06f-480.webp" srcset="../../assets/img/10b9d41c03eba06f-480.webp 480w, ../../assets/img/10b9d41c03eba06f-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.23469" rel="noopener">arXiv:2611.23469</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2611.23469.html" rel="noopener">paperswithlean.com</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-11-19-bowen-zhu-and-jian-wu-certify-plasma-solver-outputs-with-lean-pr">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -247,16 +257,6 @@
     <p class="card-text">Lean 4 proofs show that <a class="inl" href="https://github.com/rylanmalarchick/qlin" rel="noopener">qlin</a> moves operations out of measurement-dependent branches without delaying the program, and that its check of each compiled program against its source is sound. Modeled at the QICK controller's 42 ns per decision, 10 of 65 programs run at least 10% faster than the best baseline, up to 91.2%.</p>
     <figure class="media media-paper"><img src="../../assets/img/7d650e513c3343de-480.webp" srcset="../../assets/img/7d650e513c3343de-480.webp 480w, ../../assets/img/7d650e513c3343de-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="949" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.19618" rel="noopener">arXiv:2611.19618</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/rylanmalarchick/qlin" rel="noopener">rylanmalarchick/qlin</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-14">Nov 14</time><button class="copy" type="button" hidden data-link="../../2026-11-17/#2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">TrustBound proves in Lean how to account for payments outliving AI agents</h2>
-    <p class="card-text">Sandip Nandi, Aishwarya Bose, Apurba Bose and Soovadeep Bakshi prove that once a fence stops new admissions, discharging outstanding rights prevents further payments, and that truthful outcomes give exact accounting. Lean accepts six histories from a <a class="inl" href="https://github.com/tokencraftdata/trustbound" rel="noopener">Python/SQLite service</a>; concurrent tests exposed a conflict from reordered provider reads, fixed in all 84 tested cases.</p>
-    <figure class="media media-paper"><img src="../../assets/img/0821b00852a59ab0-480.webp" srcset="../../assets/img/0821b00852a59ab0-480.webp 480w, ../../assets/img/0821b00852a59ab0-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.19551" rel="noopener">arXiv:2611.19551</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/tokencraftdata/trustbound" rel="noopener">tokencraftdata/trustbound</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2611.19551.html" rel="noopener">paperswithlean.com</a></p>
   </div>
 </article>
 </div>
