@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Anthropic posts claimed VP ≠ VNP proof by Claude, formalized in Lean</title>
+<link>https://leanweekly.news/2026-11-24/#2026-11-24-anthropic-posts-claimed-vp-vnp-proof-by-claude-formalized-in-lea</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-24/#2026-11-24-anthropic-posts-claimed-vp-vnp-proof-by-claude-formalized-in-lea</guid>
+<pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;The paper, credited solely to Claude, claims &lt;a class="inl" href="https://casrai.org/news/anthropic-claude-authored-vp-vnp-proof-unverified-lean-2026" rel="noopener"&gt;a proof of Valiant's VP ≠ VNP conjecture&lt;/a&gt; (an algebraic analogue of P versus NP) over every field. Anthropic's README states that Lean checks the proofs, but no machine checks that the formal statement says what is claimed, and no human mathematician has checked the proof.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://casrai.org/news/anthropic-claude-authored-vp-vnp-proof-unverified-lean-2026"&gt;casrai.org&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Leo de Moura is part of 3Blue1Brown's Riemann Hypothesis video</title>
 <link>https://leanweekly.news/2026-11-22/#2026-11-22-leo-de-moura-is-part-of-3blue1brown-s-riemann-hypothesis-video</link>
@@ -398,14 +406,6 @@
 <pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;Sandip Nandi, Aishwarya Bose, Apurba Bose and Soovadeep Bakshi prove that once a fence stops new admissions, discharging outstanding rights prevents further payments, and that truthful outcomes give exact accounting. Lean accepts six histories from a &lt;a class="inl" href="https://github.com/tokencraftdata/trustbound" rel="noopener"&gt;Python/SQLite service&lt;/a&gt;; concurrent tests exposed a conflict from reordered provider reads, fixed in all 84 tested cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.19551"&gt;arXiv:2611.19551&lt;/a&gt;, &lt;a href="https://github.com/tokencraftdata/trustbound"&gt;tokencraftdata/trustbound&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.19551.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Lean v4.36.0 released with type class resolution caching across commands</title>
-<link>https://leanweekly.news/2026-11-16/#2026-11-16-lean-v4-36-0-released-with-type-class-resolution-caching-across</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-16/#2026-11-16-lean-v4-36-0-released-with-type-class-resolution-caching-across</guid>
-<pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
-<category>Lean core</category>
-<description>&lt;p&gt;The cross-command cache cuts type class resolution time on the standard library build by about 14% (&lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt; gains 0.2% overall). Other changes fix many &lt;a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener"&gt;grind&lt;/a&gt; bugs and several quadratic slowdowns (on a file with 4,000 definition/theorem pairs, elaboration time drops from 99 s to 32 s), and let def contracts state exception postconditions.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://lean-lang.org/doc/reference/latest/releases/v4.36.0/"&gt;v4.36.0 release notes&lt;/a&gt;, &lt;a href="https://github.com/leanprover/lean4/releases/tag/v4.36.0"&gt;lean4 v4.36.0&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Anthropic posts claimed VP ≠ VNP proof by Claude, formalized in Lean](https://leanweekly.news/2026-11-24/#2026-11-24-anthropic-posts-claimed-vp-vnp-proof-by-claude-formalized-in-lea): AI and formalization, 2026-11-24
 - [Leo de Moura is part of 3Blue1Brown's Riemann Hypothesis video](https://leanweekly.news/2026-11-22/#2026-11-22-leo-de-moura-is-part-of-3blue1brown-s-riemann-hypothesis-video): Papers and events, 2026-11-21
 - [Joachim Breitner removes large elimination for recursive Prop inductives from Lean's kernel](https://leanweekly.news/2026-11-21/#2026-11-21-joachim-breitner-removes-large-elimination-for-recursive-prop-in): Lean core, 2026-11-21
 - [CertiK and Columbia University researchers formally verify GPU kernels in Lean](https://leanweekly.news/2026-11-21/#2026-11-21-certik-and-columbia-university-researchers-formally-verify-gpu-k): Verification, 2026-11-21
@@ -103,7 +104,6 @@
 - [Markus de Medeiros publishes SampLib, a Lean library of verified random samplers](https://leanweekly.news/2026-11-10/#2026-11-10-markus-de-medeiros-publishes-samplib-a-lean-library-of-verified): Verification, 2026-11-10
 - [yaneurao publishes Lean 4 proofs for a shogi AI opening-book algorithm](https://leanweekly.news/2026-11-10/#2026-11-10-yaneurao-publishes-lean-4-proofs-for-a-shogi-ai-opening-book-alg): Verification, 2026-11-10
 - [Andreas Andreakis extends DBLog to delete orphan rows, with Lean 4 proofs](https://leanweekly.news/2026-11-10/#2026-11-10-andreas-andreakis-extends-dblog-to-delete-orphan-rows-with-lean): Verification, 2026-11-07
-- [Jason Rute says articles on Lean's "trust surface" should mention external checking](https://leanweekly.news/2026-11-10/#2026-11-10-jason-rute-says-articles-on-lean-s-trust-surface-should-mention): Papers and events, 2026-11-09
 
 ## Weeks (Friday to Thursday)
 
@@ -146,6 +146,7 @@
 
 ## Items in Markdown, by publication date
 
+- [Published Nov 24, 2026](https://leanweekly.news/2026-11-24/items.md)
 - [Published Nov 22, 2026](https://leanweekly.news/2026-11-22/items.md)
 - [Published Nov 21, 2026](https://leanweekly.news/2026-11-21/items.md)
 - [Published Nov 20, 2026](https://leanweekly.news/2026-11-20/items.md)
