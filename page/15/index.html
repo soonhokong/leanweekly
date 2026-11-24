@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 15</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-05-14-sebastian-graf-brings-sym-based-mvcgen-to-parity-with-mvcgen">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-05-05">May 5</time><button class="copy" type="button" hidden data-link="../../2026-05-14/#2026-05-14-sebastian-graf-brings-sym-based-mvcgen-to-parity-with-mvcgen" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Sebastian Graf brings Sym-based mvcgen' to parity with mvcgen</h2>
+    <p class="card-text">A merged Lean pull request by Sebastian Graf gives the <a class="inl" href="https://github.com/leanprover/lean4/pull/13578" rel="noopener">Sym-based mvcgen'</a> feature parity with mvcgen, except +jp (join-point handling), at a cost of about 10% vcgen slowdown for cleaner user-visible VCs. A separate change adds <a class="inl" href="https://github.com/leanprover/lean4/pull/13209" rel="noopener">whileM</a>, which makes repeat/while loops verifiable with mvcgen.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13578" rel="noopener">lean4#13578</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13209" rel="noopener">lean4#13209</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13672" rel="noopener">lean4#13672</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13582" rel="noopener">lean4#13582</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-05-14-lake-adds-a-requiresmodulesystem-option-to-flag-non-module-impor">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -240,15 +249,6 @@
     <h2 class="card-title">Mark Ruvald Pedersen releases Clift, an AutoCorres-style C verification pipeline for Lean 4</h2>
     <p class="card-text"><a class="inl" href="https://github.com/eisbaw/Clift" rel="noopener">Clift</a> verifies C programs by lifting them into Lean 4, following the methodology pioneered by seL4's AutoCorres pipeline in Isabelle/HOL and adapting AutoCorres2's five-stage pipeline to Lean 4's type theory. <a class="inl" href="https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf" rel="noopener">The accompanying paper</a> reports that Claude Opus 4.6 generated the vast majority of the code, with 1,698 theorems and 12 remaining sorry.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/eisbaw/Clift/blob/master/paper/clift.pdf" rel="noopener">paper (pdf)</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/eisbaw/Clift" rel="noopener">eisbaw/Clift</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-04-30-leo-de-moura-merges-grind-diagnostics-solver-fixes-and-a-ring-de">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-04-29">Apr 29</time><button class="copy" type="button" hidden data-link="../../2026-04-30/#2026-04-30-leo-de-moura-merges-grind-diagnostics-solver-fixes-and-a-ring-de" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Leo de Moura merges grind diagnostics, solver fixes, and a ring-degree limit</h2>
-    <p class="card-text">The new <a class="inl" href="https://github.com/leanprover/lean4/pull/13558" rel="noopener">grind.ematch.diagnostics option</a> tracks how E-matching theorem instances depend on each other, and a <a class="inl" href="https://github.com/leanprover/lean4/pull/13585" rel="noopener">ringMaxDegree option</a> (default 1024) bounds polynomial degree in the <a class="inl" href="https://lean-lang.org/doc/reference/latest/The--grind--tactic/" rel="noopener">grind</a> ring solver. Other merged pull requests fix beta reduction to respect the generation threshold, fix a kernel error for Nat casts to non-Int types, and extend the homomorphism demo.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/13558" rel="noopener">lean4#13558</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13585" rel="noopener">lean4#13585</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13560" rel="noopener">lean4#13560</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13453" rel="noopener">lean4#13453</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13532" rel="noopener">lean4#13532</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/13520" rel="noopener">lean4#13520</a></p>
   </div>
 </article>
 </div>

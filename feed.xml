@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Tue, 24 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>OpenAI publishes preprint and Lean proof claiming VP and VNP differ</title>
+<link>https://leanweekly.news/2026-11-24/#2026-11-24-openai-publishes-preprint-and-lean-proof-claiming-vp-and-vnp-dif</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-24/#2026-11-24-openai-publishes-preprint-and-lean-proof-claiming-vp-and-vnp-dif</guid>
+<pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;OpenAI added &lt;a class="inl" href="https://explainx.ai/blog/openai-vp-vnp-different-lean-proof-november-2026" rel="noopener"&gt;the preprint&lt;/a&gt; to its openai/math repository on November 23, 2026, alongside LaTeX sources, a PDF, and a Lean proof. It claims a superpolynomial arithmetic circuit lower bound separating VP (efficiently computable polynomials) from VNP (NP-like polynomials in the algebraic setting), as Valiant conjectured in 1979; expert acceptance is still open.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://explainx.ai/blog/openai-vp-vnp-different-lean-proof-november-2026"&gt;explainx.ai&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>Anthropic posts claimed VP ≠ VNP proof by Claude, formalized in Lean</title>
 <link>https://leanweekly.news/2026-11-24/#2026-11-24-anthropic-posts-claimed-vp-vnp-proof-by-claude-formalized-in-lea</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-24/#2026-11-24-anthropic-posts-claimed-vp-vnp-proof-by-claude-formalized-in-lea</guid>
@@ -398,14 +406,6 @@
 <pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;Lean 4 proofs show that &lt;a class="inl" href="https://github.com/rylanmalarchick/qlin" rel="noopener"&gt;qlin&lt;/a&gt; moves operations out of measurement-dependent branches without delaying the program, and that its check of each compiled program against its source is sound. Modeled at the QICK controller's 42 ns per decision, 10 of 65 programs run at least 10% faster than the best baseline, up to 91.2%.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.19618"&gt;arXiv:2611.19618&lt;/a&gt;, &lt;a href="https://github.com/rylanmalarchick/qlin"&gt;rylanmalarchick/qlin&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>TrustBound proves in Lean how to account for payments outliving AI agents</title>
-<link>https://leanweekly.news/2026-11-17/#2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving</guid>
-<pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;Sandip Nandi, Aishwarya Bose, Apurba Bose and Soovadeep Bakshi prove that once a fence stops new admissions, discharging outstanding rights prevents further payments, and that truthful outcomes give exact accounting. Lean accepts six histories from a &lt;a class="inl" href="https://github.com/tokencraftdata/trustbound" rel="noopener"&gt;Python/SQLite service&lt;/a&gt;; concurrent tests exposed a conflict from reordered provider reads, fixed in all 84 tested cases.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.19551"&gt;arXiv:2611.19551&lt;/a&gt;, &lt;a href="https://github.com/tokencraftdata/trustbound"&gt;tokencraftdata/trustbound&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.19551.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

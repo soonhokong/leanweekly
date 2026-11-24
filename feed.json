@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-24/#2026-11-24-openai-publishes-preprint-and-lean-proof-claiming-vp-and-vnp-dif",
+   "url": "https://leanweekly.news/2026-11-24/#2026-11-24-openai-publishes-preprint-and-lean-proof-claiming-vp-and-vnp-dif",
+   "title": "OpenAI publishes preprint and Lean proof claiming VP and VNP differ",
+   "content_html": "<p>OpenAI added <a class=\"inl\" href=\"https://explainx.ai/blog/openai-vp-vnp-different-lean-proof-november-2026\" rel=\"noopener\">the preprint</a> to its openai/math repository on November 23, 2026, alongside LaTeX sources, a PDF, and a Lean proof. It claims a superpolynomial arithmetic circuit lower bound separating VP (efficiently computable polynomials) from VNP (NP-like polynomials in the algebraic setting), as Valiant conjectured in 1979; expert acceptance is still open.</p><p>Sources: <a href=\"https://explainx.ai/blog/openai-vp-vnp-different-lean-proof-november-2026\">explainx.ai</a></p>",
+   "date_published": "2026-11-24T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "openai",
+    "algebraic complexity",
+    "vp vs vnp"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-24/#2026-11-24-anthropic-posts-claimed-vp-vnp-proof-by-claude-formalized-in-lea",
    "url": "https://leanweekly.news/2026-11-24/#2026-11-24-anthropic-posts-claimed-vp-vnp-proof-by-claude-formalized-in-lea",
    "title": "Anthropic posts claimed VP ≠ VNP proof by Claude, formalized in Lean",
@@ -640,19 +653,6 @@
     "quantum",
     "compilers",
     "translation validation"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-17/#2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving",
-   "url": "https://leanweekly.news/2026-11-17/#2026-11-17-trustbound-proves-in-lean-how-to-account-for-payments-outliving",
-   "title": "TrustBound proves in Lean how to account for payments outliving AI agents",
-   "content_html": "<p>Sandip Nandi, Aishwarya Bose, Apurba Bose and Soovadeep Bakshi prove that once a fence stops new admissions, discharging outstanding rights prevents further payments, and that truthful outcomes give exact accounting. Lean accepts six histories from a <a class=\"inl\" href=\"https://github.com/tokencraftdata/trustbound\" rel=\"noopener\">Python/SQLite service</a>; concurrent tests exposed a conflict from reordered provider reads, fixed in all 84 tested cases.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.19551\">arXiv:2611.19551</a>, <a href=\"https://github.com/tokencraftdata/trustbound\">tokencraftdata/trustbound</a>, <a href=\"https://paperswithlean.com/paper/2611.19551.html\">paperswithlean.com</a></p>",
-   "date_published": "2026-11-14T12:00:00Z",
-   "tags": [
-    "Verification",
-    "payments",
-    "ai agents",
-    "refinement"
    ]
   }
  ]

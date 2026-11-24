@@ -32,6 +32,16 @@
 <div class="frame"><div class="timeline">
 <h1 class="sr-only">Lean Weekly: the latest news</h1>
 <div class="stream">
+<article class="card c-ai" id="2026-11-24-openai-publishes-preprint-and-lean-proof-claiming-vp-and-vnp-dif">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-24">Nov 24</time><button class="copy" type="button" hidden data-link="./2026-11-24/#2026-11-24-openai-publishes-preprint-and-lean-proof-claiming-vp-and-vnp-dif" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">OpenAI publishes preprint and Lean proof claiming VP and VNP differ</h2>
+    <p class="card-text">OpenAI added <a class="inl" href="https://explainx.ai/blog/openai-vp-vnp-different-lean-proof-november-2026" rel="noopener">the preprint</a> to its openai/math repository on November 23, 2026, alongside LaTeX sources, a PDF, and a Lean proof. It claims a superpolynomial arithmetic circuit lower bound separating VP (efficiently computable polynomials) from VNP (NP-like polynomials in the algebraic setting), as Valiant conjectured in 1979; expert acceptance is still open.</p>
+    <figure class="media"><img src="./assets/img/5d2ace15bb003f5c-480.webp" srcset="./assets/img/5d2ace15bb003f5c-480.webp 480w, ./assets/img/5d2ace15bb003f5c-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="800" alt="OpenAI VP ≠ VNP Proof: Lean Code, Valiant Conjecture, and What Is Verified" loading="lazy" decoding="async"><figcaption class="credit">Image: explainx.ai</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://explainx.ai/blog/openai-vp-vnp-different-lean-proof-november-2026" rel="noopener">explainx.ai</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-11-24-anthropic-posts-claimed-vp-vnp-proof-by-claude-formalized-in-lea">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -248,15 +258,6 @@
     <h2 class="card-title">Henrik Böving adds epr tactic for EPR, a first-order logic fragment</h2>
     <p class="card-text">Merged into Lean as <a class="inl" href="https://github.com/leanprover/lean4/pull/16468" rel="noopener">#16468</a>, the tactic uses a BitVec encoding combined with bv_decide and performs about level with Z3 on the TPTP EPR benchmark set. On verification conditions from <a class="inl" href="https://veil.dev/" rel="noopener">Veil</a>, a protocol verifier, it solves 769 (97%) of the 792 that lie fully within EPR and 1,082 (71%) of all 1,512.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16468" rel="noopener">lean4#16468</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-11-19-codex-agents-prove-gonshor-s-1986-conjecture-on-surreal-birthday">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-19">Nov 19</time><button class="copy" type="button" hidden data-link="./2026-11-19/#2026-11-19-codex-agents-prove-gonshor-s-1986-conjecture-on-surreal-birthday" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Codex agents prove Gonshor's 1986 conjecture on surreal birthdays in Lean</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/gaearon/gonshor-birthday" rel="noopener">The conjecture</a> says a surreal product's birthday (the length of its sign sequence) is at most the natural (Hessenberg) ordinal product of the factors' birthdays. Directed by dan (@gaearon), the agents proved the CombinatorialGames library's proof_wanted statement Surreal.birthday_mul_le and a <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>-only version with the definitions included, checked by Comparator and independent kernel checkers.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/gaearon/gonshor-birthday" rel="noopener">gaearon/gonshor-birthday</a></p>
   </div>
 </article>
 </div>
