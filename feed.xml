@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Tue, 24 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>Intrinsic Technologies verifies ten RustCrypto crates' compiled code against Lean specifications</title>
+<link>https://leanweekly.news/2026-11-24/#2026-11-24-intrinsic-technologies-verifies-ten-rustcrypto-crates-compiled-c</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-24/#2026-11-24-intrinsic-technologies-verifies-ten-rustcrypto-crates-compiled-c</guid>
+<pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate>
+<category>Verification</category>
+<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/intrinsic-technologies/rustcrypto-fv" rel="noopener"&gt;rustcrypto-fv repository&lt;/a&gt;'s 71 theorems, covering operations in crates such as sha2, sha3, aes-gcm, chacha20poly1305 and p256, state that the crates' compiled x86-64 code, run on lean-x86's machine model, computes their Lean specifications. Comparator checks each theorem's statement, axioms and kernel validity, and the specifications are tested against published vectors.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/intrinsic-technologies/rustcrypto-fv"&gt;intrinsic-technologies/rustcrypto-fv&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>AI agents formalize the proof of Tadeusz Iwaniec's 1982 conjecture in Lean</title>
 <link>https://leanweekly.news/2026-11-24/#2026-11-24-ai-agents-formalize-the-proof-of-tadeusz-iwaniec-s-1982-conjectu</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-24/#2026-11-24-ai-agents-formalize-the-proof-of-tadeusz-iwaniec-s-1982-conjectu</guid>
@@ -398,14 +406,6 @@
 <pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/leochlon/tiny-bayes" rel="noopener"&gt;tiny-bayes repository&lt;/a&gt; decodes all 14,067,712 parameters exactly from float16 bit patterns and defines the GPT-NeoX forward pass using exact GELU, with kernel-certified outputs. Theorems depending only on the axioms propext, Classical.choice and Quot.sound show that a tiny transformer's Bayesian-in-expectation result (order averages within 0.0034 of Laplace's rule) does not extend to Pythia-14M.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leochlon/tiny-bayes"&gt;leochlon/tiny-bayes&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Kimon Fountoulakis and coauthors describe VSCL, a Lean library formalizing numerical analysis</title>
-<link>https://leanweekly.news/2026-11-17/#2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo</guid>
-<pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;To assess AI-generated kernels, the authors audited a &lt;a class="inl" href="https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026" rel="noopener"&gt;GPU MODE QR competition&lt;/a&gt;: all five leading kernels passed its accuracy tests, yet each failed at least once on new inputs under the same checker, while the baseline passed them all. The authors propose &lt;a class="inl" href="https://arxiv.org/abs/2611.21570" rel="noopener"&gt;VERNA&lt;/a&gt;, which would use formalized results to test kernels against explicit specifications.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.21570"&gt;arXiv:2611.21570&lt;/a&gt;, &lt;a href="https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026"&gt;the-numerical-proving-ground/gpumode-kernel-audit-2026&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.21570.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

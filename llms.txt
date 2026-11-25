@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [Intrinsic Technologies verifies ten RustCrypto crates' compiled code against Lean specifications](https://leanweekly.news/2026-11-24/#2026-11-24-intrinsic-technologies-verifies-ten-rustcrypto-crates-compiled-c): Verification, 2026-11-24
 - [AI agents formalize the proof of Tadeusz Iwaniec's 1982 conjecture in Lean](https://leanweekly.news/2026-11-24/#2026-11-24-ai-agents-formalize-the-proof-of-tadeusz-iwaniec-s-1982-conjectu): AI and formalization, 2026-11-24
 - [OpenAI publishes preprint and Lean proof claiming VP and VNP differ](https://leanweekly.news/2026-11-24/#2026-11-24-openai-publishes-preprint-and-lean-proof-claiming-vp-and-vnp-dif): AI and formalization, 2026-11-24
 - [Anthropic posts claimed VP ≠ VNP proof by Claude, formalized in Lean](https://leanweekly.news/2026-11-24/#2026-11-24-anthropic-posts-claimed-vp-vnp-proof-by-claude-formalized-in-lea): AI and formalization, 2026-11-24
@@ -103,7 +104,6 @@
 - [Giulio rebuffo's usdt-verify formally verifies deployed USDT bytecode in Lean 4](https://leanweekly.news/2026-11-10/#2026-11-10-giulio-rebuffo-s-usdt-verify-formally-verifies-deployed-usdt-byt): Verification, 2026-11-10
 - [zkSecurity publishes Rust BLS12-381 code proved equivalent to the EthLib Lean specification](https://leanweekly.news/2026-11-10/#2026-11-10-zksecurity-publishes-rust-bls12-381-code-proved-equivalent-to-th): Verification, 2026-11-10
 - [Rudi Cilibrasi publishes openverse, an unofficial Verse runtime with Lean verification](https://leanweekly.news/2026-11-10/#2026-11-10-rudi-cilibrasi-publishes-openverse-an-unofficial-verse-runtime-w): Verification, 2026-11-10
-- [Markus de Medeiros publishes SampLib, a Lean library of verified random samplers](https://leanweekly.news/2026-11-10/#2026-11-10-markus-de-medeiros-publishes-samplib-a-lean-library-of-verified): Verification, 2026-11-10
 
 ## Weeks (Friday to Thursday)
 

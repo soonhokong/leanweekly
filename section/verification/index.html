@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 107 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">Verification</h1><p class="page-blurb">Software, hardware, protocols, and cryptography verified with Lean. 108 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-verification" id="2026-11-24-intrinsic-technologies-verifies-ten-rustcrypto-crates-compiled-c">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-24">Nov 24</time><button class="copy" type="button" hidden data-link="../../2026-11-24/#2026-11-24-intrinsic-technologies-verifies-ten-rustcrypto-crates-compiled-c" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Intrinsic Technologies verifies ten RustCrypto crates' compiled code against Lean specifications</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/intrinsic-technologies/rustcrypto-fv" rel="noopener">rustcrypto-fv repository</a>'s 71 theorems, covering operations in crates such as sha2, sha3, aes-gcm, chacha20poly1305 and p256, state that the crates' compiled x86-64 code, run on lean-x86's machine model, computes their Lean specifications. Comparator checks each theorem's statement, axioms and kernel validity, and the specifications are tested against published vectors.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/intrinsic-technologies/rustcrypto-fv" rel="noopener">intrinsic-technologies/rustcrypto-fv</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-11-21-certik-and-columbia-university-researchers-formally-verify-gpu-k">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -251,15 +260,6 @@
     <h2 class="card-title">emberian's qsag combines post-quantum threshold signing in Rust with Lean proofs</h2>
     <p class="card-text">The <a class="inl" href="https://github.com/emberian/qsag" rel="noopener">research-preview stack</a> implements NIST FIPS 205 SLH-DSA-SHAKE and FIPS 204 ML-DSA-44, and Lean certificate checks pass for its 19 x86-64 and 9 AArch64 certified assembly kernels. Its main-library axiom audit checks 59,257 declarations, including 28,744 kernel theorem declarations, across 57 modules, with no rejected axioms.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/emberian/qsag" rel="noopener">emberian/qsag</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-11-13-okcontract-publishes-solidity-spec-an-executable-formal-model-of">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-13">Nov 13</time><button class="copy" type="button" hidden data-link="../../2026-11-13/#2026-11-13-okcontract-publishes-solidity-spec-an-executable-formal-model-of" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">okcontract publishes Solidity Spec, an executable formal model of Solidity in Lean</h2>
-    <p class="card-text"><a class="inl" href="https://github.com/okcontract/solidity-spec" rel="noopener">The Lean 4.29.0 package</a> targets Solidity 0.8.36 and comes with a paper on its semantics and trust boundary. Conformance checks compare selected executions with the pinned compiler and a local Cancun EVM; okcontract calls the formalization incomplete and notes that compiler compatibility, scoped to viaIR: true, is not a proof of general compiler conformance.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/okcontract/solidity-spec" rel="noopener">okcontract/solidity-spec</a></p>
   </div>
 </article>
 </div>

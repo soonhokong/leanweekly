@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <h1 class="sr-only">Lean Weekly: the latest news</h1>
 <div class="stream">
+<article class="card c-verification" id="2026-11-24-intrinsic-technologies-verifies-ten-rustcrypto-crates-compiled-c">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="./section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-24">Nov 24</time><button class="copy" type="button" hidden data-link="./2026-11-24/#2026-11-24-intrinsic-technologies-verifies-ten-rustcrypto-crates-compiled-c" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Intrinsic Technologies verifies ten RustCrypto crates' compiled code against Lean specifications</h2>
+    <p class="card-text">The <a class="inl" href="https://github.com/intrinsic-technologies/rustcrypto-fv" rel="noopener">rustcrypto-fv repository</a>'s 71 theorems, covering operations in crates such as sha2, sha3, aes-gcm, chacha20poly1305 and p256, state that the crates' compiled x86-64 code, run on lean-x86's machine model, computes their Lean specifications. Comparator checks each theorem's statement, axioms and kernel validity, and the specifications are tested against published vectors.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/intrinsic-technologies/rustcrypto-fv" rel="noopener">intrinsic-technologies/rustcrypto-fv</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-11-24-ai-agents-formalize-the-proof-of-tadeusz-iwaniec-s-1982-conjectu">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -248,16 +257,6 @@
     <p class="card-text">The <a class="inl" href="https://arxiv.org/abs/2611.17756" rel="noopener">MARBLE language</a> compiles publication-style matrix formulas into quantum circuits, applying algebraic rewrite rules that decompose each matrix into simpler matrices with known circuits; <a class="inl" href="https://paperswithlean.com/paper/2611.17756.html" rel="noopener">Lean 4 proofs</a> show every rule preserves matrix semantics. MARBLE matches or surpasses 37 of 39 published baselines and produces exponentially smaller circuits than the leading tool FABLE.</p>
     <figure class="media media-paper"><img src="./assets/img/7be8e62464aa3877-480.webp" srcset="./assets/img/7be8e62464aa3877-480.webp 480w, ./assets/img/7be8e62464aa3877-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="949" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.17756" rel="noopener">arXiv:2611.17756</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2611.17756.html" rel="noopener">paperswithlean.com</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-11-19-google-s-teamwork-leap-system-formalizes-the-weil-conjectures-in">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="./section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-14">Nov 14</time><button class="copy" type="button" hidden data-link="./2026-11-19/#2026-11-19-google-s-teamwork-leap-system-formalizes-the-weil-conjectures-in" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Google's Teamwork-LEAP system formalizes the Weil conjectures in Lean</h2>
-    <p class="card-text">Teamwork-LEAP produced approximately 1.8 million lines of Lean code across 28,800 subagent invocations to formalize the conjectures, results about the number of solutions to polynomial equations over finite fields, originally proved by Pierre Deligne in 1974. The formalization comes from <a class="inl" href="https://interestingengineering.com/ai-robotics/google-antigravity-multi-agent-research" rel="noopener">Google's Antigravity multi-agent system</a>, which uses specialized agents powered by Gemini models.</p>
-    <figure class="media"><img src="./assets/img/970c6e48ce609ced-480.webp" srcset="./assets/img/970c6e48ce609ced-480.webp 480w, ./assets/img/970c6e48ce609ced-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="675" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: interestingengineering.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://interestingengineering.com/ai-robotics/google-antigravity-multi-agent-research" rel="noopener">interestingengineering.com</a></p>
   </div>
 </article>
 </div>

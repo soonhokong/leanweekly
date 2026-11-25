@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-24/#2026-11-24-intrinsic-technologies-verifies-ten-rustcrypto-crates-compiled-c",
+   "url": "https://leanweekly.news/2026-11-24/#2026-11-24-intrinsic-technologies-verifies-ten-rustcrypto-crates-compiled-c",
+   "title": "Intrinsic Technologies verifies ten RustCrypto crates' compiled code against Lean specifications",
+   "content_html": "<p>The <a class=\"inl\" href=\"https://github.com/intrinsic-technologies/rustcrypto-fv\" rel=\"noopener\">rustcrypto-fv repository</a>'s 71 theorems, covering operations in crates such as sha2, sha3, aes-gcm, chacha20poly1305 and p256, state that the crates' compiled x86-64 code, run on lean-x86's machine model, computes their Lean specifications. Comparator checks each theorem's statement, axioms and kernel validity, and the specifications are tested against published vectors.</p><p>Sources: <a href=\"https://github.com/intrinsic-technologies/rustcrypto-fv\">intrinsic-technologies/rustcrypto-fv</a></p>",
+   "date_published": "2026-11-24T12:00:00Z",
+   "tags": [
+    "Verification",
+    "cryptography",
+    "rust",
+    "x86-64"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-24/#2026-11-24-ai-agents-formalize-the-proof-of-tadeusz-iwaniec-s-1982-conjectu",
    "url": "https://leanweekly.news/2026-11-24/#2026-11-24-ai-agents-formalize-the-proof-of-tadeusz-iwaniec-s-1982-conjectu",
    "title": "AI agents formalize the proof of Tadeusz Iwaniec's 1982 conjecture in Lean",
@@ -640,19 +653,6 @@
     "transformers",
     "pythia-14m",
     "interval arithmetic"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-17/#2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo",
-   "url": "https://leanweekly.news/2026-11-17/#2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo",
-   "title": "Kimon Fountoulakis and coauthors describe VSCL, a Lean library formalizing numerical analysis",
-   "content_html": "<p>To assess AI-generated kernels, the authors audited a <a class=\"inl\" href=\"https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026\" rel=\"noopener\">GPU MODE QR competition</a>: all five leading kernels passed its accuracy tests, yet each failed at least once on new inputs under the same checker, while the baseline passed them all. The authors propose <a class=\"inl\" href=\"https://arxiv.org/abs/2611.21570\" rel=\"noopener\">VERNA</a>, which would use formalized results to test kernels against explicit specifications.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.21570\">arXiv:2611.21570</a>, <a href=\"https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026\">the-numerical-proving-ground/gpumode-kernel-audit-2026</a>, <a href=\"https://paperswithlean.com/paper/2611.21570.html\">paperswithlean.com</a></p>",
-   "date_published": "2026-11-16T12:00:00Z",
-   "tags": [
-    "AI and formalization",
-    "numerical analysis",
-    "gpu kernels",
-    "ai-generated code"
    ]
   }
  ]
