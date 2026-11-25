@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 24 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Anthropic researchers and Claude shorten a Lean proof of the Riemann Hypothesis</title>
+<link>https://leanweekly.news/2026-11-25/#2026-11-25-anthropic-researchers-and-claude-shorten-a-lean-proof-of-the-rie</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-25/#2026-11-25-anthropic-researchers-and-claude-shorten-a-lean-proof-of-the-rie</guid>
+<pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Based on Levent Alpöge's proof with Claude, &lt;a class="inl" href="https://github.com/lsernau/grh-lean" rel="noopener"&gt;the repository&lt;/a&gt; proves the Riemann Hypothesis and the Generalized Riemann Hypothesis for Dirichlet L-functions in editions of about 300,000 and 76,000 lines, using only the axioms propext, Classical.choice and Quot.sound. It has passed machine checks only: no mathematician has read it through, and no paper accompanies it.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/lsernau/grh-lean"&gt;lsernau/grh-lean&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Intrinsic Technologies verifies ten RustCrypto crates' compiled code against Lean specifications</title>
 <link>https://leanweekly.news/2026-11-24/#2026-11-24-intrinsic-technologies-verifies-ten-rustcrypto-crates-compiled-c</link>
@@ -398,14 +406,6 @@
 <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;&lt;a class="inl" href="https://github.com/QECLean/QECLean" rel="noopener"&gt;Stavan Jain, Nithin Raveendran and Aws Albarghouthi's framework&lt;/a&gt;, built on &lt;a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener"&gt;Mathlib&lt;/a&gt;, backs every claimed property of quantum error-correcting codes with a machine-checked proof. Its new code combinators prove distance compositionally for large codes beyond algorithmic techniques (24 was previously only an upper bound), and it formalizes entire code families such as the surface code.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.21236"&gt;arXiv:2611.21236&lt;/a&gt;, &lt;a href="https://github.com/QECLean/QECLean"&gt;QECLean/QECLean&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Hassana Labs defines EleutherAI's Pythia-14M exactly over the reals in Lean 4</title>
-<link>https://leanweekly.news/2026-11-17/#2026-11-17-hassana-labs-defines-eleutherai-s-pythia-14m-exactly-over-the-re</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-hassana-labs-defines-eleutherai-s-pythia-14m-exactly-over-the-re</guid>
-<pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/leochlon/tiny-bayes" rel="noopener"&gt;tiny-bayes repository&lt;/a&gt; decodes all 14,067,712 parameters exactly from float16 bit patterns and defines the GPT-NeoX forward pass using exact GELU, with kernel-certified outputs. Theorems depending only on the axioms propext, Classical.choice and Quot.sound show that a tiny transformer's Bayesian-in-expectation result (order averages within 0.0034 of Laplace's rule) does not extend to Pythia-14M.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/leochlon/tiny-bayes"&gt;leochlon/tiny-bayes&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
