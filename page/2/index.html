@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 2</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-11-19-henrik-b-ving-adds-epr-tactic-for-epr-a-first-order-logic-fragme">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-16">Nov 16</time><button class="copy" type="button" hidden data-link="../../2026-11-19/#2026-11-19-henrik-b-ving-adds-epr-tactic-for-epr-a-first-order-logic-fragme" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Henrik Böving adds epr tactic for EPR, a first-order logic fragment</h2>
+    <p class="card-text">Merged into Lean as <a class="inl" href="https://github.com/leanprover/lean4/pull/16468" rel="noopener">#16468</a>, the tactic uses a BitVec encoding combined with bv_decide and performs about level with Z3 on the TPTP EPR benchmark set. On verification conditions from <a class="inl" href="https://veil.dev/" rel="noopener">Veil</a>, a protocol verifier, it solves 769 (97%) of the 792 that lie fully within EPR and 1,082 (71%) of all 1,512.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16468" rel="noopener">lean4#16468</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-11-19-codex-agents-prove-gonshor-s-1986-conjecture-on-surreal-birthday">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -246,15 +255,6 @@
     <p class="card-text"><a class="inl" href="https://github.com/QECLean/QECLean" rel="noopener">Stavan Jain, Nithin Raveendran and Aws Albarghouthi's framework</a>, built on <a class="inl" href="https://github.com/leanprover-community/mathlib4" rel="noopener">Mathlib</a>, backs every claimed property of quantum error-correcting codes with a machine-checked proof. Its new code combinators prove distance compositionally for large codes beyond algorithmic techniques (24 was previously only an upper bound), and it formalizes entire code families such as the surface code.</p>
     <figure class="media media-paper"><img src="../../assets/img/8df294fe2fd23b4d-480.webp" srcset="../../assets/img/8df294fe2fd23b4d-480.webp 480w, ../../assets/img/8df294fe2fd23b4d-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="949" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.21236" rel="noopener">arXiv:2611.21236</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/QECLean/QECLean" rel="noopener">QECLean/QECLean</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-11-17-hassana-labs-defines-eleutherai-s-pythia-14m-exactly-over-the-re">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-17">Nov 17</time><button class="copy" type="button" hidden data-link="../../2026-11-17/#2026-11-17-hassana-labs-defines-eleutherai-s-pythia-14m-exactly-over-the-re" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Hassana Labs defines EleutherAI's Pythia-14M exactly over the reals in Lean 4</h2>
-    <p class="card-text">The <a class="inl" href="https://github.com/leochlon/tiny-bayes" rel="noopener">tiny-bayes repository</a> decodes all 14,067,712 parameters exactly from float16 bit patterns and defines the GPT-NeoX forward pass using exact GELU, with kernel-certified outputs. Theorems depending only on the axioms propext, Classical.choice and Quot.sound show that a tiny transformer's Bayesian-in-expectation result (order averages within 0.0034 of Laplace's rule) does not extend to Pythia-14M.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leochlon/tiny-bayes" rel="noopener">leochlon/tiny-bayes</a></p>
   </div>
 </article>
 </div>

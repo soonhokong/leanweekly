@@ -4,6 +4,7 @@
 
 ## Latest items
 
+- [AI agents formalize the proof of Tadeusz Iwaniec's 1982 conjecture in Lean](https://leanweekly.news/2026-11-24/#2026-11-24-ai-agents-formalize-the-proof-of-tadeusz-iwaniec-s-1982-conjectu): AI and formalization, 2026-11-24
 - [OpenAI publishes preprint and Lean proof claiming VP and VNP differ](https://leanweekly.news/2026-11-24/#2026-11-24-openai-publishes-preprint-and-lean-proof-claiming-vp-and-vnp-dif): AI and formalization, 2026-11-24
 - [Anthropic posts claimed VP ≠ VNP proof by Claude, formalized in Lean](https://leanweekly.news/2026-11-24/#2026-11-24-anthropic-posts-claimed-vp-vnp-proof-by-claude-formalized-in-lea): AI and formalization, 2026-11-24
 - [Leo de Moura is part of 3Blue1Brown's Riemann Hypothesis video](https://leanweekly.news/2026-11-22/#2026-11-22-leo-de-moura-is-part-of-3blue1brown-s-riemann-hypothesis-video): Papers and events, 2026-11-21
@@ -103,7 +104,6 @@
 - [zkSecurity publishes Rust BLS12-381 code proved equivalent to the EthLib Lean specification](https://leanweekly.news/2026-11-10/#2026-11-10-zksecurity-publishes-rust-bls12-381-code-proved-equivalent-to-th): Verification, 2026-11-10
 - [Rudi Cilibrasi publishes openverse, an unofficial Verse runtime with Lean verification](https://leanweekly.news/2026-11-10/#2026-11-10-rudi-cilibrasi-publishes-openverse-an-unofficial-verse-runtime-w): Verification, 2026-11-10
 - [Markus de Medeiros publishes SampLib, a Lean library of verified random samplers](https://leanweekly.news/2026-11-10/#2026-11-10-markus-de-medeiros-publishes-samplib-a-lean-library-of-verified): Verification, 2026-11-10
-- [yaneurao publishes Lean 4 proofs for a shogi AI opening-book algorithm](https://leanweekly.news/2026-11-10/#2026-11-10-yaneurao-publishes-lean-4-proofs-for-a-shogi-ai-opening-book-alg): Verification, 2026-11-10
 
 ## Weeks (Friday to Thursday)
 

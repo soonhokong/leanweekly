@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-24/#2026-11-24-ai-agents-formalize-the-proof-of-tadeusz-iwaniec-s-1982-conjectu",
+   "url": "https://leanweekly.news/2026-11-24/#2026-11-24-ai-agents-formalize-the-proof-of-tadeusz-iwaniec-s-1982-conjectu",
+   "title": "AI agents formalize the proof of Tadeusz Iwaniec's 1982 conjecture in Lean",
+   "content_html": "<p>Claude Fable 5.2 and Claude Opus 5.5, at the request of The-Anh Vu-Le, formalized every result of Andrea Agazzi et al.'s preprint on the L^p norm of the Beurling–Ahlfors transform (a singular integral), plus the cited results the paper uses. The Lean and NanoDa kernels accept <a class=\"inl\" href=\"https://github.com/vltanh/lean4-iwaniec\" rel=\"noopener\">the proofs</a>, which no person has reviewed.</p><p>Sources: <a href=\"https://github.com/vltanh/lean4-iwaniec\">vltanh/lean4-iwaniec</a>, <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-25-000005&amp;version=1\">palomar-registry.org</a></p>",
+   "date_published": "2026-11-24T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "autoformalization",
+    "harmonic analysis",
+    "palomar"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-24/#2026-11-24-openai-publishes-preprint-and-lean-proof-claiming-vp-and-vnp-dif",
    "url": "https://leanweekly.news/2026-11-24/#2026-11-24-openai-publishes-preprint-and-lean-proof-claiming-vp-and-vnp-dif",
    "title": "OpenAI publishes preprint and Lean proof claiming VP and VNP differ",
@@ -640,19 +653,6 @@
     "numerical analysis",
     "gpu kernels",
     "ai-generated code"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-17/#2026-11-17-rylan-malarchick-presents-qlin-a-dynamic-quantum-circuit-compile",
-   "url": "https://leanweekly.news/2026-11-17/#2026-11-17-rylan-malarchick-presents-qlin-a-dynamic-quantum-circuit-compile",
-   "title": "Rylan Malarchick presents qlin, a dynamic quantum circuit compiler with Lean proofs",
-   "content_html": "<p>Lean 4 proofs show that <a class=\"inl\" href=\"https://github.com/rylanmalarchick/qlin\" rel=\"noopener\">qlin</a> moves operations out of measurement-dependent branches without delaying the program, and that its check of each compiled program against its source is sound. Modeled at the QICK controller's 42 ns per decision, 10 of 65 programs run at least 10% faster than the best baseline, up to 91.2%.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.19618\">arXiv:2611.19618</a>, <a href=\"https://github.com/rylanmalarchick/qlin\">rylanmalarchick/qlin</a></p>",
-   "date_published": "2026-11-14T12:00:00Z",
-   "tags": [
-    "Verification",
-    "quantum",
-    "compilers",
-    "translation validation"
    ]
   }
  ]

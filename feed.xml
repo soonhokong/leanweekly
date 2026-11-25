@@ -8,6 +8,14 @@
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>Tue, 24 Nov 2026 12:00:00 +0000</lastBuildDate>
 <item>
+<title>AI agents formalize the proof of Tadeusz Iwaniec's 1982 conjecture in Lean</title>
+<link>https://leanweekly.news/2026-11-24/#2026-11-24-ai-agents-formalize-the-proof-of-tadeusz-iwaniec-s-1982-conjectu</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-24/#2026-11-24-ai-agents-formalize-the-proof-of-tadeusz-iwaniec-s-1982-conjectu</guid>
+<pubDate>Tue, 24 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;Claude Fable 5.2 and Claude Opus 5.5, at the request of The-Anh Vu-Le, formalized every result of Andrea Agazzi et al.'s preprint on the L^p norm of the Beurling–Ahlfors transform (a singular integral), plus the cited results the paper uses. The Lean and NanoDa kernels accept &lt;a class="inl" href="https://github.com/vltanh/lean4-iwaniec" rel="noopener"&gt;the proofs&lt;/a&gt;, which no person has reviewed.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/vltanh/lean4-iwaniec"&gt;vltanh/lean4-iwaniec&lt;/a&gt;, &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-25-000005&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;&lt;/p&gt;</description>
+</item>
+<item>
 <title>OpenAI publishes preprint and Lean proof claiming VP and VNP differ</title>
 <link>https://leanweekly.news/2026-11-24/#2026-11-24-openai-publishes-preprint-and-lean-proof-claiming-vp-and-vnp-dif</link>
 <guid isPermaLink="true">https://leanweekly.news/2026-11-24/#2026-11-24-openai-publishes-preprint-and-lean-proof-claiming-vp-and-vnp-dif</guid>
@@ -398,14 +406,6 @@
 <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
 <category>AI and formalization</category>
 <description>&lt;p&gt;To assess AI-generated kernels, the authors audited a &lt;a class="inl" href="https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026" rel="noopener"&gt;GPU MODE QR competition&lt;/a&gt;: all five leading kernels passed its accuracy tests, yet each failed at least once on new inputs under the same checker, while the baseline passed them all. The authors propose &lt;a class="inl" href="https://arxiv.org/abs/2611.21570" rel="noopener"&gt;VERNA&lt;/a&gt;, which would use formalized results to test kernels against explicit specifications.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.21570"&gt;arXiv:2611.21570&lt;/a&gt;, &lt;a href="https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026"&gt;the-numerical-proving-ground/gpumode-kernel-audit-2026&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.21570.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>Rylan Malarchick presents qlin, a dynamic quantum circuit compiler with Lean proofs</title>
-<link>https://leanweekly.news/2026-11-17/#2026-11-17-rylan-malarchick-presents-qlin-a-dynamic-quantum-circuit-compile</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-rylan-malarchick-presents-qlin-a-dynamic-quantum-circuit-compile</guid>
-<pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
-<category>Verification</category>
-<description>&lt;p&gt;Lean 4 proofs show that &lt;a class="inl" href="https://github.com/rylanmalarchick/qlin" rel="noopener"&gt;qlin&lt;/a&gt; moves operations out of measurement-dependent branches without delaying the program, and that its check of each compiled program against its source is sound. Modeled at the QICK controller's 42 ns per decision, 10 of 65 programs run at least 10% faster than the best baseline, up to 91.2%.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.19618"&gt;arXiv:2611.19618&lt;/a&gt;, &lt;a href="https://github.com/rylanmalarchick/qlin"&gt;rylanmalarchick/qlin&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
