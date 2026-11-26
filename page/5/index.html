@@ -32,6 +32,16 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 5</h1></header>
 <div class="stream">
+<article class="card c-verification" id="2026-11-10-veil-2-0-released-for-verifying-distributed-protocols-in-lean-4">
+  <span class="avatar" aria-hidden="true">⊨</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-06">Nov 6</time><button class="copy" type="button" hidden data-link="../../2026-11-10/#2026-11-10-veil-2-0-released-for-verifying-distributed-protocols-in-lean-4" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Veil 2.0 released for verifying distributed protocols in Lean 4</h2>
+    <p class="card-text">The release adds verified model checkers for safety (2 to 20 times faster than TLC) and liveness, an LTL proof mode, a TLA+-to-Veil LLM skill, and a PlusCal-style DSL. <a class="inl" href="https://x.com/GeorgePirlea/status/2118894026858566070" rel="noopener">George Pîrlea</a> says <a class="inl" href="https://veil.dev/" rel="noopener">Veil</a> now supports anything the TLA+ Toolbox is used for; <a class="inl" href="https://x.com/ilyasergey/status/2118797820698521933" rel="noopener">Ilya Sergey</a> credits @zqy1018 and external contributors.</p>
+    <figure class="media"><img src="../../assets/img/b7a7ef7460a4e5fe-480.webp" srcset="../../assets/img/b7a7ef7460a4e5fe-480.webp 480w, ../../assets/img/b7a7ef7460a4e5fe-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="1200" height="941" alt="" loading="lazy" decoding="async"><figcaption class="credit">Image: x.com/ilyasergey</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://x.com/ilyasergey/status/2118797820698521933" rel="noopener">@ilyasergey on X</a><span class="dot" aria-hidden="true">·</span><a href="https://x.com/GeorgePirlea/status/2118894026858566070" rel="noopener">@GeorgePirlea on X</a></p>
+  </div>
+</article>
 <article class="card c-verification" id="2026-11-10-ai-written-lean-model-of-cpython-3-15-2-finds-hundreds-of-bugs">
   <span class="avatar" aria-hidden="true">⊨</span>
   <div class="card-main">
@@ -247,15 +257,6 @@
     <h2 class="card-title">Leo de Moura fixes three quadratic performance issues in Lean</h2>
     <p class="card-text">The issues include an <a class="inl" href="https://github.com/leanprover/lean4/pull/16107" rel="noopener">Expr hash collision</a>: chains of the same application with different lengths could share hashes, so kernel cache lookups compared them structurally and checks became quadratic. The other two are <a class="inl" href="https://github.com/leanprover/lean4/pull/16046" rel="noopener">quadratic elaboration of large string-literal equalities</a> and <a class="inl" href="https://github.com/leanprover/lean4/pull/16049" rel="noopener">quadratic compilation of large list literals</a>.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16107" rel="noopener">lean4#16107</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16046" rel="noopener">lean4#16046</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16049" rel="noopener">lean4#16049</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-11-06-sebastian-graf-lets-lean-s-vcgen-tactic-discharge-frame-conditio">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-29">Oct 29</time><button class="copy" type="button" hidden data-link="../../2026-11-06/#2026-11-06-sebastian-graf-lets-lean-s-vcgen-tactic-discharge-frame-conditio" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Sebastian Graf lets Lean's vcgen tactic discharge frame conditions with frameproc theorems</h2>
-    <p class="card-text">The vcgen tactic now <a class="inl" href="https://github.com/leanprover/lean4/pull/16093" rel="noopener">discharges the frame condition</a> of each framed call with a theorem named by a <code>@[frameproc]</code>, for example one for a separation logic, so the frame condition no longer becomes a verification condition. Sebastian Graf also added the <code>@[vcgen_simp]</code> <a class="inl" href="https://github.com/leanprover/lean4/pull/15955" rel="noopener">attribute</a>, which collects <code>Sym.simp</code> theorems for vcgen.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16093" rel="noopener">lean4#16093</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/15955" rel="noopener">lean4#15955</a></p>
   </div>
 </article>
 </div>

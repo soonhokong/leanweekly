@@ -6,6 +6,19 @@
  "description": "News about Lean, the theorem prover and programming language.",
  "items": [
   {
+   "id": "https://leanweekly.news/2026-11-26/#2026-11-26-yaoling-yang-formalizes-the-existence-part-of-zauner-s-conjectur",
+   "url": "https://leanweekly.news/2026-11-26/#2026-11-26-yaoling-yang-formalizes-the-existence-part-of-zauner-s-conjectur",
+   "title": "Yaoling Yang formalizes the existence part of Zauner's conjecture in Lean",
+   "content_html": "<p><a class=\"inl\" href=\"https://github.com/Hertaspace/sic-povm-lean\" rel=\"noopener\">The proof</a> shows that symmetric informationally complete POVMs (SIC-POVMs) exist in every finite dimension, settling Google DeepMind's formal-conjectures statement and eleven open benchmark cases. It follows D. Radchenko and C. Wheeler's argument, with a reduction by M. Appleby, S. T. Flammia and G. S. Kopp, and is independent of Māris Ozols's earlier formalization.</p><p>Sources: <a href=\"https://palomar-registry.org/entry?id=PALOMAR-2026-11-26-000040&amp;version=1\">palomar-registry.org</a>, <a href=\"https://github.com/Hertaspace/sic-povm-lean\">Hertaspace/sic-povm-lean</a></p>",
+   "date_published": "2026-11-26T12:00:00Z",
+   "tags": [
+    "AI and formalization",
+    "sic-povms",
+    "zauner's conjecture",
+    "formal-conjectures"
+   ]
+  },
+  {
    "id": "https://leanweekly.news/2026-11-25/#2026-11-25-anthropic-researchers-and-claude-shorten-a-lean-proof-of-the-rie",
    "url": "https://leanweekly.news/2026-11-25/#2026-11-25-anthropic-researchers-and-claude-shorten-a-lean-proof-of-the-rie",
    "title": "Anthropic researchers and Claude shorten a Lean proof of the Riemann Hypothesis",
@@ -640,19 +653,6 @@
     "compcert",
     "llm agents",
     "verified compilers"
-   ]
-  },
-  {
-   "id": "https://leanweekly.news/2026-11-17/#2026-11-17-qeclean-a-lean-framework-proves-an-ibm-quantum-code-has-distance",
-   "url": "https://leanweekly.news/2026-11-17/#2026-11-17-qeclean-a-lean-framework-proves-an-ibm-quantum-code-has-distance",
-   "title": "QECLean, a Lean framework, proves an IBM quantum code has distance 24",
-   "content_html": "<p><a class=\"inl\" href=\"https://github.com/QECLean/QECLean\" rel=\"noopener\">Stavan Jain, Nithin Raveendran and Aws Albarghouthi's framework</a>, built on <a class=\"inl\" href=\"https://github.com/leanprover-community/mathlib4\" rel=\"noopener\">Mathlib</a>, backs every claimed property of quantum error-correcting codes with a machine-checked proof. Its new code combinators prove distance compositionally for large codes beyond algorithmic techniques (24 was previously only an upper bound), and it formalizes entire code families such as the surface code.</p><p>Sources: <a href=\"https://arxiv.org/abs/2611.21236\">arXiv:2611.21236</a>, <a href=\"https://github.com/QECLean/QECLean\">QECLean/QECLean</a></p>",
-   "date_published": "2026-11-16T12:00:00Z",
-   "tags": [
-    "Verification",
-    "quantum computing",
-    "error correction",
-    "mathlib"
    ]
   }
  ]

@@ -32,6 +32,16 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 11</h1></header>
 <div class="stream">
+<article class="card c-ai" id="2026-09-03-mathadv-benchmark-and-proofevolve-prover-target-lean-4-theorem-p">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-26">Aug 26</time><button class="copy" type="button" hidden data-link="../../2026-09-03/#2026-09-03-mathadv-benchmark-and-proofevolve-prover-target-lean-4-theorem-p" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">MathAdv benchmark and ProofEvolve prover target Lean 4 theorem proving</h2>
+    <p class="card-text">Jiaxin Yuan and coauthors introduce <a class="inl" href="https://arxiv.org/abs/2608.25449" rel="noopener">MathAdv</a>, a diagnostic benchmark spanning 13 domains across undergraduate- and graduate-level mathematics, finding formalization remains a major bottleneck. Separately, Wenqian Ye and coauthors present <a class="inl" href="https://arxiv.org/abs/2608.26334" rel="noopener">ProofEvolve</a>, where the Lean kernel verifies every proof transition. It achieves the highest average solve rate among the evaluated proof systems on three competition-level Lean benchmarks.</p>
+    <figure class="media media-paper"><img src="../../assets/img/1fe7422c1caf44d6-480.webp" srcset="../../assets/img/1fe7422c1caf44d6-480.webp 480w, ../../assets/img/1fe7422c1caf44d6-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2608.25449" rel="noopener">arXiv:2608.25449</a><span class="dot" aria-hidden="true">·</span><a href="https://arxiv.org/abs/2608.26334" rel="noopener">arXiv:2608.26334</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-09-03-arthur-adjedj-opens-meta-issue-planning-a-renovation-of-lean-s-k">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -242,15 +252,6 @@
     <h2 class="card-title">Lake now fetches dependencies as treeless partial Git clones</h2>
     <p class="card-text"><a class="inl" href="https://github.com/leanprover/lean4/pull/14782" rel="noopener">A merged pull request by Mac Malone</a> makes <a class="inl" href="https://lean-lang.org/doc/reference/latest/Build-Tools-and-Distribution/Lake/" rel="noopener">Lake</a> fetch dependencies as treeless partial Git clones of a single revision, minimizing the amount of data downloaded. One caveat: Git operations inside a dependency, such as a git blame triggered by a VSCode extension, can cause lazy fetches.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14782" rel="noopener">lean4#14782</a></p>
-  </div>
-</article>
-<article class="card c-lean-core" id="2026-08-27-lean-adds-strong-coinduction-principles-and-a-monotonicity-by-cl">
-  <span class="avatar" aria-hidden="true">λ</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-08-25">Aug 25</time><button class="copy" type="button" hidden data-link="../../2026-08-27/#2026-08-27-lean-adds-strong-coinduction-principles-and-a-monotonicity-by-cl" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Lean adds strong coinduction principles and a monotonicity_by clause for predicates</h2>
-    <p class="card-text">Wojciech Różowski merged <a class="inl" href="https://github.com/leanprover/lean4/pull/14855" rel="noopener">a Lean pull request</a> that generates strong_coinduct for coinductive_fixpoint predicates, strengthening coinduct, plus strong_induct for inductive_fixpoint ones. <a class="inl" href="https://github.com/leanprover/lean4/pull/14861" rel="noopener">A second merged pull request</a> adds a monotonicity_by clause so users can prove monotonicity of the underlying fixpoint functor with an explicit tactic block when automatic proof search fails.</p>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/14855" rel="noopener">lean4#14855</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/14861" rel="noopener">lean4#14861</a></p>
   </div>
 </article>
 </div>
