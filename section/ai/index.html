@@ -30,8 +30,17 @@
 </header>
 <main id="main">
 <div class="frame"><div class="timeline">
-<header class="page-head"><h1 class="page-title">AI and formalization</h1><p class="page-blurb">AI systems that prove or formalize mathematics, large formalizations, and benchmarks. 120 items, newest first.</p></header>
+<header class="page-head"><h1 class="page-title">AI and formalization</h1><p class="page-blurb">AI systems that prove or formalize mathematics, large formalizations, and benchmarks. 121 items, newest first.</p></header>
 <div class="stream">
+<article class="card c-ai" id="2026-11-27-robert-d-barish-refutes-d-rer-s-conjecture-with-a-computer-assis">
+  <span class="avatar" aria-hidden="true">∃</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-27">Nov 27</time><button class="copy" type="button" hidden data-link="../../2026-11-27/#2026-11-27-robert-d-barish-refutes-d-rer-s-conjecture-with-a-computer-assis" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Robert D. Barish refutes Dürer's conjecture with a computer-assisted Lean 4 proof</h2>
+    <p class="card-text"><a class="inl" href="https://github.com/RBarish-UTokyo/Durer-Counterexample-Lean4" rel="noopener">An explicit convex polyhedron</a> with 276 vertices and 548 triangular faces, squeezed flat enough, cannot be cut along edges and unfolded into the plane as one piece without overlap. <a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-27-000021&amp;version=1" rel="noopener">The proof</a>, which also refutes two flat variants about squeezed polyhedra, rests on an exhaustive machine search whose certificate the Lean kernel replays.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/RBarish-UTokyo/Durer-Counterexample-Lean4" rel="noopener">RBarish-UTokyo/Durer-Counterexample-Lean4</a><span class="dot" aria-hidden="true">·</span><a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-27-000021&amp;version=1" rel="noopener">palomar-registry.org</a></p>
+  </div>
+</article>
 <article class="card c-ai" id="2026-11-26-yaoling-yang-formalizes-the-existence-part-of-zauner-s-conjectur">
   <span class="avatar" aria-hidden="true">∃</span>
   <div class="card-main">
@@ -246,16 +255,6 @@
     <h2 class="card-title">Hassana Labs defines EleutherAI's Pythia-14M exactly over the reals in Lean 4</h2>
     <p class="card-text">The <a class="inl" href="https://github.com/leochlon/tiny-bayes" rel="noopener">tiny-bayes repository</a> decodes all 14,067,712 parameters exactly from float16 bit patterns and defines the GPT-NeoX forward pass using exact GELU, with kernel-certified outputs. Theorems depending only on the axioms propext, Classical.choice and Quot.sound show that a tiny transformer's Bayesian-in-expectation result (order averages within 0.0034 of Laplace's rule) does not extend to Pythia-14M.</p>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leochlon/tiny-bayes" rel="noopener">leochlon/tiny-bayes</a></p>
-  </div>
-</article>
-<article class="card c-ai" id="2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo">
-  <span class="avatar" aria-hidden="true">∃</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/ai/">AI and formalization</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-11-16">Nov 16</time><button class="copy" type="button" hidden data-link="../../2026-11-17/#2026-11-17-kimon-fountoulakis-and-coauthors-describe-vscl-a-lean-library-fo" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Kimon Fountoulakis and coauthors describe VSCL, a Lean library formalizing numerical analysis</h2>
-    <p class="card-text">To assess AI-generated kernels, the authors audited a <a class="inl" href="https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026" rel="noopener">GPU MODE QR competition</a>: all five leading kernels passed its accuracy tests, yet each failed at least once on new inputs under the same checker, while the baseline passed them all. The authors propose <a class="inl" href="https://arxiv.org/abs/2611.21570" rel="noopener">VERNA</a>, which would use formalized results to test kernels against explicit specifications.</p>
-    <figure class="media media-paper"><img src="../../assets/img/4945c370fa91e892-480.webp" srcset="../../assets/img/4945c370fa91e892-480.webp 480w, ../../assets/img/4945c370fa91e892-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="829" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2611.21570" rel="noopener">arXiv:2611.21570</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/the-numerical-proving-ground/gpumode-kernel-audit-2026" rel="noopener">the-numerical-proving-ground/gpumode-kernel-audit-2026</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2611.21570.html" rel="noopener">paperswithlean.com</a></p>
   </div>
 </article>
 </div>

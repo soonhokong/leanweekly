@@ -6,7 +6,15 @@
 <description>News about Lean, the theorem prover and programming language.</description>
 <language>en</language>
 <atom:link href="https://leanweekly.news/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 26 Nov 2026 12:00:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 12:00:00 +0000</lastBuildDate>
+<item>
+<title>Robert D. Barish refutes Dürer's conjecture with a computer-assisted Lean 4 proof</title>
+<link>https://leanweekly.news/2026-11-27/#2026-11-27-robert-d-barish-refutes-d-rer-s-conjecture-with-a-computer-assis</link>
+<guid isPermaLink="true">https://leanweekly.news/2026-11-27/#2026-11-27-robert-d-barish-refutes-d-rer-s-conjecture-with-a-computer-assis</guid>
+<pubDate>Fri, 27 Nov 2026 12:00:00 +0000</pubDate>
+<category>AI and formalization</category>
+<description>&lt;p&gt;&lt;a class="inl" href="https://github.com/RBarish-UTokyo/Durer-Counterexample-Lean4" rel="noopener"&gt;An explicit convex polyhedron&lt;/a&gt; with 276 vertices and 548 triangular faces, squeezed flat enough, cannot be cut along edges and unfolded into the plane as one piece without overlap. &lt;a class="inl" href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-27-000021&amp;amp;version=1" rel="noopener"&gt;The proof&lt;/a&gt;, which also refutes two flat variants about squeezed polyhedra, rests on an exhaustive machine search whose certificate the Lean kernel replays.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://github.com/RBarish-UTokyo/Durer-Counterexample-Lean4"&gt;RBarish-UTokyo/Durer-Counterexample-Lean4&lt;/a&gt;, &lt;a href="https://palomar-registry.org/entry?id=PALOMAR-2026-11-27-000021&amp;amp;version=1"&gt;palomar-registry.org&lt;/a&gt;&lt;/p&gt;</description>
+</item>
 <item>
 <title>Yaoling Yang formalizes the existence part of Zauner's conjecture in Lean</title>
 <link>https://leanweekly.news/2026-11-26/#2026-11-26-yaoling-yang-formalizes-the-existence-part-of-zauner-s-conjectur</link>
@@ -398,14 +406,6 @@
 <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
 <category>Verification</category>
 <description>&lt;p&gt;Anirudh Suresh, Joshua M. Courtney, Runzhou Tao, and Yudong Cao prove correctness and gate-count theorems once for all valid policies (Toom-Cook multiplication designs, possibly from AI agents) and publish an open challenge at &lt;a class="inl" href="https://github.com/VerifiedQC/ForShor" rel="noopener"&gt;forshor.ai&lt;/a&gt;. At 2048 bits, a varying-arity policy gives about 1.685 trillion T-gates, against 1.820 trillion for the best single arity.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.20342"&gt;arXiv:2611.20342&lt;/a&gt;, &lt;a href="https://github.com/VerifiedQC/ForShor"&gt;VerifiedQC/ForShor&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.20342.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
-</item>
-<item>
-<title>One expert directing LLM agents ports CompCert's verified compiler core to Lean</title>
-<link>https://leanweekly.news/2026-11-17/#2026-11-17-one-expert-directing-llm-agents-ports-compcert-s-verified-compil</link>
-<guid isPermaLink="true">https://leanweekly.news/2026-11-17/#2026-11-17-one-expert-directing-llm-agents-ports-compcert-s-verified-compil</guid>
-<pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
-<category>AI and formalization</category>
-<description>&lt;p&gt;The &lt;a class="inl" href="https://github.com/fanlong/compcert4lean" rel="noopener"&gt;port from Rocq&lt;/a&gt; took about six weeks, covers typed CompCert C through x86-64 assembly, and discharges all 4,908 proof obligations without project-specific axioms; 88.8% of 1,071 human interactions concerned workflow and coordination. With 24 active hours, GPT-6-astra cut generated-program runtime by 11.7% in Lean versus 2.3% in Rocq, preserving the end-to-end correctness theorem.&lt;/p&gt;&lt;p&gt;Sources: &lt;a href="https://arxiv.org/abs/2611.21084"&gt;arXiv:2611.21084&lt;/a&gt;, &lt;a href="https://github.com/fanlong/compcert4lean"&gt;fanlong/compcert4lean&lt;/a&gt;, &lt;a href="https://paperswithlean.com/paper/2611.21084.html"&gt;paperswithlean.com&lt;/a&gt;&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

@@ -32,6 +32,15 @@
 <div class="frame"><div class="timeline">
 <header class="page-head"><h1 class="page-title">The latest, page 6</h1></header>
 <div class="stream">
+<article class="card c-lean-core" id="2026-11-06-leo-de-moura-fixes-three-quadratic-performance-issues-in-lean">
+  <span class="avatar" aria-hidden="true">λ</span>
+  <div class="card-main">
+    <p class="card-head"><a class="topic" href="../../section/lean-core/">Lean core</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-30">Oct 30</time><button class="copy" type="button" hidden data-link="../../2026-11-06/#2026-11-06-leo-de-moura-fixes-three-quadratic-performance-issues-in-lean" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
+    <h2 class="card-title">Leo de Moura fixes three quadratic performance issues in Lean</h2>
+    <p class="card-text">The issues include an <a class="inl" href="https://github.com/leanprover/lean4/pull/16107" rel="noopener">Expr hash collision</a>: chains of the same application with different lengths could share hashes, so kernel cache lookups compared them structurally and checks became quadratic. The other two are <a class="inl" href="https://github.com/leanprover/lean4/pull/16046" rel="noopener">quadratic elaboration of large string-literal equalities</a> and <a class="inl" href="https://github.com/leanprover/lean4/pull/16049" rel="noopener">quadratic compilation of large list literals</a>.</p>
+    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://github.com/leanprover/lean4/pull/16107" rel="noopener">lean4#16107</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16046" rel="noopener">lean4#16046</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/leanprover/lean4/pull/16049" rel="noopener">lean4#16049</a></p>
+  </div>
+</article>
 <article class="card c-lean-core" id="2026-11-06-sebastian-graf-lets-lean-s-vcgen-tactic-discharge-frame-conditio">
   <span class="avatar" aria-hidden="true">λ</span>
   <div class="card-main">
@@ -249,16 +258,6 @@
     <p class="card-text">The conjecture asserts that every right pure semisimple ring (one whose right modules are all direct sums of finitely generated modules) is of finite representation type. Junpeng Ren's triangular ring is right pure semisimple but not of finite representation type, and all sixteen labelled statements of <a class="inl" href="https://arxiv.org/abs/2610.39883" rel="noopener">the manuscript</a> have compiled and audited <a class="inl" href="https://github.com/oasisss6666/pure-semisimplicity-lean" rel="noopener">Lean counterparts</a>.</p>
     <figure class="media media-paper"><img src="../../assets/img/7da3dd8c22d2047b-480.webp" srcset="../../assets/img/7da3dd8c22d2047b-480.webp 480w, ../../assets/img/7da3dd8c22d2047b-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="906" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
     <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.39883" rel="noopener">arXiv:2610.39883</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/oasisss6666/pure-semisimplicity-lean" rel="noopener">oasisss6666/pure-semisimplicity-lean</a></p>
-  </div>
-</article>
-<article class="card c-verification" id="2026-10-30-denis-firsov-verifies-worst-case-constant-time-order-maintenance">
-  <span class="avatar" aria-hidden="true">⊨</span>
-  <div class="card-main">
-    <p class="card-head"><a class="topic" href="../../section/verification/">Verification</a><span class="sep" aria-hidden="true">·</span><time datetime="2026-10-28">Oct 28</time><button class="copy" type="button" hidden data-link="../../2026-10-30/#2026-10-30-denis-firsov-verifies-worst-case-constant-time-order-maintenance" aria-label="Copy link to this item"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L12 5.6"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.2-1.2"/></svg></button></p>
-    <h2 class="card-title">Denis Firsov verifies worst-case constant-time order maintenance in Lean 4</h2>
-    <p class="card-text">No order-maintenance algorithm (keeping a sequence under insertions and deletions and telling which of two elements comes first) had been verified in a proof assistant. <a class="inl" href="https://arxiv.org/abs/2610.38616" rel="noopener">This verification</a>, about <a class="inl" href="https://github.com/dfirsov/order_maintenance" rel="noopener">78,000 lines</a>, proves that a program for a step-counting machine embedded in Lean matches a reference specification within a fixed number of steps per operation.</p>
-    <figure class="media media-paper"><img src="../../assets/img/71e5b86f4085c424-480.webp" srcset="../../assets/img/71e5b86f4085c424-480.webp 480w, ../../assets/img/71e5b86f4085c424-1200.webp 1200w" sizes="(max-width: 760px) 100vw, 632px" width="640" height="906" alt="First page of the paper" loading="lazy" decoding="async"><figcaption class="credit">Image: paperswithlean.com</figcaption></figure>
-    <p class="proof" title="The public sources this item was checked against"><span class="turnstile" aria-hidden="true">⊢</span><span class="sr-only">Checked against: </span><a href="https://arxiv.org/abs/2610.38616" rel="noopener">arXiv:2610.38616</a><span class="dot" aria-hidden="true">·</span><a href="https://github.com/dfirsov/order_maintenance" rel="noopener">dfirsov/order_maintenance</a><span class="dot" aria-hidden="true">·</span><a href="https://paperswithlean.com/paper/2610.38616.html" rel="noopener">paperswithlean.com</a></p>
   </div>
 </article>
 </div>
